@@ -186,6 +186,28 @@ h2 { font-size: clamp(26px, 5.2vw, 38px); }
 h1, h2 { }
 .eyebrow { color: var(--violet); }
 .btn:not(.ghost) { background: var(--brand-grad); color: #fff; }
+
+.countrybox { max-width: 560px; margin: 0 0 28px; padding: 14px 16px; border-radius: 10px; border: 1px solid var(--line); border-left-width: 5px; background: var(--surface); font-size: 15px; }
+.countrybox p { margin: 0 0 8px; }
+.countrybox p:last-child { margin-bottom: 0; }
+.countrybox .cb-title { font-weight: 700; font-size: 16px; }
+.countrybox .cb-detail { color: var(--muted); font-size: 14px; }
+.countrybox.below { border-left-color: var(--bad); }
+.countrybox.debatable { border-left-color: var(--warn); }
+.countrybox.above { border-left-color: var(--ok); }
+.meth { max-width: 68ch; }
+.meth h2 { margin-top: 0; }
+.meth h3 { margin: 28px 0 8px; font-size: 18px; }
+.meth p, .meth li { font-size: 15px; line-height: 1.55; }
+.meth ul { padding-left: 20px; margin: 0 0 12px; }
+.meth table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 12px 0; }
+.meth th, .meth td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.meth th { color: var(--muted); font-weight: 600; }
+.meth .tag { font-size: 12px; font-weight: 600; padding: 1px 7px; border-radius: 999px; border: 1.5px solid currentColor; white-space: nowrap; }
+.meth .tag.off { color: var(--ok); }
+.meth .tag.non { color: var(--warn); }
+.meth .tbl { overflow-x: auto; }
+.footlink { margin: 12px 0 0; font-size: 14px; }
 @media (max-width: 420px) {
   .app { padding-top: 40px; }
   .recap li { flex-direction: column; align-items: flex-start; gap: 8px; }
@@ -229,7 +251,7 @@ var STEPS = [
   { id: "fisc", label: "Fiscalité du pays de résidence inférieure de plus de 40 % à celle de la France",
     type: "country",
     q: "Dans quel pays résidez-vous fiscalement ?",
-    help: "Nous vérifions si la fiscalité de ce pays est inférieure de plus de 40 % à celle de la France (revenus du travail, du capital ou du patrimoine). Données provisoires.",
+    help: "Nous vérifions si la fiscalité de ce pays est inférieure de plus de 40 % à celle de la France (revenus du travail, du capital ou du patrimoine). Estimation : voir la méthodologie.",
     options: [["Je ne sais pas, ou mon pays n'est pas dans la liste", "unknown"]],
     unmet: "no",
     reason: "la mesure ne vise que les États dont la fiscalité est inférieure de plus de 40 % à celle de la France." }
@@ -256,14 +278,69 @@ function evaluate(answers) {
 
 /* ---------- Données pays ---------- */
 // DATA-START
-// Pays dont la fiscalité est jugée inférieure de plus de 40 % à celle de la France.
-// Clé = code pays ISO à deux lettres. Tout pays absent de cette table vaut « non ».
-// DONNÉES PROVISOIRES : à remplacer par une source vérifiée avant diffusion large.
-var LOW_TAX = {
-  SG: true,  // Singapour
-  HK: true   // Hong Kong
+// Estimation du taux effectif d'impôt sur le revenu (en %) pour un célibataire à 240 300 € de revenu imposable.
+// Hypothèses complètes : page « Méthodologie ». Clé = code pays ISO à deux lettres.
+// Niveaux : taux <= 18 % : « below » ; 18 à 26 % : « debatable » ; > 26 % : « above ».
+// Tout pays absent de cette table est « debatable » (non analysé).
+var FR_RATE = 35.23;      // référence France, en %
+var THRESHOLD = 21.14;    // 60 % de la référence France, en %
+var LEVEL_LOW = 18, LEVEL_HIGH = 26;
+var O = "officielle", N = "non officielle";
+var COUNTRY_DATA = {
+  AE: { rate: 0,    note: "Pas d'impôt sur le revenu des personnes physiques.",
+        src: [["Gulf News, déclaration du ministère des Finances", "https://gulfnews.com/business/economy/uae-affirms-there-are-no-plans-to-introduce-income-tax-on-individuals-1.1705996309815", N],
+              ["The National, confirmation du ministère des Finances", "https://www.thenationalnews.com/business/money/2022/01/31/why-employees-will-continue-to-pay-no-income-tax-in-the-uae", N]] },
+  BG: { rate: 10,   note: "Taux unique de 10 %, hors cotisations sociales.",
+        src: [["Ministère des Finances de Bulgarie", "https://www.minfin.bg/en/827", O]] },
+  RO: { rate: 10,   note: "Taux de 10 %, hors cotisations CAS et CASS.",
+        src: [["Code fiscal roumain (ministère des Finances), titre III", "https://www.mfinante.gov.ro/static/10/Mfp/legislatie/cod_fiscal/titlul_3.htm", O]] },
+  SG: { rate: 14.7, note: "Barème progressif jusqu'à 24 %. Aucun impôt sur les plus-values.",
+        src: [["IRAS, taux des résidents", "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates", O],
+              ["IRAS, exemples de calcul", "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/new-to-tax/individual-income-tax-rates/sample-income-tax-calculations", O]] },
+  HK: { rate: 15,   note: "Impôt sur les salaires plafonné au taux « standard » de 15 %.",
+        src: [["Gouvernement de Hong Kong, taux de l'impôt sur les salaires", "https://www.gov.hk/en/residents/taxes/taxfiling/taxrates/salariesrates.htm", O]] },
+  HU: { rate: 15,   note: "Taux de 15 %, hors contribution sociale distincte.",
+        src: [["Administration fiscale hongroise (NAV)", "https://nav.gov.hu/pfile/file?path=%2Fen%2Ftaxation%2Ftaxinfo%2Fa-short-summary-on-the-taxation-of-private-persons", O]] },
+  RU: { rate: 17.4, note: "Barème 13 / 15 / 18 / 20 / 22 %. Taux de change RUB/EUR supposé (95) : verdict inchangé de 70 à 130.",
+        src: [["Service fédéral des impôts (FNS)", "https://www.nalog.gov.ru/rn05/news/activities_fts/16606654/", O]] },
+  GE: { rate: 20,   note: "Taux de 20 %, juste sous le seuil de 21,1 %.",
+        src: [["Revenue Service de Géorgie", "https://old.rs.ge/en/1340", O]] },
+  MY: { rate: 25.2, note: "Barème progressif jusqu'à 30 % au-delà de 2 millions de ringgit.",
+        src: [["LHDN, taux de l'impôt (YA 2023-2025)", "https://www.hasil.gov.my/en/individu/kadar-cukai/", O]] },
+  TH: { rate: 29.7, note: "Barème progressif jusqu'à 35 %.",
+        src: [["Revenue Department de Thaïlande", "https://www.rd.go.th/english/6045.html", O]] },
+  PH: { rate: 31.5, note: "Barème progressif jusqu'à 35 % (réforme de 2023).",
+        src: [["BIR, barème applicable depuis 2023", "https://efps.bir.gov.ph/efps-war/EFPSWeb_war/forms2018Version/1701Q/1701q_v3_02.xhtml", O]] },
+  NZ: { rate: 34.6, note: "Taux de 39 % au-delà de 180 000 NZD.",
+        src: [["Inland Revenue de Nouvelle-Zélande", "https://www.ird.govt.nz/income-tax/income-tax-for-individuals/tax-codes-and-tax-rates-for-individuals/tax-rates-for-individuals", O]] },
+  JP: { rate: 35,   note: "Impôt national et surtaxe de 2,1 % ; l'impôt local, non inclus, s'y ajoute.",
+        src: [["Agence nationale des impôts (NTA), n° 2260", "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm", O]] },
+  CN: { rate: 35.2, note: "Barème des revenus globaux, tranche supérieure à 45 %.",
+        src: [["Loi sur l'impôt sur le revenu (administration fiscale)", "https://www.chinatax.gov.cn/n810219/n810744/n3752930/n3752974/c3970366/content.html", O],
+              ["Barème (administration fiscale de Shanghai)", "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/grsds/202402/P020240202362406243753.pdf", O]] },
+  KR: { rate: 37.5, note: "Impôt national (tranche 42 %) plus impôt local de 10 %.",
+        src: [["Administration fiscale coréenne (NTS), barème 2023-2025", "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7667", O]] },
+  AU: { rate: 38.3, note: "Tranche de 45 % plus 2 % de Medicare.",
+        src: [["Administration fiscale australienne (ATO)", "https://www.ato.gov.au/tax-rates-and-codes/tax-rates-australian-residents", O]] },
+  VN: { rate: 34,   note: "Ordre de grandeur (33 à 35 %) : barème de 2025 non recalculé précisément.",
+        src: [["Loi n° 109/2025/QH15 (texte relayé par un site juridique)", "https://thuvienphapluat.vn/van-ban/EN/Thue-Phi-Le-Phi/Law-109-2025-QH15-personal-income-tax/687756/tieng-anh.aspx", N]] }
 };
-function countryAnswer(code) { return LOW_TAX[code] === true ? "yes" : "no"; }
+function countryLevel(code) {
+  var d = COUNTRY_DATA[code];
+  if (!d) return "debatable";
+  return d.rate <= LEVEL_LOW ? "below" : d.rate <= LEVEL_HIGH ? "debatable" : "above";
+}
+var LEVEL_LABEL = { below: "Nettement en dessous du seuil", debatable: "Discutable", above: "Nettement au-dessus du seuil" };
+var LEVEL_COMMENT = {
+  below: "Fiscalité nettement inférieure. D'après nos calculs, l'impôt sur le revenu effectif dans ce pays est largement sous le seuil de 21,1 %, c'est-à-dire plus de 40 % en dessous de celui de la France. Ce pays remplirait très probablement la condition, sous réserve des conventions fiscales.",
+  debatable: "Cas discutable. L'écart avec la France est proche du seuil de 40 %, et le résultat dépend de la méthode de comparaison : cotisations sociales, revenus du capital, régimes spéciaux. Ne tirez pas de conclusion définitive.",
+  above: "Fiscalité proche de celle de la France, ou supérieure. D'après nos calculs, l'impôt sur le revenu effectif dans ce pays dépasse nettement le seuil de 21,1 %, donc l'écart avec la France est inférieur à 40 %. Ce pays ne remplirait pas la condition."
+};
+var UNRATED_COMMENT = "Ce pays n'a pas encore été analysé. Nous n'avons aucun calcul pour lui, donc le résultat reste indéterminé.";
+function countryAnswer(code) {
+  var l = countryLevel(code);
+  return l === "below" ? "yes" : l === "above" ? "no" : "unknown";
+}
 // DATA-END
 
 // Liste des pays proposés (codes ISO 3166-1, hors France et territoires inhabités). Les noms viennent du navigateur, en français.
@@ -287,6 +364,7 @@ function countryName(code) {
   for (var i = 0; i < COUNTRIES.length; i++) if (COUNTRIES[i].code === code) return COUNTRIES[i].name;
   return code;
 }
+function fmtRate(r) { return String(r).replace(".", ",") + " %"; }
 function normalize(t) { return String(t).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim(); }
 
 /* ---------- Interface ---------- */
@@ -327,7 +405,8 @@ function renderStart() {
       el("span", { text: "Commencer" }),
       el("span", { class: "kbd", "aria-hidden": "true", text: "Entrée ↵" })
     ]),
-    el("p", { class: "hint", text: "Vos réponses restent dans votre navigateur. Rien n'est envoyé ni enregistré." })
+    el("p", { class: "hint", text: "Vos réponses restent dans votre navigateur. Rien n'est envoyé ni enregistré." }),
+    el("p", { class: "footlink" }, [el("a", { href: "#methodologie", text: "Méthodologie et sources" })])
   ]);
   showScreen(s);
   document.getElementById("start").addEventListener("click", function () { answers = []; renderStep(0); });
@@ -418,6 +497,16 @@ function choose(i, value, code) {
   else renderResult(r);
 }
 
+function countryBox() {
+  if (answers.length < STEPS.length || answers[4] === undefined || !meta[4]) return document.createDocumentFragment();
+  var code = meta[4], d = COUNTRY_DATA[code], level = countryLevel(code);
+  var kids = [
+    el("p", { class: "cb-title", text: countryName(code) + " : " + LEVEL_LABEL[level] }),
+    el("p", { text: d ? LEVEL_COMMENT[level] : UNRATED_COMMENT })
+  ];
+  if (d) kids.push(el("p", { class: "cb-detail", text: "Taux effectif estimé : " + fmtRate(d.rate) + " (France : " + fmtRate(FR_RATE) + ", seuil : " + fmtRate(THRESHOLD) + "). " + d.note }));
+  return el("div", { class: "countrybox " + level }, kids);
+}
 function renderResult(r) {
   setProgress(STEPS.length);
   var title, badge, badgeClass, body;
@@ -426,7 +515,7 @@ function renderResult(r) {
     title = "Vous ne seriez pas concerné·e.";
     var reason = r.reason;
     if (answers[4] === "no" && meta[4]) {
-      reason = "pays de résidence choisi : " + countryName(meta[4]) + ". D'après les données du questionnaire (liste provisoire), sa fiscalité n'est pas inférieure de plus de 40 % à celle de la France.";
+      reason = "pays de résidence choisi : " + countryName(meta[4]) + ". Son taux effectif d'impôt sur le revenu, estimé à " + fmtRate(COUNTRY_DATA[meta[4]].rate) + ", dépasse le seuil de " + fmtRate(THRESHOLD) + ".";
     }
     body = "Raison : " + reason + " Il faut remplir toutes les conditions à la fois.";
   } else if (r.verdict === "maybe") {
@@ -440,7 +529,7 @@ function renderResult(r) {
   }
   var labels = { met: "Remplie", unmet: "Non remplie", unknown: "À vérifier", skipped: "Non évaluée" };
   var items = r.rows.map(function (row, idx) {
-    var label = row.label + (idx === 4 && meta[4] && row.state !== "skipped" ? " (" + countryName(meta[4]) + ", données provisoires)" : "");
+    var label = row.label + (idx === 4 && meta[4] && row.state !== "skipped" ? " (" + countryName(meta[4]) + ")" : "");
     return el("li", {}, [
       el("span", { text: label }),
       el("span", { class: "state " + row.state, text: labels[row.state] })
@@ -450,6 +539,7 @@ function renderResult(r) {
   restart.addEventListener("click", function () { answers = []; renderStart(); });
 
   var sources = el("div", { class: "sources" }, [
+    el("p", {}, [el("a", { href: "#methodologie", text: "Méthodologie, hypothèses et sources des données par pays" })]),
     el("p", { text: "Ce questionnaire est informatif. Il ne constitue pas un avis fiscal ou juridique. Il s'appuie sur le dispositif de l'amendement n° I-2564 au projet de loi de finances pour 2027." }),
     el("ul", {}, [
       el("li", {}, [el("a", { href: "https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/AN/2564", text: "Texte de l'amendement n° I-2564 (Assemblée nationale)" })]),
@@ -463,10 +553,76 @@ function renderResult(r) {
     el("h2", { text: title }),
     el("p", { class: "lead", text: body }),
     el("ul", { class: "recap", "aria-label": "Récapitulatif des conditions" }, items),
+    countryBox(),
     restart,
     sources
   ]));
 }
+
+function renderMethodology() {
+  setProgress(0);
+  var codes = Object.keys(COUNTRY_DATA).sort(function (a, b) { return COUNTRY_DATA[a].rate - COUNTRY_DATA[b].rate; });
+  var rows = codes.map(function (c) {
+    var d = COUNTRY_DATA[c];
+    var lvl = countryLevel(c);
+    var srcs = el("td", {}, d.src.map(function (x) {
+      return el("div", {}, [
+        el("a", { href: x[1], target: "_blank", rel: "noopener", text: x[0] }),
+        document.createTextNode(" "),
+        el("span", { class: "tag " + (x[2] === O ? "off" : "non"), text: x[2] })
+      ]);
+    }));
+    return el("tr", {}, [
+      el("td", { text: countryName(c) }),
+      el("td", { text: fmtRate(d.rate) }),
+      el("td", { text: LEVEL_LABEL[lvl] }),
+      el("td", { text: d.note }),
+      srcs
+    ]);
+  });
+  var table = el("div", { class: "tbl" }, [el("table", {}, [
+    el("thead", {}, [el("tr", {}, ["Pays", "Taux estimé", "Niveau", "Remarque", "Sources"].map(function (h) { return el("th", { text: h }); }))]),
+    el("tbody", {}, rows)
+  ])]);
+  var back = el("button", { class: "btn ghost", type: "button" }, [el("span", { text: "Retour au questionnaire" })]);
+  back.addEventListener("click", function () { history.replaceState(null, "", location.pathname); answers = []; renderStart(); });
+
+  showScreen(el("section", { class: "screen meth" }, [
+    el("p", { class: "eyebrow", text: "Méthodologie" }),
+    el("h2", { text: "Comment est évaluée la condition de fiscalité du pays de résidence" }),
+    el("p", { text: "L'amendement n° I-2564 vise les résidents d'un État dont la fiscalité des revenus du travail, du capital ou du patrimoine est inférieure de plus de 40 % à celle de la France. Le texte ne dit pas comment mesurer cet écart. Il s'agit ici d'une estimation indépendante, qui ne remplace ni un avis fiscal ni l'avis de l'administration." }),
+    el("h3", { text: "Hypothèses" }),
+    el("ul", {}, [
+      el("li", { text: "Indicateur : taux effectif d'impôt sur le revenu d'une personne seule, sans enfant, percevant un salaire imposable de 240 300 € (5 fois le plafond de la Sécurité sociale 2026, fixé à 48 060 €)." }),
+      el("li", { text: "Référence France : " + fmtRate(FR_RATE) + " (84 658,84 € d'impôt), d'après le barème progressif de l'impôt sur le revenu. Le seuil est donc de 60 % de ce taux, soit " + fmtRate(THRESHOLD) + "." }),
+      el("li", { text: "Pour chaque pays : barème national progressif, auquel s'ajoute l'impôt local ou la surtaxe nationale quand nous avons pu les sourcer. Les cotisations sociales, la TVA, les taxes foncières, l'impôt sur la fortune et l'imposition du capital ne sont pas comptés." }),
+      el("li", { text: "Taux de change : cours de la BCE du 27 juillet 2026 (relayés par Dow Jones). Pour le rouble, un taux de 95 RUB pour 1 € est supposé ; le classement ne change pas entre 70 et 130." }),
+      el("li", { text: "Les exceptions prévues par des conventions fiscales (par exemple pour les Français résidant à Monaco) ne sont pas modélisées." }),
+      el("li", { text: "Le texte ne précise pas non plus si l'écart de 40 % se mesure sur le taux, sur le montant, ou sur l'ensemble des impôts. Nous avons retenu le taux effectif d'impôt sur le revenu, qui est le plus simple à documenter pays par pays." })
+    ]),
+    el("h3", { text: "Les trois niveaux de réponse" }),
+    el("ul", {}, [
+      el("li", { text: LEVEL_LABEL.below + " : taux estimé inférieur ou égal à " + fmtRate(LEVEL_LOW) + ". La condition est considérée comme remplie." }),
+      el("li", { text: LEVEL_LABEL.debatable + " : taux estimé entre " + fmtRate(LEVEL_LOW) + " et " + fmtRate(LEVEL_HIGH) + ", ou pays pas encore analysé. La condition reste à vérifier. Ces bornes sont un choix de prudence : elles laissent une marge autour du seuil de " + fmtRate(THRESHOLD) + " pour tenir compte des incertitudes de calcul." }),
+      el("li", { text: LEVEL_LABEL.above + " : taux estimé supérieur à " + fmtRate(LEVEL_HIGH) + ". La condition est considérée comme non remplie." })
+    ]),
+    el("h3", { text: "Données par pays et sources" }),
+    el("p", { text: "Les sources « officielle » émanent d'une administration fiscale ou d'un ministère. Les sources « non officielle » sont des médias ou des sites juridiques privés : à confirmer auprès des autorités du pays." }),
+    table,
+    el("h3", { text: "Limites" }),
+    el("ul", {}, [
+      el("li", { text: "Seuls " + codes.length + " pays sont analysés à ce stade. Tous les autres sont classés « discutable »." }),
+      el("li", { text: "Les barèmes changent chaque année. Les chiffres reflètent les textes consultés en 2026." }),
+      el("li", { text: "Un taux effectif calculé à un seul niveau de revenu ne dit rien des régimes spéciaux (expatriés, non-domiciliés, zones franches)." }),
+      el("li", { text: "Japon : l'impôt local (10 %) n'est pas inclus faute de source. Hongrie : la contribution sociale de 13 % n'est pas comptée. Vietnam : ordre de grandeur uniquement. Émirats : source officielle encore à ajouter." })
+    ]),
+    back
+  ]));
+}
+function route() {
+  if (location.hash === "#methodologie") renderMethodology(); else { answers = []; renderStart(); }
+}
+window.addEventListener("hashchange", route);
 
 document.addEventListener("keydown", function (e) {
   if (e.ctrlKey || e.metaKey || e.altKey) return;
@@ -482,7 +638,7 @@ document.addEventListener("keydown", function (e) {
   if (idx >= 0 && idx < opts.length) { e.preventDefault(); opts[idx].click(); }
 });
 
-renderStart();
+route();
 </script>
 </body>
 </html>
