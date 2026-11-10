@@ -344,6 +344,10 @@ function renderStep(i) {
   }
   kids.push(el("p", { class: "hint", text: step.type === "country" ? "Tapez le nom du pays, puis choisissez-le dans la liste (flèches et Entrée)." : "Astuce : appuyez sur A, B ou C pour répondre." }));
   showScreen(el("section", { class: "screen", "data-step": String(i) }, kids));
+  if (step.type === "country") {
+    var ci = document.getElementById("country-input");
+    if (ci) ci.focus({ preventScroll: true });
+  }
 }
 
 function buildCountryPicker(i) {
