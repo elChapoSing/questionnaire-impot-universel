@@ -1,0 +1,22 @@
+# Questionnaire « Suis-je concerné·e par l'impôt universel ? »
+
+Page web autonome (un seul fichier, `index.html`) : questionnaire d'une question par écran, qui indique si une personne remplirait les cinq conditions du dispositif de l'amendement n° I-2564 au projet de loi de finances pour 2027 (texte effectif, sans l'exposé sommaire).
+
+## Modifier
+
+- **Textes et questions** : le tableau `STEPS` dans `index.html` (libellé, aide, options, raison affichée en cas de « non »).
+- **Logique** : la fonction `evaluate(answers)`, entre les marqueurs `LOGIC-START` et `LOGIC-END`. Un « non » met fin au questionnaire ; un « Je ne sais pas » à la dernière question donne « À vérifier ».
+- **Seuil de revenu** : 5 × plafond annuel de la Sécurité sociale (48 060 € en 2026, soit 240 300 €). À mettre à jour chaque année (question 2 et récapitulatif).
+- **Couleurs et polices** : les variables CSS en haut de la feuille de style (thèmes clair et sombre).
+
+## Utiliser
+
+Ouvrir `index.html` dans un navigateur : aucune dépendance, aucun serveur, aucune donnée envoyée. Seules les polices Google Fonts sont chargées en ligne (la page fonctionne sans, avec des polices de secours).
+
+Pour la mettre en ligne : GitHub Pages (Settings > Pages > branche `main`, dossier racine) ou tout hébergeur de fichiers statiques.
+
+## Sources
+
+- Texte de l'amendement n° I-2564 : https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/AN/2564
+- Plafond annuel de la Sécurité sociale 2026 (Urssaf) : https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/plafonds-securite-sociale.html
+- Programme *L'Avenir en commun* : https://melenchon2027.fr/programme/livre/
