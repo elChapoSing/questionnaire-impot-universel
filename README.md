@@ -6,6 +6,7 @@ Page web autonome (un seul fichier, `index.html`) : questionnaire d'une question
 
 - **Textes et questions** : le tableau `STEPS` dans `index.html` (libellé, aide, options, raison affichée en cas de « non »).
 - **Logique** : la fonction `evaluate(answers)`, entre les marqueurs `LOGIC-START` et `LOGIC-END`. Un « non » met fin au questionnaire ; un « Je ne sais pas » à la dernière question donne « À vérifier ».
+- **Données pays** : la table `LOW_TAX`, entre les marqueurs `DATA-START` et `DATA-END`. Clé = code pays ISO à deux lettres, valeur `true` si la fiscalité du pays est jugée inférieure de plus de 40 % à celle de la France. Tout pays absent de la table vaut « non ». Pour l'instant : `SG` (Singapour) et `HK` (Hong Kong) à `true`. **Données provisoires.** La liste des pays proposés est `COUNTRY_CODES` (noms en français fournis par le navigateur).
 - **Seuil de revenu** : 5 × plafond annuel de la Sécurité sociale (48 060 € en 2026, soit 240 300 €). À mettre à jour chaque année (question 2 et récapitulatif).
 - **Couleurs et polices** : les variables CSS en haut de la feuille de style (thèmes clair et sombre).
 

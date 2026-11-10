@@ -125,6 +125,20 @@ h2 { font-size: clamp(26px, 5.2vw, 38px); }
 .btn.ghost:hover { border-color: var(--accent); filter: none; }
 .hint { color: var(--muted); font-size: 14px; margin-top: 14px; }
 
+.picker { max-width: 520px; margin: 0 0 16px; }
+.picker-input {
+  width: 100%; font: inherit; color: var(--ink); background: var(--surface);
+  border: 1.5px solid var(--line); border-radius: 12px; padding: 14px 16px; margin: 0 0 8px;
+}
+.picker-input:focus { outline: none; border-color: var(--accent); }
+.picker-list {
+  list-style: none; margin: 0; padding: 4px; max-height: 260px; overflow-y: auto;
+  background: var(--surface); border: 1.5px solid var(--line); border-radius: 12px;
+}
+.picker-item { padding: 10px 12px; border-radius: 8px; cursor: pointer; }
+.picker-item:hover, .picker-item.active { background: var(--bg); color: var(--accent); }
+.picker-empty { padding: 10px 12px; color: var(--muted); font-size: 15px; }
+
 .back {
   background: none; border: 0; padding: 6px 0; margin: 28px 0 0; color: var(--muted); font-size: 15px; align-self: flex-start;
 }
@@ -192,9 +206,10 @@ var STEPS = [
     unmet: "no",
     reason: "la mesure exige d'avoir résidé en France au moins trois ans au cours des dix années précédant le changement de résidence fiscale." },
   { id: "fisc", label: "Fiscalité du pays de résidence inférieure de plus de 40 % à celle de la France",
-    q: "La fiscalité de votre pays de résidence est-elle inférieure de plus de 40 % à celle de la France ?",
-    help: "Il s'agit de l'imposition des revenus du travail, du capital ou du patrimoine. Si vous hésitez, choisissez « Je ne sais pas ».",
-    options: [["Oui, de plus de 40 %", "yes"], ["Non", "no"], ["Je ne sais pas", "unknown"]],
+    type: "country",
+    q: "Dans quel pays résidez-vous fiscalement ?",
+    help: "Nous vérifions si la fiscalité de ce pays est inférieure de plus de 40 % à celle de la France (revenus du travail, du capital ou du patrimoine). Données provisoires.",
+    options: [["Je ne sais pas, ou mon pays n'est pas dans la liste", "unknown"]],
     unmet: "no",
     reason: "la mesure ne vise que les États dont la fiscalité est inférieure de plus de 40 % à celle de la France." }
 ];
@@ -218,10 +233,46 @@ function evaluate(answers) {
 }
 // LOGIC-END
 
+/* ---------- Données pays ---------- */
+// DATA-START
+// Pays dont la fiscalité est jugée inférieure de plus de 40 % à celle de la France.
+// Clé = code pays ISO à deux lettres. Tout pays absent de cette table vaut « non ».
+// DONNÉES PROVISOIRES : à remplacer par une source vérifiée avant diffusion large.
+var LOW_TAX = {
+  SG: true,  // Singapour
+  HK: true   // Hong Kong
+};
+function countryAnswer(code) { return LOW_TAX[code] === true ? "yes" : "no"; }
+// DATA-END
+
+// Liste des pays proposés (codes ISO 3166-1, hors France et territoires inhabités). Les noms viennent du navigateur, en français.
+var COUNTRY_CODES = ("AD AE AF AG AI AL AM AO AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BW BY BZ " +
+  "CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO " +
+  "GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP " +
+  "KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ " +
+  "NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW " +
+  "SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TG TH TJ TK TL TM TN TO TR TT TV TW TZ " +
+  "UA UG US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW").split(" ");
+var NAME_OVERRIDES = { HK: "Hong Kong (Chine)", MO: "Macao (Chine)" };
+var COUNTRIES = (function () {
+  var dn = null;
+  try { dn = new Intl.DisplayNames(["fr"], { type: "region" }); } catch (e) { dn = null; }
+  return COUNTRY_CODES.map(function (c) {
+    var name = NAME_OVERRIDES[c] || (dn ? dn.of(c) : c);
+    return { code: c, name: name || c };
+  }).sort(function (a, b) { return a.name.localeCompare(b.name, "fr"); });
+})();
+function countryName(code) {
+  for (var i = 0; i < COUNTRIES.length; i++) if (COUNTRIES[i].code === code) return COUNTRIES[i].name;
+  return code;
+}
+function normalize(t) { return String(t).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim(); }
+
 /* ---------- Interface ---------- */
 var app = document.getElementById("app");
 var bar = document.getElementById("bar");
 var answers = [];
+var meta = [];
 var KEYS = ["A", "B", "C"];
 
 function el(tag, attrs, children) {
@@ -275,19 +326,65 @@ function renderStep(i) {
     el("h2", { text: step.q })
   ];
   if (step.help) kids.push(el("p", { class: "help", text: step.help }));
+  if (step.type === "country") kids.push(buildCountryPicker(i));
   kids.push(el("div", { class: "options", role: "group", "aria-label": "Réponses" }, opts));
   if (i > 0) {
     var back = el("button", { class: "back", type: "button", text: "← Question précédente" });
     back.addEventListener("click", function () { answers.length = i - 1; renderStep(i - 1); });
     kids.push(back);
   }
-  kids.push(el("p", { class: "hint", text: "Astuce : appuyez sur A, B ou C pour répondre." }));
+  kids.push(el("p", { class: "hint", text: step.type === "country" ? "Tapez le nom du pays, puis choisissez-le dans la liste (flèches et Entrée)." : "Astuce : appuyez sur A, B ou C pour répondre." }));
   showScreen(el("section", { class: "screen", "data-step": String(i) }, kids));
 }
 
-function choose(i, value) {
+function buildCountryPicker(i) {
+  var wrap = el("div", { class: "picker" });
+  var input = el("input", { type: "text", id: "country-input", class: "picker-input", placeholder: "Tapez le nom d'un pays", autocomplete: "off",
+    role: "combobox", "aria-expanded": "true", "aria-controls": "country-list", "aria-label": "Pays de résidence fiscale" });
+  var list = el("ul", { class: "picker-list", id: "country-list", role: "listbox", "aria-label": "Pays" });
+  var shown = [];
+  var active = -1;
+  function pick(c) { choose(i, countryAnswer(c.code), c.code); }
+  function paint() {
+    list.innerHTML = "";
+    if (!shown.length) {
+      list.appendChild(el("li", { class: "picker-empty", text: "Aucun pays trouvé. Utilisez « Je ne sais pas » ci-dessous." }));
+      return;
+    }
+    shown.forEach(function (c, idx) {
+      var li = el("li", { role: "option", "aria-selected": idx === active ? "true" : "false", class: "picker-item" + (idx === active ? " active" : ""), text: c.name });
+      li.addEventListener("mousedown", function (e) { e.preventDefault(); pick(c); });
+      list.appendChild(li);
+    });
+    var a = list.querySelector(".active");
+    if (a) a.scrollIntoView({ block: "nearest" });
+  }
+  function filter() {
+    var q = normalize(input.value);
+    shown = q ? COUNTRIES.filter(function (c) { return normalize(c.name).indexOf(q) !== -1; }) : COUNTRIES.slice();
+    active = -1;
+    paint();
+  }
+  input.addEventListener("input", filter);
+  input.addEventListener("keydown", function (e) {
+    if (e.key === "ArrowDown") { e.preventDefault(); if (shown.length) { active = Math.min(active + 1, shown.length - 1); paint(); } }
+    else if (e.key === "ArrowUp") { e.preventDefault(); if (shown.length) { active = Math.max(active - 1, 0); paint(); } }
+    else if (e.key === "Enter") {
+      e.preventDefault();
+      if (active >= 0) pick(shown[active]);
+      else if (shown.length === 1) pick(shown[0]);
+    }
+  });
+  wrap.appendChild(input);
+  wrap.appendChild(list);
+  filter();
+  return wrap;
+}
+
+function choose(i, value, code) {
   answers = answers.slice(0, i);
   answers[i] = value;
+  meta[i] = code || null;
   var r = evaluate(answers);
   if (r.verdict === "incomplete") renderStep(i + 1);
   else renderResult(r);
@@ -299,7 +396,11 @@ function renderResult(r) {
   if (r.verdict === "no") {
     badge = "Non concerné·e"; badgeClass = "no";
     title = "Vous ne seriez pas concerné·e.";
-    body = "Raison : " + r.reason + " Il faut remplir toutes les conditions à la fois.";
+    var reason = r.reason;
+    if (answers[4] === "no" && meta[4]) {
+      reason = "pays de résidence choisi : " + countryName(meta[4]) + ". D'après les données du questionnaire (liste provisoire), sa fiscalité n'est pas inférieure de plus de 40 % à celle de la France.";
+    }
+    body = "Raison : " + reason + " Il faut remplir toutes les conditions à la fois.";
   } else if (r.verdict === "maybe") {
     badge = "À vérifier"; badgeClass = "maybe";
     title = "Une seule condition reste à vérifier.";
@@ -310,9 +411,10 @@ function renderResult(r) {
     body = "D'après le texte proposé, vous auriez à acquitter en France l'impôt français moins l'impôt déjà payé dans votre pays de résidence (crédit d'impôt), sous réserve des conventions fiscales signées par la France.";
   }
   var labels = { met: "Remplie", unmet: "Non remplie", unknown: "À vérifier", skipped: "Non évaluée" };
-  var items = r.rows.map(function (row) {
+  var items = r.rows.map(function (row, idx) {
+    var label = row.label + (idx === 4 && meta[4] && row.state !== "skipped" ? " (" + countryName(meta[4]) + ", données provisoires)" : "");
     return el("li", {}, [
-      el("span", { text: row.label }),
+      el("span", { text: label }),
       el("span", { class: "state " + row.state, text: labels[row.state] })
     ]);
   });
@@ -340,6 +442,7 @@ function renderResult(r) {
 
 document.addEventListener("keydown", function (e) {
   if (e.ctrlKey || e.metaKey || e.altKey) return;
+  if (e.target && e.target.tagName === "INPUT") return;
   var stepNode = document.querySelector("[data-step]");
   if (!stepNode) return;
   var idx = KEYS.indexOf(e.key.toUpperCase());
