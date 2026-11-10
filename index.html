@@ -66,6 +66,8 @@ body {
 button { font: inherit; color: inherit; cursor: pointer; }
 a { color: var(--accent); }
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+/* Les titres reçoivent le focus par programme à chaque écran : pas de contour sur eux. */
+h1:focus, h1:focus-visible, h2:focus, h2:focus-visible { outline: none; }
 
 .progress {
   position: fixed; inset: 0 0 auto 0; height: 4px; background: var(--line); z-index: 10;
