@@ -17,6 +17,8 @@
   --line: #dedbe8;
   --accent: #b3124f;
   --accent-ink: #ffffff;
+  --violet: #4b2a7b;
+  --brand-grad: linear-gradient(90deg, #d0102f 0%, #b3124f 45%, #4b2a7b 100%);
   --ok: #1f7a4d;
   --bad: #b3261e;
   --warn: #8a5a00;
@@ -33,6 +35,7 @@
     --line: #2f2d3b;
     --accent: #ff6b97;
     --accent-ink: #1a0710;
+    --violet: #9b7bd4;
     --ok: #5fd39b;
     --bad: #ff8a80;
     --warn: #f2c35b;
@@ -47,6 +50,7 @@
   --line: #2f2d3b;
   --accent: #ff6b97;
   --accent-ink: #1a0710;
+  --violet: #9b7bd4;
   --ok: #5fd39b;
   --bad: #ff8a80;
   --warn: #f2c35b;
@@ -73,7 +77,7 @@ h1:focus, h1:focus-visible, h2:focus, h2:focus-visible { outline: none; }
   position: fixed; inset: 0 0 auto 0; height: 4px; background: var(--line); z-index: 10;
 }
 .progress > div {
-  height: 100%; width: 0; background: var(--accent); transition: width .35s ease;
+  height: 100%; width: 0; background: var(--brand-grad); transition: width .35s ease;
 }
 
 .app {
@@ -173,6 +177,15 @@ h2 { font-size: clamp(26px, 5.2vw, 38px); }
 .sources p { margin: 0 0 8px; }
 .sources ul { margin: 0; padding-left: 18px; }
 
+
+.brandbar { height: 6px; background: var(--brand-grad); }
+.notice { background: var(--surface); border-bottom: 1px solid var(--line); color: var(--muted); font-size: 13px; text-align: center; padding: 8px 16px; }
+.notice strong { color: var(--ink); }
+.site-foot { max-width: 60ch; margin: 0 auto; padding: 24px 20px 40px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); }
+.site-foot strong { color: var(--ink); }
+h1, h2 { }
+.eyebrow { color: var(--violet); }
+.btn:not(.ghost) { background: var(--brand-grad); color: #fff; }
 @media (max-width: 420px) {
   .app { padding-top: 40px; }
   .recap li { flex-direction: column; align-items: flex-start; gap: 8px; }
@@ -180,8 +193,11 @@ h2 { font-size: clamp(26px, 5.2vw, 38px); }
 </style>
 </head>
 <body>
+<div class="brandbar" aria-hidden="true"></div>
+<div class="notice" role="note"><strong>Site non officiel.</strong> Ce site n'est pas un site officiel de La France insoumise.</div>
 <div class="progress" aria-hidden="true"><div id="bar"></div></div>
 <main class="app" id="app" aria-live="polite"></main>
+<footer class="site-foot"><strong>Ce site n'est pas un site officiel de La France insoumise.</strong> Il s'agit d'une initiative de soutien indépendante, sans valeur de communication officielle du mouvement ni de sa campagne. Questionnaire informatif, sans valeur d'avis fiscal ou juridique.</footer>
 
 <script>
 /* ---------- Logique (fonctions pures) ---------- */
@@ -431,7 +447,7 @@ function renderResult(r) {
       el("span", { class: "state " + row.state, text: labels[row.state] })
     ]);
   });
-  var restart = el("button", { class: "btn ghost", type: "button", text: "Recommencer" });
+  var restart = el("button", { class: "btn ghost", id: "restart", type: "button" }, [el("span", { text: "Recommencer" }), el("span", { class: "kbd", "aria-hidden": "true", text: "Entrée ↵" })]);
   restart.addEventListener("click", function () { answers = []; renderStart(); });
 
   var sources = el("div", { class: "sources" }, [
@@ -457,6 +473,8 @@ document.addEventListener("keydown", function (e) {
   if (e.ctrlKey || e.metaKey || e.altKey) return;
   var startBtn = document.getElementById("start");
   if (startBtn && e.key === "Enter") { e.preventDefault(); startBtn.click(); return; }
+  var rb = document.getElementById("restart");
+  if (rb && e.key === "Enter") { e.preventDefault(); rb.click(); return; }
   if (e.target && e.target.tagName === "INPUT") return;
   var stepNode = document.querySelector("[data-step]");
   if (!stepNode) return;
