@@ -121,6 +121,10 @@ h2 { font-size: clamp(26px, 5.2vw, 38px); }
   padding: 14px 24px; font-weight: 600; font-size: 17px;
 }
 .btn:hover { filter: brightness(1.08); }
+.kbd {
+  font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 6px;
+  border: 1.5px solid currentColor; opacity: .75;
+}
 .btn.ghost { background: transparent; color: var(--ink); border: 1.5px solid var(--line); }
 .btn.ghost:hover { border-color: var(--accent); filter: none; }
 .hint { color: var(--muted); font-size: 14px; margin-top: 14px; }
@@ -302,7 +306,10 @@ function renderStart() {
     el("p", { class: "eyebrow", text: "Questionnaire" }),
     el("h1", { text: "Seriez-vous concerné·e par l'impôt universel ciblé ?" }),
     el("p", { class: "lead", text: "Cinq questions, une minute. Vous saurez si vous remplissez les conditions prévues par le texte proposé. Il faut les remplir toutes à la fois." }),
-    el("button", { class: "btn", id: "start", type: "button", text: "Commencer" }),
+    el("button", { class: "btn", id: "start", type: "button" }, [
+      el("span", { text: "Commencer" }),
+      el("span", { class: "kbd", "aria-hidden": "true", text: "Entrée ↵" })
+    ]),
     el("p", { class: "hint", text: "Vos réponses restent dans votre navigateur. Rien n'est envoyé ni enregistré." })
   ]);
   showScreen(s);
@@ -442,6 +449,8 @@ function renderResult(r) {
 
 document.addEventListener("keydown", function (e) {
   if (e.ctrlKey || e.metaKey || e.altKey) return;
+  var startBtn = document.getElementById("start");
+  if (startBtn && e.key === "Enter") { e.preventDefault(); startBtn.click(); return; }
   if (e.target && e.target.tagName === "INPUT") return;
   var stepNode = document.querySelector("[data-step]");
   if (!stepNode) return;
