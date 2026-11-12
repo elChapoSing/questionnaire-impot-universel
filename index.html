@@ -486,6 +486,7 @@ function buildCountryPicker(i) {
     else if (e.key === "ArrowUp") { e.preventDefault(); if (shown.length) { active = Math.max(active - 1, 0); paint(); } }
     else if (e.key === "Enter") {
       e.preventDefault();
+      e.stopPropagation();
       if (active >= 0) pick(shown[active]);
       else if (shown.length === 1) pick(shown[0]);
     }
@@ -748,7 +749,8 @@ function route() {
 window.addEventListener("hashchange", route);
 
 document.addEventListener("keydown", function (e) {
-  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  if (e.ctrlKey || e.metaKey || e.altKey || e.defaultPrevented) return;
+  if (e.target && (e.target.tagName === "INPUT" || e.target.tagName === "BUTTON")) { if (e.target.tagName === "INPUT") return; }
   var startBtn = document.getElementById("start");
   if (startBtn && e.key === "Enter") { e.preventDefault(); startBtn.click(); return; }
   var rb = document.getElementById("restart");
