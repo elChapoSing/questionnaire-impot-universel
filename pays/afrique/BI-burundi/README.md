@@ -1,6 +1,6 @@
 # Burundi (BI)
 
-**Taux effectif retenu : entre 29,9 et 34,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 29,9 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,16 +9,30 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : BIF. Cours supposé : 1 EUR = 3 400 BIF (hypothèse reprise de la note, à remplacer par le cours Yahoo EURBIF=X).
+- Salaire converti : 240 300 € × 3 400 = 817 020 000 BIF.
+- Base imposable : 817 020 000 BIF.
+
+| De (BIF) | À (BIF) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 1 800 000 | 0,00 % | 1 800 000 | 0 |
+| 1 800 000 | 3 600 000 | 20,00 % | 1 800 000 | 360 000 |
+| 3 600 000 | et plus | 30,00 % | 813 420 000 | 244 026 000 |
+
+- **Impôt total : 244 386 000 BIF, soit 29,9 % du salaire brut.**
+- Hypothèse : Barème officiel de l'OBR (loi n° 1/02 du 24 janvier 2013) : 0 % jusqu'à 150 000 BIF par mois, 20 % de 150 000 à 300 000, 30 % au-delà, soit 1,8 et 3,6 millions de BIF par an.
+- Hypothèse : Le barème à 25 % et 35 % d'un simulateur privé (AfroTools) n'est confirmé par aucune source officielle ; le taux maximal de 35 % est celui de l'ancien code de 1963, remplacé en 2013. La loi de finances 2026-2027 (loi n° 1/10 du 30 juin 2026) n'a pas modifié ce barème d'après la synthèse DLA Piper, sans certitude.
+- Hypothèse : Cotisation INSS (4 %, plafonnée) non déduite.
 
 ## Note
 
-Sources en désaccord : barème annuel 2026 avec taux maximal 35 % (simulateur) ou ancien barème officiel mensuel avec 30 % au-delà de 300 000 BIF/mois. Dans les deux cas le taux dépasse 29 %. Change (hypothèse) : 1 EUR = 3 400 BIF. Changements éventuels de la loi de finances 2026-2027 non vérifiés.
+Barème officiel de l'OBR (loi n° 1/02 de 2013) : 0 % jusqu'à 1,8 million de BIF par an, 20 % jusqu'à 3,6 millions, 30 % au-delà ; environ 29,9 % avec 1 EUR = 3 400 BIF (hypothèse). Le barème à 35 % d'un simulateur privé n'est pas confirmé. La synthèse DLA Piper de la loi de finances 2026-2027 ne signale pas de changement du barème.
 
 ## Sources
 
-- [AfroTools - calcul salaire net Burundi](https://afrotools.com/fr/burundi/calculateur-salaire-net/) (non officielle)
+- [OBR - Informations de base (barème annuel de l'impôt, loi n° 1/02 du 24 janvier 2013)](https://mail.obr.bi/images/PDF/Depliant_Info_de_base_FR_final_site.pdf) (officielle)
 - [OBR - mode de calcul de l'IPR](https://www.obr.bi/images/stories/download/MODE_CALCUL_IPR.pdf) (officielle)
+- [DLA Piper Africa - Réformes budgétaires 2026-2027](https://www.dlapiperafrica.com/export/sites/africa/burundi/downloads/2026/Reformes-budgetaires.pdf_2063069264.pdf) (non officielle)
 
 ## Corriger ou vérifier
 

@@ -1,6 +1,6 @@
 # Érythrée (ER)
 
-**Taux effectif retenu : entre 27,0 et 29,9 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : entre 27,7 et 29,9 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,11 +9,29 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : ERN. Cours supposé : 1 EUR = 17,4 ERN (hypothèse reprise de la note, à remplacer par le cours Yahoo EURERN=X).
+- Salaire converti : 240 300 € × 17,4 = 4 181 220 ERN.
+- Base imposable : 4 181 220 ERN.
+
+| De (ERN) | À (ERN) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 24 000 | 0,00 % | 24 000 | 0 |
+| 24 000 | 60 000 | 2,00 % | 36 000 | 720 |
+| 60 000 | 180 000 | 7,00 % | 120 000 | 8 400 |
+| 180 000 | 360 000 | 12,00 % | 180 000 | 21 600 |
+| 360 000 | 600 000 | 17,00 % | 240 000 | 40 800 |
+| 600 000 | 960 000 | 22,00 % | 360 000 | 79 200 |
+| 960 000 | 1 440 000 | 27,00 % | 480 000 | 129 600 |
+| 1 440 000 | et plus | 32,00 % | 2 741 220 | 877 190 |
+
+- **Impôt total : 1 157 510 ERN, soit 27,7 % du salaire brut.**
+- Hypothèse : Barème mensuel de Rivermate (attendu pour 2025), multiplié par 12 : 0 % jusqu'à 2 000 ERN par mois, puis 2, 7, 12, 17, 22, 27 et 32 % ; aucun abattement supplémentaire (la tranche à 0 % tient lieu d'abattement personnel).
+- Hypothèse : Source incertaine : TaxAtlas donne un autre barème (2, 6, 12, 18, 22 et 30 %, périodicité non précisée) qui donne 28,3 % s'il est mensuel et 29,9 % s'il est annuel ; d'autres guides donnent encore d'autres barèmes. Aucune source officielle accessible.
+- Hypothèse : Cotisations sociales exclues.
 
 ## Note
 
-Sources non officielles divergentes (barèmes à taux maximal 30 % ou 32 %), seuils mensuels ou annuels non confirmés. Change (hypothèse) : 1 EUR = 17,4 ERN. Fiabilité faible.
+Source incertaine : aucun texte officiel accessible, guides privés divergents. Barème retenu : Rivermate (mensuel, 0 à 32 %, attendu pour 2025), soit environ 27,7 % avec 1 EUR = 17,4 ERN (hypothèse). L'autre barème (TaxAtlas, jusqu'à 30 %) donne 28,3 à 29,9 %. Fiabilité faible.
 
 ## Sources
 

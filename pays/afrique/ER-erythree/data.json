@@ -1,12 +1,12 @@
 {
   "code": "ER",
   "nom": "Érythrée",
-  "rate": 28.5,
+  "rate": 27.7,
   "range": [
-    27,
+    27.7,
     29.9
   ],
-  "note": "Sources non officielles divergentes (barèmes à taux maximal 30 % ou 32 %), seuils mensuels ou annuels non confirmés. Change (hypothèse) : 1 EUR = 17,4 ERN. Fiabilité faible.",
+  "note": "Source incertaine : aucun texte officiel accessible, guides privés divergents. Barème retenu : Rivermate (mensuel, 0 à 32 %, attendu pour 2025), soit environ 27,7 % avec 1 EUR = 17,4 ERN (hypothèse). L'autre barème (TaxAtlas, jusqu'à 30 %) donne 28,3 à 29,9 %. Fiabilité faible.",
   "sources": [
     {
       "titre": "Rivermate - fiscalité Érythrée",
@@ -18,5 +18,57 @@
       "url": "https://taxatlas.io/country/eritrea/income-tax",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "ERN",
+    "fx": 17.4,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EURERN=X",
+    "tranches": [
+      [
+        0,
+        24000,
+        0
+      ],
+      [
+        24000,
+        60000,
+        2
+      ],
+      [
+        60000,
+        180000,
+        7
+      ],
+      [
+        180000,
+        360000,
+        12
+      ],
+      [
+        360000,
+        600000,
+        17
+      ],
+      [
+        600000,
+        960000,
+        22
+      ],
+      [
+        960000,
+        1440000,
+        27
+      ],
+      [
+        1440000,
+        null,
+        32
+      ]
+    ],
+    "hypotheses": [
+      "Barème mensuel de Rivermate (attendu pour 2025), multiplié par 12 : 0 % jusqu'à 2 000 ERN par mois, puis 2, 7, 12, 17, 22, 27 et 32 % ; aucun abattement supplémentaire (la tranche à 0 % tient lieu d'abattement personnel).",
+      "Source incertaine : TaxAtlas donne un autre barème (2, 6, 12, 18, 22 et 30 %, périodicité non précisée) qui donne 28,3 % s'il est mensuel et 29,9 % s'il est annuel ; d'autres guides donnent encore d'autres barèmes. Aucune source officielle accessible.",
+      "Cotisations sociales exclues."
+    ]
+  }
 }

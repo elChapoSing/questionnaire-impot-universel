@@ -1,0 +1,158 @@
+devise,pays,code,ticker_yahoo,cours_suppose_pour_1_EUR,cours_verifie_a_remplir,taux_effectif_calcule_pct,source_de_l_hypothese
+ALL,Albanie,AL,EURALL=X,98,,22.13,"hypothèse reprise de la note, à remplacer par le cours Yahoo EURALL=X"
+AMD,Arménie,AM,EURAMD=X,450,,20.00,"la note ne donne pas de cours : hypothèse de 450 AMD pour 1 EUR, à remplacer par le cours Yahoo EURAMD=X ; sans effet avec un taux unique"
+AOA,Angola,AO,EURAOA=X,1060,,24.15,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURAOA=X"
+ARS,Argentine,AR,EURARS=X,1850,,33.52,"hypothèse (aucun cours dans la note) : environ 1 850 pesos pour 1 EUR, à remplacer par le cours Yahoo EURARS=X ; taux très peu sensible au change au-delà de 1 500 (de 33,3 % à 33,6 % entre 1 600 et 2 000)"
+AUD,Australie,AU,EURAUD=X,1.62,,38.30,"hypothèse (la note ne donne aucun cours) : 1,62 dollar australien pour 1 EUR, à remplacer par le cours Yahoo EURAUD=X"
+AWG,Aruba,AW,EURAWG=X,2.0585,,45.06,"hypothèse reprise de la note : 1 EUR = 1,15 USD et 1 USD = 1,79 AWG (parité fixe) ; à remplacer par le cours Yahoo EURAWG=X"
+AZN,Azerbaïdjan,AZ,EURAZN=X,1.97,,12.75,"hypothèse reprise de la note, à remplacer par le cours Yahoo EURAZN=X"
+BAM,Bosnie-Herzégovine,BA,EURBAM=X,1.95583,,10.00,"parité fixe du mark convertible (1,95583 BAM pour 1 EUR)"
+BBD,Barbade,BB,EURBBD=X,2.3,,24.81,"hypothèse reprise de la note : 1 USD = 2 BBD, EUR/USD 1,15"
+BDT,Bangladesh,BD,EURBDT=X,140,,28.86,hypothèse reprise de la note (140 takas pour 1 €)
+BIF,Burundi,BI,EURBIF=X,3400,,29.91,"hypothèse reprise de la note, à remplacer par le cours Yahoo EURBIF=X"
+BOB,Bolivie,BO,EURBOB=X,8.07,,13.00,"hypothèse : 6,96 BOB pour 1 USD au taux officiel × 1,16 USD pour 1 EUR ; à remplacer par le cours Yahoo EURBOB=X"
+BRL,Brésil,BR,EURBRL=X,6,,26.75,hypothèse reprise de la note (6 réais pour 1 EUR)
+BTN,Bhoutan,BT,EURBTN=X,100,,28.28,"hypothèse reprise de la note (1 € = 100 ngultrums, peg à la roupie indienne)"
+BWP,Botswana,BW,EURBWP=X,15.8,,24.32,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURBWP=X"
+BYN,Biélorussie,BY,EURBYN=X,3.3,,20.92,"hypothèse reprise de la note, à remplacer par le cours Yahoo EURBYN=X"
+BZD,Belize,BZ,EURBZD=X,2.3,,25.00,"parité fixe 2 BZD pour 1 USD, EUR/USD 1,15 (note)"
+CAD,Canada,CA,EURCAD=X,1.54,,36.21,"hypothèse reprise de la note, à remplacer par le cours Yahoo EURCAD=X"
+CDF,Congo-Kinshasa,CD,EURCDF=X,2650,,30.00,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURCDF=X"
+CHF,Suisse,CH,EURCHF=X,0.93,,25.00,"la note ne donne pas de cours : hypothèse de 0,93 CHF pour 1 EUR, à remplacer par le cours Yahoo EURCHF=X"
+CLP,Chili,CL,EURCLP=X,1059,,27.35,hypothèse reprise de la note (1 059 pesos pour 1 EUR)
+CNY,Chine,CN,EURCNY=X,8,,35.54,"aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURCNY=X"
+COP,Colombie,CO,EURCOP=X,4457,,31.53,hypothèse reprise de la note (4 457 pesos pour 1 EUR)
+CRC,Costa Rica,CR,EURCRC=X,557,,20.39,"hypothèse reprise de la note, à remplacer par le cours Yahoo EURCRC=X"
+CVE,Cap-Vert,CV,EURCVE=X,110.265,,26.96,"parité fixe CVE/EUR (110,265), reprise de la note"
+CZK,Tchéquie,CZ,EURCZK=X,24.3,,20.58,"la note ne donne pas de cours : hypothèse de 24,3 CZK pour 1 EUR, à remplacer par le cours Yahoo EURCZK=X"
+DJF,Djibouti,DJ,EURDJF=X,206,,37.63,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURDJF=X"
+DKK,Danemark,DK,EURDKK=X,7.46,,46.13,"hypothèse reprise de la note, à remplacer par le cours Yahoo EURDKK=X"
+DKK,Groenland,GL,EURDKK=X,7.46,,43.00,"hypothèse (la note ne donne aucun cours ; DKK arrimée à l'euro, environ 7,46), sans effet sur un taux proportionnel"
+DKK,Îles Féroé,FO,EURDKK=X,7.46,,44.48,"hypothèse reprise de la note, à remplacer par le cours Yahoo EURDKK=X"
+DOP,République dominicaine,DO,EURDOP=X,70,,24.19,"hypothèse reprise de la note, à remplacer par le cours Yahoo EURDOP=X"
+EGP,Égypte,EG,EUREGP=X,55,,27.27,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREGP=X"
+ERN,Érythrée,ER,EURERN=X,17.4,,27.68,"hypothèse reprise de la note, à remplacer par le cours Yahoo EURERN=X"
+ETB,Éthiopie,ET,EURETB=X,175,,34.94,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURETB=X"
+FJD,Fidji,FJ,EURFJD=X,2.58,,28.08,"hypothèse reprise de la note (2,58 dollars fidjiens pour 1 EUR)"
+GBP,Gibraltar,GI,EURGBP=X,0.87,,24.97,"hypothèse reprise de la note, à remplacer par le cours Yahoo EURGBP=X"
+GBP,Guernesey,GG,EURGBP=X,0.87,,20.00,"la note ne donne pas de cours : hypothèse de 0,87 GBP pour 1 EUR (comme pour le Royaume-Uni), à remplacer par le cours Yahoo EURGBP=X ; sans effet avec un taux unique"
+GBP,Jersey,JE,EURGBP=X,0.87,,20.00,hypothèse reprise de la note
+GBP,Royaume-Uni,GB,EURGBP=X,0.87,,38.40,"hypothèse reprise de la note, à remplacer par le cours Yahoo EURGBP=X"
+GBP,Île de Man,IM,EURGBP=X,0.87,,20.66,hypothèse reprise de la note
+GBP,Îles Malouines,FK,EURGBP=X,0.87,,25.71,"hypothèse reprise de la note (0,87 GBP pour 1 EUR)"
+GEL,Géorgie,GE,EURGEL=X,3.1,,20.00,"la note ne donne pas de cours : hypothèse de 3,1 GEL pour 1 EUR, à remplacer par le cours Yahoo EURGEL=X ; sans effet avec un taux unique"
+GHS,Ghana,GH,EURGHS=X,13,,33.51,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURGHS=X"
+GMD,Gambie,GM,EURGMD=X,82,,24.93,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURGMD=X"
+GNF,Guinée,GN,EURGNF=X,12100,,34.48,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURGNF=X"
+GTQ,Guatemala,GT,EURGTQ=X,8.6,,6.71,hypothèse reprise de la note
+GYD,Guyana,GY,EURGYD=X,240,,34.42,"hypothèse reprise de la note (240 GYD pour 1 EUR, soit 209 par USD)"
+HKD,Hong Kong (Chine),HK,EURHKD=X,8.9,,15.00,"aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURHKD=X"
+HNL,Honduras,HN,EURHNL=X,30.2,,23.73,"hypothèse reprise de la note (26,3 HNL par USD)"
+HTG,Haïti,HT,EURHTG=X,150,,29.68,"hypothèse reprise de la note, peu sensible"
+HUF,Hongrie,HU,EURHUF=X,390,,15.00,"la note ne donne pas de cours : hypothèse de 390 HUF pour 1 EUR, à remplacer par le cours Yahoo EURHUF=X ; sans effet avec un taux unique"
+IDR,Indonésie,ID,EURIDR=X,19500,,28.80,"la note cite le cours BCE du 27 juillet 2026 sans le chiffrer ; valeur reconstituée, à remplacer par EURIDR=X"
+ILS,Israël,IL,EURILS=X,3.9,,35.27,"hypothèse reprise de la note (3,9 shekels pour 1 €)"
+ILS,Territoires palestiniens,PS,EURILS=X,3.8,,13.77,"hypothèse reprise de la note (1 € = 3,8 NIS)"
+INR,Inde,IN,EURINR=X,105,,36.84,"la note cite le cours BCE du 27 juillet 2026 sans le chiffrer ; valeur reconstituée, à remplacer par EURINR=X"
+IQD,Irak,IQ,EURIQD=X,1500,,14.98,hypothèse reprise de la note (1 € = 1 500 IQD)
+IRR,Iran,IR,EURIRR=X,1600000,,34.79,"hypothèse reprise de la note (environ 1,6 million IRR pour 1 €)"
+ISK,Islande,IS,EURISK=X,145,,38.68,hypothèse reprise de la note
+JMD,Jamaïque,JM,EURJMD=X,182,,29.31,hypothèse reprise de la note (158 JMD par USD)
+JOD,Jordanie,JO,EURJOD=X,0.82,,23.73,"hypothèse reprise de la note (1 € = 0,82 JOD)"
+JPY,Japon,JP,EURJPY=X,185,,34.93,"aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURJPY=X"
+KES,Kenya,KE,EURKES=X,150,,33.74,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURKES=X"
+KGS,Kirghizstan,KG,EURKGS=X,100,,10.00,"aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURKGS=X"
+KHR,Cambodge,KH,EURKHR=X,4500,,18.64,hypothèse reprise de la note (fourchette 4 000 à 5 000 riels pour 1 € ; milieu retenu)
+KMF,Comores,KM,EURKMF=X,491.968,,20.61,"parité fixe KMF/EUR (491,968), reprise de la note"
+KRW,Corée du Sud,KR,EURKRW=X,1750,,37.21,"aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURKRW=X"
+KZT,Kazakhstan,KZ,EURKZT=X,560,,13.63,"aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURKZT=X ; la note cite cbonds du 18 juillet 2026 sans chiffre, valeur reconstituée à partir du taux 13,6 %"
+LAK,Laos,LA,EURLAK=X,25500,,23.90,hypothèse reprise de la note (environ 25 500 kips pour 1 €)
+LBP,Liban,LB,EURLBP=X,103800,,24.77,hypothèse reprise de la note (1 € = 103 800 LBP)
+LKR,Sri Lanka,LK,EURLKR=X,343,,34.63,hypothèse reprise de la note (343 roupies pour 1 €)
+LRD,Liberia,LR,EURLRD=X,215,,24.80,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURLRD=X"
+LSL,Lesotho,LS,EURLSL=X,20,,29.84,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURLSL=X"
+LYD,Libye,LY,EURLYD=X,6.3,,9.96,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURLYD=X"
+MAD,Maroc,MA,EURMAD=X,10.8,,35.94,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMAD=X"
+MDL,Moldavie,MD,EURMDL=X,19.5,,12.00,"valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel"
+MGA,Madagascar,MG,EURMGA=X,5300,,19.91,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMGA=X"
+MKD,Macédoine du Nord,MK,EURMKD=X,61.5,,10.00,"valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel"
+MMK,Myanmar (Birmanie),MM,EURMMK=X,4400,,24.00,"la note dit « très volatil » sans chiffrer ; valeur reconstituée (taux effectif 23 à 24 %), à remplacer par EURMMK=X"
+MNT,Mongolie,MN,EURMNT=X,4150,,18.50,hypothèse reprise de la note (1 € = 4 150 MNT)
+MOP,Macao (Chine),MO,EURMOP=X,9.3,,10.97,"hypothèse reprise de la note (1 € = 9,3 MOP)"
+MRU,Mauritanie,MR,EURMRU=X,46,,39.56,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMRU=X"
+MUR,Maurice,MU,EURMUR=X,52,,19.39,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMUR=X"
+MVR,Maldives,MV,EURMVR=X,17.6,,9.95,"hypothèse reprise de la note (17,6 rufiyaas pour 1 €)"
+MWK,Malawi,MW,EURMWK=X,2000,,38.43,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMWK=X"
+MXN,Mexique,MX,EURMXN=X,20.75,,31.30,"milieu de la fourchette 19,5 à 22 de la note, à remplacer par le cours Yahoo EURMXN=X"
+MYR,Malaisie,MY,EURMYR=X,4.8,,25.26,"aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURMYR=X"
+MZN,Mozambique,MZ,EURMZN=X,74,,31.20,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMZN=X"
+NAD,Namibie,NA,EURNAD=X,20,,33.99,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURNAD=X"
+NGN,Nigeria,NG,EURNGN=X,1750,,24.51,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURNGN=X"
+NIO,Nicaragua,NI,EURNIO=X,42.1,,29.33,hypothèse reprise de la note
+NOK,Norvège,NO,EURNOK=X,11.7,,35.30,hypothèse reprise de la note
+NOK,Svalbard et Jan Mayen,SJ,EURNOK=X,11.7,,14.23,hypothèse reprise de la note
+NPR,Népal,NP,EURNPR=X,160,,27.71,hypothèse reprise de la note (160 roupies pour 1 €)
+NZD,Nouvelle-Zélande,NZ,EURNZD=X,1.95,,34.53,"hypothèse (la note ne donne aucun cours) : 1,95 NZD pour 1 EUR, cohérent avec la fiche des îles Cook ; à remplacer par le cours Yahoo EURNZD=X"
+NZD,Îles Cook,CK,EURNZD=X,1.95,,28.32,"hypothèse reprise de la note (1,95 NZD pour 1 EUR)"
+PEN,Pérou,PE,EURPEN=X,3.8,,26.12,"hypothèse reprise de la note (3,8 soles pour 1 EUR)"
+PGK,Papouasie-Nouvelle-Guinée,PG,EURPGK=X,4.9,,40.63,"hypothèse reprise de la note (4,9 kinas pour 1 EUR)"
+PHP,Philippines,PH,EURPHP=X,70,,31.45,"aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURPHP=X"
+PKR,Pakistan,PK,EURPKR=X,323,,33.68,hypothèse reprise de la note (323 roupies pour 1 €)
+PLN,Pologne,PL,EURPLN=X,4.25,,29.73,"valeur indicative (la note n'en donne pas), à remplacer par le cours Yahoo EURPLN=X"
+PYG,Paraguay,PY,EURPYG=X,8000,,9.90,hypothèse reprise de la note (environ 8 000 guaranis pour 1 EUR)
+RON,Roumanie,RO,EURRON=X,5.1,,10.00,"valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel"
+RSD,Serbie,RS,EURRSD=X,117.2,,18.16,hypothèse reprise de la note
+RUB,Russie,RU,EURRUB=X,95,,17.38,hypothèse reprise de la note
+RWF,Rwanda,RW,EURRWF=X,1700,,29.89,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURRWF=X"
+SBD,Îles Salomon,SB,EURSBD=X,9.7,,39.27,"hypothèse reprise de la note (9,7 SBD pour 1 EUR)"
+SCR,Seychelles,SC,EURSCR=X,16.5,,27.16,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURSCR=X"
+SEK,Suède,SE,EURSEK=X,11,,47.51,"hypothèse, à remplacer par EURSEK=X"
+SGD,Singapour,SG,EURSGD=X,1.48,,14.73,"aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURSGD=X ; avec 1,50, le taux est de 14,8 %"
+SLE,Sierra Leone,SL,EURSLE=X,27,,29.93,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURSLE=X"
+SRD,Suriname,SR,EURSRD=X,44,,37.40,hypothèse reprise de la note (44 SRD pour 1 EUR)
+STN,Sao Tomé-et-Principe,ST,EURSTN=X,24.5,,24.59,"parité fixe STN/EUR (24,5), reprise de la note"
+SZL,Eswatini,SZ,EURSZL=X,20,,32.62,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURSZL=X"
+THB,Thaïlande,TH,EURTHB=X,38,,29.69,"aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURTHB=X"
+TJS,Tadjikistan,TJ,EURTJS=X,11,,12.98,"aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURTJS=X"
+TMT,Turkménistan,TM,EURTMT=X,4,,10.00,"aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURTMT=X"
+TND,Tunisie,TN,EURTND=X,3.4,,39.11,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURTND=X"
+TRY,Turquie,TR,EURTRY=X,50,,36.48,hypothèse reprise de la note (50 livres pour 1 €)
+TTD,Trinité-et-Tobago,TT,EURTTD=X,7.8,,27.33,"hypothèse reprise de la note (6,79 TTD par USD)"
+TWD,Taïwan,TW,EURTWD=X,37,,29.75,"la note cite cbonds du 18 juillet 2026 sans chiffre ; valeur reconstituée, à remplacer par EURTWD=X"
+TZS,Tanzanie,TZ,EURTZS=X,3000,,29.71,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURTZS=X"
+UAH,Ukraine,UA,EURUAH=X,48,,23.00,"valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel"
+UGX,Ouganda,UG,EURUGX=X,4200,,38.69,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURUGX=X"
+USD,Panama,PA,EURUSD=X,1.15,,22.59,"hypothèse reprise de la note (EUR/USD 1,15), à remplacer par le cours Yahoo EURUSD=X (balboa à parité avec le dollar)"
+USD,Pays-Bas caribéens,BQ,EURUSD=X,1.15,,36.73,"hypothèse reprise de la note (EUR/USD 1,15), à remplacer par le cours Yahoo EURUSD=X"
+USD,Porto Rico,PR,EURUSD=X,1.15,,28.71,"hypothèse reprise de la note (EUR/USD 1,15), à remplacer par le cours Yahoo EURUSD=X"
+USD,Salvador,SV,EURUSD=X,1.15,,28.60,"hypothèse reprise de la note (EUR/USD 1,15), à remplacer par le cours Yahoo EURUSD=X (économie dollarisée)"
+USD,Timor oriental,TL,EURUSD=X,1.16,,9.78,"hypothèse reprise de la note (1 € = 1,16 USD)"
+USD,Zimbabwe,ZW,EURUSD=X,1.165,,39.06,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURUSD=X"
+USD,Équateur,EC,EURUSD=X,1.16,,31.22,"hypothèse (la note ne donne aucun cours) : environ 1,16 dollar pour 1 EUR, à remplacer par le cours Yahoo EURUSD=X ; l'Équateur utilise le dollar"
+USD,États-Unis,US,EURUSD=X,1.1143,,23.34,"Yahoo Finance, 6 novembre 2026 (note)"
+USD,Îles Marshall,MH,EURUSD=X,1.16,,11.85,"hypothèse reprise de la note (1,16 USD pour 1 EUR)"
+UYU,Uruguay,UY,EURUYU=X,44.6,,26.32,"hypothèse reprise de la note (44,6 pesos pour 1 EUR)"
+UZS,Ouzbékistan,UZ,EURUZS=X,14000,,12.00,"aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURUZS=X"
+VES,Venezuela,VE,EURVES=X,170,,33.91,"hypothèse (la note ne donne aucun cours, change très incertain) : 170 bolivars pour 1 EUR ; à remplacer par le cours Yahoo EURVES=X"
+VND,Viêt Nam,VN,EURVND=X,28580,,32.47,"fxfeed.io, EUR/VND = 28 580,52 le 12/11/2026 (agrégateur, à remplacer par le cours Yahoo EURVND=X)"
+WST,Samoa,WS,EURWST=X,3.1,,26.32,"hypothèse reprise de la note (3,1 tālā pour 1 EUR)"
+XAF,Cameroun,CM,EURXAF=X,655.957,,26.32,"parité fixe XAF/EUR (655,957), reprise de la note"
+XAF,Gabon,GA,EURXAF=X,655.957,,26.94,"parité fixe XAF/EUR (655,957), reprise de la note"
+XAF,Guinée équatoriale,GQ,EURXAF=X,655.957,,23.96,"parité fixe XAF/EUR (655,957), reprise de la note"
+XAF,République centrafricaine,CF,EURXAF=X,655.957,,37.43,"parité fixe XAF/EUR (655,957), reprise de la note"
+XCD,Dominique,DM,EURXCD=X,3.105,,32.65,"hypothèse reprise de la note : 2,7 XCD par USD, EUR/USD 1,15"
+XCD,Grenade,GD,EURXCD=X,3.105,,27.42,hypothèse reprise de la note
+XCD,Montserrat,MS,EURXCD=X,3.105,,36.83,hypothèse reprise de la note
+XCD,Sainte-Lucie,LC,EURXCD=X,3.105,,29.50,hypothèse reprise de la note
+XCG,Curaçao,CW,EURXCG=X,2.06,,39.50,"hypothèse reprise de la note : 1,79 XCG par USD, EUR/USD 1,15"
+XCG,Saint-Martin (partie néerlandaise),SX,EURXCG=X,2.06,,41.21,"hypothèse reprise de la note : 1,79 XCG par USD, EUR/USD 1,15"
+XOF,Burkina Faso,BF,EURXOF=X,655.957,,19.82,"parité fixe XOF/EUR (655,957), reprise de la note"
+XOF,Bénin,BJ,EURXOF=X,655.957,,29.40,"parité fixe XOF/EUR (655,957), reprise de la note"
+XOF,Côte d’Ivoire,CI,EURXOF=X,655.957,,28.47,"parité fixe XOF/EUR (655,957), reprise de la note"
+XOF,Mali,ML,EURXOF=X,655.957,,39.57,"parité fixe XOF/EUR (655,957), reprise de la note"
+XOF,Niger,NE,EURXOF=X,655.957,,34.58,"parité fixe XOF/EUR (655,957), reprise de la note"
+XOF,Sénégal,SN,EURXOF=X,655.957,,41.39,"parité fixe XOF/EUR (655,957), reprise de la note"
+XOF,Togo,TG,EURXOF=X,655.957,,32.88,"parité fixe XOF/EUR (655,957), reprise de la note"
+YER,Yémen,YE,EURYER=X,615,,14.98,hypothèse reprise de la note (1 € = 615 YER)
+ZAR,Afrique du Sud,ZA,EURZAR=X,20,,40.90,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURZAR=X"
+ZMW,Zambie,ZM,EURZMW=X,27,,37.06,"hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURZMW=X"

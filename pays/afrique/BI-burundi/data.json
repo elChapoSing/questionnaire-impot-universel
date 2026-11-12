@@ -1,22 +1,50 @@
 {
   "code": "BI",
   "nom": "Burundi",
-  "rate": 32.3,
-  "range": [
-    29.9,
-    34.7
-  ],
-  "note": "Sources en désaccord : barème annuel 2026 avec taux maximal 35 % (simulateur) ou ancien barème officiel mensuel avec 30 % au-delà de 300 000 BIF/mois. Dans les deux cas le taux dépasse 29 %. Change (hypothèse) : 1 EUR = 3 400 BIF. Changements éventuels de la loi de finances 2026-2027 non vérifiés.",
+  "rate": 29.9,
+  "note": "Barème officiel de l'OBR (loi n° 1/02 de 2013) : 0 % jusqu'à 1,8 million de BIF par an, 20 % jusqu'à 3,6 millions, 30 % au-delà ; environ 29,9 % avec 1 EUR = 3 400 BIF (hypothèse). Le barème à 35 % d'un simulateur privé n'est pas confirmé. La synthèse DLA Piper de la loi de finances 2026-2027 ne signale pas de changement du barème.",
   "sources": [
     {
-      "titre": "AfroTools - calcul salaire net Burundi",
-      "url": "https://afrotools.com/fr/burundi/calculateur-salaire-net/",
-      "type": "non officielle"
+      "titre": "OBR - Informations de base (barème annuel de l'impôt, loi n° 1/02 du 24 janvier 2013)",
+      "url": "https://mail.obr.bi/images/PDF/Depliant_Info_de_base_FR_final_site.pdf",
+      "type": "officielle"
     },
     {
       "titre": "OBR - mode de calcul de l'IPR",
       "url": "https://www.obr.bi/images/stories/download/MODE_CALCUL_IPR.pdf",
       "type": "officielle"
+    },
+    {
+      "titre": "DLA Piper Africa - Réformes budgétaires 2026-2027",
+      "url": "https://www.dlapiperafrica.com/export/sites/africa/burundi/downloads/2026/Reformes-budgetaires.pdf_2063069264.pdf",
+      "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "BIF",
+    "fx": 3400,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EURBIF=X",
+    "tranches": [
+      [
+        0,
+        1800000,
+        0
+      ],
+      [
+        1800000,
+        3600000,
+        20
+      ],
+      [
+        3600000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Barème officiel de l'OBR (loi n° 1/02 du 24 janvier 2013) : 0 % jusqu'à 150 000 BIF par mois, 20 % de 150 000 à 300 000, 30 % au-delà, soit 1,8 et 3,6 millions de BIF par an.",
+      "Le barème à 25 % et 35 % d'un simulateur privé (AfroTools) n'est confirmé par aucune source officielle ; le taux maximal de 35 % est celui de l'ancien code de 1963, remplacé en 2013. La loi de finances 2026-2027 (loi n° 1/10 du 30 juin 2026) n'a pas modifié ce barème d'après la synthèse DLA Piper, sans certitude.",
+      "Cotisation INSS (4 %, plafonnée) non déduite."
+    ]
+  }
 }

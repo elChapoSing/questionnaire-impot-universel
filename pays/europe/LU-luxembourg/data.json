@@ -1,12 +1,17 @@
 {
   "code": "LU",
   "nom": "Luxembourg",
-  "rate": 38.5,
-  "note": "Luxembourg 2026, classe 1 : barème à 23 tranches jusqu'à 42 % au-delà de 220 788 EUR, plus contribution de solidarité (9 % de l'impôt au-delà de 150 000 EUR selon une source, 7 % pour la plupart des contribuables). Estimation à partir de tranches non vérifiées une à une : environ 38,5 % (environ 35 % sans la contribution).",
+  "rate": 37.8,
+  "note": "Luxembourg, classe 1 : barème à 23 tranches (42 % au-delà de 234 850 EUR) donnant 34,7 % d'impôt de barème sur 240 300 EUR, majoré de la contribution au fonds pour l'emploi de 9 % (revenu imposable ajusté supérieur à 150 000 EUR en classe 1, selon l'ACD), soit environ 37,8 %. Barème publié pour 2025 ; l'indexation 2026 n'a pas pu être vérifiée sur le site de l'ACD.",
   "sources": [
     {
-      "titre": "Taxx.lu, barème luxembourgeois",
-      "url": "https://taxx.lu/en/articles/luxembourg-tax-rates-in-plain-english",
+      "titre": "ACD - Fonds pour l'emploi (contribution de 7 % ou 9 %)",
+      "url": "https://impotsdirects.public.lu/fr/az/f/fond_empl.html",
+      "type": "officielle"
+    },
+    {
+      "titre": "Taxx.lu - barème de la classe 1",
+      "url": "https://taxx.lu/en/tax-return-guide/the-tax-scale-in-luxembourg",
       "type": "non officielle"
     },
     {
@@ -14,5 +19,138 @@
       "url": "https://macalculatriceenligne.com/outils/calculatrice-fiscale-luxembourg/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays de la zone euro",
+    "tranches": [
+      [
+        0,
+        13200,
+        0
+      ],
+      [
+        13200,
+        15400,
+        8
+      ],
+      [
+        15400,
+        17600,
+        9
+      ],
+      [
+        17600,
+        19800,
+        10
+      ],
+      [
+        19800,
+        22050,
+        11
+      ],
+      [
+        22050,
+        24250,
+        12
+      ],
+      [
+        24250,
+        26550,
+        14
+      ],
+      [
+        26550,
+        28800,
+        16
+      ],
+      [
+        28800,
+        31100,
+        18
+      ],
+      [
+        31100,
+        33400,
+        20
+      ],
+      [
+        33400,
+        35700,
+        22
+      ],
+      [
+        35700,
+        38000,
+        24
+      ],
+      [
+        38000,
+        40300,
+        26
+      ],
+      [
+        40300,
+        42600,
+        28
+      ],
+      [
+        42600,
+        44900,
+        30
+      ],
+      [
+        44900,
+        47200,
+        32
+      ],
+      [
+        47200,
+        49500,
+        34
+      ],
+      [
+        49500,
+        51750,
+        36
+      ],
+      [
+        51750,
+        54050,
+        38
+      ],
+      [
+        54050,
+        117450,
+        39
+      ],
+      [
+        117450,
+        176150,
+        40
+      ],
+      [
+        176150,
+        234850,
+        41
+      ],
+      [
+        234850,
+        null,
+        42
+      ]
+    ],
+    "majorations": [
+      [
+        "Contribution au fonds pour l'emploi (9 % de l'impôt, classe 1, revenu imposable ajusté supérieur à 150 000 EUR)",
+        9
+      ]
+    ],
+    "hypotheses": [
+      "Barème de la classe 1 de l'ACD (23 tranches, 42 % au-delà de 234 850 EUR), tel que publié pour 2025 et reproduit par taxx.lu ; un ajustement d'indexation pour 2026 ne changerait pas le taux d'un demi-point.",
+      "Contribution au fonds pour l'emploi : 7 % de l'impôt jusqu'à 150 000 EUR de revenu imposable ajusté en classes 1 et 1a, 9 % au-delà (ACD) ; à 240 300 EUR le taux de 9 % s'applique à l'impôt entier. Sans la contribution : 34,7 %.",
+      "Revenu imposable pris égal au salaire brut, sans déductions ni cotisations sociales."
+    ]
+  }
 }

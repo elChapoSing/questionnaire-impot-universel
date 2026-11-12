@@ -48,7 +48,7 @@ Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul t
 | [Jersey](europe/JE-jersey/README.md) | 20,0 % | Discutable | oui |
 | [Lettonie](europe/LV-lettonie/README.md) | 29,5 % | Nettement au-dessus du seuil | oui |
 | [Lituanie](europe/LT-lituanie/README.md) | 26,2 % | Nettement au-dessus du seuil | oui |
-| [Luxembourg](europe/LU-luxembourg/README.md) | 38,5 % | Nettement au-dessus du seuil | non |
+| [Luxembourg](europe/LU-luxembourg/README.md) | 37,8 % | Nettement au-dessus du seuil | oui |
 | [Macédoine du Nord](europe/MK-macedoine-du-nord/README.md) | 10,0 % | Nettement en dessous du seuil | oui |
 | [Malte](europe/MT-malte/README.md) | 31,1 % | Nettement au-dessus du seuil | oui |
 | [Moldavie](europe/MD-moldavie/README.md) | 12,0 % | Nettement en dessous du seuil | oui |
@@ -82,7 +82,7 @@ Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul t
 | [Angola](afrique/AO-angola/README.md) | 24,3 % | Discutable | oui |
 | [Botswana](afrique/BW-botswana/README.md) | 24,3 % | Discutable | oui |
 | [Burkina Faso](afrique/BF-burkina-faso/README.md) | 19,8 % | Discutable | oui |
-| [Burundi](afrique/BI-burundi/README.md) | 32,3 % | Nettement au-dessus du seuil | non |
+| [Burundi](afrique/BI-burundi/README.md) | 29,9 % | Nettement au-dessus du seuil | oui |
 | [Bénin](afrique/BJ-benin/README.md) | 29,4 % | Nettement au-dessus du seuil | oui |
 | [Cameroun](afrique/CM-cameroun/README.md) | 26,3 % | Nettement au-dessus du seuil | oui |
 | [Cap-Vert](afrique/CV-cap-vert/README.md) | 27,0 % | Nettement au-dessus du seuil | oui |
@@ -123,7 +123,7 @@ Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul t
 | [Zambie](afrique/ZM-zambie/README.md) | 37,1 % | Nettement au-dessus du seuil | oui |
 | [Zimbabwe](afrique/ZW-zimbabwe/README.md) | 39,1 % | Nettement au-dessus du seuil | oui |
 | [Égypte](afrique/EG-egypte/README.md) | 27,3 % | Nettement au-dessus du seuil | oui |
-| [Érythrée](afrique/ER-erythree/README.md) | 28,5 % | Nettement au-dessus du seuil | non |
+| [Érythrée](afrique/ER-erythree/README.md) | 27,7 % | Nettement au-dessus du seuil | oui |
 | [Éthiopie](afrique/ET-ethiopie/README.md) | 34,9 % | Nettement au-dessus du seuil | oui |
 
 ## Asie et Moyen-Orient (44)
@@ -171,7 +171,7 @@ Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul t
 | [Timor oriental](asie/TL-timor-oriental/README.md) | 9,8 % | Nettement en dessous du seuil | oui |
 | [Turkménistan](asie/TM-turkmenistan/README.md) | 10,0 % | Nettement en dessous du seuil | oui |
 | [Turquie](asie/TR-turquie/README.md) | 36,5 % | Nettement au-dessus du seuil | oui |
-| [Viêt Nam](asie/VN-viet-nam/README.md) | 34,0 % | Nettement au-dessus du seuil | non |
+| [Viêt Nam](asie/VN-viet-nam/README.md) | 32,5 % | Nettement au-dessus du seuil | oui |
 | [Yémen](asie/YE-yemen/README.md) | 15,0 % | Nettement en dessous du seuil | oui |
 | [Émirats arabes unis](asie/AE-emirats-arabes-unis/README.md) | 0,0 % | Nettement en dessous du seuil | oui |
 
