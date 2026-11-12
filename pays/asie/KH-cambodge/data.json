@@ -14,5 +14,41 @@
       "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/consulting/2024/dttl-tax-cambodiahighlights-2023.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "KHR",
+    "fx": 4500,
+    "fx_source": "hypothèse reprise de la note (fourchette 4 000 à 5 000 riels pour 1 € ; milieu retenu)",
+    "tranches": [
+      [
+        0,
+        18000000,
+        0
+      ],
+      [
+        18000000,
+        24000000,
+        5
+      ],
+      [
+        24000000,
+        102000000,
+        10
+      ],
+      [
+        102000000,
+        150000000,
+        15
+      ],
+      [
+        150000000,
+        null,
+        20
+      ]
+    ],
+    "hypotheses": [
+      "Barème mensuel (0 à 1,5 M ; 5 % jusqu'à 2 M ; 10 % jusqu'à 8,5 M ; 15 % jusqu'à 12,5 M ; 20 % au-delà) multiplié par 12 pour obtenir des tranches annuelles.",
+      "Abattements pour conjoint et enfants exclus ; le résultat reste entre 18,5 et 18,8 % sur la fourchette de change."
+    ]
+  }
 }

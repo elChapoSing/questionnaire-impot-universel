@@ -9,5 +9,40 @@
       "url": "https://taxsummaries.pwc.com/Uganda/Individual/Taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "UGX",
+    "fx": 4200,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURUGX=X",
+    "tranches": [
+      [
+        0,
+        2820000,
+        0
+      ],
+      [
+        2820000,
+        4020000,
+        10
+      ],
+      [
+        4020000,
+        4920000,
+        20
+      ],
+      [
+        4920000,
+        120000000,
+        30
+      ],
+      [
+        120000000,
+        null,
+        40
+      ]
+    ],
+    "hypotheses": [
+      "Barème mensuel résident multiplié par 12 ; le taux de 40 % comprend la surtaxe de 10 % au-delà de 10 millions UGX par mois."
+    ]
+  }
 }

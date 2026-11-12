@@ -9,5 +9,35 @@
       "url": "https://taxsummaries.pwc.com/eswatini/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "SZL",
+    "fx": 20,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURSZL=X",
+    "tranches": [
+      [
+        0,
+        100000,
+        20
+      ],
+      [
+        100000,
+        150000,
+        25
+      ],
+      [
+        150000,
+        200000,
+        30
+      ],
+      [
+        200000,
+        null,
+        33
+      ]
+    ],
+    "hypotheses": [
+      "Rabais de 8 200 SZL ignoré."
+    ]
+  }
 }

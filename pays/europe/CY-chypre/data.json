@@ -14,5 +14,41 @@
       "url": "https://www.ey.com/en_cy/technical/tax-alert/tax-legi-february-2026",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, change 1",
+    "tranches": [
+      [
+        0,
+        22000,
+        0
+      ],
+      [
+        22000,
+        32000,
+        20
+      ],
+      [
+        32000,
+        42000,
+        25
+      ],
+      [
+        42000,
+        72000,
+        30
+      ],
+      [
+        72000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026 : 0 % jusqu'à 22 000 €, 20 %, 25 %, 30 % et 35 % au-delà de 72 000 €.",
+      "Cotisations sociales et contribution GESY exclues."
+    ]
+  }
 }

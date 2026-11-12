@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : GMD. Cours supposé : 1 EUR = 82 GMD (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURGMD=X).
+- Salaire converti : 240 300 € × 82 = 19 704 600 GMD.
+- Base imposable : 19 704 600 GMD.
+
+| De (GMD) | À (GMD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 36 000 | 0,00 % | 36 000 | 0 |
+| 36 000 | 46 000 | 5,00 % | 10 000 | 500 |
+| 46 000 | 56 000 | 10,00 % | 10 000 | 1 000 |
+| 56 000 | 66 000 | 15,00 % | 10 000 | 1 500 |
+| 66 000 | 76 000 | 20,00 % | 10 000 | 2 000 |
+| 76 000 | et plus | 25,00 % | 19 628 600 | 4 907 150 |
+
+- **Impôt total : 4 912 150 GMD, soit 24,9 % du salaire brut.**
+- Hypothèse : Barème 2025 (Rivermate, GRA) à taux maximal 25 % ; TaxAtlas indique 30 % au-delà de 86 000 GMD, d'où la fourchette 24,9 à 29,9 % de la note.
 
 ## Note
 

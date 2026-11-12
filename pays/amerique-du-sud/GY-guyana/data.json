@@ -18,5 +18,26 @@
       "url": "https://taxsummaries.pwc.com/guyana/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "GYD",
+    "fx": 240,
+    "fx_source": "hypothèse reprise de la note (240 GYD pour 1 EUR, soit 209 par USD)",
+    "tranches": [
+      [
+        0,
+        3360000,
+        25
+      ],
+      [
+        3360000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "25 % jusqu'à 3 360 000 GYD, 35 % au-delà (2026).",
+      "Abattement personnel (tiers du revenu ou 1 680 000 GYD) non appliqué ; avec le tiers déduit, la note donne environ 22,7 %."
+    ]
+  }
 }

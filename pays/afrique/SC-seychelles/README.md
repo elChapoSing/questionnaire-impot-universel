@@ -9,7 +9,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : SCR. Cours supposé : 1 EUR = 16,5 SCR (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURSCR=X).
+- Salaire converti : 240 300 € × 16,5 = 3 964 950 SCR.
+- Base imposable : 3 964 950 SCR.
+
+| De (SCR) | À (SCR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 150 000 | 0,00 % | 150 000 | 0 |
+| 150 000 | 600 000 | 15,00 % | 450 000 | 67 500 |
+| 600 000 | et plus | 30,00 % | 3 364 950 | 1 009 485 |
+
+- **Impôt total : 1 076 985 SCR, soit 27,2 % du salaire brut.**
+- Hypothèse : Seuil d'exonération de 150 000 SCR.
 
 ## Note
 

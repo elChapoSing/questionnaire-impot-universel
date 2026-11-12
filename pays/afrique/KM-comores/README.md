@@ -9,7 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : KMF. Cours supposé : 1 EUR = 491,968 KMF (parité fixe KMF/EUR (491,968), reprise de la note).
+- Salaire converti : 240 300 € × 491,968 = 118 219 910 KMF.
+- Déduction : Déduction forfaitaire de 30 % pour frais professionnels sur salaires (art. 59 CGI) : − 35 465 973 KMF.
+- Base imposable : 82 753 937 KMF.
+
+| De (KMF) | À (KMF) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 150 000 | 0,00 % | 150 000 | 0 |
+| 150 000 | 500 000 | 5,00 % | 350 000 | 17 500 |
+| 500 000 | 1 000 000 | 10,00 % | 500 000 | 50 000 |
+| 1 000 000 | 1 500 000 | 15,00 % | 500 000 | 75 000 |
+| 1 500 000 | 2 500 000 | 20,00 % | 1 000 000 | 200 000 |
+| 2 500 000 | 3 500 000 | 25,00 % | 1 000 000 | 250 000 |
+| 3 500 000 | et plus | 30,00 % | 79 253 937 | 23 776 181 |
+
+- **Impôt total : 24 368 681 KMF, soit 20,6 % du salaire brut.**
+- Hypothèse : Barème à 7 tranches (art. 97 CGI 2023).
+- Hypothèse : Variante de la note : sans déduction de 30 %, 29,6 %.
 
 ## Note
 

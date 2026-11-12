@@ -19,5 +19,61 @@
       "url": "https://hacecuentas.com/blog/escala-ganancias-2026-argentina-tabla-completa-explicada",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "ARS",
+    "fx": 1850,
+    "fx_source": "hypothèse (aucun cours dans la note) : environ 1 850 pesos pour 1 EUR, à remplacer par le cours Yahoo EURARS=X ; taux très peu sensible au change au-delà de 1 500 (de 33,3 % à 33,6 % entre 1 600 et 2 000)",
+    "tranches": [
+      [
+        0,
+        2000030.09,
+        5
+      ],
+      [
+        2000030.09,
+        4000060.18,
+        9
+      ],
+      [
+        4000060.18,
+        6000090.27,
+        12
+      ],
+      [
+        6000090.27,
+        9000135.41,
+        15
+      ],
+      [
+        9000135.41,
+        18000270.81,
+        19
+      ],
+      [
+        18000270.81,
+        27000406.21,
+        23
+      ],
+      [
+        27000406.21,
+        40500609.32,
+        27
+      ],
+      [
+        40500609.32,
+        60750913.98,
+        31
+      ],
+      [
+        60750913.98,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Barème annuel de l'article 94 en vigueur de janvier à juin 2026 : première tranche jusqu'à 2 000 030,09 pesos, bornes suivantes à 2, 3, 4,5, 9, 13,5, 20,25 et 30,375 fois ce montant (35 % à partir de 60 750 913,96, comme dans la note). Bornes recalculées à partir de ce multiple ; à comparer au PDF officiel de l'ARCA.",
+      "Aucune déduction personnelle, aucun abattement spécial salariés ni cotisations déduites : tout le salaire brut est la base imposable."
+    ]
+  }
 }

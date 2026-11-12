@@ -13,5 +13,26 @@
       "url": "https://falklands.gov.fk/taxation/images/General_Tax_Guide_Individuals_2024_onwards.pdf",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "GBP",
+    "fx": 0.87,
+    "fx_source": "hypothèse reprise de la note (0,87 GBP pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        12000,
+        21
+      ],
+      [
+        12000,
+        null,
+        26
+      ]
+    ],
+    "hypotheses": [
+      "21 % sur les 12 000 premières livres, 26 % au-delà.",
+      "Abattement personnel de 15 960 GBP non appliqué (variante de la note : environ 23,7 %)."
+    ]
+  }
 }

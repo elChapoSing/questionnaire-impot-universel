@@ -9,7 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : CRC. Cours supposé : 1 EUR = 557 CRC (hypothèse reprise de la note, à remplacer par le cours Yahoo EURCRC=X).
+- Salaire converti : 240 300 € × 557 = 133 847 100 CRC.
+- Base imposable : 133 847 100 CRC.
+
+| De (CRC) | À (CRC) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 11 016 000 | 0,00 % | 11 016 000 | 0 |
+| 11 016 000 | 16 164 000 | 10,00 % | 5 148 000 | 514 800 |
+| 16 164 000 | 28 368 000 | 15,00 % | 12 204 000 | 1 830 600 |
+| 28 368 000 | 56 724 000 | 20,00 % | 28 356 000 | 5 671 200 |
+| 56 724 000 | et plus | 25,00 % | 77 123 100 | 19 280 775 |
+
+- **Impôt total : 27 297 375 CRC, soit 20,4 % du salaire brut.**
+- Hypothèse : Barème mensuel du décret 45333-H (2026) multiplié par 12 : 0 % jusqu'à 918 000 CRC par mois, puis 10, 15, 20 et 25 % au-delà de 1 347 000, 2 364 000 et 4 727 000.
+- Hypothèse : Calculé sur le brut, sans déduire la cotisation CCSS ; crédits familiaux non appliqués.
+- Hypothèse : Barème des salariés ; un barème distinct s'applique aux indépendants.
 
 ## Note
 

@@ -9,7 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : STN. Cours supposé : 1 EUR = 24,5 STN (parité fixe STN/EUR (24,5), reprise de la note).
+- Salaire converti : 240 300 € × 24,5 = 5 887 350 STN.
+- Base imposable : 5 887 350 STN.
+
+| De (STN) | À (STN) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 11 700 | 0,00 % | 11 700 | 0 |
+| 11 700 | 50 000 | 10,00 % | 38 300 | 3 830 |
+| 50 000 | 100 000 | 13,00 % | 50 000 | 6 500 |
+| 100 000 | 150 000 | 15,00 % | 50 000 | 7 500 |
+| 150 000 | 240 000 | 20,00 % | 90 000 | 18 000 |
+| 240 000 | et plus | 25,00 % | 5 647 350 | 1 411 838 |
+
+- **Impôt total : 1 447 668 STN, soit 24,6 % du salaire brut.**
+- Hypothèse : Source unique non officielle (Immigrant Invest, loi 11/2009 art. 66).
+- Hypothèse : Barème appliqué en tranches marginales ; la source donne aussi des montants déductibles par tranche, non reproduits (variante 24,2 à 24,9 % de la note).
 
 ## Note
 

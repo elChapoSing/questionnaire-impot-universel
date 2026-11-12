@@ -19,5 +19,41 @@
       "url": "https://www.taxesforexpats.com/country-guides/finland/simple-tax-guide-for-americans-in-finland.html",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, change 1",
+    "tranches": [
+      [
+        0,
+        22000,
+        20.21
+      ],
+      [
+        22000,
+        32600,
+        26.57
+      ],
+      [
+        32600,
+        40100,
+        37.82
+      ],
+      [
+        40100,
+        52100,
+        40.82
+      ],
+      [
+        52100,
+        null,
+        45.07
+      ]
+    ],
+    "hypotheses": [
+      "Barème d'État 2026 (12,64 / 19 / 30,25 / 33,25 / 37,5 %, impôt fixe de 11 053,55 € à 52 100 €) auquel s'ajoute l'impôt communal moyen de 7,57 %, appliqué à tout le revenu : les taux sont cumulés.",
+      "Taxe d'église, assurance maladie, crédit d'impôt sur le revenu du travail et déductions exclus."
+    ]
+  }
 }

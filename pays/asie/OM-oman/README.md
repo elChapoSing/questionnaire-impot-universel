@@ -9,7 +9,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : EUR. Cours supposé : 1 EUR = 1 EUR (pays en euro pour le calcul, sans conversion).
+- Salaire converti : 240 300 € × 1 = 240 300 EUR.
+- Base imposable : 240 300 EUR.
+
+| De (EUR) | À (EUR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 0,00 % | 240 300 | 0 |
+
+- **Impôt total : 0 EUR, soit 0,0 % du salaire brut.**
+- Hypothèse : Aucun impôt sur le revenu en 2026 et 2027 ; un impôt de 5 % au-delà de 42 000 rials omanais s'appliquera à partir du 1er janvier 2028 (non retenu).
 
 ## Note
 

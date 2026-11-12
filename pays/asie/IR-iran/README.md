@@ -9,7 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : IRR. Cours supposé : 1 EUR = 1 600 000 IRR (hypothèse reprise de la note (environ 1,6 million IRR pour 1 €)).
+- Salaire converti : 240 300 € × 1 600 000 = 384 480 000 000 IRR.
+- Base imposable : 384 480 000 000 IRR.
+
+| De (IRR) | À (IRR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 720 000 000 | 0,00 % | 720 000 000 | 0 |
+| 720 000 000 | 1 200 000 000 | 10,00 % | 480 000 000 | 48 000 000 |
+| 1 200 000 000 | 1 680 000 000 | 15,00 % | 480 000 000 | 72 000 000 |
+| 1 680 000 000 | 2 400 000 000 | 20,00 % | 720 000 000 | 144 000 000 |
+| 2 400 000 000 | 3 600 000 000 | 25,00 % | 1 200 000 000 | 300 000 000 |
+| 3 600 000 000 | 6 000 000 000 | 30,00 % | 2 400 000 000 | 720 000 000 |
+| 6 000 000 000 | et plus | 35,00 % | 378 480 000 000 | 132 468 000 000 |
+
+- **Impôt total : 133 752 000 000 IRR, soit 34,8 % du salaire brut.**
+- Hypothèse : Barème progressif 2026 (TaxAtlas, source secondaire), indexé sur l'inflation.
+- Hypothèse : Change très volatil mais taux peu sensible. Le barème salarial spécifique pourrait plafonner à 30 % (variante basse de 29,5 %, voir la fourchette).
 
 ## Note
 

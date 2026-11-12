@@ -18,5 +18,26 @@
       "url": "https://pwc.com/m1/en/tax/documents/doing-business-guides/dbily.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "LYD",
+    "fx": 6.3,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURLYD=X",
+    "tranches": [
+      [
+        0,
+        12000,
+        5
+      ],
+      [
+        12000,
+        null,
+        10
+      ]
+    ],
+    "hypotheses": [
+      "Cotisations sociales exclues.",
+      "Variante de la note : un guide PwC mentionne en plus un impôt Jihad de 3 % (taux total jusqu'à 13 %), non appliqué ici."
+    ]
+  }
 }

@@ -9,7 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : XAF. Cours supposé : 1 EUR = 655,957 XAF (parité fixe XAF/EUR (655,957), reprise de la note).
+- Salaire converti : 240 300 € × 655,957 = 157 626 467 XAF.
+- Base imposable : 157 626 467 XAF.
+
+| De (XAF) | À (XAF) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 2 400 000 | 0,00 % | 2 400 000 | 0 |
+| 2 400 000 | 6 000 000 | 8,00 % | 3 600 000 | 288 000 |
+| 6 000 000 | 12 000 000 | 15,00 % | 6 000 000 | 900 000 |
+| 12 000 000 | 24 000 000 | 25,00 % | 12 000 000 | 3 000 000 |
+| 24 000 000 | 36 000 000 | 30,00 % | 12 000 000 | 3 600 000 |
+| 36 000 000 | 60 000 000 | 35,00 % | 24 000 000 | 8 400 000 |
+| 60 000 000 | 120 000 000 | 40,00 % | 60 000 000 | 24 000 000 |
+| 120 000 000 | et plus | 50,00 % | 37 626 467 | 18 813 234 |
+
+- **Impôt total : 59 001 234 XAF, soit 37,4 % du salaire brut.**
+- Hypothèse : Source unique non officielle (AfroTools).
+- Hypothèse : Variante de la note : cotisation CNPS salariale de 3 % déduite (non appliquée ici), environ 35,9 %.
 
 ## Note
 

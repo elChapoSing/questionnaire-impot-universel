@@ -9,7 +9,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : EUR. Cours supposé : 1 EUR = 1 EUR (sans objet : aucun impôt sur le revenu).
+- Salaire converti : 240 300 € × 1 = 240 300 EUR.
+- Base imposable : 240 300 EUR.
+
+| De (EUR) | À (EUR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 0,00 % | 240 300 | 0 |
+
+- **Impôt total : 0 EUR, soit 0,0 % du salaire brut.**
+- Hypothèse : Pas d'impôt sur le revenu des personnes physiques au Vanuatu (seuls TVA et droits indirects).
 
 ## Note
 

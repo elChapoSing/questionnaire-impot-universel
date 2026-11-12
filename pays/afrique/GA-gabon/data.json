@@ -13,5 +13,63 @@
       "url": "https://taxsummaries.pwc.com/gabon/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XAF",
+    "fx": 655.957,
+    "fx_source": "parité fixe XAF/EUR (655,957), reprise de la note",
+    "deductions": [
+      [
+        "Abattement de 20 % (formule PwC ; plafond éventuel non vérifié)",
+        31525293
+      ]
+    ],
+    "tranches": [
+      [
+        0,
+        1500000,
+        0
+      ],
+      [
+        1500000,
+        1920000,
+        5
+      ],
+      [
+        1920000,
+        2700000,
+        10
+      ],
+      [
+        2700000,
+        3600000,
+        15
+      ],
+      [
+        3600000,
+        5160000,
+        20
+      ],
+      [
+        5160000,
+        7500000,
+        25
+      ],
+      [
+        7500000,
+        11000000,
+        30
+      ],
+      [
+        11000000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Une part (célibataire).",
+      "TCTS de 5 % sur salaires ignorée.",
+      "Variante de la note : sans abattement, 33,9 %."
+    ]
+  }
 }

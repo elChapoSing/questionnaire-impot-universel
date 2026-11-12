@@ -9,7 +9,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : CDF. Cours supposé : 1 EUR = 2 650 CDF (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURCDF=X).
+- Salaire converti : 240 300 € × 2 650 = 636 795 000 CDF.
+- Base imposable : 636 795 000 CDF.
+
+| De (CDF) | À (CDF) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 30,00 % | 636 795 000 | 191 038 500 |
+
+- **Impôt total : 191 038 500 CDF, soit 30,0 % du salaire brut.**
+- Hypothèse : L'IPR est plafonné à 30 % de la rémunération imposable (PwC) : à ce niveau de revenu le plafond s'applique à toute la base, d'où un taux unique de 30 %.
+- Hypothèse : Sans le plafond, le barème 3 / 15 / 30 / 40 % donnerait environ 38,8 % (variante de la note).
 
 ## Note
 

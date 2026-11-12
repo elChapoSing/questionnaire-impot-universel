@@ -18,5 +18,41 @@
       "url": "https://rivermate.com/guides/solomon-islands/taxes",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "SBD",
+    "fx": 9.7,
+    "fx_source": "hypothèse reprise de la note (9,7 SBD pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        15000,
+        0
+      ],
+      [
+        15000,
+        30000,
+        11
+      ],
+      [
+        30000,
+        60000,
+        23
+      ],
+      [
+        60000,
+        90000,
+        35
+      ],
+      [
+        90000,
+        null,
+        40
+      ]
+    ],
+    "hypotheses": [
+      "Barème des résidents (TaxAtlas) : franchise de 15 000, puis 11 %, 23 %, 35 % jusqu'à 90 000 et 40 % au-delà. Seuils légèrement divergents selon les sources (40 % dès 60 000 dans l'autre variante, soit 39,3 % environ).",
+      "Sources non officielles, à confirmer auprès de l'administration fiscale."
+    ]
+  }
 }

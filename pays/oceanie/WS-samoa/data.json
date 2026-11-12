@@ -19,5 +19,30 @@
       "url": "https://www.globalinvestments.net/financial-planning/guides/financial-planning-samoa",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "WST",
+    "fx": 3.1,
+    "fx_source": "hypothèse reprise de la note (3,1 tālā pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        15000,
+        0
+      ],
+      [
+        15000,
+        30000,
+        20
+      ],
+      [
+        30000,
+        null,
+        27
+      ]
+    ],
+    "hypotheses": [
+      "Barème : 0 % jusqu'à 15 000 tālā, 20 % jusqu'à 30 000, 27 % au-delà."
+    ]
+  }
 }

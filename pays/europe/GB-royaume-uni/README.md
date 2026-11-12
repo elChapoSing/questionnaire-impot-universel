@@ -9,7 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : GBP. Cours supposé : 1 EUR = 0,87 GBP (hypothèse reprise de la note, à remplacer par le cours Yahoo EURGBP=X).
+- Salaire converti : 240 300 € × 0,87 = 209 061 GBP.
+- Base imposable : 209 061 GBP.
+
+| De (GBP) | À (GBP) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 37 700 | 20,00 % | 37 700 | 7 540 |
+| 37 700 | 125 140 | 40,00 % | 87 440 | 34 976 |
+| 125 140 | et plus | 45,00 % | 83 921 | 37 764 |
+
+- **Impôt total : 80 280 GBP, soit 38,4 % du salaire brut.**
+- Hypothèse : Angleterre, pays de Galles, Irlande du Nord, 2026/27 : abattement personnel nul au-dessus de 125 140 £, donc toute la base est imposée (20 % sur les 37 700 premières livres).
+- Hypothèse : Écosse : taux supérieur de 48 %, soit environ 39,6 %.
+- Hypothèse : Cotisations sociales (NIC) exclues.
 
 ## Note
 

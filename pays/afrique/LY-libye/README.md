@@ -9,7 +9,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : LYD. Cours supposé : 1 EUR = 6,3 LYD (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURLYD=X).
+- Salaire converti : 240 300 € × 6,3 = 1 513 890 LYD.
+- Base imposable : 1 513 890 LYD.
+
+| De (LYD) | À (LYD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 12 000 | 5,00 % | 12 000 | 600 |
+| 12 000 | et plus | 10,00 % | 1 501 890 | 150 189 |
+
+- **Impôt total : 150 789 LYD, soit 10,0 % du salaire brut.**
+- Hypothèse : Cotisations sociales exclues.
+- Hypothèse : Variante de la note : un guide PwC mentionne en plus un impôt Jihad de 3 % (taux total jusqu'à 13 %), non appliqué ici.
 
 ## Note
 

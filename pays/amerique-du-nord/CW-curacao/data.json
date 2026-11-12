@@ -9,5 +9,47 @@
       "url": "https://gobiernu.cw/wp-content/uploads/2025/12/226.-Min-reg-vaststelling-bedragen-ib-2026.pdf",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XCG",
+    "fx": 2.06,
+    "fx_source": "hypothèse reprise de la note : 1,79 XCG par USD, EUR/USD 1,15",
+    "tranches": [
+      [
+        0,
+        39094,
+        9.75
+      ],
+      [
+        39094,
+        52127,
+        15
+      ],
+      [
+        52127,
+        78190,
+        23
+      ],
+      [
+        78190,
+        110769,
+        30
+      ],
+      [
+        110769,
+        162894,
+        37.5
+      ],
+      [
+        162894,
+        null,
+        46.5
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026 (arrêté ministériel, gobiernu.cw).",
+      "Crédit de base de 2 915 XCG non appliqué (effet d'environ 0,6 point).",
+      "Peu sensible au change."
+    ]
+  }
 }

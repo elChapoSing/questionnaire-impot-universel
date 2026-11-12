@@ -9,5 +9,40 @@
       "url": "https://taxsummaries.pwc.com/Botswana/Individual/Taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "BWP",
+    "fx": 15.8,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURBWP=X",
+    "tranches": [
+      [
+        0,
+        48000,
+        0
+      ],
+      [
+        48000,
+        84000,
+        5
+      ],
+      [
+        84000,
+        120000,
+        12.5
+      ],
+      [
+        120000,
+        156000,
+        18.75
+      ],
+      [
+        156000,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Barème résident à 5 tranches ; relèvements de seuils du budget 2026 non vérifiés."
+    ]
+  }
 }

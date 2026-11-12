@@ -14,5 +14,45 @@
       "url": "https://www.expanship.com/ms/blog/montserrat-personal-income-tax",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XCD",
+    "fx": 3.105,
+    "fx_source": "hypothèse reprise de la note",
+    "tranches": [
+      [
+        0,
+        18000,
+        0
+      ],
+      [
+        18000,
+        25000,
+        5
+      ],
+      [
+        25000,
+        35000,
+        20
+      ],
+      [
+        35000,
+        45000,
+        25
+      ],
+      [
+        45000,
+        150000,
+        30
+      ],
+      [
+        150000,
+        null,
+        40
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2024 (Income and Corporation Tax (Amendment) Act 2024), via Orbitax ; source secondaire non officielle."
+    ]
+  }
 }

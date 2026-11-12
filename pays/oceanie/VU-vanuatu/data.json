@@ -9,5 +9,20 @@
       "url": "https://investvanuatu.vu/untapped-potential/low-tax-jurisdiction/",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "sans objet : aucun impôt sur le revenu",
+    "tranches": [
+      [
+        0,
+        null,
+        0
+      ]
+    ],
+    "hypotheses": [
+      "Pas d'impôt sur le revenu des personnes physiques au Vanuatu (seuls TVA et droits indirects)."
+    ]
+  }
 }

@@ -9,5 +9,51 @@
       "url": "https://taxsummaries.pwc.com/senegal/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XOF",
+    "fx": 655.957,
+    "fx_source": "parité fixe XOF/EUR (655,957), reprise de la note",
+    "tranches": [
+      [
+        0,
+        630000,
+        0
+      ],
+      [
+        630000,
+        1500000,
+        20
+      ],
+      [
+        1500000,
+        4000000,
+        30
+      ],
+      [
+        4000000,
+        8000000,
+        35
+      ],
+      [
+        8000000,
+        13500000,
+        37
+      ],
+      [
+        13500000,
+        50000000,
+        40
+      ],
+      [
+        50000000,
+        null,
+        43
+      ]
+    ],
+    "hypotheses": [
+      "Une part (célibataire).",
+      "Abattement éventuel de 30 % plafonné non pris en compte (effet négligeable)."
+    ]
+  }
 }

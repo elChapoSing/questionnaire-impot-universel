@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : MWK. Cours supposé : 1 EUR = 2 000 MWK (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMWK=X).
+- Salaire converti : 240 300 € × 2 000 = 480 600 000 MWK.
+- Base imposable : 480 600 000 MWK.
+
+| De (MWK) | À (MWK) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 2 040 000 | 0,00 % | 2 040 000 | 0 |
+| 2 040 000 | 18 840 000 | 30,00 % | 16 800 000 | 5 040 000 |
+| 18 840 000 | 120 000 000 | 35,00 % | 101 160 000 | 35 406 000 |
+| 120 000 000 | et plus | 40,00 % | 360 600 000 | 144 240 000 |
+
+- **Impôt total : 184 686 000 MWK, soit 38,4 % du salaire brut.**
+- Hypothèse : Barème PAYE 2026 mensuel (Workpay) multiplié par 12.
 
 ## Note
 

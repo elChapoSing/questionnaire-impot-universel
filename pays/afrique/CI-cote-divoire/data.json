@@ -14,5 +14,46 @@
       "url": "https://payspace.com/blog/ivory-coast-its-reform",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XOF",
+    "fx": 655.957,
+    "fx_source": "parité fixe XOF/EUR (655,957), reprise de la note",
+    "tranches": [
+      [
+        0,
+        900000,
+        0
+      ],
+      [
+        900000,
+        2880000,
+        16
+      ],
+      [
+        2880000,
+        9600000,
+        21
+      ],
+      [
+        9600000,
+        28800000,
+        24
+      ],
+      [
+        28800000,
+        96000000,
+        28
+      ],
+      [
+        96000000,
+        null,
+        32
+      ]
+    ],
+    "hypotheses": [
+      "ITS unifié 2024, barème mensuel multiplié par 12, appliqué à 100 % du salaire imposable (abattement de 20 % supprimé).",
+      "Réduction pour charges de famille ignorée."
+    ]
+  }
 }

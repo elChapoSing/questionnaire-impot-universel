@@ -18,5 +18,71 @@
       "url": "https://support.payspace.com/portal/en/kb/articles/angola-2026-income-tax-law-enacted-key-payroll-changes-effective-1-january-2026",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "AOA",
+    "fx": 1060,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURAOA=X",
+    "tranches": [
+      [
+        0,
+        1800000,
+        0
+      ],
+      [
+        1800000,
+        2400000,
+        16
+      ],
+      [
+        2400000,
+        3600000,
+        18
+      ],
+      [
+        3600000,
+        6000000,
+        19
+      ],
+      [
+        6000000,
+        12000000,
+        20
+      ],
+      [
+        12000000,
+        18000000,
+        21
+      ],
+      [
+        18000000,
+        24000000,
+        22
+      ],
+      [
+        24000000,
+        30000000,
+        23
+      ],
+      [
+        30000000,
+        60000000,
+        24
+      ],
+      [
+        60000000,
+        120000000,
+        24.5
+      ],
+      [
+        120000000,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Barème IRT groupe A (loi 14/25), seuils mensuels multipliés par 12 ; le rapport annuel/mensuel suppose un salaire régulier sur 12 mois.",
+      "Variante de la note : base nette de la cotisation sociale salariale de 3 % (non appliquée ici), environ 23,5 %."
+    ]
+  }
 }

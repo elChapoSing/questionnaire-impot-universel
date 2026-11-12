@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : USD. Cours supposé : 1 EUR = 1,165 USD (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURUSD=X).
+- Salaire converti : 240 300 € × 1,165 = 279 950 USD.
+- Base imposable : 279 950 USD.
+
+| De (USD) | À (USD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 1 200 | 0,00 % | 1 200 | 0 |
+| 1 200 | 3 600 | 20,00 % | 2 400 | 480 |
+| 3 600 | 36 000 | 25,00 % | 32 400 | 8 100 |
+| 36 000 | et plus | 40,00 % | 243 950 | 97 580 |
+
+- Majoration : Contribution SIDA (AIDS levy) : + 3,0 % de l'impôt.
+- **Impôt total : 109 345 USD, soit 39,1 % du salaire brut.**
+- Hypothèse : Barème en USD non vérifié sur la source primaire ZIMRA.
+- Hypothèse : Variante de la note : sans la contribution SIDA, 37,9 %.
 
 ## Note
 

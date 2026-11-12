@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : IDR. Cours supposé : 1 EUR = 19 500 IDR (la note cite le cours BCE du 27 juillet 2026 sans le chiffrer ; valeur reconstituée, à remplacer par EURIDR=X).
+- Salaire converti : 240 300 € × 19 500 = 4 685 850 000 IDR.
+- Base imposable : 4 685 850 000 IDR.
+
+| De (IDR) | À (IDR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 60 000 000 | 5,00 % | 60 000 000 | 3 000 000 |
+| 60 000 000 | 250 000 000 | 15,00 % | 190 000 000 | 28 500 000 |
+| 250 000 000 | 500 000 000 | 25,00 % | 250 000 000 | 62 500 000 |
+| 500 000 000 | 5 000 000 000 | 30,00 % | 4 185 850 000 | 1 255 755 000 |
+| 5 000 000 000 | et plus | 35,00 % | 0 | 0 |
+
+- **Impôt total : 1 349 755 000 IDR, soit 28,8 % du salaire brut.**
+- Hypothèse : Barème de l'article 17 de la loi sur l'impôt sur le revenu (5 à 35 %).
+- Hypothèse : Revenu non imposable (PTKP) et frais professionnels exclus ; la note indique 28,7 à 29,6 % si le change varie de 15 %.
 
 ## Note
 

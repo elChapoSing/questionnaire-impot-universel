@@ -18,5 +18,25 @@
       "url": "https://taxsummaries.pwc.com/tajikistan/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "TJS",
+    "fx": 11,
+    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURTJS=X",
+    "tranches": [
+      [
+        0,
+        10080,
+        8
+      ],
+      [
+        10080,
+        null,
+        13
+      ]
+    ],
+    "hypotheses": [
+      "Variante TaxAtlas 2026 : 8 % puis 13 % au-delà de 840 somonis par mois (10 080 par an). Variante PwC (12 % au-delà d'une déduction personnelle) : environ 12 %, d'où la fourchette de la note."
+    ]
+  }
 }

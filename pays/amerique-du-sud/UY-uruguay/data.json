@@ -19,5 +19,56 @@
       "url": "https://www.uruguayxxi.gub.uy/en/invest/investors-guide/tax-system-2026/download/",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "UYU",
+    "fx": 44.6,
+    "fx_source": "hypothèse reprise de la note (44,6 pesos pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        576576,
+        0
+      ],
+      [
+        576576,
+        823680,
+        10
+      ],
+      [
+        823680,
+        1235520,
+        15
+      ],
+      [
+        1235520,
+        2471040,
+        24
+      ],
+      [
+        2471040,
+        4118400,
+        25
+      ],
+      [
+        4118400,
+        6177600,
+        27
+      ],
+      [
+        6177600,
+        9472320,
+        31
+      ],
+      [
+        9472320,
+        null,
+        36
+      ]
+    ],
+    "hypotheses": [
+      "IRPF travail : barème mensuel en BPC (BPC 2026 : 6 864 pesos) multiplié par 12 pour l'année : 0 % jusqu'à 7 BPC, puis 10 %, 15 %, 24 %, 25 %, 27 %, 31 % et 36 % au-delà de 115 BPC par mois. Seuils intermédiaires du barème standard, à confirmer avec le communiqué du BPS.",
+      "Avant déductions ; la note donne 25,2 % à 27,0 % pour 40 à 48 pesos pour 1 EUR."
+    ]
+  }
 }

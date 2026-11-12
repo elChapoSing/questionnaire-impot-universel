@@ -9,5 +9,41 @@
       "url": "https://api.impots.bj/media/6728ab1c677d7_Benin-General%20Tax%20Code-2024%20Official.pdf",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XOF",
+    "fx": 655.957,
+    "fx_source": "parité fixe XOF/EUR (655,957), reprise de la note",
+    "tranches": [
+      [
+        0,
+        720000,
+        0
+      ],
+      [
+        720000,
+        1800000,
+        10
+      ],
+      [
+        1800000,
+        3000000,
+        15
+      ],
+      [
+        3000000,
+        6000000,
+        19
+      ],
+      [
+        6000000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Barème ITS mensuel (art. 125 CGI) multiplié par 12.",
+      "Cotisations sociales exclues."
+    ]
+  }
 }

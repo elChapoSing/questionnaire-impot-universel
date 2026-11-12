@@ -9,7 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : ILS. Cours supposé : 1 EUR = 3,9 ILS (hypothèse reprise de la note (3,9 shekels pour 1 €)).
+- Salaire converti : 240 300 € × 3,9 = 937 170 ILS.
+- Base imposable : 937 170 ILS.
+
+| De (ILS) | À (ILS) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 84 120 | 10,00 % | 84 120 | 8 412 |
+| 84 120 | 120 720 | 14,00 % | 36 600 | 5 124 |
+| 120 720 | 193 800 | 20,00 % | 73 080 | 14 616 |
+| 193 800 | 269 280 | 31,00 % | 75 480 | 23 399 |
+| 269 280 | 560 280 | 35,00 % | 291 000 | 101 850 |
+| 560 280 | 721 560 | 47,00 % | 161 280 | 75 802 |
+| 721 560 | et plus | 50,00 % | 215 610 | 107 805 |
+
+- Crédit : points de crédit de base (environ) : − 6 500 ILS.
+- **Impôt total : 330 507 ILS, soit 35,3 % du salaire brut.**
+- Hypothèse : Barème 2026, le taux de 50 % au-delà de 721 560 incluant la surtaxe.
+- Hypothèse : Seulement les points de crédit de base (environ 6 500 shekels de crédit) ; la note indique 33,8 % à 3,5 shekels et 36,5 % à 4,2 pour 1 €.
 
 ## Note
 

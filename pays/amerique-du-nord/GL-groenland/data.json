@@ -18,5 +18,21 @@
       "url": "https://taxsummaries.pwc.com/Greenland/Individual/Taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "DKK",
+    "fx": 7.46,
+    "fx_source": "hypothèse (la note ne donne aucun cours ; DKK arrimée à l'euro, environ 7,46), sans effet sur un taux proportionnel",
+    "tranches": [
+      [
+        0,
+        null,
+        43
+      ]
+    ],
+    "hypotheses": [
+      "Impôt proportionnel : communal 26 à 28 %, national 10 % et commun 6 %, soit 42 à 44 % selon la commune ; 43 % retenu (milieu de la fourchette).",
+      "Pourcentages cités par PwC pour 2020, à vérifier."
+    ]
+  }
 }

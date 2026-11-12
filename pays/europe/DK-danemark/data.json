@@ -19,5 +19,32 @@
       "url": "https://www.pwc.dk/da/presse/meddelelser/2025/skattelettelser-paa-vej-til-mange-danskere.html",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "DKK",
+    "fx": 7.46,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EURDKK=X",
+    "tranches": [
+      [
+        0,
+        641200,
+        37.06
+      ],
+      [
+        641200,
+        777900,
+        44.56
+      ],
+      [
+        777900,
+        null,
+        52.07
+      ]
+    ],
+    "hypotheses": [
+      "Impôt d'État de base 12,01 % + impôt communal moyen 25,05 % = 37,06 % ; impôt intermédiaire de 7,5 % dès 641 200 DKK ; impôt supérieur de 15 % dès 777 900 DKK.",
+      "Plafond de 52,07 % sur le taux marginal : la tranche haute est plafonnée à 52,07 %.",
+      "Cotisation AM de 8 %, abattement personnel et déductions exclus."
+    ]
+  }
 }

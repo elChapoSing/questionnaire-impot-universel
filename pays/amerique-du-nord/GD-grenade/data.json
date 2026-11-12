@@ -13,5 +13,25 @@
       "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-grenadahighlights-2026.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XCD",
+    "fx": 3.105,
+    "fx_source": "hypothèse reprise de la note",
+    "tranches": [
+      [
+        0,
+        24000,
+        10
+      ],
+      [
+        24000,
+        null,
+        28
+      ]
+    ],
+    "hypotheses": [
+      "Abattement personnel de 36 000 XCD non appliqué ; avec lui, environ 26,1 % (note)."
+    ]
+  }
 }

@@ -9,5 +9,56 @@
       "url": "https://www.rd.go.th/english/6045.html",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "THB",
+    "fx": 38,
+    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURTHB=X",
+    "tranches": [
+      [
+        0,
+        150000,
+        0
+      ],
+      [
+        150000,
+        300000,
+        5
+      ],
+      [
+        300000,
+        500000,
+        10
+      ],
+      [
+        500000,
+        750000,
+        15
+      ],
+      [
+        750000,
+        1000000,
+        20
+      ],
+      [
+        1000000,
+        2000000,
+        25
+      ],
+      [
+        2000000,
+        5000000,
+        30
+      ],
+      [
+        5000000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Barème progressif jusqu'à 35 % au-delà de 5 millions de bahts.",
+      "Déduction forfaitaire pour frais (50 %, plafonnée à 100 000) et déductions personnelles exclues."
+    ]
+  }
 }

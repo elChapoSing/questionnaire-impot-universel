@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : NIO. Cours supposé : 1 EUR = 42,1 NIO (hypothèse reprise de la note).
+- Salaire converti : 240 300 € × 42,1 = 10 116 630 NIO.
+- Base imposable : 10 116 630 NIO.
+
+| De (NIO) | À (NIO) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 100 000 | 0,00 % | 100 000 | 0 |
+| 100 000 | 200 000 | 15,00 % | 100 000 | 15 000 |
+| 200 000 | 350 000 | 20,00 % | 150 000 | 30 000 |
+| 350 000 | 500 000 | 25,00 % | 150 000 | 37 500 |
+| 500 000 | et plus | 30,00 % | 9 616 630 | 2 884 989 |
+
+- **Impôt total : 2 967 489 NIO, soit 29,3 % du salaire brut.**
+- Hypothèse : Table annuelle du travail ; seules les bornes 100 000 et 500 000 figurent dans la note, les bornes 200 000 et 350 000 sont des valeurs de reconstitution (sans effet au-delà de 500 000).
+- Hypothèse : Calculé sur le brut, sans déduire la cotisation INSS de 7 %.
 
 ## Note
 

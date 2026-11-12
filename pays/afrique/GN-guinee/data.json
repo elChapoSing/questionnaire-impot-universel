@@ -13,5 +13,51 @@
       "url": "https://afrotools.com/fr/guinee/calculateur-salaire-net",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "GNF",
+    "fx": 12100,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURGNF=X",
+    "tranches": [
+      [
+        0,
+        5000000,
+        0
+      ],
+      [
+        5000000,
+        10000000,
+        5
+      ],
+      [
+        10000000,
+        15000000,
+        10
+      ],
+      [
+        15000000,
+        20000000,
+        15
+      ],
+      [
+        20000000,
+        50000000,
+        20
+      ],
+      [
+        50000000,
+        100000000,
+        25
+      ],
+      [
+        100000000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Source unique non officielle (AfroTools).",
+      "Variante de la note : cotisation CNSS salariale de 5 % déduite (non appliquée ici), environ 33 %."
+    ]
+  }
 }

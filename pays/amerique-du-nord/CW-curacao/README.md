@@ -9,7 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : XCG. Cours supposé : 1 EUR = 2,06 XCG (hypothèse reprise de la note : 1,79 XCG par USD, EUR/USD 1,15).
+- Salaire converti : 240 300 € × 2,06 = 495 018 XCG.
+- Base imposable : 495 018 XCG.
+
+| De (XCG) | À (XCG) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 39 094 | 9,75 % | 39 094 | 3 812 |
+| 39 094 | 52 127 | 15,00 % | 13 033 | 1 955 |
+| 52 127 | 78 190 | 23,00 % | 26 063 | 5 994 |
+| 78 190 | 110 769 | 30,00 % | 32 579 | 9 774 |
+| 110 769 | 162 894 | 37,50 % | 52 125 | 19 547 |
+| 162 894 | et plus | 46,50 % | 332 124 | 154 438 |
+
+- **Impôt total : 195 519 XCG, soit 39,5 % du salaire brut.**
+- Hypothèse : Barème 2026 (arrêté ministériel, gobiernu.cw).
+- Hypothèse : Crédit de base de 2 915 XCG non appliqué (effet d'environ 0,6 point).
+- Hypothèse : Peu sensible au change.
 
 ## Note
 

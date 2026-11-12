@@ -19,5 +19,51 @@
       "url": "https://www.wko.at/steuern/einkommen-koerperschaftsteuer-2026",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, change 1",
+    "tranches": [
+      [
+        0,
+        13539,
+        0
+      ],
+      [
+        13539,
+        21992,
+        20
+      ],
+      [
+        21992,
+        36458,
+        30
+      ],
+      [
+        36458,
+        70365,
+        40
+      ],
+      [
+        70365,
+        104859,
+        48
+      ],
+      [
+        104859,
+        1000000,
+        50
+      ],
+      [
+        1000000,
+        null,
+        55
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026 de l'article 33 de l'EStG : impôt cumulé de 36 150,32 € à 104 859 € (vérifié sur les tranches), 50 % de 104 859 à 1 000 000 €.",
+      "Pas de déduction forfaitaire ni de taux réduit de 6 % sur les 13e et 14e mois ; cotisations sociales exclues."
+    ]
+  }
 }

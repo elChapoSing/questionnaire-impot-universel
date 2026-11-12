@@ -9,7 +9,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : AMD. Cours supposé : 1 EUR = 450 AMD (la note ne donne pas de cours : hypothèse de 450 AMD pour 1 EUR, à remplacer par le cours Yahoo EURAMD=X ; sans effet avec un taux unique).
+- Salaire converti : 240 300 € × 450 = 108 135 000 AMD.
+- Base imposable : 108 135 000 AMD.
+
+| De (AMD) | À (AMD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 20,00 % | 108 135 000 | 21 627 000 |
+
+- **Impôt total : 21 627 000 AMD, soit 20,0 % du salaire brut.**
+- Hypothèse : Taux unique de 20 % sur les salaires, sans abattement ni tranche (10 % pour certains profils de R&D, non retenu).
+- Hypothèse : Cotisations sociales exclues. Taux proche du seuil de 21,1 %.
 
 ## Note
 

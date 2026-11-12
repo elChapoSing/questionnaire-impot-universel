@@ -9,5 +9,35 @@
       "url": "https://taxsummaries.pwc.com/republic-of-liberia/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "LRD",
+    "fx": 215,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURLRD=X",
+    "tranches": [
+      [
+        0,
+        70000,
+        0
+      ],
+      [
+        70000,
+        200000,
+        5
+      ],
+      [
+        200000,
+        800000,
+        15
+      ],
+      [
+        800000,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Barème résident à 4 tranches (PwC)."
+    ]
+  }
 }

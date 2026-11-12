@@ -14,5 +14,41 @@
       "url": "https://www.sanjuandailystar.com/post/governor-submits-2nd-phase-of-tax-reform-to-legislature",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "USD",
+    "fx": 1.15,
+    "fx_source": "hypothèse reprise de la note (EUR/USD 1,15), à remplacer par le cours Yahoo EURUSD=X",
+    "tranches": [
+      [
+        0,
+        9000,
+        0
+      ],
+      [
+        9000,
+        25000,
+        7
+      ],
+      [
+        25000,
+        41500,
+        14
+      ],
+      [
+        41500,
+        61500,
+        25
+      ],
+      [
+        61500,
+        null,
+        33
+      ]
+    ],
+    "hypotheses": [
+      "Barème actuel ; les bornes 25 000 et 41 500 USD sont reconstituées (Deloitte 2026), sans effet au-delà de 61 500.",
+      "Réforme en discussion (33 % limité aux revenus au-dessus de 150 000), non votée."
+    ]
+  }
 }

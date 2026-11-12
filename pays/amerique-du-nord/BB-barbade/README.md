@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : BBD. Cours supposé : 1 EUR = 2,3 BBD (hypothèse reprise de la note : 1 USD = 2 BBD, EUR/USD 1,15).
+- Salaire converti : 240 300 € × 2,3 = 552 690 BBD.
+- Base imposable : 552 690 BBD.
+
+| De (BBD) | À (BBD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 25 000 | 0,00 % | 25 000 | 0 |
+| 25 000 | 75 000 | 11,50 % | 50 000 | 5 750 |
+| 75 000 | et plus | 27,50 % | 477 690 | 131 365 |
+
+- **Impôt total : 137 115 BBD, soit 24,8 % du salaire brut.**
+- Hypothèse : Barème 2026 de la Barbados Revenue Authority.
+- Hypothèse : Résultat peu sensible au change.
 
 ## Note
 

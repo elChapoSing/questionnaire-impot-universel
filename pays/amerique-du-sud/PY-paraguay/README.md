@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : PYG. Cours supposé : 1 EUR = 8 000 PYG (hypothèse reprise de la note (environ 8 000 guaranis pour 1 EUR)).
+- Salaire converti : 240 300 € × 8 000 = 1 922 400 000 PYG.
+- Base imposable : 1 922 400 000 PYG.
+
+| De (PYG) | À (PYG) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 50 000 000 | 8,00 % | 50 000 000 | 4 000 000 |
+| 50 000 000 | 150 000 000 | 9,00 % | 100 000 000 | 9 000 000 |
+| 150 000 000 | et plus | 10,00 % | 1 772 400 000 | 177 240 000 |
+
+- **Impôt total : 190 240 000 PYG, soit 9,9 % du salaire brut.**
+- Hypothèse : Impôt sur le revenu personnel (IRP) : 8 % jusqu'à 50 millions de guaranis, 9 % jusqu'à 150 millions, 10 % au-delà.
+- Hypothèse : Aucune déduction de dépenses ; la note indique 9,9 % quel que soit le change.
 
 ## Note
 

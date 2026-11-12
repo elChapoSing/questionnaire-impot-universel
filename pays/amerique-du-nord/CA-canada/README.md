@@ -9,7 +9,28 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : CAD. Cours supposé : 1 EUR = 1,54 CAD (hypothèse reprise de la note, à remplacer par le cours Yahoo EURCAD=X).
+- Salaire converti : 240 300 € × 1,54 = 370 062 CAD.
+- Base imposable : 370 062 CAD.
+
+| De (CAD) | À (CAD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 53 891 | 19,05 % | 53 891 | 10 266 |
+| 53 891 | 58 523 | 23,15 % | 4 632 | 1 072 |
+| 58 523 | 107 785 | 29,65 % | 49 262 | 14 606 |
+| 107 785 | 117 045 | 31,66 % | 9 260 | 2 932 |
+| 117 045 | 150 000 | 37,16 % | 32 955 | 12 246 |
+| 150 000 | 181 440 | 38,16 % | 31 440 | 11 998 |
+| 181 440 | 220 000 | 41,16 % | 38 560 | 15 871 |
+| 220 000 | 258 482 | 42,16 % | 38 482 | 16 224 |
+| 258 482 | et plus | 46,16 % | 111 580 | 51 505 |
+
+- Crédit : Crédit fédéral pour montant personnel de base : 14 829 CAD (minimum, revenu supérieur à 258 482) × 14 % : − 2 076 CAD.
+- Crédit : Crédit ontarien pour montant personnel de base : 12 989 CAD × 5,05 % : − 656 CAD.
+- **Impôt total : 133 989 CAD, soit 36,2 % du salaire brut.**
+- Hypothèse : Taux cumulés fédéral + Ontario. Fédéral 2026 : 14 / 20,5 / 26 / 29 / 33 % (seuils 58 523, 117 045, 181 440, 258 482). Ontario 2026 : 5,05 / 9,15 / 11,16 / 12,16 / 13,16 % (seuils 53 891, 107 785, 150 000, 220 000).
+- Hypothèse : Surtaxe ontarienne (20 % puis 36 % de l'impôt provincial au-delà de 5 818 et 7 446 CAD) non incluse, comme dans la note ; l'inclure ajouterait environ 5 points.
+- Hypothèse : Cotisations RPC et AE exclues. Autres provinces : de 8 % (Alberta) à 25,75 % (Québec), voir la note.
 
 ## Note
 

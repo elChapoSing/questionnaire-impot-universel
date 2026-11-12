@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : TRY. Cours supposé : 1 EUR = 50 TRY (hypothèse reprise de la note (50 livres pour 1 €)).
+- Salaire converti : 240 300 € × 50 = 12 015 000 TRY.
+- Base imposable : 12 015 000 TRY.
+
+| De (TRY) | À (TRY) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 190 000 | 15,00 % | 190 000 | 28 500 |
+| 190 000 | 400 000 | 20,00 % | 210 000 | 42 000 |
+| 400 000 | 1 500 000 | 27,00 % | 1 100 000 | 297 000 |
+| 1 500 000 | 5 300 000 | 35,00 % | 3 800 000 | 1 330 000 |
+| 5 300 000 | et plus | 40,00 % | 6 715 000 | 2 686 000 |
+
+- **Impôt total : 4 383 500 TRY, soit 36,5 % du salaire brut.**
+- Hypothèse : Barème 2026 des salaires.
+- Hypothèse : Le taux reste au-dessus de 36 % de 45 à 55 livres pour 1 €. Déductions exclues.
 
 ## Note
 

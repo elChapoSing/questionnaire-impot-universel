@@ -14,5 +14,27 @@
       "url": "https://taxsummaries.pwc.com/czech-republic/individual/significant-developments",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "CZK",
+    "fx": 24.3,
+    "fx_source": "la note ne donne pas de cours : hypothèse de 24,3 CZK pour 1 EUR, à remplacer par le cours Yahoo EURCZK=X",
+    "tranches": [
+      [
+        0,
+        1762812,
+        15
+      ],
+      [
+        1762812,
+        null,
+        23
+      ]
+    ],
+    "hypotheses": [
+      "15 % jusqu'à 1 762 812 CZK, 23 % au-delà.",
+      "Le crédit d'impôt de base de 30 840 CZK n'est pas compté ; avec lui le taux tomberait à environ 20,0 %.",
+      "Taux sensible au change, très proche du seuil de 21,1 %."
+    ]
+  }
 }

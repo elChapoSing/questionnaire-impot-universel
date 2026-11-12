@@ -9,7 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : MOP. Cours supposé : 1 EUR = 9,3 MOP (hypothèse reprise de la note (1 € = 9,3 MOP)).
+- Salaire converti : 240 300 € × 9,3 = 2 234 790 MOP.
+- Base imposable : 2 234 790 MOP.
+
+| De (MOP) | À (MOP) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 144 000 | 0,00 % | 144 000 | 0 |
+| 144 000 | 164 000 | 7,00 % | 20 000 | 1 400 |
+| 164 000 | 184 000 | 8,00 % | 20 000 | 1 600 |
+| 184 000 | 224 000 | 9,00 % | 40 000 | 3 600 |
+| 224 000 | 304 000 | 10,00 % | 80 000 | 8 000 |
+| 304 000 | 424 000 | 11,00 % | 120 000 | 13 200 |
+| 424 000 | et plus | 12,00 % | 1 810 790 | 217 295 |
+
+- **Impôt total : 245 095 MOP, soit 11,0 % du salaire brut.**
+- Hypothèse : Impôt professionnel 2026 (PwC), plafonné à 12 %.
+- Hypothèse : Déduction forfaitaire de 25 % sur le revenu salarial non appliquée ; elle ramènerait le taux autour de 8 %.
 
 ## Note
 

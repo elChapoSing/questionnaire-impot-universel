@@ -23,5 +23,72 @@
       "url": "https://www.pwc.ch/en/services/tax-advice/taxcomparison.html",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "CHF",
+    "fx": 0.93,
+    "fx_source": "la note ne donne pas de cours : hypothèse de 0,93 CHF pour 1 EUR, à remplacer par le cours Yahoo EURCHF=X",
+    "tranches": [
+      [
+        0,
+        15200,
+        17.84
+      ],
+      [
+        15200,
+        33200,
+        18.61
+      ],
+      [
+        33200,
+        43500,
+        18.72
+      ],
+      [
+        43500,
+        58000,
+        20.48
+      ],
+      [
+        58000,
+        76200,
+        20.81
+      ],
+      [
+        76200,
+        82100,
+        23.78
+      ],
+      [
+        82100,
+        108900,
+        24.44
+      ],
+      [
+        108900,
+        141500,
+        26.64
+      ],
+      [
+        141500,
+        185100,
+        28.84
+      ],
+      [
+        185100,
+        793900,
+        31.04
+      ],
+      [
+        793900,
+        null,
+        29.34
+      ]
+    ],
+    "hypotheses": [
+      "Impôt fédéral direct 2026 pour personne seule (art. 36 LIFD, circulaire ESTV 2-215) auquel s'ajoute un taux cantonal et communal moyen de 17.84 % appliqué à tout le revenu : les taux sont cumulés.",
+      "Ce taux cantonal et communal est CALIBRÉ pour retrouver le taux de 25 % retenu (milieu de la fourchette de 16 % à 34 % selon canton et commune) ; il n'est pas tiré d'un barème. Les camarades suisses doivent le remplacer par le barème de leur canton.",
+      "Pas de déductions (3e pilier, frais, assurances) ; cotisations sociales exclues."
+    ]
+  }
 }

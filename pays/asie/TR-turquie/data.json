@@ -19,5 +19,41 @@
       "url": "https://cottgroup.com/tr/component/zoo/item/tax-brackets-and-income-tax-calculation-in-turkiye",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "TRY",
+    "fx": 50,
+    "fx_source": "hypothèse reprise de la note (50 livres pour 1 €)",
+    "tranches": [
+      [
+        0,
+        190000,
+        15
+      ],
+      [
+        190000,
+        400000,
+        20
+      ],
+      [
+        400000,
+        1500000,
+        27
+      ],
+      [
+        1500000,
+        5300000,
+        35
+      ],
+      [
+        5300000,
+        null,
+        40
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026 des salaires.",
+      "Le taux reste au-dessus de 36 % de 45 à 55 livres pour 1 €. Déductions exclues."
+    ]
+  }
 }

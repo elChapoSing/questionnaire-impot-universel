@@ -9,7 +9,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : GYD. Cours supposé : 1 EUR = 240 GYD (hypothèse reprise de la note (240 GYD pour 1 EUR, soit 209 par USD)).
+- Salaire converti : 240 300 € × 240 = 57 672 000 GYD.
+- Base imposable : 57 672 000 GYD.
+
+| De (GYD) | À (GYD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 3 360 000 | 25,00 % | 3 360 000 | 840 000 |
+| 3 360 000 | et plus | 35,00 % | 54 312 000 | 19 009 200 |
+
+- **Impôt total : 19 849 200 GYD, soit 34,4 % du salaire brut.**
+- Hypothèse : 25 % jusqu'à 3 360 000 GYD, 35 % au-delà (2026).
+- Hypothèse : Abattement personnel (tiers du revenu ou 1 680 000 GYD) non appliqué ; avec le tiers déduit, la note donne environ 22,7 %.
 
 ## Note
 

@@ -9,7 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : NAD. Cours supposé : 1 EUR = 20 NAD (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURNAD=X).
+- Salaire converti : 240 300 € × 20 = 4 806 000 NAD.
+- Base imposable : 4 806 000 NAD.
+
+| De (NAD) | À (NAD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 100 000 | 0,00 % | 100 000 | 0 |
+| 100 000 | 150 000 | 18,00 % | 50 000 | 9 000 |
+| 150 000 | 350 000 | 25,00 % | 200 000 | 50 000 |
+| 350 000 | 550 000 | 28,00 % | 200 000 | 56 000 |
+| 550 000 | 850 000 | 30,00 % | 300 000 | 90 000 |
+| 850 000 | 1 550 000 | 32,00 % | 700 000 | 224 000 |
+| 1 550 000 | et plus | 37,00 % | 3 256 000 | 1 204 720 |
+
+- **Impôt total : 1 633 720 NAD, soit 34,0 % du salaire brut.**
+- Hypothèse : Barème 2026/27 (PwC Namibie) ; aucun abattement ni crédit listé.
 
 ## Note
 

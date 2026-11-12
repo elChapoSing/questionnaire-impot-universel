@@ -19,5 +19,32 @@
       "url": "https://www.litrg.org.uk/tax-and-nic/tax-introduction/tax-and-nic-rates-and-bands",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "GBP",
+    "fx": 0.87,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EURGBP=X",
+    "tranches": [
+      [
+        0,
+        37700,
+        20
+      ],
+      [
+        37700,
+        125140,
+        40
+      ],
+      [
+        125140,
+        null,
+        45
+      ]
+    ],
+    "hypotheses": [
+      "Angleterre, pays de Galles, Irlande du Nord, 2026/27 : abattement personnel nul au-dessus de 125 140 £, donc toute la base est imposée (20 % sur les 37 700 premières livres).",
+      "Écosse : taux supérieur de 48 %, soit environ 39,6 %.",
+      "Cotisations sociales (NIC) exclues."
+    ]
+  }
 }

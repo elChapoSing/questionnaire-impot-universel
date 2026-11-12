@@ -18,5 +18,51 @@
       "url": "https://taxatlas.io/country/lebanon/income-tax",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "LBP",
+    "fx": 103800,
+    "fx_source": "hypothèse reprise de la note (1 € = 103 800 LBP)",
+    "tranches": [
+      [
+        0,
+        18000000,
+        2
+      ],
+      [
+        18000000,
+        45000000,
+        4
+      ],
+      [
+        45000000,
+        90000000,
+        7
+      ],
+      [
+        90000000,
+        150000000,
+        11
+      ],
+      [
+        150000000,
+        225000000,
+        15
+      ],
+      [
+        225000000,
+        675000000,
+        20
+      ],
+      [
+        675000000,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Barème des salaires depuis 2022 (PwC) : 2 % à 25 %, 25 % au-delà de 675 M LBP ; intermédiaires reconstitués à partir de l'ancien barème multiplié par 3.",
+      "Variante TaxAtlas (25 % au-delà de 120 M LBP) : environ 24,9 %, d'où la fourchette de la note. Abattements exclus."
+    ]
+  }
 }

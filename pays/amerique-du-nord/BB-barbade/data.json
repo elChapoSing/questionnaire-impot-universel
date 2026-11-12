@@ -9,5 +9,31 @@
       "url": "https://bra.gov.bb/News/Policy-Notes/Reduction-of-Personal-Income-Tax-R",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "BBD",
+    "fx": 2.3,
+    "fx_source": "hypothèse reprise de la note : 1 USD = 2 BBD, EUR/USD 1,15",
+    "tranches": [
+      [
+        0,
+        25000,
+        0
+      ],
+      [
+        25000,
+        75000,
+        11.5
+      ],
+      [
+        75000,
+        null,
+        27.5
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026 de la Barbados Revenue Authority.",
+      "Résultat peu sensible au change."
+    ]
+  }
 }

@@ -9,5 +9,20 @@
       "url": "https://www.applebyglobal.com/publications/bloomberg-tax-country-guide-bermuda/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "sans objet (aucun impôt)",
+    "tranches": [
+      [
+        0,
+        null,
+        0
+      ]
+    ],
+    "hypotheses": [
+      "Pas d'impôt sur le revenu des personnes physiques. La taxe sur la masse salariale (payroll tax) n'est pas comptée."
+    ]
+  }
 }

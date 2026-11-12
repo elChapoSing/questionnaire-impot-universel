@@ -19,5 +19,46 @@
       "url": "https://www.taxadvisor.lk/article/summary-of",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "LKR",
+    "fx": 343,
+    "fx_source": "hypothèse reprise de la note (343 roupies pour 1 €)",
+    "tranches": [
+      [
+        0,
+        1800000,
+        0
+      ],
+      [
+        1800000,
+        2800000,
+        6
+      ],
+      [
+        2800000,
+        3300000,
+        18
+      ],
+      [
+        3300000,
+        3800000,
+        24
+      ],
+      [
+        3800000,
+        4300000,
+        30
+      ],
+      [
+        4300000,
+        null,
+        36
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2025-2026 : 1,8 million de roupies de franchise puis 6 %, 18 %, 24 %, 30 % et 36 % au-delà de 4,3 millions.",
+      "Les tranches intermédiaires (1 M puis 0,5 M chacune) sont reconstituées à partir du barème de l'Inland Revenue Act ; sans effet sur le résultat."
+    ]
+  }
 }

@@ -19,5 +19,56 @@
       "url": "https://accounter.co.za/tax-tables",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "ZAR",
+    "fx": 20,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURZAR=X",
+    "tranches": [
+      [
+        0,
+        245100,
+        18
+      ],
+      [
+        245100,
+        383100,
+        26
+      ],
+      [
+        383100,
+        530200,
+        31
+      ],
+      [
+        530200,
+        695800,
+        36
+      ],
+      [
+        695800,
+        887000,
+        39
+      ],
+      [
+        887000,
+        1878600,
+        41
+      ],
+      [
+        1878600,
+        null,
+        45
+      ]
+    ],
+    "credits": [
+      [
+        "Abattement (rebate) principal",
+        17820
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026/27 : 666 339 rands d'impôt au seuil de 1 878 600, puis 45 %."
+    ]
+  }
 }

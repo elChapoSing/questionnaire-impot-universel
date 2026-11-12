@@ -9,7 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : BWP. Cours supposé : 1 EUR = 15,8 BWP (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURBWP=X).
+- Salaire converti : 240 300 € × 15,8 = 3 796 740 BWP.
+- Base imposable : 3 796 740 BWP.
+
+| De (BWP) | À (BWP) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 48 000 | 0,00 % | 48 000 | 0 |
+| 48 000 | 84 000 | 5,00 % | 36 000 | 1 800 |
+| 84 000 | 120 000 | 12,50 % | 36 000 | 4 500 |
+| 120 000 | 156 000 | 18,75 % | 36 000 | 6 750 |
+| 156 000 | et plus | 25,00 % | 3 640 740 | 910 185 |
+
+- **Impôt total : 923 235 BWP, soit 24,3 % du salaire brut.**
+- Hypothèse : Barème résident à 5 tranches ; relèvements de seuils du budget 2026 non vérifiés.
 
 ## Note
 

@@ -19,5 +19,26 @@
       "url": "https://www2.deloitte.com/content/dam/Deloitte/gt/Documents/tax/event/Presentaci%C3%B3n%20Seminario%20Temas%20Migratorios.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "GTQ",
+    "fx": 8.6,
+    "fx_source": "hypothèse reprise de la note",
+    "tranches": [
+      [
+        0,
+        300000,
+        5
+      ],
+      [
+        300000,
+        null,
+        7
+      ]
+    ],
+    "hypotheses": [
+      "Régime des salariés seulement (5 % jusqu'à 300 000 GTQ, puis 7 %) ; sources non officielles.",
+      "Aucune déduction appliquée."
+    ]
+  }
 }

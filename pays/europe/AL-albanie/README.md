@@ -9,7 +9,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : ALL. Cours supposé : 1 EUR = 98 ALL (hypothèse reprise de la note, à remplacer par le cours Yahoo EURALL=X).
+- Salaire converti : 240 300 € × 98 = 23 549 400 ALL.
+- Base imposable : 23 549 400 ALL.
+
+| De (ALL) | À (ALL) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 2 040 000 | 13,00 % | 2 040 000 | 265 200 |
+| 2 040 000 | et plus | 23,00 % | 21 509 400 | 4 947 162 |
+
+- **Impôt total : 5 212 362 ALL, soit 22,1 % du salaire brut.**
+- Hypothèse : Barème des salaires depuis 2025 : 13 % jusqu'à 2 040 000 lekë par an, 23 % au-delà.
+- Hypothèse : Sans abattement personnel ; cotisations sociales exclues.
 
 ## Note
 

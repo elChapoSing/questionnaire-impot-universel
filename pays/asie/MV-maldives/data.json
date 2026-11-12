@@ -14,5 +14,40 @@
       "url": "https://www.mira.gov.mv/Files/GetFile/bc15ea7b-44d8-4b39-871f-287cae5bf481",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "MVR",
+    "fx": 17.6,
+    "fx_source": "hypothèse reprise de la note (17,6 rufiyaas pour 1 €)",
+    "tranches": [
+      [
+        0,
+        720000,
+        0
+      ],
+      [
+        720000,
+        1200000,
+        5.5
+      ],
+      [
+        1200000,
+        1800000,
+        8
+      ],
+      [
+        1800000,
+        2400000,
+        12
+      ],
+      [
+        2400000,
+        null,
+        15
+      ]
+    ],
+    "hypotheses": [
+      "Barème officiel de la MIRA : 0 % jusqu'à 60 000 par mois (720 000 par an), puis 5,5 %, 8 %, 12 % et 15 % au-delà de 2,4 millions par an ; bornes intermédiaires (1,2 M ; 1,8 M) reconstituées à partir du barème mensuel."
+    ]
+  }
 }

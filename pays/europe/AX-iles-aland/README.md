@@ -9,7 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : EUR. Cours supposé : 1 EUR = 1 EUR (pays en euro, change 1).
+- Salaire converti : 240 300 € × 1 = 240 300 EUR.
+- Base imposable : 240 300 EUR.
+
+| De (EUR) | À (EUR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 22 000 | 17,67 % | 22 000 | 3 887 |
+| 22 000 | 32 600 | 24,03 % | 10 600 | 2 547 |
+| 32 600 | 40 100 | 35,28 % | 7 500 | 2 646 |
+| 40 100 | 52 100 | 38,28 % | 12 000 | 4 594 |
+| 52 100 | et plus | 42,53 % | 188 200 | 80 041 |
+
+- **Impôt total : 93 716 EUR, soit 39,0 % du salaire brut.**
+- Hypothèse : Barème d'État 2026 spécifique à Åland (0 / 6,36 / 17,61 / 20,61 / 24,86 %, impôt fixe de 4 468,11 € à 52 100 €) auquel s'ajoute l'impôt communal moyen de 17,67 %, appliqué à tout le revenu : les taux des tranches sont cumulés.
+- Hypothèse : Les communes vont de 17,0 à 19,7 % (taux de 38,3 % à 41 %, fourchette de la note).
+- Hypothèse : Taxe d'église, assurance maladie et déductions exclues.
 
 ## Note
 

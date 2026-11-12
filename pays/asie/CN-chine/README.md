@@ -9,7 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : CNY. Cours supposé : 1 EUR = 8 CNY (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURCNY=X).
+- Salaire converti : 240 300 € × 8 = 1 922 400 CNY.
+- Base imposable : 1 922 400 CNY.
+
+| De (CNY) | À (CNY) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 36 000 | 3,00 % | 36 000 | 1 080 |
+| 36 000 | 144 000 | 10,00 % | 108 000 | 10 800 |
+| 144 000 | 300 000 | 20,00 % | 156 000 | 31 200 |
+| 300 000 | 420 000 | 25,00 % | 120 000 | 30 000 |
+| 420 000 | 660 000 | 30,00 % | 240 000 | 72 000 |
+| 660 000 | 960 000 | 35,00 % | 300 000 | 105 000 |
+| 960 000 | et plus | 45,00 % | 962 400 | 433 080 |
+
+- **Impôt total : 683 160 CNY, soit 35,5 % du salaire brut.**
+- Hypothèse : Barème des revenus globaux (salaires, revenus du travail).
+- Hypothèse : Déduction forfaitaire annuelle de 60 000 CNY et déductions spéciales exclues ; avec la déduction forfaitaire, le taux serait d'environ 34,1 %.
 
 ## Note
 

@@ -9,7 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : COP. Cours supposé : 1 EUR = 4 457 COP (hypothèse reprise de la note (4 457 pesos pour 1 EUR)).
+- Salaire converti : 240 300 € × 4 457 = 1 071 017 100 COP.
+- Base imposable : 1 071 017 100 COP.
+
+| De (COP) | À (COP) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 57 087 660 | 0,00 % | 57 087 660 | 0 |
+| 57 087 660 | 89 035 800 | 19,00 % | 31 948 140 | 6 070 147 |
+| 89 035 800 | 214 733 400 | 28,00 % | 125 697 600 | 35 195 328 |
+| 214 733 400 | 454 082 580 | 33,00 % | 239 349 180 | 78 985 229 |
+| 454 082 580 | 993 534 780 | 35,00 % | 539 452 200 | 188 808 270 |
+| 993 534 780 | 1 623 594 000 | 37,00 % | 77 482 320 | 28 668 458 |
+| 1 623 594 000 | et plus | 39,00 % | 0 | 0 |
+
+- **Impôt total : 337 727 432 COP, soit 31,5 % du salaire brut.**
+- Hypothèse : Barème de l'article 241 du Statut fiscal exprimé en UVT (UVT 2026 : 52 374 pesos) : 0 % jusqu'à 1 090, puis 19 %, 28 %, 33 %, 35 %, 37 % (de 18 970 à 31 000) et 39 %.
+- Hypothèse : Sans abattements ni rentes exonérées (en pratique jusqu'à 25 % du revenu du travail peut être exonéré dans la limite de 790 UVT) ; projet de loi n° 477 de 2026 non pris en compte.
+- Hypothèse : La note donne une fourchette de 30,9 % à 32,6 % selon le change (3 900 à 5 600 pesos pour 1 EUR).
 
 ## Note
 

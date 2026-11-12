@@ -9,7 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : GNF. Cours supposé : 1 EUR = 12 100 GNF (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURGNF=X).
+- Salaire converti : 240 300 € × 12 100 = 2 907 630 000 GNF.
+- Base imposable : 2 907 630 000 GNF.
+
+| De (GNF) | À (GNF) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 5 000 000 | 0,00 % | 5 000 000 | 0 |
+| 5 000 000 | 10 000 000 | 5,00 % | 5 000 000 | 250 000 |
+| 10 000 000 | 15 000 000 | 10,00 % | 5 000 000 | 500 000 |
+| 15 000 000 | 20 000 000 | 15,00 % | 5 000 000 | 750 000 |
+| 20 000 000 | 50 000 000 | 20,00 % | 30 000 000 | 6 000 000 |
+| 50 000 000 | 100 000 000 | 25,00 % | 50 000 000 | 12 500 000 |
+| 100 000 000 | et plus | 35,00 % | 2 807 630 000 | 982 670 500 |
+
+- **Impôt total : 1 002 670 500 GNF, soit 34,5 % du salaire brut.**
+- Hypothèse : Source unique non officielle (AfroTools).
+- Hypothèse : Variante de la note : cotisation CNSS salariale de 5 % déduite (non appliquée ici), environ 33 %.
 
 ## Note
 

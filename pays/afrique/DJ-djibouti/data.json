@@ -13,5 +13,56 @@
       "url": "https://afrotools.com/fr/djibouti/calculateur-salaire-net/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "DJF",
+    "fx": 206,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURDJF=X",
+    "tranches": [
+      [
+        0,
+        360000,
+        2
+      ],
+      [
+        360000,
+        600000,
+        12
+      ],
+      [
+        600000,
+        1800000,
+        15
+      ],
+      [
+        1800000,
+        3600000,
+        22
+      ],
+      [
+        3600000,
+        7200000,
+        25
+      ],
+      [
+        7200000,
+        12000000,
+        30
+      ],
+      [
+        12000000,
+        24000000,
+        35
+      ],
+      [
+        24000000,
+        null,
+        45
+      ]
+    ],
+    "hypotheses": [
+      "Barème ITS mensuel multiplié par 12 (source AfroTools, non officielle) ; exonération mensuelle de 50 000 DJF et arrondi à 5 000 DJF ignorés.",
+      "Cotisation CNSS salariale de 6 % déductible non appliquée ; variante de la note : 37 % à 38,4 %."
+    ]
+  }
 }

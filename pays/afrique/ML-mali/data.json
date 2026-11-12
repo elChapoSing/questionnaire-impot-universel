@@ -13,5 +13,41 @@
       "url": "https://afrotools.com/fr/mali/calculateur-salaire-net",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XOF",
+    "fx": 655.957,
+    "fx_source": "parité fixe XOF/EUR (655,957), reprise de la note",
+    "tranches": [
+      [
+        0,
+        330000,
+        0
+      ],
+      [
+        330000,
+        630000,
+        5
+      ],
+      [
+        630000,
+        1500000,
+        13
+      ],
+      [
+        1500000,
+        3600000,
+        30
+      ],
+      [
+        3600000,
+        null,
+        40
+      ]
+    ],
+    "hypotheses": [
+      "Source unique non officielle (AfroTools).",
+      "Variante de la note : cotisation INPS de 3,6 % déduite (non appliquée ici), environ 38,1 %."
+    ]
+  }
 }

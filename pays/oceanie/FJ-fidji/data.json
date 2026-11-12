@@ -19,5 +19,66 @@
       "url": "https://www.munroleyslaw.com/?p=438",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "FJD",
+    "fx": 2.58,
+    "fx_source": "hypothèse reprise de la note (2,58 dollars fidjiens pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        30000,
+        0
+      ],
+      [
+        30000,
+        50000,
+        18
+      ],
+      [
+        50000,
+        270000,
+        20
+      ],
+      [
+        270000,
+        300000,
+        33
+      ],
+      [
+        300000,
+        350000,
+        34
+      ],
+      [
+        350000,
+        400000,
+        35
+      ],
+      [
+        400000,
+        450000,
+        36
+      ],
+      [
+        450000,
+        500000,
+        37
+      ],
+      [
+        500000,
+        1000000,
+        38
+      ],
+      [
+        1000000,
+        null,
+        39
+      ]
+    ],
+    "hypotheses": [
+      "Barème des résidents en vigueur depuis le 1er janvier 2024 (PwC, règlement de 2023) : 0 % jusqu'à 30 000, 18 %, 20 %, puis de 33 % à 39 % par paliers de 50 000 au-delà de 270 000 (39 % au-delà d'un million).",
+      "Aucun impôt de responsabilité sociale distinct (intégré au barème depuis 2024)."
+    ]
+  }
 }

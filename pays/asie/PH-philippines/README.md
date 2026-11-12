@@ -9,7 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : PHP. Cours supposé : 1 EUR = 70 PHP (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURPHP=X).
+- Salaire converti : 240 300 € × 70 = 16 821 000 PHP.
+- Base imposable : 16 821 000 PHP.
+
+| De (PHP) | À (PHP) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 250 000 | 0,00 % | 250 000 | 0 |
+| 250 000 | 400 000 | 15,00 % | 150 000 | 22 500 |
+| 400 000 | 800 000 | 20,00 % | 400 000 | 80 000 |
+| 800 000 | 2 000 000 | 25,00 % | 1 200 000 | 300 000 |
+| 2 000 000 | 8 000 000 | 30,00 % | 6 000 000 | 1 800 000 |
+| 8 000 000 | et plus | 35,00 % | 8 821 000 | 3 087 350 |
+
+- **Impôt total : 5 289 850 PHP, soit 31,4 % du salaire brut.**
+- Hypothèse : Barème de la réforme TRAIN, en vigueur depuis 2023.
+- Hypothèse : Aucune déduction appliquée.
 
 ## Note
 

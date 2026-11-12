@@ -9,7 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : JPY. Cours supposé : 1 EUR = 185 JPY (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURJPY=X).
+- Salaire converti : 240 300 € × 185 = 44 455 500 JPY.
+- Base imposable : 44 455 500 JPY.
+
+| De (JPY) | À (JPY) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 1 950 000 | 5,00 % | 1 950 000 | 97 500 |
+| 1 950 000 | 3 300 000 | 10,00 % | 1 350 000 | 135 000 |
+| 3 300 000 | 6 950 000 | 20,00 % | 3 650 000 | 730 000 |
+| 6 950 000 | 9 000 000 | 23,00 % | 2 050 000 | 471 500 |
+| 9 000 000 | 18 000 000 | 33,00 % | 9 000 000 | 2 970 000 |
+| 18 000 000 | 40 000 000 | 40,00 % | 22 000 000 | 8 800 000 |
+| 40 000 000 | et plus | 45,00 % | 4 455 500 | 2 004 975 |
+
+- Majoration : surtaxe spéciale de reconstruction : + 2,1 % de l'impôt.
+- **Impôt total : 15 528 363 JPY, soit 34,9 % du salaire brut.**
+- Hypothèse : Impôt national sur le revenu avec surtaxe de reconstruction de 2,1 % de l'impôt ; l'impôt local (environ 10 %) n'est pas inclus, comme dans la note.
+- Hypothèse : Déduction pour revenus d'emploi et déductions de base exclues.
 
 ## Note
 

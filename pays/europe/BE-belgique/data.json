@@ -19,5 +19,43 @@
       "url": "https://www.countrytaxcalc.com/tax-guides/belgium-tax-guide/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, change 1",
+    "tranches": [
+      [
+        0,
+        16720,
+        25
+      ],
+      [
+        16720,
+        29510,
+        40
+      ],
+      [
+        29510,
+        51070,
+        45
+      ],
+      [
+        51070,
+        null,
+        50
+      ]
+    ],
+    "credits": [
+      [
+        "Réduction liée à la quotité exemptée d'impôt (montant retenu dans la note)",
+        2795
+      ]
+    ],
+    "hypotheses": [
+      "Barème fédéral de l'année de revenus 2026 ; la réduction de 2 795 € est soustraite de l'impôt.",
+      "La taxe communale (environ 7 % de l'impôt fédéral) n'est pas comprise dans le taux retenu ; elle le porterait à environ 49 %.",
+      "Cotisations sociales exclues."
+    ]
+  }
 }

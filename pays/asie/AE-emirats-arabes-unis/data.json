@@ -19,5 +19,20 @@
       "url": "https://www.omanobserver.om/article/1148663/business/economy/uae-says-no-plans-to-impose-income-tax",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro pour le calcul, sans conversion",
+    "tranches": [
+      [
+        0,
+        null,
+        0
+      ]
+    ],
+    "hypotheses": [
+      "Pas d'impôt sur le revenu des personnes physiques aux Émirats arabes unis."
+    ]
+  }
 }

@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : NZD. Cours supposé : 1 EUR = 1,95 NZD (hypothèse (la note ne donne aucun cours) : 1,95 NZD pour 1 EUR, cohérent avec la fiche des îles Cook ; à remplacer par le cours Yahoo EURNZD=X).
+- Salaire converti : 240 300 € × 1,95 = 468 585 NZD.
+- Base imposable : 468 585 NZD.
+
+| De (NZD) | À (NZD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 15 600 | 10,50 % | 15 600 | 1 638 |
+| 15 600 | 53 500 | 17,50 % | 37 900 | 6 632 |
+| 53 500 | 78 100 | 30,00 % | 24 600 | 7 380 |
+| 78 100 | 180 000 | 33,00 % | 101 900 | 33 627 |
+| 180 000 | et plus | 39,00 % | 288 585 | 112 548 |
+
+- **Impôt total : 161 826 NZD, soit 34,5 % du salaire brut.**
+- Hypothèse : Barème des résidents 2025-26 de l'Inland Revenue : 10,5 %, 17,5 %, 30 %, 33 % puis 39 % au-delà de 180 000 NZD.
+- Hypothèse : Pas de cotisation ACC ni de crédit d'impôt ; impôt sur le revenu seul.
 
 ## Note
 

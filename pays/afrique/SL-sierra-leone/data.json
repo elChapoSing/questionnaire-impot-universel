@@ -14,5 +14,41 @@
       "url": "https://support.payspace.com/portal/en/kb/articles/sierra-leone-2026-finance-act",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "SLE",
+    "fx": 27,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURSLE=X",
+    "tranches": [
+      [
+        0,
+        7200,
+        0
+      ],
+      [
+        7200,
+        14400,
+        15
+      ],
+      [
+        14400,
+        21600,
+        20
+      ],
+      [
+        21600,
+        28800,
+        25
+      ],
+      [
+        28800,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Barème PAYE mensuel multiplié par 12.",
+      "Cotisation NASSIT de 5 % déductible non appliquée."
+    ]
+  }
 }

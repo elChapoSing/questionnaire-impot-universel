@@ -14,5 +14,50 @@
       "url": "https://taxsummaries.pwc.com/republic-of-namibia/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "NAD",
+    "fx": 20,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURNAD=X",
+    "tranches": [
+      [
+        0,
+        100000,
+        0
+      ],
+      [
+        100000,
+        150000,
+        18
+      ],
+      [
+        150000,
+        350000,
+        25
+      ],
+      [
+        350000,
+        550000,
+        28
+      ],
+      [
+        550000,
+        850000,
+        30
+      ],
+      [
+        850000,
+        1550000,
+        32
+      ],
+      [
+        1550000,
+        null,
+        37
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026/27 (PwC Namibie) ; aucun abattement ni crédit listé."
+    ]
+  }
 }

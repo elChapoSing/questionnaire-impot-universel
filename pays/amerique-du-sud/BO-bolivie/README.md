@@ -9,7 +9,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : BOB. Cours supposé : 1 EUR = 8,07 BOB (hypothèse : 6,96 BOB pour 1 USD au taux officiel × 1,16 USD pour 1 EUR ; à remplacer par le cours Yahoo EURBOB=X).
+- Salaire converti : 240 300 € × 8,07 = 1 939 221 BOB.
+- Base imposable : 1 939 221 BOB.
+
+| De (BOB) | À (BOB) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 13,00 % | 1 939 221 | 252 099 |
+
+- **Impôt total : 252 099 BOB, soit 13,0 % du salaire brut.**
+- Hypothèse : RC-IVA au taux unique de 13 % appliqué au salaire brut, sans déduction des cotisations sociales ni crédit de TVA sur factures.
+- Hypothèse : Variante de la note (environ 11,3 %) : assiette nette des cotisations sociales et crédit de TVA sur factures, non retenue ici.
 
 ## Note
 

@@ -9,7 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : NZD. Cours supposé : 1 EUR = 1,95 NZD (hypothèse reprise de la note (1,95 NZD pour 1 EUR)).
+- Salaire converti : 240 300 € × 1,95 = 468 585 NZD.
+- Base imposable : 468 585 NZD.
+
+| De (NZD) | À (NZD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 14 600 | 0,00 % | 14 600 | 0 |
+| 14 600 | 30 000 | 17,00 % | 15 400 | 2 618 |
+| 30 000 | 80 000 | 27,00 % | 50 000 | 13 500 |
+| 80 000 | et plus | 30,00 % | 388 585 | 116 576 |
+
+- **Impôt total : 132 694 NZD, soit 28,3 % du salaire brut.**
+- Hypothèse : Barème des résidents de Rarotonga (loi modificative 2023) : 0 % jusqu'à 14 600, 17 % jusqu'à 30 000, 27 % jusqu'à 80 000, 30 % au-delà.
+- Hypothèse : Abattement personnel de 14 600 non appliqué en plus de la tranche à 0 % ; barème des îles périphériques non retenu.
 
 ## Note
 

@@ -14,5 +14,20 @@
       "url": "https://assets.kpmg.com/content/dam/kpmg/bh/pdf/2021/08/kpmg-fakhro-bahrain-tax-summary-20210817.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro pour le calcul, sans conversion",
+    "tranches": [
+      [
+        0,
+        null,
+        0
+      ]
+    ],
+    "hypotheses": [
+      "Pas d'impôt sur le revenu des personnes physiques à Bahreïn."
+    ]
+  }
 }

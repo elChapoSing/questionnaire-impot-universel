@@ -9,7 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : MVR. Cours supposé : 1 EUR = 17,6 MVR (hypothèse reprise de la note (17,6 rufiyaas pour 1 €)).
+- Salaire converti : 240 300 € × 17,6 = 4 229 280 MVR.
+- Base imposable : 4 229 280 MVR.
+
+| De (MVR) | À (MVR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 720 000 | 0,00 % | 720 000 | 0 |
+| 720 000 | 1 200 000 | 5,50 % | 480 000 | 26 400 |
+| 1 200 000 | 1 800 000 | 8,00 % | 600 000 | 48 000 |
+| 1 800 000 | 2 400 000 | 12,00 % | 600 000 | 72 000 |
+| 2 400 000 | et plus | 15,00 % | 1 829 280 | 274 392 |
+
+- **Impôt total : 420 792 MVR, soit 9,9 % du salaire brut.**
+- Hypothèse : Barème officiel de la MIRA : 0 % jusqu'à 60 000 par mois (720 000 par an), puis 5,5 %, 8 %, 12 % et 15 % au-delà de 2,4 millions par an ; bornes intermédiaires (1,2 M ; 1,8 M) reconstituées à partir du barème mensuel.
 
 ## Note
 

@@ -13,5 +13,57 @@
       "url": "https://hacecuentas.com/ve/impuestos/islr-y-tributos-seniat",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "VES",
+    "fx": 170,
+    "fx_source": "hypothèse (la note ne donne aucun cours, change très incertain) : 170 bolivars pour 1 EUR ; à remplacer par le cours Yahoo EURVES=X",
+    "tranches": [
+      [
+        0,
+        43000,
+        6
+      ],
+      [
+        43000,
+        64500,
+        9
+      ],
+      [
+        64500,
+        86000,
+        12
+      ],
+      [
+        86000,
+        107500,
+        16
+      ],
+      [
+        107500,
+        129000,
+        20
+      ],
+      [
+        129000,
+        172000,
+        24
+      ],
+      [
+        172000,
+        258000,
+        29
+      ],
+      [
+        258000,
+        null,
+        34
+      ]
+    ],
+    "hypotheses": [
+      "Tarif n° 1 de l'ISLR (8 tranches en unités tributaires, UT) : 6 %, 9 %, 12 %, 16 %, 20 %, 24 %, 29 % puis 34 % au-delà de 6 000 UT. Bornes intermédiaires reprises de la mémoire du barème, non relues dans la source : à vérifier.",
+      "Valeur de l'UT supposée à 43 bolivars ; l'impôt est quasi insensible à ce paramètre et au change car le taux maximal domine.",
+      "Desgravamen unique de 774 UT et rabais personnels non appliqués (variante de la note : 33,5 %)."
+    ]
+  }
 }

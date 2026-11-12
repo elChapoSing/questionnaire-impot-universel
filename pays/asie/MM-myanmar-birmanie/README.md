@@ -9,7 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : MMK. Cours supposé : 1 EUR = 4 400 MMK (la note dit « très volatil » sans chiffrer ; valeur reconstituée (taux effectif 23 à 24 %), à remplacer par EURMMK=X).
+- Salaire converti : 240 300 € × 4 400 = 1 057 320 000 MMK.
+- Déduction : abattement de 20 % plafonné : − 10 000 000 MMK.
+- Base imposable : 1 047 320 000 MMK.
+
+| De (MMK) | À (MMK) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 2 000 000 | 0,00 % | 2 000 000 | 0 |
+| 2 000 000 | 10 000 000 | 5,00 % | 8 000 000 | 400 000 |
+| 10 000 000 | 30 000 000 | 10,00 % | 20 000 000 | 2 000 000 |
+| 30 000 000 | 50 000 000 | 15,00 % | 20 000 000 | 3 000 000 |
+| 50 000 000 | 70 000 000 | 20,00 % | 20 000 000 | 4 000 000 |
+| 70 000 000 | et plus | 25,00 % | 977 320 000 | 244 330 000 |
+
+- **Impôt total : 253 730 000 MMK, soit 24,0 % du salaire brut.**
+- Hypothèse : Abattement de 20 % du revenu salarial, plafonné à 10 millions de kyats (donc 10 millions ici).
+- Hypothèse : Barème confirmé par des sources privées uniquement.
 
 ## Note
 

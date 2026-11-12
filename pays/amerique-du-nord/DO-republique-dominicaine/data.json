@@ -19,5 +19,36 @@
       "url": "https://blog.alegra.com/republica-dominicana/impuesto-sobre-la-renta-isr/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "DOP",
+    "fx": 70,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EURDOP=X",
+    "tranches": [
+      [
+        0,
+        416220,
+        0
+      ],
+      [
+        416220,
+        624329,
+        15
+      ],
+      [
+        624329,
+        867123,
+        20
+      ],
+      [
+        867123,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026 de la DGII : seuils 416 220, 624 329 et 867 123 DOP.",
+      "À partir de 2027 (loi 30-26), un taux de 27 % au-delà de 4,8 millions de DOP porterait le résultat à environ 25,5 % (note)."
+    ]
+  }
 }

@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : MNT. Cours supposé : 1 EUR = 4 150 MNT (hypothèse reprise de la note (1 € = 4 150 MNT)).
+- Salaire converti : 240 300 € × 4 150 = 997 245 000 MNT.
+- Base imposable : 997 245 000 MNT.
+
+| De (MNT) | À (MNT) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 120 000 000 | 10,00 % | 120 000 000 | 12 000 000 |
+| 120 000 000 | 180 000 000 | 15,00 % | 60 000 000 | 9 000 000 |
+| 180 000 000 | et plus | 20,00 % | 817 245 000 | 163 449 000 |
+
+- **Impôt total : 184 449 000 MNT, soit 18,5 % du salaire brut.**
+- Hypothèse : Barème 2026 sur salaires ; le nouveau barème du 1er janvier 2027 n'est pas retenu.
+- Hypothèse : Exonération des 9,6 premiers millions (Mercans) non appliquée : elle change à peine le taux (18,4 %).
 
 ## Note
 

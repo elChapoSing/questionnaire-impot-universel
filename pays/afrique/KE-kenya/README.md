@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : KES. Cours supposé : 1 EUR = 150 KES (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURKES=X).
+- Salaire converti : 240 300 € × 150 = 36 045 000 KES.
+- Base imposable : 36 045 000 KES.
+
+| De (KES) | À (KES) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 288 000 | 10,00 % | 288 000 | 28 800 |
+| 288 000 | 388 000 | 25,00 % | 100 000 | 25 000 |
+| 388 000 | 6 000 000 | 30,00 % | 5 612 000 | 1 683 600 |
+| 6 000 000 | 9 600 000 | 32,50 % | 3 600 000 | 1 170 000 |
+| 9 600 000 | et plus | 35,00 % | 26 445 000 | 9 255 750 |
+
+- **Impôt total : 12 163 150 KES, soit 33,7 % du salaire brut.**
+- Hypothèse : Barème annuel résident ; allègement personnel de 2 400 KES par mois ignoré.
+- Hypothèse : Cotisations (NSSF, logement, santé) ignorées.
 
 ## Note
 

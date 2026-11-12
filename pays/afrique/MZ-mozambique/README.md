@@ -9,7 +9,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : MZN. Cours supposé : 1 EUR = 74 MZN (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMZN=X).
+- Salaire converti : 240 300 € × 74 = 17 782 200 MZN.
+- Base imposable : 17 782 200 MZN.
+
+| De (MZN) | À (MZN) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 32,00 % | 17 782 200 | 5 690 304 |
+
+- Crédit : Parcela a abater de la formule IRPS (PwC) : − 141 540 MZN.
+- **Impôt total : 5 548 764 MZN, soit 31,2 % du salaire brut.**
+- Hypothèse : Formule applicable à la dernière tranche (au-delà de 1,512 M MZN) : impôt = 32 % x revenu imposable - 141 540.
 
 ## Note
 

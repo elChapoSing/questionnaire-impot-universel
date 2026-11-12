@@ -9,7 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : TZS. Cours supposé : 1 EUR = 3 000 TZS (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURTZS=X).
+- Salaire converti : 240 300 € × 3 000 = 720 900 000 TZS.
+- Base imposable : 720 900 000 TZS.
+
+| De (TZS) | À (TZS) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 3 240 000 | 0,00 % | 3 240 000 | 0 |
+| 3 240 000 | 6 240 000 | 8,00 % | 3 000 000 | 240 000 |
+| 6 240 000 | 9 120 000 | 20,00 % | 2 880 000 | 576 000 |
+| 9 120 000 | 12 000 000 | 25,00 % | 2 880 000 | 720 000 |
+| 12 000 000 | et plus | 30,00 % | 708 900 000 | 212 670 000 |
+
+- **Impôt total : 214 206 000 TZS, soit 29,7 % du salaire brut.**
+- Hypothèse : Barème mensuel résident multiplié par 12.
 
 ## Note
 

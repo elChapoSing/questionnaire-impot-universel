@@ -19,5 +19,52 @@
       "url": "https://qhrm.io/answers/pit-slabs-myanmar-current-tax-year",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "MMK",
+    "fx": 4400,
+    "fx_source": "la note dit « très volatil » sans chiffrer ; valeur reconstituée (taux effectif 23 à 24 %), à remplacer par EURMMK=X",
+    "deductions": [
+      [
+        "abattement de 20 % plafonné",
+        10000000
+      ]
+    ],
+    "tranches": [
+      [
+        0,
+        2000000,
+        0
+      ],
+      [
+        2000000,
+        10000000,
+        5
+      ],
+      [
+        10000000,
+        30000000,
+        10
+      ],
+      [
+        30000000,
+        50000000,
+        15
+      ],
+      [
+        50000000,
+        70000000,
+        20
+      ],
+      [
+        70000000,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Abattement de 20 % du revenu salarial, plafonné à 10 millions de kyats (donc 10 millions ici).",
+      "Barème confirmé par des sources privées uniquement."
+    ]
+  }
 }

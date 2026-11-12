@@ -13,5 +13,26 @@
       "url": "https://taxsummaries.pwc.com/timor-leste/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "USD",
+    "fx": 1.16,
+    "fx_source": "hypothèse reprise de la note (1 € = 1,16 USD)",
+    "tranches": [
+      [
+        0,
+        6000,
+        0
+      ],
+      [
+        6000,
+        null,
+        10
+      ]
+    ],
+    "hypotheses": [
+      "Impôt sur les salaires des résidents : 10 % au-delà de 500 USD par mois, soit 6 000 USD par an.",
+      "Variante lue comme 500 USD par an : taux de 10,0 %, d'où la fourchette de la note."
+    ]
+  }
 }

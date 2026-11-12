@@ -18,5 +18,43 @@
       "url": "https://www.pwc.com/gh/en/assets/pdf/cameroon-tax-facts-and-figures-2025.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XAF",
+    "fx": 655.957,
+    "fx_source": "parité fixe XAF/EUR (655,957), reprise de la note",
+    "deductions": [
+      [
+        "Déduction forfaitaire de 30 % pour frais professionnels sur salaires",
+        47287940
+      ]
+    ],
+    "tranches": [
+      [
+        0,
+        2000000,
+        11
+      ],
+      [
+        2000000,
+        3000000,
+        16.5
+      ],
+      [
+        3000000,
+        5000000,
+        27.5
+      ],
+      [
+        5000000,
+        null,
+        38.5
+      ]
+    ],
+    "hypotheses": [
+      "Taux 10 / 15 / 25 / 35 % majorés de 10 % de centimes additionnels communaux (soit 11 / 16,5 / 27,5 / 38,5 %).",
+      "Abattement de 500 000 XAF et cotisations ignorés.",
+      "Variante de la note : sans la déduction de 30 %, 37,9 %."
+    ]
+  }
 }

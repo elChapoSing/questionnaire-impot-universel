@@ -9,7 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : IQD. Cours supposé : 1 EUR = 1 500 IQD (hypothèse reprise de la note (1 € = 1 500 IQD)).
+- Salaire converti : 240 300 € × 1 500 = 360 450 000 IQD.
+- Base imposable : 360 450 000 IQD.
+
+| De (IQD) | À (IQD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 250 000 | 3,00 % | 250 000 | 7 500 |
+| 250 000 | 500 000 | 5,00 % | 250 000 | 12 500 |
+| 500 000 | 1 000 000 | 10,00 % | 500 000 | 50 000 |
+| 1 000 000 | et plus | 15,00 % | 359 450 000 | 53 917 500 |
+
+- **Impôt total : 53 987 500 IQD, soit 15,0 % du salaire brut.**
+- Hypothèse : Barème salarial ; la limite entre les deux dernières tranches est ambiguë dans la source (500 000 ou 500 001), sans effet.
+- Hypothèse : Région du Kurdistan : 5 % forfaitaire (non retenu). Abattements personnels exclus.
 
 ## Note
 

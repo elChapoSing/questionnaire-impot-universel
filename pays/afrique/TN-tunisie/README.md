@@ -9,7 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : TND. Cours supposé : 1 EUR = 3,4 TND (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURTND=X).
+- Salaire converti : 240 300 € × 3,4 = 817 020 TND.
+- Base imposable : 817 020 TND.
+
+| De (TND) | À (TND) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 5 000 | 0,00 % | 5 000 | 0 |
+| 5 000 | 10 000 | 15,00 % | 5 000 | 750 |
+| 10 000 | 20 000 | 25,00 % | 10 000 | 2 500 |
+| 20 000 | 30 000 | 30,00 % | 10 000 | 3 000 |
+| 30 000 | 40 000 | 33,00 % | 10 000 | 3 300 |
+| 40 000 | 50 000 | 36,00 % | 10 000 | 3 600 |
+| 50 000 | 70 000 | 38,00 % | 20 000 | 7 600 |
+| 70 000 | et plus | 40,00 % | 747 020 | 298 808 |
+
+- **Impôt total : 319 558 TND, soit 39,1 % du salaire brut.**
+- Hypothèse : Barème IRPP 2025 ; modifications éventuelles de la loi de finances 2026 non vérifiées.
+- Hypothèse : Déductions familiales, abattement de frais et contribution de solidarité ignorés.
 
 ## Note
 

@@ -19,5 +19,26 @@
       "url": "https://www.bakermckenzie.com/en/insight/publications/alerts/2025/09/kazakhstan-new-tax-code",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "KZT",
+    "fx": 560,
+    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURKZT=X ; la note cite cbonds du 18 juillet 2026 sans chiffre, valeur reconstituée à partir du taux 13,6 %",
+    "tranches": [
+      [
+        0,
+        36762500,
+        10
+      ],
+      [
+        36762500,
+        null,
+        15
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026 : 10 % jusqu'à 8 500 indices mensuels de calcul (ici annualisés : 8 500 × 4 325 tenge, indice 2026 supposé), 15 % au-delà.",
+      "Déduction standard exclue ; cotisations sociales exclues."
+    ]
+  }
 }

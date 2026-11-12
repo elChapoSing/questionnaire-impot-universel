@@ -24,5 +24,31 @@
       "url": "https://news.bloomberglaw.com/payroll/belarus-president-signs-law-amending-various-taxes",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "BYN",
+    "fx": 3.3,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EURBYN=X",
+    "tranches": [
+      [
+        0,
+        350000,
+        13
+      ],
+      [
+        350000,
+        600000,
+        25
+      ],
+      [
+        600000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Barème depuis 2026 : 13 % jusqu'à 350 000 BYN, 25 % jusqu'à 600 000, 30 % au-delà.",
+      "Taux sensible au change : 20,0 % à 3,0 BYN pour 1 EUR, 21,7 % à 3,6."
+    ]
+  }
 }

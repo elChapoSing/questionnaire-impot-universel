@@ -19,5 +19,30 @@
       "url": "https://blog.alegra.com/panama/declaracion-de-renta-panama/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "USD",
+    "fx": 1.15,
+    "fx_source": "hypothèse reprise de la note (EUR/USD 1,15), à remplacer par le cours Yahoo EURUSD=X (balboa à parité avec le dollar)",
+    "tranches": [
+      [
+        0,
+        11000,
+        0
+      ],
+      [
+        11000,
+        50000,
+        15
+      ],
+      [
+        50000,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Revenu supposé de source panaméenne ; système territorial (0 % pour un revenu de source étrangère)."
+    ]
+  }
 }

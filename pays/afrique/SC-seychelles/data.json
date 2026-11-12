@@ -13,5 +13,30 @@
       "url": "https://taxatlas.io/country/seychelles/income-tax",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "SCR",
+    "fx": 16.5,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURSCR=X",
+    "tranches": [
+      [
+        0,
+        150000,
+        0
+      ],
+      [
+        150000,
+        600000,
+        15
+      ],
+      [
+        600000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Seuil d'exonération de 150 000 SCR."
+    ]
+  }
 }

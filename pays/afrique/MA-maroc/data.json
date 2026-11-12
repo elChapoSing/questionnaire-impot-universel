@@ -19,5 +19,45 @@
       "url": "https://clicpaie.ma/blogs/bareme-ir-maroc-2026/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "MAD",
+    "fx": 10.8,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMAD=X",
+    "tranches": [
+      [
+        0,
+        40000,
+        0
+      ],
+      [
+        40000,
+        60000,
+        10
+      ],
+      [
+        60000,
+        80000,
+        20
+      ],
+      [
+        80000,
+        100000,
+        30
+      ],
+      [
+        100000,
+        180000,
+        34
+      ],
+      [
+        180000,
+        null,
+        37
+      ]
+    ],
+    "hypotheses": [
+      "Barème IR salarial 2026 ; abattement forfaitaire pour frais professionnels et cotisations sociales exclus (effet faible sur le taux)."
+    ]
+  }
 }

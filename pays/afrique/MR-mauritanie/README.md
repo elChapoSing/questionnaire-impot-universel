@@ -9,7 +9,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : MRU. Cours supposé : 1 EUR = 46 MRU (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMRU=X).
+- Salaire converti : 240 300 € × 46 = 11 053 800 MRU.
+- Base imposable : 11 053 800 MRU.
+
+| De (MRU) | À (MRU) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 40,00 % | 11 053 800 | 4 421 520 |
+
+- Crédit : Constante de la formule ITS (RI x 40 % - 4 050 par mois), soit 4 050 x 12 : − 48 600 MRU.
+- **Impôt total : 4 372 920 MRU, soit 39,6 % du salaire brut.**
+- Hypothèse : Formule mensuelle valable au-delà de 21 000 MRU par mois.
+- Hypothèse : Franchise de 6 000 MRU par mois et cotisations CNSS ignorées.
 
 ## Note
 

@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : LRD. Cours supposé : 1 EUR = 215 LRD (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURLRD=X).
+- Salaire converti : 240 300 € × 215 = 51 664 500 LRD.
+- Base imposable : 51 664 500 LRD.
+
+| De (LRD) | À (LRD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 70 000 | 0,00 % | 70 000 | 0 |
+| 70 000 | 200 000 | 5,00 % | 130 000 | 6 500 |
+| 200 000 | 800 000 | 15,00 % | 600 000 | 90 000 |
+| 800 000 | et plus | 25,00 % | 50 864 500 | 12 716 125 |
+
+- **Impôt total : 12 812 625 LRD, soit 24,8 % du salaire brut.**
+- Hypothèse : Barème résident à 4 tranches (PwC).
 
 ## Note
 

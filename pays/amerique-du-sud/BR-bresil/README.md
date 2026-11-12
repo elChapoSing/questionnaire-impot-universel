@@ -9,7 +9,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : BRL. Cours supposé : 1 EUR = 6 BRL (hypothèse reprise de la note (6 réais pour 1 EUR)).
+- Salaire converti : 240 300 € × 6 = 1 441 800 BRL.
+- Base imposable : 1 441 800 BRL.
+
+| De (BRL) | À (BRL) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 27,50 % | 1 441 800 | 396 495 |
+
+- Crédit : Parcela a deduzir de la tranche de 27,5 % : − 10 854 BRL.
+- **Impôt total : 385 641 BRL, soit 26,7 % du salaire brut.**
+- Hypothèse : Formule de la Receita Federal : 27,5 % du revenu annuel moins 10 853,78 réais, au-delà de 55 976 réais par an ; inchangé en 2026.
+- Hypothèse : L'impôt minimum pour hauts revenus (loi 15.270/2025) ne s'ajoute pas ici ; pas de déduction pour cotisations ni pour personnes à charge.
 
 ## Note
 

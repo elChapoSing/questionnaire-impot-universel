@@ -9,5 +9,51 @@
       "url": "https://www.drc.gov.bt/wp-content/uploads/2025/12/Public-Notification-on-new-Income-Tax-Act.docx-1.pdf",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "BTN",
+    "fx": 100,
+    "fx_source": "hypothèse reprise de la note (1 € = 100 ngultrums, peg à la roupie indienne)",
+    "tranches": [
+      [
+        0,
+        300000,
+        0
+      ],
+      [
+        300000,
+        500000,
+        5
+      ],
+      [
+        500000,
+        750000,
+        10
+      ],
+      [
+        750000,
+        1200000,
+        15
+      ],
+      [
+        1200000,
+        2000000,
+        20
+      ],
+      [
+        2000000,
+        3500000,
+        25
+      ],
+      [
+        3500000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Barème de l'Income Tax Act 2025 en vigueur en 2026 (notification du DRC) ; les montants fixes cumulés de la notification sont reconstitués par les taux marginaux.",
+      "Déduction forfaitaire (15 % du revenu d'emploi, plafonnée à 150 000 Nu) et autres déductions exclues, pas d'abattements personnels."
+    ]
+  }
 }

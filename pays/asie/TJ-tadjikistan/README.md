@@ -9,7 +9,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : TJS. Cours supposé : 1 EUR = 11 TJS (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURTJS=X).
+- Salaire converti : 240 300 € × 11 = 2 643 300 TJS.
+- Base imposable : 2 643 300 TJS.
+
+| De (TJS) | À (TJS) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 10 080 | 8,00 % | 10 080 | 806 |
+| 10 080 | et plus | 13,00 % | 2 633 220 | 342 319 |
+
+- **Impôt total : 343 125 TJS, soit 13,0 % du salaire brut.**
+- Hypothèse : Variante TaxAtlas 2026 : 8 % puis 13 % au-delà de 840 somonis par mois (10 080 par an). Variante PwC (12 % au-delà d'une déduction personnelle) : environ 12 %, d'où la fourchette de la note.
 
 ## Note
 

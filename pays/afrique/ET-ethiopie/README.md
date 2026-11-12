@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : ETB. Cours supposé : 1 EUR = 175 ETB (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURETB=X).
+- Salaire converti : 240 300 € × 175 = 42 052 500 ETB.
+- Base imposable : 42 052 500 ETB.
+
+| De (ETB) | À (ETB) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 24 000 | 0,00 % | 24 000 | 0 |
+| 24 000 | 48 000 | 15,00 % | 24 000 | 3 600 |
+| 48 000 | 84 000 | 20,00 % | 36 000 | 7 200 |
+| 84 000 | 120 000 | 25,00 % | 36 000 | 9 000 |
+| 120 000 | 168 000 | 30,00 % | 48 000 | 14 400 |
+| 168 000 | et plus | 35,00 % | 41 884 500 | 14 659 575 |
+
+- **Impôt total : 14 693 775 ETB, soit 34,9 % du salaire brut.**
+- Hypothèse : Barème mensuel d'impôt sur le revenu d'emploi multiplié par 12.
 
 ## Note
 

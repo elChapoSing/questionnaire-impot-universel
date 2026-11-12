@@ -9,7 +9,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : CVE. Cours supposé : 1 EUR = 110,265 CVE (parité fixe CVE/EUR (110,265), reprise de la note).
+- Salaire converti : 240 300 € × 110,265 = 26 496 680 CVE.
+- Base imposable : 26 496 680 CVE.
+
+| De (CVE) | À (CVE) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 960 000 | 16,50 % | 960 000 | 158 400 |
+| 960 000 | 1 800 000 | 23,10 % | 840 000 | 194 040 |
+| 1 800 000 | et plus | 27,50 % | 24 696 680 | 6 791 587 |
+
+- **Impôt total : 7 144 027 CVE, soit 27,0 % du salaire brut.**
+- Hypothèse : Barème IRS de la méthode déclarative (PwC) ; exonération annuelle de 220 000 CVE non appliquée.
 
 ## Note
 

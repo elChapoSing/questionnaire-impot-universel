@@ -13,5 +13,42 @@
       "url": "https://diario.elmundo.sv/politica/vigente-nuevo-monto-exento-de-impuesto-sobre-la-renta-asi-quedan-los-calculos-de-retencion",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "USD",
+    "fx": 1.15,
+    "fx_source": "hypothèse reprise de la note (EUR/USD 1,15), à remplacer par le cours Yahoo EURUSD=X (économie dollarisée)",
+    "tranches": [
+      [
+        0,
+        6600,
+        0
+      ],
+      [
+        6600,
+        10742.88,
+        10
+      ],
+      [
+        10742.88,
+        24457.2,
+        20
+      ],
+      [
+        24457.2,
+        null,
+        30
+      ]
+    ],
+    "credits": [
+      [
+        "Écart entre les montants fixes du tableau de retenue (288,57 USD par mois au dernier tranche) et le cumul marginal (263,10)",
+        -305.8
+      ]
+    ],
+    "hypotheses": [
+      "Tableau mensuel de retenue (exonération 550 USD ; 10 % jusqu'à 895,24 ; 20 % jusqu'à 2 038,10 ; 30 % au-delà) annualisé ×12.",
+      "Le tableau officiel comporte des montants fixes qui ne se raccordent pas exactement au barème marginal ; l'écart est repris en ajustement."
+    ]
+  }
 }

@@ -9,5 +9,50 @@
       "url": "https://taxsummaries.pwc.com/ghana/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "GHS",
+    "fx": 13,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURGHS=X",
+    "tranches": [
+      [
+        0,
+        7056,
+        0
+      ],
+      [
+        7056,
+        8016,
+        5
+      ],
+      [
+        8016,
+        9216,
+        10
+      ],
+      [
+        9216,
+        44016,
+        17.5
+      ],
+      [
+        44016,
+        236016,
+        25
+      ],
+      [
+        236016,
+        600000,
+        30
+      ],
+      [
+        600000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Barème annuel résident de la loi 1178 de 2026 (PwC)."
+    ]
+  }
 }

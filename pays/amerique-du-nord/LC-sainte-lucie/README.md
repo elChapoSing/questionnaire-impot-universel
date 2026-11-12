@@ -9,7 +9,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : XCD. Cours supposé : 1 EUR = 3,105 XCD (hypothèse reprise de la note).
+- Salaire converti : 240 300 € × 3,105 = 746 132 XCD.
+- Base imposable : 746 132 XCD.
+
+| De (XCD) | À (XCD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 15 000 | 15,00 % | 15 000 | 2 250 |
+| 15 000 | 30 000 | 20,00 % | 15 000 | 3 000 |
+| 30 000 | et plus | 30,00 % | 716 132 | 214 839 |
+
+- **Impôt total : 220 089 XCD, soit 29,5 % du salaire brut.**
+- Hypothèse : Abattement personnel de 25 000 XCD non appliqué ; avec lui, environ 28,5 % (note).
 
 ## Note
 

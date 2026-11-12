@@ -19,5 +19,27 @@
       "url": "https://documentacao.senior.com.br/exigenciaslegais/destaques/imposto-de-renda-2026",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "BRL",
+    "fx": 6,
+    "fx_source": "hypothèse reprise de la note (6 réais pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        null,
+        27.5
+      ]
+    ],
+    "credits": [
+      [
+        "Parcela a deduzir de la tranche de 27,5 %",
+        10853.78
+      ]
+    ],
+    "hypotheses": [
+      "Formule de la Receita Federal : 27,5 % du revenu annuel moins 10 853,78 réais, au-delà de 55 976 réais par an ; inchangé en 2026.",
+      "L'impôt minimum pour hauts revenus (loi 15.270/2025) ne s'ajoute pas ici ; pas de déduction pour cotisations ni pour personnes à charge."
+    ]
+  }
 }

@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : SZL. Cours supposé : 1 EUR = 20 SZL (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURSZL=X).
+- Salaire converti : 240 300 € × 20 = 4 806 000 SZL.
+- Base imposable : 4 806 000 SZL.
+
+| De (SZL) | À (SZL) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 100 000 | 20,00 % | 100 000 | 20 000 |
+| 100 000 | 150 000 | 25,00 % | 50 000 | 12 500 |
+| 150 000 | 200 000 | 30,00 % | 50 000 | 15 000 |
+| 200 000 | et plus | 33,00 % | 4 606 000 | 1 519 980 |
+
+- **Impôt total : 1 567 480 SZL, soit 32,6 % du salaire brut.**
+- Hypothèse : Rabais de 8 200 SZL ignoré.
 
 ## Note
 

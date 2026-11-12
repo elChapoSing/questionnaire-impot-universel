@@ -19,5 +19,41 @@
       "url": "https://perugestiona.pe/tramites-sunat/tabla-impuesto-renta/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "PEN",
+    "fx": 3.8,
+    "fx_source": "hypothèse reprise de la note (3,8 soles pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        27500,
+        8
+      ],
+      [
+        27500,
+        110000,
+        14
+      ],
+      [
+        110000,
+        192500,
+        17
+      ],
+      [
+        192500,
+        247500,
+        20
+      ],
+      [
+        247500,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Barème de l'article 53 en UIT (UIT 2026 : 5 500 soles) : 8 % jusqu'à 5 UIT, 14 % jusqu'à 20, 17 % jusqu'à 35, 20 % jusqu'à 45, 30 % au-delà.",
+      "Variante sans déduction des 7 UIT (la note donne 23,9 % à 25,1 % avec cette déduction). Une source donne une UIT de 5 350 soles."
+    ]
+  }
 }

@@ -19,5 +19,71 @@
       "url": "https://praxiumconsultores.com/blog/art-152-lisr-tarifa-anual-del-isr",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "MXN",
+    "fx": 20.75,
+    "fx_source": "milieu de la fourchette 19,5 à 22 de la note, à remplacer par le cours Yahoo EURMXN=X",
+    "tranches": [
+      [
+        0,
+        10135.11,
+        1.92
+      ],
+      [
+        10135.11,
+        86022.11,
+        6.4
+      ],
+      [
+        86022.11,
+        151176.19,
+        10.88
+      ],
+      [
+        151176.19,
+        175735.66,
+        16
+      ],
+      [
+        175735.66,
+        210403.69,
+        17.92
+      ],
+      [
+        210403.69,
+        424353.97,
+        21.36
+      ],
+      [
+        424353.97,
+        668840.14,
+        23.52
+      ],
+      [
+        668840.14,
+        1276925.98,
+        30
+      ],
+      [
+        1276925.98,
+        1702567.97,
+        32
+      ],
+      [
+        1702567.97,
+        5107703.92,
+        34
+      ],
+      [
+        5107703.92,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Tarif annuel 2026 (articles 96/152 LISR, Annexe 8 RMF 2026) converti en tranches marginales ; les montants fixes du tarif sont retrouvés par cumul.",
+      "Aucune déduction personnelle ; source officielle non lue (relais privés)."
+    ]
+  }
 }

@@ -23,5 +23,45 @@
       "url": "https://taxatlas.io/country/gambia/income-tax",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "GMD",
+    "fx": 82,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURGMD=X",
+    "tranches": [
+      [
+        0,
+        36000,
+        0
+      ],
+      [
+        36000,
+        46000,
+        5
+      ],
+      [
+        46000,
+        56000,
+        10
+      ],
+      [
+        56000,
+        66000,
+        15
+      ],
+      [
+        66000,
+        76000,
+        20
+      ],
+      [
+        76000,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2025 (Rivermate, GRA) à taux maximal 25 % ; TaxAtlas indique 30 % au-delà de 86 000 GMD, d'où la fourchette 24,9 à 29,9 % de la note."
+    ]
+  }
 }

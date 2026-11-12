@@ -9,5 +9,35 @@
       "url": "https://taxsummaries.pwc.com/rwanda/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "RWF",
+    "fx": 1700,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURRWF=X",
+    "tranches": [
+      [
+        0,
+        720000,
+        0
+      ],
+      [
+        720000,
+        1200000,
+        10
+      ],
+      [
+        1200000,
+        2400000,
+        20
+      ],
+      [
+        2400000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Barème supposé mensuel (PwC ne précise pas la période), multiplié par 12."
+    ]
+  }
 }

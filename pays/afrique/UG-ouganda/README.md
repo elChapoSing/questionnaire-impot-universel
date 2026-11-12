@@ -9,7 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : UGX. Cours supposé : 1 EUR = 4 200 UGX (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURUGX=X).
+- Salaire converti : 240 300 € × 4 200 = 1 009 260 000 UGX.
+- Base imposable : 1 009 260 000 UGX.
+
+| De (UGX) | À (UGX) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 2 820 000 | 0,00 % | 2 820 000 | 0 |
+| 2 820 000 | 4 020 000 | 10,00 % | 1 200 000 | 120 000 |
+| 4 020 000 | 4 920 000 | 20,00 % | 900 000 | 180 000 |
+| 4 920 000 | 120 000 000 | 30,00 % | 115 080 000 | 34 524 000 |
+| 120 000 000 | et plus | 40,00 % | 889 260 000 | 355 704 000 |
+
+- **Impôt total : 390 528 000 UGX, soit 38,7 % du salaire brut.**
+- Hypothèse : Barème mensuel résident multiplié par 12 ; le taux de 40 % comprend la surtaxe de 10 % au-delà de 10 millions UGX par mois.
 
 ## Note
 

@@ -9,5 +9,35 @@
       "url": "https://myworkpay.com/blogs/malawi-2026-statutory-changes",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "MWK",
+    "fx": 2000,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMWK=X",
+    "tranches": [
+      [
+        0,
+        2040000,
+        0
+      ],
+      [
+        2040000,
+        18840000,
+        30
+      ],
+      [
+        18840000,
+        120000000,
+        35
+      ],
+      [
+        120000000,
+        null,
+        40
+      ]
+    ],
+    "hypotheses": [
+      "Barème PAYE 2026 mensuel (Workpay) multiplié par 12."
+    ]
+  }
 }

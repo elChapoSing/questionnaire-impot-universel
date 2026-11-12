@@ -18,5 +18,31 @@
       "url": "https://en.apa.az/finance/azerbaijan-implements-regions-lowest-income-tax-rates-under-new-phased-approach-says-deputy-minister-482952",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "AZN",
+    "fx": 1.97,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EURAZN=X",
+    "tranches": [
+      [
+        0,
+        30000,
+        3
+      ],
+      [
+        30000,
+        96000,
+        10
+      ],
+      [
+        96000,
+        null,
+        14
+      ]
+    ],
+    "hypotheses": [
+      "Barème mensuel de la note converti en annuel : 3 % jusqu'à 2 500 AZN/mois (30 000 par an), 10 % jusqu'à 8 000 (96 000 par an), 14 % au-delà (secteur privé non pétrolier).",
+      "Variante secteur pétrole/gaz ou public (14 % jusqu'à 30 000, puis 25 %) : environ 24,3 %."
+    ]
+  }
 }

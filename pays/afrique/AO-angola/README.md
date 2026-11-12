@@ -9,7 +9,27 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : AOA. Cours supposé : 1 EUR = 1 060 AOA (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURAOA=X).
+- Salaire converti : 240 300 € × 1 060 = 254 718 000 AOA.
+- Base imposable : 254 718 000 AOA.
+
+| De (AOA) | À (AOA) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 1 800 000 | 0,00 % | 1 800 000 | 0 |
+| 1 800 000 | 2 400 000 | 16,00 % | 600 000 | 96 000 |
+| 2 400 000 | 3 600 000 | 18,00 % | 1 200 000 | 216 000 |
+| 3 600 000 | 6 000 000 | 19,00 % | 2 400 000 | 456 000 |
+| 6 000 000 | 12 000 000 | 20,00 % | 6 000 000 | 1 200 000 |
+| 12 000 000 | 18 000 000 | 21,00 % | 6 000 000 | 1 260 000 |
+| 18 000 000 | 24 000 000 | 22,00 % | 6 000 000 | 1 320 000 |
+| 24 000 000 | 30 000 000 | 23,00 % | 6 000 000 | 1 380 000 |
+| 30 000 000 | 60 000 000 | 24,00 % | 30 000 000 | 7 200 000 |
+| 60 000 000 | 120 000 000 | 24,50 % | 60 000 000 | 14 700 000 |
+| 120 000 000 | et plus | 25,00 % | 134 718 000 | 33 679 500 |
+
+- **Impôt total : 61 507 500 AOA, soit 24,1 % du salaire brut.**
+- Hypothèse : Barème IRT groupe A (loi 14/25), seuils mensuels multipliés par 12 ; le rapport annuel/mensuel suppose un salaire régulier sur 12 mois.
+- Hypothèse : Variante de la note : base nette de la cotisation sociale salariale de 3 % (non appliquée ici), environ 23,5 %.
 
 ## Note
 

@@ -14,5 +14,21 @@
       "url": "https://eurofast.eu/wp-content/uploads/2026/02/PayrollGuide2026-Bosnia.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "BAM",
+    "fx": 1.95583,
+    "fx_source": "parité fixe du mark convertible (1,95583 BAM pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        null,
+        10
+      ]
+    ],
+    "hypotheses": [
+      "Impôt forfaitaire de 10 % (Fédération de Bosnie-Herzégovine, Brčko, et Republika Srpska selon PwC ; 8 % selon d'autres sources).",
+      "Cotisations sociales exclues."
+    ]
+  }
 }

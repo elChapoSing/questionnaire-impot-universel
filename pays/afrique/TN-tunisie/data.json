@@ -9,5 +9,56 @@
       "url": "https://www.webdo.tn/fr/actualite/national/tunisie-le-nouveau-bareme-de-l-impot-sur-le-revenu/218235/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "TND",
+    "fx": 3.4,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURTND=X",
+    "tranches": [
+      [
+        0,
+        5000,
+        0
+      ],
+      [
+        5000,
+        10000,
+        15
+      ],
+      [
+        10000,
+        20000,
+        25
+      ],
+      [
+        20000,
+        30000,
+        30
+      ],
+      [
+        30000,
+        40000,
+        33
+      ],
+      [
+        40000,
+        50000,
+        36
+      ],
+      [
+        50000,
+        70000,
+        38
+      ],
+      [
+        70000,
+        null,
+        40
+      ]
+    ],
+    "hypotheses": [
+      "Barème IRPP 2025 ; modifications éventuelles de la loi de finances 2026 non vérifiées.",
+      "Déductions familiales, abattement de frais et contribution de solidarité ignorés."
+    ]
+  }
 }

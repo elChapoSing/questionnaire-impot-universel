@@ -9,5 +9,46 @@
       "url": "https://www.ato.gov.au/tax-rates-and-codes/tax-rates-australian-residents",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "AUD",
+    "fx": 1.62,
+    "fx_source": "hypothèse (la note ne donne aucun cours) : 1,62 dollar australien pour 1 EUR, à remplacer par le cours Yahoo EURAUD=X",
+    "tranches": [
+      [
+        0,
+        18200,
+        0
+      ],
+      [
+        18200,
+        45000,
+        16
+      ],
+      [
+        45000,
+        135000,
+        30
+      ],
+      [
+        135000,
+        190000,
+        37
+      ],
+      [
+        190000,
+        null,
+        45
+      ],
+      [
+        0,
+        null,
+        2
+      ]
+    ],
+    "hypotheses": [
+      "Barème des résidents 2025-26 de l'ATO : 0 % jusqu'à 18 200 AUD, 16 %, 30 %, 37 % et 45 % au-delà de 190 000 AUD ; la ligne finale à 2 % sur tout le revenu représente la contribution Medicare (2 %).",
+      "Le taux est assez sensible au change : environ 38,2 % à 1,62 contre 39 % à 1,75."
+    ]
+  }
 }

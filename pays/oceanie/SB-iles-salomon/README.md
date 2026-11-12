@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : SBD. Cours supposé : 1 EUR = 9,7 SBD (hypothèse reprise de la note (9,7 SBD pour 1 EUR)).
+- Salaire converti : 240 300 € × 9,7 = 2 330 910 SBD.
+- Base imposable : 2 330 910 SBD.
+
+| De (SBD) | À (SBD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 15 000 | 0,00 % | 15 000 | 0 |
+| 15 000 | 30 000 | 11,00 % | 15 000 | 1 650 |
+| 30 000 | 60 000 | 23,00 % | 30 000 | 6 900 |
+| 60 000 | 90 000 | 35,00 % | 30 000 | 10 500 |
+| 90 000 | et plus | 40,00 % | 2 240 910 | 896 364 |
+
+- **Impôt total : 915 414 SBD, soit 39,3 % du salaire brut.**
+- Hypothèse : Barème des résidents (TaxAtlas) : franchise de 15 000, puis 11 %, 23 %, 35 % jusqu'à 90 000 et 40 % au-delà. Seuils légèrement divergents selon les sources (40 % dès 60 000 dans l'autre variante, soit 39,3 % environ).
+- Hypothèse : Sources non officielles, à confirmer auprès de l'administration fiscale.
 
 ## Note
 

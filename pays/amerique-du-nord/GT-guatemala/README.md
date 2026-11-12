@@ -9,7 +9,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : GTQ. Cours supposé : 1 EUR = 8,6 GTQ (hypothèse reprise de la note).
+- Salaire converti : 240 300 € × 8,6 = 2 066 580 GTQ.
+- Base imposable : 2 066 580 GTQ.
+
+| De (GTQ) | À (GTQ) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 300 000 | 5,00 % | 300 000 | 15 000 |
+| 300 000 | et plus | 7,00 % | 1 766 580 | 123 661 |
+
+- **Impôt total : 138 661 GTQ, soit 6,7 % du salaire brut.**
+- Hypothèse : Régime des salariés seulement (5 % jusqu'à 300 000 GTQ, puis 7 %) ; sources non officielles.
+- Hypothèse : Aucune déduction appliquée.
 
 ## Note
 

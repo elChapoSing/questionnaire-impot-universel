@@ -9,7 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : AUD. Cours supposé : 1 EUR = 1,62 AUD (hypothèse (la note ne donne aucun cours) : 1,62 dollar australien pour 1 EUR, à remplacer par le cours Yahoo EURAUD=X).
+- Salaire converti : 240 300 € × 1,62 = 389 286 AUD.
+- Base imposable : 389 286 AUD.
+
+| De (AUD) | À (AUD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 18 200 | 0,00 % | 18 200 | 0 |
+| 18 200 | 45 000 | 16,00 % | 26 800 | 4 288 |
+| 45 000 | 135 000 | 30,00 % | 90 000 | 27 000 |
+| 135 000 | 190 000 | 37,00 % | 55 000 | 20 350 |
+| 190 000 | et plus | 45,00 % | 199 286 | 89 679 |
+| 0 | et plus | 2,00 % | 389 286 | 7 786 |
+
+- **Impôt total : 149 102 AUD, soit 38,3 % du salaire brut.**
+- Hypothèse : Barème des résidents 2025-26 de l'ATO : 0 % jusqu'à 18 200 AUD, 16 %, 30 %, 37 % et 45 % au-delà de 190 000 AUD ; la ligne finale à 2 % sur tout le revenu représente la contribution Medicare (2 %).
+- Hypothèse : Le taux est assez sensible au change : environ 38,2 % à 1,62 contre 39 % à 1,75.
 
 ## Note
 

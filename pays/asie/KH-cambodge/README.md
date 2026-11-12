@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : KHR. Cours supposé : 1 EUR = 4 500 KHR (hypothèse reprise de la note (fourchette 4 000 à 5 000 riels pour 1 € ; milieu retenu)).
+- Salaire converti : 240 300 € × 4 500 = 1 081 350 000 KHR.
+- Base imposable : 1 081 350 000 KHR.
+
+| De (KHR) | À (KHR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 18 000 000 | 0,00 % | 18 000 000 | 0 |
+| 18 000 000 | 24 000 000 | 5,00 % | 6 000 000 | 300 000 |
+| 24 000 000 | 102 000 000 | 10,00 % | 78 000 000 | 7 800 000 |
+| 102 000 000 | 150 000 000 | 15,00 % | 48 000 000 | 7 200 000 |
+| 150 000 000 | et plus | 20,00 % | 931 350 000 | 186 270 000 |
+
+- **Impôt total : 201 570 000 KHR, soit 18,6 % du salaire brut.**
+- Hypothèse : Barème mensuel (0 à 1,5 M ; 5 % jusqu'à 2 M ; 10 % jusqu'à 8,5 M ; 15 % jusqu'à 12,5 M ; 20 % au-delà) multiplié par 12 pour obtenir des tranches annuelles.
+- Hypothèse : Abattements pour conjoint et enfants exclus ; le résultat reste entre 18,5 et 18,8 % sur la fourchette de change.
 
 ## Note
 

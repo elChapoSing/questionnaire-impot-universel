@@ -9,7 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : DOP. Cours supposé : 1 EUR = 70 DOP (hypothèse reprise de la note, à remplacer par le cours Yahoo EURDOP=X).
+- Salaire converti : 240 300 € × 70 = 16 821 000 DOP.
+- Base imposable : 16 821 000 DOP.
+
+| De (DOP) | À (DOP) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 416 220 | 0,00 % | 416 220 | 0 |
+| 416 220 | 624 329 | 15,00 % | 208 109 | 31 216 |
+| 624 329 | 867 123 | 20,00 % | 242 794 | 48 559 |
+| 867 123 | et plus | 25,00 % | 15 953 877 | 3 988 469 |
+
+- **Impôt total : 4 068 244 DOP, soit 24,2 % du salaire brut.**
+- Hypothèse : Barème 2026 de la DGII : seuils 416 220, 624 329 et 867 123 DOP.
+- Hypothèse : À partir de 2027 (loi 30-26), un taux de 27 % au-delà de 4,8 millions de DOP porterait le résultat à environ 25,5 % (note).
 
 ## Note
 

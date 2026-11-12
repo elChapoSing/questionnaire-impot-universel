@@ -9,7 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : EUR. Cours supposé : 1 EUR = 1 EUR (pays en euro, change 1).
+- Salaire converti : 240 300 € × 1 = 240 300 EUR.
+- Base imposable : 240 300 EUR.
+
+| De (EUR) | À (EUR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 16 720 | 25,00 % | 16 720 | 4 180 |
+| 16 720 | 29 510 | 40,00 % | 12 790 | 5 116 |
+| 29 510 | 51 070 | 45,00 % | 21 560 | 9 702 |
+| 51 070 | et plus | 50,00 % | 189 230 | 94 615 |
+
+- Crédit : Réduction liée à la quotité exemptée d'impôt (montant retenu dans la note) : − 2 795 EUR.
+- **Impôt total : 110 818 EUR, soit 46,1 % du salaire brut.**
+- Hypothèse : Barème fédéral de l'année de revenus 2026 ; la réduction de 2 795 € est soustraite de l'impôt.
+- Hypothèse : La taxe communale (environ 7 % de l'impôt fédéral) n'est pas comprise dans le taux retenu ; elle le porterait à environ 49 %.
+- Hypothèse : Cotisations sociales exclues.
 
 ## Note
 

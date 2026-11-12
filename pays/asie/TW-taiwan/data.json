@@ -14,5 +14,41 @@
       "url": "https://taxsummaries.pwc.com/taiwan/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "TWD",
+    "fx": 37,
+    "fx_source": "la note cite cbonds du 18 juillet 2026 sans chiffre ; valeur reconstituée, à remplacer par EURTWD=X",
+    "tranches": [
+      [
+        0,
+        590000,
+        5
+      ],
+      [
+        590000,
+        1330000,
+        12
+      ],
+      [
+        1330000,
+        2660000,
+        20
+      ],
+      [
+        2660000,
+        4980000,
+        30
+      ],
+      [
+        4980000,
+        null,
+        40
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2024-2025 (tranche de 40 % au-delà de 4,98 millions de dollars taïwanais), repris par la note.",
+      "Exemptions et déductions exclues."
+    ]
+  }
 }

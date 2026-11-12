@@ -9,7 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : MUR. Cours supposé : 1 EUR = 52 MUR (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMUR=X).
+- Salaire converti : 240 300 € × 52 = 12 495 600 MUR.
+- Base imposable : 12 495 600 MUR.
+
+| De (MUR) | À (MUR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 500 000 | 0,00 % | 500 000 | 0 |
+| 500 000 | 1 000 000 | 10,00 % | 500 000 | 50 000 |
+| 1 000 000 | 12 000 000 | 20,00 % | 11 000 000 | 2 200 000 |
+| 12 000 000 | et plus | 35,00 % | 495 600 | 173 460 |
+
+- **Impôt total : 2 423 460 MUR, soit 19,4 % du salaire brut.**
+- Hypothèse : Barème 2025-26 augmenté de la tranche à 35 % au-delà de 12 millions de roupies, prévue par la loi de finances 2026 à partir du 1er juillet 2026.
+- Hypothèse : Variante de la note : sans la tranche à 35 %, 18,8 %.
 
 ## Note
 

@@ -19,5 +19,46 @@
       "url": "https://www.dhakatribune.com/business/412340/tax-free-income-threshold-raised-to-tk-375-000",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "BDT",
+    "fx": 140,
+    "fx_source": "hypothèse reprise de la note (140 takas pour 1 €)",
+    "tranches": [
+      [
+        0,
+        375000,
+        0
+      ],
+      [
+        375000,
+        675000,
+        10
+      ],
+      [
+        675000,
+        1075000,
+        15
+      ],
+      [
+        1075000,
+        1575000,
+        20
+      ],
+      [
+        1575000,
+        3575000,
+        25
+      ],
+      [
+        3575000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Barème des années d'imposition 2026-27 et 2027-28 ; la tranche à 35 % au-delà de 30 millions n'est prévue qu'à partir de 2028-29 (non retenue).",
+      "Sans crédit d'impôt d'investissement ni rebate."
+    ]
+  }
 }

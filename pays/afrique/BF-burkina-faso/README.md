@@ -9,7 +9,25 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : XOF. Cours supposé : 1 EUR = 655,957 XOF (parité fixe XOF/EUR (655,957), reprise de la note).
+- Salaire converti : 240 300 € × 655,957 = 157 626 467 XOF.
+- Déduction : Abattement forfaitaire de 20 % pour frais professionnels (art. 111 CGI) : − 31 525 293 XOF.
+- Base imposable : 126 101 174 XOF.
+
+| De (XOF) | À (XOF) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 360 000 | 0,00 % | 360 000 | 0 |
+| 360 000 | 600 000 | 12,10 % | 240 000 | 29 040 |
+| 600 000 | 960 000 | 13,90 % | 360 000 | 50 040 |
+| 960 000 | 1 440 000 | 15,70 % | 480 000 | 75 360 |
+| 1 440 000 | 2 040 000 | 18,50 % | 600 000 | 111 000 |
+| 2 040 000 | 3 000 000 | 21,30 % | 960 000 | 204 480 |
+| 3 000 000 | et plus | 25,00 % | 123 101 174 | 30 775 294 |
+
+- **Impôt total : 31 245 214 XOF, soit 19,8 % du salaire brut.**
+- Hypothèse : Barème IUTS mensuel (art. 112 CGI) multiplié par 12.
+- Hypothèse : Variantes de la note : abattement de 25 % donne 18,6 % ; sans abattement 24,8 %.
+- Hypothèse : Réduction pour charges de famille ignorée.
 
 ## Note
 

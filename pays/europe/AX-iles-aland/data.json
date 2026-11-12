@@ -18,5 +18,42 @@
       "url": "https://www.kommunforbundet.fi/sites/default/files/media/file/Kommunernas-skattesatser-2026.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, change 1",
+    "tranches": [
+      [
+        0,
+        22000,
+        17.67
+      ],
+      [
+        22000,
+        32600,
+        24.03
+      ],
+      [
+        32600,
+        40100,
+        35.28
+      ],
+      [
+        40100,
+        52100,
+        38.28
+      ],
+      [
+        52100,
+        null,
+        42.53
+      ]
+    ],
+    "hypotheses": [
+      "Barème d'État 2026 spécifique à Åland (0 / 6,36 / 17,61 / 20,61 / 24,86 %, impôt fixe de 4 468,11 € à 52 100 €) auquel s'ajoute l'impôt communal moyen de 17,67 %, appliqué à tout le revenu : les taux des tranches sont cumulés.",
+      "Les communes vont de 17,0 à 19,7 % (taux de 38,3 % à 41 %, fourchette de la note).",
+      "Taxe d'église, assurance maladie et déductions exclues."
+    ]
+  }
 }

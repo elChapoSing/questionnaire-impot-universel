@@ -19,5 +19,42 @@
       "url": "https://www.taxmaro.com/post/spitzensteuersatz-2026-grenze-tarif",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, change 1",
+    "tranches": [
+      [
+        0,
+        12348,
+        0
+      ],
+      [
+        12348,
+        17799,
+        18.985
+      ],
+      [
+        17799,
+        69879,
+        32.985
+      ],
+      [
+        69879,
+        277825,
+        42
+      ],
+      [
+        277825,
+        null,
+        45
+      ]
+    ],
+    "hypotheses": [
+      "Tarif 2026 (§ 32a EStG), base imposable de 240 300 € sans déduction : de 69 879 € à 277 825 €, impôt = 0,42 x − 11 135,63, reproduit ici par les tranches cumulées jusqu'à 69 879 € (impôt d'environ 18 214 €) puis 42 %.",
+      "Les deux zones progressives (14 à 42 %) sont linéarisées par leur taux moyen, exact à leur borne haute.",
+      "Solidaritätszuschlag de 5,5 % exclu (avec lui : environ 39,4 %), impôt d'Église et cotisations sociales exclus."
+    ]
+  }
 }

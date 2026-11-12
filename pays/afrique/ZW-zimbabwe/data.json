@@ -18,5 +18,42 @@
       "url": "https://zimpricecheck.com/news/zimra-unveils-2025-paye-tax-tables-amidst-increased-scrutiny-on-taxpayers",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "USD",
+    "fx": 1.165,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURUSD=X",
+    "tranches": [
+      [
+        0,
+        1200,
+        0
+      ],
+      [
+        1200,
+        3600,
+        20
+      ],
+      [
+        3600,
+        36000,
+        25
+      ],
+      [
+        36000,
+        null,
+        40
+      ]
+    ],
+    "majorations": [
+      [
+        "Contribution SIDA (AIDS levy)",
+        3
+      ]
+    ],
+    "hypotheses": [
+      "Barème en USD non vérifié sur la source primaire ZIMRA.",
+      "Variante de la note : sans la contribution SIDA, 37,9 %."
+    ]
+  }
 }

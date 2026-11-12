@@ -9,7 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : UYU. Cours supposé : 1 EUR = 44,6 UYU (hypothèse reprise de la note (44,6 pesos pour 1 EUR)).
+- Salaire converti : 240 300 € × 44,6 = 10 717 380 UYU.
+- Base imposable : 10 717 380 UYU.
+
+| De (UYU) | À (UYU) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 576 576 | 0,00 % | 576 576 | 0 |
+| 576 576 | 823 680 | 10,00 % | 247 104 | 24 710 |
+| 823 680 | 1 235 520 | 15,00 % | 411 840 | 61 776 |
+| 1 235 520 | 2 471 040 | 24,00 % | 1 235 520 | 296 525 |
+| 2 471 040 | 4 118 400 | 25,00 % | 1 647 360 | 411 840 |
+| 4 118 400 | 6 177 600 | 27,00 % | 2 059 200 | 555 984 |
+| 6 177 600 | 9 472 320 | 31,00 % | 3 294 720 | 1 021 363 |
+| 9 472 320 | et plus | 36,00 % | 1 245 060 | 448 222 |
+
+- **Impôt total : 2 820 420 UYU, soit 26,3 % du salaire brut.**
+- Hypothèse : IRPF travail : barème mensuel en BPC (BPC 2026 : 6 864 pesos) multiplié par 12 pour l'année : 0 % jusqu'à 7 BPC, puis 10 %, 15 %, 24 %, 25 %, 27 %, 31 % et 36 % au-delà de 115 BPC par mois. Seuils intermédiaires du barème standard, à confirmer avec le communiqué du BPS.
+- Hypothèse : Avant déductions ; la note donne 25,2 % à 27,0 % pour 40 à 48 pesos pour 1 EUR.
 
 ## Note
 

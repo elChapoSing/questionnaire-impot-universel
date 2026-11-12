@@ -14,5 +14,20 @@
       "url": "https://www.caribjournal.com/2016/01/21/antigua-and-barbuda-is-abolishing-its-personal-income-tax/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "sans objet (aucun impôt)",
+    "tranches": [
+      [
+        0,
+        null,
+        0
+      ]
+    ],
+    "hypotheses": [
+      "Impôt sur le revenu des personnes physiques supprimé en 2016 : aucun impôt à ce niveau de salaire. Cotisations sociales exclues."
+    ]
+  }
 }

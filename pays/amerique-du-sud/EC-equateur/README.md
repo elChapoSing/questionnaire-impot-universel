@@ -9,7 +9,26 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : USD. Cours supposé : 1 EUR = 1,16 USD (hypothèse (la note ne donne aucun cours) : environ 1,16 dollar pour 1 EUR, à remplacer par le cours Yahoo EURUSD=X ; l'Équateur utilise le dollar).
+- Salaire converti : 240 300 € × 1,16 = 278 748 USD.
+- Base imposable : 278 748 USD.
+
+| De (USD) | À (USD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 12 208 | 0,00 % | 12 208 | 0 |
+| 12 208 | 15 549 | 5,00 % | 3 341 | 167 |
+| 15 549 | 20 188 | 10,00 % | 4 639 | 464 |
+| 20 188 | 26 700 | 12,00 % | 6 512 | 781 |
+| 26 700 | 35 136 | 15,00 % | 8 436 | 1 265 |
+| 35 136 | 46 575 | 20,00 % | 11 439 | 2 288 |
+| 46 575 | 62 005 | 25,00 % | 15 430 | 3 858 |
+| 62 005 | 82 679 | 30,00 % | 20 674 | 6 202 |
+| 82 679 | 109 956 | 35,00 % | 27 277 | 9 547 |
+| 109 956 | et plus | 37,00 % | 168 792 | 62 453 |
+
+- **Impôt total : 87 025 USD, soit 31,2 % du salaire brut.**
+- Hypothèse : Barème 2026 du SRI pour les personnes physiques (résolution NAC-DGERCGC25-00000043), fraction exonérée de 12 208 dollars incluse comme tranche à 0 %.
+- Hypothèse : Avant rabais pour dépenses personnelles ; cotisations sociales (IESS) non déduites.
 
 ## Note
 

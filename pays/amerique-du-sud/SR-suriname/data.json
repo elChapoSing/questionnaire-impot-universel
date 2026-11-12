@@ -14,5 +14,41 @@
       "url": "https://rivermate.com/nl/gidsen/suriname/belastingen",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "SRD",
+    "fx": 44,
+    "fx_source": "hypothèse reprise de la note (44 SRD pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        108000,
+        0
+      ],
+      [
+        108000,
+        132000,
+        8
+      ],
+      [
+        132000,
+        180000,
+        18
+      ],
+      [
+        180000,
+        234000,
+        28
+      ],
+      [
+        234000,
+        null,
+        38
+      ]
+    ],
+    "hypotheses": [
+      "Franchise de 108 000 SRD par an (tranche à 0 %), puis 8 %, 18 %, 28 % et 38 % au-delà de 234 000 SRD.",
+      "Les bornes intermédiaires 132 000 et 180 000 sont déduites par différence avec le taux de la note (37,4 %) et non relues dans une source : à vérifier. Cotisation AOV exclue."
+    ]
+  }
 }

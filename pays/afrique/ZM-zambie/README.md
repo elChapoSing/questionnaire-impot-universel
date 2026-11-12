@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : ZMW. Cours supposé : 1 EUR = 27 ZMW (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURZMW=X).
+- Salaire converti : 240 300 € × 27 = 6 488 100 ZMW.
+- Base imposable : 6 488 100 ZMW.
+
+| De (ZMW) | À (ZMW) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 61 200 | 0,00 % | 61 200 | 0 |
+| 61 200 | 85 200 | 25,00 % | 24 000 | 6 000 |
+| 85 200 | 118 800 | 30,00 % | 33 600 | 10 080 |
+| 118 800 | et plus | 37,50 % | 6 369 300 | 2 388 488 |
+
+- **Impôt total : 2 404 568 ZMW, soit 37,1 % du salaire brut.**
+- Hypothèse : PAYE 2026 mensuel (MJ Consultants) multiplié par 12.
 
 ## Note
 

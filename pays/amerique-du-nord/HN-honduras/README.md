@@ -9,7 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : HNL. Cours supposé : 1 EUR = 30,2 HNL (hypothèse reprise de la note (26,3 HNL par USD)).
+- Salaire converti : 240 300 € × 30,2 = 7 257 060 HNL.
+- Base imposable : 7 257 060 HNL.
+
+| De (HNL) | À (HNL) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 228 324 | 0,00 % | 228 324 | 0 |
+| 228 324 | 348 154 | 15,00 % | 119 830 | 17 974 |
+| 348 154 | 809 661 | 20,00 % | 461 507 | 92 301 |
+| 809 661 | et plus | 25,00 % | 6 447 399 | 1 611 850 |
+
+- **Impôt total : 1 722 126 HNL, soit 23,7 % du salaire brut.**
+- Hypothèse : Table progressive 2026 (Acuerdo SAR-01-2026).
+- Hypothèse : Déduction médicale de 40 000 HNL non appliquée.
 
 ## Note
 

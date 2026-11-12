@@ -9,7 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : LBP. Cours supposé : 1 EUR = 103 800 LBP (hypothèse reprise de la note (1 € = 103 800 LBP)).
+- Salaire converti : 240 300 € × 103 800 = 24 943 140 000 LBP.
+- Base imposable : 24 943 140 000 LBP.
+
+| De (LBP) | À (LBP) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 18 000 000 | 2,00 % | 18 000 000 | 360 000 |
+| 18 000 000 | 45 000 000 | 4,00 % | 27 000 000 | 1 080 000 |
+| 45 000 000 | 90 000 000 | 7,00 % | 45 000 000 | 3 150 000 |
+| 90 000 000 | 150 000 000 | 11,00 % | 60 000 000 | 6 600 000 |
+| 150 000 000 | 225 000 000 | 15,00 % | 75 000 000 | 11 250 000 |
+| 225 000 000 | 675 000 000 | 20,00 % | 450 000 000 | 90 000 000 |
+| 675 000 000 | et plus | 25,00 % | 24 268 140 000 | 6 067 035 000 |
+
+- **Impôt total : 6 179 475 000 LBP, soit 24,8 % du salaire brut.**
+- Hypothèse : Barème des salaires depuis 2022 (PwC) : 2 % à 25 %, 25 % au-delà de 675 M LBP ; intermédiaires reconstitués à partir de l'ancien barème multiplié par 3.
+- Hypothèse : Variante TaxAtlas (25 % au-delà de 120 M LBP) : environ 24,9 %, d'où la fourchette de la note. Abattements exclus.
 
 ## Note
 

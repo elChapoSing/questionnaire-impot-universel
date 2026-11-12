@@ -9,5 +9,20 @@
       "url": "https://www.minfin.bg/en/827",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, change 1",
+    "tranches": [
+      [
+        0,
+        null,
+        10
+      ]
+    ],
+    "hypotheses": [
+      "Taux unique de 10 %, sans tranche ni abattement ; cotisations sociales exclues."
+    ]
+  }
 }

@@ -14,5 +14,21 @@
       "url": "https://taxnews.ey.com/news/2025-2446-estonia-significant-tax-changes-in-estonia-from-2026",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, change 1",
+    "tranches": [
+      [
+        0,
+        null,
+        22
+      ]
+    ],
+    "hypotheses": [
+      "Taux unique de 22 %. L'abattement annuel de 8 400 € disparaît à ce niveau de revenu, donc aucune déduction.",
+      "Cotisations sociales exclues."
+    ]
+  }
 }

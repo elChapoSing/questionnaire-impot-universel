@@ -13,5 +13,26 @@
       "url": "https://pacliirms.paclii.org/mh/legis/num_act/ita2025pl342025286.pdf",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "USD",
+    "fx": 1.16,
+    "fx_source": "hypothèse reprise de la note (1,16 USD pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        10400,
+        8
+      ],
+      [
+        10400,
+        null,
+        12
+      ]
+    ],
+    "hypotheses": [
+      "Taxe sur salaires : 8 % sur les premiers 10 400 USD, 12 % au-delà (loi modificative 2025, en vigueur au 1er octobre 2025).",
+      "Variante basse de la note (11,6 %) non retenue ; une source non officielle évoque une franchise de 8 320 USD, contradictoire avec le texte de loi."
+    ]
+  }
 }

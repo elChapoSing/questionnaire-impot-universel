@@ -9,7 +9,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : USD. Cours supposé : 1 EUR = 1,15 USD (hypothèse reprise de la note (EUR/USD 1,15), à remplacer par le cours Yahoo EURUSD=X (balboa à parité avec le dollar)).
+- Salaire converti : 240 300 € × 1,15 = 276 345 USD.
+- Base imposable : 276 345 USD.
+
+| De (USD) | À (USD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 11 000 | 0,00 % | 11 000 | 0 |
+| 11 000 | 50 000 | 15,00 % | 39 000 | 5 850 |
+| 50 000 | et plus | 25,00 % | 226 345 | 56 586 |
+
+- **Impôt total : 62 436 USD, soit 22,6 % du salaire brut.**
+- Hypothèse : Revenu supposé de source panaméenne ; système territorial (0 % pour un revenu de source étrangère).
 
 ## Note
 

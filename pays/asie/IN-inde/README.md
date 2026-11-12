@@ -9,7 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : INR. Cours supposé : 1 EUR = 105 INR (la note cite le cours BCE du 27 juillet 2026 sans le chiffrer ; valeur reconstituée, à remplacer par EURINR=X).
+- Salaire converti : 240 300 € × 105 = 25 231 500 INR.
+- Base imposable : 25 231 500 INR.
+
+| De (INR) | À (INR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 400 000 | 0,00 % | 400 000 | 0 |
+| 400 000 | 800 000 | 5,00 % | 400 000 | 20 000 |
+| 800 000 | 1 200 000 | 10,00 % | 400 000 | 40 000 |
+| 1 200 000 | 1 600 000 | 15,00 % | 400 000 | 60 000 |
+| 1 600 000 | 2 000 000 | 20,00 % | 400 000 | 80 000 |
+| 2 000 000 | 2 400 000 | 25,00 % | 400 000 | 100 000 |
+| 2 400 000 | et plus | 30,00 % | 22 831 500 | 6 849 450 |
+
+- Majoration : surcharge de 25 % au-delà de 2 crores, puis cess de 4 % (1,25 × 1,04) : + 30,0 % de l'impôt.
+- **Impôt total : 9 294 285 INR, soit 36,8 % du salaire brut.**
+- Hypothèse : Nouveau régime ; majoration (surcharge) de 25 % de l'impôt au-delà de 2 crores de roupies, plafonnée à 25 % dans ce régime, puis cess de 4 % : les deux sont modélisées ensemble par 1,25 × 1,04 (majoration cumulée de 30 %).
+- Hypothèse : Déduction forfaitaire de 75 000 roupies exclue.
 
 ## Note
 

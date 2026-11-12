@@ -9,7 +9,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : EGP. Cours supposé : 1 EUR = 55 EGP (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREGP=X).
+- Salaire converti : 240 300 € × 55 = 13 216 500 EGP.
+- Base imposable : 13 216 500 EGP.
+
+| De (EGP) | À (EGP) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 1 200 000 | 25,00 % | 1 200 000 | 300 000 |
+| 1 200 000 | et plus | 27,50 % | 12 016 500 | 3 304 538 |
+
+- **Impôt total : 3 604 538 EGP, soit 27,3 % du salaire brut.**
+- Hypothèse : Pour les hauts revenus, les 1,2 premiers million de livres sont imposés à 25 % (source : Catalogne Trade Portal), ce qui remplace les tranches de 0 / 10 / 15 / 20 / 22,5 % du barème ordinaire (0 % jusqu'à 40 000, puis 10, 15, 20, 22,5, 25 % jusqu'à 1,2 million) ; au-delà, 27,5 %.
 
 ## Note
 

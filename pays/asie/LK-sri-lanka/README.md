@@ -9,7 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : LKR. Cours supposé : 1 EUR = 343 LKR (hypothèse reprise de la note (343 roupies pour 1 €)).
+- Salaire converti : 240 300 € × 343 = 82 422 900 LKR.
+- Base imposable : 82 422 900 LKR.
+
+| De (LKR) | À (LKR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 1 800 000 | 0,00 % | 1 800 000 | 0 |
+| 1 800 000 | 2 800 000 | 6,00 % | 1 000 000 | 60 000 |
+| 2 800 000 | 3 300 000 | 18,00 % | 500 000 | 90 000 |
+| 3 300 000 | 3 800 000 | 24,00 % | 500 000 | 120 000 |
+| 3 800 000 | 4 300 000 | 30,00 % | 500 000 | 150 000 |
+| 4 300 000 | et plus | 36,00 % | 78 122 900 | 28 124 244 |
+
+- **Impôt total : 28 544 244 LKR, soit 34,6 % du salaire brut.**
+- Hypothèse : Barème 2025-2026 : 1,8 million de roupies de franchise puis 6 %, 18 %, 24 %, 30 % et 36 % au-delà de 4,3 millions.
+- Hypothèse : Les tranches intermédiaires (1 M puis 0,5 M chacune) sont reconstituées à partir du barème de l'Inland Revenue Act ; sans effet sur le résultat.
 
 ## Note
 

@@ -14,5 +14,27 @@
       "url": "https://taxsummaries.pwc.com/quick%20charts/personal-income-tax-pit-rates",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "MRU",
+    "fx": 46,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMRU=X",
+    "tranches": [
+      [
+        0,
+        null,
+        40
+      ]
+    ],
+    "credits": [
+      [
+        "Constante de la formule ITS (RI x 40 % - 4 050 par mois), soit 4 050 x 12",
+        48600
+      ]
+    ],
+    "hypotheses": [
+      "Formule mensuelle valable au-delà de 21 000 MRU par mois.",
+      "Franchise de 6 000 MRU par mois et cotisations CNSS ignorées."
+    ]
+  }
 }

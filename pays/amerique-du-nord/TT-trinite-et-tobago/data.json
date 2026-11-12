@@ -18,5 +18,25 @@
       "url": "https://www.riotimesonline.com/taxes-trinidad-tobago-expats-2026/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "TTD",
+    "fx": 7.8,
+    "fx_source": "hypothèse reprise de la note (6,79 TTD par USD)",
+    "tranches": [
+      [
+        0,
+        1000000,
+        25
+      ],
+      [
+        1000000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Abattement personnel de 90 000 TTD non appliqué ; avec lui, environ 26 % (note)."
+    ]
+  }
 }

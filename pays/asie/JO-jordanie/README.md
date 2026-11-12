@@ -9,7 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : JOD. Cours supposé : 1 EUR = 0,82 JOD (hypothèse reprise de la note (1 € = 0,82 JOD)).
+- Salaire converti : 240 300 € × 0,82 = 197 046 JOD.
+- Base imposable : 197 046 JOD.
+
+| De (JOD) | À (JOD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 5 000 | 5,00 % | 5 000 | 250 |
+| 5 000 | 10 000 | 10,00 % | 5 000 | 500 |
+| 10 000 | 15 000 | 15,00 % | 5 000 | 750 |
+| 15 000 | 20 000 | 20,00 % | 5 000 | 1 000 |
+| 20 000 | 1 000 000 | 25,00 % | 177 046 | 44 262 |
+| 1 000 000 | et plus | 30,00 % | 0 | 0 |
+
+- **Impôt total : 46 762 JOD, soit 23,7 % du salaire brut.**
+- Hypothèse : Contribution nationale de 1 % au-delà de 200 000 JOD non modélisée (négligeable ici).
+- Hypothèse : Exemptions personnelle et familiale (27 000 JOD) exclues ; avec elles le taux serait plus bas. Taux de 30 % au-delà de 1 M JOD non atteint.
 
 ## Note
 

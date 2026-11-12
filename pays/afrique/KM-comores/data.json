@@ -18,5 +18,57 @@
       "url": "https://afrotools.com/fr/comores/calculateur-salaire-net/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "KMF",
+    "fx": 491.968,
+    "fx_source": "parité fixe KMF/EUR (491,968), reprise de la note",
+    "deductions": [
+      [
+        "Déduction forfaitaire de 30 % pour frais professionnels sur salaires (art. 59 CGI)",
+        35465973
+      ]
+    ],
+    "tranches": [
+      [
+        0,
+        150000,
+        0
+      ],
+      [
+        150000,
+        500000,
+        5
+      ],
+      [
+        500000,
+        1000000,
+        10
+      ],
+      [
+        1000000,
+        1500000,
+        15
+      ],
+      [
+        1500000,
+        2500000,
+        20
+      ],
+      [
+        2500000,
+        3500000,
+        25
+      ],
+      [
+        3500000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Barème à 7 tranches (art. 97 CGI 2023).",
+      "Variante de la note : sans déduction de 30 %, 29,6 %."
+    ]
+  }
 }

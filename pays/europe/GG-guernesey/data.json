@@ -19,5 +19,21 @@
       "url": "https://www.careyolsen.com/node/1028",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "GBP",
+    "fx": 0.87,
+    "fx_source": "la note ne donne pas de cours : hypothèse de 0,87 GBP pour 1 EUR (comme pour le Royaume-Uni), à remplacer par le cours Yahoo EURGBP=X ; sans effet avec un taux unique",
+    "tranches": [
+      [
+        0,
+        null,
+        20
+      ]
+    ],
+    "hypotheses": [
+      "Taux unique de 20 %. L'abattement personnel (15 200 £) est supprimé progressivement au-delà de 85 000 £ : il est nul à ce revenu.",
+      "Plafonds d'impôt sur option sans effet à ce niveau de revenu."
+    ]
+  }
 }

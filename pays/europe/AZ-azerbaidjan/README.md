@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : AZN. Cours supposé : 1 EUR = 1,97 AZN (hypothèse reprise de la note, à remplacer par le cours Yahoo EURAZN=X).
+- Salaire converti : 240 300 € × 1,97 = 473 391 AZN.
+- Base imposable : 473 391 AZN.
+
+| De (AZN) | À (AZN) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 30 000 | 3,00 % | 30 000 | 900 |
+| 30 000 | 96 000 | 10,00 % | 66 000 | 6 600 |
+| 96 000 | et plus | 14,00 % | 377 391 | 52 835 |
+
+- **Impôt total : 60 335 AZN, soit 12,7 % du salaire brut.**
+- Hypothèse : Barème mensuel de la note converti en annuel : 3 % jusqu'à 2 500 AZN/mois (30 000 par an), 10 % jusqu'à 8 000 (96 000 par an), 14 % au-delà (secteur privé non pétrolier).
+- Hypothèse : Variante secteur pétrole/gaz ou public (14 % jusqu'à 30 000, puis 25 %) : environ 24,3 %.
 
 ## Note
 

@@ -14,5 +14,36 @@
       "url": "https://www.bloomberglinea.com/latinoamerica/honduras/tabla-progresiva-2026-en-honduras-ingreso-exento-y-tramos-de-isr-por-salario/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "HNL",
+    "fx": 30.2,
+    "fx_source": "hypothèse reprise de la note (26,3 HNL par USD)",
+    "tranches": [
+      [
+        0,
+        228324.32,
+        0
+      ],
+      [
+        228324.32,
+        348154.1,
+        15
+      ],
+      [
+        348154.1,
+        809660.75,
+        20
+      ],
+      [
+        809660.75,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Table progressive 2026 (Acuerdo SAR-01-2026).",
+      "Déduction médicale de 40 000 HNL non appliquée."
+    ]
+  }
 }

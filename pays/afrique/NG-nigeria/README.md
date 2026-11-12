@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : NGN. Cours supposé : 1 EUR = 1 750 NGN (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURNGN=X).
+- Salaire converti : 240 300 € × 1 750 = 420 525 000 NGN.
+- Base imposable : 420 525 000 NGN.
+
+| De (NGN) | À (NGN) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 800 000 | 0,00 % | 800 000 | 0 |
+| 800 000 | 3 000 000 | 15,00 % | 2 200 000 | 330 000 |
+| 3 000 000 | 12 000 000 | 18,00 % | 9 000 000 | 1 620 000 |
+| 12 000 000 | 25 000 000 | 21,00 % | 13 000 000 | 2 730 000 |
+| 25 000 000 | 50 000 000 | 23,00 % | 25 000 000 | 5 750 000 |
+| 50 000 000 | et plus | 25,00 % | 370 525 000 | 92 631 250 |
+
+- **Impôt total : 103 061 250 NGN, soit 24,5 % du salaire brut.**
+- Hypothèse : Nigeria Tax Act 2025 ; relief loyer et cotisations ignorés.
 
 ## Note
 

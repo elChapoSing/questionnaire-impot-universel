@@ -19,5 +19,46 @@
       "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2025/dttl-tax-laoshighlights-2025.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "LAK",
+    "fx": 25500,
+    "fx_source": "hypothèse reprise de la note (environ 25 500 kips pour 1 €)",
+    "tranches": [
+      [
+        0,
+        30000000,
+        0
+      ],
+      [
+        30000000,
+        60000000,
+        5
+      ],
+      [
+        60000000,
+        180000000,
+        10
+      ],
+      [
+        180000000,
+        300000000,
+        15
+      ],
+      [
+        300000000,
+        780000000,
+        20
+      ],
+      [
+        780000000,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Barème mensuel en vigueur depuis le 1er juillet 2026 (0 % jusqu'à 2,5 M ; 5 % jusqu'à 5 M ; 10 % jusqu'à 15 M ; 15 % jusqu'à 25 M ; 20 % jusqu'à 65 M ; 25 % au-delà) multiplié par 12.",
+      "Aucune déduction appliquée."
+    ]
+  }
 }

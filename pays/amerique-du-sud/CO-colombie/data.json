@@ -19,5 +19,52 @@
       "url": "https://colombiatramita.co/?p=1384",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "COP",
+    "fx": 4457,
+    "fx_source": "hypothèse reprise de la note (4 457 pesos pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        57087660,
+        0
+      ],
+      [
+        57087660,
+        89035800,
+        19
+      ],
+      [
+        89035800,
+        214733400,
+        28
+      ],
+      [
+        214733400,
+        454082580,
+        33
+      ],
+      [
+        454082580,
+        993534780,
+        35
+      ],
+      [
+        993534780,
+        1623594000,
+        37
+      ],
+      [
+        1623594000,
+        null,
+        39
+      ]
+    ],
+    "hypotheses": [
+      "Barème de l'article 241 du Statut fiscal exprimé en UVT (UVT 2026 : 52 374 pesos) : 0 % jusqu'à 1 090, puis 19 %, 28 %, 33 %, 35 %, 37 % (de 18 970 à 31 000) et 39 %.",
+      "Sans abattements ni rentes exonérées (en pratique jusqu'à 25 % du revenu du travail peut être exonéré dans la limite de 790 UVT) ; projet de loi n° 477 de 2026 non pris en compte.",
+      "La note donne une fourchette de 30,9 % à 32,6 % selon le change (3 900 à 5 600 pesos pour 1 EUR)."
+    ]
+  }
 }

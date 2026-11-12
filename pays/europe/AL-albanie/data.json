@@ -19,5 +19,26 @@
       "url": "https://kpmg.com/al/en/insights/2023/09/taxation-of-employment-income-in-2024.html",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "ALL",
+    "fx": 98,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EURALL=X",
+    "tranches": [
+      [
+        0,
+        2040000,
+        13
+      ],
+      [
+        2040000,
+        null,
+        23
+      ]
+    ],
+    "hypotheses": [
+      "Barème des salaires depuis 2025 : 13 % jusqu'à 2 040 000 lekë par an, 23 % au-delà.",
+      "Sans abattement personnel ; cotisations sociales exclues."
+    ]
+  }
 }

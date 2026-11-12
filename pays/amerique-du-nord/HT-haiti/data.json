@@ -18,5 +18,41 @@
       "url": "https://www.mef.gouv.ht/storage/app/uploads/public/6a6/cc3/3dc/6a6cc33dcbf11650887297.pdf",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "HTG",
+    "fx": 150,
+    "fx_source": "hypothèse reprise de la note, peu sensible",
+    "tranches": [
+      [
+        0,
+        60000,
+        0
+      ],
+      [
+        60000,
+        240000,
+        10
+      ],
+      [
+        240000,
+        480000,
+        15
+      ],
+      [
+        480000,
+        1000000,
+        25
+      ],
+      [
+        1000000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Barème actuel (décret de 2005) : cette version donne environ 29,7 %.",
+      "Nouveau barème validé pour application au 1er octobre 2026 (taux 0, 12, 18, 25, 30 %) : environ 29,3 % (note) ; ses bornes en gourdes n'ont pas été retrouvées."
+    ]
+  }
 }

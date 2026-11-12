@@ -19,5 +19,47 @@
       "url": "https://www.wolterskluwer.com/es-es/expert-insights/tramos-retenciones-irpf-2026-novedades",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, change 1",
+    "tranches": [
+      [
+        0,
+        12450,
+        19
+      ],
+      [
+        12450,
+        20200,
+        24
+      ],
+      [
+        20200,
+        35200,
+        30
+      ],
+      [
+        35200,
+        60000,
+        37
+      ],
+      [
+        60000,
+        300000,
+        45
+      ],
+      [
+        300000,
+        null,
+        47
+      ]
+    ],
+    "hypotheses": [
+      "Barème général de l'IRPF : part d'État (9,5 / 12 / 15 / 18,5 / 22,5 / 24,5 %) plus part régionale supposée identique (échelle par défaut), d'où 19 / 24 / 30 / 37 / 45 / 47 %.",
+      "Chaque communauté autonome peut fixer son barème ; Madrid est plus bas (maximum d'environ 43,5 %).",
+      "Minimum personnel et cotisations sociales exclus."
+    ]
+  }
 }

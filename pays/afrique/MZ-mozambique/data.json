@@ -9,5 +9,26 @@
       "url": "https://taxsummaries.pwc.com/mozambique/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "MZN",
+    "fx": 74,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMZN=X",
+    "tranches": [
+      [
+        0,
+        null,
+        32
+      ]
+    ],
+    "credits": [
+      [
+        "Parcela a abater de la formule IRPS (PwC)",
+        141540
+      ]
+    ],
+    "hypotheses": [
+      "Formule applicable à la dernière tranche (au-delà de 1,512 M MZN) : impôt = 32 % x revenu imposable - 141 540."
+    ]
+  }
 }

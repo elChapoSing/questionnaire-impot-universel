@@ -9,7 +9,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : JMD. Cours supposé : 1 EUR = 182 JMD (hypothèse reprise de la note (158 JMD par USD)).
+- Salaire converti : 240 300 € × 182 = 43 734 600 JMD.
+- Base imposable : 43 734 600 JMD.
+
+| De (JMD) | À (JMD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 6 000 000 | 25,00 % | 6 000 000 | 1 500 000 |
+| 6 000 000 | et plus | 30,00 % | 37 734 600 | 11 320 380 |
+
+- **Impôt total : 12 820 380 JMD, soit 29,3 % du salaire brut.**
+- Hypothèse : Seuil annuel exonéré d'environ 1,9 M JMD non appliqué ; avec lui, environ 28,0 % (note).
+- Hypothèse : Cotisations NIS, NHT et taxe d'éducation exclues.
 
 ## Note
 

@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : AWG. Cours supposé : 1 EUR = 2,0585 AWG (hypothèse reprise de la note : 1 EUR = 1,15 USD et 1 USD = 1,79 AWG (parité fixe) ; à remplacer par le cours Yahoo EURAWG=X).
+- Salaire converti : 240 300 € × 2,0585 = 494 658 AWG.
+- Base imposable : 494 658 AWG.
+
+| De (AWG) | À (AWG) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 34 930 | 0,00 % | 34 930 | 0 |
+| 34 930 | 63 904 | 21,00 % | 28 974 | 6 085 |
+| 63 904 | 135 527 | 42,00 % | 71 623 | 30 082 |
+| 135 527 | et plus | 52,00 % | 359 131 | 186 748 |
+
+- **Impôt total : 222 914 AWG, soit 45,1 % du salaire brut.**
+- Hypothèse : Barème 2026 résidents (Deloitte, Aruba tax highlights 2026).
+- Hypothèse : Franchise de 30 000 AWG non appliquée ; avec elle, environ 41,9 % (variante de la note).
+- Hypothèse : Cotisations AOV/AZV exclues.
 
 ## Note
 

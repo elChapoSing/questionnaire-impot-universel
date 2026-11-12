@@ -19,5 +19,32 @@
       "url": "https://taxatlas.app/ie/tax-brackets/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, change 1",
+    "tranches": [
+      [
+        0,
+        44000,
+        20
+      ],
+      [
+        44000,
+        null,
+        40
+      ]
+    ],
+    "credits": [
+      [
+        "Crédits d'impôt personnel et salarié",
+        4000
+      ]
+    ],
+    "hypotheses": [
+      "2026, personne seule : 20 % jusqu'à 44 000 €, 40 % au-delà, moins 4 000 € de crédits.",
+      "USC (jusqu'à 8 %) et PRSI exclus : avec eux le taux marginal atteint environ 52 %."
+    ]
+  }
 }

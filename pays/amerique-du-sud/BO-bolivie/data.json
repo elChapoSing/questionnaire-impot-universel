@@ -13,5 +13,21 @@
       "url": "https://taxsummaries.pwc.com/bolivia/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "BOB",
+    "fx": 8.07,
+    "fx_source": "hypothèse : 6,96 BOB pour 1 USD au taux officiel × 1,16 USD pour 1 EUR ; à remplacer par le cours Yahoo EURBOB=X",
+    "tranches": [
+      [
+        0,
+        null,
+        13
+      ]
+    ],
+    "hypotheses": [
+      "RC-IVA au taux unique de 13 % appliqué au salaire brut, sans déduction des cotisations sociales ni crédit de TVA sur factures.",
+      "Variante de la note (environ 11,3 %) : assiette nette des cotisations sociales et crédit de TVA sur factures, non retenue ici."
+    ]
+  }
 }

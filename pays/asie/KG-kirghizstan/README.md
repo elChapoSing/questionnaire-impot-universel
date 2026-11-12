@@ -9,7 +9,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : KGS. Cours supposé : 1 EUR = 100 KGS (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURKGS=X).
+- Salaire converti : 240 300 € × 100 = 24 030 000 KGS.
+- Base imposable : 24 030 000 KGS.
+
+| De (KGS) | À (KGS) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 10,00 % | 24 030 000 | 2 403 000 |
+
+- **Impôt total : 2 403 000 KGS, soit 10,0 % du salaire brut.**
+- Hypothèse : Taux forfaitaire de 10 % sur les revenus du travail.
+- Hypothèse : Cotisations sociales exclues ; le taux ne dépend pas du change.
 
 ## Note
 

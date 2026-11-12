@@ -14,5 +14,21 @@
       "url": "https://kun.uz/en/news/2025/12/22/deputy-pm-kuchkarov-details-which-taxes-will-rise-and-which-will-stay-unchanged-in-2026",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "UZS",
+    "fx": 14000,
+    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURUZS=X",
+    "tranches": [
+      [
+        0,
+        null,
+        12
+      ]
+    ],
+    "hypotheses": [
+      "Taux unique de 12 %, hors cotisation retraite de 4 % et taxe sociale employeur.",
+      "Le taux ne dépend pas du change."
+    ]
+  }
 }

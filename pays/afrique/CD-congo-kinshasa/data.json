@@ -13,5 +13,21 @@
       "url": "https://taxsummaries.pwc.com/democratic-republic-of-the-congo/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "CDF",
+    "fx": 2650,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURCDF=X",
+    "tranches": [
+      [
+        0,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "L'IPR est plafonné à 30 % de la rémunération imposable (PwC) : à ce niveau de revenu le plafond s'applique à toute la base, d'où un taux unique de 30 %.",
+      "Sans le plafond, le barème 3 / 15 / 30 / 40 % donnerait environ 38,8 % (variante de la note)."
+    ]
+  }
 }

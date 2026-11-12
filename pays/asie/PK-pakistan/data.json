@@ -19,5 +19,56 @@
       "url": "https://cssprep.com.pk/income-tax-slabs-2026-27-pakistan-salaried-class/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "PKR",
+    "fx": 323,
+    "fx_source": "hypothèse reprise de la note (323 roupies pour 1 €)",
+    "tranches": [
+      [
+        0,
+        600000,
+        0
+      ],
+      [
+        600000,
+        1200000,
+        1
+      ],
+      [
+        1200000,
+        2200000,
+        11
+      ],
+      [
+        2200000,
+        3200000,
+        20
+      ],
+      [
+        3200000,
+        4100000,
+        25
+      ],
+      [
+        4100000,
+        5600000,
+        29
+      ],
+      [
+        5600000,
+        7000000,
+        32
+      ],
+      [
+        7000000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Barème des salariés, exercice 2026-27 ; les montants fixes (1 424 000 au-delà de 7 millions) sont reconstitués par les taux marginaux.",
+      "La surtaxe de 9 % est supprimée. Barème décrit comme voté par le Finance Act 2026 mais à confirmer sur le texte promulgué."
+    ]
+  }
 }

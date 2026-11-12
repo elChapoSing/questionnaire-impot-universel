@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : CZK. Cours supposé : 1 EUR = 24,3 CZK (la note ne donne pas de cours : hypothèse de 24,3 CZK pour 1 EUR, à remplacer par le cours Yahoo EURCZK=X).
+- Salaire converti : 240 300 € × 24,3 = 5 839 290 CZK.
+- Base imposable : 5 839 290 CZK.
+
+| De (CZK) | À (CZK) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 1 762 812 | 15,00 % | 1 762 812 | 264 422 |
+| 1 762 812 | et plus | 23,00 % | 4 076 478 | 937 590 |
+
+- **Impôt total : 1 202 012 CZK, soit 20,6 % du salaire brut.**
+- Hypothèse : 15 % jusqu'à 1 762 812 CZK, 23 % au-delà.
+- Hypothèse : Le crédit d'impôt de base de 30 840 CZK n'est pas compté ; avec lui le taux tomberait à environ 20,0 %.
+- Hypothèse : Taux sensible au change, très proche du seuil de 21,1 %.
 
 ## Note
 

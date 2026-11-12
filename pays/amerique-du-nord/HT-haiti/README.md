@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : HTG. Cours supposé : 1 EUR = 150 HTG (hypothèse reprise de la note, peu sensible).
+- Salaire converti : 240 300 € × 150 = 36 045 000 HTG.
+- Base imposable : 36 045 000 HTG.
+
+| De (HTG) | À (HTG) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 60 000 | 0,00 % | 60 000 | 0 |
+| 60 000 | 240 000 | 10,00 % | 180 000 | 18 000 |
+| 240 000 | 480 000 | 15,00 % | 240 000 | 36 000 |
+| 480 000 | 1 000 000 | 25,00 % | 520 000 | 130 000 |
+| 1 000 000 | et plus | 30,00 % | 35 045 000 | 10 513 500 |
+
+- **Impôt total : 10 697 500 HTG, soit 29,7 % du salaire brut.**
+- Hypothèse : Barème actuel (décret de 2005) : cette version donne environ 29,7 %.
+- Hypothèse : Nouveau barème validé pour application au 1er octobre 2026 (taux 0, 12, 18, 25, 30 %) : environ 29,3 % (note) ; ses bornes en gourdes n'ont pas été retrouvées.
 
 ## Note
 

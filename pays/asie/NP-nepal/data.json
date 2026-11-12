@@ -19,5 +19,41 @@
       "url": "https://lawalpine.com/blog/budget-2083-84-tax-changes-in-nepal",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "NPR",
+    "fx": 160,
+    "fx_source": "hypothèse reprise de la note (160 roupies pour 1 €)",
+    "tranches": [
+      [
+        0,
+        1000000,
+        1
+      ],
+      [
+        1000000,
+        1500000.0,
+        10
+      ],
+      [
+        1500000.0,
+        2500000.0,
+        20
+      ],
+      [
+        2500000.0,
+        4000000,
+        27
+      ],
+      [
+        4000000,
+        null,
+        29
+      ]
+    ],
+    "hypotheses": [
+      "Barème de l'exercice 2083/84 ; la tranche à 1 % est l'impôt de sécurité sociale (dû par les non-cotisants au fonds social).",
+      "L'ancien barème 2082/83 (jusqu'à 39 %) donnerait 37,7 %, comme l'indique la note."
+    ]
+  }
 }

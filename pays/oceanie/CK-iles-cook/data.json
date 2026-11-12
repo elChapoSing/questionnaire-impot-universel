@@ -13,5 +13,36 @@
       "url": "https://pacliirms.paclii.org/ck/legis/num_act/itaa2023196",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "NZD",
+    "fx": 1.95,
+    "fx_source": "hypothèse reprise de la note (1,95 NZD pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        14600,
+        0
+      ],
+      [
+        14600,
+        30000,
+        17
+      ],
+      [
+        30000,
+        80000,
+        27
+      ],
+      [
+        80000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Barème des résidents de Rarotonga (loi modificative 2023) : 0 % jusqu'à 14 600, 17 % jusqu'à 30 000, 27 % jusqu'à 80 000, 30 % au-delà.",
+      "Abattement personnel de 14 600 non appliqué en plus de la tranche à 0 % ; barème des îles périphériques non retenu."
+    ]
+  }
 }

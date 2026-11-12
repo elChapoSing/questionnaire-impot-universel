@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : MAD. Cours supposé : 1 EUR = 10,8 MAD (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMAD=X).
+- Salaire converti : 240 300 € × 10,8 = 2 595 240 MAD.
+- Base imposable : 2 595 240 MAD.
+
+| De (MAD) | À (MAD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 40 000 | 0,00 % | 40 000 | 0 |
+| 40 000 | 60 000 | 10,00 % | 20 000 | 2 000 |
+| 60 000 | 80 000 | 20,00 % | 20 000 | 4 000 |
+| 80 000 | 100 000 | 30,00 % | 20 000 | 6 000 |
+| 100 000 | 180 000 | 34,00 % | 80 000 | 27 200 |
+| 180 000 | et plus | 37,00 % | 2 415 240 | 893 639 |
+
+- **Impôt total : 932 839 MAD, soit 35,9 % du salaire brut.**
+- Hypothèse : Barème IR salarial 2026 ; abattement forfaitaire pour frais professionnels et cotisations sociales exclus (effet faible sur le taux).
 
 ## Note
 

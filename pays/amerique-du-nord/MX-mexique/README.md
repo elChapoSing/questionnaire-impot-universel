@@ -9,7 +9,27 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : MXN. Cours supposé : 1 EUR = 20,75 MXN (milieu de la fourchette 19,5 à 22 de la note, à remplacer par le cours Yahoo EURMXN=X).
+- Salaire converti : 240 300 € × 20,75 = 4 986 225 MXN.
+- Base imposable : 4 986 225 MXN.
+
+| De (MXN) | À (MXN) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 10 135 | 1,92 % | 10 135 | 195 |
+| 10 135 | 86 022 | 6,40 % | 75 887 | 4 857 |
+| 86 022 | 151 176 | 10,88 % | 65 154 | 7 089 |
+| 151 176 | 175 736 | 16,00 % | 24 559 | 3 930 |
+| 175 736 | 210 404 | 17,92 % | 34 668 | 6 213 |
+| 210 404 | 424 354 | 21,36 % | 213 950 | 45 700 |
+| 424 354 | 668 840 | 23,52 % | 244 486 | 57 503 |
+| 668 840 | 1 276 926 | 30,00 % | 608 086 | 182 426 |
+| 1 276 926 | 1 702 568 | 32,00 % | 425 642 | 136 205 |
+| 1 702 568 | 5 107 704 | 34,00 % | 3 283 657 | 1 116 443 |
+| 5 107 704 | et plus | 35,00 % | 0 | 0 |
+
+- **Impôt total : 1 560 560 MXN, soit 31,3 % du salaire brut.**
+- Hypothèse : Tarif annuel 2026 (articles 96/152 LISR, Annexe 8 RMF 2026) converti en tranches marginales ; les montants fixes du tarif sont retrouvés par cumul.
+- Hypothèse : Aucune déduction personnelle ; source officielle non lue (relais privés).
 
 ## Note
 

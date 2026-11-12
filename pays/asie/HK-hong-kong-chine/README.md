@@ -9,7 +9,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : HKD. Cours supposé : 1 EUR = 8,9 HKD (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURHKD=X).
+- Salaire converti : 240 300 € × 8,9 = 2 138 670 HKD.
+- Base imposable : 2 138 670 HKD.
+
+| De (HKD) | À (HKD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 15,00 % | 2 138 670 | 320 800 |
+
+- **Impôt total : 320 800 HKD, soit 15,0 % du salaire brut.**
+- Hypothèse : Taux « standard » de 15 % appliqué à tout le revenu net imposable, car il est inférieur au barème progressif (2 à 17 %) à ce niveau de revenu.
+- Hypothèse : Cotisations MPF et abattements personnels exclus ; le taux ne dépend pas du change.
 
 ## Note
 

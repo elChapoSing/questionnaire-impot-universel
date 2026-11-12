@@ -9,7 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : BDT. Cours supposé : 1 EUR = 140 BDT (hypothèse reprise de la note (140 takas pour 1 €)).
+- Salaire converti : 240 300 € × 140 = 33 642 000 BDT.
+- Base imposable : 33 642 000 BDT.
+
+| De (BDT) | À (BDT) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 375 000 | 0,00 % | 375 000 | 0 |
+| 375 000 | 675 000 | 10,00 % | 300 000 | 30 000 |
+| 675 000 | 1 075 000 | 15,00 % | 400 000 | 60 000 |
+| 1 075 000 | 1 575 000 | 20,00 % | 500 000 | 100 000 |
+| 1 575 000 | 3 575 000 | 25,00 % | 2 000 000 | 500 000 |
+| 3 575 000 | et plus | 30,00 % | 30 067 000 | 9 020 100 |
+
+- **Impôt total : 9 710 100 BDT, soit 28,9 % du salaire brut.**
+- Hypothèse : Barème des années d'imposition 2026-27 et 2027-28 ; la tranche à 35 % au-delà de 30 millions n'est prévue qu'à partir de 2028-29 (non retenue).
+- Hypothèse : Sans crédit d'impôt d'investissement ni rebate.
 
 ## Note
 

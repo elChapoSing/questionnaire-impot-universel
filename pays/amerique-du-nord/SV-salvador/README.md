@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : USD. Cours supposé : 1 EUR = 1,15 USD (hypothèse reprise de la note (EUR/USD 1,15), à remplacer par le cours Yahoo EURUSD=X (économie dollarisée)).
+- Salaire converti : 240 300 € × 1,15 = 276 345 USD.
+- Base imposable : 276 345 USD.
+
+| De (USD) | À (USD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 6 600 | 0,00 % | 6 600 | 0 |
+| 6 600 | 10 743 | 10,00 % | 4 143 | 414 |
+| 10 743 | 24 457 | 20,00 % | 13 714 | 2 743 |
+| 24 457 | et plus | 30,00 % | 251 888 | 75 566 |
+
+- Crédit : Écart entre les montants fixes du tableau de retenue (288,57 USD par mois au dernier tranche) et le cumul marginal (263,10) : − -306 USD.
+- **Impôt total : 79 029 USD, soit 28,6 % du salaire brut.**
+- Hypothèse : Tableau mensuel de retenue (exonération 550 USD ; 10 % jusqu'à 895,24 ; 20 % jusqu'à 2 038,10 ; 30 % au-delà) annualisé ×12.
+- Hypothèse : Le tableau officiel comporte des montants fixes qui ne se raccordent pas exactement au barème marginal ; l'écart est repris en ajustement.
 
 ## Note
 

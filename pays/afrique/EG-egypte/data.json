@@ -19,5 +19,25 @@
       "url": "https://tradeportal.accio.gencat.cat/ca/mercats-potencials/egipte/impostos",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EGP",
+    "fx": 55,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREGP=X",
+    "tranches": [
+      [
+        0,
+        1200000,
+        25
+      ],
+      [
+        1200000,
+        null,
+        27.5
+      ]
+    ],
+    "hypotheses": [
+      "Pour les hauts revenus, les 1,2 premiers million de livres sont imposés à 25 % (source : Catalogne Trade Portal), ce qui remplace les tranches de 0 / 10 / 15 / 20 / 22,5 % du barème ordinaire (0 % jusqu'à 40 000, puis 10, 15, 20, 22,5, 25 % jusqu'à 1,2 million) ; au-delà, 27,5 %."
+    ]
+  }
 }

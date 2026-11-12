@@ -19,5 +19,33 @@
       "url": "https://taxsummaries.pwc.com/croatia/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, change 1",
+    "deductions": [
+      [
+        "Abattement personnel de base (560 € par mois)",
+        6720
+      ]
+    ],
+    "tranches": [
+      [
+        0,
+        60000,
+        20
+      ],
+      [
+        60000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Barème par défaut : 20 % jusqu'à 60 000 €, 30 % au-delà ; chaque commune fixe ses propres taux (15 à 23,6 % et 25 à 35,4 %).",
+      "Avec les taux locaux les plus bas, le taux effectif serait de 21,8 % (note).",
+      "Cotisations sociales exclues."
+    ]
+  }
 }

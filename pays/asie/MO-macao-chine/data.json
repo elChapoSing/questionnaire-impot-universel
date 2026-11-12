@@ -9,5 +9,51 @@
       "url": "https://taxsummaries.pwc.com/macau-sar/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "MOP",
+    "fx": 9.3,
+    "fx_source": "hypothèse reprise de la note (1 € = 9,3 MOP)",
+    "tranches": [
+      [
+        0,
+        144000,
+        0
+      ],
+      [
+        144000,
+        164000,
+        7
+      ],
+      [
+        164000,
+        184000,
+        8
+      ],
+      [
+        184000,
+        224000,
+        9
+      ],
+      [
+        224000,
+        304000,
+        10
+      ],
+      [
+        304000,
+        424000,
+        11
+      ],
+      [
+        424000,
+        null,
+        12
+      ]
+    ],
+    "hypotheses": [
+      "Impôt professionnel 2026 (PwC), plafonné à 12 %.",
+      "Déduction forfaitaire de 25 % sur le revenu salarial non appliquée ; elle ramènerait le taux autour de 8 %."
+    ]
+  }
 }

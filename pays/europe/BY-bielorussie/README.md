@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : BYN. Cours supposé : 1 EUR = 3,3 BYN (hypothèse reprise de la note, à remplacer par le cours Yahoo EURBYN=X).
+- Salaire converti : 240 300 € × 3,3 = 792 990 BYN.
+- Base imposable : 792 990 BYN.
+
+| De (BYN) | À (BYN) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 350 000 | 13,00 % | 350 000 | 45 500 |
+| 350 000 | 600 000 | 25,00 % | 250 000 | 62 500 |
+| 600 000 | et plus | 30,00 % | 192 990 | 57 897 |
+
+- **Impôt total : 165 897 BYN, soit 20,9 % du salaire brut.**
+- Hypothèse : Barème depuis 2026 : 13 % jusqu'à 350 000 BYN, 25 % jusqu'à 600 000, 30 % au-delà.
+- Hypothèse : Taux sensible au change : 20,0 % à 3,0 BYN pour 1 EUR, 21,7 % à 3,6.
 
 ## Note
 

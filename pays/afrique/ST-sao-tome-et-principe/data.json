@@ -13,5 +13,46 @@
       "url": "https://immigrantinvest.com/fr/blog/sao-tome-and-principe-taxes",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "STN",
+    "fx": 24.5,
+    "fx_source": "parité fixe STN/EUR (24,5), reprise de la note",
+    "tranches": [
+      [
+        0,
+        11700,
+        0
+      ],
+      [
+        11700,
+        50000,
+        10
+      ],
+      [
+        50000,
+        100000,
+        13
+      ],
+      [
+        100000,
+        150000,
+        15
+      ],
+      [
+        150000,
+        240000,
+        20
+      ],
+      [
+        240000,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Source unique non officielle (Immigrant Invest, loi 11/2009 art. 66).",
+      "Barème appliqué en tranches marginales ; la source donne aussi des montants déductibles par tranche, non reproduits (variante 24,2 à 24,9 % de la note)."
+    ]
+  }
 }

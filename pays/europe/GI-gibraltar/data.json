@@ -19,5 +19,41 @@
       "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gi/tax-alerts/documents/ey-gibraltar-tax-facts-2025-2026.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "GBP",
+    "fx": 0.87,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EURGBP=X",
+    "tranches": [
+      [
+        0,
+        17000,
+        16
+      ],
+      [
+        17000,
+        25000,
+        19
+      ],
+      [
+        25000,
+        40000,
+        25
+      ],
+      [
+        40000,
+        105000,
+        28
+      ],
+      [
+        105000,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Système sur revenu brut 2025/26 (PwC), table des revenus supérieurs à 25 000 £ : 16 % sur 17 000 £, 19 % sur 8 000, 25 % sur 15 000, 28 % sur 65 000, 25 % sur le solde. Le système à abattements donnerait un impôt plus élevé à ce revenu.",
+      "Sans abattements ni déductions."
+    ]
+  }
 }

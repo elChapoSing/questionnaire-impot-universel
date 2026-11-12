@@ -19,5 +19,32 @@
       "url": "https://wiki.private.law/en/andorra-tax",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, change 1",
+    "tranches": [
+      [
+        0,
+        24000,
+        0
+      ],
+      [
+        24000,
+        40000,
+        5
+      ],
+      [
+        40000,
+        null,
+        10
+      ]
+    ],
+    "hypotheses": [
+      "Barème de la note : 0 % jusqu'à 24 000 €, 5 % jusqu'à 40 000 €, 10 % au-delà.",
+      "Le bonus de 800 € maximum sur les salaires n'est pas déduit ; la note évoque une autre lecture du barème donnant environ 9,0 %.",
+      "Cotisations sociales exclues."
+    ]
+  }
 }

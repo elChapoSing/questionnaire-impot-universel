@@ -9,5 +9,40 @@
       "url": "https://taxsummaries.pwc.com/tanzania/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "TZS",
+    "fx": 3000,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURTZS=X",
+    "tranches": [
+      [
+        0,
+        3240000,
+        0
+      ],
+      [
+        3240000,
+        6240000,
+        8
+      ],
+      [
+        6240000,
+        9120000,
+        20
+      ],
+      [
+        9120000,
+        12000000,
+        25
+      ],
+      [
+        12000000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Barème mensuel résident multiplié par 12."
+    ]
+  }
 }

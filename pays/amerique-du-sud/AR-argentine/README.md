@@ -9,7 +9,25 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : ARS. Cours supposé : 1 EUR = 1 850 ARS (hypothèse (aucun cours dans la note) : environ 1 850 pesos pour 1 EUR, à remplacer par le cours Yahoo EURARS=X ; taux très peu sensible au change au-delà de 1 500 (de 33,3 % à 33,6 % entre 1 600 et 2 000)).
+- Salaire converti : 240 300 € × 1 850 = 444 555 000 ARS.
+- Base imposable : 444 555 000 ARS.
+
+| De (ARS) | À (ARS) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 2 000 030 | 5,00 % | 2 000 030 | 100 002 |
+| 2 000 030 | 4 000 060 | 9,00 % | 2 000 030 | 180 003 |
+| 4 000 060 | 6 000 090 | 12,00 % | 2 000 030 | 240 004 |
+| 6 000 090 | 9 000 135 | 15,00 % | 3 000 045 | 450 007 |
+| 9 000 135 | 18 000 271 | 19,00 % | 9 000 135 | 1 710 026 |
+| 18 000 271 | 27 000 406 | 23,00 % | 9 000 135 | 2 070 031 |
+| 27 000 406 | 40 500 609 | 27,00 % | 13 500 203 | 3 645 055 |
+| 40 500 609 | 60 750 914 | 31,00 % | 20 250 305 | 6 277 594 |
+| 60 750 914 | et plus | 35,00 % | 383 804 086 | 134 331 430 |
+
+- **Impôt total : 149 004 151 ARS, soit 33,5 % du salaire brut.**
+- Hypothèse : Barème annuel de l'article 94 en vigueur de janvier à juin 2026 : première tranche jusqu'à 2 000 030,09 pesos, bornes suivantes à 2, 3, 4,5, 9, 13,5, 20,25 et 30,375 fois ce montant (35 % à partir de 60 750 913,96, comme dans la note). Bornes recalculées à partir de ce multiple ; à comparer au PDF officiel de l'ARCA.
+- Hypothèse : Aucune déduction personnelle, aucun abattement spécial salariés ni cotisations déduites : tout le salaire brut est la base imposable.
 
 ## Note
 

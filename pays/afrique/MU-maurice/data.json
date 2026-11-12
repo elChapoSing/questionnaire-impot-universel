@@ -19,5 +19,36 @@
       "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-mauritiushighlights-2026.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "MUR",
+    "fx": 52,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMUR=X",
+    "tranches": [
+      [
+        0,
+        500000,
+        0
+      ],
+      [
+        500000,
+        1000000,
+        10
+      ],
+      [
+        1000000,
+        12000000,
+        20
+      ],
+      [
+        12000000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2025-26 augmenté de la tranche à 35 % au-delà de 12 millions de roupies, prévue par la loi de finances 2026 à partir du 1er juillet 2026.",
+      "Variante de la note : sans la tranche à 35 %, 18,8 %."
+    ]
+  }
 }

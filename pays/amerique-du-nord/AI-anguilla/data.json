@@ -9,5 +9,20 @@
       "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-anguillahighlights-2026.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "sans objet (aucun impôt)",
+    "tranches": [
+      [
+        0,
+        null,
+        0
+      ]
+    ],
+    "hypotheses": [
+      "Aucun impôt direct sur le revenu des particuliers. Cotisations sociales et prélèvement de stabilisation sur salaires non comptés."
+    ]
+  }
 }

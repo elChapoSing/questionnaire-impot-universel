@@ -9,7 +9,28 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : CHF. Cours supposé : 1 EUR = 0,93 CHF (la note ne donne pas de cours : hypothèse de 0,93 CHF pour 1 EUR, à remplacer par le cours Yahoo EURCHF=X).
+- Salaire converti : 240 300 € × 0,93 = 223 479 CHF.
+- Base imposable : 223 479 CHF.
+
+| De (CHF) | À (CHF) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 15 200 | 17,84 % | 15 200 | 2 712 |
+| 15 200 | 33 200 | 18,61 % | 18 000 | 3 350 |
+| 33 200 | 43 500 | 18,72 % | 10 300 | 1 928 |
+| 43 500 | 58 000 | 20,48 % | 14 500 | 2 970 |
+| 58 000 | 76 200 | 20,81 % | 18 200 | 3 787 |
+| 76 200 | 82 100 | 23,78 % | 5 900 | 1 403 |
+| 82 100 | 108 900 | 24,44 % | 26 800 | 6 550 |
+| 108 900 | 141 500 | 26,64 % | 32 600 | 8 685 |
+| 141 500 | 185 100 | 28,84 % | 43 600 | 12 574 |
+| 185 100 | 793 900 | 31,04 % | 38 379 | 11 913 |
+| 793 900 | et plus | 29,34 % | 0 | 0 |
+
+- **Impôt total : 55 871 CHF, soit 25,0 % du salaire brut.**
+- Hypothèse : Impôt fédéral direct 2026 pour personne seule (art. 36 LIFD, circulaire ESTV 2-215) auquel s'ajoute un taux cantonal et communal moyen de 17.84 % appliqué à tout le revenu : les taux sont cumulés.
+- Hypothèse : Ce taux cantonal et communal est CALIBRÉ pour retrouver le taux de 25 % retenu (milieu de la fourchette de 16 % à 34 % selon canton et commune) ; il n'est pas tiré d'un barème. Les camarades suisses doivent le remplacer par le barème de leur canton.
+- Hypothèse : Pas de déductions (3e pilier, frais, assurances) ; cotisations sociales exclues.
 
 ## Note
 

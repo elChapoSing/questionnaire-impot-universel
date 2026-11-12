@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : RWF. Cours supposé : 1 EUR = 1 700 RWF (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURRWF=X).
+- Salaire converti : 240 300 € × 1 700 = 408 510 000 RWF.
+- Base imposable : 408 510 000 RWF.
+
+| De (RWF) | À (RWF) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 720 000 | 0,00 % | 720 000 | 0 |
+| 720 000 | 1 200 000 | 10,00 % | 480 000 | 48 000 |
+| 1 200 000 | 2 400 000 | 20,00 % | 1 200 000 | 240 000 |
+| 2 400 000 | et plus | 30,00 % | 406 110 000 | 121 833 000 |
+
+- **Impôt total : 122 121 000 RWF, soit 29,9 % du salaire brut.**
+- Hypothèse : Barème supposé mensuel (PwC ne précise pas la période), multiplié par 12.
 
 ## Note
 

@@ -9,7 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : EUR. Cours supposé : 1 EUR = 1 EUR (pays en euro, change 1).
+- Salaire converti : 240 300 € × 1 = 240 300 EUR.
+- Base imposable : 240 300 EUR.
+
+| De (EUR) | À (EUR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 12 348 | 0,00 % | 12 348 | 0 |
+| 12 348 | 17 799 | 18,98 % | 5 451 | 1 035 |
+| 17 799 | 69 879 | 32,98 % | 52 080 | 17 179 |
+| 69 879 | 277 825 | 42,00 % | 170 421 | 71 577 |
+| 277 825 | et plus | 45,00 % | 0 | 0 |
+
+- **Impôt total : 89 790 EUR, soit 37,4 % du salaire brut.**
+- Hypothèse : Tarif 2026 (§ 32a EStG), base imposable de 240 300 € sans déduction : de 69 879 € à 277 825 €, impôt = 0,42 x − 11 135,63, reproduit ici par les tranches cumulées jusqu'à 69 879 € (impôt d'environ 18 214 €) puis 42 %.
+- Hypothèse : Les deux zones progressives (14 à 42 %) sont linéarisées par leur taux moyen, exact à leur borne haute.
+- Hypothèse : Solidaritätszuschlag de 5,5 % exclu (avec lui : environ 39,4 %), impôt d'Église et cotisations sociales exclus.
 
 ## Note
 

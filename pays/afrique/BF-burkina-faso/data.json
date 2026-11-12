@@ -13,5 +13,58 @@
       "url": "https://dgi.bf/wp-content/uploads/2023/10/CODE-GENERAL-DES-IMPOTS-2023-A-JOUR-AVEC-LA-LOI-DE-FINANCE-2023.pdf",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XOF",
+    "fx": 655.957,
+    "fx_source": "parité fixe XOF/EUR (655,957), reprise de la note",
+    "deductions": [
+      [
+        "Abattement forfaitaire de 20 % pour frais professionnels (art. 111 CGI)",
+        31525293
+      ]
+    ],
+    "tranches": [
+      [
+        0,
+        360000,
+        0
+      ],
+      [
+        360000,
+        600000,
+        12.1
+      ],
+      [
+        600000,
+        960000,
+        13.9
+      ],
+      [
+        960000,
+        1440000,
+        15.7
+      ],
+      [
+        1440000,
+        2040000,
+        18.5
+      ],
+      [
+        2040000,
+        3000000,
+        21.3
+      ],
+      [
+        3000000,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Barème IUTS mensuel (art. 112 CGI) multiplié par 12.",
+      "Variantes de la note : abattement de 25 % donne 18,6 % ; sans abattement 24,8 %.",
+      "Réduction pour charges de famille ignorée."
+    ]
+  }
 }

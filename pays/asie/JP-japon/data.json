@@ -9,5 +9,57 @@
       "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "JPY",
+    "fx": 185,
+    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURJPY=X",
+    "tranches": [
+      [
+        0,
+        1950000,
+        5
+      ],
+      [
+        1950000,
+        3300000,
+        10
+      ],
+      [
+        3300000,
+        6950000,
+        20
+      ],
+      [
+        6950000,
+        9000000,
+        23
+      ],
+      [
+        9000000,
+        18000000,
+        33
+      ],
+      [
+        18000000,
+        40000000,
+        40
+      ],
+      [
+        40000000,
+        null,
+        45
+      ]
+    ],
+    "majorations": [
+      [
+        "surtaxe spéciale de reconstruction",
+        2.1
+      ]
+    ],
+    "hypotheses": [
+      "Impôt national sur le revenu avec surtaxe de reconstruction de 2,1 % de l'impôt ; l'impôt local (environ 10 %) n'est pas inclus, comme dans la note.",
+      "Déduction pour revenus d'emploi et déductions de base exclues."
+    ]
+  }
 }

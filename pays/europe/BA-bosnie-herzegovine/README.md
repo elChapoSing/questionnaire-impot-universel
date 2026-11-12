@@ -9,7 +9,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : BAM. Cours supposé : 1 EUR = 1,9558 BAM (parité fixe du mark convertible (1,95583 BAM pour 1 EUR)).
+- Salaire converti : 240 300 € × 1,9558 = 469 986 BAM.
+- Base imposable : 469 986 BAM.
+
+| De (BAM) | À (BAM) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 10,00 % | 469 986 | 46 999 |
+
+- **Impôt total : 46 999 BAM, soit 10,0 % du salaire brut.**
+- Hypothèse : Impôt forfaitaire de 10 % (Fédération de Bosnie-Herzégovine, Brčko, et Republika Srpska selon PwC ; 8 % selon d'autres sources).
+- Hypothèse : Cotisations sociales exclues.
 
 ## Note
 

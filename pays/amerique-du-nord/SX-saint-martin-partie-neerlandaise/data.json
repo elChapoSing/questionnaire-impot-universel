@@ -9,5 +9,45 @@
       "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-sintmaartenhighlights-2026.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XCG",
+    "fx": 2.06,
+    "fx_source": "hypothèse reprise de la note : 1,79 XCG par USD, EUR/USD 1,15",
+    "tranches": [
+      [
+        0,
+        36576,
+        12.5
+      ],
+      [
+        36576,
+        54864,
+        20
+      ],
+      [
+        54864,
+        76200,
+        26.25
+      ],
+      [
+        76200,
+        114297,
+        33.75
+      ],
+      [
+        114297,
+        161540,
+        40
+      ],
+      [
+        161540,
+        null,
+        47.5
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026 (Deloitte) avec surtaxe de 25 % déjà incluse dans les taux. Cotisations exclues."
+    ]
+  }
 }

@@ -9,7 +9,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : KZT. Cours supposé : 1 EUR = 560 KZT (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURKZT=X ; la note cite cbonds du 18 juillet 2026 sans chiffre, valeur reconstituée à partir du taux 13,6 %).
+- Salaire converti : 240 300 € × 560 = 134 568 000 KZT.
+- Base imposable : 134 568 000 KZT.
+
+| De (KZT) | À (KZT) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 36 762 500 | 10,00 % | 36 762 500 | 3 676 250 |
+| 36 762 500 | et plus | 15,00 % | 97 805 500 | 14 670 825 |
+
+- **Impôt total : 18 347 075 KZT, soit 13,6 % du salaire brut.**
+- Hypothèse : Barème 2026 : 10 % jusqu'à 8 500 indices mensuels de calcul (ici annualisés : 8 500 × 4 325 tenge, indice 2026 supposé), 15 % au-delà.
+- Hypothèse : Déduction standard exclue ; cotisations sociales exclues.
 
 ## Note
 

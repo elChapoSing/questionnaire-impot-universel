@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : ILS. Cours supposé : 1 EUR = 3,8 ILS (hypothèse reprise de la note (1 € = 3,8 NIS)).
+- Salaire converti : 240 300 € × 3,8 = 913 140 ILS.
+- Base imposable : 913 140 ILS.
+
+| De (ILS) | À (ILS) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 75 000 | 5,00 % | 75 000 | 3 750 |
+| 75 000 | 150 000 | 10,00 % | 75 000 | 7 500 |
+| 150 000 | et plus | 15,00 % | 763 140 | 114 471 |
+
+- **Impôt total : 125 721 ILS, soit 13,8 % du salaire brut.**
+- Hypothèse : Barème des résidents 2026.
+- Hypothèse : Déduction standard de 36 000 NIS et autres déductions exclues.
 
 ## Note
 

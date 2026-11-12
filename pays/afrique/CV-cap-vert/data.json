@@ -9,5 +9,30 @@
       "url": "https://taxsummaries.pwc.com/cabo-verde/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "CVE",
+    "fx": 110.265,
+    "fx_source": "parité fixe CVE/EUR (110,265), reprise de la note",
+    "tranches": [
+      [
+        0,
+        960000,
+        16.5
+      ],
+      [
+        960000,
+        1800000,
+        23.1
+      ],
+      [
+        1800000,
+        null,
+        27.5
+      ]
+    ],
+    "hypotheses": [
+      "Barème IRS de la méthode déclarative (PwC) ; exonération annuelle de 220 000 CVE non appliquée."
+    ]
+  }
 }

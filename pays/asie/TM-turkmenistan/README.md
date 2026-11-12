@@ -9,7 +9,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : TMT. Cours supposé : 1 EUR = 4 TMT (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURTMT=X).
+- Salaire converti : 240 300 € × 4 = 961 200 TMT.
+- Base imposable : 961 200 TMT.
+
+| De (TMT) | À (TMT) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 10,00 % | 961 200 | 96 120 |
+
+- **Impôt total : 96 120 TMT, soit 10,0 % du salaire brut.**
+- Hypothèse : Taux général de 10 % sur les revenus du travail.
+- Hypothèse : Le taux ne dépend pas du change.
 
 ## Note
 

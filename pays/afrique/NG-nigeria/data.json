@@ -9,5 +9,45 @@
       "url": "https://payspace.com/blog/nigeria-tax-reform-2026",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "NGN",
+    "fx": 1750,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURNGN=X",
+    "tranches": [
+      [
+        0,
+        800000,
+        0
+      ],
+      [
+        800000,
+        3000000,
+        15
+      ],
+      [
+        3000000,
+        12000000,
+        18
+      ],
+      [
+        12000000,
+        25000000,
+        21
+      ],
+      [
+        25000000,
+        50000000,
+        23
+      ],
+      [
+        50000000,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Nigeria Tax Act 2025 ; relief loyer et cotisations ignorés."
+    ]
+  }
 }

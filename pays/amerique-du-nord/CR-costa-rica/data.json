@@ -19,5 +19,42 @@
       "url": "https://siemprealdia.co/costa-rica/impuestos/retencion-del-impuesto-al-salario/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "CRC",
+    "fx": 557,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EURCRC=X",
+    "tranches": [
+      [
+        0,
+        11016000,
+        0
+      ],
+      [
+        11016000,
+        16164000,
+        10
+      ],
+      [
+        16164000,
+        28368000,
+        15
+      ],
+      [
+        28368000,
+        56724000,
+        20
+      ],
+      [
+        56724000,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Barème mensuel du décret 45333-H (2026) multiplié par 12 : 0 % jusqu'à 918 000 CRC par mois, puis 10, 15, 20 et 25 % au-delà de 1 347 000, 2 364 000 et 4 727 000.",
+      "Calculé sur le brut, sans déduire la cotisation CCSS ; crédits familiaux non appliqués.",
+      "Barème des salariés ; un barème distinct s'applique aux indépendants."
+    ]
+  }
 }

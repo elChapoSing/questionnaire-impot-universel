@@ -9,5 +9,55 @@
       "url": "https://www.pwc.com/gh/en/assets/pdf/2026-togo-tax-facts-and-figures.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XOF",
+    "fx": 655.957,
+    "fx_source": "parité fixe XOF/EUR (655,957), reprise de la note",
+    "tranches": [
+      [
+        0,
+        900000,
+        0
+      ],
+      [
+        900000,
+        3000000,
+        3
+      ],
+      [
+        3000000,
+        6000000,
+        10
+      ],
+      [
+        6000000,
+        9000000,
+        15
+      ],
+      [
+        9000000,
+        12000000,
+        20
+      ],
+      [
+        12000000,
+        15000000,
+        25
+      ],
+      [
+        15000000,
+        20000000,
+        30
+      ],
+      [
+        20000000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Barème annuel à 8 tranches ; réduction familiale ignorée."
+    ]
+  }
 }

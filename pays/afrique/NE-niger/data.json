@@ -13,5 +13,46 @@
       "url": "https://afrotools.com/fr/niger/calculateur-salaire-net",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XOF",
+    "fx": 655.957,
+    "fx_source": "parité fixe XOF/EUR (655,957), reprise de la note",
+    "tranches": [
+      [
+        0,
+        300000,
+        0
+      ],
+      [
+        300000,
+        550000,
+        1
+      ],
+      [
+        550000,
+        1000000,
+        10
+      ],
+      [
+        1000000,
+        1600000,
+        15
+      ],
+      [
+        1600000,
+        4000000,
+        25
+      ],
+      [
+        4000000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Source unique non officielle (AfroTools).",
+      "Variante de la note : cotisation CNSS de 4,17 % déduite (non appliquée ici), environ 33,1 %."
+    ]
+  }
 }

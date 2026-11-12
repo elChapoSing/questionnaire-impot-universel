@@ -9,7 +9,26 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : FJD. Cours supposé : 1 EUR = 2,58 FJD (hypothèse reprise de la note (2,58 dollars fidjiens pour 1 EUR)).
+- Salaire converti : 240 300 € × 2,58 = 619 974 FJD.
+- Base imposable : 619 974 FJD.
+
+| De (FJD) | À (FJD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 30 000 | 0,00 % | 30 000 | 0 |
+| 30 000 | 50 000 | 18,00 % | 20 000 | 3 600 |
+| 50 000 | 270 000 | 20,00 % | 220 000 | 44 000 |
+| 270 000 | 300 000 | 33,00 % | 30 000 | 9 900 |
+| 300 000 | 350 000 | 34,00 % | 50 000 | 17 000 |
+| 350 000 | 400 000 | 35,00 % | 50 000 | 17 500 |
+| 400 000 | 450 000 | 36,00 % | 50 000 | 18 000 |
+| 450 000 | 500 000 | 37,00 % | 50 000 | 18 500 |
+| 500 000 | 1 000 000 | 38,00 % | 119 974 | 45 590 |
+| 1 000 000 | et plus | 39,00 % | 0 | 0 |
+
+- **Impôt total : 174 090 FJD, soit 28,1 % du salaire brut.**
+- Hypothèse : Barème des résidents en vigueur depuis le 1er janvier 2024 (PwC, règlement de 2023) : 0 % jusqu'à 30 000, 18 %, 20 %, puis de 33 % à 39 % par paliers de 50 000 au-delà de 270 000 (39 % au-delà d'un million).
+- Hypothèse : Aucun impôt de responsabilité sociale distinct (intégré au barème depuis 2024).
 
 ## Note
 

@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : USD. Cours supposé : 1 EUR = 1,15 USD (hypothèse reprise de la note (EUR/USD 1,15), à remplacer par le cours Yahoo EURUSD=X).
+- Salaire converti : 240 300 € × 1,15 = 276 345 USD.
+- Base imposable : 276 345 USD.
+
+| De (USD) | À (USD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 51 250 | 29,40 % | 51 250 | 15 068 |
+| 51 250 | et plus | 38,40 % | 225 095 | 86 436 |
+
+- **Impôt total : 101 504 USD, soit 36,7 % du salaire brut.**
+- Hypothèse : Régime BES : taux 2026 du plan fiscal ; seuil de 51 250 USD de 2025 repris faute d'indexation 2026 trouvée.
+- Hypothèse : Abattement de 20 424 USD non appliqué.
+- Hypothèse : Variante avec taux 2025 (30,4 % / 35,4 %) : environ 34,5 %.
 
 ## Note
 

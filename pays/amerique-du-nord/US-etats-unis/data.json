@@ -19,5 +19,51 @@
       "url": "https://ustax.tools/2026-tax-brackets-single/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "USD",
+    "fx": 1.1143,
+    "fx_source": "Yahoo Finance, 6 novembre 2026 (note)",
+    "tranches": [
+      [
+        0,
+        12400,
+        10
+      ],
+      [
+        12400,
+        50400,
+        12
+      ],
+      [
+        50400,
+        105700,
+        22
+      ],
+      [
+        105700,
+        201775,
+        24
+      ],
+      [
+        201775,
+        256225,
+        32
+      ],
+      [
+        256225,
+        640600,
+        35
+      ],
+      [
+        640600,
+        null,
+        37
+      ]
+    ],
+    "hypotheses": [
+      "Impôt fédéral seul, personne seule, barème 2026, SANS déduction forfaitaire : le taux retenu de 23,3 % correspond à ce cas ; avec la déduction forfaitaire de 16 100 USD : 21,3 % (note).",
+      "Aucun impôt d'État modélisé : la note ne cite aucun État représentatif (nuls au Texas et en Floride, élevés en Californie et à New York). Cotisations sociales exclues."
+    ]
+  }
 }

@@ -9,5 +9,62 @@
       "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7667",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "KRW",
+    "fx": 1750,
+    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURKRW=X",
+    "tranches": [
+      [
+        0,
+        14000000,
+        6
+      ],
+      [
+        14000000,
+        50000000,
+        15
+      ],
+      [
+        50000000,
+        88000000,
+        24
+      ],
+      [
+        88000000,
+        150000000,
+        35
+      ],
+      [
+        150000000,
+        300000000,
+        38
+      ],
+      [
+        300000000,
+        500000000,
+        40
+      ],
+      [
+        500000000,
+        1000000000,
+        42
+      ],
+      [
+        1000000000,
+        null,
+        45
+      ]
+    ],
+    "majorations": [
+      [
+        "impôt local sur le revenu (10 % de l'impôt national)",
+        10
+      ]
+    ],
+    "hypotheses": [
+      "Barème national 2026 de 6 à 45 % et impôt local de 10 % de l'impôt national.",
+      "Déduction pour revenus d'emploi et déductions personnelles exclues."
+    ]
+  }
 }

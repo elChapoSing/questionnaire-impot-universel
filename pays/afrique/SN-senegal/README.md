@@ -9,7 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : XOF. Cours supposé : 1 EUR = 655,957 XOF (parité fixe XOF/EUR (655,957), reprise de la note).
+- Salaire converti : 240 300 € × 655,957 = 157 626 467 XOF.
+- Base imposable : 157 626 467 XOF.
+
+| De (XOF) | À (XOF) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 630 000 | 0,00 % | 630 000 | 0 |
+| 630 000 | 1 500 000 | 20,00 % | 870 000 | 174 000 |
+| 1 500 000 | 4 000 000 | 30,00 % | 2 500 000 | 750 000 |
+| 4 000 000 | 8 000 000 | 35,00 % | 4 000 000 | 1 400 000 |
+| 8 000 000 | 13 500 000 | 37,00 % | 5 500 000 | 2 035 000 |
+| 13 500 000 | 50 000 000 | 40,00 % | 36 500 000 | 14 600 000 |
+| 50 000 000 | et plus | 43,00 % | 107 626 467 | 46 279 381 |
+
+- **Impôt total : 65 238 381 XOF, soit 41,4 % du salaire brut.**
+- Hypothèse : Une part (célibataire).
+- Hypothèse : Abattement éventuel de 30 % plafonné non pris en compte (effet négligeable).
 
 ## Note
 

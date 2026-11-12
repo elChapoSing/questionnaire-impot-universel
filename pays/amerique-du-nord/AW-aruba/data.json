@@ -13,5 +13,37 @@
       "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-arubahighlights-2026.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "AWG",
+    "fx": 2.0585,
+    "fx_source": "hypothèse reprise de la note : 1 EUR = 1,15 USD et 1 USD = 1,79 AWG (parité fixe) ; à remplacer par le cours Yahoo EURAWG=X",
+    "tranches": [
+      [
+        0,
+        34930,
+        0
+      ],
+      [
+        34930,
+        63904,
+        21
+      ],
+      [
+        63904,
+        135527,
+        42
+      ],
+      [
+        135527,
+        null,
+        52
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026 résidents (Deloitte, Aruba tax highlights 2026).",
+      "Franchise de 30 000 AWG non appliquée ; avec elle, environ 41,9 % (variante de la note).",
+      "Cotisations AOV/AZV exclues."
+    ]
+  }
 }

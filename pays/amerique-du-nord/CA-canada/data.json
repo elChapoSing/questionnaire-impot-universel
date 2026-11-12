@@ -19,5 +19,72 @@
       "url": "https://ifinancecanada.com/2026-canada-tax-brackets-what-are-the-federal-and-provincial-income-tax-rates-this-year/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "CAD",
+    "fx": 1.54,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EURCAD=X",
+    "tranches": [
+      [
+        0,
+        53891,
+        19.05
+      ],
+      [
+        53891,
+        58523,
+        23.15
+      ],
+      [
+        58523,
+        107785,
+        29.65
+      ],
+      [
+        107785,
+        117045,
+        31.66
+      ],
+      [
+        117045,
+        150000,
+        37.16
+      ],
+      [
+        150000,
+        181440,
+        38.16
+      ],
+      [
+        181440,
+        220000,
+        41.16
+      ],
+      [
+        220000,
+        258482,
+        42.16
+      ],
+      [
+        258482,
+        null,
+        46.16
+      ]
+    ],
+    "credits": [
+      [
+        "Crédit fédéral pour montant personnel de base : 14 829 CAD (minimum, revenu supérieur à 258 482) × 14 %",
+        2076
+      ],
+      [
+        "Crédit ontarien pour montant personnel de base : 12 989 CAD × 5,05 %",
+        656
+      ]
+    ],
+    "hypotheses": [
+      "Taux cumulés fédéral + Ontario. Fédéral 2026 : 14 / 20,5 / 26 / 29 / 33 % (seuils 58 523, 117 045, 181 440, 258 482). Ontario 2026 : 5,05 / 9,15 / 11,16 / 12,16 / 13,16 % (seuils 53 891, 107 785, 150 000, 220 000).",
+      "Surtaxe ontarienne (20 % puis 36 % de l'impôt provincial au-delà de 5 818 et 7 446 CAD) non incluse, comme dans la note ; l'inclure ajouterait environ 5 points.",
+      "Cotisations RPC et AE exclues. Autres provinces : de 8 % (Alberta) à 25,75 % (Québec), voir la note."
+    ]
+  }
 }

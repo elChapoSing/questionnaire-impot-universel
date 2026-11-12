@@ -9,5 +9,21 @@
       "url": "https://taxsummaries.pwc.com/turkmenistan/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "TMT",
+    "fx": 4,
+    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURTMT=X",
+    "tranches": [
+      [
+        0,
+        null,
+        10
+      ]
+    ],
+    "hypotheses": [
+      "Taux général de 10 % sur les revenus du travail.",
+      "Le taux ne dépend pas du change."
+    ]
+  }
 }

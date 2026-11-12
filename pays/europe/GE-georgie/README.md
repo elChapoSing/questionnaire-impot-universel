@@ -9,7 +9,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : GEL. Cours supposé : 1 EUR = 3,1 GEL (la note ne donne pas de cours : hypothèse de 3,1 GEL pour 1 EUR, à remplacer par le cours Yahoo EURGEL=X ; sans effet avec un taux unique).
+- Salaire converti : 240 300 € × 3,1 = 744 930 GEL.
+- Base imposable : 744 930 GEL.
+
+| De (GEL) | À (GEL) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 20,00 % | 744 930 | 148 986 |
+
+- **Impôt total : 148 986 GEL, soit 20,0 % du salaire brut.**
+- Hypothèse : Taux unique de 20 %, juste sous le seuil de 21,1 %.
+- Hypothèse : Cotisation de retraite de 2 % exclue.
 
 ## Note
 

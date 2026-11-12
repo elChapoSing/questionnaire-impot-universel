@@ -19,5 +19,57 @@
       "url": "https://www.rankia.cl/blog/sii/2457838-impuesto-global-complementario-tabla-calculo-ejemplos",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "CLP",
+    "fx": 1059,
+    "fx_source": "hypothèse reprise de la note (1 059 pesos pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        11265804,
+        0
+      ],
+      [
+        11265804,
+        25035120,
+        4
+      ],
+      [
+        25035120,
+        41725200,
+        8
+      ],
+      [
+        41725200,
+        58415280,
+        13.5
+      ],
+      [
+        58415280,
+        75105360,
+        23
+      ],
+      [
+        75105360,
+        100140480,
+        30.4
+      ],
+      [
+        100140480,
+        258696240,
+        35
+      ],
+      [
+        258696240,
+        null,
+        40
+      ]
+    ],
+    "hypotheses": [
+      "Impôt global complémentaire annuel exprimé en UTA (UTA 834 504 pesos) : exonéré jusqu'à 13,5 UTA, puis 4 %, 8 %, 13,5 %, 23 %, 30,4 %, 35 % (de 120 à 310 UTA) et 40 %.",
+      "Les tranches inférieures à 120 UTA sont celles du barème standard et n'ont pas été relues dans la circulaire du SII : à vérifier. Aucun crédit ni déduction ; cotisations sociales ignorées.",
+      "La note donne une fourchette de 26,5 % à 28,0 % selon le change (950 à 1 150 pesos pour 1 EUR)."
+    ]
+  }
 }

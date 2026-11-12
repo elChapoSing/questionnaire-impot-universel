@@ -9,7 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : DJF. Cours supposé : 1 EUR = 206 DJF (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURDJF=X).
+- Salaire converti : 240 300 € × 206 = 49 501 800 DJF.
+- Base imposable : 49 501 800 DJF.
+
+| De (DJF) | À (DJF) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 360 000 | 2,00 % | 360 000 | 7 200 |
+| 360 000 | 600 000 | 12,00 % | 240 000 | 28 800 |
+| 600 000 | 1 800 000 | 15,00 % | 1 200 000 | 180 000 |
+| 1 800 000 | 3 600 000 | 22,00 % | 1 800 000 | 396 000 |
+| 3 600 000 | 7 200 000 | 25,00 % | 3 600 000 | 900 000 |
+| 7 200 000 | 12 000 000 | 30,00 % | 4 800 000 | 1 440 000 |
+| 12 000 000 | 24 000 000 | 35,00 % | 12 000 000 | 4 200 000 |
+| 24 000 000 | et plus | 45,00 % | 25 501 800 | 11 475 810 |
+
+- **Impôt total : 18 627 810 DJF, soit 37,6 % du salaire brut.**
+- Hypothèse : Barème ITS mensuel multiplié par 12 (source AfroTools, non officielle) ; exonération mensuelle de 50 000 DJF et arrondi à 5 000 DJF ignorés.
+- Hypothèse : Cotisation CNSS salariale de 6 % déductible non appliquée ; variante de la note : 37 % à 38,4 %.
 
 ## Note
 

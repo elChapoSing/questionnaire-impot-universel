@@ -9,5 +9,21 @@
       "url": "https://www.gov.hk/en/residents/taxes/taxfiling/taxrates/salariesrates.htm",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "HKD",
+    "fx": 8.9,
+    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURHKD=X",
+    "tranches": [
+      [
+        0,
+        null,
+        15
+      ]
+    ],
+    "hypotheses": [
+      "Taux « standard » de 15 % appliqué à tout le revenu net imposable, car il est inférieur au barème progressif (2 à 17 %) à ce niveau de revenu.",
+      "Cotisations MPF et abattements personnels exclus ; le taux ne dépend pas du change."
+    ]
+  }
 }

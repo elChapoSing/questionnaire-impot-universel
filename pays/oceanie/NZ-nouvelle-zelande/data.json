@@ -9,5 +9,41 @@
       "url": "https://www.ird.govt.nz/income-tax/income-tax-for-individuals/tax-codes-and-tax-rates-for-individuals/tax-rates-for-individuals",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "NZD",
+    "fx": 1.95,
+    "fx_source": "hypothèse (la note ne donne aucun cours) : 1,95 NZD pour 1 EUR, cohérent avec la fiche des îles Cook ; à remplacer par le cours Yahoo EURNZD=X",
+    "tranches": [
+      [
+        0,
+        15600,
+        10.5
+      ],
+      [
+        15600,
+        53500,
+        17.5
+      ],
+      [
+        53500,
+        78100,
+        30
+      ],
+      [
+        78100,
+        180000,
+        33
+      ],
+      [
+        180000,
+        null,
+        39
+      ]
+    ],
+    "hypotheses": [
+      "Barème des résidents 2025-26 de l'Inland Revenue : 10,5 %, 17,5 %, 30 %, 33 % puis 39 % au-delà de 180 000 NZD.",
+      "Pas de cotisation ACC ni de crédit d'impôt ; impôt sur le revenu seul."
+    ]
+  }
 }

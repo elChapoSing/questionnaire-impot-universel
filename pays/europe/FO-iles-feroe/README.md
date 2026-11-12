@@ -9,7 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : DKK. Cours supposé : 1 EUR = 7,46 DKK (hypothèse reprise de la note, à remplacer par le cours Yahoo EURDKK=X).
+- Salaire converti : 240 300 € × 7,46 = 1 792 638 DKK.
+- Base imposable : 1 792 638 DKK.
+
+| De (DKK) | À (DKK) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 65 000 | 19,00 % | 65 000 | 12 350 |
+| 65 000 | 180 000 | 32,00 % | 115 000 | 36 800 |
+| 180 000 | 330 000 | 34,00 % | 150 000 | 51 000 |
+| 330 000 | 450 000 | 39,00 % | 120 000 | 46 800 |
+| 450 000 | 600 000 | 44,00 % | 150 000 | 66 000 |
+| 600 000 | et plus | 49,00 % | 1 192 638 | 584 393 |
+
+- **Impôt total : 797 343 DKK, soit 44,5 % du salaire brut.**
+- Hypothèse : Impôt national 2026 (0 / 13 / 15 / 20 / 25 / 30 %, impôt fixe de 98 950 DKK à 600 000) plus impôt communal forfaitaire de 19 % (milieu de la fourchette de 16 à 23 %), appliqué à tout le revenu : les taux sont cumulés.
+- Hypothèse : Fourchette de la note : 41,5 % avec 16 % de commune, 48,5 % avec 23 %.
+- Hypothèse : Abattement personnel, taxe d'église (0,6 à 0,9 %) et cotisations exclus.
 
 ## Note
 

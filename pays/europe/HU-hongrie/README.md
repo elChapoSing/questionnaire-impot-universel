@@ -9,7 +9,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : HUF. Cours supposé : 1 EUR = 390 HUF (la note ne donne pas de cours : hypothèse de 390 HUF pour 1 EUR, à remplacer par le cours Yahoo EURHUF=X ; sans effet avec un taux unique).
+- Salaire converti : 240 300 € × 390 = 93 717 000 HUF.
+- Base imposable : 93 717 000 HUF.
+
+| De (HUF) | À (HUF) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 15,00 % | 93 717 000 | 14 057 550 |
+
+- **Impôt total : 14 057 550 HUF, soit 15,0 % du salaire brut.**
+- Hypothèse : Taux unique de 15 %, hors contribution sociale distincte.
 
 ## Note
 

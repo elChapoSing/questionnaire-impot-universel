@@ -9,5 +9,40 @@
       "url": "https://taxsummaries.pwc.com/madagascar/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "MGA",
+    "fx": 5300,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMGA=X",
+    "tranches": [
+      [
+        0,
+        4200000,
+        0
+      ],
+      [
+        4200000,
+        4800000,
+        5
+      ],
+      [
+        4800000,
+        6000000,
+        10
+      ],
+      [
+        6000000,
+        7200000,
+        15
+      ],
+      [
+        7200000,
+        null,
+        20
+      ]
+    ],
+    "hypotheses": [
+      "Barème IRSA mensuel multiplié par 12 ; réduction pour charges de famille ignorée."
+    ]
+  }
 }

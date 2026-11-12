@@ -19,5 +19,21 @@
       "url": "https://armenian-lawyer.com/business-immigration/armenian-payroll-tax-withholding-social-security-guide/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "AMD",
+    "fx": 450,
+    "fx_source": "la note ne donne pas de cours : hypothèse de 450 AMD pour 1 EUR, à remplacer par le cours Yahoo EURAMD=X ; sans effet avec un taux unique",
+    "tranches": [
+      [
+        0,
+        null,
+        20
+      ]
+    ],
+    "hypotheses": [
+      "Taux unique de 20 % sur les salaires, sans abattement ni tranche (10 % pour certains profils de R&D, non retenu).",
+      "Cotisations sociales exclues. Taux proche du seuil de 21,1 %."
+    ]
+  }
 }

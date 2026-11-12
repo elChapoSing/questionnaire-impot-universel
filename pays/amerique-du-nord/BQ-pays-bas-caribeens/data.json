@@ -18,5 +18,27 @@
       "url": "https://rivermate.com/guides/bonaire-sint-eustatius-and-saba/taxes",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "USD",
+    "fx": 1.15,
+    "fx_source": "hypothèse reprise de la note (EUR/USD 1,15), à remplacer par le cours Yahoo EURUSD=X",
+    "tranches": [
+      [
+        0,
+        51250,
+        29.4
+      ],
+      [
+        51250,
+        null,
+        38.4
+      ]
+    ],
+    "hypotheses": [
+      "Régime BES : taux 2026 du plan fiscal ; seuil de 51 250 USD de 2025 repris faute d'indexation 2026 trouvée.",
+      "Abattement de 20 424 USD non appliqué.",
+      "Variante avec taux 2025 (30,4 % / 35,4 %) : environ 34,5 %."
+    ]
+  }
 }

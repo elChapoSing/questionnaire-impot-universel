@@ -9,7 +9,25 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : CLP. Cours supposé : 1 EUR = 1 059 CLP (hypothèse reprise de la note (1 059 pesos pour 1 EUR)).
+- Salaire converti : 240 300 € × 1 059 = 254 477 700 CLP.
+- Base imposable : 254 477 700 CLP.
+
+| De (CLP) | À (CLP) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 11 265 804 | 0,00 % | 11 265 804 | 0 |
+| 11 265 804 | 25 035 120 | 4,00 % | 13 769 316 | 550 773 |
+| 25 035 120 | 41 725 200 | 8,00 % | 16 690 080 | 1 335 206 |
+| 41 725 200 | 58 415 280 | 13,50 % | 16 690 080 | 2 253 161 |
+| 58 415 280 | 75 105 360 | 23,00 % | 16 690 080 | 3 838 718 |
+| 75 105 360 | 100 140 480 | 30,40 % | 25 035 120 | 7 610 676 |
+| 100 140 480 | 258 696 240 | 35,00 % | 154 337 220 | 54 018 027 |
+| 258 696 240 | et plus | 40,00 % | 0 | 0 |
+
+- **Impôt total : 69 606 562 CLP, soit 27,4 % du salaire brut.**
+- Hypothèse : Impôt global complémentaire annuel exprimé en UTA (UTA 834 504 pesos) : exonéré jusqu'à 13,5 UTA, puis 4 %, 8 %, 13,5 %, 23 %, 30,4 %, 35 % (de 120 à 310 UTA) et 40 %.
+- Hypothèse : Les tranches inférieures à 120 UTA sont celles du barème standard et n'ont pas été relues dans la circulaire du SII : à vérifier. Aucun crédit ni déduction ; cotisations sociales ignorées.
+- Hypothèse : La note donne une fourchette de 26,5 % à 28,0 % selon le change (950 à 1 150 pesos pour 1 EUR).
 
 ## Note
 

@@ -9,7 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : XAF. Cours supposé : 1 EUR = 655,957 XAF (parité fixe XAF/EUR (655,957), reprise de la note).
+- Salaire converti : 240 300 € × 655,957 = 157 626 467 XAF.
+- Déduction : Déduction forfaitaire de 30 % pour frais professionnels sur salaires : − 47 287 940 XAF.
+- Base imposable : 110 338 527 XAF.
+
+| De (XAF) | À (XAF) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 2 000 000 | 11,00 % | 2 000 000 | 220 000 |
+| 2 000 000 | 3 000 000 | 16,50 % | 1 000 000 | 165 000 |
+| 3 000 000 | 5 000 000 | 27,50 % | 2 000 000 | 550 000 |
+| 5 000 000 | et plus | 38,50 % | 105 338 527 | 40 555 333 |
+
+- **Impôt total : 41 490 333 XAF, soit 26,3 % du salaire brut.**
+- Hypothèse : Taux 10 / 15 / 25 / 35 % majorés de 10 % de centimes additionnels communaux (soit 11 / 16,5 / 27,5 / 38,5 %).
+- Hypothèse : Abattement de 500 000 XAF et cotisations ignorés.
+- Hypothèse : Variante de la note : sans la déduction de 30 %, 37,9 %.
 
 ## Note
 

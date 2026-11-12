@@ -9,7 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : EUR. Cours supposé : 1 EUR = 1 EUR (pays en euro, change 1).
+- Salaire converti : 240 300 € × 1 = 240 300 EUR.
+- Base imposable : 240 300 EUR.
+
+| De (EUR) | À (EUR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 24 000 | 0,00 % | 24 000 | 0 |
+| 24 000 | 40 000 | 5,00 % | 16 000 | 800 |
+| 40 000 | et plus | 10,00 % | 200 300 | 20 030 |
+
+- **Impôt total : 20 830 EUR, soit 8,7 % du salaire brut.**
+- Hypothèse : Barème de la note : 0 % jusqu'à 24 000 €, 5 % jusqu'à 40 000 €, 10 % au-delà.
+- Hypothèse : Le bonus de 800 € maximum sur les salaires n'est pas déduit ; la note évoque une autre lecture du barème donnant environ 9,0 %.
+- Hypothèse : Cotisations sociales exclues.
 
 ## Note
 

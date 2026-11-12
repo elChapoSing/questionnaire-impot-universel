@@ -18,5 +18,47 @@
       "url": "https://www.taks.fo/en/individuals/tax/taxation-in-the-faroes/",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "DKK",
+    "fx": 7.46,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EURDKK=X",
+    "tranches": [
+      [
+        0,
+        65000,
+        19
+      ],
+      [
+        65000,
+        180000,
+        32
+      ],
+      [
+        180000,
+        330000,
+        34
+      ],
+      [
+        330000,
+        450000,
+        39
+      ],
+      [
+        450000,
+        600000,
+        44
+      ],
+      [
+        600000,
+        null,
+        49
+      ]
+    ],
+    "hypotheses": [
+      "Impôt national 2026 (0 / 13 / 15 / 20 / 25 / 30 %, impôt fixe de 98 950 DKK à 600 000) plus impôt communal forfaitaire de 19 % (milieu de la fourchette de 16 à 23 %), appliqué à tout le revenu : les taux sont cumulés.",
+      "Fourchette de la note : 41,5 % avec 16 % de commune, 48,5 % avec 23 %.",
+      "Abattement personnel, taxe d'église (0,6 à 0,9 %) et cotisations exclus."
+    ]
+  }
 }

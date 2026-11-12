@@ -14,5 +14,41 @@
       "url": "https://www.Jetro.go.jp/ext_images/jfile/country/idn/invest_04/pdfs/idn9C010_toushishotokuzei.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "IDR",
+    "fx": 19500,
+    "fx_source": "la note cite le cours BCE du 27 juillet 2026 sans le chiffrer ; valeur reconstituée, à remplacer par EURIDR=X",
+    "tranches": [
+      [
+        0,
+        60000000,
+        5
+      ],
+      [
+        60000000,
+        250000000,
+        15
+      ],
+      [
+        250000000,
+        500000000,
+        25
+      ],
+      [
+        500000000,
+        5000000000,
+        30
+      ],
+      [
+        5000000000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Barème de l'article 17 de la loi sur l'impôt sur le revenu (5 à 35 %).",
+      "Revenu non imposable (PTKP) et frais professionnels exclus ; la note indique 28,7 à 29,6 % si le change varie de 15 %."
+    ]
+  }
 }

@@ -19,5 +19,57 @@
       "url": "https://i.nativeteams.com/assets/pdf/taxes/israel.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "ILS",
+    "fx": 3.9,
+    "fx_source": "hypothèse reprise de la note (3,9 shekels pour 1 €)",
+    "tranches": [
+      [
+        0,
+        84120,
+        10
+      ],
+      [
+        84120,
+        120720,
+        14
+      ],
+      [
+        120720,
+        193800,
+        20
+      ],
+      [
+        193800,
+        269280,
+        31
+      ],
+      [
+        269280,
+        560280,
+        35
+      ],
+      [
+        560280,
+        721560,
+        47
+      ],
+      [
+        721560,
+        null,
+        50
+      ]
+    ],
+    "credits": [
+      [
+        "points de crédit de base (environ)",
+        6500
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026, le taux de 50 % au-delà de 721 560 incluant la surtaxe.",
+      "Seulement les points de crédit de base (environ 6 500 shekels de crédit) ; la note indique 33,8 % à 3,5 shekels et 36,5 % à 4,2 pour 1 €."
+    ]
+  }
 }

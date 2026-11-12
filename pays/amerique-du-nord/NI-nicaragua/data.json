@@ -9,5 +9,41 @@
       "url": "https://www.toptrabajos.com/ni/blog/descuentos-planilla-nicaragua/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "NIO",
+    "fx": 42.1,
+    "fx_source": "hypothèse reprise de la note",
+    "tranches": [
+      [
+        0,
+        100000,
+        0
+      ],
+      [
+        100000,
+        200000,
+        15
+      ],
+      [
+        200000,
+        350000,
+        20
+      ],
+      [
+        350000,
+        500000,
+        25
+      ],
+      [
+        500000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Table annuelle du travail ; seules les bornes 100 000 et 500 000 figurent dans la note, les bornes 200 000 et 350 000 sont des valeurs de reconstitution (sans effet au-delà de 500 000).",
+      "Calculé sur le brut, sans déduire la cotisation INSS de 7 %."
+    ]
+  }
 }

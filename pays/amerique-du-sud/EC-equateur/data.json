@@ -19,5 +19,66 @@
       "url": "https://elyex.com/el-sri-publico-las-tablas-oficiales-para-personas-naturales-y-herencias-del-periodo-fiscal/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "USD",
+    "fx": 1.16,
+    "fx_source": "hypothèse (la note ne donne aucun cours) : environ 1,16 dollar pour 1 EUR, à remplacer par le cours Yahoo EURUSD=X ; l'Équateur utilise le dollar",
+    "tranches": [
+      [
+        0,
+        12208,
+        0
+      ],
+      [
+        12208,
+        15549,
+        5
+      ],
+      [
+        15549,
+        20188,
+        10
+      ],
+      [
+        20188,
+        26700,
+        12
+      ],
+      [
+        26700,
+        35136,
+        15
+      ],
+      [
+        35136,
+        46575,
+        20
+      ],
+      [
+        46575,
+        62005,
+        25
+      ],
+      [
+        62005,
+        82679,
+        30
+      ],
+      [
+        82679,
+        109956,
+        35
+      ],
+      [
+        109956,
+        null,
+        37
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026 du SRI pour les personnes physiques (résolution NAC-DGERCGC25-00000043), fraction exonérée de 12 208 dollars incluse comme tranche à 0 %.",
+      "Avant rabais pour dépenses personnelles ; cotisations sociales (IESS) non déduites."
+    ]
+  }
 }

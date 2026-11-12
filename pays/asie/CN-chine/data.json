@@ -14,5 +14,51 @@
       "url": "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/grsds/202402/P020240202362406243753.pdf",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "CNY",
+    "fx": 8,
+    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURCNY=X",
+    "tranches": [
+      [
+        0,
+        36000,
+        3
+      ],
+      [
+        36000,
+        144000,
+        10
+      ],
+      [
+        144000,
+        300000,
+        20
+      ],
+      [
+        300000,
+        420000,
+        25
+      ],
+      [
+        420000,
+        660000,
+        30
+      ],
+      [
+        660000,
+        960000,
+        35
+      ],
+      [
+        960000,
+        null,
+        45
+      ]
+    ],
+    "hypotheses": [
+      "Barème des revenus globaux (salaires, revenus du travail).",
+      "Déduction forfaitaire annuelle de 60 000 CNY et déductions spéciales exclues ; avec la déduction forfaitaire, le taux serait d'environ 34,1 %."
+    ]
+  }
 }

@@ -9,5 +9,35 @@
       "url": "https://mjconsultants-co-zm.pages.dev/guides/paye-rates-zambia-2026/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "ZMW",
+    "fx": 27,
+    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURZMW=X",
+    "tranches": [
+      [
+        0,
+        61200,
+        0
+      ],
+      [
+        61200,
+        85200,
+        25
+      ],
+      [
+        85200,
+        118800,
+        30
+      ],
+      [
+        118800,
+        null,
+        37.5
+      ]
+    ],
+    "hypotheses": [
+      "PAYE 2026 mensuel (MJ Consultants) multiplié par 12."
+    ]
+  }
 }

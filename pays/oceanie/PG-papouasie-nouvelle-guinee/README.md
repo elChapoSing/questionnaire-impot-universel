@@ -9,7 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : PGK. Cours supposé : 1 EUR = 4,9 PGK (hypothèse reprise de la note (4,9 kinas pour 1 EUR)).
+- Salaire converti : 240 300 € × 4,9 = 1 177 470 PGK.
+- Base imposable : 1 177 470 PGK.
+
+| De (PGK) | À (PGK) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 20 000 | 0,00 % | 20 000 | 0 |
+| 20 000 | 33 000 | 30,00 % | 13 000 | 3 900 |
+| 33 000 | 70 000 | 35,00 % | 37 000 | 12 950 |
+| 70 000 | 250 000 | 40,00 % | 180 000 | 72 000 |
+| 250 000 | et plus | 42,00 % | 927 470 | 389 537 |
+
+- **Impôt total : 478 387 PGK, soit 40,6 % du salaire brut.**
+- Hypothèse : Barème des résidents (loi de 2025, depuis janvier 2026) : 0 % jusqu'à 20 000 kinas, puis 30 %, 35 %, 40 % et 42 % au-delà de 250 000. Les tranches intermédiaires (33 000 et 70 000) viennent des barèmes antérieurs, comme le dit la note.
 
 ## Note
 

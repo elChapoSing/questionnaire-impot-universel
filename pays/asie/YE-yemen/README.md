@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : YER. Cours supposé : 1 EUR = 615 YER (hypothèse reprise de la note (1 € = 615 YER)).
+- Salaire converti : 240 300 € × 615 = 147 784 500 YER.
+- Base imposable : 147 784 500 YER.
+
+| De (YER) | À (YER) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 120 000 | 0,00 % | 120 000 | 0 |
+| 120 000 | 240 000 | 10,00 % | 120 000 | 12 000 |
+| 240 000 | et plus | 15,00 % | 147 544 500 | 22 131 675 |
+
+- **Impôt total : 22 143 675 YER, soit 15,0 % du salaire brut.**
+- Hypothèse : Règles de Sanaa (Deloitte 2023) pour un national résident.
+- Hypothèse : Variante : salarié étranger résident à 20 % forfaitaire (taux de 20 %, d'où la fourchette de la note). Règles possiblement différentes à Aden.
 
 ## Note
 

@@ -14,5 +14,36 @@
       "url": "https://imidaily.com/caribbean/dominica-flat-tax-10-percent-2027",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XCD",
+    "fx": 3.105,
+    "fx_source": "hypothèse reprise de la note : 2,7 XCD par USD, EUR/USD 1,15",
+    "tranches": [
+      [
+        0,
+        30000,
+        0
+      ],
+      [
+        30000,
+        50000,
+        15
+      ],
+      [
+        50000,
+        80000,
+        25
+      ],
+      [
+        80000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Barème en vigueur 2026 ; la borne de 50 000 XCD entre les taux de 15 % et 25 % est une valeur de reconstitution qui ne figure pas dans la note (à vérifier ; sans effet sensible au-delà de 80 000).",
+      "Réforme annoncée (taux unique de 10 % dès 2027) non votée, non prise en compte."
+    ]
+  }
 }

@@ -9,5 +9,46 @@
       "url": "https://efps.bir.gov.ph/efps-war/EFPSWeb_war/forms2018Version/1701Q/1701q_v3_02.xhtml",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "PHP",
+    "fx": 70,
+    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURPHP=X",
+    "tranches": [
+      [
+        0,
+        250000,
+        0
+      ],
+      [
+        250000,
+        400000,
+        15
+      ],
+      [
+        400000,
+        800000,
+        20
+      ],
+      [
+        800000,
+        2000000,
+        25
+      ],
+      [
+        2000000,
+        8000000,
+        30
+      ],
+      [
+        8000000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Barème de la réforme TRAIN, en vigueur depuis 2023.",
+      "Aucune déduction appliquée."
+    ]
+  }
 }

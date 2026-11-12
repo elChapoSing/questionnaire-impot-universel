@@ -9,7 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : PKR. Cours supposé : 1 EUR = 323 PKR (hypothèse reprise de la note (323 roupies pour 1 €)).
+- Salaire converti : 240 300 € × 323 = 77 616 900 PKR.
+- Base imposable : 77 616 900 PKR.
+
+| De (PKR) | À (PKR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 600 000 | 0,00 % | 600 000 | 0 |
+| 600 000 | 1 200 000 | 1,00 % | 600 000 | 6 000 |
+| 1 200 000 | 2 200 000 | 11,00 % | 1 000 000 | 110 000 |
+| 2 200 000 | 3 200 000 | 20,00 % | 1 000 000 | 200 000 |
+| 3 200 000 | 4 100 000 | 25,00 % | 900 000 | 225 000 |
+| 4 100 000 | 5 600 000 | 29,00 % | 1 500 000 | 435 000 |
+| 5 600 000 | 7 000 000 | 32,00 % | 1 400 000 | 448 000 |
+| 7 000 000 | et plus | 35,00 % | 70 616 900 | 24 715 915 |
+
+- **Impôt total : 26 139 915 PKR, soit 33,7 % du salaire brut.**
+- Hypothèse : Barème des salariés, exercice 2026-27 ; les montants fixes (1 424 000 au-delà de 7 millions) sont reconstitués par les taux marginaux.
+- Hypothèse : La surtaxe de 9 % est supprimée. Barème décrit comme voté par le Finance Act 2026 mais à confirmer sur le texte promulgué.
 
 ## Note
 

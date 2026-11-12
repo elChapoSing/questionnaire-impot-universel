@@ -18,5 +18,51 @@
       "url": "https://rivermate.com/guides/iran/taxes",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "IRR",
+    "fx": 1600000,
+    "fx_source": "hypothèse reprise de la note (environ 1,6 million IRR pour 1 €)",
+    "tranches": [
+      [
+        0,
+        720000000,
+        0
+      ],
+      [
+        720000000,
+        1200000000,
+        10
+      ],
+      [
+        1200000000,
+        1680000000,
+        15
+      ],
+      [
+        1680000000,
+        2400000000,
+        20
+      ],
+      [
+        2400000000,
+        3600000000,
+        25
+      ],
+      [
+        3600000000,
+        6000000000,
+        30
+      ],
+      [
+        6000000000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Barème progressif 2026 (TaxAtlas, source secondaire), indexé sur l'inflation.",
+      "Change très volatil mais taux peu sensible. Le barème salarial spécifique pourrait plafonner à 30 % (variante basse de 29,5 %, voir la fourchette)."
+    ]
+  }
 }

@@ -9,7 +9,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : WST. Cours supposé : 1 EUR = 3,1 WST (hypothèse reprise de la note (3,1 tālā pour 1 EUR)).
+- Salaire converti : 240 300 € × 3,1 = 744 930 WST.
+- Base imposable : 744 930 WST.
+
+| De (WST) | À (WST) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 15 000 | 0,00 % | 15 000 | 0 |
+| 15 000 | 30 000 | 20,00 % | 15 000 | 3 000 |
+| 30 000 | et plus | 27,00 % | 714 930 | 193 031 |
+
+- **Impôt total : 196 031 WST, soit 26,3 % du salaire brut.**
+- Hypothèse : Barème : 0 % jusqu'à 15 000 tālā, 20 % jusqu'à 30 000, 27 % au-delà.
 
 ## Note
 

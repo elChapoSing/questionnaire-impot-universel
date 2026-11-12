@@ -9,5 +9,66 @@
       "url": "https://www.hasil.gov.my/en/individu/kadar-cukai/",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "MYR",
+    "fx": 4.8,
+    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURMYR=X",
+    "tranches": [
+      [
+        0,
+        5000,
+        0
+      ],
+      [
+        5000,
+        20000,
+        1
+      ],
+      [
+        20000,
+        35000,
+        3
+      ],
+      [
+        35000,
+        50000,
+        6
+      ],
+      [
+        50000,
+        70000,
+        11
+      ],
+      [
+        70000,
+        100000,
+        19
+      ],
+      [
+        100000,
+        400000,
+        25
+      ],
+      [
+        400000,
+        600000,
+        26
+      ],
+      [
+        600000,
+        2000000,
+        28
+      ],
+      [
+        2000000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Barème des résidents ; 30 % au-delà de 2 millions de ringgit.",
+      "Abattement personnel de 9 000 ringgit et autres déductions exclus."
+    ]
+  }
 }

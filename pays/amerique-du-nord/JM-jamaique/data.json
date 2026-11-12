@@ -13,5 +13,26 @@
       "url": "https://taxsummaries.pwc.com/jamaica/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "JMD",
+    "fx": 182,
+    "fx_source": "hypothèse reprise de la note (158 JMD par USD)",
+    "tranches": [
+      [
+        0,
+        6000000,
+        25
+      ],
+      [
+        6000000,
+        null,
+        30
+      ]
+    ],
+    "hypotheses": [
+      "Seuil annuel exonéré d'environ 1,9 M JMD non appliqué ; avec lui, environ 28,0 % (note).",
+      "Cotisations NIS, NHT et taxe d'éducation exclues."
+    ]
+  }
 }

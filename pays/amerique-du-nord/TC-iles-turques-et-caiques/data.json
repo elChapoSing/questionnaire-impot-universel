@@ -9,5 +9,20 @@
       "url": "https://www.visittci.com/life-and-business/investing/taxes",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "sans objet (aucun impôt)",
+    "tranches": [
+      [
+        0,
+        null,
+        0
+      ]
+    ],
+    "hypotheses": [
+      "Pas d'impôt sur le revenu. Cotisations d'assurance nationale et de santé non comptées."
+    ]
+  }
 }

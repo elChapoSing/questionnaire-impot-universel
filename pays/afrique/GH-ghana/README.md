@@ -9,7 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : GHS. Cours supposé : 1 EUR = 13 GHS (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURGHS=X).
+- Salaire converti : 240 300 € × 13 = 3 123 900 GHS.
+- Base imposable : 3 123 900 GHS.
+
+| De (GHS) | À (GHS) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 7 056 | 0,00 % | 7 056 | 0 |
+| 7 056 | 8 016 | 5,00 % | 960 | 48 |
+| 8 016 | 9 216 | 10,00 % | 1 200 | 120 |
+| 9 216 | 44 016 | 17,50 % | 34 800 | 6 090 |
+| 44 016 | 236 016 | 25,00 % | 192 000 | 48 000 |
+| 236 016 | 600 000 | 30,00 % | 363 984 | 109 195 |
+| 600 000 | et plus | 35,00 % | 2 523 900 | 883 365 |
+
+- **Impôt total : 1 046 818 GHS, soit 33,5 % du salaire brut.**
+- Hypothèse : Barème annuel résident de la loi 1178 de 2026 (PwC).
 
 ## Note
 

@@ -9,7 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : MGA. Cours supposé : 1 EUR = 5 300 MGA (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMGA=X).
+- Salaire converti : 240 300 € × 5 300 = 1 273 590 000 MGA.
+- Base imposable : 1 273 590 000 MGA.
+
+| De (MGA) | À (MGA) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 4 200 000 | 0,00 % | 4 200 000 | 0 |
+| 4 200 000 | 4 800 000 | 5,00 % | 600 000 | 30 000 |
+| 4 800 000 | 6 000 000 | 10,00 % | 1 200 000 | 120 000 |
+| 6 000 000 | 7 200 000 | 15,00 % | 1 200 000 | 180 000 |
+| 7 200 000 | et plus | 20,00 % | 1 266 390 000 | 253 278 000 |
+
+- **Impôt total : 253 608 000 MGA, soit 19,9 % du salaire brut.**
+- Hypothèse : Barème IRSA mensuel multiplié par 12 ; réduction pour charges de famille ignorée.
 
 ## Note
 

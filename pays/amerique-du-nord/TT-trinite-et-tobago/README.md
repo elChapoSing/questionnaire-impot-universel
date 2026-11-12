@@ -9,7 +9,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : TTD. Cours supposé : 1 EUR = 7,8 TTD (hypothèse reprise de la note (6,79 TTD par USD)).
+- Salaire converti : 240 300 € × 7,8 = 1 874 340 TTD.
+- Base imposable : 1 874 340 TTD.
+
+| De (TTD) | À (TTD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 1 000 000 | 25,00 % | 1 000 000 | 250 000 |
+| 1 000 000 | et plus | 30,00 % | 874 340 | 262 302 |
+
+- **Impôt total : 512 302 TTD, soit 27,3 % du salaire brut.**
+- Hypothèse : Abattement personnel de 90 000 TTD non appliqué ; avec lui, environ 26 % (note).
 
 ## Note
 

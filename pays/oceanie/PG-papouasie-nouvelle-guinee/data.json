@@ -14,5 +14,40 @@
       "url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2023/01/TBB-PapuaNewGuinea.pdf.coredownload.inline.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "PGK",
+    "fx": 4.9,
+    "fx_source": "hypothèse reprise de la note (4,9 kinas pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        20000,
+        0
+      ],
+      [
+        20000,
+        33000,
+        30
+      ],
+      [
+        33000,
+        70000,
+        35
+      ],
+      [
+        70000,
+        250000,
+        40
+      ],
+      [
+        250000,
+        null,
+        42
+      ]
+    ],
+    "hypotheses": [
+      "Barème des résidents (loi de 2025, depuis janvier 2026) : 0 % jusqu'à 20 000 kinas, puis 30 %, 35 %, 40 % et 42 % au-delà de 250 000. Les tranches intermédiaires (33 000 et 70 000) viennent des barèmes antérieurs, comme le dit la note."
+    ]
+  }
 }

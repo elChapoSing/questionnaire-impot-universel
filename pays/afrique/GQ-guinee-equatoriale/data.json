@@ -9,5 +9,40 @@
       "url": "https://taxsummaries.pwc.com/equatorial-guinea/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "XAF",
+    "fx": 655.957,
+    "fx_source": "parité fixe XAF/EUR (655,957), reprise de la note",
+    "tranches": [
+      [
+        0,
+        1400000,
+        0
+      ],
+      [
+        1400000,
+        5000000,
+        10
+      ],
+      [
+        5000000,
+        10000000,
+        15
+      ],
+      [
+        10000000,
+        15000000,
+        20
+      ],
+      [
+        15000000,
+        null,
+        25
+      ]
+    ],
+    "hypotheses": [
+      "Barème annuel IRPF (PwC)."
+    ]
+  }
 }

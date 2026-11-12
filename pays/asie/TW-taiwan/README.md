@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : TWD. Cours supposé : 1 EUR = 37 TWD (la note cite cbonds du 18 juillet 2026 sans chiffre ; valeur reconstituée, à remplacer par EURTWD=X).
+- Salaire converti : 240 300 € × 37 = 8 891 100 TWD.
+- Base imposable : 8 891 100 TWD.
+
+| De (TWD) | À (TWD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 590 000 | 5,00 % | 590 000 | 29 500 |
+| 590 000 | 1 330 000 | 12,00 % | 740 000 | 88 800 |
+| 1 330 000 | 2 660 000 | 20,00 % | 1 330 000 | 266 000 |
+| 2 660 000 | 4 980 000 | 30,00 % | 2 320 000 | 696 000 |
+| 4 980 000 | et plus | 40,00 % | 3 911 100 | 1 564 440 |
+
+- **Impôt total : 2 644 740 TWD, soit 29,7 % du salaire brut.**
+- Hypothèse : Barème 2024-2025 (tranche de 40 % au-delà de 4,98 millions de dollars taïwanais), repris par la note.
+- Hypothèse : Exemptions et déductions exclues.
 
 ## Note
 

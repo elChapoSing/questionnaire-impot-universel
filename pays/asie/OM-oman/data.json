@@ -14,5 +14,20 @@
       "url": "https://www.deloitte.com/middle-east/en/services/tax/perspectives/announcement-of-personal-income-tax-in-oman-from-1-january-2028.html",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro pour le calcul, sans conversion",
+    "tranches": [
+      [
+        0,
+        null,
+        0
+      ]
+    ],
+    "hypotheses": [
+      "Aucun impôt sur le revenu en 2026 et 2027 ; un impôt de 5 % au-delà de 42 000 rials omanais s'appliquera à partir du 1er janvier 2028 (non retenu)."
+    ]
+  }
 }

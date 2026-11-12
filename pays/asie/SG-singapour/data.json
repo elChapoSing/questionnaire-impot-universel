@@ -14,5 +14,81 @@
       "url": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/new-to-tax/individual-income-tax-rates/sample-income-tax-calculations",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "SGD",
+    "fx": 1.48,
+    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURSGD=X ; avec 1,50, le taux est de 14,8 %",
+    "tranches": [
+      [
+        0,
+        20000,
+        0
+      ],
+      [
+        20000,
+        30000,
+        2
+      ],
+      [
+        30000,
+        40000,
+        3.5
+      ],
+      [
+        40000,
+        80000,
+        7
+      ],
+      [
+        80000,
+        120000,
+        11.5
+      ],
+      [
+        120000,
+        160000,
+        15
+      ],
+      [
+        160000,
+        200000,
+        18
+      ],
+      [
+        200000,
+        240000,
+        19
+      ],
+      [
+        240000,
+        280000,
+        19.5
+      ],
+      [
+        280000,
+        320000,
+        20
+      ],
+      [
+        320000,
+        500000,
+        22
+      ],
+      [
+        500000,
+        1000000,
+        23
+      ],
+      [
+        1000000,
+        null,
+        24
+      ]
+    ],
+    "hypotheses": [
+      "Barème des résidents depuis l'année d'imposition 2024, jusqu'à 24 % au-delà de 1 million.",
+      "Allègements (relief) exclus."
+    ]
+  }
 }

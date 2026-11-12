@@ -18,5 +18,31 @@
       "url": "https://mercans.com/wp-content/uploads/2025/12/Mongolia_Changes-in-Tax-Rates-1st-January-2026.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "MNT",
+    "fx": 4150,
+    "fx_source": "hypothèse reprise de la note (1 € = 4 150 MNT)",
+    "tranches": [
+      [
+        0,
+        120000000,
+        10
+      ],
+      [
+        120000000,
+        180000000,
+        15
+      ],
+      [
+        180000000,
+        null,
+        20
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026 sur salaires ; le nouveau barème du 1er janvier 2027 n'est pas retenu.",
+      "Exonération des 9,6 premiers millions (Mercans) non appliquée : elle change à peine le taux (18,4 %)."
+    ]
+  }
 }

@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : EUR. Cours supposé : 1 EUR = 1 EUR (pays en euro, change 1).
+- Salaire converti : 240 300 € × 1 = 240 300 EUR.
+- Base imposable : 240 300 EUR.
+
+| De (EUR) | À (EUR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 44 000 | 20,00 % | 44 000 | 8 800 |
+| 44 000 | et plus | 40,00 % | 196 300 | 78 520 |
+
+- Crédit : Crédits d'impôt personnel et salarié : − 4 000 EUR.
+- **Impôt total : 83 320 EUR, soit 34,7 % du salaire brut.**
+- Hypothèse : 2026, personne seule : 20 % jusqu'à 44 000 €, 40 % au-delà, moins 4 000 € de crédits.
+- Hypothèse : USC (jusqu'à 8 %) et PRSI exclus : avec eux le taux marginal atteint environ 52 %.
 
 ## Note
 

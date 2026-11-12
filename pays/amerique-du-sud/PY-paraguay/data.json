@@ -19,5 +19,31 @@
       "url": "https://www.countrytaxcalc.com/tax-guides/paraguay-tax-guide/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "PYG",
+    "fx": 8000,
+    "fx_source": "hypothèse reprise de la note (environ 8 000 guaranis pour 1 EUR)",
+    "tranches": [
+      [
+        0,
+        50000000,
+        8
+      ],
+      [
+        50000000,
+        150000000,
+        9
+      ],
+      [
+        150000000,
+        null,
+        10
+      ]
+    ],
+    "hypotheses": [
+      "Impôt sur le revenu personnel (IRP) : 8 % jusqu'à 50 millions de guaranis, 9 % jusqu'à 150 millions, 10 % au-delà.",
+      "Aucune déduction de dépenses ; la note indique 9,9 % quel que soit le change."
+    ]
+  }
 }

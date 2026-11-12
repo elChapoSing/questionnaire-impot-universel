@@ -9,7 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : BTN. Cours supposé : 1 EUR = 100 BTN (hypothèse reprise de la note (1 € = 100 ngultrums, peg à la roupie indienne)).
+- Salaire converti : 240 300 € × 100 = 24 030 000 BTN.
+- Base imposable : 24 030 000 BTN.
+
+| De (BTN) | À (BTN) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 300 000 | 0,00 % | 300 000 | 0 |
+| 300 000 | 500 000 | 5,00 % | 200 000 | 10 000 |
+| 500 000 | 750 000 | 10,00 % | 250 000 | 25 000 |
+| 750 000 | 1 200 000 | 15,00 % | 450 000 | 67 500 |
+| 1 200 000 | 2 000 000 | 20,00 % | 800 000 | 160 000 |
+| 2 000 000 | 3 500 000 | 25,00 % | 1 500 000 | 375 000 |
+| 3 500 000 | et plus | 30,00 % | 20 530 000 | 6 159 000 |
+
+- **Impôt total : 6 796 500 BTN, soit 28,3 % du salaire brut.**
+- Hypothèse : Barème de l'Income Tax Act 2025 en vigueur en 2026 (notification du DRC) ; les montants fixes cumulés de la notification sont reconstitués par les taux marginaux.
+- Hypothèse : Déduction forfaitaire (15 % du revenu d'emploi, plafonnée à 150 000 Nu) et autres déductions exclues, pas d'abattements personnels.
 
 ## Note
 
