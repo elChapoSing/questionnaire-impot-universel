@@ -64,7 +64,7 @@ a { color: var(--accent); }
 h1:focus, h1:focus-visible, h2:focus, h2:focus-visible { outline: none; }
 
 .progress {
-  position: fixed; inset: 0 0 auto 0; height: 4px; background: var(--line); z-index: 10;
+  position: fixed; inset: 0 0 auto 0; height: 4px; background: var(--line); z-index: 30;
 }
 .progress > div {
   height: 100%; width: 0; background: var(--brand-grad); transition: width .35s ease;
@@ -212,7 +212,7 @@ h1, h2 { }
 .chip{font:inherit;font-size:.9em;padding:6px 12px;border-radius:999px;border:1.5px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
 .chip:hover{border-color:var(--accent)}
 @media (max-width:560px){.float-back{left:14px;right:14px;bottom:14px;text-align:center}}
-.meth{padding-bottom:84px}
+.meth{padding-bottom:24px}
 .app.wide{max-width:1500px;justify-content:flex-start}
 .data-grid{height:calc(100vh - 330px);min-height:440px;margin:0 0 20px}
 .data-search{max-width:420px;margin:0 0 14px}
@@ -236,8 +236,9 @@ h1, h2 { }
 .subtitle { font-size: 19px; font-weight: 500; line-height: 1.45; max-width: 54ch; margin: 0 0 16px; padding-left: 14px; border-left: 4px solid var(--accent); }
 .lvlchip.cat{font-size:15px;padding:4px 14px;margin:0 0 4px}
 
-.topnav { display: flex; flex-wrap: wrap; gap: 4px 22px; justify-content: center; padding: 14px 20px; border-bottom: 1px solid var(--line); background: var(--surface); }
+.topnav { position: sticky; top: 0; z-index: 20; display: flex; flex-wrap: wrap; gap: 4px 22px; justify-content: center; padding: 14px 20px; border-bottom: 1px solid var(--line); background: var(--surface); }
 .topnav a { color: var(--ink, inherit); text-decoration: none; font-weight: 600; font-size: 16px; padding: 4px 2px; border-bottom: 3px solid transparent; }
 .topnav a:hover { color: var(--accent); }
 .topnav a[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
 
+.cont{scroll-margin-top:64px}

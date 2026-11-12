@@ -385,8 +385,6 @@ function renderMethodologyNow() {
     groups.push(det);
   });
   var table = el("div", { class: "cont-groups" }, [el("div", { class: "chips", "aria-label": "Aller à un continent" }, jump)].concat(groups));
-  var back = el("button", { class: "btn float-back", type: "button" }, [el("span", { text: "← Retour au questionnaire" })]);
-  back.addEventListener("click", function () { location.href = "/"; });
 
   showScreen(el("section", { class: "screen meth" }, [
     el("p", { class: "eyebrow", text: "Méthodologie" }),
@@ -416,8 +414,7 @@ function renderMethodologyNow() {
       el("li", { text: "Les barèmes changent chaque année. Les chiffres reflètent les textes consultés en 2026." }),
       el("li", { text: "Un taux effectif calculé à un seul niveau de revenu ne dit rien des régimes spéciaux (expatriés, non-domiciliés, zones franches)." }),
       el("li", { text: "Japon : l'impôt local (10 %) n'est pas inclus faute de source. Hongrie : la contribution sociale de 13 % n'est pas comptée. Vietnam : ordre de grandeur uniquement. Émirats : source officielle encore à ajouter." })
-    ]),
-    back
+    ])
   ]));
 }
 /* ---------- Page « Toutes les données » (ag-grid) ---------- */
@@ -449,21 +446,19 @@ function renderDataNow(gridOk) {
       note: d.note, src: d.src, srcText: d.src.map(function (x) { return x[0] + " " + x[2]; }).join(" | "), dir: d.dir };
   }).sort(function (a, b) { return a.continent.localeCompare(b.continent, "fr") || a.pays.localeCompare(b.pays, "fr"); });
 
-  var back = el("button", { class: "btn float-back", type: "button" }, [el("span", { text: "← Retour au questionnaire" })]);
-  back.addEventListener("click", function () { location.href = "/"; });
   var head = [
     el("p", { class: "eyebrow", text: "Données" }),
     el("h2", { text: "Toutes les données par pays" }),
     el("p", { class: "lead" }, [document.createTextNode(rows.length + " pays. Cliquez sur un en-tête pour trier, sur l'icône de filtre pour filtrer, ou tapez dans la recherche. Méthode et hypothèses : "), el("a", { href: "/methodologie/", text: "page Méthodologie" }), document.createTextNode(".")])
   ];
   if (!gridOk || !window.agGrid) {
-    showScreen(el("section", { class: "screen" }, head.concat([el("p", { text: "Le composant de tableau n'a pas pu être chargé (connexion). Les mêmes données sont sur la page Méthodologie." }), back])));
+    showScreen(el("section", { class: "screen" }, head.concat([el("p", { text: "Le composant de tableau n'a pas pu être chargé (connexion). Les mêmes données sont sur la page Méthodologie." })])));
     app.classList.add("wide");
     return;
   }
   var search = el("input", { type: "search", class: "picker-input data-search", placeholder: "Rechercher un pays, un continent, une source…", "aria-label": "Rechercher dans le tableau" });
   var holder = el("div", { class: "data-grid" });
-  showScreen(el("section", { class: "screen" }, head.concat([search, holder, back])));
+  showScreen(el("section", { class: "screen" }, head.concat([search, holder])));
   app.classList.add("wide");
 
   var theme = agGrid.themeQuartz.withParams({

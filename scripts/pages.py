@@ -68,7 +68,6 @@ def country_page(d, slug, cont_label, lv, fr, compute, LV_THRESHOLD, FR_RATE, SA
     desc = (f"{d['nom']} : taux effectif d'impôt sur le revenu estimé à {rr} pour {fr(SALAIRE, 0)} € de salaire, "
             f"face au seuil de {fr(LV_THRESHOLD, 2)} % de l'impôt universel des Français de l'étranger. Calcul détaillé et sources.")
     o = [head(title, desc, url)]
-    o.append(f'<p class="crumb"><a href="/">Questionnaire</a> › <a href="/{OUT}/">Pays</a> › {e(d["nom"])}</p>')
     o.append(f'<p class="eyebrow">{e(cont_label)}</p>')
     o.append(f'<h1>Impôt sur le revenu : {e(d["nom"])}</h1>')
     o.append(f'<p><span class="lvlchip cat {lv}">{CAT[lv]}</span></p>')
@@ -112,7 +111,6 @@ def index_page(items, CONT_LABEL, fr):
     title = "Impôt sur le revenu par pays : taux estimé et impôt universel"
     desc = f"Liste des {len(items)} pays analysés : taux effectif d'impôt sur le revenu estimé, niveau par rapport au seuil de l'impôt universel des Français de l'étranger."
     o = [head(title, desc, url)]
-    o.append('<p class="crumb"><a href="/">Questionnaire</a> › Pays</p>')
     o.append("<h1>Impôt sur le revenu par pays</h1>")
     o.append(f"<p>{len(items)} pays analysés. Cliquez sur un pays pour voir le taux estimé, le calcul détaillé et les sources. Vous préférez un tableau triable et filtrable ? <a href=\"/donnees/\">Ouvrir le tableau des données</a>.</p>")
     for k, lab in CONT_LABEL.items():
