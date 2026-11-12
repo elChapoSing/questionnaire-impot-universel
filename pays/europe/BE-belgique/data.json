@@ -1,0 +1,23 @@
+{
+  "code": "BE",
+  "nom": "Belgique",
+  "rate": 46.1,
+  "note": "Barème fédéral de l'année de revenus 2026 : 25 % jusqu'à 16 720 €, 40 % jusqu'à 29 510 €, 45 % jusqu'à 51 070 €, 50 % au-delà, moins la réduction liée à la quotité exemptée (environ 2 795 €). Taux effectif d'environ 46,1 % à 240 300 €. S'ajoute une taxe communale d'environ 7 % de l'impôt fédéral. Cotisations sociales exclues.",
+  "sources": [
+    {
+      "titre": "Orbitax, ajustement du barème belge 2026",
+      "url": "https://orbitax.com/news/country/article/Belgian-Government-Adjusts-Per-61222",
+      "type": "non officielle"
+    },
+    {
+      "titre": "BDO Belgique, montants indexés",
+      "url": "https://www.bdo.be/en-gb/insights/news-alerts/2026/key-figures-personal-income-tax-indexed-amounts-of-income-tax-(tax-year-2025-2026-2027)",
+      "type": "non officielle"
+    },
+    {
+      "titre": "CountryTaxCalc, Belgique",
+      "url": "https://www.countrytaxcalc.com/tax-guides/belgium-tax-guide/",
+      "type": "non officielle"
+    }
+  ]
+}

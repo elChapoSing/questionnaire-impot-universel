@@ -1,0 +1,23 @@
+{
+  "code": "CA",
+  "nom": "Canada",
+  "rate": 36,
+  "note": "Impôt fédéral : 14 % à 33 % (barème 2026), soit 25,4 % à ce revenu. Avec l'Ontario (5,05 % à 13,16 %, sans la surtaxe) : environ 36 %. Les autres provinces vont de 8 % (Alberta, première tranche) à 25,75 % (Québec, tranche haute). Taux marginal maximal combiné : de 44,5 % à 58,75 % selon la province. Change supposé : 1,54 dollar canadien pour 1 €.",
+  "sources": [
+    {
+      "titre": "Agence du revenu du Canada, taux d'imposition de l'année 2026",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "type": "officielle"
+    },
+    {
+      "titre": "KPMG Canada, taux et tranches fédéraux et provinciaux 2026 (au 30 juin 2026)",
+      "url": "https://assets.kpmg.com/content/dam/kpmgsites/ca/pdf/services/tax/personal-tables/ca-federal-and-provincial-territorial-income-tax-rates-and-brackets-for-2026.pdf.coredownload.inline.pdf",
+      "type": "non officielle"
+    },
+    {
+      "titre": "iFinanceCanada, barèmes de l'Ontario 2026",
+      "url": "https://ifinancecanada.com/2026-canada-tax-brackets-what-are-the-federal-and-provincial-income-tax-rates-this-year/",
+      "type": "non officielle"
+    }
+  ]
+}

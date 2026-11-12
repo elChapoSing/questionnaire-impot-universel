@@ -1,0 +1,23 @@
+{
+  "code": "UY",
+  "nom": "Uruguay",
+  "rate": 26,
+  "note": "IRPF travail : tranches mensuelles de 0 % à 36 % (36 % au-delà de 115 BPC par mois ; BPC 2026 : 6 864 pesos). De 25,2 % à 27,0 % pour 40 à 48 pesos pour 1 €, avant déductions. Change supposé : 44,6 pesos pour 1 €. Les revenus du capital sont taxés à 7 à 12 %.",
+  "sources": [
+    {
+      "titre": "BPS, valeurs des barèmes de l'IRPF 2026 (BPC 6 864)",
+      "url": "https://www.bps.gub.uy/23860/2026---comunicado-r-5---valores-escalas-irpf-2026.html",
+      "type": "officielle"
+    },
+    {
+      "titre": "BPS, barèmes de l'IRPF 2025 (tranches de 10 % à 36 %)",
+      "url": "https://bps.gub.uy/bps/file/22584/1/2025---comunicado-2---valores-escalas-irpf-2025.pdf",
+      "type": "officielle"
+    },
+    {
+      "titre": "Uruguay XXI, système fiscal 2026",
+      "url": "https://www.uruguayxxi.gub.uy/en/invest/investors-guide/tax-system-2026/download/",
+      "type": "officielle"
+    }
+  ]
+}

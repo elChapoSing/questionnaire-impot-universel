@@ -1,0 +1,13 @@
+{
+  "code": "JP",
+  "nom": "Japon",
+  "rate": 35,
+  "note": "Impôt national et surtaxe de 2,1 % ; l'impôt local, non inclus, s'y ajoute.",
+  "sources": [
+    {
+      "titre": "Agence nationale des impôts (NTA), n° 2260",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm",
+      "type": "officielle"
+    }
+  ]
+}

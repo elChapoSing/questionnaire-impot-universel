@@ -1,0 +1,13 @@
+{
+  "code": "NZ",
+  "nom": "Nouvelle-Zélande",
+  "rate": 34.6,
+  "note": "Taux de 39 % au-delà de 180 000 NZD.",
+  "sources": [
+    {
+      "titre": "Inland Revenue de Nouvelle-Zélande",
+      "url": "https://www.ird.govt.nz/income-tax/income-tax-for-individuals/tax-codes-and-tax-rates-for-individuals/tax-rates-for-individuals",
+      "type": "officielle"
+    }
+  ]
+}

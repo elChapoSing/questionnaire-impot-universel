@@ -1,0 +1,23 @@
+{
+  "code": "FJ",
+  "nom": "Fidji",
+  "rate": 28.1,
+  "note": "Barème des résidents (règlement de 2023, structure inchangée au budget 2025-26) : 0 % jusqu'à 30 000 dollars fidjiens, 18 %, 20 %, puis de 33 % à 39 % au-delà de 270 000 (39 % au-delà d'un million). Change supposé : 2,58 dollars fidjiens pour 1 €.",
+  "sources": [
+    {
+      "titre": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/fiji/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Règlement sur les taux d'impôt 2023 (texte hébergé par PacLII)",
+      "url": "https://paclii.org/fj/legis/sub_leg/ita2015itotalr2023l552023646.pdf",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Munro Leys, taux 2024",
+      "url": "https://www.munroleyslaw.com/?p=438",
+      "type": "non officielle"
+    }
+  ]
+}

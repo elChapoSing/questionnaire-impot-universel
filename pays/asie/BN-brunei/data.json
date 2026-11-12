@@ -1,0 +1,18 @@
+{
+  "code": "BN",
+  "nom": "Brunei",
+  "rate": 0,
+  "note": "Pas d'impôt sur le revenu des personnes physiques.",
+  "sources": [
+    {
+      "titre": "Gouvernement britannique, Overseas Business Risk : Brunei",
+      "url": "https://www.gov.uk/government/publications/overseas-business-risk-brunei/overseas-business-risk-brunei",
+      "type": "non officielle"
+    },
+    {
+      "titre": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/brunei-darussalam/individual/foreign-tax-relief-and-tax-treaties",
+      "type": "non officielle"
+    }
+  ]
+}

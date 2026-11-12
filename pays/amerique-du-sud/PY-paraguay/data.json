@@ -1,0 +1,23 @@
+{
+  "code": "PY",
+  "nom": "Paraguay",
+  "rate": 9.9,
+  "note": "Impôt sur le revenu personnel : 8 % jusqu'à 50 millions de guaranis, 9 % jusqu'à 150 millions, 10 % au-delà. Système territorial : seuls les revenus de source paraguayenne sont imposés. Change supposé : environ 8 000 guaranis pour 1 € (9,9 % quel que soit le change). Source officielle (SET) non lue.",
+  "sources": [
+    {
+      "titre": "ABC Color, tranches de l'IRP de 8 %, 9 % et 10 %",
+      "url": "https://www.abc.com.py/economia/2025/03/05/irp-300000-contribuyentes-deberan-pagar-este-mes/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Yo Facturo, IRP au Paraguay",
+      "url": "https://yo-facturo.com/blog/irp-paraguay-impuesto-renta-personal/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "CountryTaxCalc, guide fiscal du Paraguay",
+      "url": "https://www.countrytaxcalc.com/tax-guides/paraguay-tax-guide/",
+      "type": "non officielle"
+    }
+  ]
+}

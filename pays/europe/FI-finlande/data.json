@@ -1,0 +1,23 @@
+{
+  "code": "FI",
+  "nom": "Finlande",
+  "rate": 41.5,
+  "note": "Finlande 2026 : barème d'État progressif de 12,64 % à 37,5 % (taux maximal au-delà de 52 100 EUR) plus impôt communal moyen 7,57 %. Estimation, les seuils intermédiaires n'ont pas été vérifiés : environ 41,5 %.",
+  "sources": [
+    {
+      "titre": "Ministère des Finances de Finlande, imposition des revenus du travail",
+      "url": "https://vm.fi/en/taxation-of-earned-income",
+      "type": "officielle"
+    },
+    {
+      "titre": "Orbitax, budget d'État 2026 de la Finlande",
+      "url": "https://orbitax.com/news/country/article/Finnish-Ministry-of-Finance-Su-59931",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Taxes for Expats, guide Finlande",
+      "url": "https://www.taxesforexpats.com/country-guides/finland/simple-tax-guide-for-americans-in-finland.html",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": "MY",
+  "nom": "Malaisie",
+  "rate": 25.2,
+  "note": "Barème progressif jusqu'à 30 % au-delà de 2 millions de ringgit.",
+  "sources": [
+    {
+      "titre": "LHDN, taux de l'impôt (YA 2023-2025)",
+      "url": "https://www.hasil.gov.my/en/individu/kadar-cukai/",
+      "type": "officielle"
+    }
+  ]
+}

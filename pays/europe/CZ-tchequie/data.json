@@ -1,0 +1,18 @@
+{
+  "code": "CZ",
+  "nom": "Tchéquie",
+  "rate": 20.6,
+  "note": "15 % jusqu'à 1 762 812 couronnes, 23 % au-delà. Très proche du seuil de 21,1 % : le crédit d'impôt de base de 30 840 couronnes, non compté, l'abaisserait à 20,0 %.",
+  "sources": [
+    {
+      "titre": "Administration financière tchèque, nouveautés 2026",
+      "url": "https://financnisprava.gov.cz/cs/financni-sprava/media-a-verejnost/tiskove-zpravy-gfr/tiskove-zpravy-2026/danove-novinky-pro-rok-2026",
+      "type": "officielle"
+    },
+    {
+      "titre": "PwC Worldwide Tax Summaries (montant du seuil)",
+      "url": "https://taxsummaries.pwc.com/czech-republic/individual/significant-developments",
+      "type": "non officielle"
+    }
+  ]
+}

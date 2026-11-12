@@ -1,0 +1,18 @@
+{
+  "code": "KY",
+  "nom": "Îles Caïmans",
+  "rate": 0,
+  "note": "Pas d'impôt sur le revenu des personnes physiques. Sources secondaires uniquement.",
+  "sources": [
+    {
+      "titre": "Foyer Global Health, pays sans impôt",
+      "url": "https://www.foyerglobalhealth.com/?p=27958",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Bestaxca, pays sans impôt sur le revenu",
+      "url": "https://bestaxca.com/?p=24777",
+      "type": "non officielle"
+    }
+  ]
+}

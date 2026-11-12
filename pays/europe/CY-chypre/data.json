@@ -1,0 +1,18 @@
+{
+  "code": "CY",
+  "nom": "Chypre",
+  "rate": 30.1,
+  "note": "Barème 2026 : 0 % jusqu'à 22 000 €, puis 20 %, 25 %, 30 % et 35 % au-delà de 72 000 €.",
+  "sources": [
+    {
+      "titre": "Business in Cyprus, portail du gouvernement chypriote",
+      "url": "https://www.businessincyprus.gov.cy/business-sectors/registering-for-income-tax-and-value-added-tax/",
+      "type": "officielle"
+    },
+    {
+      "titre": "EY Chypre, Tax Legi février 2026",
+      "url": "https://www.ey.com/en_cy/technical/tax-alert/tax-legi-february-2026",
+      "type": "non officielle"
+    }
+  ]
+}

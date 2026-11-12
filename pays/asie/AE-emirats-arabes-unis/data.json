@@ -1,0 +1,23 @@
+{
+  "code": "AE",
+  "nom": "Émirats arabes unis",
+  "rate": 0,
+  "note": "Pas d'impôt sur le revenu des personnes physiques.",
+  "sources": [
+    {
+      "titre": "Gulf News, déclaration du ministère des Finances",
+      "url": "https://gulfnews.com/business/economy/uae-affirms-there-are-no-plans-to-introduce-income-tax-on-individuals-1.1705996309815",
+      "type": "non officielle"
+    },
+    {
+      "titre": "The National, confirmation du ministère des Finances",
+      "url": "https://www.thenationalnews.com/business/money/2022/01/31/why-employees-will-continue-to-pay-no-income-tax-in-the-uae",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Oman Observer, déclaration du sous-secrétaire du ministère des Finances",
+      "url": "https://www.omanobserver.om/article/1148663/business/economy/uae-says-no-plans-to-impose-income-tax",
+      "type": "non officielle"
+    }
+  ]
+}

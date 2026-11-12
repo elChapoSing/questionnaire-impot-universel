@@ -1,0 +1,23 @@
+{
+  "code": "DO",
+  "nom": "République dominicaine",
+  "rate": 24.1,
+  "note": "Barème 2026 : exonération jusqu'à 416 220 pesos, puis 15 %, 20 % et 25 % au-delà de 867 123 pesos. À partir de 2027 (loi 30-26), un taux de 27 % au-delà de 4,8 millions de pesos porterait le résultat à environ 25,5 %. Change supposé : 70 pesos pour 1 €.",
+  "sources": [
+    {
+      "titre": "DGII, guide du contribuable n° 9 : impôt sur le revenu des personnes physiques",
+      "url": "https://dgii.gov.do/publicacionesOficiales/bibliotecaVirtual/contribuyentes/isr/ISR%20Persona%20Fsica/1-Guia%209%20-%20ISR%20PF.pdf",
+      "type": "officielle"
+    },
+    {
+      "titre": "Revista Mercado, barème de l'impôt à partir de 2027",
+      "url": "https://revistamercado.do/money-invest/daily-news/nueva-escala-del-isr-desde-cuanto-pagaras-impuesto-sobre-la-renta-en-rd-a-partir-de-2027/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Alegra, barème 2026 (résolution DDG-AR1-2026-00001)",
+      "url": "https://blog.alegra.com/republica-dominicana/impuesto-sobre-la-renta-isr/",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": "SA",
+  "nom": "Arabie saoudite",
+  "rate": 0,
+  "note": "Revenus salariaux non imposés. Les activités commerciales sont taxées séparément.",
+  "sources": [
+    {
+      "titre": "Deloitte, Saudi Arabia Highlights",
+      "url": "https://www2.deloitte.com/content/dam/Deloitte/global/Documents/Tax/dttl-tax-saudiarabiahighlights-2024.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

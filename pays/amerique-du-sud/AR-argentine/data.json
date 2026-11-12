@@ -1,0 +1,23 @@
+{
+  "code": "AR",
+  "nom": "Argentine",
+  "rate": 34,
+  "note": "Quatrième catégorie (salariés) : barème de 5 % à 35 %, le taux de 35 % commençant à 60,75 millions de pesos par an. À ce revenu, la quasi-totalité est taxée à 35 %. Estimation à partir de ce barème (tranches intermédiaires non reprises une à une) : de 31 % à 35 % quel que soit le change, très volatil. Source officielle (ARCA) non lue.",
+  "sources": [
+    {
+      "titre": "calcularsueldo.com.ar, ARCA a officialisé les barèmes de 2026",
+      "url": "https://calcularsueldo.com.ar/ganancias/13161/arca-oficializo-las-escalas-y-deducciones-de-ganancias-en-2026.html",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Canal26, barème de l'article 94 depuis février 2026",
+      "url": "https://www.canal26.com/economia/2026/02/17/impuesto-a-las-ganancias-2026-asi-quedan-el-piso-salarial-las-deducciones-y-las-nuevas-escalas-desde-febrero/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Hacecuentas, barème de l'impôt sur les gains 2026",
+      "url": "https://hacecuentas.com/blog/escala-ganancias-2026-argentina-tabla-completa-explicada",
+      "type": "non officielle"
+    }
+  ]
+}

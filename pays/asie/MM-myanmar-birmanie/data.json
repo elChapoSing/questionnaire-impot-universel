@@ -1,0 +1,23 @@
+{
+  "code": "MM",
+  "nom": "Myanmar (Birmanie)",
+  "rate": 24,
+  "note": "Six tranches de 0 à 25 % après un abattement de 20 % (plafonné à 10 millions de kyats). À ce revenu, le taux effectif est de 23 % à 24 % quel que soit le change, très volatil. Barème confirmé par des sources privées uniquement.",
+  "sources": [
+    {
+      "titre": "DFDL, loi fiscale de l'Union 2026",
+      "url": "https://www.dfdl.com/?p=66364",
+      "type": "non officielle"
+    },
+    {
+      "titre": "VDB Loi, Myanmar Tax Booklet 2025-2026",
+      "url": "https://www.vdb-loi.com/wp-content/uploads/2025/11/Myanmar-Tax-Booklet_2025-2026.pdf",
+      "type": "non officielle"
+    },
+    {
+      "titre": "QHRM, tranches de l'impôt sur le revenu 2025-2026",
+      "url": "https://qhrm.io/answers/pit-slabs-myanmar-current-tax-year",
+      "type": "non officielle"
+    }
+  ]
+}

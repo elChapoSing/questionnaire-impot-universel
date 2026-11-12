@@ -1,0 +1,23 @@
+{
+  "code": "ES",
+  "nom": "Espagne",
+  "rate": 41.2,
+  "note": "Barème général de l'IRPF (part de l'État et part régionale cumulées) : de 19 % à 47 %, le taux de 47 % s'appliquant au-delà de 300 000 €. Taux effectif d'environ 41 % à 240 300 € (tranches intermédiaires de l'échelle commune : calcul à confirmer sur la source officielle de l'Agence fiscale). Madrid applique des taux plus bas (maximum d'environ 43,5 %), mais le résultat reste largement au-dessus du seuil. Minimum personnel exclu.",
+  "sources": [
+    {
+      "titre": "Taxdown, taux de l'IRPF 2026",
+      "url": "https://taxdown.es/irpf/tipo-impositivo",
+      "type": "non officielle"
+    },
+    {
+      "titre": "OIE, tranches de l'IRPF 2026",
+      "url": "https://www.oie.es/tramos-irpf-2026/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Wolters Kluwer, tranches et retenues 2026",
+      "url": "https://www.wolterskluwer.com/es-es/expert-insights/tramos-retenciones-irpf-2026-novedades",
+      "type": "non officielle"
+    }
+  ]
+}

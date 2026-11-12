@@ -1,0 +1,23 @@
+{
+  "code": "WS",
+  "nom": "Samoa",
+  "rate": 26.3,
+  "note": "Barème : 0 % jusqu'à 15 000 tālā, 20 % jusqu'à 30 000, 27 % au-delà. Le taux effectif ne peut pas dépasser 27 %. Change supposé : 3,1 tālā pour 1 €.",
+  "sources": [
+    {
+      "titre": "Expanship, impôt sur le revenu des personnes physiques aux Samoa",
+      "url": "https://www.expanship.com/ws/blog/samoa-personal-income-tax",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Heritage Foundation, Index of Economic Freedom 2026",
+      "url": "https://static.heritage.org/index/pdf/2026/2026_indexofeconomicfreedom_samoa.pdf",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Global Investments, Samoa",
+      "url": "https://www.globalinvestments.net/financial-planning/guides/financial-planning-samoa",
+      "type": "non officielle"
+    }
+  ]
+}

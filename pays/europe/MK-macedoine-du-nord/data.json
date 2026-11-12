@@ -1,0 +1,23 @@
+{
+  "code": "MK",
+  "nom": "Macédoine du Nord",
+  "rate": 10,
+  "note": "Impôt forfaitaire de 10 % sur les revenus du travail, après déduction des cotisations sociales et d'un abattement mensuel fixe. Le taux effectif est donc au plus de 10 %.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries, Macédoine du Nord, évolutions",
+      "url": "https://taxsummaries.pwc.com/north-macedonia/individual/significant-developments",
+      "type": "non officielle"
+    },
+    {
+      "titre": "FMI, Selected Issues, Macédoine du Nord (mai 2026) : taux de 10 %",
+      "url": "https://www.imf.org/-/media/files/publications/selected-issues-papers/2026/english/sipea2026049.pdf.md",
+      "type": "officielle"
+    },
+    {
+      "titre": "Eurofast, Payroll Guide 2026, Macédoine du Nord",
+      "url": "https://eurofast.eu/wp-content/uploads/2026/02/PayrollGuide2026-NorthMacedonia.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

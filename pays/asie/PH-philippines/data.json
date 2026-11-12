@@ -1,0 +1,13 @@
+{
+  "code": "PH",
+  "nom": "Philippines",
+  "rate": 31.5,
+  "note": "Barème progressif jusqu'à 35 % (réforme de 2023).",
+  "sources": [
+    {
+      "titre": "BIR, barème applicable depuis 2023",
+      "url": "https://efps.bir.gov.ph/efps-war/EFPSWeb_war/forms2018Version/1701Q/1701q_v3_02.xhtml",
+      "type": "officielle"
+    }
+  ]
+}

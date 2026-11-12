@@ -1,0 +1,23 @@
+{
+  "code": "GT",
+  "nom": "Guatemala",
+  "rate": 6.7,
+  "note": "Salariés : 5 % jusqu'à 300 000 quetzales, puis 7 % (15 000 quetzales fixes plus 7 % de l'excédent). Régime des salariés seulement : les revenus d'activité lucrative relèvent d'un autre régime (jusqu'à 25 % des bénéfices). Source officielle (SAT) non lue. Change supposé : 8,6 quetzales pour 1 €.",
+  "sources": [
+    {
+      "titre": "Living in Guatemala, calculateur de l'impôt des salariés 2026",
+      "url": "https://livinginguatemala.com/es/tramites/isr-asalariados-calculadora/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "TopTrabajos, impôt sur le revenu au Guatemala 2026",
+      "url": "https://www.toptrabajos.com/gt/blog/impuesto-sobre-la-renta-guatemala/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Deloitte Guatemala, régime des salariés",
+      "url": "https://www2.deloitte.com/content/dam/Deloitte/gt/Documents/tax/event/Presentaci%C3%B3n%20Seminario%20Temas%20Migratorios.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

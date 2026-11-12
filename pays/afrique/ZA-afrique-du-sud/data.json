@@ -1,0 +1,23 @@
+{
+  "code": "ZA",
+  "nom": "Afrique du Sud",
+  "rate": 40.9,
+  "note": "Barème 2026/27 : 666 339 rands + 45 % de la part de revenu imposable au-dessus de 1 878 600 rands, moins l'abattement principal de 17 820 rands. À 240 300 € (change supposé : 20 rands pour 1 €), le taux effectif est d'environ 40,9 %. Aucun change plausible ne le ramène sous 40 %.",
+  "sources": [
+    {
+      "titre": "Trésor national d'Afrique du Sud, guide fiscal du budget 2026 (SARS)",
+      "url": "https://www.treasury.gov.za/documents/national%20budget/2026/sars/Budget%202026%20Tax%20guide.pdf",
+      "type": "officielle"
+    },
+    {
+      "titre": "SARS, guide des tables de retenue à la source",
+      "url": "https://www.sars.gov.za/guide-for-employers-in-respect-of-tax-deduction-tables/",
+      "type": "officielle"
+    },
+    {
+      "titre": "Accounter, tables SARS 2026/27",
+      "url": "https://accounter.co.za/tax-tables",
+      "type": "non officielle"
+    }
+  ]
+}

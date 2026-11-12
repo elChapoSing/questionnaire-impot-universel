@@ -1,0 +1,13 @@
+{
+  "code": "BG",
+  "nom": "Bulgarie",
+  "rate": 10,
+  "note": "Taux unique de 10 %, hors cotisations sociales.",
+  "sources": [
+    {
+      "titre": "Ministère des Finances de Bulgarie",
+      "url": "https://www.minfin.bg/en/827",
+      "type": "officielle"
+    }
+  ]
+}

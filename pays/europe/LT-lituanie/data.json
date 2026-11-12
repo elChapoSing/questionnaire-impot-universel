@@ -1,0 +1,18 @@
+{
+  "code": "LT",
+  "nom": "Lituanie",
+  "rate": 26.2,
+  "note": "Depuis 2026 : 20 % jusqu'à 83 237 €, 25 % jusqu'à 138 729 €, 32 % au-delà. Proche de la borne haute des 26 %. Aucune source officielle lue.",
+  "sources": [
+    {
+      "titre": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/lithuania/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Grant Thornton Lituanie, réforme 2026",
+      "url": "https://www.grantthornton.lt/en/insights/lithuania-2026-tax-reform-overview-of-accepted-drafts-26-06-2025",
+      "type": "non officielle"
+    }
+  ]
+}

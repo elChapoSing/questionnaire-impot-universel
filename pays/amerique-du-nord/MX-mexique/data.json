@@ -1,0 +1,23 @@
+{
+  "code": "MX",
+  "nom": "Mexique",
+  "rate": 31.6,
+  "note": "Barème annuel 2026 (articles 96 et 152 de la loi sur l'impôt sur le revenu) : de 1,92 % à 35 %, le taux de 35 % commençant à environ 4,5 millions de pesos. Résultat de 31,4 % à 31,8 % pour 19,5 à 22 pesos pour 1 €. Aucune déduction personnelle. Source officielle non lue (texte de l'Annexe 8, via des relais privés).",
+  "sources": [
+    {
+      "titre": "SDV, tables d'impôt 2026 (articles 96 et 152 LISR)",
+      "url": "https://sdv.com.mx/recursos/tablas-isr-2026/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Contadormx, tables ISR 2026",
+      "url": "https://contadormx.com/tablas-isr-2026/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Praxium, article 152 LISR : barème annuel",
+      "url": "https://praxiumconsultores.com/blog/art-152-lisr-tarifa-anual-del-isr",
+      "type": "non officielle"
+    }
+  ]
+}

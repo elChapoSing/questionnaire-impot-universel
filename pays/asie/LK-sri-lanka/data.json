@@ -1,0 +1,23 @@
+{
+  "code": "LK",
+  "nom": "Sri Lanka",
+  "rate": 34.6,
+  "note": "Barème 2025-2026 : 1,8 million de roupies exonérées, puis 6 %, 18 %, 24 %, 30 % et 36 % au-delà de 4,3 millions. Change supposé : 343 roupies pour 1 €.",
+  "sources": [
+    {
+      "titre": "CMA Sri Lanka, taux de l'année d'imposition 2025-2026",
+      "url": "https://cma-srilanka.org/sites/default/files/pub/Tax%20Rate%20YA%202025%202026.pdf",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Bloomberg Tax, avis de l'administration fiscale",
+      "url": "https://news.bloombergtax.com/daily-tax-report-international/sri-lanka-tax-agency-issues-notice-announcing-tax-measures-under-inland-revenue-amendment-act",
+      "type": "non officielle"
+    },
+    {
+      "titre": "TaxAdvisor.lk, résumé de la loi n° 2 de 2025",
+      "url": "https://www.taxadvisor.lk/article/summary-of",
+      "type": "non officielle"
+    }
+  ]
+}

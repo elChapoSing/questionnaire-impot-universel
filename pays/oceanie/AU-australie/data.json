@@ -1,0 +1,13 @@
+{
+  "code": "AU",
+  "nom": "Australie",
+  "rate": 38.3,
+  "note": "Tranche de 45 % plus 2 % de Medicare.",
+  "sources": [
+    {
+      "titre": "Administration fiscale australienne (ATO)",
+      "url": "https://www.ato.gov.au/tax-rates-and-codes/tax-rates-australian-residents",
+      "type": "officielle"
+    }
+  ]
+}

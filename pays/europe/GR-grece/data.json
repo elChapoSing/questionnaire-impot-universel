@@ -1,0 +1,23 @@
+{
+  "code": "GR",
+  "nom": "Grèce",
+  "rate": 40,
+  "note": "Grèce 2026 : barème de 9 % à 44 %. L'administration fiscale (AADE) et KPMG publient 9/22/28/36/44 %, d'autres sources citent une réforme (9/20/26/34/39/44 %). Dans les deux cas environ 40 % à 240 300 EUR, hors cotisations sociales.",
+  "sources": [
+    {
+      "titre": "AADE, catégories de revenus et imposition",
+      "url": "https://aade.gr/en/node/11040",
+      "type": "officielle"
+    },
+    {
+      "titre": "KPMG Grèce, barème au 1/1/2026",
+      "url": "https://kpmg.com/gr/en/insights/2025/11/tax-updates-20112025.html",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Global Citizen Solutions, loi 5246/2025",
+      "url": "https://www.globalcitizensolutions.com/taxes-in-greece-a-guide-for-foreigners",
+      "type": "non officielle"
+    }
+  ]
+}

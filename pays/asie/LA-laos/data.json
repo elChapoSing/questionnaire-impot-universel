@@ -1,0 +1,23 @@
+{
+  "code": "LA",
+  "nom": "Laos",
+  "rate": 23.9,
+  "note": "Barème mensuel de 0 à 25 % (0 % jusqu'à 2,5 millions de kips depuis juillet 2026, 25 % au-delà de 65 millions par mois). À ce revenu, l'essentiel est taxé à 25 %. Change supposé : environ 25 500 kips pour 1 €, effet négligeable.",
+  "sources": [
+    {
+      "titre": "VDB Loi, nouvelle loi sur l'impôt sur le revenu (juillet 2026)",
+      "url": "https://vdb-loi.com/laos_publication/vdb-loi-laos-alert-new-income-tax-law-2025-effective-1-july-2026/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/lao-pdr/individual",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Deloitte, Laos Highlights 2025",
+      "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2025/dttl-tax-laoshighlights-2025.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

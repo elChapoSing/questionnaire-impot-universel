@@ -1,0 +1,18 @@
+{
+  "code": "PL",
+  "nom": "Pologne",
+  "rate": 29.5,
+  "note": "Barème de 12 % puis 32 % au-delà de 120 000 zlotys, plus la contribution de solidarité de 4 % au-delà d'un million de zlotys. Cotisation santé exclue.",
+  "sources": [
+    {
+      "titre": "Portail fiscal du gouvernement polonais, barème et limites",
+      "url": "https://www.podatki.gov.pl/pit/limity/",
+      "type": "officielle"
+    },
+    {
+      "titre": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/poland/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

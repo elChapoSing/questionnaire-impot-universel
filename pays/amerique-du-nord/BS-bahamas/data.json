@@ -1,0 +1,18 @@
+{
+  "code": "BS",
+  "nom": "Bahamas",
+  "rate": 0,
+  "note": "Pas d'impôt sur le revenu des personnes physiques. Sources secondaires uniquement.",
+  "sources": [
+    {
+      "titre": "Bestaxca, pays sans impôt sur le revenu",
+      "url": "https://bestaxca.com/?p=24777",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Libertymundo, pays sans impôt sur le revenu",
+      "url": "https://www.libertymundo.com/tax-free-countries-2/",
+      "type": "non officielle"
+    }
+  ]
+}

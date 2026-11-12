@@ -1,0 +1,23 @@
+{
+  "code": "TR",
+  "nom": "Turquie",
+  "rate": 36.5,
+  "note": "Barème 2026 des salaires : 15 % jusqu'à 190 000 livres, 20 % jusqu'à 400 000, 27 % jusqu'à 1,5 million, 35 % jusqu'à 5,3 millions, 40 % au-delà. À 240 300 € (change supposé : 50 livres pour 1 €), le taux effectif est d'environ 36,5 %. Il reste au-dessus de 36 % de 45 à 55 livres pour 1 €.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries, Turquie",
+      "url": "https://taxsummaries.pwc.com/turkey/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Orbitax, communiqué n° 332 (barème 2026)",
+      "url": "https://orbitax.com/news/country/article/Turkey-Updates-Individual-Inco-60850",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Cott Group, barème des salaires 2026",
+      "url": "https://cottgroup.com/tr/component/zoo/item/tax-brackets-and-income-tax-calculation-in-turkiye",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "code": "AD",
+  "nom": "Andorre",
+  "rate": 8.7,
+  "note": "Barème : 0 % jusqu'à 24 000 €, 5 % jusqu'à 40 000 €, 10 % au-delà. Entre 8,7 % et 9,0 % selon la lecture du barème ; le bonus de 800 € maximum sur les salaires n'est pas déduit. Sources secondaires uniquement.",
+  "sources": [
+    {
+      "titre": "Andorra Insiders, budget 2026",
+      "url": "https://andorrainsiders.com/en/economy/andorra-budget-2026/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Teamed, paie et impôt en Andorre 2026",
+      "url": "https://www.teamed.global/country-hiring-guides/andorra/tax-and-payroll",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Private Law Wiki, Andorre",
+      "url": "https://wiki.private.law/en/andorra-tax",
+      "type": "non officielle"
+    }
+  ]
+}

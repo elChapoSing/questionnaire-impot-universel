@@ -1,0 +1,23 @@
+{
+  "code": "CR",
+  "nom": "Costa Rica",
+  "rate": 20.4,
+  "note": "Impôt sur le salaire 2026 (décret 45333-H) : 0 % jusqu'à 918 000 colons par mois, puis 10 %, 15 %, 20 %, 25 % au-delà de 4 727 000. De 19,3 % à 20,7 % pour 450 à 600 colons pour 1 €. Change supposé : 557 colons pour 1 €. Barème des salariés ; un barème distinct s'applique aux indépendants.",
+  "sources": [
+    {
+      "titre": "EY Costa Rica, tranches de l'impôt sur le revenu pour 2026",
+      "url": "https://www.ey.com/es_ce/technical/tax/tax-alerts/costa-rica-ministerio-de-hacienda-establecio-los-tramos-del-impuesto-sobre-la-renta-para-el-periodo-fiscal-2026",
+      "type": "non officielle"
+    },
+    {
+      "titre": "KPMG Costa Rica, actualisation des tranches 2026",
+      "url": "https://kpmg.com/cr/es/home/tendencias/2025/12/newsflash-dic-8-2025.html",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Siempre al Día, retenue sur les salaires 2026",
+      "url": "https://siemprealdia.co/costa-rica/impuestos/retencion-del-impuesto-al-salario/",
+      "type": "non officielle"
+    }
+  ]
+}

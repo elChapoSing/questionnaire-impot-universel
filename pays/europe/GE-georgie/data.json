@@ -1,0 +1,13 @@
+{
+  "code": "GE",
+  "nom": "Géorgie",
+  "rate": 20,
+  "note": "Taux de 20 %, juste sous le seuil de 21,1 %.",
+  "sources": [
+    {
+      "titre": "Revenue Service de Géorgie",
+      "url": "https://old.rs.ge/en/1340",
+      "type": "officielle"
+    }
+  ]
+}

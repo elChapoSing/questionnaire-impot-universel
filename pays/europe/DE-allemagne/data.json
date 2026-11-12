@@ -1,0 +1,23 @@
+{
+  "code": "DE",
+  "nom": "Allemagne",
+  "rate": 37.3,
+  "note": "Tarif 2026 (§ 32a EStG) : 42 % de 69 879 € à 277 825 € de revenu imposable, 45 % au-delà. À 240 300 € sans déductions, l'impôt sur le revenu représente environ 37,3 % ; avec le Solidaritätszuschlag de 5,5 %, environ 39,4 %. Impôt d'Église et cotisations sociales exclus. Le calcul part du revenu imposable de 240 300 € (calcul établi à partir de l'exemple chiffré de Taxmaro pour 300 000 €).",
+  "sources": [
+    {
+      "titre": "Lexware, tarif et Soli 2026",
+      "url": "https://www.lexware.de/wissen/unternehmerlexikon/spitzensteuersatz/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "VLH, Spitzensteuersatz 2026",
+      "url": "https://www.vlh.de/wissen-service/steuer-nachrichten/spitzensteuersatz-das-steckt-dahinter.html",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Taxmaro, tarif 2026 et exemple chiffré",
+      "url": "https://www.taxmaro.com/post/spitzensteuersatz-2026-grenze-tarif",
+      "type": "non officielle"
+    }
+  ]
+}

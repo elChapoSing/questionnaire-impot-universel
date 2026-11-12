@@ -1,0 +1,18 @@
+{
+  "code": "CN",
+  "nom": "Chine",
+  "rate": 35.2,
+  "note": "Barème des revenus globaux, tranche supérieure à 45 %.",
+  "sources": [
+    {
+      "titre": "Loi sur l'impôt sur le revenu (administration fiscale)",
+      "url": "https://www.chinatax.gov.cn/n810219/n810744/n3752930/n3752974/c3970366/content.html",
+      "type": "officielle"
+    },
+    {
+      "titre": "Barème (administration fiscale de Shanghai)",
+      "url": "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/grsds/202402/P020240202362406243753.pdf",
+      "type": "officielle"
+    }
+  ]
+}

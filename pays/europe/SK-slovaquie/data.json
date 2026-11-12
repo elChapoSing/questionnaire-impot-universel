@@ -1,0 +1,18 @@
+{
+  "code": "SK",
+  "nom": "Slovaquie",
+  "rate": 31.1,
+  "note": "Barème de 19, 25, 30 puis 35 % au-delà de 75 010 €. Abattement personnel supposé nul à ce niveau de revenu.",
+  "sources": [
+    {
+      "titre": "Administration financière slovaque, taux 2026",
+      "url": "https://podpora.financnasprava.sk/081400-Sadzba-dane-z-pr%C3%ADjmov-fyzickej-osoby-za-rok-2026",
+      "type": "officielle"
+    },
+    {
+      "titre": "KPMG, tranches de 30 % et 35 %",
+      "url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2025/11/fa25-235.pdf.coredownload.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

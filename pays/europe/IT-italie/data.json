@@ -1,0 +1,23 @@
+{
+  "code": "IT",
+  "nom": "Italie",
+  "rate": 39.8,
+  "note": "IRPEF 2026 (loi de finances 2026) : 23 % jusqu'à 28 000 €, 33 % jusqu'à 50 000 €, 43 % au-delà. Taux effectif national d'environ 39,8 % à 240 300 €. S'ajoutent des taxes additionnelles régionales et communales (environ 1,9 à 3,3 points). Régime forfaitaire exclu.",
+  "sources": [
+    {
+      "titre": "Fiscomania, IRPEF 2026 et loi de finances",
+      "url": "https://fiscomania.com/aliquote-irpef/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Fisco Investimenti, tranches IRPEF 2026",
+      "url": "https://fiscoinvestimenti.it/?p=1290",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Fiscozen, taux IRPEF 2026",
+      "url": "https://www.fiscozen.it/guide/quanto-si-risparmia-con-le-nuove-aliquote-irpef/",
+      "type": "non officielle"
+    }
+  ]
+}

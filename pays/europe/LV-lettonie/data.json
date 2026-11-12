@@ -1,0 +1,18 @@
+{
+  "code": "LV",
+  "nom": "Lettonie",
+  "rate": 29.5,
+  "note": "Barème 2025-2026 : 20 % jusqu'à 20 004 €, 25,5 % jusqu'à 105 300 €, 33 % au-delà. Résultat de 29,3 % à 29,7 % selon la lecture de la première tranche. L'abattement mensuel de 550 € est nul à ce niveau de revenu.",
+  "sources": [
+    {
+      "titre": "Ministère des Finances letton, barème de l'impôt sur le revenu",
+      "url": "https://www.fm.gov.lv/en/media/20577/download",
+      "type": "officielle"
+    },
+    {
+      "titre": "Ministère des Finances letton, impôts dans les pays baltes 2024-2026",
+      "url": "https://www.fm.gov.lv/en/media/25307/download",
+      "type": "officielle"
+    }
+  ]
+}

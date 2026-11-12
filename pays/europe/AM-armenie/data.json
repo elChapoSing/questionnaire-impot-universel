@@ -1,0 +1,23 @@
+{
+  "code": "AM",
+  "nom": "Arménie",
+  "rate": 20,
+  "note": "Impôt à taux unique de 20 % sur les salaires, sans abattement ni tranche (10 % pour certains profils de recherche et développement). Cotisations sociales non comptées. Taux juste sous le seuil de 21,1 % : à examiner avec prudence.",
+  "sources": [
+    {
+      "titre": "ActivPayroll, paie en Arménie",
+      "url": "https://www.activpayroll.com/global-insights/armenia",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Trading Economics, taux d'impôt arménien",
+      "url": "https://tradingeconomics.com/armenia/personal-income-tax-rate",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Armenian Lawyer, retenue à la source sur les salaires",
+      "url": "https://armenian-lawyer.com/business-immigration/armenian-payroll-tax-withholding-social-security-guide/",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": "QA",
+  "nom": "Qatar",
+  "rate": 0,
+  "note": "Salaires non imposés. Seuls les revenus d'activité de source qatarie le sont.",
+  "sources": [
+    {
+      "titre": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/qatar/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

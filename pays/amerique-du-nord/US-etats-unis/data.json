@@ -1,0 +1,23 @@
+{
+  "code": "US",
+  "nom": "États-Unis",
+  "rate": 23.3,
+  "note": "Impôt fédéral seul, personne seule : 10 % à 37 % (barème 2026 : 10 % jusqu'à 12 400 dollars, 35 % jusqu'à 640 600). 21,3 % avec la déduction forfaitaire de 16 100 dollars. Les impôts des États s'ajoutent (nuls au Texas ou en Floride, élevés en Californie ou à New York). Les cotisations sociales fédérales ne sont pas comptées. Change : 1,1143 dollar pour 1 € (Yahoo Finance, 6 novembre 2026).",
+  "sources": [
+    {
+      "titre": "Fondation nationale des contribuables, barème fédéral 2026 et 2027",
+      "url": "https://www.ntu.org/foundation/detail/what-are-federal-income-tax-rates-for-2026-and-2027",
+      "type": "non officielle"
+    },
+    {
+      "titre": "NerdWallet, barèmes et déduction 2026 (IRS Rev. Proc. 2025-32)",
+      "url": "https://www.nerdwallet.com/article/taxes/tax-changes-2026",
+      "type": "non officielle"
+    },
+    {
+      "titre": "ustax.tools, barème 2026 pour une personne seule",
+      "url": "https://ustax.tools/2026-tax-brackets-single/",
+      "type": "non officielle"
+    }
+  ]
+}

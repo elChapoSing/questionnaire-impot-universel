@@ -1,0 +1,38 @@
+{
+  "code": "SE",
+  "nom": "Suède",
+  "rate": 47.5,
+  "note": "Suède 2026 : impôt communal moyen 32,38 % sur tout le revenu imposable, plus 20 % d'impôt d'État au-delà de 643 000 SEK. Calcul à 11 SEK/EUR (hypothèse, cours à confirmer), sans abattements : environ 47,5 %.",
+  "sources": [
+    {
+      "titre": "Chambers, International Tax 2026 (Suède)",
+      "url": "https://gpg-pdf.chambers.com/international-tax-2025/451/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Taxes for Expats, guide Suède 2026",
+      "url": "https://www.taxesforexpats.com/country-guides/sweden/us-tax-preparation-in-sweden.html",
+      "type": "non officielle"
+    }
+  ],
+  "calc": {
+    "devise": "SEK",
+    "fx": 11,
+    "fx_source": "hypothèse, à remplacer par EURSEK=X",
+    "tranches": [
+      [
+        0,
+        643000,
+        32.38
+      ],
+      [
+        643000,
+        null,
+        52.38
+      ]
+    ],
+    "hypotheses": [
+      "Aucun abattement ni crédit d'emploi (jobbskatteavdrag) appliqué."
+    ]
+  }
+}

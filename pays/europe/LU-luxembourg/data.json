@@ -1,0 +1,18 @@
+{
+  "code": "LU",
+  "nom": "Luxembourg",
+  "rate": 38.5,
+  "note": "Luxembourg 2026, classe 1 : barème à 23 tranches jusqu'à 42 % au-delà de 220 788 EUR, plus contribution de solidarité (9 % de l'impôt au-delà de 150 000 EUR selon une source, 7 % pour la plupart des contribuables). Estimation à partir de tranches non vérifiées une à une : environ 38,5 % (environ 35 % sans la contribution).",
+  "sources": [
+    {
+      "titre": "Taxx.lu, barème luxembourgeois",
+      "url": "https://taxx.lu/en/articles/luxembourg-tax-rates-in-plain-english",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Ma Calculatrice en ligne, barème ACD 2026",
+      "url": "https://macalculatriceenligne.com/outils/calculatrice-fiscale-luxembourg/",
+      "type": "non officielle"
+    }
+  ]
+}

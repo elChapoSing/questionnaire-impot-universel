@@ -1,0 +1,18 @@
+{
+  "code": "PG",
+  "nom": "Papouasie-Nouvelle-Guinée",
+  "rate": 40.6,
+  "note": "Barème des résidents (loi de 2025, en vigueur depuis janvier 2026) : 0 % jusqu'à 20 000 kinas, puis jusqu'à 42 % au-delà de 250 000. Les tranches intermédiaires viennent des barèmes antérieurs. Change supposé : 4,9 kinas pour 1 €.",
+  "sources": [
+    {
+      "titre": "Bloomberg Tax, Income Tax Act 2025",
+      "url": "https://news.bloombergtax.com/daily-tax-report-international/papua-new-guinea-parliament-posts-income-tax-act-2025",
+      "type": "non officielle"
+    },
+    {
+      "titre": "KPMG, Papouasie-Nouvelle-Guinée (mars 2026)",
+      "url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2023/01/TBB-PapuaNewGuinea.pdf.coredownload.inline.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

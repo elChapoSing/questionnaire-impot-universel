@@ -1,0 +1,23 @@
+{
+  "code": "DK",
+  "nom": "Danemark",
+  "rate": 46.1,
+  "note": "Danemark 2026 : impôt d'État de base 12,01 %, impôt communal moyen 25,05 %, impôt intermédiaire 7,5 % dès 641 200 DKK, impôt supérieur 15 % dès 777 900 DKK, plafond de 52,07 % de taux marginal. Calcul à 7,46 DKK/EUR (hypothèse), hors cotisation AM de 8 % : environ 46 %.",
+  "sources": [
+    {
+      "titre": "Expatfinance.dk, barème 2026",
+      "url": "https://expatfinance.dk/taxes/expat-tax-guide/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Dinero, topskat",
+      "url": "https://dinero.dk/ordbog/topskat/.",
+      "type": "non officielle"
+    },
+    {
+      "titre": "PwC Danemark, nouveaux taux 2026",
+      "url": "https://www.pwc.dk/da/presse/meddelelser/2025/skattelettelser-paa-vej-til-mange-danskere.html",
+      "type": "non officielle"
+    }
+  ]
+}

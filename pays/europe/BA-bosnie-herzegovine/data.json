@@ -1,0 +1,18 @@
+{
+  "code": "BA",
+  "nom": "Bosnie-Herzégovine",
+  "rate": 10,
+  "note": "Impôt forfaitaire de 10 % dans la Fédération de Bosnie-Herzégovine, à Brčko et, selon PwC, en Republika Srpska (8 % selon d'autres sources). Les deux valeurs sont sous le seuil. Les cotisations sociales sont exclues.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries, Bosnie-Herzégovine, impôt sur le revenu",
+      "url": "https://taxsummaries.pwc.com/bosnia-and-herzegovina/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Eurofast, Payroll Guide 2026, Bosnie",
+      "url": "https://eurofast.eu/wp-content/uploads/2026/02/PayrollGuide2026-Bosnia.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

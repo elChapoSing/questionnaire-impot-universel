@@ -1,0 +1,18 @@
+{
+  "code": "BH",
+  "nom": "Bahreïn",
+  "rate": 0,
+  "note": "Pas d'impôt sur le revenu des personnes physiques.",
+  "sources": [
+    {
+      "titre": "OCDE, fiche de résidence fiscale (renseignements de l'autorité fiscale bahreïnie)",
+      "url": "https://search.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-residency/Bahrain-Tax-Residency.pdf",
+      "type": "officielle"
+    },
+    {
+      "titre": "KPMG Bahreïn, synthèse fiscale",
+      "url": "https://assets.kpmg.com/content/dam/kpmg/bh/pdf/2021/08/kpmg-fakhro-bahrain-tax-summary-20210817.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

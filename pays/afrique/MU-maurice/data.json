@@ -1,0 +1,23 @@
+{
+  "code": "MU",
+  "nom": "Maurice",
+  "rate": 19.4,
+  "note": "Barème 2025-26 : 0 % jusqu'à 500 000 roupies, 10 % jusqu'à 1 million, 20 % au-delà. La loi de finances 2026 ajoute 35 % au-delà de 12 millions à partir du 1er juillet 2026. À 240 300 €, soit environ 12,5 millions de roupies (change supposé : 52 roupies pour 1 €), le taux effectif est de 18,8 % sans la tranche à 35 % et de 19,4 % avec. Le résultat dépend du change et du barème retenu.",
+  "sources": [
+    {
+      "titre": "Mauritius Revenue Authority, barème individuel (0 / 10 / 20 %)",
+      "url": "https://www.mra.mu/individuals/obligation-to-file-a-return",
+      "type": "officielle"
+    },
+    {
+      "titre": "PaySpace, Finance Act 2026 : tranche à 35 % au-delà de 12 millions",
+      "url": "https://payspace.com/blog/mauritius-finance-act-2026-income-tax-rate-restructuring-expatriate-tax-exemption-lump-sum-thresholds-increased",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Deloitte, Mauritius Highlights 2026",
+      "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-mauritiushighlights-2026.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

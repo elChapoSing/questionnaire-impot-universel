@@ -1,0 +1,23 @@
+{
+  "code": "GI",
+  "nom": "Gibraltar",
+  "rate": 25,
+  "note": "Gibraltar propose deux systèmes et applique le plus favorable. Pour un revenu élevé, le barème sur revenu brut donne un taux effectif d'environ 25 %, plafond indiqué par PwC (change supposé : 0,87 £ pour 1 €, taux quasi insensible au change). Sans abattements ni déductions.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries, Gibraltar, impôt sur le revenu",
+      "url": "https://taxsummaries.pwc.com/gibraltar/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Gibraltar Income Tax Office, changements de barème 2024/25",
+      "url": "https://www.gibraltar.gov.gi/uploads/Income%20Tax%20Office/Employers/Tax%20tables%2024-25/Information%20leaflet%20on%20personal%20tax%20rate%20changes.pdf",
+      "type": "officielle"
+    },
+    {
+      "titre": "EY, Gibraltar Tax Facts 2025-26",
+      "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gi/tax-alerts/documents/ey-gibraltar-tax-facts-2025-2026.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

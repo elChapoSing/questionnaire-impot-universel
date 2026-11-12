@@ -1,0 +1,23 @@
+{
+  "code": "MA",
+  "nom": "Maroc",
+  "rate": 35.9,
+  "note": "Barème des salaires 2026 : 0 % jusqu'à 40 000 dirhams, 10, 20, 30 et 34 % ensuite, 37 % au-delà de 180 000 (la tranche à 38 % a été fusionnée). À 240 300 € (change supposé : 10,8 dirhams pour 1 €), le taux effectif est d'environ 35,9 %. Abattement forfaitaire pour frais professionnels et cotisations sociales exclus (ils réduiraient peu le taux).",
+  "sources": [
+    {
+      "titre": "Bladi.net, circulaire DGI n° 737 sur la loi de finances 2026",
+      "url": "https://www.bladi.net/reforme-fiscale-maroc-change-circulaire-dgi-entreprises,119791.html",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Upsilon Consulting, barème IR salarial 2026",
+      "url": "https://www.upsilon-consulting.com/ir-salarial-bareme-2026-maroc/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Clicpaie, barème IR Maroc 2026",
+      "url": "https://clicpaie.ma/blogs/bareme-ir-maroc-2026/",
+      "type": "non officielle"
+    }
+  ]
+}

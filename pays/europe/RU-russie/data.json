@@ -1,0 +1,13 @@
+{
+  "code": "RU",
+  "nom": "Russie",
+  "rate": 17.4,
+  "note": "Barème 13 / 15 / 18 / 20 / 22 %. Taux de change RUB/EUR supposé (95) : verdict inchangé de 70 à 130.",
+  "sources": [
+    {
+      "titre": "Service fédéral des impôts (FNS)",
+      "url": "https://www.nalog.gov.ru/rn05/news/activities_fts/16606654/",
+      "type": "officielle"
+    }
+  ]
+}

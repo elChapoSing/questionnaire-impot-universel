@@ -1,0 +1,18 @@
+{
+  "code": "TW",
+  "nom": "Taïwan",
+  "rate": 29.8,
+  "note": "Tranche de 40 % au-delà de 4,98 millions de dollars taïwanais (barème 2024-2025). Taux de change non BCE : cbonds, 18 juillet 2026.",
+  "sources": [
+    {
+      "titre": "Administration fiscale taïwanaise, barème progressif",
+      "url": "https://www.etax.nat.gov.tw/etwmain/en/announcement/alien-individual-income-tax/progressive-tax-rate",
+      "type": "officielle"
+    },
+    {
+      "titre": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/taiwan/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

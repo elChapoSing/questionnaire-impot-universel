@@ -1,0 +1,23 @@
+{
+  "code": "PT",
+  "nom": "Portugal",
+  "rate": 43.3,
+  "note": "IRS 2026 : neuf tranches de 12,5 % à 48 % au-delà d'environ 86 600 € de revenu imposable. Taux effectif estimé à 43,3 % à 240 300 € (44,9 % avec la surtaxe de solidarité de 2,5 % entre 80 000 et 250 000 €). Estimation : le taux moyen à l'entrée de la dernière tranche est repris du barème 2025.",
+  "sources": [
+    {
+      "titre": "Santander Portugal, tranches de l'IRS",
+      "url": "https://www.santander.pt/salto/escaloes-irs",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Simula, simulateur IRS 2026 (surtaxe de solidarité)",
+      "url": "https://simula.pt/simuladores/simulador_irs",
+      "type": "non officielle"
+    },
+    {
+      "titre": "EY Portugal, budget 2026",
+      "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/pt-pt/services/tax/documents/tax-alert-oe-2026.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "code": "PK",
+  "nom": "Pakistan",
+  "rate": 33.7,
+  "note": "Salariés, exercice 2026-27 : 1 424 000 roupies plus 35 % au-delà de 7 millions. La surtaxe de 9 % est supprimée. Change supposé : 323 roupies pour 1 €.",
+  "sources": [
+    {
+      "titre": "TechJuice, nouveaux barèmes 2026-27",
+      "url": "https://www.techjuice.pk/?p=239355",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Taxation.pk, Finance Act 2026",
+      "url": "https://taxationpk.com/?p=27062",
+      "type": "non officielle"
+    },
+    {
+      "titre": "CSSPrep, barèmes confirmés 2026-27",
+      "url": "https://cssprep.com.pk/income-tax-slabs-2026-27-pakistan-salaried-class/",
+      "type": "non officielle"
+    }
+  ]
+}

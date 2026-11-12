@@ -1,0 +1,13 @@
+{
+  "code": "KR",
+  "nom": "Corée du Sud",
+  "rate": 37.5,
+  "note": "Impôt national (tranche 42 %) plus impôt local de 10 %.",
+  "sources": [
+    {
+      "titre": "Administration fiscale coréenne (NTS), barème 2023-2025",
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7667",
+      "type": "officielle"
+    }
+  ]
+}

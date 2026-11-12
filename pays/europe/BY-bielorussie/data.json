@@ -1,0 +1,28 @@
+{
+  "code": "BY",
+  "nom": "Biélorussie",
+  "rate": 20.9,
+  "note": "Depuis 2026 : 13 % jusqu'à 350 000 roubles biélorusses, 25 % jusqu'à 600 000, 30 % au-delà. Taux très proche du seuil et sensible au change (20,0 % à 3,0 roubles pour 1 €, 21,7 % à 3,6). Change supposé : 3,3 roubles pour 1 €.",
+  "sources": [
+    {
+      "titre": "Portail officiel de la République du Bélarus",
+      "url": "https://www.belarus.by/en/government/documents/lukashenko-approves-changes-to-tax-legislation_i_205310.html",
+      "type": "officielle"
+    },
+    {
+      "titre": "Présidence du Bélarus, modifications du droit fiscal",
+      "url": "https://president.gov.by/en/events/utverzdeny-izmenenia-nalogovogo-zakonodatel-stva-1767167458",
+      "type": "officielle"
+    },
+    {
+      "titre": "Site de la région de Vitebsk, budget fiscal 2026 voté par la Chambre des représentants",
+      "url": "https://senno.vitebsk-region.gov.by/en/news/novosti-oblasti/house-of-representatives-finalizes-review-of-belarus-2026-fiscal-bills/",
+      "type": "officielle"
+    },
+    {
+      "titre": "Bloomberg Law, loi fiscale signée",
+      "url": "https://news.bloomberglaw.com/payroll/belarus-president-signs-law-amending-various-taxes",
+      "type": "non officielle"
+    }
+  ]
+}

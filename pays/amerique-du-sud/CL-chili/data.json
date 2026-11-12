@@ -1,0 +1,23 @@
+{
+  "code": "CL",
+  "nom": "Chili",
+  "rate": 27.4,
+  "note": "Impôt global complémentaire : 35 % entre 120 et 310 UTA, 40 % au-delà (UTA : 834 504 pesos). À ce revenu, taux de 26,5 % à 28,0 % pour 950 à 1 150 pesos pour 1 €. Change supposé : 1 059 pesos pour 1 €. Proche de la borne de 26 % à la limite basse du change.",
+  "sources": [
+    {
+      "titre": "Service des impôts internes du Chili (SII), circulaire n° 29 de 2026 : tables en UTM",
+      "url": "https://www.sii.cl/normativa_legislacion/circulares/2026/circu29.pdf",
+      "type": "officielle"
+    },
+    {
+      "titre": "SII, circulaire n° 67 de 2025 : valeurs de l'UTM et de l'UTA",
+      "url": "https://www.sii.cl/normativa_legislacion/circulares/2025/circu67.pdf",
+      "type": "officielle"
+    },
+    {
+      "titre": "Rankia Chili, table de l'impôt global complémentaire 2026",
+      "url": "https://www.rankia.cl/blog/sii/2457838-impuesto-global-complementario-tabla-calculo-ejemplos",
+      "type": "non officielle"
+    }
+  ]
+}

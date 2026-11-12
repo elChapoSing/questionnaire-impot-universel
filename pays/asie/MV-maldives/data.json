@@ -1,0 +1,18 @@
+{
+  "code": "MV",
+  "nom": "Maldives",
+  "rate": 10,
+  "note": "Barème officiel : 0 % jusqu'à 720 000 rufiyaas, puis 5,5 %, 8 %, 12 % et 15 % au-delà de 2,4 millions. Change supposé : 17,6 rufiyaas pour 1 €.",
+  "sources": [
+    {
+      "titre": "MIRA, autorité fiscale des Maldives : barème des particuliers",
+      "url": "https://mira.gov.mv/Pages/View/ictindividuals",
+      "type": "officielle"
+    },
+    {
+      "titre": "MIRA, guide avec exemple de calcul",
+      "url": "https://www.mira.gov.mv/Files/GetFile/bc15ea7b-44d8-4b39-871f-287cae5bf481",
+      "type": "officielle"
+    }
+  ]
+}

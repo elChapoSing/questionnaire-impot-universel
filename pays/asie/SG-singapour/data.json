@@ -1,0 +1,18 @@
+{
+  "code": "SG",
+  "nom": "Singapour",
+  "rate": 14.7,
+  "note": "Barème progressif jusqu'à 24 %. Aucun impôt sur les plus-values.",
+  "sources": [
+    {
+      "titre": "IRAS, taux des résidents",
+      "url": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates",
+      "type": "officielle"
+    },
+    {
+      "titre": "IRAS, exemples de calcul",
+      "url": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/new-to-tax/individual-income-tax-rates/sample-income-tax-calculations",
+      "type": "officielle"
+    }
+  ]
+}

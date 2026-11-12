@@ -1,0 +1,23 @@
+{
+  "code": "JE",
+  "nom": "Jersey",
+  "rate": 20,
+  "note": "Taux standard de 20 % sur l'ensemble du revenu, maximum de l'impôt sur le revenu à Jersey. Le calcul « marginal » (26 % au-delà d'un seuil d'exemption) ne profite qu'aux revenus modestes. Taux effectif de 20 % à 240 300 € (le change £/€ ne change rien). Contribution dépendance (long-term care) exclue.",
+  "sources": [
+    {
+      "titre": "Gouvernement de Jersey, calcul de l'impôt sur le revenu",
+      "url": "https://www.gov.je/TaxesMoney/IncomeTax/Individuals/PayingTaxEarnings/Pages/CalculatingTaxAssessment.aspx",
+      "type": "officielle"
+    },
+    {
+      "titre": "Gouvernement de Jersey, abattements 2026",
+      "url": "https://www.gov.je/TaxesMoney/IncomeTax/Individuals/AllowancesReliefs/pages/2026taxallowances.aspx",
+      "type": "officielle"
+    },
+    {
+      "titre": "KPMG, fiscalité à Jersey",
+      "url": "https://kpmg.com/dp/en/services/tax/family-office-private-client/tax-in-jersey.html",
+      "type": "non officielle"
+    }
+  ]
+}

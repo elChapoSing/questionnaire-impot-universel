@@ -1,0 +1,18 @@
+{
+  "code": "KH",
+  "nom": "Cambodge",
+  "rate": 18.7,
+  "note": "Barème mensuel de 0 à 20 % (20 % au-delà de 12,5 millions de riels). Taux de change supposé, sans source : le résultat reste entre 18,5 et 18,8 % de 4 000 à 5 000 riels par euro.",
+  "sources": [
+    {
+      "titre": "KPMG Cambodge, seuils de l'impôt sur les salaires",
+      "url": "https://assets.kpmg.com/content/dam/kpmg/kh/pdf/technical-update/2023/en/implementation-on-new-taxable-salary-thresholds-and-extension-of-the-prepayment-of-tax-on-income-(PToI)-suspension-for-the-textile-and-garment-sector.pdf",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Deloitte, Cambodia Highlights",
+      "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/consulting/2024/dttl-tax-cambodiahighlights-2023.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

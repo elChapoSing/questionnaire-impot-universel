@@ -1,0 +1,18 @@
+{
+  "code": "EE",
+  "nom": "Estonie",
+  "rate": 22,
+  "note": "Taux unique de 22 %. L'abattement annuel de 8 400 € disparaît à ce niveau de revenu.",
+  "sources": [
+    {
+      "titre": "Administration fiscale estonienne (EMTA)",
+      "url": "https://emta.ee/en/business-client/taxes-and-payment/income-and-social-taxes",
+      "type": "officielle"
+    },
+    {
+      "titre": "EY, maintien du taux à 22 % en 2026",
+      "url": "https://taxnews.ey.com/news/2025-2446-estonia-significant-tax-changes-in-estonia-from-2026",
+      "type": "non officielle"
+    }
+  ]
+}

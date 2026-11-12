@@ -1,0 +1,23 @@
+{
+  "code": "EC",
+  "nom": "Équateur",
+  "rate": 31,
+  "note": "Barème 2026 : fraction exonérée de 12 208 dollars, puis de 5 % à 37 % (37 % au-delà de 109 956 dollars). Avant rabais pour dépenses personnelles. Le pays utilise le dollar : seul le cours euro-dollar joue.",
+  "sources": [
+    {
+      "titre": "NMS Law, barèmes de l'impôt sur le revenu 2026 en Équateur",
+      "url": "https://nmslaw.com.ec/?p=15946",
+      "type": "non officielle"
+    },
+    {
+      "titre": "El Universo, ce qu'il faut savoir de l'impôt sur le revenu 2026",
+      "url": "https://www.eluniverso.com/noticias/economia/lo-que-debe-saber-sobre-el-impuesto-a-la-renta-de-2026-nota/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Elyex, tables officielles du SRI pour 2026",
+      "url": "https://elyex.com/el-sri-publico-las-tablas-oficiales-para-personas-naturales-y-herencias-del-periodo-fiscal/",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "code": "BD",
+  "nom": "Bangladesh",
+  "rate": 28.9,
+  "note": "Barème des années d'imposition 2026-27 et 2027-28 : 375 000 takas exonérés, puis 10 %, 15 %, 20 %, 25 % et 30 % au-delà de 3,575 millions. Une tranche à 35 % au-delà de 30 millions est prévue à partir de 2028-29. Change supposé : 140 takas pour 1 €.",
+  "sources": [
+    {
+      "titre": "bdnews24, budget 2026-27",
+      "url": "https://bdnews24.com/budget2026-27/6a271f81cd2c",
+      "type": "non officielle"
+    },
+    {
+      "titre": "PwC Bangladesh, principales propositions budgétaires 2026",
+      "url": "https://www.pwc.com/bd/en/assets/pdfs/budget/key-budget-proposals-2026.pdf",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Dhaka Tribune, seuil d'exonération porté à 375 000 takas",
+      "url": "https://www.dhakatribune.com/business/412340/tax-free-income-threshold-raised-to-tk-375-000",
+      "type": "non officielle"
+    }
+  ]
+}

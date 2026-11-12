@@ -1,0 +1,18 @@
+{
+  "code": "OM",
+  "nom": "Oman",
+  "rate": 0,
+  "note": "Aucun impôt en 2026 et 2027. Un impôt de 5 % au-delà de 42 000 rials omanais s'appliquera à partir du 1er janvier 2028.",
+  "sources": [
+    {
+      "titre": "EY, Oman to introduce personal income tax from January 2028",
+      "url": "https://www.ey.com/en_gl/technical/tax-alerts/oman-to-introduce-personal-income-tax-from-january-2028",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Deloitte Moyen-Orient",
+      "url": "https://www.deloitte.com/middle-east/en/services/tax/perspectives/announcement-of-personal-income-tax-in-oman-from-1-january-2028.html",
+      "type": "non officielle"
+    }
+  ]
+}

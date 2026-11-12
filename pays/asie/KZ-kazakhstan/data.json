@@ -1,0 +1,23 @@
+{
+  "code": "KZ",
+  "nom": "Kazakhstan",
+  "rate": 13.6,
+  "note": "10 % jusqu'à 8 500 indices mensuels, 15 % au-delà. Même avec 15 % sur tout le revenu, le résultat reste sous le seuil. Taux de change non BCE : cbonds, 18 juillet 2026.",
+  "sources": [
+    {
+      "titre": "Comité des recettes de l'État du Kazakhstan (gov.kz), barème 10 % / 15 %",
+      "url": "https://www.gov.kz/org/kgd-vko/press/news/details/1208156?lang=en",
+      "type": "officielle"
+    },
+    {
+      "titre": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/kazakhstan/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Baker McKenzie, nouveau Code des impôts",
+      "url": "https://www.bakermckenzie.com/en/insight/publications/alerts/2025/09/kazakhstan-new-tax-code",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "code": "UA",
+  "nom": "Ukraine",
+  "rate": 23,
+  "note": "18 % d'impôt sur le revenu et 5 % de contribution militaire, comptés ensemble. Sans la contribution, le taux serait de 18 %.",
+  "sources": [
+    {
+      "titre": "Service fiscal d'État d'Ukraine, impôt de 18 % et contribution de 5 %",
+      "url": "https://tax.gov.ua/en/mass-media/news/1044989.html",
+      "type": "officielle"
+    },
+    {
+      "titre": "Service fiscal d'État d'Ukraine, contribution militaire",
+      "url": "https://tax.gov.ua/en/mass-media/news/print-999875.html",
+      "type": "officielle"
+    }
+  ]
+}

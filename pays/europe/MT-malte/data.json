@@ -1,0 +1,18 @@
+{
+  "code": "MT",
+  "nom": "Malte",
+  "rate": 31.1,
+  "note": "Barème 2026 pour une personne seule : 0 % jusqu'à 12 000 €, 15 % jusqu'à 16 000 €, 25 % jusqu'à 60 000 €, 35 % au-delà. Les régimes spéciaux de non-domiciliés ne sont pas modélisés.",
+  "sources": [
+    {
+      "titre": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/malta/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Chambers, Corporate Tax 2026 : Malte",
+      "url": "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026/malta",
+      "type": "non officielle"
+    }
+  ]
+}

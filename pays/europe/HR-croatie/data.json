@@ -1,0 +1,23 @@
+{
+  "code": "HR",
+  "nom": "Croatie",
+  "rate": 26.7,
+  "note": "Barème par défaut : 20 % jusqu'à 60 000 €, 30 % au-delà. Chaque commune fixe ses taux (15 à 23,6 % et 25 à 35,4 %). Même avec les taux locaux les plus bas, le taux effectif est de 21,8 %, au-dessus du seuil. Abattement personnel de 560 à 600 € par mois.",
+  "sources": [
+    {
+      "titre": "Administration fiscale croate, règles générales et taux",
+      "url": "https://porezna-uprava.gov.hr/en/income-t-ax-information-on-the-general-rules-rates-taxpayer-and-submitting-annual-income-tax-return/7322",
+      "type": "officielle"
+    },
+    {
+      "titre": "Administration fiscale croate, plafonds des taux locaux",
+      "url": "https://porezna-uprava.gov.hr/en/income-tax/7363",
+      "type": "officielle"
+    },
+    {
+      "titre": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/croatia/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

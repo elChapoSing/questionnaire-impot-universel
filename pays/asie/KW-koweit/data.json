@@ -1,0 +1,18 @@
+{
+  "code": "KW",
+  "nom": "Koweït",
+  "rate": 0,
+  "note": "Pas d'impôt sur le revenu des personnes physiques.",
+  "sources": [
+    {
+      "titre": "KPMG, Kuwait Tax Business Brief",
+      "url": "https://assets.kpmg.com/content/dam/kpmg/xx/pdf/2023/01/TBB-Kuwait.pdf",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Arab Times, déclaration de la ministre des Finances",
+      "url": "https://arabtimesonline.com/news/no-income-tax-on-individuals-in-kuwait-yet-study-in-progress-with-gulf-states-minister",
+      "type": "non officielle"
+    }
+  ]
+}

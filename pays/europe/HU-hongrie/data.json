@@ -1,0 +1,13 @@
+{
+  "code": "HU",
+  "nom": "Hongrie",
+  "rate": 15,
+  "note": "Taux de 15 %, hors contribution sociale distincte.",
+  "sources": [
+    {
+      "titre": "Administration fiscale hongroise (NAV)",
+      "url": "https://nav.gov.hu/pfile/file?path=%2Fen%2Ftaxation%2Ftaxinfo%2Fa-short-summary-on-the-taxation-of-private-persons",
+      "type": "officielle"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "code": "GB",
+  "nom": "Royaume-Uni",
+  "rate": 38.4,
+  "note": "Angleterre, pays de Galles, Irlande du Nord, 2026/27 : 20 % jusqu'à 37 700 £ de revenu imposable, 40 % jusqu'à 125 140 £, 45 % au-delà, sans abattement personnel au-dessus de 125 140 £. À 240 300 € (change supposé : 0,87 £ pour 1 €), le taux effectif est d'environ 38,4 %. En Écosse, le taux supérieur est de 48 % (environ 39,6 %). Cotisations sociales (NIC) exclues.",
+  "sources": [
+    {
+      "titre": "GOV.UK, taux de l'impôt sur le revenu",
+      "url": "https://gov.uk/income-tax-rates.",
+      "type": "officielle"
+    },
+    {
+      "titre": "GOV.UK, Budget 2025, taux et abattements",
+      "url": "https://www.gov.uk/government/publications/budget-2025-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances",
+      "type": "officielle"
+    },
+    {
+      "titre": "LITRG, taux 2026/27 (Écosse incluse)",
+      "url": "https://www.litrg.org.uk/tax-and-nic/tax-introduction/tax-and-nic-rates-and-bands",
+      "type": "non officielle"
+    }
+  ]
+}

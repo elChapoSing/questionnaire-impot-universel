@@ -1,0 +1,23 @@
+{
+  "code": "IE",
+  "nom": "Irlande",
+  "rate": 34.7,
+  "note": "2026 : 20 % jusqu'à 44 000 € pour une personne seule, 40 % au-delà, moins 4 000 € de crédits d'impôt (personnel et salarié). Taux effectif d'environ 34,7 % à 240 300 €. USC (jusqu'à 8 %) et PRSI exclus : avec eux, le taux marginal atteint environ 52 %.",
+  "sources": [
+    {
+      "titre": "Grant Thornton Irlande, bandes et crédits 2026",
+      "url": "https://www.grantthornton.ie/insights/budget/payroll-summary/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Chambers, International Tax 2026, Irlande",
+      "url": "https://gpg-pdf.chambers.com/international-tax-2025/192/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Tax Atlas, tranches irlandaises 2026",
+      "url": "https://taxatlas.app/ie/tax-brackets/",
+      "type": "non officielle"
+    }
+  ]
+}

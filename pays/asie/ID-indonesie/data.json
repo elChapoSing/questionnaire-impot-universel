@@ -1,0 +1,18 @@
+{
+  "code": "ID",
+  "nom": "Indonésie",
+  "rate": 28.9,
+  "note": "Barème de 5 à 35 % (35 % au-delà de 5 milliards de roupies). Taux de change BCE du 27 juillet 2026 ; résultat entre 28,7 et 29,6 % si le change varie de 15 %.",
+  "sources": [
+    {
+      "titre": "ASEAN Briefing, barème de l'impôt sur le revenu",
+      "url": "https://www.aseanbriefing.com/doing-business-guide/indonesia/taxation-and-accounting/individual-income-tax",
+      "type": "non officielle"
+    },
+    {
+      "titre": "JETRO (agence du gouvernement japonais), barème indonésien",
+      "url": "https://www.Jetro.go.jp/ext_images/jfile/country/idn/invest_04/pdfs/idn9C010_toushishotokuzei.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "code": "RS",
+  "nom": "Serbie",
+  "rate": 18.2,
+  "note": "Impôt de 10 % sur le salaire (abattement mensuel de 34 221 dinars), plus impôt annuel complémentaire de 10 % puis 15 % au-delà de 3 puis 6 salaires annuels moyens (seuils 2025 : 5 439 096 et 10 878 192 dinars). Estimation à 1 point près : cotisations salariales déduites de l'assiette de l'impôt annuel, déduction personnelle de 40 % du salaire moyen. Change supposé : 117,2 dinars pour 1 €.",
+  "sources": [
+    {
+      "titre": "KPMG Serbie, impôt annuel sur les revenus 2025",
+      "url": "https://kpmg.com/rs/en/insights/tax-alerts/2026/02/annual-personal-income-tax-for-income-generated-in-2025.html",
+      "type": "non officielle"
+    },
+    {
+      "titre": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/serbia/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Portail officiel du gouvernement serbe, impôt annuel sur le revenu",
+      "url": "https://www.srbija.gov.rs/tekst/en/130080/income-tax-.php",
+      "type": "officielle"
+    }
+  ]
+}

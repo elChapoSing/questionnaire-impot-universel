@@ -1,0 +1,18 @@
+{
+  "code": "UZ",
+  "nom": "Ouzbékistan",
+  "rate": 12,
+  "note": "Taux unique de 12 %, hors cotisation retraite de 4 % et taxe sociale employeur.",
+  "sources": [
+    {
+      "titre": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/republic-of-uzbekistan/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Kun.uz, déclaration du vice-Premier ministre",
+      "url": "https://kun.uz/en/news/2025/12/22/deputy-pm-kuchkarov-details-which-taxes-will-rise-and-which-will-stay-unchanged-in-2026",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": "HK",
+  "nom": "Hong Kong (Chine)",
+  "rate": 15,
+  "note": "Impôt sur les salaires plafonné au taux « standard » de 15 %.",
+  "sources": [
+    {
+      "titre": "Gouvernement de Hong Kong, taux de l'impôt sur les salaires",
+      "url": "https://www.gov.hk/en/residents/taxes/taxfiling/taxrates/salariesrates.htm",
+      "type": "officielle"
+    }
+  ]
+}

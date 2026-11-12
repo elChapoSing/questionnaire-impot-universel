@@ -1,0 +1,23 @@
+{
+  "code": "NL",
+  "nom": "Pays-Bas",
+  "rate": 40.8,
+  "note": "Case 1 en 2026 : 35,75 % jusqu'à 38 883 €, 37,56 % jusqu'à 78 426 €, 49,50 % au-delà. La première tranche inclut des cotisations sociales (environ 27,65 points) : sans elles, le taux effectif est d'environ 40,8 % à 240 300 € ; avec elles, environ 45,3 %. Crédits d'impôt exclus (ils s'annulent à ce niveau de revenu).",
+  "sources": [
+    {
+      "titre": "Deloitte Pays-Bas, taux 2026",
+      "url": "https://www.deloitte.com/nl/en/services/tax/blogs/pakket-belastingplan-2026-tarieven-heffingskortingen.html",
+      "type": "non officielle"
+    },
+    {
+      "titre": "KVK, taux néerlandais 2026",
+      "url": "https://www.kvk.nl/en/finance/dutch-tax-rates-in-2026/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Portsight, tranches de la case 1",
+      "url": "https://www.portsighttax.com/en/insights/netherlands-tax-rate-explained",
+      "type": "non officielle"
+    }
+  ]
+}

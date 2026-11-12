@@ -1,0 +1,23 @@
+{
+  "code": "IN",
+  "nom": "Inde",
+  "rate": 36.9,
+  "note": "Nouveau régime : tranche de 30 %, majoration de 25 % au-delà de 2 crores de roupies, cess de 4 %. Taux de change BCE du 27 juillet 2026.",
+  "sources": [
+    {
+      "titre": "Administration fiscale indienne, taux de l'impôt",
+      "url": "https://www.incometaxindia.gov.in/w/tax-rates%E2%80%8B",
+      "type": "officielle"
+    },
+    {
+      "titre": "BankBazaar, barème 2026-27",
+      "url": "https://bankbazaar.com/tax/income-tax-slabs.html",
+      "type": "non officielle"
+    },
+    {
+      "titre": "5paisa, barème 2026-27",
+      "url": "https://www.5paisa.com/blog/income-tax-slab",
+      "type": "non officielle"
+    }
+  ]
+}

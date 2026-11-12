@@ -1,0 +1,13 @@
+{
+  "code": "TH",
+  "nom": "Thaïlande",
+  "rate": 29.7,
+  "note": "Barème progressif jusqu'à 35 %.",
+  "sources": [
+    {
+      "titre": "Revenue Department de Thaïlande",
+      "url": "https://www.rd.go.th/english/6045.html",
+      "type": "officielle"
+    }
+  ]
+}

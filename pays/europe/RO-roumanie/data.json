@@ -1,0 +1,13 @@
+{
+  "code": "RO",
+  "nom": "Roumanie",
+  "rate": 10,
+  "note": "Taux de 10 %, hors cotisations CAS et CASS.",
+  "sources": [
+    {
+      "titre": "Code fiscal roumain (ministère des Finances), titre III",
+      "url": "https://www.mfinante.gov.ro/static/10/Mfp/legislatie/cod_fiscal/titlul_3.htm",
+      "type": "officielle"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "code": "PA",
+  "nom": "Panama",
+  "rate": 22.5,
+  "note": "Barème : 0 % jusqu'à 11 000 balboas (dollars), 15 % jusqu'à 50 000, 25 % au-delà (5 850 balboas pour les 50 000 premiers). Système territorial : les revenus de source étrangère ne sont pas imposés, ce qui peut ramener l'impôt à 0 % pour un revenu perçu de l'étranger. Taux calculé sur un revenu de source panaméenne.",
+  "sources": [
+    {
+      "titre": "Direction générale des revenus du Panama, tarifs des personnes physiques",
+      "url": "https://dgi.mef.gob.pa/DInforme/Tarifa",
+      "type": "officielle"
+    },
+    {
+      "titre": "Expanship, impôt sur le revenu au Panama",
+      "url": "https://www.expanship.com/pa/blog/panama-personal-income-tax",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Alegra, déclaration de revenus au Panama",
+      "url": "https://blog.alegra.com/panama/declaracion-de-renta-panama/",
+      "type": "non officielle"
+    }
+  ]
+}
