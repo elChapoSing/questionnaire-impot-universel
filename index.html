@@ -223,6 +223,14 @@ h1, h2 { }
 .chip:hover{border-color:var(--accent)}
 @media (max-width:560px){.float-back{left:14px;right:14px;bottom:14px;text-align:center}}
 .meth{padding-bottom:84px}
+.app.wide{max-width:1500px;justify-content:flex-start}
+.data-grid{height:calc(100vh - 330px);min-height:440px;margin:0 0 20px}
+.data-search{max-width:420px;margin:0 0 14px}
+.lvlchip{display:inline-block;font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;border:1.5px solid currentColor;white-space:nowrap;line-height:1.5}
+.lvlchip.below{color:var(--bad)}.lvlchip.debatable{color:var(--warn)}.lvlchip.above{color:var(--ok)}
+.ag-root .tag{font-size:11px;font-weight:600;padding:1px 6px;border-radius:999px;border:1.5px solid currentColor;white-space:nowrap}
+.ag-root .tag.off{color:var(--ok)}.ag-root .tag.non{color:var(--warn)}
+.ag-root a{color:var(--accent)}
 </style>
 </head>
 <body>
@@ -387,6 +395,7 @@ function el(tag, attrs, children) {
 function setProgress(done) { bar.style.width = Math.round(100 * done / STEPS.length) + "%"; }
 
 function showScreen(node) {
+  app.classList.remove("wide");
   app.innerHTML = "";
   app.appendChild(node);
   var h = node.querySelector("h1, h2");
@@ -552,6 +561,7 @@ function renderResult(r) {
 
   var sources = el("div", { class: "sources" }, [
     el("p", {}, [el("a", { href: "#methodologie", text: "Méthodologie, hypothèses et sources des données par pays" })]),
+    el("p", {}, [el("a", { href: "#donnees", text: "Toutes les données dans un tableau (filtrable)" })]),
     el("p", { text: "Ce questionnaire est informatif. Il ne constitue pas un avis fiscal ou juridique. Il s'appuie sur le dispositif de l'amendement n° I-2564 au projet de loi de finances pour 2027." }),
     el("ul", {}, [
       el("li", {}, [el("a", { href: "https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/AN/2564", text: "Texte de l'amendement n° I-2564 (Assemblée nationale)" })]),
@@ -636,6 +646,7 @@ function renderMethodologyNow() {
       el("li", { text: LEVEL_LABEL.above + " : taux estimé supérieur à " + fmtRate(LEVEL_HIGH) + ". La condition est considérée comme non remplie." })
     ]),
     el("h3", { text: "Données par pays et sources" }),
+    el("p", {}, [el("a", { href: "#donnees", text: "Ouvrir toutes les données dans un tableau interactif (tri, filtres, recherche)" })]),
     el("p", { text: "Les sources « officielle » émanent d'une administration fiscale ou d'un ministère. Les sources « non officielle » sont des médias ou des sites juridiques privés : à confirmer auprès des autorités du pays." }),
     table,
     el("h3", { text: "Limites" }),
@@ -648,8 +659,91 @@ function renderMethodologyNow() {
     back
   ]));
 }
+/* ---------- Page « Toutes les données » (ag-grid) ---------- */
+var AG_URL = "https://cdn.jsdelivr.net/npm/ag-grid-community@36.1.0/dist/ag-grid-community.min.js";
+var agPromise = null;
+function loadAgGrid() {
+  if (window.agGrid) return Promise.resolve();
+  if (!agPromise) agPromise = new Promise(function (resolve, reject) {
+    var sc = document.createElement("script");
+    sc.src = AG_URL; sc.onload = resolve; sc.onerror = function () { agPromise = null; reject(new Error("ag-grid")); };
+    document.head.appendChild(sc);
+  });
+  return agPromise;
+}
+var DATA_CONTINENTS = { "europe": "Europe", "afrique": "Afrique", "asie": "Asie et Moyen-Orient", "amerique-du-nord": "Amérique du Nord, centrale et Caraïbes", "amerique-du-sud": "Amérique du Sud", "oceanie": "Océanie" };
+function renderData() {
+  setProgress(0);
+  showScreen(el("section", { class: "screen" }, [el("h2", { text: "Toutes les données" }), el("p", { text: "Chargement des données pays…" })]));
+  app.classList.add("wide");
+  Promise.all([loadAllCountries(), loadAgGrid().then(function () { return true; }, function () { return false; })]).then(function (r) {
+    if (location.hash === "#donnees") renderDataNow(r[1]);
+  });
+}
+function renderDataNow(gridOk) {
+  var rows = Object.keys(COUNTRY_DATA).map(function (c) {
+    var d = COUNTRY_DATA[c];
+    var lvl = countryLevel(c);
+    return { code: c, continent: DATA_CONTINENTS[(d.dir || "").split("/")[0]] || "", pays: countryName(c), rate: d.rate, rateText: fmtRateD(d), lvl: lvl, niveau: LEVEL_LABEL[lvl],
+      note: d.note, src: d.src, srcText: d.src.map(function (x) { return x[0] + " " + x[2]; }).join(" | "), dir: d.dir };
+  }).sort(function (a, b) { return a.continent.localeCompare(b.continent, "fr") || a.pays.localeCompare(b.pays, "fr"); });
+
+  var back = el("button", { class: "btn float-back", type: "button" }, [el("span", { text: "← Retour au questionnaire" })]);
+  back.addEventListener("click", function () { history.replaceState(null, "", location.pathname); answers = []; renderStart(); });
+  var head = [
+    el("p", { class: "eyebrow", text: "Données" }),
+    el("h2", { text: "Toutes les données par pays" }),
+    el("p", { class: "lead" }, [document.createTextNode(rows.length + " pays. Cliquez sur un en-tête pour trier, sur l'icône de filtre pour filtrer, ou tapez dans la recherche. Méthode et hypothèses : "), el("a", { href: "#methodologie", text: "page Méthodologie" }), document.createTextNode(".")])
+  ];
+  if (!gridOk || !window.agGrid) {
+    showScreen(el("section", { class: "screen" }, head.concat([el("p", { text: "Le composant de tableau n'a pas pu être chargé (connexion). Les mêmes données sont sur la page Méthodologie." }), back])));
+    app.classList.add("wide");
+    return;
+  }
+  var search = el("input", { type: "search", class: "picker-input data-search", placeholder: "Rechercher un pays, un continent, une source…", "aria-label": "Rechercher dans le tableau" });
+  var holder = el("div", { class: "data-grid" });
+  showScreen(el("section", { class: "screen" }, head.concat([search, holder, back])));
+  app.classList.add("wide");
+
+  var theme = agGrid.themeQuartz.withParams({
+    backgroundColor: "var(--surface)", foregroundColor: "var(--ink)", accentColor: "var(--accent)",
+    borderColor: "var(--line)", headerBackgroundColor: "var(--bg)", headerTextColor: "var(--muted)",
+    fontFamily: "DM Sans, Helvetica Neue, Arial, sans-serif", fontSize: 14, headerFontWeight: 600, wrapperBorderRadius: 12
+  });
+  function srcCell(p) {
+    var box = document.createElement("div");
+    p.data.src.forEach(function (x) {
+      var line = document.createElement("div");
+      var a = document.createElement("a"); a.href = x[1]; a.target = "_blank"; a.rel = "noopener"; a.textContent = x[0];
+      var t = document.createElement("span"); t.className = "tag " + (x[2] === O ? "off" : "non"); t.textContent = x[2];
+      line.appendChild(a); line.appendChild(document.createTextNode(" ")); line.appendChild(t); box.appendChild(line);
+    });
+    return box;
+  }
+  var api = agGrid.createGrid(holder, {
+    theme: theme,
+    rowData: rows,
+    defaultColDef: { sortable: true, filter: true, resizable: true },
+    columnDefs: [
+      { field: "continent", headerName: "Continent", width: 170 },
+      { field: "pays", headerName: "Pays", width: 190, pinned: "left" },
+      { field: "rate", headerName: "Taux estimé", width: 140, type: "numericColumn", filter: "agNumberColumnFilter", valueFormatter: function (p) { return p.data.rateText; }, sort: null },
+      { field: "niveau", headerName: "Niveau", width: 230, cellRenderer: function (p) { var s = document.createElement("span"); s.className = "lvlchip " + p.data.lvl; s.textContent = p.value; return s; },
+        comparator: function (a, b, na, nb) { return na.data.rate - nb.data.rate; } },
+      { field: "note", headerName: "Remarques", flex: 2, minWidth: 360, wrapText: true, autoHeight: true },
+      { field: "srcText", headerName: "Sources", flex: 2, minWidth: 340, autoHeight: true, cellRenderer: srcCell, sortable: false },
+      { field: "dir", headerName: "Calcul", width: 110, sortable: false, filter: false,
+        cellRenderer: function (p) { var a = document.createElement("a"); a.href = "https://github.com/elChapoSing/questionnaire-impot-universel/tree/main/pays/" + p.value; a.target = "_blank"; a.rel = "noopener"; a.textContent = "Détail ↗"; return a; } }
+    ],
+    tooltipShowDelay: 400
+  });
+  search.addEventListener("input", function () { api.setGridOption("quickFilterText", search.value); });
+}
+
 function route() {
-  if (location.hash === "#methodologie") renderMethodology(); else { answers = []; renderStart(); }
+  if (location.hash === "#methodologie") renderMethodology();
+  else if (location.hash === "#donnees") renderData();
+  else { answers = []; renderStart(); }
 }
 window.addEventListener("hashchange", route);
 
