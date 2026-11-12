@@ -16,12 +16,15 @@ COMMENT = {
 CAT = {"below": "Potentiellement concerné·e", "debatable": "Cas discutable : à examiner", "above": "Pas concerné·e"}
 SHORT = {"below": "Nettement en dessous du seuil", "debatable": "Discutable", "above": "Nettement au-dessus du seuil"}
 
-NAV = ('<nav class="topnav" aria-label="Navigation principale"><a href="/">Questionnaire</a>'
-       '<a href="/methodologie/">Méthodologie</a><a href="/fiscalite/" aria-current="page">Fiscalité par pays</a></nav>')
-
 def e(s): return html.escape(str(s), quote=True)
 
-def head(title, desc, url, extra=""):
+NAV = [("/", "Questionnaire", "accueil"), ("/methodologie/", "Méthodologie", "methodologie"), ("/donnees/", "Données", "donnees"), ("/fiscalite/", "Fiscalité par pays", "fiscalite")]
+
+def nav(active):
+    a = "".join(f'<a href="{h}"' + (' aria-current="page"' if k == active else "") + f">{l}</a>" for h, l, k in NAV)
+    return f'<nav class="topnav" aria-label="Navigation principale">{a}</nav>'
+
+def head(title, desc, url, extra="", active="fiscalite"):
     return f'''<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -47,7 +50,7 @@ def head(title, desc, url, extra=""):
 {extra}</head>
 <body>
 <div class="brandbar" aria-hidden="true"></div>
-{NAV}
+{nav(active)}
 <main class="app static-page"><section class="screen">
 '''
 
