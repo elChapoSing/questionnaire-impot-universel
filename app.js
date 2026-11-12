@@ -487,14 +487,13 @@ function renderDataNow(gridOk) {
     defaultColDef: { sortable: true, filter: true, resizable: true },
     columnDefs: [
       { field: "continent", headerName: "Continent", width: 170 },
-      { field: "pays", headerName: "Pays", width: 190, pinned: "left" },
+      { field: "pays", headerName: "Pays", width: 190, pinned: "left",
+        cellRenderer: function (p) { var a = document.createElement("a"); a.href = pageUrl({ dir: p.data.dir }); a.target = "_blank"; a.rel = "noopener"; a.textContent = p.value; return a; } },
       { field: "rate", headerName: "Taux estimé", width: 140, type: "numericColumn", filter: "agNumberColumnFilter", valueFormatter: function (p) { return p.data.rateText; }, sort: null },
       { field: "niveau", headerName: "Niveau", width: 230, cellRenderer: function (p) { var s = document.createElement("span"); s.className = "lvlchip " + p.data.lvl; s.textContent = p.value; return s; },
         comparator: function (a, b, na, nb) { return na.data.rate - nb.data.rate; } },
       { field: "note", headerName: "Remarques", flex: 2, minWidth: 360, wrapText: true, autoHeight: true },
-      { field: "srcText", headerName: "Sources", flex: 2, minWidth: 340, autoHeight: true, cellRenderer: srcCell, sortable: false },
-      { field: "dir", headerName: "Calcul", width: 110, sortable: false, filter: false,
-        cellRenderer: function (p) { var a = document.createElement("a"); a.href = "https://github.com/elChapoSing/questionnaire-impot-universel/tree/main/pays/" + p.value; a.target = "_blank"; a.rel = "noopener"; a.textContent = "Détail ↗"; return a; } }
+      { field: "srcText", headerName: "Sources", flex: 2, minWidth: 340, autoHeight: true, cellRenderer: srcCell, sortable: false }
     ],
     tooltipShowDelay: 400
   });
