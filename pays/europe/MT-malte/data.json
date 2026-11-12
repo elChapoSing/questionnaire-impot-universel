@@ -14,5 +14,35 @@
       "url": "https://practiceguides.chambers.com/practice-guides/corporate-tax-2026/malta",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, pas de change",
+    "tranches": [
+      [
+        0,
+        12000,
+        0
+      ],
+      [
+        12000,
+        16000,
+        15
+      ],
+      [
+        16000,
+        60000,
+        25
+      ],
+      [
+        60000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2026 pour une personne seule ; régimes spéciaux de non-domiciliés non modélisés."
+    ]
+  }
 }

@@ -14,5 +14,36 @@
       "url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2025/11/fa25-235.pdf.coredownload.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, pas de change",
+    "tranches": [
+      [
+        0,
+        43983,
+        19
+      ],
+      [
+        43983,
+        60349,
+        25
+      ],
+      [
+        60349,
+        75010,
+        30
+      ],
+      [
+        75010,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Seuils des deux premières tranches approximatifs (source non officielle) ; abattement personnel supposé nul à ce niveau de revenu.",
+      "Cotisations sociales exclues."
+    ]
+  }
 }

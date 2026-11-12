@@ -19,5 +19,31 @@
       "url": "https://www2.deloitte.com/content/dam/Deloitte/global/Documents/Tax/dttl-tax-montenegrohighlights-2024.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, pas de change",
+    "tranches": [
+      [
+        0,
+        8400,
+        0
+      ],
+      [
+        8400,
+        12000,
+        9
+      ],
+      [
+        12000,
+        null,
+        15
+      ]
+    ],
+    "hypotheses": [
+      "Seuils mensuels de 700 et 1 000 € multipliés par 12.",
+      "Surtaxe municipale éventuelle non incluse."
+    ]
+  }
 }

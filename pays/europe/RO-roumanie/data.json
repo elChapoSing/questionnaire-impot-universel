@@ -9,5 +9,20 @@
       "url": "https://www.mfinante.gov.ro/static/10/Mfp/legislatie/cod_fiscal/titlul_3.htm",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "RON",
+    "fx": 5.1,
+    "fx_source": "valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel",
+    "tranches": [
+      [
+        0,
+        null,
+        10
+      ]
+    ],
+    "hypotheses": [
+      "Taux de 10 %, hors cotisations CAS et CASS."
+    ]
+  }
 }

@@ -14,5 +14,30 @@
       "url": "https://www.grantthornton.lt/en/insights/lithuania-2026-tax-reform-overview-of-accepted-drafts-26-06-2025",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, pas de change",
+    "tranches": [
+      [
+        0,
+        83237,
+        20
+      ],
+      [
+        83237,
+        138729,
+        25
+      ],
+      [
+        138729,
+        null,
+        32
+      ]
+    ],
+    "hypotheses": [
+      "Barème en vigueur depuis 2026 ; aucune source officielle lue dans la note."
+    ]
+  }
 }

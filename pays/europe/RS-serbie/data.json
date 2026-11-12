@@ -19,5 +19,37 @@
       "url": "https://www.srbija.gov.rs/tekst/en/130080/income-tax-.php",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "RSD",
+    "fx": 117.2,
+    "fx_source": "hypothèse reprise de la note",
+    "tranches": [
+      [
+        0,
+        410652,
+        0
+      ],
+      [
+        410652,
+        6803604,
+        10
+      ],
+      [
+        6803604,
+        18890484,
+        19
+      ],
+      [
+        18890484,
+        null,
+        23.5
+      ]
+    ],
+    "hypotheses": [
+      "Impôt sur salaire de 10 % après abattement mensuel de 34 221 RSD (410 652 par an).",
+      "Impôt annuel complémentaire sur le revenu net d'impôt de salaire : non imposable 5 439 096 RSD (3 salaires annuels moyens), déduction personnelle 725 213 RSD, puis 10 % jusqu'à 10 878 192 RSD et 15 % au-delà. Les taux de tranche cumulent donc 10 % + 0,9 × 10 % = 19 % puis 10 % + 0,9 × 15 % = 23,5 %.",
+      "Cotisations sociales supposées non déduites de la base de l'impôt annuel (hypothèse qui reproduit le taux retenu) ; seuils 2025."
+    ]
+  }
 }

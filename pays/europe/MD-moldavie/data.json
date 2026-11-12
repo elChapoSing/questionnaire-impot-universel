@@ -14,5 +14,20 @@
       "url": "https://taxsummaries.pwc.com/moldova/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "MDL",
+    "fx": 19.5,
+    "fx_source": "valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel",
+    "tranches": [
+      [
+        0,
+        null,
+        12
+      ]
+    ],
+    "hypotheses": [
+      "Taux unique de 12 % ; l'abattement personnel, réservé aux revenus jusqu'à 360 000 lei, ne joue pas ici."
+    ]
+  }
 }

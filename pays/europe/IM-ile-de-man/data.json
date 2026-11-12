@@ -19,5 +19,26 @@
       "url": "https://kpmg.com/dp/en/home/services/tax/family-office-and-private-client/tax-in-the-isle-of-man.html",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "GBP",
+    "fx": 0.87,
+    "fx_source": "hypothèse reprise de la note",
+    "tranches": [
+      [
+        0,
+        6500,
+        10
+      ],
+      [
+        6500,
+        null,
+        21
+      ]
+    ],
+    "hypotheses": [
+      "2026/27 : abattement de 17 000 £ réduit de 1 £ pour 2 £ au-dessus de 100 000 £, donc nul à ce niveau de revenu ; les tranches partent du premier euro.",
+      "Plafond d'impôt optionnel de 220 000 £ sans effet ici."
+    ]
+  }
 }

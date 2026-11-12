@@ -14,5 +14,31 @@
       "url": "https://taxsummaries.pwc.com/poland/individual/taxes-on-personal-income",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "PLN",
+    "fx": 4.25,
+    "fx_source": "valeur indicative (la note n'en donne pas), à remplacer par le cours Yahoo EURPLN=X",
+    "tranches": [
+      [
+        0,
+        120000,
+        12
+      ],
+      [
+        120000,
+        1000000,
+        32
+      ],
+      [
+        1000000,
+        null,
+        36
+      ]
+    ],
+    "hypotheses": [
+      "12 % jusqu'à 120 000 zlotys, 32 % au-delà, plus contribution de solidarité de 4 % au-delà d'un million (36 % cumulés).",
+      "Montant exonéré (réduction de 3 600 zlotys) et cotisation santé exclus."
+    ]
+  }
 }

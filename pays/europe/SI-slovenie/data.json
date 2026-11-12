@@ -9,5 +9,41 @@
       "url": "https://regfollower.com/slovenia-ministry-of-finance-publishes-2026-personal-income-tax-brackets-allowances/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, pas de change",
+    "tranches": [
+      [
+        0,
+        9721.42,
+        16
+      ],
+      [
+        9721.42,
+        28592.44,
+        26
+      ],
+      [
+        28592.44,
+        57184.88,
+        33
+      ],
+      [
+        57184.88,
+        82346.28,
+        39
+      ],
+      [
+        82346.28,
+        null,
+        50
+      ]
+    ],
+    "hypotheses": [
+      "Barème appliqué au brut sans abattement (allocation générale de 5 552 € exclue).",
+      "En réalité la base est nette des cotisations salariales, ce qui baisserait nettement le taux."
+    ]
+  }
 }

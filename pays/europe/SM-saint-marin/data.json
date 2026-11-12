@@ -18,5 +18,46 @@
       "url": "https://quifinanza.it/fisco-tasse/san-marino-tasse-frontalieri/955568/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, pas de change",
+    "tranches": [
+      [
+        0,
+        10000,
+        9
+      ],
+      [
+        10000,
+        18000,
+        13
+      ],
+      [
+        18000,
+        28000,
+        17
+      ],
+      [
+        28000,
+        50000,
+        21
+      ],
+      [
+        50000,
+        100000,
+        27
+      ],
+      [
+        100000,
+        null,
+        35
+      ]
+    ],
+    "hypotheses": [
+      "Barème IGR d'après Fiscomania, appliqué au brut sans détraction ni déduction des cotisations ; à vérifier sur le texte officiel.",
+      "Une autre source s'arrête à 50 000 € ; la note donne 29,5 % à 29,7 %."
+    ]
+  }
 }

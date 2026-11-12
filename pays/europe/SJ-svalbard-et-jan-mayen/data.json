@@ -13,5 +13,25 @@
       "url": "https://www.skatteetaten.no/en/rates/tax-rates-on-svalbard",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "NOK",
+    "fx": 11.7,
+    "fx_source": "hypothèse reprise de la note",
+    "tranches": [
+      [
+        0,
+        1560000,
+        8
+      ],
+      [
+        1560000,
+        null,
+        22
+      ]
+    ],
+    "hypotheses": [
+      "Seuil de 12 fois le montant de base de l'assurance nationale, supposé à 130 000 NOK (soit 1 560 000 NOK) ; la note donne une fourchette de 13,9 % à 14,4 % selon ce montant."
+    ]
+  }
 }

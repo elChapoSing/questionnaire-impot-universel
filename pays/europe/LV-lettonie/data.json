@@ -14,5 +14,31 @@
       "url": "https://www.fm.gov.lv/en/media/25307/download",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, pas de change",
+    "tranches": [
+      [
+        0,
+        20004,
+        20
+      ],
+      [
+        20004,
+        105300,
+        25.5
+      ],
+      [
+        105300,
+        null,
+        33
+      ]
+    ],
+    "hypotheses": [
+      "Barème 2025-2026 ; l'abattement mensuel de 550 € est nul à ce niveau de revenu.",
+      "La note donne 29,3 % à 29,7 % selon la lecture de la première tranche."
+    ]
+  }
 }

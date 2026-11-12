@@ -14,5 +14,20 @@
       "url": "https://tax.gov.ua/en/mass-media/news/print-999875.html",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "UAH",
+    "fx": 48,
+    "fx_source": "valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel",
+    "tranches": [
+      [
+        0,
+        null,
+        23
+      ]
+    ],
+    "hypotheses": [
+      "18 % d'impôt sur le revenu plus 5 % de contribution militaire, comptés ensemble ; sans la contribution, le taux serait de 18 %."
+    ]
+  }
 }

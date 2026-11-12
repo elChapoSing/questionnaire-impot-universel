@@ -19,5 +19,31 @@
       "url": "https://www.portsighttax.com/en/insights/netherlands-tax-rate-explained",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, pas de change",
+    "tranches": [
+      [
+        0,
+        38883,
+        8.1
+      ],
+      [
+        38883,
+        78426,
+        37.56
+      ],
+      [
+        78426,
+        null,
+        49.5
+      ]
+    ],
+    "hypotheses": [
+      "Case 1, 2026. La première tranche de 35,75 % inclut environ 27,65 points de cotisations sociales : elle est comptée à 8,10 %. Avec les cotisations, le taux serait d'environ 45,3 %.",
+      "Crédits d'impôt exclus (ils s'annulent à ce niveau de revenu)."
+    ]
+  }
 }

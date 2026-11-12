@@ -19,5 +19,20 @@
       "url": "https://eurofast.eu/wp-content/uploads/2026/02/PayrollGuide2026-NorthMacedonia.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "MKD",
+    "fx": 61.5,
+    "fx_source": "valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel",
+    "tranches": [
+      [
+        0,
+        null,
+        10
+      ]
+    ],
+    "hypotheses": [
+      "Impôt forfaitaire de 10 % ; la déduction des cotisations sociales et de l'abattement mensuel fixe n'est pas appliquée : le taux effectif réel est donc au plus de 10 %."
+    ]
+  }
 }

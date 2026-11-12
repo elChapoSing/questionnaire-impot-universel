@@ -9,7 +9,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : RON. Cours supposé : 1 EUR = 5,1 RON (valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel).
+- Salaire converti : 240 300 € × 5,1 = 1 225 530 RON.
+- Base imposable : 1 225 530 RON.
+
+| De (RON) | À (RON) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 10,00 % | 1 225 530 | 122 553 |
+
+- **Impôt total : 122 553 RON, soit 10,0 % du salaire brut.**
+- Hypothèse : Taux de 10 %, hors cotisations CAS et CASS.
 
 ## Note
 

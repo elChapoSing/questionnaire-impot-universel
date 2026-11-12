@@ -43,34 +43,34 @@ Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul t
 | [Géorgie](europe/GE-georgie/README.md) | 20,0 % | Discutable | oui |
 | [Hongrie](europe/HU-hongrie/README.md) | 15,0 % | Nettement en dessous du seuil | oui |
 | [Irlande](europe/IE-irlande/README.md) | 34,7 % | Nettement au-dessus du seuil | oui |
-| [Islande](europe/IS-islande/README.md) | 38,7 % | Nettement au-dessus du seuil | non |
-| [Italie](europe/IT-italie/README.md) | 39,8 % | Nettement au-dessus du seuil | non |
-| [Jersey](europe/JE-jersey/README.md) | 20,0 % | Discutable | non |
-| [Lettonie](europe/LV-lettonie/README.md) | 29,5 % | Nettement au-dessus du seuil | non |
-| [Lituanie](europe/LT-lituanie/README.md) | 26,2 % | Nettement au-dessus du seuil | non |
+| [Islande](europe/IS-islande/README.md) | 38,7 % | Nettement au-dessus du seuil | oui |
+| [Italie](europe/IT-italie/README.md) | 39,8 % | Nettement au-dessus du seuil | oui |
+| [Jersey](europe/JE-jersey/README.md) | 20,0 % | Discutable | oui |
+| [Lettonie](europe/LV-lettonie/README.md) | 29,5 % | Nettement au-dessus du seuil | oui |
+| [Lituanie](europe/LT-lituanie/README.md) | 26,2 % | Nettement au-dessus du seuil | oui |
 | [Luxembourg](europe/LU-luxembourg/README.md) | 38,5 % | Nettement au-dessus du seuil | non |
-| [Macédoine du Nord](europe/MK-macedoine-du-nord/README.md) | 10,0 % | Nettement en dessous du seuil | non |
-| [Malte](europe/MT-malte/README.md) | 31,1 % | Nettement au-dessus du seuil | non |
-| [Moldavie](europe/MD-moldavie/README.md) | 12,0 % | Nettement en dessous du seuil | non |
-| [Monténégro](europe/ME-montenegro/README.md) | 14,4 % | Nettement en dessous du seuil | non |
-| [Norvège](europe/NO-norvege/README.md) | 35,5 % | Nettement au-dessus du seuil | non |
-| [Pays-Bas](europe/NL-pays-bas/README.md) | 40,8 % | Nettement au-dessus du seuil | non |
-| [Pologne](europe/PL-pologne/README.md) | 29,5 % | Nettement au-dessus du seuil | non |
-| [Portugal](europe/PT-portugal/README.md) | 43,3 % | Nettement au-dessus du seuil | non |
-| [Roumanie](europe/RO-roumanie/README.md) | 10,0 % | Nettement en dessous du seuil | non |
+| [Macédoine du Nord](europe/MK-macedoine-du-nord/README.md) | 10,0 % | Nettement en dessous du seuil | oui |
+| [Malte](europe/MT-malte/README.md) | 31,1 % | Nettement au-dessus du seuil | oui |
+| [Moldavie](europe/MD-moldavie/README.md) | 12,0 % | Nettement en dessous du seuil | oui |
+| [Monténégro](europe/ME-montenegro/README.md) | 14,4 % | Nettement en dessous du seuil | oui |
+| [Norvège](europe/NO-norvege/README.md) | 35,5 % | Nettement au-dessus du seuil | oui |
+| [Pays-Bas](europe/NL-pays-bas/README.md) | 40,8 % | Nettement au-dessus du seuil | oui |
+| [Pologne](europe/PL-pologne/README.md) | 29,5 % | Nettement au-dessus du seuil | oui |
+| [Portugal](europe/PT-portugal/README.md) | 43,3 % | Nettement au-dessus du seuil | oui |
+| [Roumanie](europe/RO-roumanie/README.md) | 10,0 % | Nettement en dessous du seuil | oui |
 | [Royaume-Uni](europe/GB-royaume-uni/README.md) | 38,4 % | Nettement au-dessus du seuil | oui |
-| [Russie](europe/RU-russie/README.md) | 17,4 % | Nettement en dessous du seuil | non |
-| [Saint-Marin](europe/SM-saint-marin/README.md) | 29,6 % | Nettement au-dessus du seuil | non |
-| [Serbie](europe/RS-serbie/README.md) | 18,2 % | Discutable | non |
-| [Slovaquie](europe/SK-slovaquie/README.md) | 31,1 % | Nettement au-dessus du seuil | non |
-| [Slovénie](europe/SI-slovenie/README.md) | 43,6 % | Nettement au-dessus du seuil | non |
+| [Russie](europe/RU-russie/README.md) | 17,4 % | Nettement en dessous du seuil | oui |
+| [Saint-Marin](europe/SM-saint-marin/README.md) | 29,6 % | Nettement au-dessus du seuil | oui |
+| [Serbie](europe/RS-serbie/README.md) | 18,2 % | Discutable | oui |
+| [Slovaquie](europe/SK-slovaquie/README.md) | 31,1 % | Nettement au-dessus du seuil | oui |
+| [Slovénie](europe/SI-slovenie/README.md) | 43,6 % | Nettement au-dessus du seuil | oui |
 | [Suisse](europe/CH-suisse/README.md) | 25,0 % | Discutable | oui |
 | [Suède](europe/SE-suede/README.md) | 47,5 % | Nettement au-dessus du seuil | oui |
-| [Svalbard et Jan Mayen](europe/SJ-svalbard-et-jan-mayen/README.md) | 14,2 % | Nettement en dessous du seuil | non |
+| [Svalbard et Jan Mayen](europe/SJ-svalbard-et-jan-mayen/README.md) | 14,2 % | Nettement en dessous du seuil | oui |
 | [Tchéquie](europe/CZ-tchequie/README.md) | 20,6 % | Discutable | oui |
-| [Ukraine](europe/UA-ukraine/README.md) | 23,0 % | Discutable | non |
-| [État de la Cité du Vatican](europe/VA-etat-de-la-cite-du-vatican/README.md) | 0,0 % | Nettement en dessous du seuil | non |
-| [Île de Man](europe/IM-ile-de-man/README.md) | 20,7 % | Discutable | non |
+| [Ukraine](europe/UA-ukraine/README.md) | 23,0 % | Discutable | oui |
+| [État de la Cité du Vatican](europe/VA-etat-de-la-cite-du-vatican/README.md) | 0,0 % | Nettement en dessous du seuil | oui |
+| [Île de Man](europe/IM-ile-de-man/README.md) | 20,7 % | Discutable | oui |
 | [Îles Féroé](europe/FO-iles-feroe/README.md) | 44,5 % | Nettement au-dessus du seuil | oui |
 | [Îles Åland](europe/AX-iles-aland/README.md) | 39,0 % | Nettement au-dessus du seuil | oui |
 

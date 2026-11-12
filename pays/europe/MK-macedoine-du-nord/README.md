@@ -9,7 +9,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : MKD. Cours supposé : 1 EUR = 61,5 MKD (valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel).
+- Salaire converti : 240 300 € × 61,5 = 14 778 450 MKD.
+- Base imposable : 14 778 450 MKD.
+
+| De (MKD) | À (MKD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 10,00 % | 14 778 450 | 1 477 845 |
+
+- **Impôt total : 1 477 845 MKD, soit 10,0 % du salaire brut.**
+- Hypothèse : Impôt forfaitaire de 10 % ; la déduction des cotisations sociales et de l'abattement mensuel fixe n'est pas appliquée : le taux effectif réel est donc au plus de 10 %.
 
 ## Note
 

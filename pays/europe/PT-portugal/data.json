@@ -19,5 +19,61 @@
       "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/pt-pt/services/tax/documents/tax-alert-oe-2026.pdf",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, pas de change",
+    "tranches": [
+      [
+        0,
+        8342,
+        12.2
+      ],
+      [
+        8342,
+        12587,
+        15.2
+      ],
+      [
+        12587,
+        17838,
+        20.7
+      ],
+      [
+        17838,
+        23089,
+        23.6
+      ],
+      [
+        23089,
+        29397,
+        30.6
+      ],
+      [
+        29397,
+        43090,
+        34.6
+      ],
+      [
+        43090,
+        46566,
+        43.1
+      ],
+      [
+        46566,
+        86634,
+        44.6
+      ],
+      [
+        86634,
+        null,
+        48
+      ]
+    ],
+    "hypotheses": [
+      "Taux normaux du barème IRS 2026 appliqués tranche par tranche (la méthode légale par taux moyen du dernier palier donne un résultat voisin).",
+      "Surtaxe de solidarité (2,5 % entre 80 000 et 250 000 €) non incluse ; avec elle, environ 44,9 %."
+    ]
+  }
 }

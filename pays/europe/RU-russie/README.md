@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : RUB. Cours supposé : 1 EUR = 95 RUB (hypothèse reprise de la note).
+- Salaire converti : 240 300 € × 95 = 22 828 500 RUB.
+- Base imposable : 22 828 500 RUB.
+
+| De (RUB) | À (RUB) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 2 400 000 | 13,00 % | 2 400 000 | 312 000 |
+| 2 400 000 | 5 000 000 | 15,00 % | 2 600 000 | 390 000 |
+| 5 000 000 | 20 000 000 | 18,00 % | 15 000 000 | 2 700 000 |
+| 20 000 000 | 50 000 000 | 20,00 % | 2 828 500 | 565 700 |
+| 50 000 000 | et plus | 22,00 % | 0 | 0 |
+
+- **Impôt total : 3 967 700 RUB, soit 17,4 % du salaire brut.**
+- Hypothèse : Barème progressif 13/15/18/20/22 % avec seuils de 2,4, 5, 20 et 50 millions de roubles.
+- Hypothèse : Verdict inchangé pour un cours de 70 à 130 roubles.
 
 ## Note
 

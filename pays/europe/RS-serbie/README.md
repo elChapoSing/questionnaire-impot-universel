@@ -9,7 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : RSD. Cours supposé : 1 EUR = 117,2 RSD (hypothèse reprise de la note).
+- Salaire converti : 240 300 € × 117,2 = 28 163 160 RSD.
+- Base imposable : 28 163 160 RSD.
+
+| De (RSD) | À (RSD) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 410 652 | 0,00 % | 410 652 | 0 |
+| 410 652 | 6 803 604 | 10,00 % | 6 392 952 | 639 295 |
+| 6 803 604 | 18 890 484 | 19,00 % | 12 086 880 | 2 296 507 |
+| 18 890 484 | et plus | 23,50 % | 9 272 676 | 2 179 079 |
+
+- **Impôt total : 5 114 881 RSD, soit 18,2 % du salaire brut.**
+- Hypothèse : Impôt sur salaire de 10 % après abattement mensuel de 34 221 RSD (410 652 par an).
+- Hypothèse : Impôt annuel complémentaire sur le revenu net d'impôt de salaire : non imposable 5 439 096 RSD (3 salaires annuels moyens), déduction personnelle 725 213 RSD, puis 10 % jusqu'à 10 878 192 RSD et 15 % au-delà. Les taux de tranche cumulent donc 10 % + 0,9 × 10 % = 19 % puis 10 % + 0,9 × 15 % = 23,5 %.
+- Hypothèse : Cotisations sociales supposées non déduites de la base de l'impôt annuel (hypothèse qui reproduit le taux retenu) ; seuils 2025.
 
 ## Note
 

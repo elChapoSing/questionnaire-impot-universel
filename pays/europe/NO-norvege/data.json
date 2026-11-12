@@ -14,5 +14,46 @@
       "url": "https://workingwithnorwegians.com/norway-tax-system-explained",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "NOK",
+    "fx": 11.7,
+    "fx_source": "hypothèse reprise de la note",
+    "tranches": [
+      [
+        0,
+        226100,
+        22
+      ],
+      [
+        226100,
+        318300,
+        23.7
+      ],
+      [
+        318300,
+        725050,
+        26
+      ],
+      [
+        725050,
+        980100,
+        35.7
+      ],
+      [
+        980100,
+        1467200,
+        38.8
+      ],
+      [
+        1467200,
+        null,
+        39.8
+      ]
+    ],
+    "hypotheses": [
+      "Taux cumulés : impôt ordinaire de 22 % plus impôt par paliers (trinnskatt) de 1,7 %, 4,0 %, 13,7 %, 16,8 % et 17,8 % à partir de 226 100, 318 300, 725 050, 980 100 et 1 467 200 NOK (2026, PwC).",
+      "Sans cotisation d'assurance nationale ni abattements (minstefradrag, etc.)."
+    ]
+  }
 }

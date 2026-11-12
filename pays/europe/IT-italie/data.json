@@ -19,5 +19,32 @@
       "url": "https://www.fiscozen.it/guide/quanto-si-risparmia-con-le-nuove-aliquote-irpef/",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, pas de change",
+    "tranches": [
+      [
+        0,
+        28000,
+        23
+      ],
+      [
+        28000,
+        50000,
+        33
+      ],
+      [
+        50000,
+        null,
+        43
+      ]
+    ],
+    "hypotheses": [
+      "IRPEF 2026 (loi de finances 2026), sans déductions ni détractions.",
+      "Taxes additionnelles régionales et communales (environ 1,9 à 3,3 points) non incluses.",
+      "Régime forfaitaire exclu."
+    ]
+  }
 }

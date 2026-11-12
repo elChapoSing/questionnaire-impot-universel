@@ -9,7 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : ISK. Cours supposé : 1 EUR = 145 ISK (hypothèse reprise de la note).
+- Salaire converti : 240 300 € × 145 = 34 843 500 ISK.
+- Base imposable : 34 843 500 ISK.
+
+| De (ISK) | À (ISK) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 5 977 464 | 31,49 % | 5 977 464 | 1 882 303 |
+| 5 977 464 | 16 781 400 | 37,99 % | 10 803 936 | 4 104 415 |
+| 16 781 400 | et plus | 46,29 % | 18 062 100 | 8 360 946 |
+
+- Crédit : crédit d'impôt personnel : − 869 898 ISK.
+- **Impôt total : 13 477 767 ISK, soit 38,7 % du salaire brut.**
+- Hypothèse : Taux cumulés impôt d'État et impôt communal moyen, 2026.
+- Hypothèse : Cotisations de retraite et déductions exclues.
 
 ## Note
 

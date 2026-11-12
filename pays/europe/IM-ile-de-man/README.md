@@ -9,7 +9,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : GBP. Cours supposé : 1 EUR = 0,87 GBP (hypothèse reprise de la note).
+- Salaire converti : 240 300 € × 0,87 = 209 061 GBP.
+- Base imposable : 209 061 GBP.
+
+| De (GBP) | À (GBP) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 6 500 | 10,00 % | 6 500 | 650 |
+| 6 500 | et plus | 21,00 % | 202 561 | 42 538 |
+
+- **Impôt total : 43 188 GBP, soit 20,7 % du salaire brut.**
+- Hypothèse : 2026/27 : abattement de 17 000 £ réduit de 1 £ pour 2 £ au-dessus de 100 000 £, donc nul à ce niveau de revenu ; les tranches partent du premier euro.
+- Hypothèse : Plafond d'impôt optionnel de 220 000 £ sans effet ici.
 
 ## Note
 

@@ -9,7 +9,25 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : EUR. Cours supposé : 1 EUR = 1 EUR (pays en euro, pas de change).
+- Salaire converti : 240 300 € × 1 = 240 300 EUR.
+- Base imposable : 240 300 EUR.
+
+| De (EUR) | À (EUR) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 8 342 | 12,20 % | 8 342 | 1 018 |
+| 8 342 | 12 587 | 15,20 % | 4 245 | 645 |
+| 12 587 | 17 838 | 20,70 % | 5 251 | 1 087 |
+| 17 838 | 23 089 | 23,60 % | 5 251 | 1 239 |
+| 23 089 | 29 397 | 30,60 % | 6 308 | 1 930 |
+| 29 397 | 43 090 | 34,60 % | 13 693 | 4 738 |
+| 43 090 | 46 566 | 43,10 % | 3 476 | 1 498 |
+| 46 566 | 86 634 | 44,60 % | 40 068 | 17 870 |
+| 86 634 | et plus | 48,00 % | 153 666 | 73 760 |
+
+- **Impôt total : 103 785 EUR, soit 43,2 % du salaire brut.**
+- Hypothèse : Taux normaux du barème IRS 2026 appliqués tranche par tranche (la méthode légale par taux moyen du dernier palier donne un résultat voisin).
+- Hypothèse : Surtaxe de solidarité (2,5 % entre 80 000 et 250 000 €) non incluse ; avec elle, environ 44,9 %.
 
 ## Note
 

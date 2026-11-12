@@ -19,5 +19,21 @@
       "url": "https://kpmg.com/dp/en/services/tax/family-office-private-client/tax-in-jersey.html",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "GBP",
+    "fx": 0.87,
+    "fx_source": "hypothèse reprise de la note",
+    "tranches": [
+      [
+        0,
+        null,
+        20
+      ]
+    ],
+    "hypotheses": [
+      "Taux standard de 20 % sur l'ensemble du revenu (maximum de l'impôt sur le revenu à Jersey).",
+      "Contribution dépendance exclue."
+    ]
+  }
 }

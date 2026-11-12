@@ -9,5 +9,20 @@
       "url": "https://rivermate.com/guides/holy-see/taxes",
       "type": "non officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "EUR",
+    "fx": 1,
+    "fx_source": "pays en euro, pas de change",
+    "tranches": [
+      [
+        0,
+        null,
+        0
+      ]
+    ],
+    "hypotheses": [
+      "Les salariés du Saint-Siège et de l'État de la Cité du Vatican ne paient pas d'impôt sur le revenu ; seules des retenues sociales existent (exclues)."
+    ]
+  }
 }

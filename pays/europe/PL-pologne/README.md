@@ -9,7 +9,19 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : PLN. Cours supposé : 1 EUR = 4,25 PLN (valeur indicative (la note n'en donne pas), à remplacer par le cours Yahoo EURPLN=X).
+- Salaire converti : 240 300 € × 4,25 = 1 021 275 PLN.
+- Base imposable : 1 021 275 PLN.
+
+| De (PLN) | À (PLN) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 120 000 | 12,00 % | 120 000 | 14 400 |
+| 120 000 | 1 000 000 | 32,00 % | 880 000 | 281 600 |
+| 1 000 000 | et plus | 36,00 % | 21 275 | 7 659 |
+
+- **Impôt total : 303 659 PLN, soit 29,7 % du salaire brut.**
+- Hypothèse : 12 % jusqu'à 120 000 zlotys, 32 % au-delà, plus contribution de solidarité de 4 % au-delà d'un million (36 % cumulés).
+- Hypothèse : Montant exonéré (réduction de 3 600 zlotys) et cotisation santé exclus.
 
 ## Note
 

@@ -14,5 +14,37 @@
       "url": "https://www.skatturinn.is/english/individuals/key-rates-and-amounts/2026/key-rates-and-amounts-2026",
       "type": "officielle"
     }
-  ]
+  ],
+  "calc": {
+    "devise": "ISK",
+    "fx": 145,
+    "fx_source": "hypothèse reprise de la note",
+    "tranches": [
+      [
+        0,
+        5977464,
+        31.49
+      ],
+      [
+        5977464,
+        16781400,
+        37.99
+      ],
+      [
+        16781400,
+        null,
+        46.29
+      ]
+    ],
+    "credits": [
+      [
+        "crédit d'impôt personnel",
+        869898
+      ]
+    ],
+    "hypotheses": [
+      "Taux cumulés impôt d'État et impôt communal moyen, 2026.",
+      "Cotisations de retraite et déductions exclues."
+    ]
+  }
 }

@@ -9,7 +9,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : GBP. Cours supposé : 1 EUR = 0,87 GBP (hypothèse reprise de la note).
+- Salaire converti : 240 300 € × 0,87 = 209 061 GBP.
+- Base imposable : 209 061 GBP.
+
+| De (GBP) | À (GBP) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | et plus | 20,00 % | 209 061 | 41 812 |
+
+- **Impôt total : 41 812 GBP, soit 20,0 % du salaire brut.**
+- Hypothèse : Taux standard de 20 % sur l'ensemble du revenu (maximum de l'impôt sur le revenu à Jersey).
+- Hypothèse : Contribution dépendance exclue.
 
 ## Note
 

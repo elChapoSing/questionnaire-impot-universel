@@ -9,7 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-_Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci-dessous est résumé dans la note ; pour le détailler, ajoutez un bloc `calc` dans `data.json` (voir `pays/README.md`).
+- Devise : NOK. Cours supposé : 1 EUR = 11,7 NOK (hypothèse reprise de la note).
+- Salaire converti : 240 300 € × 11,7 = 2 811 510 NOK.
+- Base imposable : 2 811 510 NOK.
+
+| De (NOK) | À (NOK) | Taux | Part imposée | Impôt |
+|---:|---:|---:|---:|---:|
+| 0 | 226 100 | 22,00 % | 226 100 | 49 742 |
+| 226 100 | 318 300 | 23,70 % | 92 200 | 21 851 |
+| 318 300 | 725 050 | 26,00 % | 406 750 | 105 755 |
+| 725 050 | 980 100 | 35,70 % | 255 050 | 91 053 |
+| 980 100 | 1 467 200 | 38,80 % | 487 100 | 188 995 |
+| 1 467 200 | et plus | 39,80 % | 1 344 310 | 535 035 |
+
+- **Impôt total : 992 431 NOK, soit 35,3 % du salaire brut.**
+- Hypothèse : Taux cumulés : impôt ordinaire de 22 % plus impôt par paliers (trinnskatt) de 1,7 %, 4,0 %, 13,7 %, 16,8 % et 17,8 % à partir de 226 100, 318 300, 725 050, 980 100 et 1 467 200 NOK (2026, PwC).
+- Hypothèse : Sans cotisation d'assurance nationale ni abattements (minstefradrag, etc.).
 
 ## Note
 
