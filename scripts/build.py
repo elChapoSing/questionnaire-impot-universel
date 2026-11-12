@@ -2,6 +2,7 @@
 """Source de vérité : pays/<continent>/<CODE>-<nom>/data.json.
 Usage :
   python3 scripts/build.py migrate   # une fois : crée pays/ à partir de COUNTRY_DATA (index.html)
+  python3 scripts/build.py import lot.txt  # importe un lot d'entrées JS puis régénère
   python3 scripts/build.py           # régénère les README pays, pays/README.md et COUNTRY_DATA dans index.html
 """
 import json, os, re, subprocess, sys, unicodedata, glob
@@ -117,6 +118,20 @@ def migrate():
         json.dump(d, open(os.path.join(p, "data.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(len(j["D"]), "pays migrés")
 
+def import_lot(path):
+    out = subprocess.check_output(["node", os.path.join(ROOT, "scripts", "import_lot.js"), path])
+    j = json.loads(out)
+    for code, v in j["D"].items():
+        if code not in CONT:
+            print("continent inconnu :", code); continue
+        d = {"code": code, "nom": j["names"][code], "rate": v["rate"]}
+        if v.get("range"): d["range"] = v["range"]
+        d["note"] = v["note"]
+        d["sources"] = [{"titre": a, "url": b, "type": t} for a, b, t in v["src"]]
+        p = path_of(d); os.makedirs(p, exist_ok=True)
+        json.dump(d, open(os.path.join(p, "data.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    print(len(j["D"]), "pays importés depuis", path)
+
 def build():
     ds = load()
     for d in ds:
@@ -146,4 +161,7 @@ def build():
     print(len(ds), "pays générés")
 
 if __name__ == "__main__":
-    migrate() if len(sys.argv) > 1 and sys.argv[1] == "migrate" else build()
+    a = sys.argv[1:2]
+    if a == ["migrate"]: migrate()
+    elif a == ["import"]: import_lot(sys.argv[2]); build()
+    else: build()
