@@ -2,7 +2,7 @@
   "code": "PE",
   "nom": "Pérou",
   "rate": 25.8,
-  "note": "Cours Yahoo EURPEN=X du 13/11/2026 : 1 EUR = 3.7821 PEN (hypothèse initiale : 3.8). Taux recalculé : 25,8 % (avant : 25,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème de l'article 53 : 8 % jusqu'à 5 UIT, 14 % jusqu'à 20, 17 % jusqu'à 35, 20 % jusqu'à 45, 30 % au-delà (UIT 2026 : 5 500 soles). De 25,4 % à 26,3 % sans déduction ; de 23,9 % à 25,1 % avec la déduction de 7 UIT. Change supposé : 3,8 soles pour 1 €. Une source donne une UIT différente (5 350 soles).",
+  "note": "Barème de l'article 53 : 8 % jusqu'à 5 UIT, 14 % jusqu'à 20, 17 % jusqu'à 35, 20 % jusqu'à 45, 30 % au-delà (UIT 2026 : 5 500 soles). De 25,4 % à 26,3 % sans déduction ; de 23,9 % à 25,1 % avec la déduction de 7 UIT. Une source donne une UIT différente (5 350 soles).",
   "sources": [
     {
       "titre": "SUNAT, questions fréquentes sur l'impôt sur le revenu (tranches de 8 % à 30 %)",

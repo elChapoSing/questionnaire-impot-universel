@@ -29,7 +29,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Six tranches de 0 à 25 % après un abattement de 20 % (plafonné à 10 millions de kyats). À ce revenu, le taux effectif est de 23 % à 24 % quel que soit le change, très volatil. Barème confirmé par des sources privées uniquement.
+Six tranches de 0 à 25 % après un abattement de 20 % (plafonné à 10 millions de kyats). À ce revenu, le taux effectif est de 23 % à 24 %. Barème confirmé par des sources privées uniquement.
 
 ## Sources
 

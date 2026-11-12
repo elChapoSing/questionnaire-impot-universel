@@ -26,7 +26,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURIQD=X du 13/11/2026 : 1 EUR = 1681.6 IQD (hypothèse initiale : 1500). Taux recalculé : 15,0 % (avant : 15 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème salarial : 3 %, 5 %, 10 % puis 15 % au-delà de 1 M IQD par an. Hypothèse : 1 EUR = 1 500 IQD. Région du Kurdistan : 5 % forfaitaire. Abattements personnels exclus.
+Barème salarial : 3 %, 5 %, 10 % puis 15 % au-delà de 1 M IQD par an. Région du Kurdistan : 5 % forfaitaire. Abattements personnels exclus.
 
 ## Sources
 

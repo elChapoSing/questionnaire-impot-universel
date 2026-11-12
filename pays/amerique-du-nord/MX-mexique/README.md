@@ -33,7 +33,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURMXN=X du 13/11/2026 : 1 EUR = 20.59075 MXN (hypothèse initiale : 20.75). Taux recalculé : 31,6 % (avant : 31,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème annuel 2026 (articles 96 et 152 de la loi sur l'impôt sur le revenu) : de 1,92 % à 35 %, le taux de 35 % commençant à environ 4,5 millions de pesos. Résultat de 31,4 % à 31,8 % pour 19,5 à 22 pesos pour 1 €. Aucune déduction personnelle. Source officielle non lue (texte de l'Annexe 8, via des relais privés).
+Barème annuel 2026 (articles 96 et 152 de la loi sur l'impôt sur le revenu) : de 1,92 % à 35 %, le taux de 35 % commençant à environ 4,5 millions de pesos. Aucune déduction personnelle. Source officielle non lue (texte de l'Annexe 8, via des relais privés).
 
 ## Sources
 

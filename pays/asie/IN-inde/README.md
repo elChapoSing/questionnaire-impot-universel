@@ -30,7 +30,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURINR=X du 13/11/2026 : 1 EUR = 104.071 INR (hypothèse initiale : 105). Taux recalculé : 36,9 % (avant : 36,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Nouveau régime : tranche de 30 %, majoration de 25 % au-delà de 2 crores de roupies, cess de 4 %. Taux de change BCE du 27 juillet 2026.
+Nouveau régime : tranche de 30 %, majoration de 25 % au-delà de 2 crores de roupies, cess de 4 %.
 
 ## Sources
 

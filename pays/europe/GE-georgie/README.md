@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURGEL=X du 13/11/2026 : 1 EUR = 2.903633 GEL (hypothèse initiale : 3.1). Taux recalculé : 20,0 % (avant : 20 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux de 20 %, juste sous le seuil de 21,1 %.
+Taux de 20 %, juste sous le seuil de 21,1 %.
 
 ## Sources
 

@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURGBP=X du 13/11/2026 : 1 EUR = 0.83588 GBP (hypothèse initiale : 0.87). Taux recalculé : 25,0 % (avant : 25 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Gibraltar propose deux systèmes et applique le plus favorable. Pour un revenu élevé, le barème sur revenu brut donne un taux effectif d'environ 25 %, plafond indiqué par PwC (change supposé : 0,87 £ pour 1 €, taux quasi insensible au change). Sans abattements ni déductions.
+Gibraltar propose deux systèmes et applique le plus favorable. Pour un revenu élevé, le barème sur revenu brut donne un taux effectif d'environ 25 %, plafond indiqué par PwC. Sans abattements ni déductions.
 
 ## Sources
 

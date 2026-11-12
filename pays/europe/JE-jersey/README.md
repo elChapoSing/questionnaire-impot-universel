@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURGBP=X du 13/11/2026 : 1 EUR = 0.83588 GBP (hypothèse initiale : 0.87). Taux recalculé : 20,0 % (avant : 20 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux standard de 20 % sur l'ensemble du revenu, maximum de l'impôt sur le revenu à Jersey. Le calcul « marginal » (26 % au-delà d'un seuil d'exemption) ne profite qu'aux revenus modestes. Taux effectif de 20 % à 240 300 € (le change £/€ ne change rien). Contribution dépendance (long-term care) exclue.
+Taux standard de 20 % sur l'ensemble du revenu, maximum de l'impôt sur le revenu à Jersey. Le calcul « marginal » (26 % au-delà d'un seuil d'exemption) ne profite qu'aux revenus modestes. Taux effectif de 20 % à 240 300 €. Contribution dépendance (long-term care) exclue.
 
 ## Sources
 

@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURHKD=X du 13/11/2026 : 1 EUR = 8.679765 HKD (hypothèse initiale : 8.9). Taux recalculé : 15,0 % (avant : 15 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt sur les salaires plafonné au taux « standard » de 15 %.
+Impôt sur les salaires plafonné au taux « standard » de 15 %.
 
 ## Sources
 

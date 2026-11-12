@@ -22,7 +22,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURUAH=X du 13/11/2026 : 1 EUR = 50.4053 UAH (hypothèse initiale : 48). Taux recalculé : 23,0 % (avant : 23 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 18 % d'impôt sur le revenu et 5 % de contribution militaire, comptés ensemble. Sans la contribution, le taux serait de 18 %.
+18 % d'impôt sur le revenu et 5 % de contribution militaire, comptés ensemble. Sans la contribution, le taux serait de 18 %.
 
 ## Sources
 

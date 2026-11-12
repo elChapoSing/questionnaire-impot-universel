@@ -2,7 +2,7 @@
   "code": "MY",
   "nom": "Malaisie",
   "rate": 25.0,
-  "note": "Cours Yahoo EURMYR=X du 13/11/2026 : 1 EUR = 4.524 MYR (hypothèse initiale : 4.8). Taux recalculé : 25,0 % (avant : 25,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif jusqu'à 30 % au-delà de 2 millions de ringgit.",
+  "note": "Barème progressif jusqu'à 30 % au-delà de 2 millions de ringgit.",
   "sources": [
     {
       "titre": "LHDN, taux de l'impôt (YA 2023-2025)",

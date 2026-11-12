@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-ITS : barème mensuel à 5 tranches, taux maximal 30 % au-delà de 500 000 XOF/mois (art. 125 CGI 2024). Change : XOF fixe, 655,957 par EUR.
+ITS : barème mensuel à 5 tranches, taux maximal 30 % au-delà de 500 000 XOF/mois (art. 125 CGI 2024).
 
 ## Sources
 

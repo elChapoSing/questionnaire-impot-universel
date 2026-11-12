@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURTTD=X du 13/11/2026 : 1 EUR = 7.535 TTD (hypothèse initiale : 7.8). Taux recalculé : 27,2 % (avant : 27,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 25 % jusqu'à 1 M TTD puis 30 %. Abattement personnel de 90 000 TTD non appliqué (variante : environ 25,9 à 26,1 %). Hypothèse change : 1 EUR = 7,8 TTD (6,79 par USD), soit environ 1,88 M TTD. Cas proche de la bande selon l'abattement.
+25 % jusqu'à 1 M TTD puis 30 %. Abattement personnel de 90 000 TTD non appliqué (variante : environ 25,9 à 26,1 %). Cas proche de la bande selon l'abattement.
 
 ## Sources
 

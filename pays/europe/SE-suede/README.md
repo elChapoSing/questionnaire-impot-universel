@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURSEK=X du 13/11/2026 : 1 EUR = 11.08006 SEK (hypothèse initiale : 11). Taux recalculé : 47,5 % (avant : 47,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Suède 2026 : impôt communal moyen 32,38 % sur tout le revenu imposable, plus 20 % d'impôt d'État au-delà de 643 000 SEK. Calcul à 11 SEK/EUR (hypothèse, cours à confirmer), sans abattements : environ 47,5 %.
+Suède 2026 : impôt communal moyen 32,38 % sur tout le revenu imposable, plus 20 % d'impôt d'État au-delà de 643 000 SEK. Sans abattements : environ 47,5 %.
 
 ## Sources
 

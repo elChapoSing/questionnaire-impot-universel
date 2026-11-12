@@ -26,7 +26,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURHNL=X du 13/11/2026 : 1 EUR = 29.828 HNL (hypothèse initiale : 30.2). Taux recalculé : 23,7 % (avant : 23,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Table progressive 2026 (SAR) : exonéré jusqu'à 228 324 HNL, puis 15 %, 20 % et 25 % au-delà de 809 661. Hypothèse change : 1 EUR = 30,2 HNL (26,3 par USD), soit environ 7,27 M HNL. Déduction médicale de 40 000 non appliquée.
+Table progressive 2026 (SAR) : exonéré jusqu'à 228 324 HNL, puis 15 %, 20 % et 25 % au-delà de 809 661. Déduction médicale de 40 000 non appliquée.
 
 ## Sources
 

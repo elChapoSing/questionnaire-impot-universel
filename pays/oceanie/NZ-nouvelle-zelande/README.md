@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURNZD=X du 13/11/2026 : 1 EUR = 1.994165 NZD (hypothèse initiale : 1.95). Taux recalculé : 34,7 % (avant : 34,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux de 39 % au-delà de 180 000 NZD.
+Taux de 39 % au-delà de 180 000 NZD.
 
 ## Sources
 

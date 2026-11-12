@@ -24,7 +24,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURJMD=X du 13/11/2026 : 1 EUR = 175.72 JMD (hypothèse initiale : 182). Taux recalculé : 29,3 % (avant : 29,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 25 % jusqu'à 6 M JMD puis 30 % (résidents). Seuil annuel exonéré d'environ 1,9 M JMD non appliqué (variante : environ 28,0 %). Hypothèse change : 1 EUR = 182 JMD (158 par USD), soit environ 43,7 M JMD. Cotisations NIS, NHT et taxe d'éducation exclues.
+25 % jusqu'à 6 M JMD puis 30 % (résidents). Seuil annuel exonéré d'environ 1,9 M JMD non appliqué (variante : environ 28,0 %). Cotisations NIS, NHT et taxe d'éducation exclues.
 
 ## Sources
 

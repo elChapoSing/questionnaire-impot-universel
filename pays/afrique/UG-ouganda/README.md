@@ -26,7 +26,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURUGX=X du 13/11/2026 : 1 EUR = 4565.0 UGX (hypothèse initiale : 4200). Taux recalculé : 38,8 % (avant : 38,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème annuel résident, taux maximal 40 % au-delà de 120 M UGX. Change (hypothèse) : 1 EUR = 4 200 UGX.
+Barème annuel résident, taux maximal 40 % au-delà de 120 M UGX.
 
 ## Sources
 

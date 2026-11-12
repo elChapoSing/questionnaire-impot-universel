@@ -29,7 +29,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURGNF=X du 13/11/2026 : 1 EUR = 9828.0 GNF (hypothèse initiale : 12100). Taux recalculé : 34,4 % (avant : 34,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Source unique non officielle : ITS annuel à 7 tranches, taux maximal 35 % au-delà de 100 M GNF. Change (hypothèse) : 1 EUR = 12 100 GNF.
+Source unique non officielle : ITS annuel à 7 tranches, taux maximal 35 % au-delà de 100 M GNF.
 
 ## Sources
 

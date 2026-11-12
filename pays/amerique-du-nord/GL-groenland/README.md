@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURDKK=X du 13/11/2026 : 1 EUR = 7.47543 DKK (hypothèse initiale : 7.46). Taux recalculé : 43,0 % (avant : 43 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt proportionnel : communal 26 à 28 %, national 10 % et commun 6 %, soit 42 à 44 % selon la commune (hors zones communales : 36 %). Pourcentages cités comme ceux de 2020 par PwC, à vérifier. Régime spécial de 35 % pour certains travaux pétroliers ou miniers.
+Impôt proportionnel : communal 26 à 28 %, national 10 % et commun 6 %, soit 42 à 44 % selon la commune (hors zones communales : 36 %). Pourcentages cités comme ceux de 2020 par PwC, à vérifier. Régime spécial de 35 % pour certains travaux pétroliers ou miniers.
 
 ## Sources
 

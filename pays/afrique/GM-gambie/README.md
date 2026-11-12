@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURGMD=X du 13/11/2026 : 1 EUR = 82.62156 GMD (hypothèse initiale : 82). Taux recalculé : 24,9 % (avant : 24,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2025 à taux maximal 25 % au-delà de 76 000 GMD ; une source (TaxAtlas) indique 30 % maximal, donc fourchette. Change (hypothèse) : 1 EUR = 82 GMD.
+Barème 2025 à taux maximal 25 % au-delà de 76 000 GMD ; une source (TaxAtlas) indique 30 % maximal, donc fourchette.
 
 ## Sources
 

@@ -25,7 +25,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURRWF=X du 13/11/2026 : 1 EUR = 1638.6 RWF (hypothèse initiale : 1700). Taux recalculé : 29,9 % (avant : 29,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème supposé mensuel (PwC ne précise pas la période) : taux maximal 30 % au-delà de 200 000 RWF/mois. Change (hypothèse) : 1 EUR = 1 700 RWF.
+Barème supposé mensuel (PwC ne précise pas la période) : taux maximal 30 % au-delà de 200 000 RWF/mois.
 
 ## Sources
 

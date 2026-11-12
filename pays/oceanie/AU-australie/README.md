@@ -28,7 +28,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURAUD=X du 13/11/2026 : 1 EUR = 1.62489 AUD (hypothèse initiale : 1.62). Taux recalculé : 38,3 % (avant : 38,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Tranche de 45 % plus 2 % de Medicare.
+Tranche de 45 % plus 2 % de Medicare.
 
 ## Sources
 

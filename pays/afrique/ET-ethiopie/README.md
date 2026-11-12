@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURETB=X du 13/11/2026 : 1 EUR = 181.1191 ETB (hypothèse initiale : 175). Taux recalculé : 34,9 % (avant : 34,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt sur revenu d'emploi : barème mensuel, taux maximal 35 % au-delà de 14 000 ETB/mois. Change (hypothèse) : 1 EUR = 175 ETB ; sans effet notable.
+Impôt sur revenu d'emploi : barème mensuel, taux maximal 35 % au-delà de 14 000 ETB/mois.
 
 ## Sources
 

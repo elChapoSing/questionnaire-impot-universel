@@ -22,7 +22,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURRON=X du 13/11/2026 : 1 EUR = 5.345726 RON (hypothèse initiale : 5.1). Taux recalculé : 10,0 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux de 10 %, hors cotisations CAS et CASS.
+Taux de 10 %, hors cotisations CAS et CASS.
 
 ## Sources
 

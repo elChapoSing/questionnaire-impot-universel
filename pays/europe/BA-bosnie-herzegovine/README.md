@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURBAM=X du 13/11/2026 : 1 EUR = 1.9558 BAM (hypothèse initiale : 1.95583). Taux recalculé : 10,0 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt forfaitaire de 10 % dans la Fédération de Bosnie-Herzégovine, à Brčko et, selon PwC, en Republika Srpska (8 % selon d'autres sources). Les deux valeurs sont sous le seuil. Les cotisations sociales sont exclues.
+Impôt forfaitaire de 10 % dans la Fédération de Bosnie-Herzégovine, à Brčko et, selon PwC, en Republika Srpska (8 % selon d'autres sources). Les deux valeurs sont sous le seuil. Les cotisations sociales sont exclues.
 
 ## Sources
 

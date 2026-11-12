@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURRSD=X du 13/11/2026 : 1 EUR = 117.599 RSD (hypothèse initiale : 117.2). Taux recalculé : 18,2 % (avant : 18,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt de 10 % sur le salaire (abattement mensuel de 34 221 dinars), plus impôt annuel complémentaire de 10 % puis 15 % au-delà de 3 puis 6 salaires annuels moyens (seuils 2025 : 5 439 096 et 10 878 192 dinars). Estimation à 1 point près : cotisations salariales déduites de l'assiette de l'impôt annuel, déduction personnelle de 40 % du salaire moyen. Change supposé : 117,2 dinars pour 1 €.
+Impôt de 10 % sur le salaire (abattement mensuel de 34 221 dinars), plus impôt annuel complémentaire de 10 % puis 15 % au-delà de 3 puis 6 salaires annuels moyens (seuils 2025 : 5 439 096 et 10 878 192 dinars). Estimation à 1 point près : cotisations salariales déduites de l'assiette de l'impôt annuel, déduction personnelle de 40 % du salaire moyen.
 
 ## Sources
 

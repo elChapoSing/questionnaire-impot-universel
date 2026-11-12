@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURUZS=X du 13/11/2026 : 1 EUR = 13278.0 UZS (hypothèse initiale : 14000). Taux recalculé : 12,0 % (avant : 12 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux unique de 12 %, hors cotisation retraite de 4 % et taxe sociale employeur.
+Taux unique de 12 %, hors cotisation retraite de 4 % et taxe sociale employeur.
 
 ## Sources
 

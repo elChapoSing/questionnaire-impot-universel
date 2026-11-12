@@ -26,7 +26,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURBWP=X du 13/11/2026 : 1 EUR = 15.389 BWP (hypothèse initiale : 15.8). Taux recalculé : 24,3 % (avant : 24,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème résident à 5 tranches, taux maximal 25 % au-delà de 156 000 BWP. Change (hypothèse) : 1 EUR = 15,8 BWP. Les relèvements de seuils du budget 2026 n'ont pas été vérifiés ; effet négligeable à ce niveau de revenu.
+Barème résident à 5 tranches, taux maximal 25 % au-delà de 156 000 BWP. Les relèvements de seuils du budget 2026 n'ont pas été vérifiés ; effet négligeable à ce niveau de revenu.
 
 ## Sources
 

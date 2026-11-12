@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURSLE=X du 13/11/2026 : 1 EUR = 25.3380485 SLE (hypothèse initiale : 27). Taux recalculé : 29,9 % (avant : 29,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. PAYE mensuel : taux maximal 30 % au-delà de 2 400 SLE/mois ; barème inchangé selon la loi de finances 2026. Change (hypothèse) : 1 EUR = 27 SLE. Cotisation NASSIT de 5 % déductible non appliquée.
+PAYE mensuel : taux maximal 30 % au-delà de 2 400 SLE/mois ; barème inchangé selon la loi de finances 2026. Cotisation NASSIT de 5 % déductible non appliquée.
 
 ## Sources
 

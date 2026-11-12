@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURCDF=X du 13/11/2026 : 1 EUR = 2571.2 CDF (hypothèse initiale : 2650). Taux recalculé : 30,0 % (avant : 30 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. IPR : barème 3/15/30/40 % mais impôt plafonné à 30 % de la rémunération imposable selon PwC ; sans le plafond le taux serait d'environ 38,8 %. Change (hypothèse) : 1 EUR = 2 650 CDF.
+IPR : barème 3/15/30/40 % mais impôt plafonné à 30 % de la rémunération imposable selon PwC ; sans le plafond le taux serait d'environ 38,8 %.
 
 ## Sources
 

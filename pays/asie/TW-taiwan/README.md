@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURTWD=X du 13/11/2026 : 1 EUR = 36.52188 TWD (hypothèse initiale : 37). Taux recalculé : 29,7 % (avant : 29,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Tranche de 40 % au-delà de 4,98 millions de dollars taïwanais (barème 2024-2025). Taux de change non BCE : cbonds, 18 juillet 2026.
+Tranche de 40 % au-delà de 4,98 millions de dollars taïwanais (barème 2024-2025).
 
 ## Sources
 

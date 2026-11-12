@@ -6,7 +6,7 @@
     15.0,
     20.0
   ],
-  "note": "Cours Yahoo EURYER=X du 13/11/2026 : 1 EUR = 264.0128 YER (hypothèse initiale : 615). Taux recalculé : 15,0 % (avant : 15 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Règles de Sanaa (Deloitte 2023) : nationaux résidents 0 % jusqu'à 120 000 YER, 10 % jusqu'à 240 000, 15 % au-delà ; salariés étrangers résidents 20 % forfaitaire. Règles possiblement différentes à Aden. Hypothèse : 1 EUR = 615 YER. Cas proche de la bande 18 à 26 % si 20 % (étranger).",
+  "note": "Règles de Sanaa (Deloitte 2023) : nationaux résidents 0 % jusqu'à 120 000 YER, 10 % jusqu'à 240 000, 15 % au-delà ; salariés étrangers résidents 20 % forfaitaire. Règles possiblement différentes à Aden. Cas proche de la bande 18 à 26 % si 20 % (étranger).",
   "sources": [
     {
       "titre": "Deloitte - Yémen, Highlights 2023",

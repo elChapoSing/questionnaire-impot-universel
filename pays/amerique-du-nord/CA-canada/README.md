@@ -34,7 +34,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURCAD=X du 13/11/2026 : 1 EUR = 1.577665 CAD (hypothèse initiale : 1.54). Taux recalculé : 36,2 % (avant : 36 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt fédéral : 14 % à 33 % (barème 2026), soit 25,4 % à ce revenu. Avec l'Ontario (5,05 % à 13,16 %, sans la surtaxe) : environ 36 %. Les autres provinces vont de 8 % (Alberta, première tranche) à 25,75 % (Québec, tranche haute). Taux marginal maximal combiné : de 44,5 % à 58,75 % selon la province. Change supposé : 1,54 dollar canadien pour 1 €.
+Impôt fédéral : 14 % à 33 % (barème 2026), soit 25,4 % à ce revenu. Avec l'Ontario (5,05 % à 13,16 %, sans la surtaxe) : environ 36 %. Les autres provinces vont de 8 % (Alberta, première tranche) à 25,75 % (Québec, tranche haute). Taux marginal maximal combiné : de 44,5 % à 58,75 % selon la province.
 
 ## Sources
 

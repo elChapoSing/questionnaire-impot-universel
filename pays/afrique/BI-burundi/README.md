@@ -26,7 +26,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURBIF=X du 13/11/2026 : 1 EUR = 3353.8 BIF (hypothèse initiale : 3400). Taux recalculé : 29,9 % (avant : 29,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème officiel de l'OBR (loi n° 1/02 de 2013) : 0 % jusqu'à 1,8 million de BIF par an, 20 % jusqu'à 3,6 millions, 30 % au-delà ; environ 29,9 % avec 1 EUR = 3 400 BIF (hypothèse). Le barème à 35 % d'un simulateur privé n'est pas confirmé. La synthèse DLA Piper de la loi de finances 2026-2027 ne signale pas de changement du barème.
+Barème officiel de l'OBR (loi n° 1/02 de 2013) : 0 % jusqu'à 1,8 million de BIF par an, 20 % jusqu'à 3,6 millions, 30 % au-delà ; environ 29,9 %. Le barème à 35 % d'un simulateur privé n'est pas confirmé. La synthèse DLA Piper de la loi de finances 2026-2027 ne signale pas de changement du barème.
 
 ## Sources
 

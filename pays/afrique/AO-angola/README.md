@@ -33,7 +33,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURAOA=X du 13/11/2026 : 1 EUR = 1025.023 AOA (hypothèse initiale : 1060). Taux recalculé : 24,3 % (avant : 24,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. IRT groupe A, barème 2026 (loi 14/25), tranche supérieure à 25 % au-delà de 10 M AOA/mois. Change (hypothèse) : 1 EUR = 1 060 AOA ; sensibilité négligeable. Variante : base nette de la cotisation sociale salariale de 3 % donne environ 23,5 %.
+IRT groupe A, barème 2026 (loi 14/25), tranche supérieure à 25 % au-delà de 10 M AOA/mois. Variante : base nette de la cotisation sociale salariale de 3 % donne environ 23,5 %.
 
 ## Sources
 

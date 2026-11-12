@@ -2,7 +2,7 @@
   "code": "LR",
   "nom": "Liberia",
   "rate": 24.8,
-  "note": "Cours Yahoo EURLRD=X du 13/11/2026 : 1 EUR = 188.57 LRD (hypothèse initiale : 215). Taux recalculé : 24,8 % (avant : 24,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème en LRD à 4 tranches, taux maximal 25 % au-delà de 800 000 LRD. Change (hypothèse) : 1 EUR = 215 LRD ; variation de 180 à 250 sans effet notable.",
+  "note": "Barème en LRD à 4 tranches, taux maximal 25 % au-delà de 800 000 LRD.",
   "sources": [
     {
       "titre": "PwC Tax Summaries - Libéria",

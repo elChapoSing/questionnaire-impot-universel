@@ -22,7 +22,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURMKD=X du 13/11/2026 : 1 EUR = 61.555 MKD (hypothèse initiale : 61.5). Taux recalculé : 10,0 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt forfaitaire de 10 % sur les revenus du travail, après déduction des cotisations sociales et d'un abattement mensuel fixe. Le taux effectif est donc au plus de 10 %.
+Impôt forfaitaire de 10 % sur les revenus du travail, après déduction des cotisations sociales et d'un abattement mensuel fixe. Le taux effectif est donc au plus de 10 %.
 
 ## Sources
 

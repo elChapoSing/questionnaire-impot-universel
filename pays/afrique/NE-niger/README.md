@@ -28,7 +28,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Source unique non officielle : IUTS annuel à 6 tranches, taux maximal 35 % au-delà de 4 M XOF. Variante : cotisation CNSS de 4,17 % déduite donne 33,1 %. Change : XOF fixe.
+Source unique non officielle : IUTS annuel à 6 tranches, taux maximal 35 % au-delà de 4 M XOF. Variante : cotisation CNSS de 4,17 % déduite donne 33,1 %.
 
 ## Sources
 

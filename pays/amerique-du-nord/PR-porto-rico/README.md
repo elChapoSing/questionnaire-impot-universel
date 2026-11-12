@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURUSD=X du 13/11/2026 : 1 EUR = 1.106465 USD (hypothèse initiale : 1.15). Taux recalculé : 28,5 % (avant : 28,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème actuel de Porto Rico : 0 % jusqu'à 9 000 USD, 7 %, 14 %, 25 % puis 33 % au-delà de 61 500. Hypothèse change : 1 EUR = 1,15 USD, soit environ 276 300 USD. Réforme en discussion (taux de 33 % limité aux revenus supérieurs à 150 000), non votée : taux possiblement plus bas.
+Barème actuel de Porto Rico : 0 % jusqu'à 9 000 USD, 7 %, 14 %, 25 % puis 33 % au-delà de 61 500. Réforme en discussion (taux de 33 % limité aux revenus supérieurs à 150 000), non votée : taux possiblement plus bas.
 
 ## Sources
 

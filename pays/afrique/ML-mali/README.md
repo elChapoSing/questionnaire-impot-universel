@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Source unique non officielle : ITS annuel à 5 tranches, taux maximal 40 % au-delà de 3,6 M XOF. Variante : cotisation INPS de 3,6 % déduite donne 38,1 %. Change : XOF fixe.
+Source unique non officielle : ITS annuel à 5 tranches, taux maximal 40 % au-delà de 3,6 M XOF. Variante : cotisation INPS de 3,6 % déduite donne 38,1 %.
 
 ## Sources
 

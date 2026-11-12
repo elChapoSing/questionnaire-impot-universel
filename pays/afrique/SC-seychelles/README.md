@@ -24,7 +24,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURSCR=X du 13/11/2026 : 1 EUR = 15.445 SCR (hypothèse initiale : 16.5). Taux recalculé : 27,0 % (avant : 27,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 0 / 15 / 30 % avec 150 000 SCR exonérés et taux de 30 % au-delà de 600 000 SCR. Change (hypothèse) : 1 EUR = 16,5 SCR ; de 26,7 à 27,7 selon le change. Cas proche du haut de la bande.
+Barème 0 / 15 / 30 % avec 150 000 SCR exonérés et taux de 30 % au-delà de 600 000 SCR. Cas proche du haut de la bande.
 
 ## Sources
 

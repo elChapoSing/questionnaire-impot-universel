@@ -26,7 +26,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURMGA=X du 13/11/2026 : 1 EUR = 5063.0 MGA (hypothèse initiale : 5300). Taux recalculé : 19,9 % (avant : 19,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. IRSA : taux maximal 20 % au-delà de 600 000 MGA/mois ; réduction pour charges de famille ignorée. Change (hypothèse) : 1 EUR = 5 300 MGA ; taux stable entre 4 800 et 6 000. Cas dans la bande, légèrement sous 21,14 %.
+IRSA : taux maximal 20 % au-delà de 600 000 MGA/mois ; réduction pour charges de famille ignorée. Cas dans la bande, légèrement sous 21,14 %.
 
 ## Sources
 

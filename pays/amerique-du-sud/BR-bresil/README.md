@@ -24,7 +24,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURBRL=X du 13/11/2026 : 1 EUR = 6.218915 BRL (hypothèse initiale : 6). Taux recalculé : 26,7 % (avant : 26,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif : 27,5 % au-delà de 55 976 réaux par an (déduction de 10 853,78 réaux), inchangé en 2026. L'exonération jusqu'à 5 000 réais par mois disparaît à ce revenu. Un impôt minimum pour les revenus annuels supérieurs à 600 000 réais (jusqu'à 10 %) existe mais ne s'ajoute pas ici. Change supposé : 6 réais pour 1 € (26,7 % à 26,8 % de 5,5 à 6,5).
+Barème progressif : 27,5 % au-delà de 55 976 réaux par an (déduction de 10 853,78 réaux), inchangé en 2026. L'exonération jusqu'à 5 000 réais par mois disparaît à ce revenu. Un impôt minimum pour les revenus annuels supérieurs à 600 000 réais (jusqu'à 10 %) existe mais ne s'ajoute pas ici.
 
 ## Sources
 

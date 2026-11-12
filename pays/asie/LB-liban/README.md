@@ -29,7 +29,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURLBP=X du 13/11/2026 : 1 EUR = 99333.3 LBP (hypothèse initiale : 103800). Taux recalculé : 24,8 % (avant : 24,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taxe sur les salaires progressive de 2 % à 25 % ; taux marginal de 25 % au-delà de 675 M LBP (PwC) ou 120 M LBP (TaxAtlas) selon la source, d'où la fourchette. Hypothèse : 1 EUR = 103 800 LBP (taux officiel d'environ 89 500 LBP par USD).
+Taxe sur les salaires progressive de 2 % à 25 % ; taux marginal de 25 % au-delà de 675 M LBP (PwC) ou 120 M LBP (TaxAtlas) selon la source, d'où la fourchette.
 
 ## Sources
 

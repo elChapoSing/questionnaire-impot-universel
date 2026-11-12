@@ -31,7 +31,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURCLP=X du 13/11/2026 : 1 EUR = 1093.45 CLP (hypothèse initiale : 1059). Taux recalculé : 27,7 % (avant : 27,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt global complémentaire : 35 % entre 120 et 310 UTA, 40 % au-delà (UTA : 834 504 pesos). À ce revenu, taux de 26,5 % à 28,0 % pour 950 à 1 150 pesos pour 1 €. Change supposé : 1 059 pesos pour 1 €. Proche de la borne de 26 % à la limite basse du change.
+Impôt global complémentaire : 35 % entre 120 et 310 UTA, 40 % au-delà (UTA : 834 504 pesos).
 
 ## Sources
 

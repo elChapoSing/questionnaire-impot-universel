@@ -24,7 +24,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-IRS, taux de 16,5 / 23,1 / 27,5 % (27,5 % au-delà de 1,8 M CVE). Exonération annuelle de 220 000 CVE non appliquée. Change : CVE arrimé à l'EUR, 110,265 par EUR. Cas proche du haut de la bande.
+IRS, taux de 16,5 / 23,1 / 27,5 % (27,5 % au-delà de 1,8 M CVE). Exonération annuelle de 220 000 CVE non appliquée. Cas proche du haut de la bande.
 
 ## Sources
 

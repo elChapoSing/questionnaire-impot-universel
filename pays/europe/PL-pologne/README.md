@@ -25,7 +25,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURPLN=X du 13/11/2026 : 1 EUR = 4.402175 PLN (hypothèse initiale : 4.25). Taux recalculé : 29,7 % (avant : 29,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème de 12 % puis 32 % au-delà de 120 000 zlotys, plus la contribution de solidarité de 4 % au-delà d'un million de zlotys. Cotisation santé exclue.
+Barème de 12 % puis 32 % au-delà de 120 000 zlotys, plus la contribution de solidarité de 4 % au-delà d'un million de zlotys. Cotisation santé exclue.
 
 ## Sources
 

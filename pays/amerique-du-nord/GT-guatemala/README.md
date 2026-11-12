@@ -24,7 +24,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURGTQ=X du 13/11/2026 : 1 EUR = 8.476 GTQ (hypothèse initiale : 8.6). Taux recalculé : 6,7 % (avant : 6,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Salariés : 5 % jusqu'à 300 000 quetzales, puis 7 % (15 000 quetzales fixes plus 7 % de l'excédent). Régime des salariés seulement : les revenus d'activité lucrative relèvent d'un autre régime (jusqu'à 25 % des bénéfices). Source officielle (SAT) non lue. Change supposé : 8,6 quetzales pour 1 €.
+Salariés : 5 % jusqu'à 300 000 quetzales, puis 7 % (15 000 quetzales fixes plus 7 % de l'excédent). Régime des salariés seulement : les revenus d'activité lucrative relèvent d'un autre régime (jusqu'à 25 % des bénéfices). Source officielle (SAT) non lue.
 
 ## Sources
 

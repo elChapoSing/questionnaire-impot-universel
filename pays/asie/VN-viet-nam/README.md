@@ -28,7 +28,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURVND=X du 13/11/2026 : 1 EUR = 28485.0 VND (hypothèse initiale : 28580). Taux recalculé : 32,5 % (avant : 32,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 de la loi n° 109/2025/QH15 (5 tranches de 5 % à 35 %, 35 % au-delà de 1,2 milliard de VND par an), sans abattement personnel, avec 1 EUR = 28 580 VND : environ 32,5 % (31,7 % si l'on déduit l'abattement personnel de 186 millions de VND).
+Barème 2026 de la loi n° 109/2025/QH15 (5 tranches de 5 % à 35 %, 35 % au-delà de 1,2 milliard de VND par an), sans abattement personnel: environ 32,5 % (31,7 % si l'on déduit l'abattement personnel de 186 millions de VND).
 
 ## Sources
 

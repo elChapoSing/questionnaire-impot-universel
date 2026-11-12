@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURIDR=X du 13/11/2026 : 1 EUR = 20242.0 IDR (hypothèse initiale : 19500). Taux recalculé : 28,9 % (avant : 28,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème de 5 à 35 % (35 % au-delà de 5 milliards de roupies). Taux de change BCE du 27 juillet 2026 ; résultat entre 28,7 et 29,6 % si le change varie de 15 %.
+Barème de 5 à 35 % (35 % au-delà de 5 milliards de roupies).
 
 ## Sources
 

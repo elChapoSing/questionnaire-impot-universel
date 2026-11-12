@@ -26,7 +26,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURTZS=X du 13/11/2026 : 1 EUR = 2939.5 TZS (hypothèse initiale : 3000). Taux recalculé : 29,7 % (avant : 29,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème mensuel résident, taux maximal 30 % au-delà de 1 M TZS/mois. Change (hypothèse) : 1 EUR = 3 000 TZS.
+Barème mensuel résident, taux maximal 30 % au-delà de 1 M TZS/mois.
 
 ## Sources
 

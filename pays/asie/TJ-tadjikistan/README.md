@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURTJS=X du 13/11/2026 : 1 EUR = 10.2328 TJS (hypothèse initiale : 11). Taux recalculé : 13,0 % (avant : 13 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Sources divergentes : TaxAtlas 2026 indique 8 % puis 13 % au-delà de 840 somonis par mois ; PwC (revu en 2024) indique 12 % au-delà d'une déduction personnelle. Effet de la tranche à 8 % négligeable à ce niveau de revenu.
+Sources divergentes : TaxAtlas 2026 indique 8 % puis 13 % au-delà de 840 somonis par mois ; PwC (revu en 2024) indique 12 % au-delà d'une déduction personnelle. Effet de la tranche à 8 % négligeable à ce niveau de revenu.
 
 ## Sources
 

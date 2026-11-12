@@ -30,7 +30,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Source unique non officielle : barème annuel 2026 à 8 tranches, taux maximal 50 % au-delà de 120 M XAF. Variante : cotisation CNPS de 3 % déduite donne 35,9 %. Change : XAF fixe, 655,957 par EUR.
+Source unique non officielle : barème annuel 2026 à 8 tranches, taux maximal 50 % au-delà de 120 M XAF. Variante : cotisation CNPS de 3 % déduite donne 35,9 %.
 
 ## Sources
 

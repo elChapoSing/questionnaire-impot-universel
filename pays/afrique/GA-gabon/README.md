@@ -32,7 +32,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-IRPP à 8 tranches, taux maximal 35 %, appliqué après abattement de 20 % (formule PwC), une part pour célibataire ; plafond éventuel de l'abattement non vérifié. Variante sans abattement : 33,9 %. TCTS de 5 % sur salaires ignorée. Cas proche du haut de la bande. Change : XAF fixe.
+IRPP à 8 tranches, taux maximal 35 %, appliqué après abattement de 20 % (formule PwC), une part pour célibataire ; plafond éventuel de l'abattement non vérifié. Variante sans abattement : 33,9 %. TCTS de 5 % sur salaires ignorée. Cas proche du haut de la bande.
 
 ## Sources
 

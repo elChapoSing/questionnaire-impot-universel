@@ -25,7 +25,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURUSD=X du 13/11/2026 : 1 EUR = 1.106465 USD (hypothèse initiale : 1.15). Taux recalculé : 36,6 % (avant : 36,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Bonaire, Saint-Eustache et Saba (régime BES propre) : 29,4 % jusqu'à 51 250 USD puis 38,4 % au-delà (taux 2026 annoncés dans le plan fiscal ; seuil 2025 repris faute d'indexation 2026 trouvée). Variante avec taux 2025 (30,4 % / 35,4 %) : environ 34,5 %. Abattement de 20 424 USD non appliqué. Hypothèse change : 1 EUR = 1,15 USD.
+Bonaire, Saint-Eustache et Saba (régime BES propre) : 29,4 % jusqu'à 51 250 USD puis 38,4 % au-delà (taux 2026 annoncés dans le plan fiscal ; seuil 2025 repris faute d'indexation 2026 trouvée). Variante avec taux 2025 (30,4 % / 35,4 %) : environ 34,5 %. Abattement de 20 424 USD non appliqué.
 
 ## Sources
 

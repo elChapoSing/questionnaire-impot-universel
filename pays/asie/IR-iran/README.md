@@ -29,7 +29,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURIRR=X du 13/11/2026 : 1 EUR = 2109005.274 IRR (hypothèse initiale : 1600000). Taux recalculé : 34,9 % (avant : 34,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif 2026 de 0 % à 35 % au-delà de 6 milliards IRR ; hypothèse de change très volatile (environ 1,6 M IRR par EUR), mais taux peu sensible car la tranche haute domine. Incertitude : le barème salarial spécifique pourrait plafonner à 30 %. Sources secondaires uniquement.
+Barème progressif 2026 de 0 % à 35 % au-delà de 6 milliards IRR . Incertitude : le barème salarial spécifique pourrait plafonner à 30 %. Sources secondaires uniquement.
 
 ## Sources
 

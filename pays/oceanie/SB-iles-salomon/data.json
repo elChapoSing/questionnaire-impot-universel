@@ -6,7 +6,7 @@
     39.1,
     39.6
   ],
-  "note": "Cours Yahoo EURSBD=X du 13/11/2026 : 1 EUR = 8.952128379 SBD (hypothèse initiale : 9.7). Taux recalculé : 39,3 % (avant : 39,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif des résidents en SBD : 11 %, 23 %, 35 % puis 40 % au-delà de 60 000 ou 90 000 selon la source ; franchise de 15 000 environ. Hypothèse : 1 EUR = 9,7 SBD (environ 2 330 000 SBD). Sources non officielles, seuils légèrement divergents mais effet minime sur le taux effectif ; à confirmer auprès de l'administration fiscale.",
+  "note": "Barème progressif des résidents en SBD : 11 %, 23 %, 35 % puis 40 % au-delà de 60 000 ou 90 000 selon la source ; franchise de 15 000 environ. Sources non officielles, seuils légèrement divergents mais effet minime sur le taux effectif ; à confirmer auprès de l'administration fiscale.",
   "sources": [
     {
       "titre": "TaxAtlas - Solomon Islands",

@@ -29,7 +29,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURUSD=X du 13/11/2026 : 1 EUR = 1.106465 USD (hypothèse initiale : 1.1143). Taux recalculé : 23,2 % (avant : 23,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt fédéral seul, personne seule : 10 % à 37 % (barème 2026 : 10 % jusqu'à 12 400 dollars, 35 % jusqu'à 640 600). 21,3 % avec la déduction forfaitaire de 16 100 dollars. Les impôts des États s'ajoutent (nuls au Texas ou en Floride, élevés en Californie ou à New York). Les cotisations sociales fédérales ne sont pas comptées. Change : 1,1143 dollar pour 1 € (Yahoo Finance, 6 novembre 2026).
+Impôt fédéral seul, personne seule : 10 % à 37 % (barème 2026 : 10 % jusqu'à 12 400 dollars, 35 % jusqu'à 640 600). 21,3 % avec la déduction forfaitaire de 16 100 dollars. Les impôts des États s'ajoutent (nuls au Texas ou en Floride, élevés en Californie ou à New York). Les cotisations sociales fédérales ne sont pas comptées.
 
 ## Sources
 

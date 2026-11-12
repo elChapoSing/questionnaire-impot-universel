@@ -24,7 +24,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURGYD=X du 13/11/2026 : 1 EUR = 232.07 GYD (hypothèse initiale : 240). Taux recalculé : 34,4 % (avant : 34,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 25 % jusqu'à 3 360 000 GYD puis 35 % (2026). Abattement personnel (tiers du revenu ou 1 680 000) non appliqué ; avec ce tiers déduit, environ 22,7 %. Hypothèse change : 1 EUR = 240 GYD (209 par USD), soit environ 57,8 M GYD. Cas sensible à l'abattement.
+25 % jusqu'à 3 360 000 GYD puis 35 % (2026). Abattement personnel (tiers du revenu ou 1 680 000) non appliqué ; avec ce tiers déduit, environ 22,7 %. Cas sensible à l'abattement.
 
 ## Sources
 

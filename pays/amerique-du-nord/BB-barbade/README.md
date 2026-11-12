@@ -25,7 +25,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURBBD=X du 13/11/2026 : 1 EUR = 2.2341 BBD (hypothèse initiale : 2.3). Taux recalculé : 24,7 % (avant : 24,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 : 0 % jusqu'à 25 000, 11,5 % de 25 001 à 75 000, 27,5 % au-delà (BRA). Hypothèse change : 1 EUR = 2,30 BBD (1 USD = 2 BBD, EUR/USD 1,15), soit environ 552 700 BBD. Peu sensible au change.
+Barème 2026 : 0 % jusqu'à 25 000, 11,5 % de 25 001 à 75 000, 27,5 % au-delà (BRA).
 
 ## Sources
 

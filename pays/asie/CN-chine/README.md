@@ -29,7 +29,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURCNY=X du 13/11/2026 : 1 EUR = 7.382299 CNY (hypothèse initiale : 8). Taux recalculé : 34,4 % (avant : 35,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème des revenus globaux, tranche supérieure à 45 %.
+Barème des revenus globaux, tranche supérieure à 45 %.
 
 ## Sources
 

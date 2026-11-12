@@ -2,7 +2,7 @@
   "code": "MD",
   "nom": "Moldavie",
   "rate": 12.0,
-  "note": "Cours Yahoo EURMDL=X du 13/11/2026 : 1 EUR = 20.233 MDL (hypothèse initiale : 19.5). Taux recalculé : 12,0 % (avant : 12 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt à taux unique de 12 %. L'abattement personnel est réservé aux revenus jusqu'à 360 000 lei et ne joue pas ici.",
+  "note": "Impôt à taux unique de 12 %. L'abattement personnel est réservé aux revenus jusqu'à 360 000 lei et ne joue pas ici.",
   "sources": [
     {
       "titre": "KPMG, fiscalité des cadres internationaux : Moldavie (mars 2026)",

@@ -26,7 +26,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURXCD=X du 13/11/2026 : 1 EUR = 2.990276985 XCD (hypothèse initiale : 3.105). Taux recalculé : 32,6 % (avant : 32,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème en vigueur 2026 : 0 % jusqu'à 30 000, 15 %, 25 % puis 35 % au-delà de 80 000 XCD. Hypothèse change : 1 EUR = 3,105 XCD (parité 2,7 par USD, EUR/USD 1,15). Réforme annoncée (taux unique de 10 % dès 2027), pas encore votée.
+Barème en vigueur 2026 : 0 % jusqu'à 30 000, 15 %, 25 % puis 35 % au-delà de 80 000 XCD. Réforme annoncée (taux unique de 10 % dès 2027), pas encore votée.
 
 ## Sources
 

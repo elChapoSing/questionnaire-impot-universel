@@ -29,7 +29,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURDKK=X du 13/11/2026 : 1 EUR = 7.47543 DKK (hypothèse initiale : 7.46). Taux recalculé : 44,5 % (avant : 44,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt national 2026 progressif de 13 % à 30 % (30 % au-delà de 600 000 DKK, base de 98 950). Impôt communal forfaitaire de 16 à 23 % selon la commune (19 % retenu au centre de la fourchette). Hypothèse : 1 EUR = 7,46 DKK. Taxe d'église (0,6 à 0,9 %) exclue.
+Impôt national 2026 progressif de 13 % à 30 % (30 % au-delà de 600 000 DKK, base de 98 950). Impôt communal forfaitaire de 16 à 23 % selon la commune (19 % retenu au centre de la fourchette). Taxe d'église (0,6 à 0,9 %) exclue.
 
 ## Sources
 

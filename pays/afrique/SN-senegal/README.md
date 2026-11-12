@@ -29,7 +29,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-IRPP : taux maximal 43 % au-delà de 50 M XOF, une part (célibataire) ; abattement éventuel de 30 % plafonné non pris en compte (effet négligeable). Change : XOF fixe.
+IRPP : taux maximal 43 % au-delà de 50 M XOF, une part (célibataire) ; abattement éventuel de 30 % plafonné non pris en compte (effet négligeable).
 
 ## Sources
 

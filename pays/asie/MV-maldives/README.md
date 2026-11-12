@@ -26,7 +26,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURMVR=X du 13/11/2026 : 1 EUR = 17.19364 MVR (hypothèse initiale : 17.6). Taux recalculé : 9,9 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème officiel : 0 % jusqu'à 720 000 rufiyaas, puis 5,5 %, 8 %, 12 % et 15 % au-delà de 2,4 millions. Change supposé : 17,6 rufiyaas pour 1 €.
+Barème officiel : 0 % jusqu'à 720 000 rufiyaas, puis 5,5 %, 8 %, 12 % et 15 % au-delà de 2,4 millions.
 
 ## Sources
 

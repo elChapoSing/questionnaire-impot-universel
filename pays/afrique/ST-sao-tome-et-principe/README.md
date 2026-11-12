@@ -28,7 +28,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Source unique non officielle : IRS annuel à 6 tranches, taux maximal 25 % au-delà de 240 000 STN. Change (hypothèse) : 1 EUR = 24,5 STN (parité fixe). Déductions par tranche non reproduites.
+Source unique non officielle : IRS annuel à 6 tranches, taux maximal 25 % au-delà de 240 000 STN. Déductions par tranche non reproduites.
 
 ## Sources
 

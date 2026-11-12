@@ -25,7 +25,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURILS=X du 13/11/2026 : 1 EUR = 3.533327 ILS (hypothèse initiale : 3.8). Taux recalculé : 13,7 % (avant : 13,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème résidents 2026 : 5 % jusqu'à 75 000 NIS, 10 % jusqu'à 150 000 NIS, 15 % au-delà. Hypothèse : 1 EUR = 3,8 NIS. Déduction standard de 36 000 NIS et autres déductions exclues.
+Barème résidents 2026 : 5 % jusqu'à 75 000 NIS, 10 % jusqu'à 150 000 NIS, 15 % au-delà. Déduction standard de 36 000 NIS et autres déductions exclues.
 
 ## Sources
 

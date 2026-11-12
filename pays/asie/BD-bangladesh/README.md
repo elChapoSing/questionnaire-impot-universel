@@ -28,7 +28,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURBDT=X du 13/11/2026 : 1 EUR = 137.97 BDT (hypothèse initiale : 140). Taux recalculé : 28,9 % (avant : 28,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème des années d'imposition 2026-27 et 2027-28 : 375 000 takas exonérés, puis 10 %, 15 %, 20 %, 25 % et 30 % au-delà de 3,575 millions. Une tranche à 35 % au-delà de 30 millions est prévue à partir de 2028-29. Change supposé : 140 takas pour 1 €.
+Barème des années d'imposition 2026-27 et 2027-28 : 375 000 takas exonérés, puis 10 %, 15 %, 20 %, 25 % et 30 % au-delà de 3,575 millions. Une tranche à 35 % au-delà de 30 millions est prévue à partir de 2028-29.
 
 ## Sources
 

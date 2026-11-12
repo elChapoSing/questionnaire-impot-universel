@@ -31,7 +31,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Source incertaine : aucun texte officiel accessible, guides privés divergents. Barème retenu : Rivermate (mensuel, 0 à 32 %, attendu pour 2025), soit environ 27,7 % avec 1 EUR = 17,4 ERN (hypothèse). L'autre barème (TaxAtlas, jusqu'à 30 %) donne 28,3 à 29,9 %. Fiabilité faible.
+Source incertaine : aucun texte officiel accessible, guides privés divergents. Barème retenu : Rivermate (mensuel, 0 à 32 %, attendu pour 2025), soit environ 27,7 %. L'autre barème (TaxAtlas, jusqu'à 30 %) donne 28,3 à 29,9 %. Fiabilité faible.
 
 ## Sources
 

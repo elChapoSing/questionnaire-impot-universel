@@ -30,7 +30,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURTHB=X du 13/11/2026 : 1 EUR = 37.475 THB (hypothèse initiale : 38). Taux recalculé : 29,6 % (avant : 29,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif jusqu'à 35 %.
+Barème progressif jusqu'à 35 %.
 
 ## Sources
 

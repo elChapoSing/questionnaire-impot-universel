@@ -30,7 +30,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURUYU=X du 13/11/2026 : 1 EUR = 44.96 UYU (hypothèse initiale : 44.6). Taux recalculé : 26,1 % (avant : 26 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. IRPF travail : tranches mensuelles de 0 % à 36 % (36 % au-delà de 115 BPC par mois ; BPC 2026 : 6 864 pesos). De 25,2 % à 27,0 % pour 40 à 48 pesos pour 1 €, avant déductions. Change supposé : 44,6 pesos pour 1 €. Les revenus du capital sont taxés à 7 à 12 %.
+IRPF travail : tranches mensuelles de 0 % à 36 % (36 % au-delà de 115 BPC par mois ; BPC 2026 : 6 864 pesos). Les revenus du capital sont taxés à 7 à 12 %.
 
 ## Sources
 

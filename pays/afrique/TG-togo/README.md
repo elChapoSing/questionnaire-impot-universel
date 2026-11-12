@@ -29,7 +29,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-IRPP salaires : barème annuel à 8 tranches, taux maximal 35 % au-delà de 20 M XOF. Réduction familiale ignorée. Change : XOF fixe.
+IRPP salaires : barème annuel à 8 tranches, taux maximal 35 % au-delà de 20 M XOF. Réduction familiale ignorée.
 
 ## Sources
 

@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURTRY=X du 13/11/2026 : 1 EUR = 55.73643 TRY (hypothèse initiale : 50). Taux recalculé : 36,9 % (avant : 36,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 des salaires : 15 % jusqu'à 190 000 livres, 20 % jusqu'à 400 000, 27 % jusqu'à 1,5 million, 35 % jusqu'à 5,3 millions, 40 % au-delà. À 240 300 € (change supposé : 50 livres pour 1 €), le taux effectif est d'environ 36,5 %. Il reste au-dessus de 36 % de 45 à 55 livres pour 1 €.
+Barème 2026 des salaires : 15 % jusqu'à 190 000 livres, 20 % jusqu'à 400 000, 27 % jusqu'à 1,5 million, 35 % jusqu'à 5,3 millions, 40 % au-delà. À 240 300 €, le taux effectif est d'environ 36,5 %.
 
 ## Sources
 

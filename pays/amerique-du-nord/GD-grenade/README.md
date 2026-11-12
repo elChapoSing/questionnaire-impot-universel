@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURXCD=X du 13/11/2026 : 1 EUR = 2.990276985 XCD (hypothèse initiale : 3.105). Taux recalculé : 27,4 % (avant : 27,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 10 % jusqu'à 24 000 XCD puis 28 % ; abattement personnel de 36 000 non appliqué (variante avec abattement : environ 26,1 %). Hypothèse change : 1 EUR = 3,105 XCD, soit environ 746 100 XCD. Cas proche de la bande selon l'abattement.
+10 % jusqu'à 24 000 XCD puis 28 % ; abattement personnel de 36 000 non appliqué (variante avec abattement : environ 26,1 %). Cas proche de la bande selon l'abattement.
 
 ## Sources
 

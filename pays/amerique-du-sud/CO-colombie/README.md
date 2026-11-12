@@ -30,7 +30,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURCOP=X du 13/11/2026 : 1 EUR = 3632.1 COP (hypothèse initiale : 4457). Taux recalculé : 30,5 % (avant : 31,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème de l'article 241 du Statut fiscal : de 0 % à 39 % (37 % de 18 970 à 31 000 UVT). UVT 2026 : 52 374 pesos. Résultat de 30,9 % à 32,6 % pour 3 900 à 5 600 pesos pour 1 €. Sans abattements ni rentes exonérées. Un projet de loi (n° 477 de 2026) prévoit de changer le barème : non pris en compte. Change supposé : 4 457 pesos pour 1 €.
+Barème de l'article 241 du Statut fiscal : de 0 % à 39 % (37 % de 18 970 à 31 000 UVT). UVT 2026 : 52 374 pesos. Sans abattements ni rentes exonérées. Un projet de loi (n° 477 de 2026) prévoit de changer le barème : non pris en compte.
 
 ## Sources
 

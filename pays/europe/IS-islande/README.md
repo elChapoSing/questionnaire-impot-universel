@@ -26,7 +26,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURISK=X du 13/11/2026 : 1 EUR = 136.75 ISK (hypothèse initiale : 145). Taux recalculé : 38,2 % (avant : 38,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Islande 2026 : 31,49 % jusqu'à 5 977 464 ISK, 37,99 % jusqu'à 16 781 400 ISK, 46,29 % au-delà (impôt communal inclus), moins un crédit personnel de 869 898 ISK. Calcul à 145 ISK/EUR (hypothèse) : environ 38,7 %.
+Islande 2026 : 31,49 % jusqu'à 5 977 464 ISK, 37,99 % jusqu'à 16 781 400 ISK, 46,29 % au-delà (impôt communal inclus), moins un crédit personnel de 869 898 ISK.
 
 ## Sources
 

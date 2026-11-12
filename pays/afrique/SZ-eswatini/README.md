@@ -25,7 +25,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURSZL=X du 13/11/2026 : 1 EUR = 18.476 SZL (hypothèse initiale : 20). Taux recalculé : 32,6 % (avant : 32,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème résident à 4 tranches, taux maximal 33 % au-delà de 200 000 SZL ; rabais de 8 200 SZL ignoré. Change (hypothèse) : 1 EUR = 20 SZL.
+Barème résident à 4 tranches, taux maximal 33 % au-delà de 200 000 SZL ; rabais de 8 200 SZL ignoré.
 
 ## Sources
 

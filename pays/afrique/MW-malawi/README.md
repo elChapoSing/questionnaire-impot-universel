@@ -25,7 +25,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURMWK=X du 13/11/2026 : 1 EUR = 1923.5 MWK (hypothèse initiale : 2000). Taux recalculé : 38,3 % (avant : 38,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. PAYE 2026 : 30 % puis 35 % puis 40 % au-delà de 10 M MWK/mois. Change (hypothèse) : 1 EUR = 2 000 MWK ; sans effet notable.
+PAYE 2026 : 30 % puis 35 % puis 40 % au-delà de 10 M MWK/mois.
 
 ## Sources
 

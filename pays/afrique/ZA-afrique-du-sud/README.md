@@ -29,7 +29,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURZAR=X du 13/11/2026 : 1 EUR = 18.55315 ZAR (hypothèse initiale : 20). Taux recalculé : 40,6 % (avant : 40,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026/27 : 666 339 rands + 45 % de la part de revenu imposable au-dessus de 1 878 600 rands, moins l'abattement principal de 17 820 rands. À 240 300 € (change supposé : 20 rands pour 1 €), le taux effectif est d'environ 40,9 %. Aucun change plausible ne le ramène sous 40 %.
+Barème 2026/27 : 666 339 rands + 45 % de la part de revenu imposable au-dessus de 1 878 600 rands, moins l'abattement principal de 17 820 rands. À 240 300 €, le taux effectif est d'environ 40,9 %.
 
 ## Sources
 

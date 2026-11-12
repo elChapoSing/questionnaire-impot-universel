@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURBOB=X du 13/11/2026 : 1 EUR = 12.984 BOB (hypothèse initiale : 8.07). Taux recalculé : 13,0 % (avant : 13 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. RC-IVA au taux unique de 13 % sur les salaires, assiette nette des cotisations sociales et crédit de TVA sur factures possible (variante : environ 11,3 %). Seuls les revenus de source bolivienne sont imposés.
+RC-IVA au taux unique de 13 % sur les salaires, assiette nette des cotisations sociales et crédit de TVA sur factures possible (variante : environ 11,3 %). Seuls les revenus de source bolivienne sont imposés.
 
 ## Sources
 

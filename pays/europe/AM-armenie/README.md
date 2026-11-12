@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURAMD=X du 13/11/2026 : 1 EUR = 400.7 AMD (hypothèse initiale : 450). Taux recalculé : 20,0 % (avant : 20 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt à taux unique de 20 % sur les salaires, sans abattement ni tranche (10 % pour certains profils de recherche et développement). Cotisations sociales non comptées. Taux juste sous le seuil de 21,1 % : à examiner avec prudence.
+Impôt à taux unique de 20 % sur les salaires, sans abattement ni tranche (10 % pour certains profils de recherche et développement). Cotisations sociales non comptées. Taux juste sous le seuil de 21,1 % : à examiner avec prudence.
 
 ## Sources
 

@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURXCG=X du 13/11/2026 : 1 EUR = 1.99784951 XCG (hypothèse initiale : 2.06). Taux recalculé : 41,0 % (avant : 41,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 en XCG, taux marginal maximal 47,5 % (surtaxe de 25 % incluse) au-delà de 161 540. Hypothèse change : 1 EUR = 2,06 XCG, soit environ 494 700 XCG. Cotisations exclues.
+Barème 2026 en XCG, taux marginal maximal 47,5 % (surtaxe de 25 % incluse) au-delà de 161 540. Cotisations exclues.
 
 ## Sources
 

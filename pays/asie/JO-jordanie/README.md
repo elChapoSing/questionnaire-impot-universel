@@ -28,7 +28,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURJOD=X du 13/11/2026 : 1 EUR = 0.7838 JOD (hypothèse initiale : 0.82). Taux recalculé : 23,6 % (avant : 23,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème : 5 %, 10 %, 15 %, 20 % par tranches de 5 000 JOD puis 25 % jusqu'à 1 M JOD ; contribution de 1 % au-delà de 200 000 JOD (négligeable ici). Hypothèse : 1 EUR = 0,82 JOD. Exemptions personnelle et familiale (27 000 JOD) exclues ; avec elles le taux serait plus bas.
+Barème : 5 %, 10 %, 15 %, 20 % par tranches de 5 000 JOD puis 25 % jusqu'à 1 M JOD ; contribution de 1 % au-delà de 200 000 JOD (négligeable ici). Exemptions personnelle et familiale (27 000 JOD) exclues ; avec elles le taux serait plus bas.
 
 ## Sources
 

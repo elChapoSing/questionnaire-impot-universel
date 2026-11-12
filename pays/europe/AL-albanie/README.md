@@ -24,7 +24,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURALL=X du 13/11/2026 : 1 EUR = 90.7 ALL (hypothèse initiale : 98). Taux recalculé : 22,0 % (avant : 22,1 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Salaires depuis 2025 : 13 % jusqu'à 2 040 000 lekë par an, 23 % au-delà, sans abattement personnel. À 240 300 €, soit environ 23,5 millions de lekë (change supposé : 98 lekë pour 1 €), le taux effectif est d'environ 22,1 %. Le change joue très peu.
+Salaires depuis 2025 : 13 % jusqu'à 2 040 000 lekë par an, 23 % au-delà, sans abattement personnel. À 240 300 €, soit environ 23,5 millions de lekë, le taux effectif est d'environ 22,1 %.
 
 ## Sources
 

@@ -32,7 +32,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURARS=X du 13/11/2026 : 1 EUR = 1708.828 ARS (hypothèse initiale : 1850). Taux recalculé : 33,9 % (avant : 34 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Quatrième catégorie (salariés) : barème de 5 % à 35 %, le taux de 35 % commençant à 60,75 millions de pesos par an. À ce revenu, la quasi-totalité est taxée à 35 %. Estimation à partir de ce barème (tranches intermédiaires non reprises une à une) : de 31 % à 35 % quel que soit le change, très volatil. Source officielle (ARCA) non lue.
+Quatrième catégorie (salariés) : barème de 5 % à 35 %, le taux de 35 % commençant à 60,75 millions de pesos par an. À ce revenu, la quasi-totalité est taxée à 35 %. Estimation à partir de ce barème (tranches intermédiaires non reprises une à une) : de 31 % à 35 %. Source officielle (ARCA) non lue.
 
 ## Sources
 

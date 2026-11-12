@@ -22,7 +22,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURMDL=X du 13/11/2026 : 1 EUR = 20.233 MDL (hypothèse initiale : 19.5). Taux recalculé : 12,0 % (avant : 12 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt à taux unique de 12 %. L'abattement personnel est réservé aux revenus jusqu'à 360 000 lei et ne joue pas ici.
+Impôt à taux unique de 12 %. L'abattement personnel est réservé aux revenus jusqu'à 360 000 lei et ne joue pas ici.
 
 ## Sources
 

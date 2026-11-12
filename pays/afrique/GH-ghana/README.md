@@ -28,7 +28,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURGHS=X du 13/11/2026 : 1 EUR = 12.989 GHS (hypothèse initiale : 13). Taux recalculé : 33,5 % (avant : 33,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème résident révisé (loi 1178 de 2026), taux maximal 35 % au-delà de 600 000 GHS. Change (hypothèse) : 1 EUR = 13 GHS.
+Barème résident révisé (loi 1178 de 2026), taux maximal 35 % au-delà de 600 000 GHS.
 
 ## Sources
 

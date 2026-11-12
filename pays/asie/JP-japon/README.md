@@ -30,7 +30,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURJPY=X du 13/11/2026 : 1 EUR = 176.9355 JPY (hypothèse initiale : 185). Taux recalculé : 34,5 % (avant : 35 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt national et surtaxe de 2,1 % ; l'impôt local, non inclus, s'y ajoute.
+Impôt national et surtaxe de 2,1 % ; l'impôt local, non inclus, s'y ajoute.
 
 ## Sources
 

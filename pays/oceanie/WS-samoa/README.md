@@ -24,7 +24,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Barème : 0 % jusqu'à 15 000 tālā, 20 % jusqu'à 30 000, 27 % au-delà. Le taux effectif ne peut pas dépasser 27 %. Change supposé : 3,1 tālā pour 1 €.
+Barème : 0 % jusqu'à 15 000 tālā, 20 % jusqu'à 30 000, 27 % au-delà. Le taux effectif ne peut pas dépasser 27 %.
 
 ## Sources
 

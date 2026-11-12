@@ -31,7 +31,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURKRW=X du 13/11/2026 : 1 EUR = 1476.78 KRW (hypothèse initiale : 1750). Taux recalculé : 36,2 % (avant : 37,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt national (tranche 42 %) plus impôt local de 10 %.
+Impôt national (tranche 42 %) plus impôt local de 10 %.
 
 ## Sources
 

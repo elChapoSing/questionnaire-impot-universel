@@ -25,7 +25,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Barème 2026 sur salaires : 10 % jusqu'à 120 M MNT, 15 % jusqu'à 180 M, 20 % au-delà (nouveau barème prévu au 1er janvier 2027, non retenu). Hypothèse : 1 EUR = 4 150 MNT. Une exonération des 9,6 premiers millions (source Mercans) change à peine le taux. Cas proche de la bande 18 à 26 %.
+Barème 2026 sur salaires : 10 % jusqu'à 120 M MNT, 15 % jusqu'à 180 M, 20 % au-delà (nouveau barème prévu au 1er janvier 2027, non retenu). Une exonération des 9,6 premiers millions (source Mercans) change à peine le taux. Cas proche de la bande 18 à 26 %.
 
 ## Sources
 

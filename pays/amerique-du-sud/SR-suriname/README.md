@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURSRD=X du 13/11/2026 : 1 EUR = 42.08 SRD (hypothèse initiale : 44). Taux recalculé : 37,4 % (avant : 37,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème : franchise 108 000 SRD par an, puis 8 %, 18 %, 28 % et 38 % au-delà de 234 000. Hypothèse change : 1 EUR = 44 SRD, soit environ 10,5 M SRD. Peu sensible au change. Cotisation AOV exclue.
+Barème : franchise 108 000 SRD par an, puis 8 %, 18 %, 28 % et 38 % au-delà de 234 000. Cotisation AOV exclue.
 
 ## Sources
 

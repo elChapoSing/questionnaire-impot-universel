@@ -26,7 +26,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURPGK=X du 13/11/2026 : 1 EUR = 5.06 PGK (hypothèse initiale : 4.9). Taux recalculé : 40,6 % (avant : 40,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème des résidents (loi de 2025, en vigueur depuis janvier 2026) : 0 % jusqu'à 20 000 kinas, puis jusqu'à 42 % au-delà de 250 000. Les tranches intermédiaires viennent des barèmes antérieurs. Change supposé : 4,9 kinas pour 1 €.
+Barème des résidents (loi de 2025, en vigueur depuis janvier 2026) : 0 % jusqu'à 20 000 kinas, puis jusqu'à 42 % au-delà de 250 000. Les tranches intermédiaires viennent des barèmes antérieurs.
 
 ## Sources
 

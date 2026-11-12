@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURMAD=X du 13/11/2026 : 1 EUR = 10.9261 MAD (hypothèse initiale : 10.8). Taux recalculé : 35,9 % (avant : 35,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème des salaires 2026 : 0 % jusqu'à 40 000 dirhams, 10, 20, 30 et 34 % ensuite, 37 % au-delà de 180 000 (la tranche à 38 % a été fusionnée). À 240 300 € (change supposé : 10,8 dirhams pour 1 €), le taux effectif est d'environ 35,9 %. Abattement forfaitaire pour frais professionnels et cotisations sociales exclus (ils réduiraient peu le taux).
+Barème des salaires 2026 : 0 % jusqu'à 40 000 dirhams, 10, 20, 30 et 34 % ensuite, 37 % au-delà de 180 000 (la tranche à 38 % a été fusionnée). À 240 300 €, le taux effectif est d'environ 35,9 %. Abattement forfaitaire pour frais professionnels et cotisations sociales exclus (ils réduiraient peu le taux).
 
 ## Sources
 

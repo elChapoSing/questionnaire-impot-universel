@@ -24,7 +24,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURLSL=X du 13/11/2026 : 1 EUR = 18.4888 LSL (hypothèse initiale : 20). Taux recalculé : 29,8 % (avant : 29,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux de 20 % puis 30 % au-delà de 77 760 LSL par an (barème en vigueur 1er avril 2026) ; crédit d'impôt personnel de 12 240 LSL ignoré. Change (hypothèse) : 1 EUR = 20 LSL.
+Taux de 20 % puis 30 % au-delà de 77 760 LSL par an (barème en vigueur 1er avril 2026) ; crédit d'impôt personnel de 12 240 LSL ignoré.
 
 ## Sources
 

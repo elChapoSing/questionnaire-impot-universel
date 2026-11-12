@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURHTG=X du 13/11/2026 : 1 EUR = 145.34 HTG (hypothèse initiale : 150). Taux recalculé : 29,5 % (avant : 29,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème à 5 tranches, taux marginal maximal 30 %. Deux versions : barème actuel (seuil 120 000 HTG, environ 29,7 %) et nouveau barème validé par le ministère pour application au 1er octobre 2026 (environ 29,3 %). Hypothèse change : 1 EUR = 150 HTG, peu sensible.
+Barème à 5 tranches, taux marginal maximal 30 %. Deux versions : barème actuel (seuil 120 000 HTG, environ 29,7 %) et nouveau barème validé par le ministère pour application au 1er octobre 2026 (environ 29,3 %).
 
 ## Sources
 

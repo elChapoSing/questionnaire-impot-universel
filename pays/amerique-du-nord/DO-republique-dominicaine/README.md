@@ -26,7 +26,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURDOP=X du 13/11/2026 : 1 EUR = 67.3 DOP (hypothèse initiale : 70). Taux recalculé : 24,1 % (avant : 24,1 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 : exonération jusqu'à 416 220 pesos, puis 15 %, 20 % et 25 % au-delà de 867 123 pesos. À partir de 2027 (loi 30-26), un taux de 27 % au-delà de 4,8 millions de pesos porterait le résultat à environ 25,5 %. Change supposé : 70 pesos pour 1 €.
+Barème 2026 : exonération jusqu'à 416 220 pesos, puis 15 %, 20 % et 25 % au-delà de 867 123 pesos. À partir de 2027 (loi 30-26), un taux de 27 % au-delà de 4,8 millions de pesos porterait le résultat à environ 25,5 %.
 
 ## Sources
 

@@ -26,7 +26,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURDKK=X du 13/11/2026 : 1 EUR = 7.47543 DKK (hypothèse initiale : 7.46). Taux recalculé : 46,1 % (avant : 46,1 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Danemark 2026 : impôt d'État de base 12,01 %, impôt communal moyen 25,05 %, impôt intermédiaire 7,5 % dès 641 200 DKK, impôt supérieur 15 % dès 777 900 DKK, plafond de 52,07 % de taux marginal. Calcul à 7,46 DKK/EUR (hypothèse), hors cotisation AM de 8 % : environ 46 %.
+Danemark 2026 : impôt d'État de base 12,01 %, impôt communal moyen 25,05 %, impôt intermédiaire 7,5 % dès 641 200 DKK, impôt supérieur 15 % dès 777 900 DKK, plafond de 52,07 % de taux marginal. Hors cotisation AM de 8 % : environ 46 %.
 
 ## Sources
 

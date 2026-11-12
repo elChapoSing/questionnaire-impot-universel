@@ -24,7 +24,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURMRU=X du 13/11/2026 : 1 EUR = 44.861 MRU (hypothèse initiale : 46). Taux recalculé : 39,6 % (avant : 39,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. ITS mensuel : 40 % au-delà de 21 000 MRU/mois (formule RI x 40 % - 4 050). Franchise de 6 000 MRU/mois et CNSS ignorées. Change (hypothèse) : 1 EUR = 46 MRU.
+ITS mensuel : 40 % au-delà de 21 000 MRU/mois (formule RI x 40 % - 4 050). Franchise de 6 000 MRU/mois et CNSS ignorées.
 
 ## Sources
 

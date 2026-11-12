@@ -2,7 +2,7 @@
   "code": "RO",
   "nom": "Roumanie",
   "rate": 10.0,
-  "note": "Cours Yahoo EURRON=X du 13/11/2026 : 1 EUR = 5.345726 RON (hypothèse initiale : 5.1). Taux recalculé : 10,0 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux de 10 %, hors cotisations CAS et CASS.",
+  "note": "Taux de 10 %, hors cotisations CAS et CASS.",
   "sources": [
     {
       "titre": "Code fiscal roumain (ministère des Finances), titre III",

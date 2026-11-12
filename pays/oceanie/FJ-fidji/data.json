@@ -2,7 +2,7 @@
   "code": "FJ",
   "nom": "Fidji",
   "rate": 27.8,
-  "note": "Cours Yahoo EURFJD=X du 13/11/2026 : 1 EUR = 2.5117 FJD (hypothèse initiale : 2.58). Taux recalculé : 27,8 % (avant : 28,1 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème des résidents (règlement de 2023, structure inchangée au budget 2025-26) : 0 % jusqu'à 30 000 dollars fidjiens, 18 %, 20 %, puis de 33 % à 39 % au-delà de 270 000 (39 % au-delà d'un million). Change supposé : 2,58 dollars fidjiens pour 1 €.",
+  "note": "Barème des résidents (règlement de 2023, structure inchangée au budget 2025-26) : 0 % jusqu'à 30 000 dollars fidjiens, 18 %, 20 %, puis de 33 % à 39 % au-delà de 270 000 (39 % au-delà d'un million).",
   "sources": [
     {
       "titre": "PwC Worldwide Tax Summaries",

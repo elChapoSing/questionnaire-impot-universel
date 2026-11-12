@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EUREGP=X du 13/11/2026 : 1 EUR = 59.138 EGP (hypothèse initiale : 55). Taux recalculé : 27,3 % (avant : 27,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème : 0 % jusqu'à 40 000 livres, 10, 15, 20 et 22,5 % ensuite, 25 % de 400 000 à 1,2 million, 27,5 % au-delà. Pour les hauts revenus, les premiers 1,2 million sont imposés à 25 % (source Catalogne Trade Portal). À 240 300 € (change supposé : 55 livres pour 1 €), le taux effectif est d'environ 27,3 %, au-dessus du seuil quel que soit le change de 50 à 60.
+Barème : 0 % jusqu'à 40 000 livres, 10, 15, 20 et 22,5 % ensuite, 25 % de 400 000 à 1,2 million, 27,5 % au-delà. Pour les hauts revenus, les premiers 1,2 million sont imposés à 25 % (source Catalogne Trade Portal). À 240 300 €, le taux effectif est d'environ 27,3 %, au-dessus du seuil.
 
 ## Sources
 

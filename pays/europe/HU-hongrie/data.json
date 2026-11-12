@@ -2,7 +2,7 @@
   "code": "HU",
   "nom": "Hongrie",
   "rate": 15.0,
-  "note": "Cours Yahoo EURHUF=X du 13/11/2026 : 1 EUR = 365.581 HUF (hypothèse initiale : 390). Taux recalculé : 15,0 % (avant : 15 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux de 15 %, hors contribution sociale distincte.",
+  "note": "Taux de 15 %, hors contribution sociale distincte.",
   "sources": [
     {
       "titre": "Administration fiscale hongroise (NAV)",

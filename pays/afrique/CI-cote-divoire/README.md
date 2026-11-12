@@ -28,7 +28,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-ITS unifié depuis 2024 : barème mensuel appliqué à 100 % du salaire imposable (abattement de 20 % supprimé), taux maximal 32 % au-delà de 8 M XOF/mois. Réduction pour charges de famille ignorée. Change : XOF fixe.
+ITS unifié depuis 2024 : barème mensuel appliqué à 100 % du salaire imposable (abattement de 20 % supprimé), taux maximal 32 % au-delà de 8 M XOF/mois. Réduction pour charges de famille ignorée.
 
 ## Sources
 

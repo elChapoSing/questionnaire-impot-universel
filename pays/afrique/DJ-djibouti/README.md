@@ -30,7 +30,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURDJF=X du 13/11/2026 : 1 EUR = 197.53 DJF (hypothèse initiale : 206). Taux recalculé : 37,3 % (avant : 37,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. ITS mensuel à 8 tranches, taux maximal 45 % au-delà de 2 M DJF/mois. Change (hypothèse) : 1 EUR = 206 DJF (arrimage USD). Cotisation CNSS de 6 % déductible non appliquée.
+ITS mensuel à 8 tranches, taux maximal 45 % au-delà de 2 M DJF/mois. Cotisation CNSS de 6 % déductible non appliquée.
 
 ## Sources
 

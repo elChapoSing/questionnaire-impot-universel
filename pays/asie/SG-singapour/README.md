@@ -35,7 +35,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURSGD=X du 13/11/2026 : 1 EUR = 1.42395 SGD (hypothèse initiale : 1.48). Taux recalculé : 14,4 % (avant : 14,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif jusqu'à 24 %. Aucun impôt sur les plus-values.
+Barème progressif jusqu'à 24 %. Aucun impôt sur les plus-values.
 
 ## Sources
 

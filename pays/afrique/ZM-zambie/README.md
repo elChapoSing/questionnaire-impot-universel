@@ -25,7 +25,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURZMW=X du 13/11/2026 : 1 EUR = 22.656 ZMW (hypothèse initiale : 27). Taux recalculé : 37,0 % (avant : 37,1 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. PAYE 2026 : taux maximal 37,5 % au-delà de 9 900 ZMW/mois. Change (hypothèse) : 1 EUR = 27 ZMW.
+PAYE 2026 : taux maximal 37,5 % au-delà de 9 900 ZMW/mois.
 
 ## Sources
 

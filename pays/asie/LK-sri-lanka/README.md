@@ -28,7 +28,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURLKR=X du 13/11/2026 : 1 EUR = 368.88 LKR (hypothèse initiale : 343). Taux recalculé : 34,7 % (avant : 34,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2025-2026 : 1,8 million de roupies exonérées, puis 6 %, 18 %, 24 %, 30 % et 36 % au-delà de 4,3 millions. Change supposé : 343 roupies pour 1 €.
+Barème 2025-2026 : 1,8 million de roupies exonérées, puis 6 %, 18 %, 24 %, 30 % et 36 % au-delà de 4,3 millions.
 
 ## Sources
 

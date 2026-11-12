@@ -32,7 +32,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURMYR=X du 13/11/2026 : 1 EUR = 4.524 MYR (hypothèse initiale : 4.8). Taux recalculé : 25,0 % (avant : 25,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif jusqu'à 30 % au-delà de 2 millions de ringgit.
+Barème progressif jusqu'à 30 % au-delà de 2 millions de ringgit.
 
 ## Sources
 

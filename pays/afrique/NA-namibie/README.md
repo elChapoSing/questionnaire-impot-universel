@@ -28,7 +28,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURNAD=X du 13/11/2026 : 1 EUR = 18.4888 NAD (hypothèse initiale : 20). Taux recalculé : 33,8 % (avant : 34 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026/27 à 7 tranches, taux maximal 37 % au-delà de 1,55 M NAD. Change (hypothèse) : 1 EUR = 20 NAD.
+Barème 2026/27 à 7 tranches, taux maximal 37 % au-delà de 1,55 M NAD.
 
 ## Sources
 

@@ -28,7 +28,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURPHP=X du 13/11/2026 : 1 EUR = 70.687 PHP (hypothèse initiale : 70). Taux recalculé : 31,5 % (avant : 31,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif jusqu'à 35 % (réforme de 2023).
+Barème progressif jusqu'à 35 % (réforme de 2023).
 
 ## Sources
 

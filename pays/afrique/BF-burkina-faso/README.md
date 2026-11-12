@@ -31,7 +31,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-IUTS : barème mensuel à taux maximal 25 % (art. 112 CGI) avec abattement forfaitaire pour frais professionnels de 20 % pour les catégories supérieures (art. 111). Variantes : abattement de 25 % donne 18,6 % ; sans abattement 24,8 %. Réduction pour charges de famille ignorée. Change : XOF fixe, 655,957 par EUR.
+IUTS : barème mensuel à taux maximal 25 % (art. 112 CGI) avec abattement forfaitaire pour frais professionnels de 20 % pour les catégories supérieures (art. 111). Variantes : abattement de 25 % donne 18,6 % ; sans abattement 24,8 %. Réduction pour charges de famille ignorée.
 
 ## Sources
 

@@ -2,7 +2,7 @@
   "code": "CR",
   "nom": "Costa Rica",
   "rate": 19.9,
-  "note": "Cours Yahoo EURCRC=X du 13/11/2026 : 1 EUR = 500.8 CRC (hypothèse initiale : 557). Taux recalculé : 19,9 % (avant : 20,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt sur le salaire 2026 (décret 45333-H) : 0 % jusqu'à 918 000 colons par mois, puis 10 %, 15 %, 20 %, 25 % au-delà de 4 727 000. De 19,3 % à 20,7 % pour 450 à 600 colons pour 1 €. Change supposé : 557 colons pour 1 €. Barème des salariés ; un barème distinct s'applique aux indépendants.",
+  "note": "Impôt sur le salaire 2026 (décret 45333-H) : 0 % jusqu'à 918 000 colons par mois, puis 10 %, 15 %, 20 %, 25 % au-delà de 4 727 000. Barème des salariés ; un barème distinct s'applique aux indépendants.",
   "sources": [
     {
       "titre": "EY Costa Rica, tranches de l'impôt sur le revenu pour 2026",

@@ -25,7 +25,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Salaires : 0 % jusqu'à 700 € par mois, 9 % de 701 à 1 000 €, 15 % au-delà. Taux effectif d'environ 14,4 % à 240 300 € par an. Une surtaxe municipale peut s'ajouter (non incluse). Pays en euros : pas d'effet de change.
+Salaires : 0 % jusqu'à 700 € par mois, 9 % de 701 à 1 000 €, 15 % au-delà. Taux effectif d'environ 14,4 % à 240 300 € par an. Une surtaxe municipale peut s'ajouter (non incluse).
 
 ## Sources
 

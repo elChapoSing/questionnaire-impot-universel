@@ -25,7 +25,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURBYN=X du 13/11/2026 : 1 EUR = 3.3419 BYN (hypothèse initiale : 3.3). Taux recalculé : 21,0 % (avant : 20,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Depuis 2026 : 13 % jusqu'à 350 000 roubles biélorusses, 25 % jusqu'à 600 000, 30 % au-delà. Taux très proche du seuil et sensible au change (20,0 % à 3,0 roubles pour 1 €, 21,7 % à 3,6). Change supposé : 3,3 roubles pour 1 €.
+Depuis 2026 : 13 % jusqu'à 350 000 roubles biélorusses, 25 % jusqu'à 600 000, 30 % au-delà.
 
 ## Sources
 

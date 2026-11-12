@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURKGS=X du 13/11/2026 : 1 EUR = 96.75914713 KGS (hypothèse initiale : 100). Taux recalculé : 10,0 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux forfaitaire de 10 % sur les revenus du travail. Cotisations sociales exclues. Données PwC revues en 2024.
+Taux forfaitaire de 10 % sur les revenus du travail. Cotisations sociales exclues. Données PwC revues en 2024.
 
 ## Sources
 

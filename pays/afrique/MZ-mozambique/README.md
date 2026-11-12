@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURMZN=X du 13/11/2026 : 1 EUR = 71.34802 MZN (hypothèse initiale : 74). Taux recalculé : 31,2 % (avant : 31,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. IRPS : taux maximal 32 % au-delà de 1,512 M MZN avec déduction de 141 540 MZN (formule PwC). Change (hypothèse) : 1 EUR = 74 MZN.
+IRPS : taux maximal 32 % au-delà de 1,512 M MZN avec déduction de 141 540 MZN (formule PwC).
 
 ## Sources
 

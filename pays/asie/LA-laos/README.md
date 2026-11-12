@@ -28,7 +28,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURLAK=X du 13/11/2026 : 1 EUR = 24962.0 LAK (hypothèse initiale : 25500). Taux recalculé : 23,9 % (avant : 23,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème mensuel de 0 à 25 % (0 % jusqu'à 2,5 millions de kips depuis juillet 2026, 25 % au-delà de 65 millions par mois). À ce revenu, l'essentiel est taxé à 25 %. Change supposé : environ 25 500 kips pour 1 €, effet négligeable.
+Barème mensuel de 0 à 25 % (0 % jusqu'à 2,5 millions de kips depuis juillet 2026, 25 % au-delà de 65 millions par mois). À ce revenu, l'essentiel est taxé à 25 %.
 
 ## Sources
 

@@ -6,7 +6,7 @@
     28.5,
     28.6
   ],
-  "note": "Cours Yahoo EURUSD=X du 13/11/2026 : 1 EUR = 1.106465 USD (hypothèse initiale : 1.15). Taux recalculé : 28,5 % (avant : 28,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Tableau de retenue (décret de 2025) : exonération de 550 USD par mois, puis 10 %, 20 % et 30 % au-delà de 2 038 USD mensuels avec montants fixes. Calcul annualisé. Hypothèse change : 1 EUR = 1,15 USD, soit environ 276 300 USD (économie dollarisée).",
+  "note": "Tableau de retenue (décret de 2025) : exonération de 550 USD par mois, puis 10 %, 20 % et 30 % au-delà de 2 038 USD mensuels avec montants fixes. Calcul annualisé.",
   "sources": [
     {
       "titre": "El Mundo - nouveau montant exonéré et tables de retenue",

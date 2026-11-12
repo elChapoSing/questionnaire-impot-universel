@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURRUB=X du 13/11/2026 : 1 EUR = 91.807 RUB (hypothèse initiale : 95). Taux recalculé : 17,3 % (avant : 17,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 13 / 15 / 18 / 20 / 22 %. Taux de change RUB/EUR supposé (95) : verdict inchangé de 70 à 130.
+Barème 13 / 15 / 18 / 20 / 22 %.
 
 ## Sources
 

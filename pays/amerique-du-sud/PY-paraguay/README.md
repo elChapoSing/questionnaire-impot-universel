@@ -25,7 +25,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURPYG=X du 13/11/2026 : 1 EUR = 6876.0 PYG (hypothèse initiale : 8000). Taux recalculé : 9,9 % (avant : 9,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt sur le revenu personnel : 8 % jusqu'à 50 millions de guaranis, 9 % jusqu'à 150 millions, 10 % au-delà. Système territorial : seuls les revenus de source paraguayenne sont imposés. Change supposé : environ 8 000 guaranis pour 1 € (9,9 % quel que soit le change). Source officielle (SET) non lue.
+Impôt sur le revenu personnel : 8 % jusqu'à 50 millions de guaranis, 9 % jusqu'à 150 millions, 10 % au-delà. Système territorial : seuls les revenus de source paraguayenne sont imposés. Source officielle (SET) non lue.
 
 ## Sources
 

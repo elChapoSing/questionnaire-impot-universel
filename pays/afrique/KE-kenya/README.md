@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURKES=X du 13/11/2026 : 1 EUR = 144.2 KES (hypothèse initiale : 150). Taux recalculé : 33,6 % (avant : 33,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème résident, taux maximal 35 % au-delà de 9,6 M KES ; allègement personnel de 2 400 KES/mois ignoré. Change (hypothèse) : 1 EUR = 150 KES.
+Barème résident, taux maximal 35 % au-delà de 9,6 M KES ; allègement personnel de 2 400 KES/mois ignoré.
 
 ## Sources
 

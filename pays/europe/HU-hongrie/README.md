@@ -22,7 +22,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURHUF=X du 13/11/2026 : 1 EUR = 365.581 HUF (hypothèse initiale : 390). Taux recalculé : 15,0 % (avant : 15 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux de 15 %, hors contribution sociale distincte.
+Taux de 15 %, hors contribution sociale distincte.
 
 ## Sources
 

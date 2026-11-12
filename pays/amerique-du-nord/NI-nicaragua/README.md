@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURNIO=X du 13/11/2026 : 1 EUR = 40.82 NIO (hypothèse initiale : 42.1). Taux recalculé : 29,3 % (avant : 29,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Table progressive annuelle du travail : exonéré jusqu'à 100 000 NIO, puis 15 %, 20 %, 25 %, 30 % au-delà de 500 000. Calculé sur le brut, sans déduire la cotisation INSS de 7 % (variante légèrement plus basse). Hypothèse change : 1 EUR = 42,1 NIO.
+Table progressive annuelle du travail : exonéré jusqu'à 100 000 NIO, puis 15 %, 20 %, 25 %, 30 % au-delà de 500 000. Calculé sur le brut, sans déduire la cotisation INSS de 7 % (variante légèrement plus basse).
 
 ## Sources
 

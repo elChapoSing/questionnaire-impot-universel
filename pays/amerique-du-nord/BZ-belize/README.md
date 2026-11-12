@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURBZD=X du 13/11/2026 : 1 EUR = 2.2309 BZD (hypothèse initiale : 2.3). Taux recalculé : 25,0 % (avant : 25 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux unique de 25 % sur le revenu d'emploi de source bélizienne ; seuil d'exonération de 29 000 BZD depuis 2025. Taux retenu sans abattement ; avec déduction standard d'environ 20 000 BZD : environ 24,1 %. Hypothèse change : 1 EUR = 2,30 BZD (parité fixe 2 pour 1 USD).
+Taux unique de 25 % sur le revenu d'emploi de source bélizienne ; seuil d'exonération de 29 000 BZD depuis 2025. Taux retenu sans abattement ; avec déduction standard d'environ 20 000 BZD : environ 24,1 %.
 
 ## Sources
 

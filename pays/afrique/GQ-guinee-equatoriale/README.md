@@ -26,7 +26,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-IRPF à 5 tranches, taux maximal 25 % au-delà de 15 M XAF. Change : XAF fixe, 655,957 par EUR, donc taux stable.
+IRPF à 5 tranches, taux maximal 25 % au-delà de 15 M XAF.
 
 ## Sources
 

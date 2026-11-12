@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURAWG=X du 13/11/2026 : 1 EUR = 1.991637 AWG (hypothèse initiale : 2.0585). Taux recalculé : 44,9 % (avant : 45,1 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 (21 % / 42 % / 52 % au-delà de 135 527 AWG) appliqué au salaire converti. Hypothèse change : 1 EUR = 1,15 USD, 1 USD = 1,79 AWG (parité fixe), soit environ 494 700 AWG. Franchise de 30 000 AWG non appliquée (variante avec franchise : environ 41,9 %). Cotisations AOV/AZV exclues.
+Barème 2026 (21 % / 42 % / 52 % au-delà de 135 527 AWG) appliqué au salaire converti. Franchise de 30 000 AWG non appliquée (variante avec franchise : environ 41,9 %). Cotisations AOV/AZV exclues.
 
 ## Sources
 

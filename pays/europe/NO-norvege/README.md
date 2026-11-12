@@ -28,7 +28,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURNOK=X du 13/11/2026 : 1 EUR = 10.59418 NOK (hypothèse initiale : 11.7). Taux recalculé : 35,0 % (avant : 35,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Norvège 2026 : 22 % d'impôt ordinaire plus impôt par paliers (trinnskatt) de 1,7 % à environ 17,8 % sur le revenu brut. Calcul à 11,7 NOK/EUR (hypothèse), sans cotisation d'assurance nationale ni abattements : environ 35,5 %. Les sources divergent sur les seuils exacts des paliers.
+Norvège 2026 : 22 % d'impôt ordinaire plus impôt par paliers (trinnskatt) de 1,7 % à environ 17,8 % sur le revenu brut. Sans cotisation d'assurance nationale ni abattements : environ 35,5 %. Les sources divergent sur les seuils exacts des paliers.
 
 ## Sources
 

@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Cours Yahoo EURXCD=X du 13/11/2026 : 1 EUR = 2.990276985 XCD (hypothèse initiale : 3.105). Taux recalculé : 36,7 % (avant : 36,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2024 : franchise 18 000 XCD puis 5 %, 20 %, 25 %, 30 %, 40 % au-delà de 150 000. Hypothèse change : 1 EUR = 3,105 XCD, soit environ 746 100 XCD. Source secondaire non officielle, taux supérieurs à vérifier.
+Barème 2024 : franchise 18 000 XCD puis 5 %, 20 %, 25 %, 30 %, 40 % au-delà de 150 000. Source secondaire non officielle, taux supérieurs à vérifier.
 
 ## Sources
 

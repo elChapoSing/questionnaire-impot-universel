@@ -2,7 +2,7 @@
   "code": "CI",
   "nom": "Côte d’Ivoire",
   "rate": 28.5,
-  "note": "ITS unifié depuis 2024 : barème mensuel appliqué à 100 % du salaire imposable (abattement de 20 % supprimé), taux maximal 32 % au-delà de 8 M XOF/mois. Réduction pour charges de famille ignorée. Change : XOF fixe.",
+  "note": "ITS unifié depuis 2024 : barème mensuel appliqué à 100 % du salaire imposable (abattement de 20 % supprimé), taux maximal 32 % au-delà de 8 M XOF/mois. Réduction pour charges de famille ignorée.",
   "sources": [
     {
       "titre": "PwC Tax Summaries - Côte d'Ivoire",
