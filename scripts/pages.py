@@ -16,6 +16,9 @@ COMMENT = {
 CAT = {"below": "Potentiellement concerné·e", "debatable": "Cas discutable : à examiner", "above": "Pas concerné·e"}
 SHORT = {"below": "Nettement en dessous du seuil", "debatable": "Discutable", "above": "Nettement au-dessus du seuil"}
 
+NAV = ('<nav class="topnav" aria-label="Navigation principale"><a href="/">Questionnaire</a>'
+       '<a href="/methodologie/">Méthodologie</a><a href="/fiscalite/" aria-current="page">Fiscalité par pays</a></nav>')
+
 def e(s): return html.escape(str(s), quote=True)
 
 def head(title, desc, url, extra=""):
@@ -44,6 +47,7 @@ def head(title, desc, url, extra=""):
 {extra}</head>
 <body>
 <div class="brandbar" aria-hidden="true"></div>
+{NAV}
 <main class="app static-page"><section class="screen">
 '''
 
@@ -107,7 +111,7 @@ def index_page(items, CONT_LABEL, fr):
     o = [head(title, desc, url)]
     o.append('<p class="crumb"><a href="/">Questionnaire</a> › Pays</p>')
     o.append("<h1>Impôt sur le revenu par pays</h1>")
-    o.append(f"<p>{len(items)} pays analysés. Cliquez sur un pays pour voir le taux estimé, le calcul détaillé et les sources.</p>")
+    o.append(f"<p>{len(items)} pays analysés. Cliquez sur un pays pour voir le taux estimé, le calcul détaillé et les sources. Vous préférez un tableau triable et filtrable ? <a href=\"/donnees/\">Ouvrir le tableau des données</a>.</p>")
     for k, lab in CONT_LABEL.items():
         sel = sorted([i for i in items if i["cont"] == k], key=lambda i: i["nom"])
         if not sel: continue
