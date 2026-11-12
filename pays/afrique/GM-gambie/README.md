@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : GMD. Cours supposé : 1 EUR = 82 GMD (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURGMD=X).
-- Salaire converti : 240 300 € × 82 = 19 704 600 GMD.
-- Base imposable : 19 704 600 GMD.
+- Devise : GMD. Cours utilisé : 1 EUR = 82,6216 GMD (Yahoo Finance EURGMD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 82,6216 = 19 853 961 GMD.
+- Base imposable : 19 853 961 GMD.
 
 | De (GMD) | À (GMD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -20,14 +20,14 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 46 000 | 56 000 | 10,00 % | 10 000 | 1 000 |
 | 56 000 | 66 000 | 15,00 % | 10 000 | 1 500 |
 | 66 000 | 76 000 | 20,00 % | 10 000 | 2 000 |
-| 76 000 | et plus | 25,00 % | 19 628 600 | 4 907 150 |
+| 76 000 | et plus | 25,00 % | 19 777 961 | 4 944 490 |
 
-- **Impôt total : 4 912 150 GMD, soit 24,9 % du salaire brut.**
+- **Impôt total : 4 949 490 GMD, soit 24,9 % du salaire brut.**
 - Hypothèse : Barème 2025 (Rivermate, GRA) à taux maximal 25 % ; TaxAtlas indique 30 % au-delà de 86 000 GMD, d'où la fourchette 24,9 à 29,9 % de la note.
 
 ## Note
 
-Barème 2025 à taux maximal 25 % au-delà de 76 000 GMD ; une source (TaxAtlas) indique 30 % maximal, donc fourchette. Change (hypothèse) : 1 EUR = 82 GMD.
+Cours Yahoo EURGMD=X du 13/11/2026 : 1 EUR = 82.62156 GMD (hypothèse initiale : 82). Taux recalculé : 24,9 % (avant : 24,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2025 à taux maximal 25 % au-delà de 76 000 GMD ; une source (TaxAtlas) indique 30 % maximal, donc fourchette. Change (hypothèse) : 1 EUR = 82 GMD.
 
 ## Sources
 

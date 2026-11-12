@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : PGK. Cours supposé : 1 EUR = 4,9 PGK (hypothèse reprise de la note (4,9 kinas pour 1 EUR)).
-- Salaire converti : 240 300 € × 4,9 = 1 177 470 PGK.
-- Base imposable : 1 177 470 PGK.
+- Devise : PGK. Cours utilisé : 1 EUR = 5,06 PGK (Yahoo Finance EURPGK=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 5,06 = 1 215 918 PGK.
+- Base imposable : 1 215 918 PGK.
 
 | De (PGK) | À (PGK) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,14 +19,14 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 20 000 | 33 000 | 30,00 % | 13 000 | 3 900 |
 | 33 000 | 70 000 | 35,00 % | 37 000 | 12 950 |
 | 70 000 | 250 000 | 40,00 % | 180 000 | 72 000 |
-| 250 000 | et plus | 42,00 % | 927 470 | 389 537 |
+| 250 000 | et plus | 42,00 % | 965 918 | 405 686 |
 
-- **Impôt total : 478 387 PGK, soit 40,6 % du salaire brut.**
+- **Impôt total : 494 536 PGK, soit 40,7 % du salaire brut.**
 - Hypothèse : Barème des résidents (loi de 2025, depuis janvier 2026) : 0 % jusqu'à 20 000 kinas, puis 30 %, 35 %, 40 % et 42 % au-delà de 250 000. Les tranches intermédiaires (33 000 et 70 000) viennent des barèmes antérieurs, comme le dit la note.
 
 ## Note
 
-Barème des résidents (loi de 2025, en vigueur depuis janvier 2026) : 0 % jusqu'à 20 000 kinas, puis jusqu'à 42 % au-delà de 250 000. Les tranches intermédiaires viennent des barèmes antérieurs. Change supposé : 4,9 kinas pour 1 €.
+Cours Yahoo EURPGK=X du 13/11/2026 : 1 EUR = 5.06 PGK (hypothèse initiale : 4.9). Taux recalculé : 40,6 % (avant : 40,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème des résidents (loi de 2025, en vigueur depuis janvier 2026) : 0 % jusqu'à 20 000 kinas, puis jusqu'à 42 % au-delà de 250 000. Les tranches intermédiaires viennent des barèmes antérieurs. Change supposé : 4,9 kinas pour 1 €.
 
 ## Sources
 

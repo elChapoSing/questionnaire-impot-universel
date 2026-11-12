@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : DKK. Cours supposé : 1 EUR = 7,46 DKK (hypothèse (la note ne donne aucun cours ; DKK arrimée à l'euro, environ 7,46), sans effet sur un taux proportionnel).
-- Salaire converti : 240 300 € × 7,46 = 1 792 638 DKK.
-- Base imposable : 1 792 638 DKK.
+- Devise : DKK. Cours utilisé : 1 EUR = 7,4754 DKK (Yahoo Finance EURDKK=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 7,4754 = 1 796 346 DKK.
+- Base imposable : 1 796 346 DKK.
 
 | De (DKK) | À (DKK) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 43,00 % | 1 792 638 | 770 834 |
+| 0 | et plus | 43,00 % | 1 796 346 | 772 429 |
 
-- **Impôt total : 770 834 DKK, soit 43,0 % du salaire brut.**
+- **Impôt total : 772 429 DKK, soit 43,0 % du salaire brut.**
 - Hypothèse : Impôt proportionnel : communal 26 à 28 %, national 10 % et commun 6 %, soit 42 à 44 % selon la commune ; 43 % retenu (milieu de la fourchette).
 - Hypothèse : Pourcentages cités par PwC pour 2020, à vérifier.
 
 ## Note
 
-Impôt proportionnel : communal 26 à 28 %, national 10 % et commun 6 %, soit 42 à 44 % selon la commune (hors zones communales : 36 %). Pourcentages cités comme ceux de 2020 par PwC, à vérifier. Régime spécial de 35 % pour certains travaux pétroliers ou miniers.
+Cours Yahoo EURDKK=X du 13/11/2026 : 1 EUR = 7.47543 DKK (hypothèse initiale : 7.46). Taux recalculé : 43,0 % (avant : 43 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt proportionnel : communal 26 à 28 %, national 10 % et commun 6 %, soit 42 à 44 % selon la commune (hors zones communales : 36 %). Pourcentages cités comme ceux de 2020 par PwC, à vérifier. Régime spécial de 35 % pour certains travaux pétroliers ou miniers.
 
 ## Sources
 

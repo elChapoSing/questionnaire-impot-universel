@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : XCD. Cours supposé : 1 EUR = 3,105 XCD (hypothèse reprise de la note).
-- Salaire converti : 240 300 € × 3,105 = 746 132 XCD.
-- Base imposable : 746 132 XCD.
+- Devise : XCD. Cours utilisé : 1 EUR = 2,9903 XCD (Yahoo Finance EURXCD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 2,9903 = 718 564 XCD.
+- Base imposable : 718 564 XCD.
 
 | De (XCD) | À (XCD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 24 000 | 10,00 % | 24 000 | 2 400 |
-| 24 000 | et plus | 28,00 % | 722 132 | 202 197 |
+| 24 000 | et plus | 28,00 % | 694 564 | 194 478 |
 
-- **Impôt total : 204 597 XCD, soit 27,4 % du salaire brut.**
+- **Impôt total : 196 878 XCD, soit 27,4 % du salaire brut.**
 - Hypothèse : Abattement personnel de 36 000 XCD non appliqué ; avec lui, environ 26,1 % (note).
 
 ## Note
 
-10 % jusqu'à 24 000 XCD puis 28 % ; abattement personnel de 36 000 non appliqué (variante avec abattement : environ 26,1 %). Hypothèse change : 1 EUR = 3,105 XCD, soit environ 746 100 XCD. Cas proche de la bande selon l'abattement.
+Cours Yahoo EURXCD=X du 13/11/2026 : 1 EUR = 2.990276985 XCD (hypothèse initiale : 3.105). Taux recalculé : 27,4 % (avant : 27,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 10 % jusqu'à 24 000 XCD puis 28 % ; abattement personnel de 36 000 non appliqué (variante avec abattement : environ 26,1 %). Hypothèse change : 1 EUR = 3,105 XCD, soit environ 746 100 XCD. Cas proche de la bande selon l'abattement.
 
 ## Sources
 

@@ -9,23 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : PYG. Cours supposé : 1 EUR = 8 000 PYG (hypothèse reprise de la note (environ 8 000 guaranis pour 1 EUR)).
-- Salaire converti : 240 300 € × 8 000 = 1 922 400 000 PYG.
-- Base imposable : 1 922 400 000 PYG.
+- Devise : PYG. Cours utilisé : 1 EUR = 6 876 PYG (Yahoo Finance EURPYG=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 6 876 = 1 652 302 800 PYG.
+- Base imposable : 1 652 302 800 PYG.
 
 | De (PYG) | À (PYG) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 50 000 000 | 8,00 % | 50 000 000 | 4 000 000 |
 | 50 000 000 | 150 000 000 | 9,00 % | 100 000 000 | 9 000 000 |
-| 150 000 000 | et plus | 10,00 % | 1 772 400 000 | 177 240 000 |
+| 150 000 000 | et plus | 10,00 % | 1 502 302 800 | 150 230 280 |
 
-- **Impôt total : 190 240 000 PYG, soit 9,9 % du salaire brut.**
+- **Impôt total : 163 230 280 PYG, soit 9,9 % du salaire brut.**
 - Hypothèse : Impôt sur le revenu personnel (IRP) : 8 % jusqu'à 50 millions de guaranis, 9 % jusqu'à 150 millions, 10 % au-delà.
 - Hypothèse : Aucune déduction de dépenses ; la note indique 9,9 % quel que soit le change.
 
 ## Note
 
-Impôt sur le revenu personnel : 8 % jusqu'à 50 millions de guaranis, 9 % jusqu'à 150 millions, 10 % au-delà. Système territorial : seuls les revenus de source paraguayenne sont imposés. Change supposé : environ 8 000 guaranis pour 1 € (9,9 % quel que soit le change). Source officielle (SET) non lue.
+Cours Yahoo EURPYG=X du 13/11/2026 : 1 EUR = 6876.0 PYG (hypothèse initiale : 8000). Taux recalculé : 9,9 % (avant : 9,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt sur le revenu personnel : 8 % jusqu'à 50 millions de guaranis, 9 % jusqu'à 150 millions, 10 % au-delà. Système territorial : seuls les revenus de source paraguayenne sont imposés. Change supposé : environ 8 000 guaranis pour 1 € (9,9 % quel que soit le change). Source officielle (SET) non lue.
 
 ## Sources
 

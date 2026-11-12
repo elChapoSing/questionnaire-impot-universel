@@ -1,6 +1,6 @@
 # Namibie (NA)
 
-**Taux effectif retenu : 34,0 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 33,8 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : NAD. Cours supposé : 1 EUR = 20 NAD (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURNAD=X).
-- Salaire converti : 240 300 € × 20 = 4 806 000 NAD.
-- Base imposable : 4 806 000 NAD.
+- Devise : NAD. Cours utilisé : 1 EUR = 18,4888 NAD (Yahoo Finance EURNAD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 18,4888 = 4 442 859 NAD.
+- Base imposable : 4 442 859 NAD.
 
 | De (NAD) | À (NAD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -21,14 +21,14 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 350 000 | 550 000 | 28,00 % | 200 000 | 56 000 |
 | 550 000 | 850 000 | 30,00 % | 300 000 | 90 000 |
 | 850 000 | 1 550 000 | 32,00 % | 700 000 | 224 000 |
-| 1 550 000 | et plus | 37,00 % | 3 256 000 | 1 204 720 |
+| 1 550 000 | et plus | 37,00 % | 2 892 859 | 1 070 358 |
 
-- **Impôt total : 1 633 720 NAD, soit 34,0 % du salaire brut.**
+- **Impôt total : 1 499 358 NAD, soit 33,7 % du salaire brut.**
 - Hypothèse : Barème 2026/27 (PwC Namibie) ; aucun abattement ni crédit listé.
 
 ## Note
 
-Barème 2026/27 à 7 tranches, taux maximal 37 % au-delà de 1,55 M NAD. Change (hypothèse) : 1 EUR = 20 NAD.
+Cours Yahoo EURNAD=X du 13/11/2026 : 1 EUR = 18.4888 NAD (hypothèse initiale : 20). Taux recalculé : 33,8 % (avant : 34 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026/27 à 7 tranches, taux maximal 37 % au-delà de 1,55 M NAD. Change (hypothèse) : 1 EUR = 20 NAD.
 
 ## Sources
 

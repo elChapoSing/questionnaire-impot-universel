@@ -1,6 +1,6 @@
 # Barbade (BB)
 
-**Taux effectif retenu : 24,8 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 24,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Discutable.**
 
 ## Cas de référence
@@ -9,23 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : BBD. Cours supposé : 1 EUR = 2,3 BBD (hypothèse reprise de la note : 1 USD = 2 BBD, EUR/USD 1,15).
-- Salaire converti : 240 300 € × 2,3 = 552 690 BBD.
-- Base imposable : 552 690 BBD.
+- Devise : BBD. Cours utilisé : 1 EUR = 2,2341 BBD (Yahoo Finance EURBBD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 2,2341 = 536 854 BBD.
+- Base imposable : 536 854 BBD.
 
 | De (BBD) | À (BBD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 25 000 | 0,00 % | 25 000 | 0 |
 | 25 000 | 75 000 | 11,50 % | 50 000 | 5 750 |
-| 75 000 | et plus | 27,50 % | 477 690 | 131 365 |
+| 75 000 | et plus | 27,50 % | 461 854 | 127 010 |
 
-- **Impôt total : 137 115 BBD, soit 24,8 % du salaire brut.**
+- **Impôt total : 132 760 BBD, soit 24,7 % du salaire brut.**
 - Hypothèse : Barème 2026 de la Barbados Revenue Authority.
 - Hypothèse : Résultat peu sensible au change.
 
 ## Note
 
-Barème 2026 : 0 % jusqu'à 25 000, 11,5 % de 25 001 à 75 000, 27,5 % au-delà (BRA). Hypothèse change : 1 EUR = 2,30 BBD (1 USD = 2 BBD, EUR/USD 1,15), soit environ 552 700 BBD. Peu sensible au change.
+Cours Yahoo EURBBD=X du 13/11/2026 : 1 EUR = 2.2341 BBD (hypothèse initiale : 2.3). Taux recalculé : 24,7 % (avant : 24,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 : 0 % jusqu'à 25 000, 11,5 % de 25 001 à 75 000, 27,5 % au-delà (BRA). Hypothèse change : 1 EUR = 2,30 BBD (1 USD = 2 BBD, EUR/USD 1,15), soit environ 552 700 BBD. Peu sensible au change.
 
 ## Sources
 

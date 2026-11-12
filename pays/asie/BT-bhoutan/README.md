@@ -1,6 +1,6 @@
 # Bhoutan (BT)
 
-**Taux effectif retenu : 28,3 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 28,4 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : BTN. Cours supposé : 1 EUR = 100 BTN (hypothèse reprise de la note (1 € = 100 ngultrums, peg à la roupie indienne)).
-- Salaire converti : 240 300 € × 100 = 24 030 000 BTN.
-- Base imposable : 24 030 000 BTN.
+- Devise : BTN. Cours utilisé : 1 EUR = 104,264 BTN (Yahoo Finance EURBTN=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 104,264 = 25 054 639 BTN.
+- Base imposable : 25 054 639 BTN.
 
 | De (BTN) | À (BTN) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -21,15 +21,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 750 000 | 1 200 000 | 15,00 % | 450 000 | 67 500 |
 | 1 200 000 | 2 000 000 | 20,00 % | 800 000 | 160 000 |
 | 2 000 000 | 3 500 000 | 25,00 % | 1 500 000 | 375 000 |
-| 3 500 000 | et plus | 30,00 % | 20 530 000 | 6 159 000 |
+| 3 500 000 | et plus | 30,00 % | 21 554 639 | 6 466 392 |
 
-- **Impôt total : 6 796 500 BTN, soit 28,3 % du salaire brut.**
+- **Impôt total : 7 103 892 BTN, soit 28,4 % du salaire brut.**
 - Hypothèse : Barème de l'Income Tax Act 2025 en vigueur en 2026 (notification du DRC) ; les montants fixes cumulés de la notification sont reconstitués par les taux marginaux.
 - Hypothèse : Déduction forfaitaire (15 % du revenu d'emploi, plafonnée à 150 000 Nu) et autres déductions exclues, pas d'abattements personnels.
 
 ## Note
 
-Nouveau barème Income Tax Act 2025, en vigueur 2026 : taux de 5 % à 30 %, 30 % au-delà de 3,5 M Nu. Hypothèse : 1 EUR = 100 BTN (peg à la roupie indienne). Taux peu sensible au change. Pas de surtaxe mentionnée dans la notification.
+Cours Yahoo EURBTN=X du 13/11/2026 : 1 EUR = 104.264 BTN (hypothèse initiale : 100). Taux recalculé : 28,4 % (avant : 28,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Nouveau barème Income Tax Act 2025, en vigueur 2026 : taux de 5 % à 30 %, 30 % au-delà de 3,5 M Nu. Hypothèse : 1 EUR = 100 BTN (peg à la roupie indienne). Taux peu sensible au change. Pas de surtaxe mentionnée dans la notification.
 
 ## Sources
 

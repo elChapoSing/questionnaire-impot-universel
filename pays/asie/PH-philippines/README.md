@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : PHP. Cours supposé : 1 EUR = 70 PHP (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURPHP=X).
-- Salaire converti : 240 300 € × 70 = 16 821 000 PHP.
-- Base imposable : 16 821 000 PHP.
+- Devise : PHP. Cours utilisé : 1 EUR = 70,687 PHP (Yahoo Finance EURPHP=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 70,687 = 16 986 086 PHP.
+- Base imposable : 16 986 086 PHP.
 
 | De (PHP) | À (PHP) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -20,15 +20,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 400 000 | 800 000 | 20,00 % | 400 000 | 80 000 |
 | 800 000 | 2 000 000 | 25,00 % | 1 200 000 | 300 000 |
 | 2 000 000 | 8 000 000 | 30,00 % | 6 000 000 | 1 800 000 |
-| 8 000 000 | et plus | 35,00 % | 8 821 000 | 3 087 350 |
+| 8 000 000 | et plus | 35,00 % | 8 986 086 | 3 145 130 |
 
-- **Impôt total : 5 289 850 PHP, soit 31,4 % du salaire brut.**
+- **Impôt total : 5 347 630 PHP, soit 31,5 % du salaire brut.**
 - Hypothèse : Barème de la réforme TRAIN, en vigueur depuis 2023.
 - Hypothèse : Aucune déduction appliquée.
 
 ## Note
 
-Barème progressif jusqu'à 35 % (réforme de 2023).
+Cours Yahoo EURPHP=X du 13/11/2026 : 1 EUR = 70.687 PHP (hypothèse initiale : 70). Taux recalculé : 31,5 % (avant : 31,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif jusqu'à 35 % (réforme de 2023).
 
 ## Sources
 

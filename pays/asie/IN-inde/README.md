@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : INR. Cours supposé : 1 EUR = 105 INR (la note cite le cours BCE du 27 juillet 2026 sans le chiffrer ; valeur reconstituée, à remplacer par EURINR=X).
-- Salaire converti : 240 300 € × 105 = 25 231 500 INR.
-- Base imposable : 25 231 500 INR.
+- Devise : INR. Cours utilisé : 1 EUR = 104,071 INR (Yahoo Finance EURINR=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 104,071 = 25 008 261 INR.
+- Base imposable : 25 008 261 INR.
 
 | De (INR) | À (INR) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -21,16 +21,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 1 200 000 | 1 600 000 | 15,00 % | 400 000 | 60 000 |
 | 1 600 000 | 2 000 000 | 20,00 % | 400 000 | 80 000 |
 | 2 000 000 | 2 400 000 | 25,00 % | 400 000 | 100 000 |
-| 2 400 000 | et plus | 30,00 % | 22 831 500 | 6 849 450 |
+| 2 400 000 | et plus | 30,00 % | 22 608 261 | 6 782 478 |
 
 - Majoration : surcharge de 25 % au-delà de 2 crores, puis cess de 4 % (1,25 × 1,04) : + 30,0 % de l'impôt.
-- **Impôt total : 9 294 285 INR, soit 36,8 % du salaire brut.**
+- **Impôt total : 9 207 222 INR, soit 36,8 % du salaire brut.**
 - Hypothèse : Nouveau régime ; majoration (surcharge) de 25 % de l'impôt au-delà de 2 crores de roupies, plafonnée à 25 % dans ce régime, puis cess de 4 % : les deux sont modélisées ensemble par 1,25 × 1,04 (majoration cumulée de 30 %).
 - Hypothèse : Déduction forfaitaire de 75 000 roupies exclue.
 
 ## Note
 
-Nouveau régime : tranche de 30 %, majoration de 25 % au-delà de 2 crores de roupies, cess de 4 %. Taux de change BCE du 27 juillet 2026.
+Cours Yahoo EURINR=X du 13/11/2026 : 1 EUR = 104.071 INR (hypothèse initiale : 105). Taux recalculé : 36,9 % (avant : 36,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Nouveau régime : tranche de 30 %, majoration de 25 % au-delà de 2 crores de roupies, cess de 4 %. Taux de change BCE du 27 juillet 2026.
 
 ## Sources
 

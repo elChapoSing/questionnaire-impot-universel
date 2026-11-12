@@ -2,7 +2,7 @@
   "code": "TZ",
   "nom": "Tanzanie",
   "rate": 29.7,
-  "note": "Barème mensuel résident, taux maximal 30 % au-delà de 1 M TZS/mois. Change (hypothèse) : 1 EUR = 3 000 TZS.",
+  "note": "Cours Yahoo EURTZS=X du 13/11/2026 : 1 EUR = 2939.5 TZS (hypothèse initiale : 3000). Taux recalculé : 29,7 % (avant : 29,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème mensuel résident, taux maximal 30 % au-delà de 1 M TZS/mois. Change (hypothèse) : 1 EUR = 3 000 TZS.",
   "sources": [
     {
       "titre": "PwC Tax Summaries - Tanzanie",
@@ -12,8 +12,8 @@
   ],
   "calc": {
     "devise": "TZS",
-    "fx": 3000,
-    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURTZS=X",
+    "fx": 2939.5,
+    "fx_source": "Yahoo Finance EURTZS=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

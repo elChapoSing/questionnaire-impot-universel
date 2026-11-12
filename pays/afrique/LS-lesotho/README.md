@@ -9,22 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : LSL. Cours supposé : 1 EUR = 20 LSL (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURLSL=X).
-- Salaire converti : 240 300 € × 20 = 4 806 000 LSL.
-- Base imposable : 4 806 000 LSL.
+- Devise : LSL. Cours utilisé : 1 EUR = 18,4888 LSL (Yahoo Finance EURLSL=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 18,4888 = 4 442 859 LSL.
+- Base imposable : 4 442 859 LSL.
 
 | De (LSL) | À (LSL) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 77 760 | 20,00 % | 77 760 | 15 552 |
-| 77 760 | et plus | 30,00 % | 4 728 240 | 1 418 472 |
+| 77 760 | et plus | 30,00 % | 4 365 099 | 1 309 530 |
 
-- **Impôt total : 1 434 024 LSL, soit 29,8 % du salaire brut.**
+- **Impôt total : 1 325 082 LSL, soit 29,8 % du salaire brut.**
 - Hypothèse : Barème en vigueur au 1er avril 2026.
 - Hypothèse : Crédit d'impôt personnel de 12 240 LSL ignoré.
 
 ## Note
 
-Taux de 20 % puis 30 % au-delà de 77 760 LSL par an (barème en vigueur 1er avril 2026) ; crédit d'impôt personnel de 12 240 LSL ignoré. Change (hypothèse) : 1 EUR = 20 LSL.
+Cours Yahoo EURLSL=X du 13/11/2026 : 1 EUR = 18.4888 LSL (hypothèse initiale : 20). Taux recalculé : 29,8 % (avant : 29,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux de 20 % puis 30 % au-delà de 77 760 LSL par an (barème en vigueur 1er avril 2026) ; crédit d'impôt personnel de 12 240 LSL ignoré. Change (hypothèse) : 1 EUR = 20 LSL.
 
 ## Sources
 

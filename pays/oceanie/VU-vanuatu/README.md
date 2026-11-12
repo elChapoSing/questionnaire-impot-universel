@@ -9,7 +9,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : EUR. Cours supposé : 1 EUR = 1 EUR (sans objet : aucun impôt sur le revenu).
+- Devise : EUR. Cours utilisé : 1 EUR = 1 EUR (sans objet : aucun impôt sur le revenu).
 - Salaire converti : 240 300 € × 1 = 240 300 EUR.
 - Base imposable : 240 300 EUR.
 

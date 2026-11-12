@@ -1,6 +1,6 @@
 # Aruba (AW)
 
-**Taux effectif retenu : entre 41,9 et 45,1 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : entre 41,7 et 44,9 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,25 +9,25 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : AWG. Cours supposé : 1 EUR = 2,0585 AWG (hypothèse reprise de la note : 1 EUR = 1,15 USD et 1 USD = 1,79 AWG (parité fixe) ; à remplacer par le cours Yahoo EURAWG=X).
-- Salaire converti : 240 300 € × 2,0585 = 494 658 AWG.
-- Base imposable : 494 658 AWG.
+- Devise : AWG. Cours utilisé : 1 EUR = 1,9916 AWG (Yahoo Finance EURAWG=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1,9916 = 478 590 AWG.
+- Base imposable : 478 590 AWG.
 
 | De (AWG) | À (AWG) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 34 930 | 0,00 % | 34 930 | 0 |
 | 34 930 | 63 904 | 21,00 % | 28 974 | 6 085 |
 | 63 904 | 135 527 | 42,00 % | 71 623 | 30 082 |
-| 135 527 | et plus | 52,00 % | 359 131 | 186 748 |
+| 135 527 | et plus | 52,00 % | 343 063 | 178 393 |
 
-- **Impôt total : 222 914 AWG, soit 45,1 % du salaire brut.**
+- **Impôt total : 214 559 AWG, soit 44,8 % du salaire brut.**
 - Hypothèse : Barème 2026 résidents (Deloitte, Aruba tax highlights 2026).
 - Hypothèse : Franchise de 30 000 AWG non appliquée ; avec elle, environ 41,9 % (variante de la note).
 - Hypothèse : Cotisations AOV/AZV exclues.
 
 ## Note
 
-Barème 2026 (21 % / 42 % / 52 % au-delà de 135 527 AWG) appliqué au salaire converti. Hypothèse change : 1 EUR = 1,15 USD, 1 USD = 1,79 AWG (parité fixe), soit environ 494 700 AWG. Franchise de 30 000 AWG non appliquée (variante avec franchise : environ 41,9 %). Cotisations AOV/AZV exclues.
+Cours Yahoo EURAWG=X du 13/11/2026 : 1 EUR = 1.991637 AWG (hypothèse initiale : 2.0585). Taux recalculé : 44,9 % (avant : 45,1 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 (21 % / 42 % / 52 % au-delà de 135 527 AWG) appliqué au salaire converti. Hypothèse change : 1 EUR = 1,15 USD, 1 USD = 1,79 AWG (parité fixe), soit environ 494 700 AWG. Franchise de 30 000 AWG non appliquée (variante avec franchise : environ 41,9 %). Cotisations AOV/AZV exclues.
 
 ## Sources
 

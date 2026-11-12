@@ -1,8 +1,8 @@
 {
   "code": "KG",
   "nom": "Kirghizstan",
-  "rate": 10,
-  "note": "Taux forfaitaire de 10 % sur les revenus du travail. Cotisations sociales exclues. Données PwC revues en 2024.",
+  "rate": 10.0,
+  "note": "Cours Yahoo EURKGS=X du 13/11/2026 : 1 EUR = 96.75914713 KGS (hypothèse initiale : 100). Taux recalculé : 10,0 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux forfaitaire de 10 % sur les revenus du travail. Cotisations sociales exclues. Données PwC revues en 2024.",
   "sources": [
     {
       "titre": "PwC Tax Summaries - Kirghizistan",
@@ -17,8 +17,8 @@
   ],
   "calc": {
     "devise": "KGS",
-    "fx": 100,
-    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURKGS=X",
+    "fx": 96.75914713,
+    "fx_source": "Yahoo Finance EURKGS=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

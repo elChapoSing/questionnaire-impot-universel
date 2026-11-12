@@ -9,20 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : MDL. Cours supposé : 1 EUR = 19,5 MDL (valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel).
-- Salaire converti : 240 300 € × 19,5 = 4 685 850 MDL.
-- Base imposable : 4 685 850 MDL.
+- Devise : MDL. Cours utilisé : 1 EUR = 20,233 MDL (Yahoo Finance EURMDL=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 20,233 = 4 861 990 MDL.
+- Base imposable : 4 861 990 MDL.
 
 | De (MDL) | À (MDL) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 12,00 % | 4 685 850 | 562 302 |
+| 0 | et plus | 12,00 % | 4 861 990 | 583 439 |
 
-- **Impôt total : 562 302 MDL, soit 12,0 % du salaire brut.**
+- **Impôt total : 583 439 MDL, soit 12,0 % du salaire brut.**
 - Hypothèse : Taux unique de 12 % ; l'abattement personnel, réservé aux revenus jusqu'à 360 000 lei, ne joue pas ici.
 
 ## Note
 
-Impôt à taux unique de 12 %. L'abattement personnel est réservé aux revenus jusqu'à 360 000 lei et ne joue pas ici.
+Cours Yahoo EURMDL=X du 13/11/2026 : 1 EUR = 20.233 MDL (hypothèse initiale : 19.5). Taux recalculé : 12,0 % (avant : 12 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt à taux unique de 12 %. L'abattement personnel est réservé aux revenus jusqu'à 360 000 lei et ne joue pas ici.
 
 ## Sources
 

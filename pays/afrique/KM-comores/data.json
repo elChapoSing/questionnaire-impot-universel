@@ -1,12 +1,12 @@
 {
   "code": "KM",
   "nom": "Comores",
-  "rate": 20.6,
+  "rate": 20.5,
   "range": [
-    20.6,
-    29.6
+    20.5,
+    29.5
   ],
-  "note": "IRPP à 7 tranches, taux maximal 30 % (art. 97 CGI 2023) avec déduction forfaitaire de 30 % pour frais professionnels sur salaires (art. 59). Variante sans déduction : 29,6 %. Cas proche du seuil de 21,14 % ; change : KMF fixe, 491,968 par EUR.",
+  "note": "Cours Yahoo EURKMF=X du 13/11/2026 : 1 EUR = 489.05753 KMF (hypothèse initiale : 491.968). Taux recalculé : 20,5 % (avant : 20,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. IRPP à 7 tranches, taux maximal 30 % (art. 97 CGI 2023) avec déduction forfaitaire de 30 % pour frais professionnels sur salaires (art. 59). Variante sans déduction : 29,6 %. Cas proche du seuil de 21,14 % ; change : KMF fixe, 491,968 par EUR.",
   "sources": [
     {
       "titre": "Comores - Code général des impôts 2023",
@@ -21,8 +21,8 @@
   ],
   "calc": {
     "devise": "KMF",
-    "fx": 491.968,
-    "fx_source": "parité fixe KMF/EUR (491,968), reprise de la note",
+    "fx": 489.05753,
+    "fx_source": "Yahoo Finance EURKMF=X, cours vérifié fourni le 13/11/2026",
     "deductions": [
       [
         "Déduction forfaitaire de 30 % pour frais professionnels sur salaires (art. 59 CGI)",

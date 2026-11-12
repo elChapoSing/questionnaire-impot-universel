@@ -1,6 +1,6 @@
 # Trinité-et-Tobago (TT)
 
-**Taux effectif retenu : entre 25,9 et 27,3 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : entre 25,8 et 27,2 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : TTD. Cours supposé : 1 EUR = 7,8 TTD (hypothèse reprise de la note (6,79 TTD par USD)).
-- Salaire converti : 240 300 € × 7,8 = 1 874 340 TTD.
-- Base imposable : 1 874 340 TTD.
+- Devise : TTD. Cours utilisé : 1 EUR = 7,535 TTD (Yahoo Finance EURTTD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 7,535 = 1 810 660 TTD.
+- Base imposable : 1 810 660 TTD.
 
 | De (TTD) | À (TTD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 1 000 000 | 25,00 % | 1 000 000 | 250 000 |
-| 1 000 000 | et plus | 30,00 % | 874 340 | 262 302 |
+| 1 000 000 | et plus | 30,00 % | 810 660 | 243 198 |
 
-- **Impôt total : 512 302 TTD, soit 27,3 % du salaire brut.**
+- **Impôt total : 493 198 TTD, soit 27,2 % du salaire brut.**
 - Hypothèse : Abattement personnel de 90 000 TTD non appliqué ; avec lui, environ 26 % (note).
 
 ## Note
 
-25 % jusqu'à 1 M TTD puis 30 %. Abattement personnel de 90 000 TTD non appliqué (variante : environ 25,9 à 26,1 %). Hypothèse change : 1 EUR = 7,8 TTD (6,79 par USD), soit environ 1,88 M TTD. Cas proche de la bande selon l'abattement.
+Cours Yahoo EURTTD=X du 13/11/2026 : 1 EUR = 7.535 TTD (hypothèse initiale : 7.8). Taux recalculé : 27,2 % (avant : 27,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 25 % jusqu'à 1 M TTD puis 30 %. Abattement personnel de 90 000 TTD non appliqué (variante : environ 25,9 à 26,1 %). Hypothèse change : 1 EUR = 7,8 TTD (6,79 par USD), soit environ 1,88 M TTD. Cas proche de la bande selon l'abattement.
 
 ## Sources
 

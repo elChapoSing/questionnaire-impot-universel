@@ -1,6 +1,6 @@
 # Équateur (EC)
 
-**Taux effectif retenu : 31,0 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 30,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : USD. Cours supposé : 1 EUR = 1,16 USD (hypothèse (la note ne donne aucun cours) : environ 1,16 dollar pour 1 EUR, à remplacer par le cours Yahoo EURUSD=X ; l'Équateur utilise le dollar).
-- Salaire converti : 240 300 € × 1,16 = 278 748 USD.
-- Base imposable : 278 748 USD.
+- Devise : USD. Cours utilisé : 1 EUR = 1,1065 USD (Yahoo Finance EURUSD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1,1065 = 265 884 USD.
+- Base imposable : 265 884 USD.
 
 | De (USD) | À (USD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -24,15 +24,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 46 575 | 62 005 | 25,00 % | 15 430 | 3 858 |
 | 62 005 | 82 679 | 30,00 % | 20 674 | 6 202 |
 | 82 679 | 109 956 | 35,00 % | 27 277 | 9 547 |
-| 109 956 | et plus | 37,00 % | 168 792 | 62 453 |
+| 109 956 | et plus | 37,00 % | 155 928 | 57 693 |
 
-- **Impôt total : 87 025 USD, soit 31,2 % du salaire brut.**
+- **Impôt total : 82 265 USD, soit 30,9 % du salaire brut.**
 - Hypothèse : Barème 2026 du SRI pour les personnes physiques (résolution NAC-DGERCGC25-00000043), fraction exonérée de 12 208 dollars incluse comme tranche à 0 %.
 - Hypothèse : Avant rabais pour dépenses personnelles ; cotisations sociales (IESS) non déduites.
 
 ## Note
 
-Barème 2026 : fraction exonérée de 12 208 dollars, puis de 5 % à 37 % (37 % au-delà de 109 956 dollars). Avant rabais pour dépenses personnelles. Le pays utilise le dollar : seul le cours euro-dollar joue.
+Cours Yahoo EURUSD=X du 13/11/2026 : 1 EUR = 1.106465 USD (hypothèse initiale : 1.16). Taux recalculé : 30,7 % (avant : 31 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 : fraction exonérée de 12 208 dollars, puis de 5 % à 37 % (37 % au-delà de 109 956 dollars). Avant rabais pour dépenses personnelles. Le pays utilise le dollar : seul le cours euro-dollar joue.
 
 ## Sources
 

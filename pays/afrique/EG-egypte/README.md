@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : EGP. Cours supposé : 1 EUR = 55 EGP (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREGP=X).
-- Salaire converti : 240 300 € × 55 = 13 216 500 EGP.
-- Base imposable : 13 216 500 EGP.
+- Devise : EGP. Cours utilisé : 1 EUR = 59,138 EGP (Yahoo Finance EUREGP=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 59,138 = 14 210 861 EGP.
+- Base imposable : 14 210 861 EGP.
 
 | De (EGP) | À (EGP) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 1 200 000 | 25,00 % | 1 200 000 | 300 000 |
-| 1 200 000 | et plus | 27,50 % | 12 016 500 | 3 304 538 |
+| 1 200 000 | et plus | 27,50 % | 13 010 861 | 3 577 987 |
 
-- **Impôt total : 3 604 538 EGP, soit 27,3 % du salaire brut.**
+- **Impôt total : 3 877 987 EGP, soit 27,3 % du salaire brut.**
 - Hypothèse : Pour les hauts revenus, les 1,2 premiers million de livres sont imposés à 25 % (source : Catalogne Trade Portal), ce qui remplace les tranches de 0 / 10 / 15 / 20 / 22,5 % du barème ordinaire (0 % jusqu'à 40 000, puis 10, 15, 20, 22,5, 25 % jusqu'à 1,2 million) ; au-delà, 27,5 %.
 
 ## Note
 
-Barème : 0 % jusqu'à 40 000 livres, 10, 15, 20 et 22,5 % ensuite, 25 % de 400 000 à 1,2 million, 27,5 % au-delà. Pour les hauts revenus, les premiers 1,2 million sont imposés à 25 % (source Catalogne Trade Portal). À 240 300 € (change supposé : 55 livres pour 1 €), le taux effectif est d'environ 27,3 %, au-dessus du seuil quel que soit le change de 50 à 60.
+Cours Yahoo EUREGP=X du 13/11/2026 : 1 EUR = 59.138 EGP (hypothèse initiale : 55). Taux recalculé : 27,3 % (avant : 27,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème : 0 % jusqu'à 40 000 livres, 10, 15, 20 et 22,5 % ensuite, 25 % de 400 000 à 1,2 million, 27,5 % au-delà. Pour les hauts revenus, les premiers 1,2 million sont imposés à 25 % (source Catalogne Trade Portal). À 240 300 € (change supposé : 55 livres pour 1 €), le taux effectif est d'environ 27,3 %, au-dessus du seuil quel que soit le change de 50 à 60.
 
 ## Sources
 

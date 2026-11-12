@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : MOP. Cours supposé : 1 EUR = 9,3 MOP (hypothèse reprise de la note (1 € = 9,3 MOP)).
-- Salaire converti : 240 300 € × 9,3 = 2 234 790 MOP.
-- Base imposable : 2 234 790 MOP.
+- Devise : MOP. Cours utilisé : 1 EUR = 8,9617 MOP (Yahoo Finance EURMOP=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 8,9617 = 2 153 497 MOP.
+- Base imposable : 2 153 497 MOP.
 
 | De (MOP) | À (MOP) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -21,15 +21,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 184 000 | 224 000 | 9,00 % | 40 000 | 3 600 |
 | 224 000 | 304 000 | 10,00 % | 80 000 | 8 000 |
 | 304 000 | 424 000 | 11,00 % | 120 000 | 13 200 |
-| 424 000 | et plus | 12,00 % | 1 810 790 | 217 295 |
+| 424 000 | et plus | 12,00 % | 1 729 497 | 207 540 |
 
-- **Impôt total : 245 095 MOP, soit 11,0 % du salaire brut.**
+- **Impôt total : 235 340 MOP, soit 10,9 % du salaire brut.**
 - Hypothèse : Impôt professionnel 2026 (PwC), plafonné à 12 %.
 - Hypothèse : Déduction forfaitaire de 25 % sur le revenu salarial non appliquée ; elle ramènerait le taux autour de 8 %.
 
 ## Note
 
-Impôt professionnel 2026 : 0 % jusqu'à 144 000 MOP, puis 7 % à 12 % (12 % au-delà de 424 000 MOP). Hypothèse : 1 EUR = 9,3 MOP. La déduction forfaitaire de 25 % sur le revenu salarial, si appliquée, ramènerait le taux autour de 8 %.
+Cours Yahoo EURMOP=X du 13/11/2026 : 1 EUR = 8.9617 MOP (hypothèse initiale : 9.3). Taux recalculé : 11,0 % (avant : 11 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt professionnel 2026 : 0 % jusqu'à 144 000 MOP, puis 7 % à 12 % (12 % au-delà de 424 000 MOP). Hypothèse : 1 EUR = 9,3 MOP. La déduction forfaitaire de 25 % sur le revenu salarial, si appliquée, ramènerait le taux autour de 8 %.
 
 ## Sources
 

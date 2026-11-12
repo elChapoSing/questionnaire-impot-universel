@@ -9,22 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : GBP. Cours supposé : 1 EUR = 0,87 GBP (hypothèse reprise de la note).
-- Salaire converti : 240 300 € × 0,87 = 209 061 GBP.
-- Base imposable : 209 061 GBP.
+- Devise : GBP. Cours utilisé : 1 EUR = 0,8359 GBP (Yahoo Finance EURGBP=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 0,8359 = 200 862 GBP.
+- Base imposable : 200 862 GBP.
 
 | De (GBP) | À (GBP) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 6 500 | 10,00 % | 6 500 | 650 |
-| 6 500 | et plus | 21,00 % | 202 561 | 42 538 |
+| 6 500 | et plus | 21,00 % | 194 362 | 40 816 |
 
-- **Impôt total : 43 188 GBP, soit 20,7 % du salaire brut.**
+- **Impôt total : 41 466 GBP, soit 20,6 % du salaire brut.**
 - Hypothèse : 2026/27 : abattement de 17 000 £ réduit de 1 £ pour 2 £ au-dessus de 100 000 £, donc nul à ce niveau de revenu ; les tranches partent du premier euro.
 - Hypothèse : Plafond d'impôt optionnel de 220 000 £ sans effet ici.
 
 ## Note
 
-2026/27 : 10 % sur les 6 500 premières livres au-dessus de l'abattement, 21 % au-delà. L'abattement de 17 000 £ est réduit de 1 £ pour 2 £ au-dessus de 100 000 £ de revenu : il est nul à 240 300 €. Taux effectif d'environ 20,7 %. Change supposé : 0,87 £ pour 1 € (effet négligeable). Un plafond d'impôt optionnel de 220 000 £ n'a pas d'effet à ce niveau.
+Cours Yahoo EURGBP=X du 13/11/2026 : 1 EUR = 0.83588 GBP (hypothèse initiale : 0.87). Taux recalculé : 20,7 % (avant : 20,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 2026/27 : 10 % sur les 6 500 premières livres au-dessus de l'abattement, 21 % au-delà. L'abattement de 17 000 £ est réduit de 1 £ pour 2 £ au-dessus de 100 000 £ de revenu : il est nul à 240 300 €. Taux effectif d'environ 20,7 %. Change supposé : 0,87 £ pour 1 € (effet négligeable). Un plafond d'impôt optionnel de 220 000 £ n'a pas d'effet à ce niveau.
 
 ## Sources
 

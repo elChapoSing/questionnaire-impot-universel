@@ -1,8 +1,8 @@
 {
   "code": "TM",
   "nom": "Turkménistan",
-  "rate": 10,
-  "note": "Taux général de 10 % applicable aux revenus du travail. Données PwC revues en 2024.",
+  "rate": 10.0,
+  "note": "Cours Yahoo EURTMT=X du 13/11/2026 : 1 EUR = 3.8726275 TMT (hypothèse initiale : 4). Taux recalculé : 10,0 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux général de 10 % applicable aux revenus du travail. Données PwC revues en 2024.",
   "sources": [
     {
       "titre": "PwC Tax Summaries - Turkménistan",
@@ -12,8 +12,8 @@
   ],
   "calc": {
     "devise": "TMT",
-    "fx": 4,
-    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURTMT=X",
+    "fx": 3.8726275,
+    "fx_source": "Yahoo Finance EURTMT=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

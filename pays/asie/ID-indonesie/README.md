@@ -9,25 +9,25 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : IDR. Cours supposé : 1 EUR = 19 500 IDR (la note cite le cours BCE du 27 juillet 2026 sans le chiffrer ; valeur reconstituée, à remplacer par EURIDR=X).
-- Salaire converti : 240 300 € × 19 500 = 4 685 850 000 IDR.
-- Base imposable : 4 685 850 000 IDR.
+- Devise : IDR. Cours utilisé : 1 EUR = 20 242 IDR (Yahoo Finance EURIDR=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 20 242 = 4 864 152 600 IDR.
+- Base imposable : 4 864 152 600 IDR.
 
 | De (IDR) | À (IDR) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 60 000 000 | 5,00 % | 60 000 000 | 3 000 000 |
 | 60 000 000 | 250 000 000 | 15,00 % | 190 000 000 | 28 500 000 |
 | 250 000 000 | 500 000 000 | 25,00 % | 250 000 000 | 62 500 000 |
-| 500 000 000 | 5 000 000 000 | 30,00 % | 4 185 850 000 | 1 255 755 000 |
+| 500 000 000 | 5 000 000 000 | 30,00 % | 4 364 152 600 | 1 309 245 780 |
 | 5 000 000 000 | et plus | 35,00 % | 0 | 0 |
 
-- **Impôt total : 1 349 755 000 IDR, soit 28,8 % du salaire brut.**
+- **Impôt total : 1 403 245 780 IDR, soit 28,8 % du salaire brut.**
 - Hypothèse : Barème de l'article 17 de la loi sur l'impôt sur le revenu (5 à 35 %).
 - Hypothèse : Revenu non imposable (PTKP) et frais professionnels exclus ; la note indique 28,7 à 29,6 % si le change varie de 15 %.
 
 ## Note
 
-Barème de 5 à 35 % (35 % au-delà de 5 milliards de roupies). Taux de change BCE du 27 juillet 2026 ; résultat entre 28,7 et 29,6 % si le change varie de 15 %.
+Cours Yahoo EURIDR=X du 13/11/2026 : 1 EUR = 20242.0 IDR (hypothèse initiale : 19500). Taux recalculé : 28,9 % (avant : 28,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème de 5 à 35 % (35 % au-delà de 5 milliards de roupies). Taux de change BCE du 27 juillet 2026 ; résultat entre 28,7 et 29,6 % si le change varie de 15 %.
 
 ## Sources
 

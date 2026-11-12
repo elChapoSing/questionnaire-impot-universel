@@ -62,7 +62,7 @@ def readme(d):
     if c:
         sal, base, rows, tax, pct = compute(c)
         dev = c["devise"]
-        o.append(f"- Devise : {dev}. Cours supposé : 1 EUR = {fr(c['fx'], 4).rstrip('0').rstrip(',')} {dev} ({c.get('fx_source', 'hypothèse, à confirmer')}).")
+        o.append(f"- Devise : {dev}. Cours utilisé : 1 EUR = {fr(c['fx'], 4).rstrip('0').rstrip(',')} {dev} ({c.get('fx_source', 'hypothèse, à confirmer')}).")
         o.append(f"- Salaire converti : {fr(SALAIRE_EUR, 0)} € × {fr(c['fx'], 4).rstrip('0').rstrip(',')} = {fr(sal, 0)} {dev}.")
         for lab, a in c.get("deductions", []):
             o.append(f"- Déduction : {lab} : − {fr(a, 0)} {dev}.")
@@ -145,6 +145,7 @@ def build():
            "```json", '{ "code": "SE", "nom": "Suède", "rate": 47.5, "note": "…",', '  "sources": [{ "titre": "…", "url": "https://…", "type": "officielle|non officielle" }],',
            '  "calc": { "devise": "SEK", "fx": 11, "fx_source": "Yahoo Finance EURSEK=X",', '    "deductions": [["libellé", 0]],', '    "tranches": [[0, 643000, 32.38], [643000, null, 52.38]],',
            '    "credits": [["libellé", 0]], "majorations": [["libellé", 9]], "hypotheses": ["…"] } }', "```", "",
+           "**Taux de change :** cours Yahoo Finance (EURxxx=X) vérifiés le 13 novembre 2026, voir `taux_de_change_EUR_verifie_2026-11-13.csv` à la racine du dépôt.", "",
            "Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul tranche par tranche et signale tout écart de plus de 0,5 point avec `rate`.", ""]
     for k in CONT_LABEL:
         sel = [d for d in ds if CONT[d["code"]] == k]

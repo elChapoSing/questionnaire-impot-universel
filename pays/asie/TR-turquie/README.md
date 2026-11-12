@@ -1,6 +1,6 @@
 # Turquie (TR)
 
-**Taux effectif retenu : 36,5 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 36,9 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : TRY. Cours supposé : 1 EUR = 50 TRY (hypothèse reprise de la note (50 livres pour 1 €)).
-- Salaire converti : 240 300 € × 50 = 12 015 000 TRY.
-- Base imposable : 12 015 000 TRY.
+- Devise : TRY. Cours utilisé : 1 EUR = 55,7364 TRY (Yahoo Finance EURTRY=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 55,7364 = 13 393 464 TRY.
+- Base imposable : 13 393 464 TRY.
 
 | De (TRY) | À (TRY) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,15 +19,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 190 000 | 400 000 | 20,00 % | 210 000 | 42 000 |
 | 400 000 | 1 500 000 | 27,00 % | 1 100 000 | 297 000 |
 | 1 500 000 | 5 300 000 | 35,00 % | 3 800 000 | 1 330 000 |
-| 5 300 000 | et plus | 40,00 % | 6 715 000 | 2 686 000 |
+| 5 300 000 | et plus | 40,00 % | 8 093 464 | 3 237 386 |
 
-- **Impôt total : 4 383 500 TRY, soit 36,5 % du salaire brut.**
+- **Impôt total : 4 934 886 TRY, soit 36,8 % du salaire brut.**
 - Hypothèse : Barème 2026 des salaires.
 - Hypothèse : Le taux reste au-dessus de 36 % de 45 à 55 livres pour 1 €. Déductions exclues.
 
 ## Note
 
-Barème 2026 des salaires : 15 % jusqu'à 190 000 livres, 20 % jusqu'à 400 000, 27 % jusqu'à 1,5 million, 35 % jusqu'à 5,3 millions, 40 % au-delà. À 240 300 € (change supposé : 50 livres pour 1 €), le taux effectif est d'environ 36,5 %. Il reste au-dessus de 36 % de 45 à 55 livres pour 1 €.
+Cours Yahoo EURTRY=X du 13/11/2026 : 1 EUR = 55.73643 TRY (hypothèse initiale : 50). Taux recalculé : 36,9 % (avant : 36,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 des salaires : 15 % jusqu'à 190 000 livres, 20 % jusqu'à 400 000, 27 % jusqu'à 1,5 million, 35 % jusqu'à 5,3 millions, 40 % au-delà. À 240 300 € (change supposé : 50 livres pour 1 €), le taux effectif est d'environ 36,5 %. Il reste au-dessus de 36 % de 45 à 55 livres pour 1 €.
 
 ## Sources
 

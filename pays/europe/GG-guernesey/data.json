@@ -1,8 +1,8 @@
 {
   "code": "GG",
   "nom": "Guernesey",
-  "rate": 20,
-  "note": "Taux unique de 20 %. L'abattement personnel (15 200 £ en 2026) est supprimé progressivement au-delà de 85 000 £ de revenu : il est donc nul à 240 300 €. Taux effectif de 20 %. Des plafonds d'impôt existent sur option (160 000 £ pour les revenus de source étrangère), sans effet à ce niveau de revenu.",
+  "rate": 20.0,
+  "note": "Cours Yahoo EURGBP=X du 13/11/2026 : 1 EUR = 0.83588 GBP (hypothèse initiale : 0.87). Taux recalculé : 20,0 % (avant : 20 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux unique de 20 %. L'abattement personnel (15 200 £ en 2026) est supprimé progressivement au-delà de 85 000 £ de revenu : il est donc nul à 240 300 €. Taux effectif de 20 %. Des plafonds d'impôt existent sur option (160 000 £ pour les revenus de source étrangère), sans effet à ce niveau de revenu.",
   "sources": [
     {
       "titre": "PwC Tax Summaries, Guernesey",
@@ -22,8 +22,8 @@
   ],
   "calc": {
     "devise": "GBP",
-    "fx": 0.87,
-    "fx_source": "la note ne donne pas de cours : hypothèse de 0,87 GBP pour 1 EUR (comme pour le Royaume-Uni), à remplacer par le cours Yahoo EURGBP=X ; sans effet avec un taux unique",
+    "fx": 0.83588,
+    "fx_source": "Yahoo Finance EURGBP=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

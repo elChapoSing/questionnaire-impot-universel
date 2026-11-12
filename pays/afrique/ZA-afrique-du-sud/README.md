@@ -1,6 +1,6 @@
 # Afrique du Sud (ZA)
 
-**Taux effectif retenu : 40,9 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 40,6 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : ZAR. Cours supposé : 1 EUR = 20 ZAR (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURZAR=X).
-- Salaire converti : 240 300 € × 20 = 4 806 000 ZAR.
-- Base imposable : 4 806 000 ZAR.
+- Devise : ZAR. Cours utilisé : 1 EUR = 18,5531 ZAR (Yahoo Finance EURZAR=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 18,5531 = 4 458 322 ZAR.
+- Base imposable : 4 458 322 ZAR.
 
 | De (ZAR) | À (ZAR) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -21,15 +21,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 530 200 | 695 800 | 36,00 % | 165 600 | 59 616 |
 | 695 800 | 887 000 | 39,00 % | 191 200 | 74 568 |
 | 887 000 | 1 878 600 | 41,00 % | 991 600 | 406 556 |
-| 1 878 600 | et plus | 45,00 % | 2 927 400 | 1 317 330 |
+| 1 878 600 | et plus | 45,00 % | 2 579 722 | 1 160 875 |
 
 - Crédit : Abattement (rebate) principal : − 17 820 ZAR.
-- **Impôt total : 1 965 849 ZAR, soit 40,9 % du salaire brut.**
+- **Impôt total : 1 809 394 ZAR, soit 40,6 % du salaire brut.**
 - Hypothèse : Barème 2026/27 : 666 339 rands d'impôt au seuil de 1 878 600, puis 45 %.
 
 ## Note
 
-Barème 2026/27 : 666 339 rands + 45 % de la part de revenu imposable au-dessus de 1 878 600 rands, moins l'abattement principal de 17 820 rands. À 240 300 € (change supposé : 20 rands pour 1 €), le taux effectif est d'environ 40,9 %. Aucun change plausible ne le ramène sous 40 %.
+Cours Yahoo EURZAR=X du 13/11/2026 : 1 EUR = 18.55315 ZAR (hypothèse initiale : 20). Taux recalculé : 40,6 % (avant : 40,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026/27 : 666 339 rands + 45 % de la part de revenu imposable au-dessus de 1 878 600 rands, moins l'abattement principal de 17 820 rands. À 240 300 € (change supposé : 20 rands pour 1 €), le taux effectif est d'environ 40,9 %. Aucun change plausible ne le ramène sous 40 %.
 
 ## Sources
 

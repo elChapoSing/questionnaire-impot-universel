@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : BAM. Cours supposé : 1 EUR = 1,9558 BAM (parité fixe du mark convertible (1,95583 BAM pour 1 EUR)).
-- Salaire converti : 240 300 € × 1,9558 = 469 986 BAM.
-- Base imposable : 469 986 BAM.
+- Devise : BAM. Cours utilisé : 1 EUR = 1,9558 BAM (Yahoo Finance EURBAM=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1,9558 = 469 979 BAM.
+- Base imposable : 469 979 BAM.
 
 | De (BAM) | À (BAM) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 10,00 % | 469 986 | 46 999 |
+| 0 | et plus | 10,00 % | 469 979 | 46 998 |
 
-- **Impôt total : 46 999 BAM, soit 10,0 % du salaire brut.**
+- **Impôt total : 46 998 BAM, soit 10,0 % du salaire brut.**
 - Hypothèse : Impôt forfaitaire de 10 % (Fédération de Bosnie-Herzégovine, Brčko, et Republika Srpska selon PwC ; 8 % selon d'autres sources).
 - Hypothèse : Cotisations sociales exclues.
 
 ## Note
 
-Impôt forfaitaire de 10 % dans la Fédération de Bosnie-Herzégovine, à Brčko et, selon PwC, en Republika Srpska (8 % selon d'autres sources). Les deux valeurs sont sous le seuil. Les cotisations sociales sont exclues.
+Cours Yahoo EURBAM=X du 13/11/2026 : 1 EUR = 1.9558 BAM (hypothèse initiale : 1.95583). Taux recalculé : 10,0 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt forfaitaire de 10 % dans la Fédération de Bosnie-Herzégovine, à Brčko et, selon PwC, en Republika Srpska (8 % selon d'autres sources). Les deux valeurs sont sous le seuil. Les cotisations sociales sont exclues.
 
 ## Sources
 

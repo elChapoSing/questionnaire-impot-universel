@@ -1,8 +1,8 @@
 {
   "code": "UZ",
   "nom": "Ouzbékistan",
-  "rate": 12,
-  "note": "Taux unique de 12 %, hors cotisation retraite de 4 % et taxe sociale employeur.",
+  "rate": 12.0,
+  "note": "Cours Yahoo EURUZS=X du 13/11/2026 : 1 EUR = 13278.0 UZS (hypothèse initiale : 14000). Taux recalculé : 12,0 % (avant : 12 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux unique de 12 %, hors cotisation retraite de 4 % et taxe sociale employeur.",
   "sources": [
     {
       "titre": "PwC Worldwide Tax Summaries",
@@ -17,8 +17,8 @@
   ],
   "calc": {
     "devise": "UZS",
-    "fx": 14000,
-    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURUZS=X",
+    "fx": 13278.0,
+    "fx_source": "Yahoo Finance EURUZS=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

@@ -1,6 +1,6 @@
 # Azerbaïdjan (AZ)
 
-**Taux effectif retenu : entre 12,7 et 24,3 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : entre 12,6 et 24,2 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement en dessous du seuil (condition remplie).**
 
 ## Cas de référence
@@ -9,23 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : AZN. Cours supposé : 1 EUR = 1,97 AZN (hypothèse reprise de la note, à remplacer par le cours Yahoo EURAZN=X).
-- Salaire converti : 240 300 € × 1,97 = 473 391 AZN.
-- Base imposable : 473 391 AZN.
+- Devise : AZN. Cours utilisé : 1 EUR = 1,8832 AZN (Yahoo Finance EURAZN=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1,8832 = 452 533 AZN.
+- Base imposable : 452 533 AZN.
 
 | De (AZN) | À (AZN) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 30 000 | 3,00 % | 30 000 | 900 |
 | 30 000 | 96 000 | 10,00 % | 66 000 | 6 600 |
-| 96 000 | et plus | 14,00 % | 377 391 | 52 835 |
+| 96 000 | et plus | 14,00 % | 356 533 | 49 915 |
 
-- **Impôt total : 60 335 AZN, soit 12,7 % du salaire brut.**
+- **Impôt total : 57 415 AZN, soit 12,7 % du salaire brut.**
 - Hypothèse : Barème mensuel de la note converti en annuel : 3 % jusqu'à 2 500 AZN/mois (30 000 par an), 10 % jusqu'à 8 000 (96 000 par an), 14 % au-delà (secteur privé non pétrolier).
 - Hypothèse : Variante secteur pétrole/gaz ou public (14 % jusqu'à 30 000, puis 25 %) : environ 24,3 %.
 
 ## Note
 
-Hypothèse : 1 EUR = 1,97 AZN. Barème général 2026 (secteur privé non pétrolier) : 3 % jusqu'à 2 500 AZN/mois, 10 % jusqu'à 8 000, 14 % au-delà. Si secteur pétrole/gaz ou public : 14 % puis 25 % au-delà de 2 500, soit environ 24,3 %. Sources partiellement divergentes sur les tranches hautes.
+Cours Yahoo EURAZN=X du 13/11/2026 : 1 EUR = 1.8832 AZN (hypothèse initiale : 1.97). Taux recalculé : 12,6 % (avant : 12,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Hypothèse : 1 EUR = 1,97 AZN. Barème général 2026 (secteur privé non pétrolier) : 3 % jusqu'à 2 500 AZN/mois, 10 % jusqu'à 8 000, 14 % au-delà. Si secteur pétrole/gaz ou public : 14 % puis 25 % au-delà de 2 500, soit environ 24,3 %. Sources partiellement divergentes sur les tranches hautes.
 
 ## Sources
 

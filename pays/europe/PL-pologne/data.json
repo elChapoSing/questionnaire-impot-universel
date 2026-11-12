@@ -1,8 +1,8 @@
 {
   "code": "PL",
   "nom": "Pologne",
-  "rate": 29.5,
-  "note": "Barème de 12 % puis 32 % au-delà de 120 000 zlotys, plus la contribution de solidarité de 4 % au-delà d'un million de zlotys. Cotisation santé exclue.",
+  "rate": 29.7,
+  "note": "Cours Yahoo EURPLN=X du 13/11/2026 : 1 EUR = 4.402175 PLN (hypothèse initiale : 4.25). Taux recalculé : 29,7 % (avant : 29,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème de 12 % puis 32 % au-delà de 120 000 zlotys, plus la contribution de solidarité de 4 % au-delà d'un million de zlotys. Cotisation santé exclue.",
   "sources": [
     {
       "titre": "Portail fiscal du gouvernement polonais, barème et limites",
@@ -17,8 +17,8 @@
   ],
   "calc": {
     "devise": "PLN",
-    "fx": 4.25,
-    "fx_source": "valeur indicative (la note n'en donne pas), à remplacer par le cours Yahoo EURPLN=X",
+    "fx": 4.402175,
+    "fx_source": "Yahoo Finance EURPLN=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

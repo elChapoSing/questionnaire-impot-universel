@@ -1,12 +1,12 @@
 {
   "code": "DJ",
   "nom": "Djibouti",
-  "rate": 37.6,
+  "rate": 37.3,
   "range": [
-    37,
-    38.4
+    36.7,
+    38.1
   ],
-  "note": "ITS mensuel à 8 tranches, taux maximal 45 % au-delà de 2 M DJF/mois. Change (hypothèse) : 1 EUR = 206 DJF (arrimage USD). Cotisation CNSS de 6 % déductible non appliquée.",
+  "note": "Cours Yahoo EURDJF=X du 13/11/2026 : 1 EUR = 197.53 DJF (hypothèse initiale : 206). Taux recalculé : 37,3 % (avant : 37,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. ITS mensuel à 8 tranches, taux maximal 45 % au-delà de 2 M DJF/mois. Change (hypothèse) : 1 EUR = 206 DJF (arrimage USD). Cotisation CNSS de 6 % déductible non appliquée.",
   "sources": [
     {
       "titre": "AfroTools - calcul salaire net Djibouti",
@@ -16,8 +16,8 @@
   ],
   "calc": {
     "devise": "DJF",
-    "fx": 206,
-    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURDJF=X",
+    "fx": 197.53,
+    "fx_source": "Yahoo Finance EURDJF=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

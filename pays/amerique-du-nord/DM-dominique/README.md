@@ -1,6 +1,6 @@
 # Dominique (DM)
 
-**Taux effectif retenu : 32,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 32,6 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,24 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : XCD. Cours supposé : 1 EUR = 3,105 XCD (hypothèse reprise de la note : 2,7 XCD par USD, EUR/USD 1,15).
-- Salaire converti : 240 300 € × 3,105 = 746 132 XCD.
-- Base imposable : 746 132 XCD.
+- Devise : XCD. Cours utilisé : 1 EUR = 2,9903 XCD (Yahoo Finance EURXCD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 2,9903 = 718 564 XCD.
+- Base imposable : 718 564 XCD.
 
 | De (XCD) | À (XCD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 30 000 | 0,00 % | 30 000 | 0 |
 | 30 000 | 50 000 | 15,00 % | 20 000 | 3 000 |
 | 50 000 | 80 000 | 25,00 % | 30 000 | 7 500 |
-| 80 000 | et plus | 35,00 % | 666 132 | 233 146 |
+| 80 000 | et plus | 35,00 % | 638 564 | 223 497 |
 
-- **Impôt total : 243 646 XCD, soit 32,7 % du salaire brut.**
+- **Impôt total : 233 997 XCD, soit 32,6 % du salaire brut.**
 - Hypothèse : Barème en vigueur 2026 ; la borne de 50 000 XCD entre les taux de 15 % et 25 % est une valeur de reconstitution qui ne figure pas dans la note (à vérifier ; sans effet sensible au-delà de 80 000).
 - Hypothèse : Réforme annoncée (taux unique de 10 % dès 2027) non votée, non prise en compte.
 
 ## Note
 
-Barème en vigueur 2026 : 0 % jusqu'à 30 000, 15 %, 25 % puis 35 % au-delà de 80 000 XCD. Hypothèse change : 1 EUR = 3,105 XCD (parité 2,7 par USD, EUR/USD 1,15). Réforme annoncée (taux unique de 10 % dès 2027), pas encore votée.
+Cours Yahoo EURXCD=X du 13/11/2026 : 1 EUR = 2.990276985 XCD (hypothèse initiale : 3.105). Taux recalculé : 32,6 % (avant : 32,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème en vigueur 2026 : 0 % jusqu'à 30 000, 15 %, 25 % puis 35 % au-delà de 80 000 XCD. Hypothèse change : 1 EUR = 3,105 XCD (parité 2,7 par USD, EUR/USD 1,15). Réforme annoncée (taux unique de 10 % dès 2027), pas encore votée.
 
 ## Sources
 

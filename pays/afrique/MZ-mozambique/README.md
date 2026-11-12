@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : MZN. Cours supposé : 1 EUR = 74 MZN (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMZN=X).
-- Salaire converti : 240 300 € × 74 = 17 782 200 MZN.
-- Base imposable : 17 782 200 MZN.
+- Devise : MZN. Cours utilisé : 1 EUR = 71,348 MZN (Yahoo Finance EURMZN=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 71,348 = 17 144 929 MZN.
+- Base imposable : 17 144 929 MZN.
 
 | De (MZN) | À (MZN) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 32,00 % | 17 782 200 | 5 690 304 |
+| 0 | et plus | 32,00 % | 17 144 929 | 5 486 377 |
 
 - Crédit : Parcela a abater de la formule IRPS (PwC) : − 141 540 MZN.
-- **Impôt total : 5 548 764 MZN, soit 31,2 % du salaire brut.**
+- **Impôt total : 5 344 837 MZN, soit 31,2 % du salaire brut.**
 - Hypothèse : Formule applicable à la dernière tranche (au-delà de 1,512 M MZN) : impôt = 32 % x revenu imposable - 141 540.
 
 ## Note
 
-IRPS : taux maximal 32 % au-delà de 1,512 M MZN avec déduction de 141 540 MZN (formule PwC). Change (hypothèse) : 1 EUR = 74 MZN.
+Cours Yahoo EURMZN=X du 13/11/2026 : 1 EUR = 71.34802 MZN (hypothèse initiale : 74). Taux recalculé : 31,2 % (avant : 31,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. IRPS : taux maximal 32 % au-delà de 1,512 M MZN avec déduction de 141 540 MZN (formule PwC). Change (hypothèse) : 1 EUR = 74 MZN.
 
 ## Sources
 

@@ -1,6 +1,6 @@
 # Costa Rica (CR)
 
-**Taux effectif retenu : 20,4 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 19,9 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Discutable.**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : CRC. Cours supposé : 1 EUR = 557 CRC (hypothèse reprise de la note, à remplacer par le cours Yahoo EURCRC=X).
-- Salaire converti : 240 300 € × 557 = 133 847 100 CRC.
-- Base imposable : 133 847 100 CRC.
+- Devise : CRC. Cours utilisé : 1 EUR = 500,8 CRC (Yahoo Finance EURCRC=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 500,8 = 120 342 240 CRC.
+- Base imposable : 120 342 240 CRC.
 
 | De (CRC) | À (CRC) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,16 +19,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 11 016 000 | 16 164 000 | 10,00 % | 5 148 000 | 514 800 |
 | 16 164 000 | 28 368 000 | 15,00 % | 12 204 000 | 1 830 600 |
 | 28 368 000 | 56 724 000 | 20,00 % | 28 356 000 | 5 671 200 |
-| 56 724 000 | et plus | 25,00 % | 77 123 100 | 19 280 775 |
+| 56 724 000 | et plus | 25,00 % | 63 618 240 | 15 904 560 |
 
-- **Impôt total : 27 297 375 CRC, soit 20,4 % du salaire brut.**
+- **Impôt total : 23 921 160 CRC, soit 19,9 % du salaire brut.**
 - Hypothèse : Barème mensuel du décret 45333-H (2026) multiplié par 12 : 0 % jusqu'à 918 000 CRC par mois, puis 10, 15, 20 et 25 % au-delà de 1 347 000, 2 364 000 et 4 727 000.
 - Hypothèse : Calculé sur le brut, sans déduire la cotisation CCSS ; crédits familiaux non appliqués.
 - Hypothèse : Barème des salariés ; un barème distinct s'applique aux indépendants.
 
 ## Note
 
-Impôt sur le salaire 2026 (décret 45333-H) : 0 % jusqu'à 918 000 colons par mois, puis 10 %, 15 %, 20 %, 25 % au-delà de 4 727 000. De 19,3 % à 20,7 % pour 450 à 600 colons pour 1 €. Change supposé : 557 colons pour 1 €. Barème des salariés ; un barème distinct s'applique aux indépendants.
+Cours Yahoo EURCRC=X du 13/11/2026 : 1 EUR = 500.8 CRC (hypothèse initiale : 557). Taux recalculé : 19,9 % (avant : 20,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt sur le salaire 2026 (décret 45333-H) : 0 % jusqu'à 918 000 colons par mois, puis 10 %, 15 %, 20 %, 25 % au-delà de 4 727 000. De 19,3 % à 20,7 % pour 450 à 600 colons pour 1 €. Change supposé : 557 colons pour 1 €. Barème des salariés ; un barème distinct s'applique aux indépendants.
 
 ## Sources
 

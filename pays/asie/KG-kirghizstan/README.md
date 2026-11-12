@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : KGS. Cours supposé : 1 EUR = 100 KGS (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURKGS=X).
-- Salaire converti : 240 300 € × 100 = 24 030 000 KGS.
-- Base imposable : 24 030 000 KGS.
+- Devise : KGS. Cours utilisé : 1 EUR = 96,7591 KGS (Yahoo Finance EURKGS=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 96,7591 = 23 251 223 KGS.
+- Base imposable : 23 251 223 KGS.
 
 | De (KGS) | À (KGS) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 10,00 % | 24 030 000 | 2 403 000 |
+| 0 | et plus | 10,00 % | 23 251 223 | 2 325 122 |
 
-- **Impôt total : 2 403 000 KGS, soit 10,0 % du salaire brut.**
+- **Impôt total : 2 325 122 KGS, soit 10,0 % du salaire brut.**
 - Hypothèse : Taux forfaitaire de 10 % sur les revenus du travail.
 - Hypothèse : Cotisations sociales exclues ; le taux ne dépend pas du change.
 
 ## Note
 
-Taux forfaitaire de 10 % sur les revenus du travail. Cotisations sociales exclues. Données PwC revues en 2024.
+Cours Yahoo EURKGS=X du 13/11/2026 : 1 EUR = 96.75914713 KGS (hypothèse initiale : 100). Taux recalculé : 10,0 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux forfaitaire de 10 % sur les revenus du travail. Cotisations sociales exclues. Données PwC revues en 2024.
 
 ## Sources
 

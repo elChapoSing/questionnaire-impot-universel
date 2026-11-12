@@ -1,8 +1,8 @@
 {
   "code": "MU",
   "nom": "Maurice",
-  "rate": 19.4,
-  "note": "Barème 2025-26 : 0 % jusqu'à 500 000 roupies, 10 % jusqu'à 1 million, 20 % au-delà. La loi de finances 2026 ajoute 35 % au-delà de 12 millions à partir du 1er juillet 2026. À 240 300 €, soit environ 12,5 millions de roupies (change supposé : 52 roupies pour 1 €), le taux effectif est de 18,8 % sans la tranche à 35 % et de 19,4 % avec. Le résultat dépend du change et du barème retenu.",
+  "rate": 19.6,
+  "note": "Cours Yahoo EURMUR=X du 13/11/2026 : 1 EUR = 52.6 MUR (hypothèse initiale : 52). Taux recalculé : 19,6 % (avant : 19,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2025-26 : 0 % jusqu'à 500 000 roupies, 10 % jusqu'à 1 million, 20 % au-delà. La loi de finances 2026 ajoute 35 % au-delà de 12 millions à partir du 1er juillet 2026. À 240 300 €, soit environ 12,5 millions de roupies (change supposé : 52 roupies pour 1 €), le taux effectif est de 18,8 % sans la tranche à 35 % et de 19,4 % avec. Le résultat dépend du change et du barème retenu.",
   "sources": [
     {
       "titre": "Mauritius Revenue Authority, barème individuel (0 / 10 / 20 %)",
@@ -22,8 +22,8 @@
   ],
   "calc": {
     "devise": "MUR",
-    "fx": 52,
-    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMUR=X",
+    "fx": 52.6,
+    "fx_source": "Yahoo Finance EURMUR=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

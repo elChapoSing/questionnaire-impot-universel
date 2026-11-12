@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : MAD. Cours supposé : 1 EUR = 10,8 MAD (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMAD=X).
-- Salaire converti : 240 300 € × 10,8 = 2 595 240 MAD.
-- Base imposable : 2 595 240 MAD.
+- Devise : MAD. Cours utilisé : 1 EUR = 10,9261 MAD (Yahoo Finance EURMAD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 10,9261 = 2 625 542 MAD.
+- Base imposable : 2 625 542 MAD.
 
 | De (MAD) | À (MAD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -20,14 +20,14 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 60 000 | 80 000 | 20,00 % | 20 000 | 4 000 |
 | 80 000 | 100 000 | 30,00 % | 20 000 | 6 000 |
 | 100 000 | 180 000 | 34,00 % | 80 000 | 27 200 |
-| 180 000 | et plus | 37,00 % | 2 415 240 | 893 639 |
+| 180 000 | et plus | 37,00 % | 2 445 542 | 904 850 |
 
-- **Impôt total : 932 839 MAD, soit 35,9 % du salaire brut.**
+- **Impôt total : 944 050 MAD, soit 36,0 % du salaire brut.**
 - Hypothèse : Barème IR salarial 2026 ; abattement forfaitaire pour frais professionnels et cotisations sociales exclus (effet faible sur le taux).
 
 ## Note
 
-Barème des salaires 2026 : 0 % jusqu'à 40 000 dirhams, 10, 20, 30 et 34 % ensuite, 37 % au-delà de 180 000 (la tranche à 38 % a été fusionnée). À 240 300 € (change supposé : 10,8 dirhams pour 1 €), le taux effectif est d'environ 35,9 %. Abattement forfaitaire pour frais professionnels et cotisations sociales exclus (ils réduiraient peu le taux).
+Cours Yahoo EURMAD=X du 13/11/2026 : 1 EUR = 10.9261 MAD (hypothèse initiale : 10.8). Taux recalculé : 35,9 % (avant : 35,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème des salaires 2026 : 0 % jusqu'à 40 000 dirhams, 10, 20, 30 et 34 % ensuite, 37 % au-delà de 180 000 (la tranche à 38 % a été fusionnée). À 240 300 € (change supposé : 10,8 dirhams pour 1 €), le taux effectif est d'environ 35,9 %. Abattement forfaitaire pour frais professionnels et cotisations sociales exclus (ils réduiraient peu le taux).
 
 ## Sources
 

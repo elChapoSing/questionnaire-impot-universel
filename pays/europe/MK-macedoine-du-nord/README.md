@@ -9,20 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : MKD. Cours supposé : 1 EUR = 61,5 MKD (valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel).
-- Salaire converti : 240 300 € × 61,5 = 14 778 450 MKD.
-- Base imposable : 14 778 450 MKD.
+- Devise : MKD. Cours utilisé : 1 EUR = 61,555 MKD (Yahoo Finance EURMKD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 61,555 = 14 791 666 MKD.
+- Base imposable : 14 791 666 MKD.
 
 | De (MKD) | À (MKD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 10,00 % | 14 778 450 | 1 477 845 |
+| 0 | et plus | 10,00 % | 14 791 666 | 1 479 167 |
 
-- **Impôt total : 1 477 845 MKD, soit 10,0 % du salaire brut.**
+- **Impôt total : 1 479 167 MKD, soit 10,0 % du salaire brut.**
 - Hypothèse : Impôt forfaitaire de 10 % ; la déduction des cotisations sociales et de l'abattement mensuel fixe n'est pas appliquée : le taux effectif réel est donc au plus de 10 %.
 
 ## Note
 
-Impôt forfaitaire de 10 % sur les revenus du travail, après déduction des cotisations sociales et d'un abattement mensuel fixe. Le taux effectif est donc au plus de 10 %.
+Cours Yahoo EURMKD=X du 13/11/2026 : 1 EUR = 61.555 MKD (hypothèse initiale : 61.5). Taux recalculé : 10,0 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt forfaitaire de 10 % sur les revenus du travail, après déduction des cotisations sociales et d'un abattement mensuel fixe. Le taux effectif est donc au plus de 10 %.
 
 ## Sources
 

@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : SLE. Cours supposé : 1 EUR = 27 SLE (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURSLE=X).
-- Salaire converti : 240 300 € × 27 = 6 488 100 SLE.
-- Base imposable : 6 488 100 SLE.
+- Devise : SLE. Cours utilisé : 1 EUR = 25,338 SLE (Yahoo Finance EURSLE=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 25,338 = 6 088 733 SLE.
+- Base imposable : 6 088 733 SLE.
 
 | De (SLE) | À (SLE) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,15 +19,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 7 200 | 14 400 | 15,00 % | 7 200 | 1 080 |
 | 14 400 | 21 600 | 20,00 % | 7 200 | 1 440 |
 | 21 600 | 28 800 | 25,00 % | 7 200 | 1 800 |
-| 28 800 | et plus | 30,00 % | 6 459 300 | 1 937 790 |
+| 28 800 | et plus | 30,00 % | 6 059 933 | 1 817 980 |
 
-- **Impôt total : 1 942 110 SLE, soit 29,9 % du salaire brut.**
+- **Impôt total : 1 822 300 SLE, soit 29,9 % du salaire brut.**
 - Hypothèse : Barème PAYE mensuel multiplié par 12.
 - Hypothèse : Cotisation NASSIT de 5 % déductible non appliquée.
 
 ## Note
 
-PAYE mensuel : taux maximal 30 % au-delà de 2 400 SLE/mois ; barème inchangé selon la loi de finances 2026. Change (hypothèse) : 1 EUR = 27 SLE. Cotisation NASSIT de 5 % déductible non appliquée.
+Cours Yahoo EURSLE=X du 13/11/2026 : 1 EUR = 25.3380485 SLE (hypothèse initiale : 27). Taux recalculé : 29,9 % (avant : 29,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. PAYE mensuel : taux maximal 30 % au-delà de 2 400 SLE/mois ; barème inchangé selon la loi de finances 2026. Change (hypothèse) : 1 EUR = 27 SLE. Cotisation NASSIT de 5 % déductible non appliquée.
 
 ## Sources
 

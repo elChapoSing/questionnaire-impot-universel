@@ -1,8 +1,8 @@
 {
   "code": "NO",
   "nom": "Norvège",
-  "rate": 35.5,
-  "note": "Norvège 2026 : 22 % d'impôt ordinaire plus impôt par paliers (trinnskatt) de 1,7 % à environ 17,8 % sur le revenu brut. Calcul à 11,7 NOK/EUR (hypothèse), sans cotisation d'assurance nationale ni abattements : environ 35,5 %. Les sources divergent sur les seuils exacts des paliers.",
+  "rate": 35.0,
+  "note": "Cours Yahoo EURNOK=X du 13/11/2026 : 1 EUR = 10.59418 NOK (hypothèse initiale : 11.7). Taux recalculé : 35,0 % (avant : 35,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Norvège 2026 : 22 % d'impôt ordinaire plus impôt par paliers (trinnskatt) de 1,7 % à environ 17,8 % sur le revenu brut. Calcul à 11,7 NOK/EUR (hypothèse), sans cotisation d'assurance nationale ni abattements : environ 35,5 %. Les sources divergent sur les seuils exacts des paliers.",
   "sources": [
     {
       "titre": "PwC Tax Summaries, Norvège",
@@ -17,8 +17,8 @@
   ],
   "calc": {
     "devise": "NOK",
-    "fx": 11.7,
-    "fx_source": "hypothèse reprise de la note",
+    "fx": 10.59418,
+    "fx_source": "Yahoo Finance EURNOK=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

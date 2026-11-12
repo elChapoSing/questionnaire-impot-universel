@@ -1,8 +1,8 @@
 {
   "code": "BT",
   "nom": "Bhoutan",
-  "rate": 28.3,
-  "note": "Nouveau barème Income Tax Act 2025, en vigueur 2026 : taux de 5 % à 30 %, 30 % au-delà de 3,5 M Nu. Hypothèse : 1 EUR = 100 BTN (peg à la roupie indienne). Taux peu sensible au change. Pas de surtaxe mentionnée dans la notification.",
+  "rate": 28.4,
+  "note": "Cours Yahoo EURBTN=X du 13/11/2026 : 1 EUR = 104.264 BTN (hypothèse initiale : 100). Taux recalculé : 28,4 % (avant : 28,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Nouveau barème Income Tax Act 2025, en vigueur 2026 : taux de 5 % à 30 %, 30 % au-delà de 3,5 M Nu. Hypothèse : 1 EUR = 100 BTN (peg à la roupie indienne). Taux peu sensible au change. Pas de surtaxe mentionnée dans la notification.",
   "sources": [
     {
       "titre": "Département des recettes (DRC) - notification Income Tax Act",
@@ -12,8 +12,8 @@
   ],
   "calc": {
     "devise": "BTN",
-    "fx": 100,
-    "fx_source": "hypothèse reprise de la note (1 € = 100 ngultrums, peg à la roupie indienne)",
+    "fx": 104.264,
+    "fx_source": "Yahoo Finance EURBTN=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

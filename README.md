@@ -26,3 +26,7 @@ Mise en ligne : GitHub Pages (Settings > Pages > branche `main`, dossier racine)
 ## Données pays et méthodologie
 
 `rate` est le taux effectif d'impôt sur le revenu (en %) d'un célibataire à 240 300 €. Niveaux : <= 18 % « sûrement en dessous » (condition remplie), 18 à 26 % ou pays absent « discutable », > 26 % « sûrement au-dessus » (condition non remplie). La page `#methodologie` est générée à partir des `data.json`.
+
+## Taux de change
+
+Les taux effectifs sont calculés en devise locale à partir de cours Yahoo Finance (paires directes EURxxx=X) fournis et vérifiés le **13 novembre 2026** : voir `taux_de_change_EUR_verifie_2026-11-13.csv`. Exceptions (cours indisponible, hypothèse conservée) : Mongolie, Myanmar, Samoa, Sao Tomé-et-Principe, Érythrée. Pour mettre à jour : remplir la colonne `cours_verifie_a_remplir` d'un nouveau CSV puis `python3 scripts/apply_fx.py <fichier.csv> <date jj/mm/aaaa>`, qui met à jour `calc.fx` et décale `rate` de l'effet du change.

@@ -1,8 +1,8 @@
 {
   "code": "HU",
   "nom": "Hongrie",
-  "rate": 15,
-  "note": "Taux de 15 %, hors contribution sociale distincte.",
+  "rate": 15.0,
+  "note": "Cours Yahoo EURHUF=X du 13/11/2026 : 1 EUR = 365.581 HUF (hypothèse initiale : 390). Taux recalculé : 15,0 % (avant : 15 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux de 15 %, hors contribution sociale distincte.",
   "sources": [
     {
       "titre": "Administration fiscale hongroise (NAV)",
@@ -12,8 +12,8 @@
   ],
   "calc": {
     "devise": "HUF",
-    "fx": 390,
-    "fx_source": "la note ne donne pas de cours : hypothèse de 390 HUF pour 1 EUR, à remplacer par le cours Yahoo EURHUF=X ; sans effet avec un taux unique",
+    "fx": 365.581,
+    "fx_source": "Yahoo Finance EURHUF=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

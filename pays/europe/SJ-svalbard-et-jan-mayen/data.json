@@ -1,12 +1,12 @@
 {
   "code": "SJ",
   "nom": "Svalbard et Jan Mayen",
-  "rate": 14.2,
+  "rate": 13.4,
   "range": [
-    13.9,
-    14.4
+    13.1,
+    13.6
   ],
-  "note": "Régime spécial du Svalbard : 8 % jusqu'à 12 fois le montant de base de l'assurance nationale, 22 % au-delà. Hypothèses : 1 EUR = 11,7 NOK ; montant de base d'environ 130 000 NOK, d'où la fourchette.",
+  "note": "Cours Yahoo EURNOK=X du 13/11/2026 : 1 EUR = 10.59418 NOK (hypothèse initiale : 11.7). Taux recalculé : 13,4 % (avant : 14,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Régime spécial du Svalbard : 8 % jusqu'à 12 fois le montant de base de l'assurance nationale, 22 % au-delà. Hypothèses : 1 EUR = 11,7 NOK ; montant de base d'environ 130 000 NOK, d'où la fourchette.",
   "sources": [
     {
       "titre": "Administration fiscale norvégienne - taux au Svalbard",
@@ -16,8 +16,8 @@
   ],
   "calc": {
     "devise": "NOK",
-    "fx": 11.7,
-    "fx_source": "hypothèse reprise de la note",
+    "fx": 10.59418,
+    "fx_source": "Yahoo Finance EURNOK=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

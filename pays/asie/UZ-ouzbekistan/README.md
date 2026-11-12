@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : UZS. Cours supposé : 1 EUR = 14 000 UZS (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURUZS=X).
-- Salaire converti : 240 300 € × 14 000 = 3 364 200 000 UZS.
-- Base imposable : 3 364 200 000 UZS.
+- Devise : UZS. Cours utilisé : 1 EUR = 13 278 UZS (Yahoo Finance EURUZS=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 13 278 = 3 190 703 400 UZS.
+- Base imposable : 3 190 703 400 UZS.
 
 | De (UZS) | À (UZS) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 12,00 % | 3 364 200 000 | 403 704 000 |
+| 0 | et plus | 12,00 % | 3 190 703 400 | 382 884 408 |
 
-- **Impôt total : 403 704 000 UZS, soit 12,0 % du salaire brut.**
+- **Impôt total : 382 884 408 UZS, soit 12,0 % du salaire brut.**
 - Hypothèse : Taux unique de 12 %, hors cotisation retraite de 4 % et taxe sociale employeur.
 - Hypothèse : Le taux ne dépend pas du change.
 
 ## Note
 
-Taux unique de 12 %, hors cotisation retraite de 4 % et taxe sociale employeur.
+Cours Yahoo EURUZS=X du 13/11/2026 : 1 EUR = 13278.0 UZS (hypothèse initiale : 14000). Taux recalculé : 12,0 % (avant : 12 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux unique de 12 %, hors cotisation retraite de 4 % et taxe sociale employeur.
 
 ## Sources
 

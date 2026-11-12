@@ -1,12 +1,12 @@
 {
   "code": "SC",
   "nom": "Seychelles",
-  "rate": 27.2,
+  "rate": 27.0,
   "range": [
-    26.5,
-    27.8
+    26.3,
+    27.6
   ],
-  "note": "Barème 0 / 15 / 30 % avec 150 000 SCR exonérés et taux de 30 % au-delà de 600 000 SCR. Change (hypothèse) : 1 EUR = 16,5 SCR ; de 26,7 à 27,7 selon le change. Cas proche du haut de la bande.",
+  "note": "Cours Yahoo EURSCR=X du 13/11/2026 : 1 EUR = 15.445 SCR (hypothèse initiale : 16.5). Taux recalculé : 27,0 % (avant : 27,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 0 / 15 / 30 % avec 150 000 SCR exonérés et taux de 30 % au-delà de 600 000 SCR. Change (hypothèse) : 1 EUR = 16,5 SCR ; de 26,7 à 27,7 selon le change. Cas proche du haut de la bande.",
   "sources": [
     {
       "titre": "TaxAtlas - impôt Seychelles",
@@ -16,8 +16,8 @@
   ],
   "calc": {
     "devise": "SCR",
-    "fx": 16.5,
-    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURSCR=X",
+    "fx": 15.445,
+    "fx_source": "Yahoo Finance EURSCR=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

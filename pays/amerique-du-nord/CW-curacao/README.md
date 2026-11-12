@@ -1,6 +1,6 @@
 # Curaçao (CW)
 
-**Taux effectif retenu : 39,5 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 39,3 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : XCG. Cours supposé : 1 EUR = 2,06 XCG (hypothèse reprise de la note : 1,79 XCG par USD, EUR/USD 1,15).
-- Salaire converti : 240 300 € × 2,06 = 495 018 XCG.
-- Base imposable : 495 018 XCG.
+- Devise : XCG. Cours utilisé : 1 EUR = 1,9978 XCG (Yahoo Finance EURXCG=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1,9978 = 480 083 XCG.
+- Base imposable : 480 083 XCG.
 
 | De (XCG) | À (XCG) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -20,16 +20,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 52 127 | 78 190 | 23,00 % | 26 063 | 5 994 |
 | 78 190 | 110 769 | 30,00 % | 32 579 | 9 774 |
 | 110 769 | 162 894 | 37,50 % | 52 125 | 19 547 |
-| 162 894 | et plus | 46,50 % | 332 124 | 154 438 |
+| 162 894 | et plus | 46,50 % | 317 189 | 147 493 |
 
-- **Impôt total : 195 519 XCG, soit 39,5 % du salaire brut.**
+- **Impôt total : 188 575 XCG, soit 39,3 % du salaire brut.**
 - Hypothèse : Barème 2026 (arrêté ministériel, gobiernu.cw).
 - Hypothèse : Crédit de base de 2 915 XCG non appliqué (effet d'environ 0,6 point).
 - Hypothèse : Peu sensible au change.
 
 ## Note
 
-Barème 2026 de Curaçao, tranche supérieure à 46,5 % au-delà de 162 894 XCG. Hypothèse change : 1 EUR = 2,06 XCG (parité 1,79 par USD, EUR/USD 1,15), soit environ 494 700 XCG. Crédit de base de 2 915 non appliqué. Peu sensible au change.
+Cours Yahoo EURXCG=X du 13/11/2026 : 1 EUR = 1.99784951 XCG (hypothèse initiale : 2.06). Taux recalculé : 39,3 % (avant : 39,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 de Curaçao, tranche supérieure à 46,5 % au-delà de 162 894 XCG. Hypothèse change : 1 EUR = 2,06 XCG (parité 1,79 par USD, EUR/USD 1,15), soit environ 494 700 XCG. Crédit de base de 2 915 non appliqué. Peu sensible au change.
 
 ## Sources
 

@@ -1,8 +1,8 @@
 {
   "code": "PK",
   "nom": "Pakistan",
-  "rate": 33.7,
-  "note": "Salariés, exercice 2026-27 : 1 424 000 roupies plus 35 % au-delà de 7 millions. La surtaxe de 9 % est supprimée. Change supposé : 323 roupies pour 1 €.",
+  "rate": 33.6,
+  "note": "Cours Yahoo EURPKR=X du 13/11/2026 : 1 EUR = 306.7354 PKR (hypothèse initiale : 323). Taux recalculé : 33,6 % (avant : 33,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Salariés, exercice 2026-27 : 1 424 000 roupies plus 35 % au-delà de 7 millions. La surtaxe de 9 % est supprimée. Change supposé : 323 roupies pour 1 €.",
   "sources": [
     {
       "titre": "TechJuice, nouveaux barèmes 2026-27",
@@ -22,8 +22,8 @@
   ],
   "calc": {
     "devise": "PKR",
-    "fx": 323,
-    "fx_source": "hypothèse reprise de la note (323 roupies pour 1 €)",
+    "fx": 306.7354,
+    "fx_source": "Yahoo Finance EURPKR=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

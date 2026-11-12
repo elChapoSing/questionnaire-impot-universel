@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : GEL. Cours supposé : 1 EUR = 3,1 GEL (la note ne donne pas de cours : hypothèse de 3,1 GEL pour 1 EUR, à remplacer par le cours Yahoo EURGEL=X ; sans effet avec un taux unique).
-- Salaire converti : 240 300 € × 3,1 = 744 930 GEL.
-- Base imposable : 744 930 GEL.
+- Devise : GEL. Cours utilisé : 1 EUR = 2,9036 GEL (Yahoo Finance EURGEL=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 2,9036 = 697 743 GEL.
+- Base imposable : 697 743 GEL.
 
 | De (GEL) | À (GEL) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 20,00 % | 744 930 | 148 986 |
+| 0 | et plus | 20,00 % | 697 743 | 139 549 |
 
-- **Impôt total : 148 986 GEL, soit 20,0 % du salaire brut.**
+- **Impôt total : 139 549 GEL, soit 20,0 % du salaire brut.**
 - Hypothèse : Taux unique de 20 %, juste sous le seuil de 21,1 %.
 - Hypothèse : Cotisation de retraite de 2 % exclue.
 
 ## Note
 
-Taux de 20 %, juste sous le seuil de 21,1 %.
+Cours Yahoo EURGEL=X du 13/11/2026 : 1 EUR = 2.903633 GEL (hypothèse initiale : 3.1). Taux recalculé : 20,0 % (avant : 20 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux de 20 %, juste sous le seuil de 21,1 %.
 
 ## Sources
 

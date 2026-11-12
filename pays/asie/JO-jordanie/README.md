@@ -1,6 +1,6 @@
 # Jordanie (JO)
 
-**Taux effectif retenu : 23,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 23,6 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Discutable.**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : JOD. Cours supposé : 1 EUR = 0,82 JOD (hypothèse reprise de la note (1 € = 0,82 JOD)).
-- Salaire converti : 240 300 € × 0,82 = 197 046 JOD.
-- Base imposable : 197 046 JOD.
+- Devise : JOD. Cours utilisé : 1 EUR = 0,7838 JOD (Yahoo Finance EURJOD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 0,7838 = 188 347 JOD.
+- Base imposable : 188 347 JOD.
 
 | De (JOD) | À (JOD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,16 +19,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 5 000 | 10 000 | 10,00 % | 5 000 | 500 |
 | 10 000 | 15 000 | 15,00 % | 5 000 | 750 |
 | 15 000 | 20 000 | 20,00 % | 5 000 | 1 000 |
-| 20 000 | 1 000 000 | 25,00 % | 177 046 | 44 262 |
+| 20 000 | 1 000 000 | 25,00 % | 168 347 | 42 087 |
 | 1 000 000 | et plus | 30,00 % | 0 | 0 |
 
-- **Impôt total : 46 762 JOD, soit 23,7 % du salaire brut.**
+- **Impôt total : 44 587 JOD, soit 23,7 % du salaire brut.**
 - Hypothèse : Contribution nationale de 1 % au-delà de 200 000 JOD non modélisée (négligeable ici).
 - Hypothèse : Exemptions personnelle et familiale (27 000 JOD) exclues ; avec elles le taux serait plus bas. Taux de 30 % au-delà de 1 M JOD non atteint.
 
 ## Note
 
-Barème : 5 %, 10 %, 15 %, 20 % par tranches de 5 000 JOD puis 25 % jusqu'à 1 M JOD ; contribution de 1 % au-delà de 200 000 JOD (négligeable ici). Hypothèse : 1 EUR = 0,82 JOD. Exemptions personnelle et familiale (27 000 JOD) exclues ; avec elles le taux serait plus bas.
+Cours Yahoo EURJOD=X du 13/11/2026 : 1 EUR = 0.7838 JOD (hypothèse initiale : 0.82). Taux recalculé : 23,6 % (avant : 23,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème : 5 %, 10 %, 15 %, 20 % par tranches de 5 000 JOD puis 25 % jusqu'à 1 M JOD ; contribution de 1 % au-delà de 200 000 JOD (négligeable ici). Hypothèse : 1 EUR = 0,82 JOD. Exemptions personnelle et familiale (27 000 JOD) exclues ; avec elles le taux serait plus bas.
 
 ## Sources
 

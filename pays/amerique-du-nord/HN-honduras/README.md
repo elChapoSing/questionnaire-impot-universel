@@ -9,24 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : HNL. Cours supposé : 1 EUR = 30,2 HNL (hypothèse reprise de la note (26,3 HNL par USD)).
-- Salaire converti : 240 300 € × 30,2 = 7 257 060 HNL.
-- Base imposable : 7 257 060 HNL.
+- Devise : HNL. Cours utilisé : 1 EUR = 29,828 HNL (Yahoo Finance EURHNL=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 29,828 = 7 167 668 HNL.
+- Base imposable : 7 167 668 HNL.
 
 | De (HNL) | À (HNL) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 228 324 | 0,00 % | 228 324 | 0 |
 | 228 324 | 348 154 | 15,00 % | 119 830 | 17 974 |
 | 348 154 | 809 661 | 20,00 % | 461 507 | 92 301 |
-| 809 661 | et plus | 25,00 % | 6 447 399 | 1 611 850 |
+| 809 661 | et plus | 25,00 % | 6 358 008 | 1 589 502 |
 
-- **Impôt total : 1 722 126 HNL, soit 23,7 % du salaire brut.**
+- **Impôt total : 1 699 778 HNL, soit 23,7 % du salaire brut.**
 - Hypothèse : Table progressive 2026 (Acuerdo SAR-01-2026).
 - Hypothèse : Déduction médicale de 40 000 HNL non appliquée.
 
 ## Note
 
-Table progressive 2026 (SAR) : exonéré jusqu'à 228 324 HNL, puis 15 %, 20 % et 25 % au-delà de 809 661. Hypothèse change : 1 EUR = 30,2 HNL (26,3 par USD), soit environ 7,27 M HNL. Déduction médicale de 40 000 non appliquée.
+Cours Yahoo EURHNL=X du 13/11/2026 : 1 EUR = 29.828 HNL (hypothèse initiale : 30.2). Taux recalculé : 23,7 % (avant : 23,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Table progressive 2026 (SAR) : exonéré jusqu'à 228 324 HNL, puis 15 %, 20 % et 25 % au-delà de 809 661. Hypothèse change : 1 EUR = 30,2 HNL (26,3 par USD), soit environ 7,27 M HNL. Déduction médicale de 40 000 non appliquée.
 
 ## Sources
 

@@ -1,8 +1,8 @@
 {
   "code": "CW",
   "nom": "Curaçao",
-  "rate": 39.5,
-  "note": "Barème 2026 de Curaçao, tranche supérieure à 46,5 % au-delà de 162 894 XCG. Hypothèse change : 1 EUR = 2,06 XCG (parité 1,79 par USD, EUR/USD 1,15), soit environ 494 700 XCG. Crédit de base de 2 915 non appliqué. Peu sensible au change.",
+  "rate": 39.3,
+  "note": "Cours Yahoo EURXCG=X du 13/11/2026 : 1 EUR = 1.99784951 XCG (hypothèse initiale : 2.06). Taux recalculé : 39,3 % (avant : 39,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 de Curaçao, tranche supérieure à 46,5 % au-delà de 162 894 XCG. Hypothèse change : 1 EUR = 2,06 XCG (parité 1,79 par USD, EUR/USD 1,15), soit environ 494 700 XCG. Crédit de base de 2 915 non appliqué. Peu sensible au change.",
   "sources": [
     {
       "titre": "Gouvernement de Curaçao - arrêté ministériel montants IR 2026",
@@ -12,8 +12,8 @@
   ],
   "calc": {
     "devise": "XCG",
-    "fx": 2.06,
-    "fx_source": "hypothèse reprise de la note : 1,79 XCG par USD, EUR/USD 1,15",
+    "fx": 1.99784951,
+    "fx_source": "Yahoo Finance EURXCG=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

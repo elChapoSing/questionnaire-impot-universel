@@ -1,6 +1,6 @@
 # Kazakhstan (KZ)
 
-**Taux effectif retenu : 13,6 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 13,4 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement en dessous du seuil (condition remplie).**
 
 ## Cas de référence
@@ -9,22 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : KZT. Cours supposé : 1 EUR = 560 KZT (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURKZT=X ; la note cite cbonds du 18 juillet 2026 sans chiffre, valeur reconstituée à partir du taux 13,6 %).
-- Salaire converti : 240 300 € × 560 = 134 568 000 KZT.
-- Base imposable : 134 568 000 KZT.
+- Devise : KZT. Cours utilisé : 1 EUR = 492,67 KZT (Yahoo Finance EURKZT=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 492,67 = 118 388 601 KZT.
+- Base imposable : 118 388 601 KZT.
 
 | De (KZT) | À (KZT) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 36 762 500 | 10,00 % | 36 762 500 | 3 676 250 |
-| 36 762 500 | et plus | 15,00 % | 97 805 500 | 14 670 825 |
+| 36 762 500 | et plus | 15,00 % | 81 626 101 | 12 243 915 |
 
-- **Impôt total : 18 347 075 KZT, soit 13,6 % du salaire brut.**
+- **Impôt total : 15 920 165 KZT, soit 13,4 % du salaire brut.**
 - Hypothèse : Barème 2026 : 10 % jusqu'à 8 500 indices mensuels de calcul (ici annualisés : 8 500 × 4 325 tenge, indice 2026 supposé), 15 % au-delà.
 - Hypothèse : Déduction standard exclue ; cotisations sociales exclues.
 
 ## Note
 
-10 % jusqu'à 8 500 indices mensuels, 15 % au-delà. Même avec 15 % sur tout le revenu, le résultat reste sous le seuil. Taux de change non BCE : cbonds, 18 juillet 2026.
+Cours Yahoo EURKZT=X du 13/11/2026 : 1 EUR = 492.67 KZT (hypothèse initiale : 560). Taux recalculé : 13,4 % (avant : 13,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 10 % jusqu'à 8 500 indices mensuels, 15 % au-delà. Même avec 15 % sur tout le revenu, le résultat reste sous le seuil. Taux de change non BCE : cbonds, 18 juillet 2026.
 
 ## Sources
 

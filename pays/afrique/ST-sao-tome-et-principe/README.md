@@ -9,7 +9,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : STN. Cours supposé : 1 EUR = 24,5 STN (parité fixe STN/EUR (24,5), reprise de la note).
+- Devise : STN. Cours utilisé : 1 EUR = 24,5 STN (parité fixe STN/EUR (24,5), reprise de la note).
 - Salaire converti : 240 300 € × 24,5 = 5 887 350 STN.
 - Base imposable : 5 887 350 STN.
 

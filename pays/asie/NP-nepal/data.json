@@ -1,8 +1,8 @@
 {
   "code": "NP",
   "nom": "Népal",
-  "rate": 27.7,
-  "note": "Barème de l'exercice 2083/84 (juillet 2026 à juillet 2027) : 1 % jusqu'à 1 million de roupies, 10 %, 20 %, 27 %, puis 29 % au-delà de 4 millions. D'après nos sources, il remplace le barème 2082/83 (jusqu'à 39 %, soit 37,7 % ici). Les deux dépassent le seuil. Change supposé : 160 roupies pour 1 €.",
+  "rate": 27.8,
+  "note": "Cours Yahoo EURNPR=X du 13/11/2026 : 1 EUR = 166.822 NPR (hypothèse initiale : 160). Taux recalculé : 27,8 % (avant : 27,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème de l'exercice 2083/84 (juillet 2026 à juillet 2027) : 1 % jusqu'à 1 million de roupies, 10 %, 20 %, 27 %, puis 29 % au-delà de 4 millions. D'après nos sources, il remplace le barème 2082/83 (jusqu'à 39 %, soit 37,7 % ici). Les deux dépassent le seuil. Change supposé : 160 roupies pour 1 €.",
   "sources": [
     {
       "titre": "Ekantipur, revue de la réforme de l'impôt sur le revenu (juillet 2026)",
@@ -22,8 +22,8 @@
   ],
   "calc": {
     "devise": "NPR",
-    "fx": 160,
-    "fx_source": "hypothèse reprise de la note (160 roupies pour 1 €)",
+    "fx": 166.822,
+    "fx_source": "Yahoo Finance EURNPR=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

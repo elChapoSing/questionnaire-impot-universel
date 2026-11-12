@@ -1,8 +1,8 @@
 {
   "code": "RU",
   "nom": "Russie",
-  "rate": 17.4,
-  "note": "Barème 13 / 15 / 18 / 20 / 22 %. Taux de change RUB/EUR supposé (95) : verdict inchangé de 70 à 130.",
+  "rate": 17.3,
+  "note": "Cours Yahoo EURRUB=X du 13/11/2026 : 1 EUR = 91.807 RUB (hypothèse initiale : 95). Taux recalculé : 17,3 % (avant : 17,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 13 / 15 / 18 / 20 / 22 %. Taux de change RUB/EUR supposé (95) : verdict inchangé de 70 à 130.",
   "sources": [
     {
       "titre": "Service fédéral des impôts (FNS)",
@@ -12,8 +12,8 @@
   ],
   "calc": {
     "devise": "RUB",
-    "fx": 95,
-    "fx_source": "hypothèse reprise de la note",
+    "fx": 91.807,
+    "fx_source": "Yahoo Finance EURRUB=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

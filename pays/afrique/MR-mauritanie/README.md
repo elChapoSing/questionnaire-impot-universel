@@ -9,22 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : MRU. Cours supposé : 1 EUR = 46 MRU (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMRU=X).
-- Salaire converti : 240 300 € × 46 = 11 053 800 MRU.
-- Base imposable : 11 053 800 MRU.
+- Devise : MRU. Cours utilisé : 1 EUR = 44,861 MRU (Yahoo Finance EURMRU=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 44,861 = 10 780 098 MRU.
+- Base imposable : 10 780 098 MRU.
 
 | De (MRU) | À (MRU) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 40,00 % | 11 053 800 | 4 421 520 |
+| 0 | et plus | 40,00 % | 10 780 098 | 4 312 039 |
 
 - Crédit : Constante de la formule ITS (RI x 40 % - 4 050 par mois), soit 4 050 x 12 : − 48 600 MRU.
-- **Impôt total : 4 372 920 MRU, soit 39,6 % du salaire brut.**
+- **Impôt total : 4 263 439 MRU, soit 39,5 % du salaire brut.**
 - Hypothèse : Formule mensuelle valable au-delà de 21 000 MRU par mois.
 - Hypothèse : Franchise de 6 000 MRU par mois et cotisations CNSS ignorées.
 
 ## Note
 
-ITS mensuel : 40 % au-delà de 21 000 MRU/mois (formule RI x 40 % - 4 050). Franchise de 6 000 MRU/mois et CNSS ignorées. Change (hypothèse) : 1 EUR = 46 MRU.
+Cours Yahoo EURMRU=X du 13/11/2026 : 1 EUR = 44.861 MRU (hypothèse initiale : 46). Taux recalculé : 39,6 % (avant : 39,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. ITS mensuel : 40 % au-delà de 21 000 MRU/mois (formule RI x 40 % - 4 050). Franchise de 6 000 MRU/mois et CNSS ignorées. Change (hypothèse) : 1 EUR = 46 MRU.
 
 ## Sources
 

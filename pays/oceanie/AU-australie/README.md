@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : AUD. Cours supposé : 1 EUR = 1,62 AUD (hypothèse (la note ne donne aucun cours) : 1,62 dollar australien pour 1 EUR, à remplacer par le cours Yahoo EURAUD=X).
-- Salaire converti : 240 300 € × 1,62 = 389 286 AUD.
-- Base imposable : 389 286 AUD.
+- Devise : AUD. Cours utilisé : 1 EUR = 1,6249 AUD (Yahoo Finance EURAUD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1,6249 = 390 461 AUD.
+- Base imposable : 390 461 AUD.
 
 | De (AUD) | À (AUD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,16 +19,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 18 200 | 45 000 | 16,00 % | 26 800 | 4 288 |
 | 45 000 | 135 000 | 30,00 % | 90 000 | 27 000 |
 | 135 000 | 190 000 | 37,00 % | 55 000 | 20 350 |
-| 190 000 | et plus | 45,00 % | 199 286 | 89 679 |
-| 0 | et plus | 2,00 % | 389 286 | 7 786 |
+| 190 000 | et plus | 45,00 % | 200 461 | 90 207 |
+| 0 | et plus | 2,00 % | 390 461 | 7 809 |
 
-- **Impôt total : 149 102 AUD, soit 38,3 % du salaire brut.**
+- **Impôt total : 149 655 AUD, soit 38,3 % du salaire brut.**
 - Hypothèse : Barème des résidents 2025-26 de l'ATO : 0 % jusqu'à 18 200 AUD, 16 %, 30 %, 37 % et 45 % au-delà de 190 000 AUD ; la ligne finale à 2 % sur tout le revenu représente la contribution Medicare (2 %).
 - Hypothèse : Le taux est assez sensible au change : environ 38,2 % à 1,62 contre 39 % à 1,75.
 
 ## Note
 
-Tranche de 45 % plus 2 % de Medicare.
+Cours Yahoo EURAUD=X du 13/11/2026 : 1 EUR = 1.62489 AUD (hypothèse initiale : 1.62). Taux recalculé : 38,3 % (avant : 38,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Tranche de 45 % plus 2 % de Medicare.
 
 ## Sources
 

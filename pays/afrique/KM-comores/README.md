@@ -1,6 +1,6 @@
 # Comores (KM)
 
-**Taux effectif retenu : entre 20,6 et 29,6 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : entre 20,5 et 29,5 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Discutable.**
 
 ## Cas de référence
@@ -9,10 +9,10 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : KMF. Cours supposé : 1 EUR = 491,968 KMF (parité fixe KMF/EUR (491,968), reprise de la note).
-- Salaire converti : 240 300 € × 491,968 = 118 219 910 KMF.
+- Devise : KMF. Cours utilisé : 1 EUR = 489,0575 KMF (Yahoo Finance EURKMF=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 489,0575 = 117 520 524 KMF.
 - Déduction : Déduction forfaitaire de 30 % pour frais professionnels sur salaires (art. 59 CGI) : − 35 465 973 KMF.
-- Base imposable : 82 753 937 KMF.
+- Base imposable : 82 054 551 KMF.
 
 | De (KMF) | À (KMF) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -22,15 +22,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 1 000 000 | 1 500 000 | 15,00 % | 500 000 | 75 000 |
 | 1 500 000 | 2 500 000 | 20,00 % | 1 000 000 | 200 000 |
 | 2 500 000 | 3 500 000 | 25,00 % | 1 000 000 | 250 000 |
-| 3 500 000 | et plus | 30,00 % | 79 253 937 | 23 776 181 |
+| 3 500 000 | et plus | 30,00 % | 78 554 551 | 23 566 365 |
 
-- **Impôt total : 24 368 681 KMF, soit 20,6 % du salaire brut.**
+- **Impôt total : 24 158 865 KMF, soit 20,6 % du salaire brut.**
 - Hypothèse : Barème à 7 tranches (art. 97 CGI 2023).
 - Hypothèse : Variante de la note : sans déduction de 30 %, 29,6 %.
 
 ## Note
 
-IRPP à 7 tranches, taux maximal 30 % (art. 97 CGI 2023) avec déduction forfaitaire de 30 % pour frais professionnels sur salaires (art. 59). Variante sans déduction : 29,6 %. Cas proche du seuil de 21,14 % ; change : KMF fixe, 491,968 par EUR.
+Cours Yahoo EURKMF=X du 13/11/2026 : 1 EUR = 489.05753 KMF (hypothèse initiale : 491.968). Taux recalculé : 20,5 % (avant : 20,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. IRPP à 7 tranches, taux maximal 30 % (art. 97 CGI 2023) avec déduction forfaitaire de 30 % pour frais professionnels sur salaires (art. 59). Variante sans déduction : 29,6 %. Cas proche du seuil de 21,14 % ; change : KMF fixe, 491,968 par EUR.
 
 ## Sources
 

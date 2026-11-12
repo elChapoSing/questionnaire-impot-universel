@@ -1,8 +1,8 @@
 {
   "code": "IQ",
   "nom": "Irak",
-  "rate": 15,
-  "note": "Barème salarial : 3 %, 5 %, 10 % puis 15 % au-delà de 1 M IQD par an. Hypothèse : 1 EUR = 1 500 IQD. Région du Kurdistan : 5 % forfaitaire. Abattements personnels exclus.",
+  "rate": 15.0,
+  "note": "Cours Yahoo EURIQD=X du 13/11/2026 : 1 EUR = 1681.6 IQD (hypothèse initiale : 1500). Taux recalculé : 15,0 % (avant : 15 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème salarial : 3 %, 5 %, 10 % puis 15 % au-delà de 1 M IQD par an. Hypothèse : 1 EUR = 1 500 IQD. Région du Kurdistan : 5 % forfaitaire. Abattements personnels exclus.",
   "sources": [
     {
       "titre": "Lloyds Bank Trade - Irak, fiscalité",
@@ -12,8 +12,8 @@
   ],
   "calc": {
     "devise": "IQD",
-    "fx": 1500,
-    "fx_source": "hypothèse reprise de la note (1 € = 1 500 IQD)",
+    "fx": 1681.6,
+    "fx_source": "Yahoo Finance EURIQD=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

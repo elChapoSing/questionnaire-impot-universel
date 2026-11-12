@@ -1,8 +1,8 @@
 {
   "code": "PS",
   "nom": "Territoires palestiniens",
-  "rate": 13.8,
-  "note": "Barème résidents 2026 : 5 % jusqu'à 75 000 NIS, 10 % jusqu'à 150 000 NIS, 15 % au-delà. Hypothèse : 1 EUR = 3,8 NIS. Déduction standard de 36 000 NIS et autres déductions exclues.",
+  "rate": 13.7,
+  "note": "Cours Yahoo EURILS=X du 13/11/2026 : 1 EUR = 3.533327 ILS (hypothèse initiale : 3.8). Taux recalculé : 13,7 % (avant : 13,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème résidents 2026 : 5 % jusqu'à 75 000 NIS, 10 % jusqu'à 150 000 NIS, 15 % au-delà. Hypothèse : 1 EUR = 3,8 NIS. Déduction standard de 36 000 NIS et autres déductions exclues.",
   "sources": [
     {
       "titre": "Deloitte - Territoires palestiniens, Highlights 2026",
@@ -12,8 +12,8 @@
   ],
   "calc": {
     "devise": "ILS",
-    "fx": 3.8,
-    "fx_source": "hypothèse reprise de la note (1 € = 3,8 NIS)",
+    "fx": 3.533327,
+    "fx_source": "Yahoo Finance EURILS=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

@@ -1,6 +1,6 @@
 # Sri Lanka (LK)
 
-**Taux effectif retenu : 34,6 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 34,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : LKR. Cours supposé : 1 EUR = 343 LKR (hypothèse reprise de la note (343 roupies pour 1 €)).
-- Salaire converti : 240 300 € × 343 = 82 422 900 LKR.
-- Base imposable : 82 422 900 LKR.
+- Devise : LKR. Cours utilisé : 1 EUR = 368,88 LKR (Yahoo Finance EURLKR=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 368,88 = 88 641 864 LKR.
+- Base imposable : 88 641 864 LKR.
 
 | De (LKR) | À (LKR) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -20,15 +20,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 2 800 000 | 3 300 000 | 18,00 % | 500 000 | 90 000 |
 | 3 300 000 | 3 800 000 | 24,00 % | 500 000 | 120 000 |
 | 3 800 000 | 4 300 000 | 30,00 % | 500 000 | 150 000 |
-| 4 300 000 | et plus | 36,00 % | 78 122 900 | 28 124 244 |
+| 4 300 000 | et plus | 36,00 % | 84 341 864 | 30 363 071 |
 
-- **Impôt total : 28 544 244 LKR, soit 34,6 % du salaire brut.**
+- **Impôt total : 30 783 071 LKR, soit 34,7 % du salaire brut.**
 - Hypothèse : Barème 2025-2026 : 1,8 million de roupies de franchise puis 6 %, 18 %, 24 %, 30 % et 36 % au-delà de 4,3 millions.
 - Hypothèse : Les tranches intermédiaires (1 M puis 0,5 M chacune) sont reconstituées à partir du barème de l'Inland Revenue Act ; sans effet sur le résultat.
 
 ## Note
 
-Barème 2025-2026 : 1,8 million de roupies exonérées, puis 6 %, 18 %, 24 %, 30 % et 36 % au-delà de 4,3 millions. Change supposé : 343 roupies pour 1 €.
+Cours Yahoo EURLKR=X du 13/11/2026 : 1 EUR = 368.88 LKR (hypothèse initiale : 343). Taux recalculé : 34,7 % (avant : 34,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2025-2026 : 1,8 million de roupies exonérées, puis 6 %, 18 %, 24 %, 30 % et 36 % au-delà de 4,3 millions. Change supposé : 343 roupies pour 1 €.
 
 ## Sources
 

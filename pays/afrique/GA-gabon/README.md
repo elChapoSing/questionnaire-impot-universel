@@ -9,7 +9,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : XAF. Cours supposé : 1 EUR = 655,957 XAF (parité fixe XAF/EUR (655,957), reprise de la note).
+- Devise : XAF. Cours utilisé : 1 EUR = 655,957 XAF (Yahoo Finance EURXAF=X, cours vérifié fourni le 13/11/2026).
 - Salaire converti : 240 300 € × 655,957 = 157 626 467 XAF.
 - Déduction : Abattement de 20 % (formule PwC ; plafond éventuel non vérifié) : − 31 525 293 XAF.
 - Base imposable : 126 101 174 XAF.

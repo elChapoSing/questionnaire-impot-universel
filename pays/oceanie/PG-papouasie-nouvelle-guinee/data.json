@@ -2,7 +2,7 @@
   "code": "PG",
   "nom": "Papouasie-Nouvelle-Guinée",
   "rate": 40.6,
-  "note": "Barème des résidents (loi de 2025, en vigueur depuis janvier 2026) : 0 % jusqu'à 20 000 kinas, puis jusqu'à 42 % au-delà de 250 000. Les tranches intermédiaires viennent des barèmes antérieurs. Change supposé : 4,9 kinas pour 1 €.",
+  "note": "Cours Yahoo EURPGK=X du 13/11/2026 : 1 EUR = 5.06 PGK (hypothèse initiale : 4.9). Taux recalculé : 40,6 % (avant : 40,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème des résidents (loi de 2025, en vigueur depuis janvier 2026) : 0 % jusqu'à 20 000 kinas, puis jusqu'à 42 % au-delà de 250 000. Les tranches intermédiaires viennent des barèmes antérieurs. Change supposé : 4,9 kinas pour 1 €.",
   "sources": [
     {
       "titre": "Bloomberg Tax, Income Tax Act 2025",
@@ -17,8 +17,8 @@
   ],
   "calc": {
     "devise": "PGK",
-    "fx": 4.9,
-    "fx_source": "hypothèse reprise de la note (4,9 kinas pour 1 EUR)",
+    "fx": 5.06,
+    "fx_source": "Yahoo Finance EURPGK=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

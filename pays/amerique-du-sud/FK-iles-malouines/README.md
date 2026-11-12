@@ -9,22 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : GBP. Cours supposé : 1 EUR = 0,87 GBP (hypothèse reprise de la note (0,87 GBP pour 1 EUR)).
-- Salaire converti : 240 300 € × 0,87 = 209 061 GBP.
-- Base imposable : 209 061 GBP.
+- Devise : GBP. Cours utilisé : 1 EUR = 0,8359 GBP (Yahoo Finance EURGBP=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 0,8359 = 200 862 GBP.
+- Base imposable : 200 862 GBP.
 
 | De (GBP) | À (GBP) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 12 000 | 21,00 % | 12 000 | 2 520 |
-| 12 000 | et plus | 26,00 % | 197 061 | 51 236 |
+| 12 000 | et plus | 26,00 % | 188 862 | 49 104 |
 
-- **Impôt total : 53 756 GBP, soit 25,7 % du salaire brut.**
+- **Impôt total : 51 624 GBP, soit 25,7 % du salaire brut.**
 - Hypothèse : 21 % sur les 12 000 premières livres, 26 % au-delà.
 - Hypothèse : Abattement personnel de 15 960 GBP non appliqué (variante de la note : environ 23,7 %).
 
 ## Note
 
-21 % sur les 12 000 premières GBP puis 26 %. Abattement de 15 960 GBP non appliqué (variante : environ 23,7 %). Hypothèse change : 1 EUR = 0,87 GBP, soit environ 209 100 GBP. Peu sensible au change.
+Cours Yahoo EURGBP=X du 13/11/2026 : 1 EUR = 0.83588 GBP (hypothèse initiale : 0.87). Taux recalculé : 25,7 % (avant : 25,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 21 % sur les 12 000 premières GBP puis 26 %. Abattement de 15 960 GBP non appliqué (variante : environ 23,7 %). Hypothèse change : 1 EUR = 0,87 GBP, soit environ 209 100 GBP. Peu sensible au change.
 
 ## Sources
 

@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : MXN. Cours supposé : 1 EUR = 20,75 MXN (milieu de la fourchette 19,5 à 22 de la note, à remplacer par le cours Yahoo EURMXN=X).
-- Salaire converti : 240 300 € × 20,75 = 4 986 225 MXN.
-- Base imposable : 4 986 225 MXN.
+- Devise : MXN. Cours utilisé : 1 EUR = 20,5907 MXN (Yahoo Finance EURMXN=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 20,5907 = 4 947 957 MXN.
+- Base imposable : 4 947 957 MXN.
 
 | De (MXN) | À (MXN) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -24,16 +24,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 424 354 | 668 840 | 23,52 % | 244 486 | 57 503 |
 | 668 840 | 1 276 926 | 30,00 % | 608 086 | 182 426 |
 | 1 276 926 | 1 702 568 | 32,00 % | 425 642 | 136 205 |
-| 1 702 568 | 5 107 704 | 34,00 % | 3 283 657 | 1 116 443 |
+| 1 702 568 | 5 107 704 | 34,00 % | 3 245 389 | 1 103 432 |
 | 5 107 704 | et plus | 35,00 % | 0 | 0 |
 
-- **Impôt total : 1 560 560 MXN, soit 31,3 % du salaire brut.**
+- **Impôt total : 1 547 549 MXN, soit 31,3 % du salaire brut.**
 - Hypothèse : Tarif annuel 2026 (articles 96/152 LISR, Annexe 8 RMF 2026) converti en tranches marginales ; les montants fixes du tarif sont retrouvés par cumul.
 - Hypothèse : Aucune déduction personnelle ; source officielle non lue (relais privés).
 
 ## Note
 
-Barème annuel 2026 (articles 96 et 152 de la loi sur l'impôt sur le revenu) : de 1,92 % à 35 %, le taux de 35 % commençant à environ 4,5 millions de pesos. Résultat de 31,4 % à 31,8 % pour 19,5 à 22 pesos pour 1 €. Aucune déduction personnelle. Source officielle non lue (texte de l'Annexe 8, via des relais privés).
+Cours Yahoo EURMXN=X du 13/11/2026 : 1 EUR = 20.59075 MXN (hypothèse initiale : 20.75). Taux recalculé : 31,6 % (avant : 31,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème annuel 2026 (articles 96 et 152 de la loi sur l'impôt sur le revenu) : de 1,92 % à 35 %, le taux de 35 % commençant à environ 4,5 millions de pesos. Résultat de 31,4 % à 31,8 % pour 19,5 à 22 pesos pour 1 €. Aucune déduction personnelle. Source officielle non lue (texte de l'Annexe 8, via des relais privés).
 
 ## Sources
 

@@ -1,6 +1,6 @@
 # Îles Salomon (SB)
 
-**Taux effectif retenu : entre 39,2 et 39,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : entre 39,1 et 39,6 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : SBD. Cours supposé : 1 EUR = 9,7 SBD (hypothèse reprise de la note (9,7 SBD pour 1 EUR)).
-- Salaire converti : 240 300 € × 9,7 = 2 330 910 SBD.
-- Base imposable : 2 330 910 SBD.
+- Devise : SBD. Cours utilisé : 1 EUR = 8,9521 SBD (Yahoo Finance EURSBD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 8,9521 = 2 151 196 SBD.
+- Base imposable : 2 151 196 SBD.
 
 | De (SBD) | À (SBD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,15 +19,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 15 000 | 30 000 | 11,00 % | 15 000 | 1 650 |
 | 30 000 | 60 000 | 23,00 % | 30 000 | 6 900 |
 | 60 000 | 90 000 | 35,00 % | 30 000 | 10 500 |
-| 90 000 | et plus | 40,00 % | 2 240 910 | 896 364 |
+| 90 000 | et plus | 40,00 % | 2 061 196 | 824 479 |
 
-- **Impôt total : 915 414 SBD, soit 39,3 % du salaire brut.**
+- **Impôt total : 843 529 SBD, soit 39,2 % du salaire brut.**
 - Hypothèse : Barème des résidents (TaxAtlas) : franchise de 15 000, puis 11 %, 23 %, 35 % jusqu'à 90 000 et 40 % au-delà. Seuils légèrement divergents selon les sources (40 % dès 60 000 dans l'autre variante, soit 39,3 % environ).
 - Hypothèse : Sources non officielles, à confirmer auprès de l'administration fiscale.
 
 ## Note
 
-Barème progressif des résidents en SBD : 11 %, 23 %, 35 % puis 40 % au-delà de 60 000 ou 90 000 selon la source ; franchise de 15 000 environ. Hypothèse : 1 EUR = 9,7 SBD (environ 2 330 000 SBD). Sources non officielles, seuils légèrement divergents mais effet minime sur le taux effectif ; à confirmer auprès de l'administration fiscale.
+Cours Yahoo EURSBD=X du 13/11/2026 : 1 EUR = 8.952128379 SBD (hypothèse initiale : 9.7). Taux recalculé : 39,3 % (avant : 39,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif des résidents en SBD : 11 %, 23 %, 35 % puis 40 % au-delà de 60 000 ou 90 000 selon la source ; franchise de 15 000 environ. Hypothèse : 1 EUR = 9,7 SBD (environ 2 330 000 SBD). Sources non officielles, seuils légèrement divergents mais effet minime sur le taux effectif ; à confirmer auprès de l'administration fiscale.
 
 ## Sources
 

@@ -4,9 +4,9 @@
   "rate": 9.8,
   "range": [
     9.8,
-    10
+    10.0
   ],
-  "note": "Impôt sur les salaires des résidents : 10 % au-delà d'un seuil de 500 USD (mensuel selon la loi, annuel selon la formulation de PwC, d'où la fourchette). Hypothèse : 1 EUR = 1,16 USD.",
+  "note": "Cours Yahoo EURUSD=X du 13/11/2026 : 1 EUR = 1.106465 USD (hypothèse initiale : 1.16). Taux recalculé : 9,8 % (avant : 9,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt sur les salaires des résidents : 10 % au-delà d'un seuil de 500 USD (mensuel selon la loi, annuel selon la formulation de PwC, d'où la fourchette). Hypothèse : 1 EUR = 1,16 USD.",
   "sources": [
     {
       "titre": "PwC Tax Summaries - Timor-Leste",
@@ -16,8 +16,8 @@
   ],
   "calc": {
     "devise": "USD",
-    "fx": 1.16,
-    "fx_source": "hypothèse reprise de la note (1 € = 1,16 USD)",
+    "fx": 1.106465,
+    "fx_source": "Yahoo Finance EURUSD=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

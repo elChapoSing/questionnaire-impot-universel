@@ -1,6 +1,6 @@
 # Israël (IL)
 
-**Taux effectif retenu : 35,4 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 33,9 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : ILS. Cours supposé : 1 EUR = 3,9 ILS (hypothèse reprise de la note (3,9 shekels pour 1 €)).
-- Salaire converti : 240 300 € × 3,9 = 937 170 ILS.
-- Base imposable : 937 170 ILS.
+- Devise : ILS. Cours utilisé : 1 EUR = 3,5333 ILS (Yahoo Finance EURILS=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 3,5333 = 849 058 ILS.
+- Base imposable : 849 058 ILS.
 
 | De (ILS) | À (ILS) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -21,16 +21,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 193 800 | 269 280 | 31,00 % | 75 480 | 23 399 |
 | 269 280 | 560 280 | 35,00 % | 291 000 | 101 850 |
 | 560 280 | 721 560 | 47,00 % | 161 280 | 75 802 |
-| 721 560 | et plus | 50,00 % | 215 610 | 107 805 |
+| 721 560 | et plus | 50,00 % | 127 498 | 63 749 |
 
 - Crédit : points de crédit de base (environ) : − 6 500 ILS.
-- **Impôt total : 330 507 ILS, soit 35,3 % du salaire brut.**
+- **Impôt total : 286 452 ILS, soit 33,7 % du salaire brut.**
 - Hypothèse : Barème 2026, le taux de 50 % au-delà de 721 560 incluant la surtaxe.
 - Hypothèse : Seulement les points de crédit de base (environ 6 500 shekels de crédit) ; la note indique 33,8 % à 3,5 shekels et 36,5 % à 4,2 pour 1 €.
 
 ## Note
 
-Barème 2026 : 10 % jusqu'à 84 120 shekels, puis 14, 20, 31, 35 et 47 %, enfin 50 % au-delà de 721 560 (surtaxe incluse). À 240 300 € (change supposé : 3,9 shekels pour 1 €), le taux effectif est d'environ 35,4 %, de 33,8 % à 3,5 shekels à 36,5 % à 4,2. Points de crédit exclus (environ 6 500 shekels).
+Cours Yahoo EURILS=X du 13/11/2026 : 1 EUR = 3.533327 ILS (hypothèse initiale : 3.9). Taux recalculé : 33,9 % (avant : 35,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 : 10 % jusqu'à 84 120 shekels, puis 14, 20, 31, 35 et 47 %, enfin 50 % au-delà de 721 560 (surtaxe incluse). À 240 300 € (change supposé : 3,9 shekels pour 1 €), le taux effectif est d'environ 35,4 %, de 33,8 % à 3,5 shekels à 36,5 % à 4,2. Points de crédit exclus (environ 6 500 shekels).
 
 ## Sources
 

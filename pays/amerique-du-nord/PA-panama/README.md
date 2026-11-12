@@ -1,6 +1,6 @@
 # Panama (PA)
 
-**Taux effectif retenu : 22,5 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 22,4 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Discutable.**
 
 ## Cas de référence
@@ -9,22 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : USD. Cours supposé : 1 EUR = 1,15 USD (hypothèse reprise de la note (EUR/USD 1,15), à remplacer par le cours Yahoo EURUSD=X (balboa à parité avec le dollar)).
-- Salaire converti : 240 300 € × 1,15 = 276 345 USD.
-- Base imposable : 276 345 USD.
+- Devise : USD. Cours utilisé : 1 EUR = 1,1065 USD (Yahoo Finance EURUSD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1,1065 = 265 884 USD.
+- Base imposable : 265 884 USD.
 
 | De (USD) | À (USD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 11 000 | 0,00 % | 11 000 | 0 |
 | 11 000 | 50 000 | 15,00 % | 39 000 | 5 850 |
-| 50 000 | et plus | 25,00 % | 226 345 | 56 586 |
+| 50 000 | et plus | 25,00 % | 215 884 | 53 971 |
 
-- **Impôt total : 62 436 USD, soit 22,6 % du salaire brut.**
+- **Impôt total : 59 821 USD, soit 22,5 % du salaire brut.**
 - Hypothèse : Revenu supposé de source panaméenne ; système territorial (0 % pour un revenu de source étrangère).
 
 ## Note
 
-Barème : 0 % jusqu'à 11 000 balboas (dollars), 15 % jusqu'à 50 000, 25 % au-delà (5 850 balboas pour les 50 000 premiers). Système territorial : les revenus de source étrangère ne sont pas imposés, ce qui peut ramener l'impôt à 0 % pour un revenu perçu de l'étranger. Taux calculé sur un revenu de source panaméenne.
+Cours Yahoo EURUSD=X du 13/11/2026 : 1 EUR = 1.106465 USD (hypothèse initiale : 1.15). Taux recalculé : 22,4 % (avant : 22,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème : 0 % jusqu'à 11 000 balboas (dollars), 15 % jusqu'à 50 000, 25 % au-delà (5 850 balboas pour les 50 000 premiers). Système territorial : les revenus de source étrangère ne sont pas imposés, ce qui peut ramener l'impôt à 0 % pour un revenu perçu de l'étranger. Taux calculé sur un revenu de source panaméenne.
 
 ## Sources
 

@@ -1,6 +1,6 @@
 # Japon (JP)
 
-**Taux effectif retenu : 35,0 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 34,5 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : JPY. Cours supposé : 1 EUR = 185 JPY (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURJPY=X).
-- Salaire converti : 240 300 € × 185 = 44 455 500 JPY.
-- Base imposable : 44 455 500 JPY.
+- Devise : JPY. Cours utilisé : 1 EUR = 176,9355 JPY (Yahoo Finance EURJPY=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 176,9355 = 42 517 601 JPY.
+- Base imposable : 42 517 601 JPY.
 
 | De (JPY) | À (JPY) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -21,16 +21,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 6 950 000 | 9 000 000 | 23,00 % | 2 050 000 | 471 500 |
 | 9 000 000 | 18 000 000 | 33,00 % | 9 000 000 | 2 970 000 |
 | 18 000 000 | 40 000 000 | 40,00 % | 22 000 000 | 8 800 000 |
-| 40 000 000 | et plus | 45,00 % | 4 455 500 | 2 004 975 |
+| 40 000 000 | et plus | 45,00 % | 2 517 601 | 1 132 920 |
 
 - Majoration : surtaxe spéciale de reconstruction : + 2,1 % de l'impôt.
-- **Impôt total : 15 528 363 JPY, soit 34,9 % du salaire brut.**
+- **Impôt total : 14 637 996 JPY, soit 34,4 % du salaire brut.**
 - Hypothèse : Impôt national sur le revenu avec surtaxe de reconstruction de 2,1 % de l'impôt ; l'impôt local (environ 10 %) n'est pas inclus, comme dans la note.
 - Hypothèse : Déduction pour revenus d'emploi et déductions de base exclues.
 
 ## Note
 
-Impôt national et surtaxe de 2,1 % ; l'impôt local, non inclus, s'y ajoute.
+Cours Yahoo EURJPY=X du 13/11/2026 : 1 EUR = 176.9355 JPY (hypothèse initiale : 185). Taux recalculé : 34,5 % (avant : 35 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt national et surtaxe de 2,1 % ; l'impôt local, non inclus, s'y ajoute.
 
 ## Sources
 

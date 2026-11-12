@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : LAK. Cours supposé : 1 EUR = 25 500 LAK (hypothèse reprise de la note (environ 25 500 kips pour 1 €)).
-- Salaire converti : 240 300 € × 25 500 = 6 127 650 000 LAK.
-- Base imposable : 6 127 650 000 LAK.
+- Devise : LAK. Cours utilisé : 1 EUR = 24 962 LAK (Yahoo Finance EURLAK=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 24 962 = 5 998 368 600 LAK.
+- Base imposable : 5 998 368 600 LAK.
 
 | De (LAK) | À (LAK) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -20,15 +20,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 60 000 000 | 180 000 000 | 10,00 % | 120 000 000 | 12 000 000 |
 | 180 000 000 | 300 000 000 | 15,00 % | 120 000 000 | 18 000 000 |
 | 300 000 000 | 780 000 000 | 20,00 % | 480 000 000 | 96 000 000 |
-| 780 000 000 | et plus | 25,00 % | 5 347 650 000 | 1 336 912 500 |
+| 780 000 000 | et plus | 25,00 % | 5 218 368 600 | 1 304 592 150 |
 
-- **Impôt total : 1 464 412 500 LAK, soit 23,9 % du salaire brut.**
+- **Impôt total : 1 432 092 150 LAK, soit 23,9 % du salaire brut.**
 - Hypothèse : Barème mensuel en vigueur depuis le 1er juillet 2026 (0 % jusqu'à 2,5 M ; 5 % jusqu'à 5 M ; 10 % jusqu'à 15 M ; 15 % jusqu'à 25 M ; 20 % jusqu'à 65 M ; 25 % au-delà) multiplié par 12.
 - Hypothèse : Aucune déduction appliquée.
 
 ## Note
 
-Barème mensuel de 0 à 25 % (0 % jusqu'à 2,5 millions de kips depuis juillet 2026, 25 % au-delà de 65 millions par mois). À ce revenu, l'essentiel est taxé à 25 %. Change supposé : environ 25 500 kips pour 1 €, effet négligeable.
+Cours Yahoo EURLAK=X du 13/11/2026 : 1 EUR = 24962.0 LAK (hypothèse initiale : 25500). Taux recalculé : 23,9 % (avant : 23,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème mensuel de 0 à 25 % (0 % jusqu'à 2,5 millions de kips depuis juillet 2026, 25 % au-delà de 65 millions par mois). À ce revenu, l'essentiel est taxé à 25 %. Change supposé : environ 25 500 kips pour 1 €, effet négligeable.
 
 ## Sources
 

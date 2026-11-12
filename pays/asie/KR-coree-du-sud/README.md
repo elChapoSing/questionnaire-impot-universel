@@ -1,6 +1,6 @@
 # Corée du Sud (KR)
 
-**Taux effectif retenu : 37,5 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 36,2 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : KRW. Cours supposé : 1 EUR = 1 750 KRW (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURKRW=X).
-- Salaire converti : 240 300 € × 1 750 = 420 525 000 KRW.
-- Base imposable : 420 525 000 KRW.
+- Devise : KRW. Cours utilisé : 1 EUR = 1 476,78 KRW (Yahoo Finance EURKRW=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1 476,78 = 354 870 234 KRW.
+- Base imposable : 354 870 234 KRW.
 
 | De (KRW) | À (KRW) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -20,18 +20,18 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 50 000 000 | 88 000 000 | 24,00 % | 38 000 000 | 9 120 000 |
 | 88 000 000 | 150 000 000 | 35,00 % | 62 000 000 | 21 700 000 |
 | 150 000 000 | 300 000 000 | 38,00 % | 150 000 000 | 57 000 000 |
-| 300 000 000 | 500 000 000 | 40,00 % | 120 525 000 | 48 210 000 |
+| 300 000 000 | 500 000 000 | 40,00 % | 54 870 234 | 21 948 094 |
 | 500 000 000 | 1 000 000 000 | 42,00 % | 0 | 0 |
 | 1 000 000 000 | et plus | 45,00 % | 0 | 0 |
 
 - Majoration : impôt local sur le revenu (10 % de l'impôt national) : + 10,0 % de l'impôt.
-- **Impôt total : 156 497 000 KRW, soit 37,2 % du salaire brut.**
+- **Impôt total : 127 608 903 KRW, soit 36,0 % du salaire brut.**
 - Hypothèse : Barème national 2026 de 6 à 45 % et impôt local de 10 % de l'impôt national.
 - Hypothèse : Déduction pour revenus d'emploi et déductions personnelles exclues.
 
 ## Note
 
-Impôt national (tranche 42 %) plus impôt local de 10 %.
+Cours Yahoo EURKRW=X du 13/11/2026 : 1 EUR = 1476.78 KRW (hypothèse initiale : 1750). Taux recalculé : 36,2 % (avant : 37,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt national (tranche 42 %) plus impôt local de 10 %.
 
 ## Sources
 

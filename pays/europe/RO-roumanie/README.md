@@ -9,20 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : RON. Cours supposé : 1 EUR = 5,1 RON (valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel).
-- Salaire converti : 240 300 € × 5,1 = 1 225 530 RON.
-- Base imposable : 1 225 530 RON.
+- Devise : RON. Cours utilisé : 1 EUR = 5,3457 RON (Yahoo Finance EURRON=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 5,3457 = 1 284 578 RON.
+- Base imposable : 1 284 578 RON.
 
 | De (RON) | À (RON) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 10,00 % | 1 225 530 | 122 553 |
+| 0 | et plus | 10,00 % | 1 284 578 | 128 458 |
 
-- **Impôt total : 122 553 RON, soit 10,0 % du salaire brut.**
+- **Impôt total : 128 458 RON, soit 10,0 % du salaire brut.**
 - Hypothèse : Taux de 10 %, hors cotisations CAS et CASS.
 
 ## Note
 
-Taux de 10 %, hors cotisations CAS et CASS.
+Cours Yahoo EURRON=X du 13/11/2026 : 1 EUR = 5.345726 RON (hypothèse initiale : 5.1). Taux recalculé : 10,0 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux de 10 %, hors cotisations CAS et CASS.
 
 ## Sources
 

@@ -9,7 +9,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : CVE. Cours supposé : 1 EUR = 110,265 CVE (parité fixe CVE/EUR (110,265), reprise de la note).
+- Devise : CVE. Cours utilisé : 1 EUR = 110,265 CVE (Yahoo Finance EURCVE=X, cours vérifié fourni le 13/11/2026).
 - Salaire converti : 240 300 € × 110,265 = 26 496 680 CVE.
 - Base imposable : 26 496 680 CVE.
 

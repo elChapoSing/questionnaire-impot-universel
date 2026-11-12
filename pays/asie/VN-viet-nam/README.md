@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : VND. Cours supposé : 1 EUR = 28 580 VND (fxfeed.io, EUR/VND = 28 580,52 le 12/11/2026 (agrégateur, à remplacer par le cours Yahoo EURVND=X)).
-- Salaire converti : 240 300 € × 28 580 = 6 867 774 000 VND.
-- Base imposable : 6 867 774 000 VND.
+- Devise : VND. Cours utilisé : 1 EUR = 28 485 VND (Yahoo Finance EURVND=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 28 485 = 6 844 945 500 VND.
+- Base imposable : 6 844 945 500 VND.
 
 | De (VND) | À (VND) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,16 +19,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 120 000 000 | 360 000 000 | 10,00 % | 240 000 000 | 24 000 000 |
 | 360 000 000 | 720 000 000 | 20,00 % | 360 000 000 | 72 000 000 |
 | 720 000 000 | 1 200 000 000 | 30,00 % | 480 000 000 | 144 000 000 |
-| 1 200 000 000 | et plus | 35,00 % | 5 667 774 000 | 1 983 720 900 |
+| 1 200 000 000 | et plus | 35,00 % | 5 644 945 500 | 1 975 730 925 |
 
-- **Impôt total : 2 229 720 900 VND, soit 32,5 % du salaire brut.**
+- **Impôt total : 2 221 730 925 VND, soit 32,5 % du salaire brut.**
 - Hypothèse : Barème progressif annuel à 5 tranches (5, 10, 20, 30, 35 %) de la loi n° 109/2025/QH15, applicable aux revenus salariaux dès la période fiscale 2026 (120, 360, 720, 1 200 millions de VND par an).
 - Hypothèse : Conformément à la méthodologie du site, aucun abattement personnel : la déduction personnelle de 186 millions de VND par an (15,5 millions par mois) n'est pas appliquée. Avec elle, le taux serait d'environ 31,7 %.
 - Hypothèse : Cotisations sociales exclues.
 
 ## Note
 
-Barème 2026 de la loi n° 109/2025/QH15 (5 tranches de 5 % à 35 %, 35 % au-delà de 1,2 milliard de VND par an), sans abattement personnel, avec 1 EUR = 28 580 VND : environ 32,5 % (31,7 % si l'on déduit l'abattement personnel de 186 millions de VND).
+Cours Yahoo EURVND=X du 13/11/2026 : 1 EUR = 28485.0 VND (hypothèse initiale : 28580). Taux recalculé : 32,5 % (avant : 32,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 de la loi n° 109/2025/QH15 (5 tranches de 5 % à 35 %, 35 % au-delà de 1,2 milliard de VND par an), sans abattement personnel, avec 1 EUR = 28 580 VND : environ 32,5 % (31,7 % si l'on déduit l'abattement personnel de 186 millions de VND).
 
 ## Sources
 

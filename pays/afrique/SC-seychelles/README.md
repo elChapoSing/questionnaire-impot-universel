@@ -1,6 +1,6 @@
 # Seychelles (SC)
 
-**Taux effectif retenu : entre 26,5 et 27,8 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : entre 26,3 et 27,6 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,22 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : SCR. Cours supposé : 1 EUR = 16,5 SCR (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURSCR=X).
-- Salaire converti : 240 300 € × 16,5 = 3 964 950 SCR.
-- Base imposable : 3 964 950 SCR.
+- Devise : SCR. Cours utilisé : 1 EUR = 15,445 SCR (Yahoo Finance EURSCR=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 15,445 = 3 711 434 SCR.
+- Base imposable : 3 711 434 SCR.
 
 | De (SCR) | À (SCR) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 150 000 | 0,00 % | 150 000 | 0 |
 | 150 000 | 600 000 | 15,00 % | 450 000 | 67 500 |
-| 600 000 | et plus | 30,00 % | 3 364 950 | 1 009 485 |
+| 600 000 | et plus | 30,00 % | 3 111 434 | 933 430 |
 
-- **Impôt total : 1 076 985 SCR, soit 27,2 % du salaire brut.**
+- **Impôt total : 1 000 930 SCR, soit 27,0 % du salaire brut.**
 - Hypothèse : Seuil d'exonération de 150 000 SCR.
 
 ## Note
 
-Barème 0 / 15 / 30 % avec 150 000 SCR exonérés et taux de 30 % au-delà de 600 000 SCR. Change (hypothèse) : 1 EUR = 16,5 SCR ; de 26,7 à 27,7 selon le change. Cas proche du haut de la bande.
+Cours Yahoo EURSCR=X du 13/11/2026 : 1 EUR = 15.445 SCR (hypothèse initiale : 16.5). Taux recalculé : 27,0 % (avant : 27,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 0 / 15 / 30 % avec 150 000 SCR exonérés et taux de 30 % au-delà de 600 000 SCR. Change (hypothèse) : 1 EUR = 16,5 SCR ; de 26,7 à 27,7 selon le change. Cas proche du haut de la bande.
 
 ## Sources
 

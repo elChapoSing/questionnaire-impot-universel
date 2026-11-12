@@ -9,7 +9,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : MMK. Cours supposé : 1 EUR = 4 400 MMK (la note dit « très volatil » sans chiffrer ; valeur reconstituée (taux effectif 23 à 24 %), à remplacer par EURMMK=X).
+- Devise : MMK. Cours utilisé : 1 EUR = 4 400 MMK (la note dit « très volatil » sans chiffrer ; valeur reconstituée (taux effectif 23 à 24 %), à remplacer par EURMMK=X).
 - Salaire converti : 240 300 € × 4 400 = 1 057 320 000 MMK.
 - Déduction : abattement de 20 % plafonné : − 10 000 000 MMK.
 - Base imposable : 1 047 320 000 MMK.

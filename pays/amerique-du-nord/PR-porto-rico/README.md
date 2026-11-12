@@ -1,6 +1,6 @@
 # Porto Rico (PR)
 
-**Taux effectif retenu : 28,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 28,5 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : USD. Cours supposé : 1 EUR = 1,15 USD (hypothèse reprise de la note (EUR/USD 1,15), à remplacer par le cours Yahoo EURUSD=X).
-- Salaire converti : 240 300 € × 1,15 = 276 345 USD.
-- Base imposable : 276 345 USD.
+- Devise : USD. Cours utilisé : 1 EUR = 1,1065 USD (Yahoo Finance EURUSD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1,1065 = 265 884 USD.
+- Base imposable : 265 884 USD.
 
 | De (USD) | À (USD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,15 +19,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 9 000 | 25 000 | 7,00 % | 16 000 | 1 120 |
 | 25 000 | 41 500 | 14,00 % | 16 500 | 2 310 |
 | 41 500 | 61 500 | 25,00 % | 20 000 | 5 000 |
-| 61 500 | et plus | 33,00 % | 214 845 | 70 899 |
+| 61 500 | et plus | 33,00 % | 204 384 | 67 447 |
 
-- **Impôt total : 79 329 USD, soit 28,7 % du salaire brut.**
+- **Impôt total : 75 877 USD, soit 28,5 % du salaire brut.**
 - Hypothèse : Barème actuel ; les bornes 25 000 et 41 500 USD sont reconstituées (Deloitte 2026), sans effet au-delà de 61 500.
 - Hypothèse : Réforme en discussion (33 % limité aux revenus au-dessus de 150 000), non votée.
 
 ## Note
 
-Barème actuel de Porto Rico : 0 % jusqu'à 9 000 USD, 7 %, 14 %, 25 % puis 33 % au-delà de 61 500. Hypothèse change : 1 EUR = 1,15 USD, soit environ 276 300 USD. Réforme en discussion (taux de 33 % limité aux revenus supérieurs à 150 000), non votée : taux possiblement plus bas.
+Cours Yahoo EURUSD=X du 13/11/2026 : 1 EUR = 1.106465 USD (hypothèse initiale : 1.15). Taux recalculé : 28,5 % (avant : 28,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème actuel de Porto Rico : 0 % jusqu'à 9 000 USD, 7 %, 14 %, 25 % puis 33 % au-delà de 61 500. Hypothèse change : 1 EUR = 1,15 USD, soit environ 276 300 USD. Réforme en discussion (taux de 33 % limité aux revenus supérieurs à 150 000), non votée : taux possiblement plus bas.
 
 ## Sources
 

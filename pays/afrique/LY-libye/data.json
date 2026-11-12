@@ -1,12 +1,12 @@
 {
   "code": "LY",
   "nom": "Libye",
-  "rate": 10,
+  "rate": 10.0,
   "range": [
-    10,
-    13
+    10.0,
+    13.0
   ],
-  "note": "Impôt sur salaires : 5 % jusqu'à 12 000 LYD/an puis 10 %. Un guide PwC mentionne en plus un impôt Jihad de 3 % (fourchette). Change (hypothèse) : 1 EUR = 6,3 LYD. Cotisations sociales exclues.",
+  "note": "Cours Yahoo EURLYD=X du 13/11/2026 : 1 EUR = 7.153 LYD (hypothèse initiale : 6.3). Taux recalculé : 10,0 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt sur salaires : 5 % jusqu'à 12 000 LYD/an puis 10 %. Un guide PwC mentionne en plus un impôt Jihad de 3 % (fourchette). Change (hypothèse) : 1 EUR = 6,3 LYD. Cotisations sociales exclues.",
   "sources": [
     {
       "titre": "PwC Tax Summaries - Libye",
@@ -21,8 +21,8 @@
   ],
   "calc": {
     "devise": "LYD",
-    "fx": 6.3,
-    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURLYD=X",
+    "fx": 7.153,
+    "fx_source": "Yahoo Finance EURLYD=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

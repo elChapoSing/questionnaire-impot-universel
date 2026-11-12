@@ -1,6 +1,6 @@
 # Thaïlande (TH)
 
-**Taux effectif retenu : 29,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 29,6 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : THB. Cours supposé : 1 EUR = 38 THB (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURTHB=X).
-- Salaire converti : 240 300 € × 38 = 9 131 400 THB.
-- Base imposable : 9 131 400 THB.
+- Devise : THB. Cours utilisé : 1 EUR = 37,475 THB (Yahoo Finance EURTHB=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 37,475 = 9 005 242 THB.
+- Base imposable : 9 005 242 THB.
 
 | De (THB) | À (THB) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -22,15 +22,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 750 000 | 1 000 000 | 20,00 % | 250 000 | 50 000 |
 | 1 000 000 | 2 000 000 | 25,00 % | 1 000 000 | 250 000 |
 | 2 000 000 | 5 000 000 | 30,00 % | 3 000 000 | 900 000 |
-| 5 000 000 | et plus | 35,00 % | 4 131 400 | 1 445 990 |
+| 5 000 000 | et plus | 35,00 % | 4 005 242 | 1 401 835 |
 
-- **Impôt total : 2 710 990 THB, soit 29,7 % du salaire brut.**
+- **Impôt total : 2 666 835 THB, soit 29,6 % du salaire brut.**
 - Hypothèse : Barème progressif jusqu'à 35 % au-delà de 5 millions de bahts.
 - Hypothèse : Déduction forfaitaire pour frais (50 %, plafonnée à 100 000) et déductions personnelles exclues.
 
 ## Note
 
-Barème progressif jusqu'à 35 %.
+Cours Yahoo EURTHB=X du 13/11/2026 : 1 EUR = 37.475 THB (hypothèse initiale : 38). Taux recalculé : 29,6 % (avant : 29,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif jusqu'à 35 %.
 
 ## Sources
 

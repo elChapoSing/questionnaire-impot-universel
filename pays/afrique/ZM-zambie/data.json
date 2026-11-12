@@ -1,8 +1,8 @@
 {
   "code": "ZM",
   "nom": "Zambie",
-  "rate": 37.1,
-  "note": "PAYE 2026 : taux maximal 37,5 % au-delà de 9 900 ZMW/mois. Change (hypothèse) : 1 EUR = 27 ZMW.",
+  "rate": 37.0,
+  "note": "Cours Yahoo EURZMW=X du 13/11/2026 : 1 EUR = 22.656 ZMW (hypothèse initiale : 27). Taux recalculé : 37,0 % (avant : 37,1 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. PAYE 2026 : taux maximal 37,5 % au-delà de 9 900 ZMW/mois. Change (hypothèse) : 1 EUR = 27 ZMW.",
   "sources": [
     {
       "titre": "MJ Consultants - taux PAYE Zambie 2026",
@@ -12,8 +12,8 @@
   ],
   "calc": {
     "devise": "ZMW",
-    "fx": 27,
-    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURZMW=X",
+    "fx": 22.656,
+    "fx_source": "Yahoo Finance EURZMW=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

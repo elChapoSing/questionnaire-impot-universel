@@ -1,8 +1,8 @@
 {
   "code": "JO",
   "nom": "Jordanie",
-  "rate": 23.7,
-  "note": "Barème : 5 %, 10 %, 15 %, 20 % par tranches de 5 000 JOD puis 25 % jusqu'à 1 M JOD ; contribution de 1 % au-delà de 200 000 JOD (négligeable ici). Hypothèse : 1 EUR = 0,82 JOD. Exemptions personnelle et familiale (27 000 JOD) exclues ; avec elles le taux serait plus bas.",
+  "rate": 23.6,
+  "note": "Cours Yahoo EURJOD=X du 13/11/2026 : 1 EUR = 0.7838 JOD (hypothèse initiale : 0.82). Taux recalculé : 23,6 % (avant : 23,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème : 5 %, 10 %, 15 %, 20 % par tranches de 5 000 JOD puis 25 % jusqu'à 1 M JOD ; contribution de 1 % au-delà de 200 000 JOD (négligeable ici). Hypothèse : 1 EUR = 0,82 JOD. Exemptions personnelle et familiale (27 000 JOD) exclues ; avec elles le taux serait plus bas.",
   "sources": [
     {
       "titre": "Deloitte - Jordan Highlights 2026",
@@ -12,8 +12,8 @@
   ],
   "calc": {
     "devise": "JOD",
-    "fx": 0.82,
-    "fx_source": "hypothèse reprise de la note (1 € = 0,82 JOD)",
+    "fx": 0.7838,
+    "fx_source": "Yahoo Finance EURJOD=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

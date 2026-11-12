@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : PEN. Cours supposé : 1 EUR = 3,8 PEN (hypothèse reprise de la note (3,8 soles pour 1 EUR)).
-- Salaire converti : 240 300 € × 3,8 = 913 140 PEN.
-- Base imposable : 913 140 PEN.
+- Devise : PEN. Cours utilisé : 1 EUR = 3,7821 PEN (Yahoo Finance EURPEN=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 3,7821 = 908 839 PEN.
+- Base imposable : 908 839 PEN.
 
 | De (PEN) | À (PEN) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,15 +19,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 27 500 | 110 000 | 14,00 % | 82 500 | 11 550 |
 | 110 000 | 192 500 | 17,00 % | 82 500 | 14 025 |
 | 192 500 | 247 500 | 20,00 % | 55 000 | 11 000 |
-| 247 500 | et plus | 30,00 % | 665 640 | 199 692 |
+| 247 500 | et plus | 30,00 % | 661 339 | 198 402 |
 
-- **Impôt total : 238 467 PEN, soit 26,1 % du salaire brut.**
+- **Impôt total : 237 177 PEN, soit 26,1 % du salaire brut.**
 - Hypothèse : Barème de l'article 53 en UIT (UIT 2026 : 5 500 soles) : 8 % jusqu'à 5 UIT, 14 % jusqu'à 20, 17 % jusqu'à 35, 20 % jusqu'à 45, 30 % au-delà.
 - Hypothèse : Variante sans déduction des 7 UIT (la note donne 23,9 % à 25,1 % avec cette déduction). Une source donne une UIT de 5 350 soles.
 
 ## Note
 
-Barème de l'article 53 : 8 % jusqu'à 5 UIT, 14 % jusqu'à 20, 17 % jusqu'à 35, 20 % jusqu'à 45, 30 % au-delà (UIT 2026 : 5 500 soles). De 25,4 % à 26,3 % sans déduction ; de 23,9 % à 25,1 % avec la déduction de 7 UIT. Change supposé : 3,8 soles pour 1 €. Une source donne une UIT différente (5 350 soles).
+Cours Yahoo EURPEN=X du 13/11/2026 : 1 EUR = 3.7821 PEN (hypothèse initiale : 3.8). Taux recalculé : 25,8 % (avant : 25,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème de l'article 53 : 8 % jusqu'à 5 UIT, 14 % jusqu'à 20, 17 % jusqu'à 35, 20 % jusqu'à 45, 30 % au-delà (UIT 2026 : 5 500 soles). De 25,4 % à 26,3 % sans déduction ; de 23,9 % à 25,1 % avec la déduction de 7 UIT. Change supposé : 3,8 soles pour 1 €. Une source donne une UIT différente (5 350 soles).
 
 ## Sources
 

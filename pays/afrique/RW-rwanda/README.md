@@ -9,23 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : RWF. Cours supposé : 1 EUR = 1 700 RWF (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURRWF=X).
-- Salaire converti : 240 300 € × 1 700 = 408 510 000 RWF.
-- Base imposable : 408 510 000 RWF.
+- Devise : RWF. Cours utilisé : 1 EUR = 1 638,6 RWF (Yahoo Finance EURRWF=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1 638,6 = 393 755 580 RWF.
+- Base imposable : 393 755 580 RWF.
 
 | De (RWF) | À (RWF) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 720 000 | 0,00 % | 720 000 | 0 |
 | 720 000 | 1 200 000 | 10,00 % | 480 000 | 48 000 |
 | 1 200 000 | 2 400 000 | 20,00 % | 1 200 000 | 240 000 |
-| 2 400 000 | et plus | 30,00 % | 406 110 000 | 121 833 000 |
+| 2 400 000 | et plus | 30,00 % | 391 355 580 | 117 406 674 |
 
-- **Impôt total : 122 121 000 RWF, soit 29,9 % du salaire brut.**
+- **Impôt total : 117 694 674 RWF, soit 29,9 % du salaire brut.**
 - Hypothèse : Barème supposé mensuel (PwC ne précise pas la période), multiplié par 12.
 
 ## Note
 
-Barème supposé mensuel (PwC ne précise pas la période) : taux maximal 30 % au-delà de 200 000 RWF/mois. Change (hypothèse) : 1 EUR = 1 700 RWF.
+Cours Yahoo EURRWF=X du 13/11/2026 : 1 EUR = 1638.6 RWF (hypothèse initiale : 1700). Taux recalculé : 29,9 % (avant : 29,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème supposé mensuel (PwC ne précise pas la période) : taux maximal 30 % au-delà de 200 000 RWF/mois. Change (hypothèse) : 1 EUR = 1 700 RWF.
 
 ## Sources
 

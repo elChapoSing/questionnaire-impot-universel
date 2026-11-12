@@ -9,22 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : GTQ. Cours supposé : 1 EUR = 8,6 GTQ (hypothèse reprise de la note).
-- Salaire converti : 240 300 € × 8,6 = 2 066 580 GTQ.
-- Base imposable : 2 066 580 GTQ.
+- Devise : GTQ. Cours utilisé : 1 EUR = 8,476 GTQ (Yahoo Finance EURGTQ=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 8,476 = 2 036 783 GTQ.
+- Base imposable : 2 036 783 GTQ.
 
 | De (GTQ) | À (GTQ) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 300 000 | 5,00 % | 300 000 | 15 000 |
-| 300 000 | et plus | 7,00 % | 1 766 580 | 123 661 |
+| 300 000 | et plus | 7,00 % | 1 736 783 | 121 575 |
 
-- **Impôt total : 138 661 GTQ, soit 6,7 % du salaire brut.**
+- **Impôt total : 136 575 GTQ, soit 6,7 % du salaire brut.**
 - Hypothèse : Régime des salariés seulement (5 % jusqu'à 300 000 GTQ, puis 7 %) ; sources non officielles.
 - Hypothèse : Aucune déduction appliquée.
 
 ## Note
 
-Salariés : 5 % jusqu'à 300 000 quetzales, puis 7 % (15 000 quetzales fixes plus 7 % de l'excédent). Régime des salariés seulement : les revenus d'activité lucrative relèvent d'un autre régime (jusqu'à 25 % des bénéfices). Source officielle (SAT) non lue. Change supposé : 8,6 quetzales pour 1 €.
+Cours Yahoo EURGTQ=X du 13/11/2026 : 1 EUR = 8.476 GTQ (hypothèse initiale : 8.6). Taux recalculé : 6,7 % (avant : 6,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Salariés : 5 % jusqu'à 300 000 quetzales, puis 7 % (15 000 quetzales fixes plus 7 % de l'excédent). Régime des salariés seulement : les revenus d'activité lucrative relèvent d'un autre régime (jusqu'à 25 % des bénéfices). Source officielle (SAT) non lue. Change supposé : 8,6 quetzales pour 1 €.
 
 ## Sources
 

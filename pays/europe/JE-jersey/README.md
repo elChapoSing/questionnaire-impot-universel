@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : GBP. Cours supposé : 1 EUR = 0,87 GBP (hypothèse reprise de la note).
-- Salaire converti : 240 300 € × 0,87 = 209 061 GBP.
-- Base imposable : 209 061 GBP.
+- Devise : GBP. Cours utilisé : 1 EUR = 0,8359 GBP (Yahoo Finance EURGBP=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 0,8359 = 200 862 GBP.
+- Base imposable : 200 862 GBP.
 
 | De (GBP) | À (GBP) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 20,00 % | 209 061 | 41 812 |
+| 0 | et plus | 20,00 % | 200 862 | 40 172 |
 
-- **Impôt total : 41 812 GBP, soit 20,0 % du salaire brut.**
+- **Impôt total : 40 172 GBP, soit 20,0 % du salaire brut.**
 - Hypothèse : Taux standard de 20 % sur l'ensemble du revenu (maximum de l'impôt sur le revenu à Jersey).
 - Hypothèse : Contribution dépendance exclue.
 
 ## Note
 
-Taux standard de 20 % sur l'ensemble du revenu, maximum de l'impôt sur le revenu à Jersey. Le calcul « marginal » (26 % au-delà d'un seuil d'exemption) ne profite qu'aux revenus modestes. Taux effectif de 20 % à 240 300 € (le change £/€ ne change rien). Contribution dépendance (long-term care) exclue.
+Cours Yahoo EURGBP=X du 13/11/2026 : 1 EUR = 0.83588 GBP (hypothèse initiale : 0.87). Taux recalculé : 20,0 % (avant : 20 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux standard de 20 % sur l'ensemble du revenu, maximum de l'impôt sur le revenu à Jersey. Le calcul « marginal » (26 % au-delà d'un seuil d'exemption) ne profite qu'aux revenus modestes. Taux effectif de 20 % à 240 300 € (le change £/€ ne change rien). Contribution dépendance (long-term care) exclue.
 
 ## Sources
 

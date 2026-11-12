@@ -1,8 +1,8 @@
 {
   "code": "EC",
   "nom": "Équateur",
-  "rate": 31,
-  "note": "Barème 2026 : fraction exonérée de 12 208 dollars, puis de 5 % à 37 % (37 % au-delà de 109 956 dollars). Avant rabais pour dépenses personnelles. Le pays utilise le dollar : seul le cours euro-dollar joue.",
+  "rate": 30.7,
+  "note": "Cours Yahoo EURUSD=X du 13/11/2026 : 1 EUR = 1.106465 USD (hypothèse initiale : 1.16). Taux recalculé : 30,7 % (avant : 31 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 : fraction exonérée de 12 208 dollars, puis de 5 % à 37 % (37 % au-delà de 109 956 dollars). Avant rabais pour dépenses personnelles. Le pays utilise le dollar : seul le cours euro-dollar joue.",
   "sources": [
     {
       "titre": "NMS Law, barèmes de l'impôt sur le revenu 2026 en Équateur",
@@ -22,8 +22,8 @@
   ],
   "calc": {
     "devise": "USD",
-    "fx": 1.16,
-    "fx_source": "hypothèse (la note ne donne aucun cours) : environ 1,16 dollar pour 1 EUR, à remplacer par le cours Yahoo EURUSD=X ; l'Équateur utilise le dollar",
+    "fx": 1.106465,
+    "fx_source": "Yahoo Finance EURUSD=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

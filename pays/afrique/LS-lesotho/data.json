@@ -2,7 +2,7 @@
   "code": "LS",
   "nom": "Lesotho",
   "rate": 29.8,
-  "note": "Taux de 20 % puis 30 % au-delà de 77 760 LSL par an (barème en vigueur 1er avril 2026) ; crédit d'impôt personnel de 12 240 LSL ignoré. Change (hypothèse) : 1 EUR = 20 LSL.",
+  "note": "Cours Yahoo EURLSL=X du 13/11/2026 : 1 EUR = 18.4888 LSL (hypothèse initiale : 20). Taux recalculé : 29,8 % (avant : 29,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux de 20 % puis 30 % au-delà de 77 760 LSL par an (barème en vigueur 1er avril 2026) ; crédit d'impôt personnel de 12 240 LSL ignoré. Change (hypothèse) : 1 EUR = 20 LSL.",
   "sources": [
     {
       "titre": "RSL Lesotho - barème 2026-2027",
@@ -12,8 +12,8 @@
   ],
   "calc": {
     "devise": "LSL",
-    "fx": 20,
-    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURLSL=X",
+    "fx": 18.4888,
+    "fx_source": "Yahoo Finance EURLSL=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

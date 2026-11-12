@@ -1,8 +1,8 @@
 {
   "code": "CN",
   "nom": "Chine",
-  "rate": 35.2,
-  "note": "Barème des revenus globaux, tranche supérieure à 45 %.",
+  "rate": 34.4,
+  "note": "Cours Yahoo EURCNY=X du 13/11/2026 : 1 EUR = 7.382299 CNY (hypothèse initiale : 8). Taux recalculé : 34,4 % (avant : 35,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème des revenus globaux, tranche supérieure à 45 %.",
   "sources": [
     {
       "titre": "Loi sur l'impôt sur le revenu (administration fiscale)",
@@ -17,8 +17,8 @@
   ],
   "calc": {
     "devise": "CNY",
-    "fx": 8,
-    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURCNY=X",
+    "fx": 7.382299,
+    "fx_source": "Yahoo Finance EURCNY=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : NIO. Cours supposé : 1 EUR = 42,1 NIO (hypothèse reprise de la note).
-- Salaire converti : 240 300 € × 42,1 = 10 116 630 NIO.
-- Base imposable : 10 116 630 NIO.
+- Devise : NIO. Cours utilisé : 1 EUR = 40,82 NIO (Yahoo Finance EURNIO=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 40,82 = 9 809 046 NIO.
+- Base imposable : 9 809 046 NIO.
 
 | De (NIO) | À (NIO) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,15 +19,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 100 000 | 200 000 | 15,00 % | 100 000 | 15 000 |
 | 200 000 | 350 000 | 20,00 % | 150 000 | 30 000 |
 | 350 000 | 500 000 | 25,00 % | 150 000 | 37 500 |
-| 500 000 | et plus | 30,00 % | 9 616 630 | 2 884 989 |
+| 500 000 | et plus | 30,00 % | 9 309 046 | 2 792 714 |
 
-- **Impôt total : 2 967 489 NIO, soit 29,3 % du salaire brut.**
+- **Impôt total : 2 875 214 NIO, soit 29,3 % du salaire brut.**
 - Hypothèse : Table annuelle du travail ; seules les bornes 100 000 et 500 000 figurent dans la note, les bornes 200 000 et 350 000 sont des valeurs de reconstitution (sans effet au-delà de 500 000).
 - Hypothèse : Calculé sur le brut, sans déduire la cotisation INSS de 7 %.
 
 ## Note
 
-Table progressive annuelle du travail : exonéré jusqu'à 100 000 NIO, puis 15 %, 20 %, 25 %, 30 % au-delà de 500 000. Calculé sur le brut, sans déduire la cotisation INSS de 7 % (variante légèrement plus basse). Hypothèse change : 1 EUR = 42,1 NIO.
+Cours Yahoo EURNIO=X du 13/11/2026 : 1 EUR = 40.82 NIO (hypothèse initiale : 42.1). Taux recalculé : 29,3 % (avant : 29,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Table progressive annuelle du travail : exonéré jusqu'à 100 000 NIO, puis 15 %, 20 %, 25 %, 30 % au-delà de 500 000. Calculé sur le brut, sans déduire la cotisation INSS de 7 % (variante légèrement plus basse). Hypothèse change : 1 EUR = 42,1 NIO.
 
 ## Sources
 

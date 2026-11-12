@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : LBP. Cours supposé : 1 EUR = 103 800 LBP (hypothèse reprise de la note (1 € = 103 800 LBP)).
-- Salaire converti : 240 300 € × 103 800 = 24 943 140 000 LBP.
-- Base imposable : 24 943 140 000 LBP.
+- Devise : LBP. Cours utilisé : 1 EUR = 99 333,3 LBP (Yahoo Finance EURLBP=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 99 333,3 = 23 869 791 990 LBP.
+- Base imposable : 23 869 791 990 LBP.
 
 | De (LBP) | À (LBP) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -21,15 +21,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 90 000 000 | 150 000 000 | 11,00 % | 60 000 000 | 6 600 000 |
 | 150 000 000 | 225 000 000 | 15,00 % | 75 000 000 | 11 250 000 |
 | 225 000 000 | 675 000 000 | 20,00 % | 450 000 000 | 90 000 000 |
-| 675 000 000 | et plus | 25,00 % | 24 268 140 000 | 6 067 035 000 |
+| 675 000 000 | et plus | 25,00 % | 23 194 791 990 | 5 798 697 998 |
 
-- **Impôt total : 6 179 475 000 LBP, soit 24,8 % du salaire brut.**
+- **Impôt total : 5 911 137 998 LBP, soit 24,8 % du salaire brut.**
 - Hypothèse : Barème des salaires depuis 2022 (PwC) : 2 % à 25 %, 25 % au-delà de 675 M LBP ; intermédiaires reconstitués à partir de l'ancien barème multiplié par 3.
 - Hypothèse : Variante TaxAtlas (25 % au-delà de 120 M LBP) : environ 24,9 %, d'où la fourchette de la note. Abattements exclus.
 
 ## Note
 
-Taxe sur les salaires progressive de 2 % à 25 % ; taux marginal de 25 % au-delà de 675 M LBP (PwC) ou 120 M LBP (TaxAtlas) selon la source, d'où la fourchette. Hypothèse : 1 EUR = 103 800 LBP (taux officiel d'environ 89 500 LBP par USD).
+Cours Yahoo EURLBP=X du 13/11/2026 : 1 EUR = 99333.3 LBP (hypothèse initiale : 103800). Taux recalculé : 24,8 % (avant : 24,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taxe sur les salaires progressive de 2 % à 25 % ; taux marginal de 25 % au-delà de 675 M LBP (PwC) ou 120 M LBP (TaxAtlas) selon la source, d'où la fourchette. Hypothèse : 1 EUR = 103 800 LBP (taux officiel d'environ 89 500 LBP par USD).
 
 ## Sources
 

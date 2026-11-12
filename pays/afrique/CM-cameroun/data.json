@@ -22,7 +22,7 @@
   "calc": {
     "devise": "XAF",
     "fx": 655.957,
-    "fx_source": "parité fixe XAF/EUR (655,957), reprise de la note",
+    "fx_source": "Yahoo Finance EURXAF=X, cours vérifié fourni le 13/11/2026",
     "deductions": [
       [
         "Déduction forfaitaire de 30 % pour frais professionnels sur salaires",

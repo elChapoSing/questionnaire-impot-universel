@@ -9,23 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : CZK. Cours supposé : 1 EUR = 24,3 CZK (la note ne donne pas de cours : hypothèse de 24,3 CZK pour 1 EUR, à remplacer par le cours Yahoo EURCZK=X).
-- Salaire converti : 240 300 € × 24,3 = 5 839 290 CZK.
-- Base imposable : 5 839 290 CZK.
+- Devise : CZK. Cours utilisé : 1 EUR = 24,3885 CZK (Yahoo Finance EURCZK=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 24,3885 = 5 860 569 CZK.
+- Base imposable : 5 860 569 CZK.
 
 | De (CZK) | À (CZK) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 1 762 812 | 15,00 % | 1 762 812 | 264 422 |
-| 1 762 812 | et plus | 23,00 % | 4 076 478 | 937 590 |
+| 1 762 812 | et plus | 23,00 % | 4 097 757 | 942 484 |
 
-- **Impôt total : 1 202 012 CZK, soit 20,6 % du salaire brut.**
+- **Impôt total : 1 206 906 CZK, soit 20,6 % du salaire brut.**
 - Hypothèse : 15 % jusqu'à 1 762 812 CZK, 23 % au-delà.
 - Hypothèse : Le crédit d'impôt de base de 30 840 CZK n'est pas compté ; avec lui le taux tomberait à environ 20,0 %.
 - Hypothèse : Taux sensible au change, très proche du seuil de 21,1 %.
 
 ## Note
 
-15 % jusqu'à 1 762 812 couronnes, 23 % au-delà. Très proche du seuil de 21,1 % : le crédit d'impôt de base de 30 840 couronnes, non compté, l'abaisserait à 20,0 %.
+Cours Yahoo EURCZK=X du 13/11/2026 : 1 EUR = 24.38855 CZK (hypothèse initiale : 24.3). Taux recalculé : 20,6 % (avant : 20,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 15 % jusqu'à 1 762 812 couronnes, 23 % au-delà. Très proche du seuil de 21,1 % : le crédit d'impôt de base de 30 840 couronnes, non compté, l'abaisserait à 20,0 %.
 
 ## Sources
 

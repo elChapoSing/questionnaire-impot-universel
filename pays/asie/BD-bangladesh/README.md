@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : BDT. Cours supposé : 1 EUR = 140 BDT (hypothèse reprise de la note (140 takas pour 1 €)).
-- Salaire converti : 240 300 € × 140 = 33 642 000 BDT.
-- Base imposable : 33 642 000 BDT.
+- Devise : BDT. Cours utilisé : 1 EUR = 137,97 BDT (Yahoo Finance EURBDT=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 137,97 = 33 154 191 BDT.
+- Base imposable : 33 154 191 BDT.
 
 | De (BDT) | À (BDT) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -20,15 +20,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 675 000 | 1 075 000 | 15,00 % | 400 000 | 60 000 |
 | 1 075 000 | 1 575 000 | 20,00 % | 500 000 | 100 000 |
 | 1 575 000 | 3 575 000 | 25,00 % | 2 000 000 | 500 000 |
-| 3 575 000 | et plus | 30,00 % | 30 067 000 | 9 020 100 |
+| 3 575 000 | et plus | 30,00 % | 29 579 191 | 8 873 757 |
 
-- **Impôt total : 9 710 100 BDT, soit 28,9 % du salaire brut.**
+- **Impôt total : 9 563 757 BDT, soit 28,8 % du salaire brut.**
 - Hypothèse : Barème des années d'imposition 2026-27 et 2027-28 ; la tranche à 35 % au-delà de 30 millions n'est prévue qu'à partir de 2028-29 (non retenue).
 - Hypothèse : Sans crédit d'impôt d'investissement ni rebate.
 
 ## Note
 
-Barème des années d'imposition 2026-27 et 2027-28 : 375 000 takas exonérés, puis 10 %, 15 %, 20 %, 25 % et 30 % au-delà de 3,575 millions. Une tranche à 35 % au-delà de 30 millions est prévue à partir de 2028-29. Change supposé : 140 takas pour 1 €.
+Cours Yahoo EURBDT=X du 13/11/2026 : 1 EUR = 137.97 BDT (hypothèse initiale : 140). Taux recalculé : 28,9 % (avant : 28,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème des années d'imposition 2026-27 et 2027-28 : 375 000 takas exonérés, puis 10 %, 15 %, 20 %, 25 % et 30 % au-delà de 3,575 millions. Une tranche à 35 % au-delà de 30 millions est prévue à partir de 2028-29. Change supposé : 140 takas pour 1 €.
 
 ## Sources
 

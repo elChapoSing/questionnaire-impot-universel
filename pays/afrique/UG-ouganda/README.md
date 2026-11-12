@@ -1,6 +1,6 @@
 # Ouganda (UG)
 
-**Taux effectif retenu : 38,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 38,8 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : UGX. Cours supposé : 1 EUR = 4 200 UGX (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURUGX=X).
-- Salaire converti : 240 300 € × 4 200 = 1 009 260 000 UGX.
-- Base imposable : 1 009 260 000 UGX.
+- Devise : UGX. Cours utilisé : 1 EUR = 4 565 UGX (Yahoo Finance EURUGX=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 4 565 = 1 096 969 500 UGX.
+- Base imposable : 1 096 969 500 UGX.
 
 | De (UGX) | À (UGX) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,14 +19,14 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 2 820 000 | 4 020 000 | 10,00 % | 1 200 000 | 120 000 |
 | 4 020 000 | 4 920 000 | 20,00 % | 900 000 | 180 000 |
 | 4 920 000 | 120 000 000 | 30,00 % | 115 080 000 | 34 524 000 |
-| 120 000 000 | et plus | 40,00 % | 889 260 000 | 355 704 000 |
+| 120 000 000 | et plus | 40,00 % | 976 969 500 | 390 787 800 |
 
-- **Impôt total : 390 528 000 UGX, soit 38,7 % du salaire brut.**
+- **Impôt total : 425 611 800 UGX, soit 38,8 % du salaire brut.**
 - Hypothèse : Barème mensuel résident multiplié par 12 ; le taux de 40 % comprend la surtaxe de 10 % au-delà de 10 millions UGX par mois.
 
 ## Note
 
-Barème annuel résident, taux maximal 40 % au-delà de 120 M UGX. Change (hypothèse) : 1 EUR = 4 200 UGX.
+Cours Yahoo EURUGX=X du 13/11/2026 : 1 EUR = 4565.0 UGX (hypothèse initiale : 4200). Taux recalculé : 38,8 % (avant : 38,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème annuel résident, taux maximal 40 % au-delà de 120 M UGX. Change (hypothèse) : 1 EUR = 4 200 UGX.
 
 ## Sources
 

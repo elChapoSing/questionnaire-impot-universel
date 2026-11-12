@@ -1,8 +1,8 @@
 {
   "code": "NG",
   "nom": "Nigeria",
-  "rate": 24.5,
-  "note": "Nigeria Tax Act 2025, barème 2026 : taux maximal 25 % au-delà de 50 M NGN. Relief loyer et cotisations ignorés. Change (hypothèse) : 1 EUR = 1 750 NGN ; taux stable de 24,4 à 24,6 selon le change.",
+  "rate": 24.4,
+  "note": "Cours Yahoo EURNGN=X du 13/11/2026 : 1 EUR = 1498.6 NGN (hypothèse initiale : 1750). Taux recalculé : 24,4 % (avant : 24,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Nigeria Tax Act 2025, barème 2026 : taux maximal 25 % au-delà de 50 M NGN. Relief loyer et cotisations ignorés. Change (hypothèse) : 1 EUR = 1 750 NGN ; taux stable de 24,4 à 24,6 selon le change.",
   "sources": [
     {
       "titre": "PaySpace - réforme fiscale Nigeria 2026",
@@ -12,8 +12,8 @@
   ],
   "calc": {
     "devise": "NGN",
-    "fx": 1750,
-    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURNGN=X",
+    "fx": 1498.6,
+    "fx_source": "Yahoo Finance EURNGN=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

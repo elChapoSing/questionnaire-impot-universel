@@ -1,6 +1,6 @@
 # Montserrat (MS)
 
-**Taux effectif retenu : 36,8 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 36,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : XCD. Cours supposé : 1 EUR = 3,105 XCD (hypothèse reprise de la note).
-- Salaire converti : 240 300 € × 3,105 = 746 132 XCD.
-- Base imposable : 746 132 XCD.
+- Devise : XCD. Cours utilisé : 1 EUR = 2,9903 XCD (Yahoo Finance EURXCD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 2,9903 = 718 564 XCD.
+- Base imposable : 718 564 XCD.
 
 | De (XCD) | À (XCD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -20,14 +20,14 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 25 000 | 35 000 | 20,00 % | 10 000 | 2 000 |
 | 35 000 | 45 000 | 25,00 % | 10 000 | 2 500 |
 | 45 000 | 150 000 | 30,00 % | 105 000 | 31 500 |
-| 150 000 | et plus | 40,00 % | 596 132 | 238 453 |
+| 150 000 | et plus | 40,00 % | 568 564 | 227 425 |
 
-- **Impôt total : 274 803 XCD, soit 36,8 % du salaire brut.**
+- **Impôt total : 263 775 XCD, soit 36,7 % du salaire brut.**
 - Hypothèse : Barème 2024 (Income and Corporation Tax (Amendment) Act 2024), via Orbitax ; source secondaire non officielle.
 
 ## Note
 
-Barème 2024 : franchise 18 000 XCD puis 5 %, 20 %, 25 %, 30 %, 40 % au-delà de 150 000. Hypothèse change : 1 EUR = 3,105 XCD, soit environ 746 100 XCD. Source secondaire non officielle, taux supérieurs à vérifier.
+Cours Yahoo EURXCD=X du 13/11/2026 : 1 EUR = 2.990276985 XCD (hypothèse initiale : 3.105). Taux recalculé : 36,7 % (avant : 36,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2024 : franchise 18 000 XCD puis 5 %, 20 %, 25 %, 30 %, 40 % au-delà de 150 000. Hypothèse change : 1 EUR = 3,105 XCD, soit environ 746 100 XCD. Source secondaire non officielle, taux supérieurs à vérifier.
 
 ## Sources
 

@@ -1,12 +1,12 @@
 {
   "code": "CH",
   "nom": "Suisse",
-  "rate": 25,
+  "rate": 25.0,
   "range": [
-    16,
-    34
+    16.0,
+    34.0
   ],
-  "note": "Le taux dépend du canton et de la commune : de 16 % (Zoug) à 32 % (Lausanne) selon Taxolution, de 17,6 % à 34,1 % selon PwC, pour un célibataire à 250 000 CHF, impôt fédéral compris. Le taux de 25 % servant au classement est le milieu de la fourchette, pas une moyenne.",
+  "note": "Cours Yahoo EURCHF=X du 13/11/2026 : 1 EUR = 0.92361 CHF (hypothèse initiale : 0.93). Taux recalculé : 25,0 % (avant : 25 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Le taux dépend du canton et de la commune : de 16 % (Zoug) à 32 % (Lausanne) selon Taxolution, de 17,6 % à 34,1 % selon PwC, pour un célibataire à 250 000 CHF, impôt fédéral compris. Le taux de 25 % servant au classement est le milieu de la fourchette, pas une moyenne.",
   "sources": [
     {
       "titre": "ESTV, barème de l'impôt fédéral 2026 (formulaire 58c, publié par le canton de Neuchâtel)",
@@ -26,8 +26,8 @@
   ],
   "calc": {
     "devise": "CHF",
-    "fx": 0.93,
-    "fx_source": "la note ne donne pas de cours : hypothèse de 0,93 CHF pour 1 EUR, à remplacer par le cours Yahoo EURCHF=X",
+    "fx": 0.92361,
+    "fx_source": "Yahoo Finance EURCHF=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

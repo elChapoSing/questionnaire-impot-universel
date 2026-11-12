@@ -1,7 +1,7 @@
 # Uruguay (UY)
 
-**Taux effectif retenu : 26,0 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
-**Verdict du questionnaire : Discutable.**
+**Taux effectif retenu : 26,1 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
 
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : UYU. Cours supposé : 1 EUR = 44,6 UYU (hypothèse reprise de la note (44,6 pesos pour 1 EUR)).
-- Salaire converti : 240 300 € × 44,6 = 10 717 380 UYU.
-- Base imposable : 10 717 380 UYU.
+- Devise : UYU. Cours utilisé : 1 EUR = 44,96 UYU (Yahoo Finance EURUYU=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 44,96 = 10 803 888 UYU.
+- Base imposable : 10 803 888 UYU.
 
 | De (UYU) | À (UYU) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -22,15 +22,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 2 471 040 | 4 118 400 | 25,00 % | 1 647 360 | 411 840 |
 | 4 118 400 | 6 177 600 | 27,00 % | 2 059 200 | 555 984 |
 | 6 177 600 | 9 472 320 | 31,00 % | 3 294 720 | 1 021 363 |
-| 9 472 320 | et plus | 36,00 % | 1 245 060 | 448 222 |
+| 9 472 320 | et plus | 36,00 % | 1 331 568 | 479 364 |
 
-- **Impôt total : 2 820 420 UYU, soit 26,3 % du salaire brut.**
+- **Impôt total : 2 851 563 UYU, soit 26,4 % du salaire brut.**
 - Hypothèse : IRPF travail : barème mensuel en BPC (BPC 2026 : 6 864 pesos) multiplié par 12 pour l'année : 0 % jusqu'à 7 BPC, puis 10 %, 15 %, 24 %, 25 %, 27 %, 31 % et 36 % au-delà de 115 BPC par mois. Seuils intermédiaires du barème standard, à confirmer avec le communiqué du BPS.
 - Hypothèse : Avant déductions ; la note donne 25,2 % à 27,0 % pour 40 à 48 pesos pour 1 EUR.
 
 ## Note
 
-IRPF travail : tranches mensuelles de 0 % à 36 % (36 % au-delà de 115 BPC par mois ; BPC 2026 : 6 864 pesos). De 25,2 % à 27,0 % pour 40 à 48 pesos pour 1 €, avant déductions. Change supposé : 44,6 pesos pour 1 €. Les revenus du capital sont taxés à 7 à 12 %.
+Cours Yahoo EURUYU=X du 13/11/2026 : 1 EUR = 44.96 UYU (hypothèse initiale : 44.6). Taux recalculé : 26,1 % (avant : 26 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. IRPF travail : tranches mensuelles de 0 % à 36 % (36 % au-delà de 115 BPC par mois ; BPC 2026 : 6 864 pesos). De 25,2 % à 27,0 % pour 40 à 48 pesos pour 1 €, avant déductions. Change supposé : 44,6 pesos pour 1 €. Les revenus du capital sont taxés à 7 à 12 %.
 
 ## Sources
 

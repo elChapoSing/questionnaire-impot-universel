@@ -1,8 +1,8 @@
 {
   "code": "AR",
   "nom": "Argentine",
-  "rate": 34,
-  "note": "Quatrième catégorie (salariés) : barème de 5 % à 35 %, le taux de 35 % commençant à 60,75 millions de pesos par an. À ce revenu, la quasi-totalité est taxée à 35 %. Estimation à partir de ce barème (tranches intermédiaires non reprises une à une) : de 31 % à 35 % quel que soit le change, très volatil. Source officielle (ARCA) non lue.",
+  "rate": 33.9,
+  "note": "Cours Yahoo EURARS=X du 13/11/2026 : 1 EUR = 1708.828 ARS (hypothèse initiale : 1850). Taux recalculé : 33,9 % (avant : 34 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Quatrième catégorie (salariés) : barème de 5 % à 35 %, le taux de 35 % commençant à 60,75 millions de pesos par an. À ce revenu, la quasi-totalité est taxée à 35 %. Estimation à partir de ce barème (tranches intermédiaires non reprises une à une) : de 31 % à 35 % quel que soit le change, très volatil. Source officielle (ARCA) non lue.",
   "sources": [
     {
       "titre": "calcularsueldo.com.ar, ARCA a officialisé les barèmes de 2026",
@@ -22,8 +22,8 @@
   ],
   "calc": {
     "devise": "ARS",
-    "fx": 1850,
-    "fx_source": "hypothèse (aucun cours dans la note) : environ 1 850 pesos pour 1 EUR, à remplacer par le cours Yahoo EURARS=X ; taux très peu sensible au change au-delà de 1 500 (de 33,3 % à 33,6 % entre 1 600 et 2 000)",
+    "fx": 1708.828,
+    "fx_source": "Yahoo Finance EURARS=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : TJS. Cours supposé : 1 EUR = 11 TJS (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURTJS=X).
-- Salaire converti : 240 300 € × 11 = 2 643 300 TJS.
-- Base imposable : 2 643 300 TJS.
+- Devise : TJS. Cours utilisé : 1 EUR = 10,2328 TJS (Yahoo Finance EURTJS=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 10,2328 = 2 458 942 TJS.
+- Base imposable : 2 458 942 TJS.
 
 | De (TJS) | À (TJS) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 10 080 | 8,00 % | 10 080 | 806 |
-| 10 080 | et plus | 13,00 % | 2 633 220 | 342 319 |
+| 10 080 | et plus | 13,00 % | 2 448 862 | 318 352 |
 
-- **Impôt total : 343 125 TJS, soit 13,0 % du salaire brut.**
+- **Impôt total : 319 158 TJS, soit 13,0 % du salaire brut.**
 - Hypothèse : Variante TaxAtlas 2026 : 8 % puis 13 % au-delà de 840 somonis par mois (10 080 par an). Variante PwC (12 % au-delà d'une déduction personnelle) : environ 12 %, d'où la fourchette de la note.
 
 ## Note
 
-Sources divergentes : TaxAtlas 2026 indique 8 % puis 13 % au-delà de 840 somonis par mois ; PwC (revu en 2024) indique 12 % au-delà d'une déduction personnelle. Effet de la tranche à 8 % négligeable à ce niveau de revenu.
+Cours Yahoo EURTJS=X du 13/11/2026 : 1 EUR = 10.2328 TJS (hypothèse initiale : 11). Taux recalculé : 13,0 % (avant : 13 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Sources divergentes : TaxAtlas 2026 indique 8 % puis 13 % au-delà de 840 somonis par mois ; PwC (revu en 2024) indique 12 % au-delà d'une déduction personnelle. Effet de la tranche à 8 % négligeable à ce niveau de revenu.
 
 ## Sources
 

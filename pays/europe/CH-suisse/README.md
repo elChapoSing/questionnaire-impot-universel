@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : CHF. Cours supposé : 1 EUR = 0,93 CHF (la note ne donne pas de cours : hypothèse de 0,93 CHF pour 1 EUR, à remplacer par le cours Yahoo EURCHF=X).
-- Salaire converti : 240 300 € × 0,93 = 223 479 CHF.
-- Base imposable : 223 479 CHF.
+- Devise : CHF. Cours utilisé : 1 EUR = 0,9236 CHF (Yahoo Finance EURCHF=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 0,9236 = 221 943 CHF.
+- Base imposable : 221 943 CHF.
 
 | De (CHF) | À (CHF) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -24,17 +24,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 82 100 | 108 900 | 24,44 % | 26 800 | 6 550 |
 | 108 900 | 141 500 | 26,64 % | 32 600 | 8 685 |
 | 141 500 | 185 100 | 28,84 % | 43 600 | 12 574 |
-| 185 100 | 793 900 | 31,04 % | 38 379 | 11 913 |
+| 185 100 | 793 900 | 31,04 % | 36 843 | 11 436 |
 | 793 900 | et plus | 29,34 % | 0 | 0 |
 
-- **Impôt total : 55 871 CHF, soit 25,0 % du salaire brut.**
+- **Impôt total : 55 395 CHF, soit 25,0 % du salaire brut.**
 - Hypothèse : Impôt fédéral direct 2026 pour personne seule (art. 36 LIFD, circulaire ESTV 2-215) auquel s'ajoute un taux cantonal et communal moyen de 17.84 % appliqué à tout le revenu : les taux sont cumulés.
 - Hypothèse : Ce taux cantonal et communal est CALIBRÉ pour retrouver le taux de 25 % retenu (milieu de la fourchette de 16 % à 34 % selon canton et commune) ; il n'est pas tiré d'un barème. Les camarades suisses doivent le remplacer par le barème de leur canton.
 - Hypothèse : Pas de déductions (3e pilier, frais, assurances) ; cotisations sociales exclues.
 
 ## Note
 
-Le taux dépend du canton et de la commune : de 16 % (Zoug) à 32 % (Lausanne) selon Taxolution, de 17,6 % à 34,1 % selon PwC, pour un célibataire à 250 000 CHF, impôt fédéral compris. Le taux de 25 % servant au classement est le milieu de la fourchette, pas une moyenne.
+Cours Yahoo EURCHF=X du 13/11/2026 : 1 EUR = 0.92361 CHF (hypothèse initiale : 0.93). Taux recalculé : 25,0 % (avant : 25 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Le taux dépend du canton et de la commune : de 16 % (Zoug) à 32 % (Lausanne) selon Taxolution, de 17,6 % à 34,1 % selon PwC, pour un célibataire à 250 000 CHF, impôt fédéral compris. Le taux de 25 % servant au classement est le milieu de la fourchette, pas une moyenne.
 
 ## Sources
 

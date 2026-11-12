@@ -9,23 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : LRD. Cours supposé : 1 EUR = 215 LRD (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURLRD=X).
-- Salaire converti : 240 300 € × 215 = 51 664 500 LRD.
-- Base imposable : 51 664 500 LRD.
+- Devise : LRD. Cours utilisé : 1 EUR = 188,57 LRD (Yahoo Finance EURLRD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 188,57 = 45 313 371 LRD.
+- Base imposable : 45 313 371 LRD.
 
 | De (LRD) | À (LRD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 70 000 | 0,00 % | 70 000 | 0 |
 | 70 000 | 200 000 | 5,00 % | 130 000 | 6 500 |
 | 200 000 | 800 000 | 15,00 % | 600 000 | 90 000 |
-| 800 000 | et plus | 25,00 % | 50 864 500 | 12 716 125 |
+| 800 000 | et plus | 25,00 % | 44 513 371 | 11 128 343 |
 
-- **Impôt total : 12 812 625 LRD, soit 24,8 % du salaire brut.**
+- **Impôt total : 11 224 843 LRD, soit 24,8 % du salaire brut.**
 - Hypothèse : Barème résident à 4 tranches (PwC).
 
 ## Note
 
-Barème en LRD à 4 tranches, taux maximal 25 % au-delà de 800 000 LRD. Change (hypothèse) : 1 EUR = 215 LRD ; variation de 180 à 250 sans effet notable.
+Cours Yahoo EURLRD=X du 13/11/2026 : 1 EUR = 188.57 LRD (hypothèse initiale : 215). Taux recalculé : 24,8 % (avant : 24,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème en LRD à 4 tranches, taux maximal 25 % au-delà de 800 000 LRD. Change (hypothèse) : 1 EUR = 215 LRD ; variation de 180 à 250 sans effet notable.
 
 ## Sources
 

@@ -1,6 +1,6 @@
 # Venezuela (VE)
 
-**Taux effectif retenu : entre 33,5 et 34,0 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : entre 33,6 et 34,1 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : VES. Cours supposé : 1 EUR = 170 VES (hypothèse (la note ne donne aucun cours, change très incertain) : 170 bolivars pour 1 EUR ; à remplacer par le cours Yahoo EURVES=X).
-- Salaire converti : 240 300 € × 170 = 40 851 000 VES.
-- Base imposable : 40 851 000 VES.
+- Devise : VES. Cours utilisé : 1 EUR = 1 004,265 VES (Yahoo Finance EURVES=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1 004,265 = 241 324 880 VES.
+- Base imposable : 241 324 880 VES.
 
 | De (VES) | À (VES) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -22,16 +22,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 107 500 | 129 000 | 20,00 % | 21 500 | 4 300 |
 | 129 000 | 172 000 | 24,00 % | 43 000 | 10 320 |
 | 172 000 | 258 000 | 29,00 % | 86 000 | 24 940 |
-| 258 000 | et plus | 34,00 % | 40 593 000 | 13 801 620 |
+| 258 000 | et plus | 34,00 % | 241 066 880 | 81 962 739 |
 
-- **Impôt total : 13 851 715 VES, soit 33,9 % du salaire brut.**
+- **Impôt total : 82 012 834 VES, soit 34,0 % du salaire brut.**
 - Hypothèse : Tarif n° 1 de l'ISLR (8 tranches en unités tributaires, UT) : 6 %, 9 %, 12 %, 16 %, 20 %, 24 %, 29 % puis 34 % au-delà de 6 000 UT. Bornes intermédiaires reprises de la mémoire du barème, non relues dans la source : à vérifier.
 - Hypothèse : Valeur de l'UT supposée à 43 bolivars ; l'impôt est quasi insensible à ce paramètre et au change car le taux maximal domine.
 - Hypothèse : Desgravamen unique de 774 UT et rabais personnels non appliqués (variante de la note : 33,5 %).
 
 ## Note
 
-Tarif n°1 de l'ISLR : 8 tranches de 6 % à 34 % ; à ce niveau de revenu l'effet du tarif est quasi égal au taux maximal. Desgravamen unique de 774 UT et rabais personnels non appliqués. Change bolivar/EUR incertain, mais taux peu sensible. Source non officielle.
+Cours Yahoo EURVES=X du 13/11/2026 : 1 EUR = 1004.265 VES (hypothèse initiale : 170). Taux recalculé : 34,1 % (avant : 34 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Tarif n°1 de l'ISLR : 8 tranches de 6 % à 34 % ; à ce niveau de revenu l'effet du tarif est quasi égal au taux maximal. Desgravamen unique de 774 UT et rabais personnels non appliqués. Change bolivar/EUR incertain, mais taux peu sensible. Source non officielle.
 
 ## Sources
 

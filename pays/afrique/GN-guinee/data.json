@@ -1,12 +1,12 @@
 {
   "code": "GN",
   "nom": "Guinée",
-  "rate": 34.5,
+  "rate": 34.4,
   "range": [
-    33,
-    34.5
+    32.9,
+    34.4
   ],
-  "note": "Source unique non officielle : ITS annuel à 7 tranches, taux maximal 35 % au-delà de 100 M GNF. Change (hypothèse) : 1 EUR = 12 100 GNF.",
+  "note": "Cours Yahoo EURGNF=X du 13/11/2026 : 1 EUR = 9828.0 GNF (hypothèse initiale : 12100). Taux recalculé : 34,4 % (avant : 34,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Source unique non officielle : ITS annuel à 7 tranches, taux maximal 35 % au-delà de 100 M GNF. Change (hypothèse) : 1 EUR = 12 100 GNF.",
   "sources": [
     {
       "titre": "AfroTools - calcul salaire net Guinée",
@@ -16,8 +16,8 @@
   ],
   "calc": {
     "devise": "GNF",
-    "fx": 12100,
-    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURGNF=X",
+    "fx": 9828.0,
+    "fx_source": "Yahoo Finance EURGNF=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

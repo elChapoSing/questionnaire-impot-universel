@@ -1,6 +1,6 @@
 # Albanie (AL)
 
-**Taux effectif retenu : 22,1 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 22,0 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Discutable.**
 
 ## Cas de référence
@@ -9,22 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : ALL. Cours supposé : 1 EUR = 98 ALL (hypothèse reprise de la note, à remplacer par le cours Yahoo EURALL=X).
-- Salaire converti : 240 300 € × 98 = 23 549 400 ALL.
-- Base imposable : 23 549 400 ALL.
+- Devise : ALL. Cours utilisé : 1 EUR = 90,7 ALL (Yahoo Finance EURALL=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 90,7 = 21 795 210 ALL.
+- Base imposable : 21 795 210 ALL.
 
 | De (ALL) | À (ALL) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 2 040 000 | 13,00 % | 2 040 000 | 265 200 |
-| 2 040 000 | et plus | 23,00 % | 21 509 400 | 4 947 162 |
+| 2 040 000 | et plus | 23,00 % | 19 755 210 | 4 543 698 |
 
-- **Impôt total : 5 212 362 ALL, soit 22,1 % du salaire brut.**
+- **Impôt total : 4 808 898 ALL, soit 22,1 % du salaire brut.**
 - Hypothèse : Barème des salaires depuis 2025 : 13 % jusqu'à 2 040 000 lekë par an, 23 % au-delà.
 - Hypothèse : Sans abattement personnel ; cotisations sociales exclues.
 
 ## Note
 
-Salaires depuis 2025 : 13 % jusqu'à 2 040 000 lekë par an, 23 % au-delà, sans abattement personnel. À 240 300 €, soit environ 23,5 millions de lekë (change supposé : 98 lekë pour 1 €), le taux effectif est d'environ 22,1 %. Le change joue très peu.
+Cours Yahoo EURALL=X du 13/11/2026 : 1 EUR = 90.7 ALL (hypothèse initiale : 98). Taux recalculé : 22,0 % (avant : 22,1 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Salaires depuis 2025 : 13 % jusqu'à 2 040 000 lekë par an, 23 % au-delà, sans abattement personnel. À 240 300 €, soit environ 23,5 millions de lekë (change supposé : 98 lekë pour 1 €), le taux effectif est d'environ 22,1 %. Le change joue très peu.
 
 ## Sources
 

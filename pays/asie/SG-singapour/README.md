@@ -1,6 +1,6 @@
 # Singapour (SG)
 
-**Taux effectif retenu : 14,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 14,4 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement en dessous du seuil (condition remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : SGD. Cours supposé : 1 EUR = 1,48 SGD (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURSGD=X ; avec 1,50, le taux est de 14,8 %).
-- Salaire converti : 240 300 € × 1,48 = 355 644 SGD.
-- Base imposable : 355 644 SGD.
+- Devise : SGD. Cours utilisé : 1 EUR = 1,424 SGD (Yahoo Finance EURSGD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1,424 = 342 175 SGD.
+- Base imposable : 342 175 SGD.
 
 | De (SGD) | À (SGD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -25,17 +25,17 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 200 000 | 240 000 | 19,00 % | 40 000 | 7 600 |
 | 240 000 | 280 000 | 19,50 % | 40 000 | 7 800 |
 | 280 000 | 320 000 | 20,00 % | 40 000 | 8 000 |
-| 320 000 | 500 000 | 22,00 % | 35 644 | 7 842 |
+| 320 000 | 500 000 | 22,00 % | 22 175 | 4 879 |
 | 500 000 | 1 000 000 | 23,00 % | 0 | 0 |
 | 1 000 000 | et plus | 24,00 % | 0 | 0 |
 
-- **Impôt total : 52 392 SGD, soit 14,7 % du salaire brut.**
+- **Impôt total : 49 429 SGD, soit 14,4 % du salaire brut.**
 - Hypothèse : Barème des résidents depuis l'année d'imposition 2024, jusqu'à 24 % au-delà de 1 million.
 - Hypothèse : Allègements (relief) exclus.
 
 ## Note
 
-Barème progressif jusqu'à 24 %. Aucun impôt sur les plus-values.
+Cours Yahoo EURSGD=X du 13/11/2026 : 1 EUR = 1.42395 SGD (hypothèse initiale : 1.48). Taux recalculé : 14,4 % (avant : 14,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif jusqu'à 24 %. Aucun impôt sur les plus-values.
 
 ## Sources
 

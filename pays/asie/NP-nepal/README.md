@@ -1,6 +1,6 @@
 # Népal (NP)
 
-**Taux effectif retenu : 27,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 27,8 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : NPR. Cours supposé : 1 EUR = 160 NPR (hypothèse reprise de la note (160 roupies pour 1 €)).
-- Salaire converti : 240 300 € × 160 = 38 448 000 NPR.
-- Base imposable : 38 448 000 NPR.
+- Devise : NPR. Cours utilisé : 1 EUR = 166,822 NPR (Yahoo Finance EURNPR=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 166,822 = 40 087 327 NPR.
+- Base imposable : 40 087 327 NPR.
 
 | De (NPR) | À (NPR) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,15 +19,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 1 000 000 | 1 500 000 | 10,00 % | 500 000 | 50 000 |
 | 1 500 000 | 2 500 000 | 20,00 % | 1 000 000 | 200 000 |
 | 2 500 000 | 4 000 000 | 27,00 % | 1 500 000 | 405 000 |
-| 4 000 000 | et plus | 29,00 % | 34 448 000 | 9 989 920 |
+| 4 000 000 | et plus | 29,00 % | 36 087 327 | 10 465 325 |
 
-- **Impôt total : 10 654 920 NPR, soit 27,7 % du salaire brut.**
+- **Impôt total : 11 130 325 NPR, soit 27,8 % du salaire brut.**
 - Hypothèse : Barème de l'exercice 2083/84 ; la tranche à 1 % est l'impôt de sécurité sociale (dû par les non-cotisants au fonds social).
 - Hypothèse : L'ancien barème 2082/83 (jusqu'à 39 %) donnerait 37,7 %, comme l'indique la note.
 
 ## Note
 
-Barème de l'exercice 2083/84 (juillet 2026 à juillet 2027) : 1 % jusqu'à 1 million de roupies, 10 %, 20 %, 27 %, puis 29 % au-delà de 4 millions. D'après nos sources, il remplace le barème 2082/83 (jusqu'à 39 %, soit 37,7 % ici). Les deux dépassent le seuil. Change supposé : 160 roupies pour 1 €.
+Cours Yahoo EURNPR=X du 13/11/2026 : 1 EUR = 166.822 NPR (hypothèse initiale : 160). Taux recalculé : 27,8 % (avant : 27,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème de l'exercice 2083/84 (juillet 2026 à juillet 2027) : 1 % jusqu'à 1 million de roupies, 10 %, 20 %, 27 %, puis 29 % au-delà de 4 millions. D'après nos sources, il remplace le barème 2082/83 (jusqu'à 39 %, soit 37,7 % ici). Les deux dépassent le seuil. Change supposé : 160 roupies pour 1 €.
 
 ## Sources
 

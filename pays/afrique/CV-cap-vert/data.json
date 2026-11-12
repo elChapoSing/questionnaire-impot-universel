@@ -1,7 +1,7 @@
 {
   "code": "CV",
   "nom": "Cap-Vert",
-  "rate": 27,
+  "rate": 27.0,
   "note": "IRS, taux de 16,5 / 23,1 / 27,5 % (27,5 % au-delà de 1,8 M CVE). Exonération annuelle de 220 000 CVE non appliquée. Change : CVE arrimé à l'EUR, 110,265 par EUR. Cas proche du haut de la bande.",
   "sources": [
     {
@@ -13,7 +13,7 @@
   "calc": {
     "devise": "CVE",
     "fx": 110.265,
-    "fx_source": "parité fixe CVE/EUR (110,265), reprise de la note",
+    "fx_source": "Yahoo Finance EURCVE=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

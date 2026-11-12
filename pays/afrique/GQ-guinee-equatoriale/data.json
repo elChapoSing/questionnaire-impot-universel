@@ -1,7 +1,7 @@
 {
   "code": "GQ",
   "nom": "Guinée équatoriale",
-  "rate": 24,
+  "rate": 24.0,
   "note": "IRPF à 5 tranches, taux maximal 25 % au-delà de 15 M XAF. Change : XAF fixe, 655,957 par EUR, donc taux stable.",
   "sources": [
     {
@@ -13,7 +13,7 @@
   "calc": {
     "devise": "XAF",
     "fx": 655.957,
-    "fx_source": "parité fixe XAF/EUR (655,957), reprise de la note",
+    "fx_source": "Yahoo Finance EURXAF=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

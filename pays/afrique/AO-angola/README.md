@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : AOA. Cours supposé : 1 EUR = 1 060 AOA (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURAOA=X).
-- Salaire converti : 240 300 € × 1 060 = 254 718 000 AOA.
-- Base imposable : 254 718 000 AOA.
+- Devise : AOA. Cours utilisé : 1 EUR = 1 025,023 AOA (Yahoo Finance EURAOA=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1 025,023 = 246 313 027 AOA.
+- Base imposable : 246 313 027 AOA.
 
 | De (AOA) | À (AOA) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -25,15 +25,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 24 000 000 | 30 000 000 | 23,00 % | 6 000 000 | 1 380 000 |
 | 30 000 000 | 60 000 000 | 24,00 % | 30 000 000 | 7 200 000 |
 | 60 000 000 | 120 000 000 | 24,50 % | 60 000 000 | 14 700 000 |
-| 120 000 000 | et plus | 25,00 % | 134 718 000 | 33 679 500 |
+| 120 000 000 | et plus | 25,00 % | 126 313 027 | 31 578 257 |
 
-- **Impôt total : 61 507 500 AOA, soit 24,1 % du salaire brut.**
+- **Impôt total : 59 406 257 AOA, soit 24,1 % du salaire brut.**
 - Hypothèse : Barème IRT groupe A (loi 14/25), seuils mensuels multipliés par 12 ; le rapport annuel/mensuel suppose un salaire régulier sur 12 mois.
 - Hypothèse : Variante de la note : base nette de la cotisation sociale salariale de 3 % (non appliquée ici), environ 23,5 %.
 
 ## Note
 
-IRT groupe A, barème 2026 (loi 14/25), tranche supérieure à 25 % au-delà de 10 M AOA/mois. Change (hypothèse) : 1 EUR = 1 060 AOA ; sensibilité négligeable. Variante : base nette de la cotisation sociale salariale de 3 % donne environ 23,5 %.
+Cours Yahoo EURAOA=X du 13/11/2026 : 1 EUR = 1025.023 AOA (hypothèse initiale : 1060). Taux recalculé : 24,3 % (avant : 24,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. IRT groupe A, barème 2026 (loi 14/25), tranche supérieure à 25 % au-delà de 10 M AOA/mois. Change (hypothèse) : 1 EUR = 1 060 AOA ; sensibilité négligeable. Variante : base nette de la cotisation sociale salariale de 3 % donne environ 23,5 %.
 
 ## Sources
 

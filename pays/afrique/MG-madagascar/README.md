@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : MGA. Cours supposé : 1 EUR = 5 300 MGA (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMGA=X).
-- Salaire converti : 240 300 € × 5 300 = 1 273 590 000 MGA.
-- Base imposable : 1 273 590 000 MGA.
+- Devise : MGA. Cours utilisé : 1 EUR = 5 063 MGA (Yahoo Finance EURMGA=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 5 063 = 1 216 638 900 MGA.
+- Base imposable : 1 216 638 900 MGA.
 
 | De (MGA) | À (MGA) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,14 +19,14 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 4 200 000 | 4 800 000 | 5,00 % | 600 000 | 30 000 |
 | 4 800 000 | 6 000 000 | 10,00 % | 1 200 000 | 120 000 |
 | 6 000 000 | 7 200 000 | 15,00 % | 1 200 000 | 180 000 |
-| 7 200 000 | et plus | 20,00 % | 1 266 390 000 | 253 278 000 |
+| 7 200 000 | et plus | 20,00 % | 1 209 438 900 | 241 887 780 |
 
-- **Impôt total : 253 608 000 MGA, soit 19,9 % du salaire brut.**
+- **Impôt total : 242 217 780 MGA, soit 19,9 % du salaire brut.**
 - Hypothèse : Barème IRSA mensuel multiplié par 12 ; réduction pour charges de famille ignorée.
 
 ## Note
 
-IRSA : taux maximal 20 % au-delà de 600 000 MGA/mois ; réduction pour charges de famille ignorée. Change (hypothèse) : 1 EUR = 5 300 MGA ; taux stable entre 4 800 et 6 000. Cas dans la bande, légèrement sous 21,14 %.
+Cours Yahoo EURMGA=X du 13/11/2026 : 1 EUR = 5063.0 MGA (hypothèse initiale : 5300). Taux recalculé : 19,9 % (avant : 19,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. IRSA : taux maximal 20 % au-delà de 600 000 MGA/mois ; réduction pour charges de famille ignorée. Change (hypothèse) : 1 EUR = 5 300 MGA ; taux stable entre 4 800 et 6 000. Cas dans la bande, légèrement sous 21,14 %.
 
 ## Sources
 

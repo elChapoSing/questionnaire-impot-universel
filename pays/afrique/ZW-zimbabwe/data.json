@@ -1,12 +1,12 @@
 {
   "code": "ZW",
   "nom": "Zimbabwe",
-  "rate": 39.1,
+  "rate": 39.0,
   "range": [
-    37.9,
-    39.2
+    37.8,
+    39.1
   ],
-  "note": "Barème en USD, taux maximal 40 % au-delà de 36 000 USD, majoré de 3 % de contribution SIDA. Variante sans cette contribution : 37,9 %. Barème non vérifié sur la source primaire ZIMRA. Change (hypothèse) : 1 EUR = 1,165 USD.",
+  "note": "Cours Yahoo EURUSD=X du 13/11/2026 : 1 EUR = 1.106465 USD (hypothèse initiale : 1.165). Taux recalculé : 39,0 % (avant : 39,1 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème en USD, taux maximal 40 % au-delà de 36 000 USD, majoré de 3 % de contribution SIDA. Variante sans cette contribution : 37,9 %. Barème non vérifié sur la source primaire ZIMRA. Change (hypothèse) : 1 EUR = 1,165 USD.",
   "sources": [
     {
       "titre": "CountryTaxCalc - PAYE Zimbabwe 2026",
@@ -21,8 +21,8 @@
   ],
   "calc": {
     "devise": "USD",
-    "fx": 1.165,
-    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURUSD=X",
+    "fx": 1.106465,
+    "fx_source": "Yahoo Finance EURUSD=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

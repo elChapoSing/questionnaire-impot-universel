@@ -504,6 +504,7 @@ function countryBox() {
         el("span", { class: "tag " + (x[2] === O ? "off" : "non"), text: x[2] })
       ]);
     })));
+    if (d.calc && d.calc.devise !== "EUR") kids.push(el("p", { class: "cb-detail", text: "Taux de change utilisé : 1 € = " + d.calc.fx + " " + d.calc.devise + " (" + d.calc.fx_source + ")." }));
     if (d.dir) kids.push(el("p", { class: "cb-detail" }, [el("a", { href: "https://github.com/elChapoSing/questionnaire-impot-universel/tree/main/pays/" + d.dir, target: "_blank", rel: "noopener", text: "Voir le calcul détaillé et les données de ce pays (GitHub)" })]));
   }
   return el("div", { class: "countrybox " + level }, kids);
@@ -601,7 +602,7 @@ function renderMethodologyNow() {
       el("li", { text: "Indicateur : taux effectif d'impôt sur le revenu d'une personne seule, sans enfant, percevant un salaire imposable de 240 300 € (5 fois le plafond de la Sécurité sociale 2026, fixé à 48 060 €)." }),
       el("li", { text: "Référence France : " + fmtRate(FR_RATE) + " (84 658,84 € d'impôt), d'après le barème progressif de l'impôt sur le revenu. Le seuil est donc de 60 % de ce taux, soit " + fmtRate(THRESHOLD) + "." }),
       el("li", { text: "Pour chaque pays : barème national progressif, auquel s'ajoute l'impôt local ou la surtaxe nationale quand nous avons pu les sourcer. Les cotisations sociales, la TVA, les taxes foncières, l'impôt sur la fortune et l'imposition du capital ne sont pas comptés." }),
-      el("li", { text: "Taux de change : cours de la BCE du 27 juillet 2026 (relayés par Dow Jones). Exceptions signalées pays par pays : le tenge et le dollar taïwanais viennent de cbonds (18 juillet 2026), le rouble (95 pour 1 €) et le riel cambodgien sont supposés. Le niveau de réponse ne change pas dans une fourchette de plus ou moins 15 % sur le change, sauf indication contraire. Pour les devises ajoutées en dernier (kip, kyat, roupies, taka, rufiyaa, dollar fidjien, kina, tala, rouble biélorusse, dinar serbe), le change est supposé d'après des cours approximatifs de l'automne 2026, indiqués dans la remarque du pays." }),
+      el("li", { text: "Taux de change : cours Yahoo Finance (paires directes contre l'euro, EURxxx=X) fournis et vérifiés le 13 novembre 2026, appliqués à tous les pays sauf mention contraire (Mongolie, Myanmar, Samoa, Sao Tomé-et-Principe, Érythrée : cours Yahoo indisponible, hypothèse conservée et signalée dans la fiche du pays). Les cours bougent : les taux effectifs en devise locale sont recalculés à chaque mise à jour des cours (fichier taux_de_change_EUR_verifie_2026-11-13.csv dans le dépôt). Le niveau de réponse n'est sensible au change que pour les pays proches des bornes de 18 % et 26 %." }),
       el("li", { text: "Les exceptions prévues par des conventions fiscales (par exemple pour les Français résidant à Monaco) ne sont pas modélisées." }),
       el("li", { text: "Le texte ne précise pas non plus si l'écart de 40 % se mesure sur le taux, sur le montant, ou sur l'ensemble des impôts. Nous avons retenu le taux effectif d'impôt sur le revenu, qui est le plus simple à documenter pays par pays." })
     ]),

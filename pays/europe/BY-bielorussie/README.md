@@ -1,6 +1,6 @@
 # Biélorussie (BY)
 
-**Taux effectif retenu : 20,9 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 21,0 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Discutable.**
 
 ## Cas de référence
@@ -9,23 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : BYN. Cours supposé : 1 EUR = 3,3 BYN (hypothèse reprise de la note, à remplacer par le cours Yahoo EURBYN=X).
-- Salaire converti : 240 300 € × 3,3 = 792 990 BYN.
-- Base imposable : 792 990 BYN.
+- Devise : BYN. Cours utilisé : 1 EUR = 3,3419 BYN (Yahoo Finance EURBYN=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 3,3419 = 803 059 BYN.
+- Base imposable : 803 059 BYN.
 
 | De (BYN) | À (BYN) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 350 000 | 13,00 % | 350 000 | 45 500 |
 | 350 000 | 600 000 | 25,00 % | 250 000 | 62 500 |
-| 600 000 | et plus | 30,00 % | 192 990 | 57 897 |
+| 600 000 | et plus | 30,00 % | 203 059 | 60 918 |
 
-- **Impôt total : 165 897 BYN, soit 20,9 % du salaire brut.**
+- **Impôt total : 168 918 BYN, soit 21,0 % du salaire brut.**
 - Hypothèse : Barème depuis 2026 : 13 % jusqu'à 350 000 BYN, 25 % jusqu'à 600 000, 30 % au-delà.
 - Hypothèse : Taux sensible au change : 20,0 % à 3,0 BYN pour 1 EUR, 21,7 % à 3,6.
 
 ## Note
 
-Depuis 2026 : 13 % jusqu'à 350 000 roubles biélorusses, 25 % jusqu'à 600 000, 30 % au-delà. Taux très proche du seuil et sensible au change (20,0 % à 3,0 roubles pour 1 €, 21,7 % à 3,6). Change supposé : 3,3 roubles pour 1 €.
+Cours Yahoo EURBYN=X du 13/11/2026 : 1 EUR = 3.3419 BYN (hypothèse initiale : 3.3). Taux recalculé : 21,0 % (avant : 20,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Depuis 2026 : 13 % jusqu'à 350 000 roubles biélorusses, 25 % jusqu'à 600 000, 30 % au-delà. Taux très proche du seuil et sensible au change (20,0 % à 3,0 roubles pour 1 €, 21,7 % à 3,6). Change supposé : 3,3 roubles pour 1 €.
 
 ## Sources
 

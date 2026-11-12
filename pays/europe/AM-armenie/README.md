@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : AMD. Cours supposé : 1 EUR = 450 AMD (la note ne donne pas de cours : hypothèse de 450 AMD pour 1 EUR, à remplacer par le cours Yahoo EURAMD=X ; sans effet avec un taux unique).
-- Salaire converti : 240 300 € × 450 = 108 135 000 AMD.
-- Base imposable : 108 135 000 AMD.
+- Devise : AMD. Cours utilisé : 1 EUR = 400,7 AMD (Yahoo Finance EURAMD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 400,7 = 96 288 210 AMD.
+- Base imposable : 96 288 210 AMD.
 
 | De (AMD) | À (AMD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 20,00 % | 108 135 000 | 21 627 000 |
+| 0 | et plus | 20,00 % | 96 288 210 | 19 257 642 |
 
-- **Impôt total : 21 627 000 AMD, soit 20,0 % du salaire brut.**
+- **Impôt total : 19 257 642 AMD, soit 20,0 % du salaire brut.**
 - Hypothèse : Taux unique de 20 % sur les salaires, sans abattement ni tranche (10 % pour certains profils de R&D, non retenu).
 - Hypothèse : Cotisations sociales exclues. Taux proche du seuil de 21,1 %.
 
 ## Note
 
-Impôt à taux unique de 20 % sur les salaires, sans abattement ni tranche (10 % pour certains profils de recherche et développement). Cotisations sociales non comptées. Taux juste sous le seuil de 21,1 % : à examiner avec prudence.
+Cours Yahoo EURAMD=X du 13/11/2026 : 1 EUR = 400.7 AMD (hypothèse initiale : 450). Taux recalculé : 20,0 % (avant : 20 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt à taux unique de 20 % sur les salaires, sans abattement ni tranche (10 % pour certains profils de recherche et développement). Cotisations sociales non comptées. Taux juste sous le seuil de 21,1 % : à examiner avec prudence.
 
 ## Sources
 

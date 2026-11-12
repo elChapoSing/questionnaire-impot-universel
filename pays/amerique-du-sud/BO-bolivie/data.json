@@ -1,12 +1,12 @@
 {
   "code": "BO",
   "nom": "Bolivie",
-  "rate": 13,
+  "rate": 13.0,
   "range": [
     11.3,
-    13
+    13.0
   ],
-  "note": "RC-IVA au taux unique de 13 % sur les salaires, assiette nette des cotisations sociales et crédit de TVA sur factures possible (variante : environ 11,3 %). Seuls les revenus de source bolivienne sont imposés.",
+  "note": "Cours Yahoo EURBOB=X du 13/11/2026 : 1 EUR = 12.984 BOB (hypothèse initiale : 8.07). Taux recalculé : 13,0 % (avant : 13 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. RC-IVA au taux unique de 13 % sur les salaires, assiette nette des cotisations sociales et crédit de TVA sur factures possible (variante : environ 11,3 %). Seuls les revenus de source bolivienne sont imposés.",
   "sources": [
     {
       "titre": "PwC Tax Summaries - Bolivia, taxes on personal income",
@@ -16,8 +16,8 @@
   ],
   "calc": {
     "devise": "BOB",
-    "fx": 8.07,
-    "fx_source": "hypothèse : 6,96 BOB pour 1 USD au taux officiel × 1,16 USD pour 1 EUR ; à remplacer par le cours Yahoo EURBOB=X",
+    "fx": 12.984,
+    "fx_source": "Yahoo Finance EURBOB=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

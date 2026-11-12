@@ -9,20 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : UAH. Cours supposé : 1 EUR = 48 UAH (valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel).
-- Salaire converti : 240 300 € × 48 = 11 534 400 UAH.
-- Base imposable : 11 534 400 UAH.
+- Devise : UAH. Cours utilisé : 1 EUR = 50,4053 UAH (Yahoo Finance EURUAH=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 50,4053 = 12 112 394 UAH.
+- Base imposable : 12 112 394 UAH.
 
 | De (UAH) | À (UAH) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 23,00 % | 11 534 400 | 2 652 912 |
+| 0 | et plus | 23,00 % | 12 112 394 | 2 785 851 |
 
-- **Impôt total : 2 652 912 UAH, soit 23,0 % du salaire brut.**
+- **Impôt total : 2 785 851 UAH, soit 23,0 % du salaire brut.**
 - Hypothèse : 18 % d'impôt sur le revenu plus 5 % de contribution militaire, comptés ensemble ; sans la contribution, le taux serait de 18 %.
 
 ## Note
 
-18 % d'impôt sur le revenu et 5 % de contribution militaire, comptés ensemble. Sans la contribution, le taux serait de 18 %.
+Cours Yahoo EURUAH=X du 13/11/2026 : 1 EUR = 50.4053 UAH (hypothèse initiale : 48). Taux recalculé : 23,0 % (avant : 23 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 18 % d'impôt sur le revenu et 5 % de contribution militaire, comptés ensemble. Sans la contribution, le taux serait de 18 %.
 
 ## Sources
 

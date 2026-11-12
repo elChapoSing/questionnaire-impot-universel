@@ -9,23 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : YER. Cours supposé : 1 EUR = 615 YER (hypothèse reprise de la note (1 € = 615 YER)).
-- Salaire converti : 240 300 € × 615 = 147 784 500 YER.
-- Base imposable : 147 784 500 YER.
+- Devise : YER. Cours utilisé : 1 EUR = 264,0128 YER (Yahoo Finance EURYER=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 264,0128 = 63 442 276 YER.
+- Base imposable : 63 442 276 YER.
 
 | De (YER) | À (YER) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 120 000 | 0,00 % | 120 000 | 0 |
 | 120 000 | 240 000 | 10,00 % | 120 000 | 12 000 |
-| 240 000 | et plus | 15,00 % | 147 544 500 | 22 131 675 |
+| 240 000 | et plus | 15,00 % | 63 202 276 | 9 480 341 |
 
-- **Impôt total : 22 143 675 YER, soit 15,0 % du salaire brut.**
+- **Impôt total : 9 492 341 YER, soit 15,0 % du salaire brut.**
 - Hypothèse : Règles de Sanaa (Deloitte 2023) pour un national résident.
 - Hypothèse : Variante : salarié étranger résident à 20 % forfaitaire (taux de 20 %, d'où la fourchette de la note). Règles possiblement différentes à Aden.
 
 ## Note
 
-Règles de Sanaa (Deloitte 2023) : nationaux résidents 0 % jusqu'à 120 000 YER, 10 % jusqu'à 240 000, 15 % au-delà ; salariés étrangers résidents 20 % forfaitaire. Règles possiblement différentes à Aden. Hypothèse : 1 EUR = 615 YER. Cas proche de la bande 18 à 26 % si 20 % (étranger).
+Cours Yahoo EURYER=X du 13/11/2026 : 1 EUR = 264.0128 YER (hypothèse initiale : 615). Taux recalculé : 15,0 % (avant : 15 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Règles de Sanaa (Deloitte 2023) : nationaux résidents 0 % jusqu'à 120 000 YER, 10 % jusqu'à 240 000, 15 % au-delà ; salariés étrangers résidents 20 % forfaitaire. Règles possiblement différentes à Aden. Hypothèse : 1 EUR = 615 YER. Cas proche de la bande 18 à 26 % si 20 % (étranger).
 
 ## Sources
 

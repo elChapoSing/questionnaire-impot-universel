@@ -9,22 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : USD. Cours supposé : 1 EUR = 1,16 USD (hypothèse reprise de la note (1,16 USD pour 1 EUR)).
-- Salaire converti : 240 300 € × 1,16 = 278 748 USD.
-- Base imposable : 278 748 USD.
+- Devise : USD. Cours utilisé : 1 EUR = 1,1065 USD (Yahoo Finance EURUSD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1,1065 = 265 884 USD.
+- Base imposable : 265 884 USD.
 
 | De (USD) | À (USD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 10 400 | 8,00 % | 10 400 | 832 |
-| 10 400 | et plus | 12,00 % | 268 348 | 32 202 |
+| 10 400 | et plus | 12,00 % | 255 484 | 30 658 |
 
-- **Impôt total : 33 034 USD, soit 11,9 % du salaire brut.**
+- **Impôt total : 31 490 USD, soit 11,8 % du salaire brut.**
 - Hypothèse : Taxe sur salaires : 8 % sur les premiers 10 400 USD, 12 % au-delà (loi modificative 2025, en vigueur au 1er octobre 2025).
 - Hypothèse : Variante basse de la note (11,6 %) non retenue ; une source non officielle évoque une franchise de 8 320 USD, contradictoire avec le texte de loi.
 
 ## Note
 
-Taxe sur salaires : 8 % sur les premiers 10 400 USD, 12 % au-delà (loi modificative 2025, en vigueur au 1er octobre 2025). Hypothèse : 1 EUR = 1,16 USD (environ 278 750 USD). Une source non officielle évoque une franchise de 8 320 USD, contradictoire avec le texte de loi ; le texte de loi est retenu.
+Cours Yahoo EURUSD=X du 13/11/2026 : 1 EUR = 1.106465 USD (hypothèse initiale : 1.16). Taux recalculé : 11,9 % (avant : 11,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taxe sur salaires : 8 % sur les premiers 10 400 USD, 12 % au-delà (loi modificative 2025, en vigueur au 1er octobre 2025). Hypothèse : 1 EUR = 1,16 USD (environ 278 750 USD). Une source non officielle évoque une franchise de 8 320 USD, contradictoire avec le texte de loi ; le texte de loi est retenu.
 
 ## Sources
 

@@ -1,6 +1,6 @@
 # Taïwan (TW)
 
-**Taux effectif retenu : 29,8 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 29,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : TWD. Cours supposé : 1 EUR = 37 TWD (la note cite cbonds du 18 juillet 2026 sans chiffre ; valeur reconstituée, à remplacer par EURTWD=X).
-- Salaire converti : 240 300 € × 37 = 8 891 100 TWD.
-- Base imposable : 8 891 100 TWD.
+- Devise : TWD. Cours utilisé : 1 EUR = 36,5219 TWD (Yahoo Finance EURTWD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 36,5219 = 8 776 208 TWD.
+- Base imposable : 8 776 208 TWD.
 
 | De (TWD) | À (TWD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,15 +19,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 590 000 | 1 330 000 | 12,00 % | 740 000 | 88 800 |
 | 1 330 000 | 2 660 000 | 20,00 % | 1 330 000 | 266 000 |
 | 2 660 000 | 4 980 000 | 30,00 % | 2 320 000 | 696 000 |
-| 4 980 000 | et plus | 40,00 % | 3 911 100 | 1 564 440 |
+| 4 980 000 | et plus | 40,00 % | 3 796 208 | 1 518 483 |
 
-- **Impôt total : 2 644 740 TWD, soit 29,7 % du salaire brut.**
+- **Impôt total : 2 598 783 TWD, soit 29,6 % du salaire brut.**
 - Hypothèse : Barème 2024-2025 (tranche de 40 % au-delà de 4,98 millions de dollars taïwanais), repris par la note.
 - Hypothèse : Exemptions et déductions exclues.
 
 ## Note
 
-Tranche de 40 % au-delà de 4,98 millions de dollars taïwanais (barème 2024-2025). Taux de change non BCE : cbonds, 18 juillet 2026.
+Cours Yahoo EURTWD=X du 13/11/2026 : 1 EUR = 36.52188 TWD (hypothèse initiale : 37). Taux recalculé : 29,7 % (avant : 29,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Tranche de 40 % au-delà de 4,98 millions de dollars taïwanais (barème 2024-2025). Taux de change non BCE : cbonds, 18 juillet 2026.
 
 ## Sources
 

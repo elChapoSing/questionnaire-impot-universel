@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : GHS. Cours supposé : 1 EUR = 13 GHS (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURGHS=X).
-- Salaire converti : 240 300 € × 13 = 3 123 900 GHS.
-- Base imposable : 3 123 900 GHS.
+- Devise : GHS. Cours utilisé : 1 EUR = 12,989 GHS (Yahoo Finance EURGHS=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 12,989 = 3 121 257 GHS.
+- Base imposable : 3 121 257 GHS.
 
 | De (GHS) | À (GHS) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -21,14 +21,14 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 9 216 | 44 016 | 17,50 % | 34 800 | 6 090 |
 | 44 016 | 236 016 | 25,00 % | 192 000 | 48 000 |
 | 236 016 | 600 000 | 30,00 % | 363 984 | 109 195 |
-| 600 000 | et plus | 35,00 % | 2 523 900 | 883 365 |
+| 600 000 | et plus | 35,00 % | 2 521 257 | 882 440 |
 
-- **Impôt total : 1 046 818 GHS, soit 33,5 % du salaire brut.**
+- **Impôt total : 1 045 893 GHS, soit 33,5 % du salaire brut.**
 - Hypothèse : Barème annuel résident de la loi 1178 de 2026 (PwC).
 
 ## Note
 
-Barème résident révisé (loi 1178 de 2026), taux maximal 35 % au-delà de 600 000 GHS. Change (hypothèse) : 1 EUR = 13 GHS.
+Cours Yahoo EURGHS=X du 13/11/2026 : 1 EUR = 12.989 GHS (hypothèse initiale : 13). Taux recalculé : 33,5 % (avant : 33,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème résident révisé (loi 1178 de 2026), taux maximal 35 % au-delà de 600 000 GHS. Change (hypothèse) : 1 EUR = 13 GHS.
 
 ## Sources
 

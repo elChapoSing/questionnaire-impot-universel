@@ -1,6 +1,6 @@
 # Kenya (KE)
 
-**Taux effectif retenu : 33,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 33,6 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : KES. Cours supposé : 1 EUR = 150 KES (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURKES=X).
-- Salaire converti : 240 300 € × 150 = 36 045 000 KES.
-- Base imposable : 36 045 000 KES.
+- Devise : KES. Cours utilisé : 1 EUR = 144,2 KES (Yahoo Finance EURKES=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 144,2 = 34 651 260 KES.
+- Base imposable : 34 651 260 KES.
 
 | De (KES) | À (KES) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,15 +19,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 288 000 | 388 000 | 25,00 % | 100 000 | 25 000 |
 | 388 000 | 6 000 000 | 30,00 % | 5 612 000 | 1 683 600 |
 | 6 000 000 | 9 600 000 | 32,50 % | 3 600 000 | 1 170 000 |
-| 9 600 000 | et plus | 35,00 % | 26 445 000 | 9 255 750 |
+| 9 600 000 | et plus | 35,00 % | 25 051 260 | 8 767 941 |
 
-- **Impôt total : 12 163 150 KES, soit 33,7 % du salaire brut.**
+- **Impôt total : 11 675 341 KES, soit 33,7 % du salaire brut.**
 - Hypothèse : Barème annuel résident ; allègement personnel de 2 400 KES par mois ignoré.
 - Hypothèse : Cotisations (NSSF, logement, santé) ignorées.
 
 ## Note
 
-Barème résident, taux maximal 35 % au-delà de 9,6 M KES ; allègement personnel de 2 400 KES/mois ignoré. Change (hypothèse) : 1 EUR = 150 KES.
+Cours Yahoo EURKES=X du 13/11/2026 : 1 EUR = 144.2 KES (hypothèse initiale : 150). Taux recalculé : 33,6 % (avant : 33,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème résident, taux maximal 35 % au-delà de 9,6 M KES ; allègement personnel de 2 400 KES/mois ignoré. Change (hypothèse) : 1 EUR = 150 KES.
 
 ## Sources
 

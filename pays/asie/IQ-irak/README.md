@@ -9,24 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : IQD. Cours supposé : 1 EUR = 1 500 IQD (hypothèse reprise de la note (1 € = 1 500 IQD)).
-- Salaire converti : 240 300 € × 1 500 = 360 450 000 IQD.
-- Base imposable : 360 450 000 IQD.
+- Devise : IQD. Cours utilisé : 1 EUR = 1 681,6 IQD (Yahoo Finance EURIQD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1 681,6 = 404 088 480 IQD.
+- Base imposable : 404 088 480 IQD.
 
 | De (IQD) | À (IQD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 250 000 | 3,00 % | 250 000 | 7 500 |
 | 250 000 | 500 000 | 5,00 % | 250 000 | 12 500 |
 | 500 000 | 1 000 000 | 10,00 % | 500 000 | 50 000 |
-| 1 000 000 | et plus | 15,00 % | 359 450 000 | 53 917 500 |
+| 1 000 000 | et plus | 15,00 % | 403 088 480 | 60 463 272 |
 
-- **Impôt total : 53 987 500 IQD, soit 15,0 % du salaire brut.**
+- **Impôt total : 60 533 272 IQD, soit 15,0 % du salaire brut.**
 - Hypothèse : Barème salarial ; la limite entre les deux dernières tranches est ambiguë dans la source (500 000 ou 500 001), sans effet.
 - Hypothèse : Région du Kurdistan : 5 % forfaitaire (non retenu). Abattements personnels exclus.
 
 ## Note
 
-Barème salarial : 3 %, 5 %, 10 % puis 15 % au-delà de 1 M IQD par an. Hypothèse : 1 EUR = 1 500 IQD. Région du Kurdistan : 5 % forfaitaire. Abattements personnels exclus.
+Cours Yahoo EURIQD=X du 13/11/2026 : 1 EUR = 1681.6 IQD (hypothèse initiale : 1500). Taux recalculé : 15,0 % (avant : 15 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème salarial : 3 %, 5 %, 10 % puis 15 % au-delà de 1 M IQD par an. Hypothèse : 1 EUR = 1 500 IQD. Région du Kurdistan : 5 % forfaitaire. Abattements personnels exclus.
 
 ## Sources
 

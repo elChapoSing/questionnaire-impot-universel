@@ -1,12 +1,12 @@
 {
   "code": "BZ",
   "nom": "Belize",
-  "rate": 25,
+  "rate": 25.0,
   "range": [
     23.7,
-    25
+    25.0
   ],
-  "note": "Taux unique de 25 % sur le revenu d'emploi de source bélizienne ; seuil d'exonération de 29 000 BZD depuis 2025. Taux retenu sans abattement ; avec déduction standard d'environ 20 000 BZD : environ 24,1 %. Hypothèse change : 1 EUR = 2,30 BZD (parité fixe 2 pour 1 USD).",
+  "note": "Cours Yahoo EURBZD=X du 13/11/2026 : 1 EUR = 2.2309 BZD (hypothèse initiale : 2.3). Taux recalculé : 25,0 % (avant : 25 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux unique de 25 % sur le revenu d'emploi de source bélizienne ; seuil d'exonération de 29 000 BZD depuis 2025. Taux retenu sans abattement ; avec déduction standard d'environ 20 000 BZD : environ 24,1 %. Hypothèse change : 1 EUR = 2,30 BZD (parité fixe 2 pour 1 USD).",
   "sources": [
     {
       "titre": "The Reporter - seuil d'imposition relevé à 29 000",
@@ -21,8 +21,8 @@
   ],
   "calc": {
     "devise": "BZD",
-    "fx": 2.3,
-    "fx_source": "parité fixe 2 BZD pour 1 USD, EUR/USD 1,15 (note)",
+    "fx": 2.2309,
+    "fx_source": "Yahoo Finance EURBZD=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

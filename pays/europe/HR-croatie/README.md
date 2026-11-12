@@ -9,7 +9,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : EUR. Cours supposé : 1 EUR = 1 EUR (pays en euro, change 1).
+- Devise : EUR. Cours utilisé : 1 EUR = 1 EUR (pays en euro, change 1).
 - Salaire converti : 240 300 € × 1 = 240 300 EUR.
 - Déduction : Abattement personnel de base (560 € par mois) : − 6 720 EUR.
 - Base imposable : 233 580 EUR.

@@ -1,8 +1,8 @@
 {
   "code": "KZ",
   "nom": "Kazakhstan",
-  "rate": 13.6,
-  "note": "10 % jusqu'à 8 500 indices mensuels, 15 % au-delà. Même avec 15 % sur tout le revenu, le résultat reste sous le seuil. Taux de change non BCE : cbonds, 18 juillet 2026.",
+  "rate": 13.4,
+  "note": "Cours Yahoo EURKZT=X du 13/11/2026 : 1 EUR = 492.67 KZT (hypothèse initiale : 560). Taux recalculé : 13,4 % (avant : 13,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 10 % jusqu'à 8 500 indices mensuels, 15 % au-delà. Même avec 15 % sur tout le revenu, le résultat reste sous le seuil. Taux de change non BCE : cbonds, 18 juillet 2026.",
   "sources": [
     {
       "titre": "Comité des recettes de l'État du Kazakhstan (gov.kz), barème 10 % / 15 %",
@@ -22,8 +22,8 @@
   ],
   "calc": {
     "devise": "KZT",
-    "fx": 560,
-    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURKZT=X ; la note cite cbonds du 18 juillet 2026 sans chiffre, valeur reconstituée à partir du taux 13,6 %",
+    "fx": 492.67,
+    "fx_source": "Yahoo Finance EURKZT=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

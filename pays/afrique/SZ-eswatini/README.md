@@ -9,23 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : SZL. Cours supposé : 1 EUR = 20 SZL (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURSZL=X).
-- Salaire converti : 240 300 € × 20 = 4 806 000 SZL.
-- Base imposable : 4 806 000 SZL.
+- Devise : SZL. Cours utilisé : 1 EUR = 18,476 SZL (Yahoo Finance EURSZL=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 18,476 = 4 439 783 SZL.
+- Base imposable : 4 439 783 SZL.
 
 | De (SZL) | À (SZL) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 100 000 | 20,00 % | 100 000 | 20 000 |
 | 100 000 | 150 000 | 25,00 % | 50 000 | 12 500 |
 | 150 000 | 200 000 | 30,00 % | 50 000 | 15 000 |
-| 200 000 | et plus | 33,00 % | 4 606 000 | 1 519 980 |
+| 200 000 | et plus | 33,00 % | 4 239 783 | 1 399 128 |
 
-- **Impôt total : 1 567 480 SZL, soit 32,6 % du salaire brut.**
+- **Impôt total : 1 446 628 SZL, soit 32,6 % du salaire brut.**
 - Hypothèse : Rabais de 8 200 SZL ignoré.
 
 ## Note
 
-Barème résident à 4 tranches, taux maximal 33 % au-delà de 200 000 SZL ; rabais de 8 200 SZL ignoré. Change (hypothèse) : 1 EUR = 20 SZL.
+Cours Yahoo EURSZL=X du 13/11/2026 : 1 EUR = 18.476 SZL (hypothèse initiale : 20). Taux recalculé : 32,6 % (avant : 32,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème résident à 4 tranches, taux maximal 33 % au-delà de 200 000 SZL ; rabais de 8 200 SZL ignoré. Change (hypothèse) : 1 EUR = 20 SZL.
 
 ## Sources
 

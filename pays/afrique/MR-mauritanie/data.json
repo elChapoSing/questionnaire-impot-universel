@@ -2,7 +2,7 @@
   "code": "MR",
   "nom": "Mauritanie",
   "rate": 39.6,
-  "note": "ITS mensuel : 40 % au-delà de 21 000 MRU/mois (formule RI x 40 % - 4 050). Franchise de 6 000 MRU/mois et CNSS ignorées. Change (hypothèse) : 1 EUR = 46 MRU.",
+  "note": "Cours Yahoo EURMRU=X du 13/11/2026 : 1 EUR = 44.861 MRU (hypothèse initiale : 46). Taux recalculé : 39,6 % (avant : 39,6 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. ITS mensuel : 40 % au-delà de 21 000 MRU/mois (formule RI x 40 % - 4 050). Franchise de 6 000 MRU/mois et CNSS ignorées. Change (hypothèse) : 1 EUR = 46 MRU.",
   "sources": [
     {
       "titre": "AfroTools - calcul salaire net Mauritanie",
@@ -17,8 +17,8 @@
   ],
   "calc": {
     "devise": "MRU",
-    "fx": 46,
-    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMRU=X",
+    "fx": 44.861,
+    "fx_source": "Yahoo Finance EURMRU=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

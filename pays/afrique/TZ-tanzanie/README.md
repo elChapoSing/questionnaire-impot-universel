@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : TZS. Cours supposé : 1 EUR = 3 000 TZS (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURTZS=X).
-- Salaire converti : 240 300 € × 3 000 = 720 900 000 TZS.
-- Base imposable : 720 900 000 TZS.
+- Devise : TZS. Cours utilisé : 1 EUR = 2 939,5 TZS (Yahoo Finance EURTZS=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 2 939,5 = 706 361 850 TZS.
+- Base imposable : 706 361 850 TZS.
 
 | De (TZS) | À (TZS) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,14 +19,14 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 3 240 000 | 6 240 000 | 8,00 % | 3 000 000 | 240 000 |
 | 6 240 000 | 9 120 000 | 20,00 % | 2 880 000 | 576 000 |
 | 9 120 000 | 12 000 000 | 25,00 % | 2 880 000 | 720 000 |
-| 12 000 000 | et plus | 30,00 % | 708 900 000 | 212 670 000 |
+| 12 000 000 | et plus | 30,00 % | 694 361 850 | 208 308 555 |
 
-- **Impôt total : 214 206 000 TZS, soit 29,7 % du salaire brut.**
+- **Impôt total : 209 844 555 TZS, soit 29,7 % du salaire brut.**
 - Hypothèse : Barème mensuel résident multiplié par 12.
 
 ## Note
 
-Barème mensuel résident, taux maximal 30 % au-delà de 1 M TZS/mois. Change (hypothèse) : 1 EUR = 3 000 TZS.
+Cours Yahoo EURTZS=X du 13/11/2026 : 1 EUR = 2939.5 TZS (hypothèse initiale : 3000). Taux recalculé : 29,7 % (avant : 29,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème mensuel résident, taux maximal 30 % au-delà de 1 M TZS/mois. Change (hypothèse) : 1 EUR = 3 000 TZS.
 
 ## Sources
 

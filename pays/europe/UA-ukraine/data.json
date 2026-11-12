@@ -1,8 +1,8 @@
 {
   "code": "UA",
   "nom": "Ukraine",
-  "rate": 23,
-  "note": "18 % d'impôt sur le revenu et 5 % de contribution militaire, comptés ensemble. Sans la contribution, le taux serait de 18 %.",
+  "rate": 23.0,
+  "note": "Cours Yahoo EURUAH=X du 13/11/2026 : 1 EUR = 50.4053 UAH (hypothèse initiale : 48). Taux recalculé : 23,0 % (avant : 23 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 18 % d'impôt sur le revenu et 5 % de contribution militaire, comptés ensemble. Sans la contribution, le taux serait de 18 %.",
   "sources": [
     {
       "titre": "Service fiscal d'État d'Ukraine, impôt de 18 % et contribution de 5 %",
@@ -17,8 +17,8 @@
   ],
   "calc": {
     "devise": "UAH",
-    "fx": 48,
-    "fx_source": "valeur indicative (la note n'en donne pas), sans effet sur le taux effectif d'un impôt proportionnel",
+    "fx": 50.4053,
+    "fx_source": "Yahoo Finance EURUAH=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

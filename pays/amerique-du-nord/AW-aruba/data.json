@@ -1,12 +1,12 @@
 {
   "code": "AW",
   "nom": "Aruba",
-  "rate": 45.1,
+  "rate": 44.9,
   "range": [
-    41.9,
-    45.1
+    41.7,
+    44.9
   ],
-  "note": "Barème 2026 (21 % / 42 % / 52 % au-delà de 135 527 AWG) appliqué au salaire converti. Hypothèse change : 1 EUR = 1,15 USD, 1 USD = 1,79 AWG (parité fixe), soit environ 494 700 AWG. Franchise de 30 000 AWG non appliquée (variante avec franchise : environ 41,9 %). Cotisations AOV/AZV exclues.",
+  "note": "Cours Yahoo EURAWG=X du 13/11/2026 : 1 EUR = 1.991637 AWG (hypothèse initiale : 2.0585). Taux recalculé : 44,9 % (avant : 45,1 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 (21 % / 42 % / 52 % au-delà de 135 527 AWG) appliqué au salaire converti. Hypothèse change : 1 EUR = 1,15 USD, 1 USD = 1,79 AWG (parité fixe), soit environ 494 700 AWG. Franchise de 30 000 AWG non appliquée (variante avec franchise : environ 41,9 %). Cotisations AOV/AZV exclues.",
   "sources": [
     {
       "titre": "Deloitte - Aruba tax highlights 2026",
@@ -16,8 +16,8 @@
   ],
   "calc": {
     "devise": "AWG",
-    "fx": 2.0585,
-    "fx_source": "hypothèse reprise de la note : 1 EUR = 1,15 USD et 1 USD = 1,79 AWG (parité fixe) ; à remplacer par le cours Yahoo EURAWG=X",
+    "fx": 1.991637,
+    "fx_source": "Yahoo Finance EURAWG=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

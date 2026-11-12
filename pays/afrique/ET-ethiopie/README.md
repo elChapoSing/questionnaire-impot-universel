@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : ETB. Cours supposé : 1 EUR = 175 ETB (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURETB=X).
-- Salaire converti : 240 300 € × 175 = 42 052 500 ETB.
-- Base imposable : 42 052 500 ETB.
+- Devise : ETB. Cours utilisé : 1 EUR = 181,1191 ETB (Yahoo Finance EURETB=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 181,1191 = 43 522 920 ETB.
+- Base imposable : 43 522 920 ETB.
 
 | De (ETB) | À (ETB) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -20,14 +20,14 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 48 000 | 84 000 | 20,00 % | 36 000 | 7 200 |
 | 84 000 | 120 000 | 25,00 % | 36 000 | 9 000 |
 | 120 000 | 168 000 | 30,00 % | 48 000 | 14 400 |
-| 168 000 | et plus | 35,00 % | 41 884 500 | 14 659 575 |
+| 168 000 | et plus | 35,00 % | 43 354 920 | 15 174 222 |
 
-- **Impôt total : 14 693 775 ETB, soit 34,9 % du salaire brut.**
+- **Impôt total : 15 208 422 ETB, soit 34,9 % du salaire brut.**
 - Hypothèse : Barème mensuel d'impôt sur le revenu d'emploi multiplié par 12.
 
 ## Note
 
-Impôt sur revenu d'emploi : barème mensuel, taux maximal 35 % au-delà de 14 000 ETB/mois. Change (hypothèse) : 1 EUR = 175 ETB ; sans effet notable.
+Cours Yahoo EURETB=X du 13/11/2026 : 1 EUR = 181.1191 ETB (hypothèse initiale : 175). Taux recalculé : 34,9 % (avant : 34,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt sur revenu d'emploi : barème mensuel, taux maximal 35 % au-delà de 14 000 ETB/mois. Change (hypothèse) : 1 EUR = 175 ETB ; sans effet notable.
 
 ## Sources
 

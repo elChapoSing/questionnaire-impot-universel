@@ -1,8 +1,8 @@
 {
   "code": "MW",
   "nom": "Malawi",
-  "rate": 38.4,
-  "note": "PAYE 2026 : 30 % puis 35 % puis 40 % au-delà de 10 M MWK/mois. Change (hypothèse) : 1 EUR = 2 000 MWK ; sans effet notable.",
+  "rate": 38.3,
+  "note": "Cours Yahoo EURMWK=X du 13/11/2026 : 1 EUR = 1923.5 MWK (hypothèse initiale : 2000). Taux recalculé : 38,3 % (avant : 38,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. PAYE 2026 : 30 % puis 35 % puis 40 % au-delà de 10 M MWK/mois. Change (hypothèse) : 1 EUR = 2 000 MWK ; sans effet notable.",
   "sources": [
     {
       "titre": "Workpay - changements statutaires Malawi 2026",
@@ -12,8 +12,8 @@
   ],
   "calc": {
     "devise": "MWK",
-    "fx": 2000,
-    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURMWK=X",
+    "fx": 1923.5,
+    "fx_source": "Yahoo Finance EURMWK=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

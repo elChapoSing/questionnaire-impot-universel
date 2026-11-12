@@ -1,6 +1,6 @@
 # Chine (CN)
 
-**Taux effectif retenu : 35,2 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 34,4 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : CNY. Cours supposé : 1 EUR = 8 CNY (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURCNY=X).
-- Salaire converti : 240 300 € × 8 = 1 922 400 CNY.
-- Base imposable : 1 922 400 CNY.
+- Devise : CNY. Cours utilisé : 1 EUR = 7,3823 CNY (Yahoo Finance EURCNY=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 7,3823 = 1 773 966 CNY.
+- Base imposable : 1 773 966 CNY.
 
 | De (CNY) | À (CNY) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -21,15 +21,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 300 000 | 420 000 | 25,00 % | 120 000 | 30 000 |
 | 420 000 | 660 000 | 30,00 % | 240 000 | 72 000 |
 | 660 000 | 960 000 | 35,00 % | 300 000 | 105 000 |
-| 960 000 | et plus | 45,00 % | 962 400 | 433 080 |
+| 960 000 | et plus | 45,00 % | 813 966 | 366 285 |
 
-- **Impôt total : 683 160 CNY, soit 35,5 % du salaire brut.**
+- **Impôt total : 616 365 CNY, soit 34,7 % du salaire brut.**
 - Hypothèse : Barème des revenus globaux (salaires, revenus du travail).
 - Hypothèse : Déduction forfaitaire annuelle de 60 000 CNY et déductions spéciales exclues ; avec la déduction forfaitaire, le taux serait d'environ 34,1 %.
 
 ## Note
 
-Barème des revenus globaux, tranche supérieure à 45 %.
+Cours Yahoo EURCNY=X du 13/11/2026 : 1 EUR = 7.382299 CNY (hypothèse initiale : 8). Taux recalculé : 34,4 % (avant : 35,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème des revenus globaux, tranche supérieure à 45 %.
 
 ## Sources
 

@@ -9,7 +9,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : WST. Cours supposé : 1 EUR = 3,1 WST (hypothèse reprise de la note (3,1 tālā pour 1 EUR)).
+- Devise : WST. Cours utilisé : 1 EUR = 3,1 WST (hypothèse reprise de la note (3,1 tālā pour 1 EUR)).
 - Salaire converti : 240 300 € × 3,1 = 744 930 WST.
 - Base imposable : 744 930 WST.
 

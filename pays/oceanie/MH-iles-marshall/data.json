@@ -6,7 +6,7 @@
     11.6,
     11.9
   ],
-  "note": "Taxe sur salaires : 8 % sur les premiers 10 400 USD, 12 % au-delà (loi modificative 2025, en vigueur au 1er octobre 2025). Hypothèse : 1 EUR = 1,16 USD (environ 278 750 USD). Une source non officielle évoque une franchise de 8 320 USD, contradictoire avec le texte de loi ; le texte de loi est retenu.",
+  "note": "Cours Yahoo EURUSD=X du 13/11/2026 : 1 EUR = 1.106465 USD (hypothèse initiale : 1.16). Taux recalculé : 11,9 % (avant : 11,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taxe sur salaires : 8 % sur les premiers 10 400 USD, 12 % au-delà (loi modificative 2025, en vigueur au 1er octobre 2025). Hypothèse : 1 EUR = 1,16 USD (environ 278 750 USD). Une source non officielle évoque une franchise de 8 320 USD, contradictoire avec le texte de loi ; le texte de loi est retenu.",
   "sources": [
     {
       "titre": "Marshall Islands - Income Tax (Amendment) Act 2025 (PacLII)",
@@ -16,8 +16,8 @@
   ],
   "calc": {
     "devise": "USD",
-    "fx": 1.16,
-    "fx_source": "hypothèse reprise de la note (1,16 USD pour 1 EUR)",
+    "fx": 1.106465,
+    "fx_source": "Yahoo Finance EURUSD=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

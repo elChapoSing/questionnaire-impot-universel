@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : BOB. Cours supposé : 1 EUR = 8,07 BOB (hypothèse : 6,96 BOB pour 1 USD au taux officiel × 1,16 USD pour 1 EUR ; à remplacer par le cours Yahoo EURBOB=X).
-- Salaire converti : 240 300 € × 8,07 = 1 939 221 BOB.
-- Base imposable : 1 939 221 BOB.
+- Devise : BOB. Cours utilisé : 1 EUR = 12,984 BOB (Yahoo Finance EURBOB=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 12,984 = 3 120 055 BOB.
+- Base imposable : 3 120 055 BOB.
 
 | De (BOB) | À (BOB) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 13,00 % | 1 939 221 | 252 099 |
+| 0 | et plus | 13,00 % | 3 120 055 | 405 607 |
 
-- **Impôt total : 252 099 BOB, soit 13,0 % du salaire brut.**
+- **Impôt total : 405 607 BOB, soit 13,0 % du salaire brut.**
 - Hypothèse : RC-IVA au taux unique de 13 % appliqué au salaire brut, sans déduction des cotisations sociales ni crédit de TVA sur factures.
 - Hypothèse : Variante de la note (environ 11,3 %) : assiette nette des cotisations sociales et crédit de TVA sur factures, non retenue ici.
 
 ## Note
 
-RC-IVA au taux unique de 13 % sur les salaires, assiette nette des cotisations sociales et crédit de TVA sur factures possible (variante : environ 11,3 %). Seuls les revenus de source bolivienne sont imposés.
+Cours Yahoo EURBOB=X du 13/11/2026 : 1 EUR = 12.984 BOB (hypothèse initiale : 8.07). Taux recalculé : 13,0 % (avant : 13 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. RC-IVA au taux unique de 13 % sur les salaires, assiette nette des cotisations sociales et crédit de TVA sur factures possible (variante : environ 11,3 %). Seuls les revenus de source bolivienne sont imposés.
 
 ## Sources
 

@@ -9,24 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : DOP. Cours supposé : 1 EUR = 70 DOP (hypothèse reprise de la note, à remplacer par le cours Yahoo EURDOP=X).
-- Salaire converti : 240 300 € × 70 = 16 821 000 DOP.
-- Base imposable : 16 821 000 DOP.
+- Devise : DOP. Cours utilisé : 1 EUR = 67,3 DOP (Yahoo Finance EURDOP=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 67,3 = 16 172 190 DOP.
+- Base imposable : 16 172 190 DOP.
 
 | De (DOP) | À (DOP) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 416 220 | 0,00 % | 416 220 | 0 |
 | 416 220 | 624 329 | 15,00 % | 208 109 | 31 216 |
 | 624 329 | 867 123 | 20,00 % | 242 794 | 48 559 |
-| 867 123 | et plus | 25,00 % | 15 953 877 | 3 988 469 |
+| 867 123 | et plus | 25,00 % | 15 305 067 | 3 826 267 |
 
-- **Impôt total : 4 068 244 DOP, soit 24,2 % du salaire brut.**
+- **Impôt total : 3 906 042 DOP, soit 24,2 % du salaire brut.**
 - Hypothèse : Barème 2026 de la DGII : seuils 416 220, 624 329 et 867 123 DOP.
 - Hypothèse : À partir de 2027 (loi 30-26), un taux de 27 % au-delà de 4,8 millions de DOP porterait le résultat à environ 25,5 % (note).
 
 ## Note
 
-Barème 2026 : exonération jusqu'à 416 220 pesos, puis 15 %, 20 % et 25 % au-delà de 867 123 pesos. À partir de 2027 (loi 30-26), un taux de 27 % au-delà de 4,8 millions de pesos porterait le résultat à environ 25,5 %. Change supposé : 70 pesos pour 1 €.
+Cours Yahoo EURDOP=X du 13/11/2026 : 1 EUR = 67.3 DOP (hypothèse initiale : 70). Taux recalculé : 24,1 % (avant : 24,1 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 : exonération jusqu'à 416 220 pesos, puis 15 %, 20 % et 25 % au-delà de 867 123 pesos. À partir de 2027 (loi 30-26), un taux de 27 % au-delà de 4,8 millions de pesos porterait le résultat à environ 25,5 %. Change supposé : 70 pesos pour 1 €.
 
 ## Sources
 

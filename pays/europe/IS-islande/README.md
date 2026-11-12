@@ -1,6 +1,6 @@
 # Islande (IS)
 
-**Taux effectif retenu : 38,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 38,2 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,24 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : ISK. Cours supposé : 1 EUR = 145 ISK (hypothèse reprise de la note).
-- Salaire converti : 240 300 € × 145 = 34 843 500 ISK.
-- Base imposable : 34 843 500 ISK.
+- Devise : ISK. Cours utilisé : 1 EUR = 136,75 ISK (Yahoo Finance EURISK=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 136,75 = 32 861 025 ISK.
+- Base imposable : 32 861 025 ISK.
 
 | De (ISK) | À (ISK) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 5 977 464 | 31,49 % | 5 977 464 | 1 882 303 |
 | 5 977 464 | 16 781 400 | 37,99 % | 10 803 936 | 4 104 415 |
-| 16 781 400 | et plus | 46,29 % | 18 062 100 | 8 360 946 |
+| 16 781 400 | et plus | 46,29 % | 16 079 625 | 7 443 258 |
 
 - Crédit : crédit d'impôt personnel : − 869 898 ISK.
-- **Impôt total : 13 477 767 ISK, soit 38,7 % du salaire brut.**
+- **Impôt total : 12 560 079 ISK, soit 38,2 % du salaire brut.**
 - Hypothèse : Taux cumulés impôt d'État et impôt communal moyen, 2026.
 - Hypothèse : Cotisations de retraite et déductions exclues.
 
 ## Note
 
-Islande 2026 : 31,49 % jusqu'à 5 977 464 ISK, 37,99 % jusqu'à 16 781 400 ISK, 46,29 % au-delà (impôt communal inclus), moins un crédit personnel de 869 898 ISK. Calcul à 145 ISK/EUR (hypothèse) : environ 38,7 %.
+Cours Yahoo EURISK=X du 13/11/2026 : 1 EUR = 136.75 ISK (hypothèse initiale : 145). Taux recalculé : 38,2 % (avant : 38,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Islande 2026 : 31,49 % jusqu'à 5 977 464 ISK, 37,99 % jusqu'à 16 781 400 ISK, 46,29 % au-delà (impôt communal inclus), moins un crédit personnel de 869 898 ISK. Calcul à 145 ISK/EUR (hypothèse) : environ 38,7 %.
 
 ## Sources
 

@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : GBP. Cours supposé : 1 EUR = 0,87 GBP (hypothèse reprise de la note, à remplacer par le cours Yahoo EURGBP=X).
-- Salaire converti : 240 300 € × 0,87 = 209 061 GBP.
-- Base imposable : 209 061 GBP.
+- Devise : GBP. Cours utilisé : 1 EUR = 0,8359 GBP (Yahoo Finance EURGBP=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 0,8359 = 200 862 GBP.
+- Base imposable : 200 862 GBP.
 
 | De (GBP) | À (GBP) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,15 +19,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 17 000 | 25 000 | 19,00 % | 8 000 | 1 520 |
 | 25 000 | 40 000 | 25,00 % | 15 000 | 3 750 |
 | 40 000 | 105 000 | 28,00 % | 65 000 | 18 200 |
-| 105 000 | et plus | 25,00 % | 104 061 | 26 015 |
+| 105 000 | et plus | 25,00 % | 95 862 | 23 965 |
 
-- **Impôt total : 52 205 GBP, soit 25,0 % du salaire brut.**
+- **Impôt total : 50 155 GBP, soit 25,0 % du salaire brut.**
 - Hypothèse : Système sur revenu brut 2025/26 (PwC), table des revenus supérieurs à 25 000 £ : 16 % sur 17 000 £, 19 % sur 8 000, 25 % sur 15 000, 28 % sur 65 000, 25 % sur le solde. Le système à abattements donnerait un impôt plus élevé à ce revenu.
 - Hypothèse : Sans abattements ni déductions.
 
 ## Note
 
-Gibraltar propose deux systèmes et applique le plus favorable. Pour un revenu élevé, le barème sur revenu brut donne un taux effectif d'environ 25 %, plafond indiqué par PwC (change supposé : 0,87 £ pour 1 €, taux quasi insensible au change). Sans abattements ni déductions.
+Cours Yahoo EURGBP=X du 13/11/2026 : 1 EUR = 0.83588 GBP (hypothèse initiale : 0.87). Taux recalculé : 25,0 % (avant : 25 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Gibraltar propose deux systèmes et applique le plus favorable. Pour un revenu élevé, le barème sur revenu brut donne un taux effectif d'environ 25 %, plafond indiqué par PwC (change supposé : 0,87 £ pour 1 €, taux quasi insensible au change). Sans abattements ni déductions.
 
 ## Sources
 

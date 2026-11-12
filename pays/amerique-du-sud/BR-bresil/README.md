@@ -9,22 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : BRL. Cours supposé : 1 EUR = 6 BRL (hypothèse reprise de la note (6 réais pour 1 EUR)).
-- Salaire converti : 240 300 € × 6 = 1 441 800 BRL.
-- Base imposable : 1 441 800 BRL.
+- Devise : BRL. Cours utilisé : 1 EUR = 6,2189 BRL (Yahoo Finance EURBRL=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 6,2189 = 1 494 405 BRL.
+- Base imposable : 1 494 405 BRL.
 
 | De (BRL) | À (BRL) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 27,50 % | 1 441 800 | 396 495 |
+| 0 | et plus | 27,50 % | 1 494 405 | 410 961 |
 
 - Crédit : Parcela a deduzir de la tranche de 27,5 % : − 10 854 BRL.
-- **Impôt total : 385 641 BRL, soit 26,7 % du salaire brut.**
+- **Impôt total : 400 108 BRL, soit 26,8 % du salaire brut.**
 - Hypothèse : Formule de la Receita Federal : 27,5 % du revenu annuel moins 10 853,78 réais, au-delà de 55 976 réais par an ; inchangé en 2026.
 - Hypothèse : L'impôt minimum pour hauts revenus (loi 15.270/2025) ne s'ajoute pas ici ; pas de déduction pour cotisations ni pour personnes à charge.
 
 ## Note
 
-Barème progressif : 27,5 % au-delà de 55 976 réaux par an (déduction de 10 853,78 réaux), inchangé en 2026. L'exonération jusqu'à 5 000 réais par mois disparaît à ce revenu. Un impôt minimum pour les revenus annuels supérieurs à 600 000 réais (jusqu'à 10 %) existe mais ne s'ajoute pas ici. Change supposé : 6 réais pour 1 € (26,7 % à 26,8 % de 5,5 à 6,5).
+Cours Yahoo EURBRL=X du 13/11/2026 : 1 EUR = 6.218915 BRL (hypothèse initiale : 6). Taux recalculé : 26,7 % (avant : 26,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif : 27,5 % au-delà de 55 976 réaux par an (déduction de 10 853,78 réaux), inchangé en 2026. L'exonération jusqu'à 5 000 réais par mois disparaît à ce revenu. Un impôt minimum pour les revenus annuels supérieurs à 600 000 réais (jusqu'à 10 %) existe mais ne s'ajoute pas ici. Change supposé : 6 réais pour 1 € (26,7 % à 26,8 % de 5,5 à 6,5).
 
 ## Sources
 

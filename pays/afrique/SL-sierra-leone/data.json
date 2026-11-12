@@ -2,7 +2,7 @@
   "code": "SL",
   "nom": "Sierra Leone",
   "rate": 29.9,
-  "note": "PAYE mensuel : taux maximal 30 % au-delà de 2 400 SLE/mois ; barème inchangé selon la loi de finances 2026. Change (hypothèse) : 1 EUR = 27 SLE. Cotisation NASSIT de 5 % déductible non appliquée.",
+  "note": "Cours Yahoo EURSLE=X du 13/11/2026 : 1 EUR = 25.3380485 SLE (hypothèse initiale : 27). Taux recalculé : 29,9 % (avant : 29,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. PAYE mensuel : taux maximal 30 % au-delà de 2 400 SLE/mois ; barème inchangé selon la loi de finances 2026. Change (hypothèse) : 1 EUR = 27 SLE. Cotisation NASSIT de 5 % déductible non appliquée.",
   "sources": [
     {
       "titre": "AfroTools - PAYE Sierra Leone",
@@ -17,8 +17,8 @@
   ],
   "calc": {
     "devise": "SLE",
-    "fx": 27,
-    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURSLE=X",
+    "fx": 25.3380485,
+    "fx_source": "Yahoo Finance EURSLE=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

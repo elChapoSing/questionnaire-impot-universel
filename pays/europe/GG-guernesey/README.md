@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : GBP. Cours supposé : 1 EUR = 0,87 GBP (la note ne donne pas de cours : hypothèse de 0,87 GBP pour 1 EUR (comme pour le Royaume-Uni), à remplacer par le cours Yahoo EURGBP=X ; sans effet avec un taux unique).
-- Salaire converti : 240 300 € × 0,87 = 209 061 GBP.
-- Base imposable : 209 061 GBP.
+- Devise : GBP. Cours utilisé : 1 EUR = 0,8359 GBP (Yahoo Finance EURGBP=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 0,8359 = 200 862 GBP.
+- Base imposable : 200 862 GBP.
 
 | De (GBP) | À (GBP) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 20,00 % | 209 061 | 41 812 |
+| 0 | et plus | 20,00 % | 200 862 | 40 172 |
 
-- **Impôt total : 41 812 GBP, soit 20,0 % du salaire brut.**
+- **Impôt total : 40 172 GBP, soit 20,0 % du salaire brut.**
 - Hypothèse : Taux unique de 20 %. L'abattement personnel (15 200 £) est supprimé progressivement au-delà de 85 000 £ : il est nul à ce revenu.
 - Hypothèse : Plafonds d'impôt sur option sans effet à ce niveau de revenu.
 
 ## Note
 
-Taux unique de 20 %. L'abattement personnel (15 200 £ en 2026) est supprimé progressivement au-delà de 85 000 £ de revenu : il est donc nul à 240 300 €. Taux effectif de 20 %. Des plafonds d'impôt existent sur option (160 000 £ pour les revenus de source étrangère), sans effet à ce niveau de revenu.
+Cours Yahoo EURGBP=X du 13/11/2026 : 1 EUR = 0.83588 GBP (hypothèse initiale : 0.87). Taux recalculé : 20,0 % (avant : 20 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux unique de 20 %. L'abattement personnel (15 200 £ en 2026) est supprimé progressivement au-delà de 85 000 £ de revenu : il est donc nul à 240 300 €. Taux effectif de 20 %. Des plafonds d'impôt existent sur option (160 000 £ pour les revenus de source étrangère), sans effet à ce niveau de revenu.
 
 ## Sources
 

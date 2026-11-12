@@ -9,22 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : GYD. Cours supposé : 1 EUR = 240 GYD (hypothèse reprise de la note (240 GYD pour 1 EUR, soit 209 par USD)).
-- Salaire converti : 240 300 € × 240 = 57 672 000 GYD.
-- Base imposable : 57 672 000 GYD.
+- Devise : GYD. Cours utilisé : 1 EUR = 232,07 GYD (Yahoo Finance EURGYD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 232,07 = 55 766 421 GYD.
+- Base imposable : 55 766 421 GYD.
 
 | De (GYD) | À (GYD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 3 360 000 | 25,00 % | 3 360 000 | 840 000 |
-| 3 360 000 | et plus | 35,00 % | 54 312 000 | 19 009 200 |
+| 3 360 000 | et plus | 35,00 % | 52 406 421 | 18 342 247 |
 
-- **Impôt total : 19 849 200 GYD, soit 34,4 % du salaire brut.**
+- **Impôt total : 19 182 247 GYD, soit 34,4 % du salaire brut.**
 - Hypothèse : 25 % jusqu'à 3 360 000 GYD, 35 % au-delà (2026).
 - Hypothèse : Abattement personnel (tiers du revenu ou 1 680 000 GYD) non appliqué ; avec le tiers déduit, la note donne environ 22,7 %.
 
 ## Note
 
-25 % jusqu'à 3 360 000 GYD puis 35 % (2026). Abattement personnel (tiers du revenu ou 1 680 000) non appliqué ; avec ce tiers déduit, environ 22,7 %. Hypothèse change : 1 EUR = 240 GYD (209 par USD), soit environ 57,8 M GYD. Cas sensible à l'abattement.
+Cours Yahoo EURGYD=X du 13/11/2026 : 1 EUR = 232.07 GYD (hypothèse initiale : 240). Taux recalculé : 34,4 % (avant : 34,4 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. 25 % jusqu'à 3 360 000 GYD puis 35 % (2026). Abattement personnel (tiers du revenu ou 1 680 000) non appliqué ; avec ce tiers déduit, environ 22,7 %. Hypothèse change : 1 EUR = 240 GYD (209 par USD), soit environ 57,8 M GYD. Cas sensible à l'abattement.
 
 ## Sources
 

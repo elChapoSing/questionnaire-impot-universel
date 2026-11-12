@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : CDF. Cours supposé : 1 EUR = 2 650 CDF (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURCDF=X).
-- Salaire converti : 240 300 € × 2 650 = 636 795 000 CDF.
-- Base imposable : 636 795 000 CDF.
+- Devise : CDF. Cours utilisé : 1 EUR = 2 571,2 CDF (Yahoo Finance EURCDF=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 2 571,2 = 617 859 360 CDF.
+- Base imposable : 617 859 360 CDF.
 
 | De (CDF) | À (CDF) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 30,00 % | 636 795 000 | 191 038 500 |
+| 0 | et plus | 30,00 % | 617 859 360 | 185 357 808 |
 
-- **Impôt total : 191 038 500 CDF, soit 30,0 % du salaire brut.**
+- **Impôt total : 185 357 808 CDF, soit 30,0 % du salaire brut.**
 - Hypothèse : L'IPR est plafonné à 30 % de la rémunération imposable (PwC) : à ce niveau de revenu le plafond s'applique à toute la base, d'où un taux unique de 30 %.
 - Hypothèse : Sans le plafond, le barème 3 / 15 / 30 / 40 % donnerait environ 38,8 % (variante de la note).
 
 ## Note
 
-IPR : barème 3/15/30/40 % mais impôt plafonné à 30 % de la rémunération imposable selon PwC ; sans le plafond le taux serait d'environ 38,8 %. Change (hypothèse) : 1 EUR = 2 650 CDF.
+Cours Yahoo EURCDF=X du 13/11/2026 : 1 EUR = 2571.2 CDF (hypothèse initiale : 2650). Taux recalculé : 30,0 % (avant : 30 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. IPR : barème 3/15/30/40 % mais impôt plafonné à 30 % de la rémunération imposable selon PwC ; sans le plafond le taux serait d'environ 38,8 %. Change (hypothèse) : 1 EUR = 2 650 CDF.
 
 ## Sources
 

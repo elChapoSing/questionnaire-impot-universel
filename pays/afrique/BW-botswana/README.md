@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : BWP. Cours supposé : 1 EUR = 15,8 BWP (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURBWP=X).
-- Salaire converti : 240 300 € × 15,8 = 3 796 740 BWP.
-- Base imposable : 3 796 740 BWP.
+- Devise : BWP. Cours utilisé : 1 EUR = 15,389 BWP (Yahoo Finance EURBWP=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 15,389 = 3 697 977 BWP.
+- Base imposable : 3 697 977 BWP.
 
 | De (BWP) | À (BWP) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,14 +19,14 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 48 000 | 84 000 | 5,00 % | 36 000 | 1 800 |
 | 84 000 | 120 000 | 12,50 % | 36 000 | 4 500 |
 | 120 000 | 156 000 | 18,75 % | 36 000 | 6 750 |
-| 156 000 | et plus | 25,00 % | 3 640 740 | 910 185 |
+| 156 000 | et plus | 25,00 % | 3 541 977 | 885 494 |
 
-- **Impôt total : 923 235 BWP, soit 24,3 % du salaire brut.**
+- **Impôt total : 898 544 BWP, soit 24,3 % du salaire brut.**
 - Hypothèse : Barème résident à 5 tranches ; relèvements de seuils du budget 2026 non vérifiés.
 
 ## Note
 
-Barème résident à 5 tranches, taux maximal 25 % au-delà de 156 000 BWP. Change (hypothèse) : 1 EUR = 15,8 BWP. Les relèvements de seuils du budget 2026 n'ont pas été vérifiés ; effet négligeable à ce niveau de revenu.
+Cours Yahoo EURBWP=X du 13/11/2026 : 1 EUR = 15.389 BWP (hypothèse initiale : 15.8). Taux recalculé : 24,3 % (avant : 24,3 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème résident à 5 tranches, taux maximal 25 % au-delà de 156 000 BWP. Change (hypothèse) : 1 EUR = 15,8 BWP. Les relèvements de seuils du budget 2026 n'ont pas été vérifiés ; effet négligeable à ce niveau de revenu.
 
 ## Sources
 

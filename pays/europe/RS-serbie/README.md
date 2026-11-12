@@ -9,25 +9,25 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : RSD. Cours supposé : 1 EUR = 117,2 RSD (hypothèse reprise de la note).
-- Salaire converti : 240 300 € × 117,2 = 28 163 160 RSD.
-- Base imposable : 28 163 160 RSD.
+- Devise : RSD. Cours utilisé : 1 EUR = 117,599 RSD (Yahoo Finance EURRSD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 117,599 = 28 259 040 RSD.
+- Base imposable : 28 259 040 RSD.
 
 | De (RSD) | À (RSD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 410 652 | 0,00 % | 410 652 | 0 |
 | 410 652 | 6 803 604 | 10,00 % | 6 392 952 | 639 295 |
 | 6 803 604 | 18 890 484 | 19,00 % | 12 086 880 | 2 296 507 |
-| 18 890 484 | et plus | 23,50 % | 9 272 676 | 2 179 079 |
+| 18 890 484 | et plus | 23,50 % | 9 368 556 | 2 201 611 |
 
-- **Impôt total : 5 114 881 RSD, soit 18,2 % du salaire brut.**
+- **Impôt total : 5 137 413 RSD, soit 18,2 % du salaire brut.**
 - Hypothèse : Impôt sur salaire de 10 % après abattement mensuel de 34 221 RSD (410 652 par an).
 - Hypothèse : Impôt annuel complémentaire sur le revenu net d'impôt de salaire : non imposable 5 439 096 RSD (3 salaires annuels moyens), déduction personnelle 725 213 RSD, puis 10 % jusqu'à 10 878 192 RSD et 15 % au-delà. Les taux de tranche cumulent donc 10 % + 0,9 × 10 % = 19 % puis 10 % + 0,9 × 15 % = 23,5 %.
 - Hypothèse : Cotisations sociales supposées non déduites de la base de l'impôt annuel (hypothèse qui reproduit le taux retenu) ; seuils 2025.
 
 ## Note
 
-Impôt de 10 % sur le salaire (abattement mensuel de 34 221 dinars), plus impôt annuel complémentaire de 10 % puis 15 % au-delà de 3 puis 6 salaires annuels moyens (seuils 2025 : 5 439 096 et 10 878 192 dinars). Estimation à 1 point près : cotisations salariales déduites de l'assiette de l'impôt annuel, déduction personnelle de 40 % du salaire moyen. Change supposé : 117,2 dinars pour 1 €.
+Cours Yahoo EURRSD=X du 13/11/2026 : 1 EUR = 117.599 RSD (hypothèse initiale : 117.2). Taux recalculé : 18,2 % (avant : 18,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt de 10 % sur le salaire (abattement mensuel de 34 221 dinars), plus impôt annuel complémentaire de 10 % puis 15 % au-delà de 3 puis 6 salaires annuels moyens (seuils 2025 : 5 439 096 et 10 878 192 dinars). Estimation à 1 point près : cotisations salariales déduites de l'assiette de l'impôt annuel, déduction personnelle de 40 % du salaire moyen. Change supposé : 117,2 dinars pour 1 €.
 
 ## Sources
 

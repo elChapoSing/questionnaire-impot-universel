@@ -13,7 +13,7 @@
   "calc": {
     "devise": "XOF",
     "fx": 655.957,
-    "fx_source": "parité fixe XOF/EUR (655,957), reprise de la note",
+    "fx_source": "Yahoo Finance EURXOF=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

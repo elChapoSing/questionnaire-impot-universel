@@ -9,7 +9,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : ERN. Cours supposé : 1 EUR = 17,4 ERN (hypothèse reprise de la note, à remplacer par le cours Yahoo EURERN=X).
+- Devise : ERN. Cours utilisé : 1 EUR = 17,4 ERN (hypothèse reprise de la note, à remplacer par le cours Yahoo EURERN=X).
 - Salaire converti : 240 300 € × 17,4 = 4 181 220 ERN.
 - Base imposable : 4 181 220 ERN.
 

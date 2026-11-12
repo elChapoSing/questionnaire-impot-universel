@@ -1,6 +1,6 @@
 # Iran (IR)
 
-**Taux effectif retenu : entre 29,5 et 34,9 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : entre 29,6 et 35,0 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : IRR. Cours supposé : 1 EUR = 1 600 000 IRR (hypothèse reprise de la note (environ 1,6 million IRR pour 1 €)).
-- Salaire converti : 240 300 € × 1 600 000 = 384 480 000 000 IRR.
-- Base imposable : 384 480 000 000 IRR.
+- Devise : IRR. Cours utilisé : 1 EUR = 2 109 005,274 IRR (Yahoo Finance EURIRR=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 2 109 005,274 = 506 793 967 342 IRR.
+- Base imposable : 506 793 967 342 IRR.
 
 | De (IRR) | À (IRR) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -21,15 +21,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 1 680 000 000 | 2 400 000 000 | 20,00 % | 720 000 000 | 144 000 000 |
 | 2 400 000 000 | 3 600 000 000 | 25,00 % | 1 200 000 000 | 300 000 000 |
 | 3 600 000 000 | 6 000 000 000 | 30,00 % | 2 400 000 000 | 720 000 000 |
-| 6 000 000 000 | et plus | 35,00 % | 378 480 000 000 | 132 468 000 000 |
+| 6 000 000 000 | et plus | 35,00 % | 500 793 967 342 | 175 277 888 570 |
 
-- **Impôt total : 133 752 000 000 IRR, soit 34,8 % du salaire brut.**
+- **Impôt total : 176 561 888 570 IRR, soit 34,8 % du salaire brut.**
 - Hypothèse : Barème progressif 2026 (TaxAtlas, source secondaire), indexé sur l'inflation.
 - Hypothèse : Change très volatil mais taux peu sensible. Le barème salarial spécifique pourrait plafonner à 30 % (variante basse de 29,5 %, voir la fourchette).
 
 ## Note
 
-Barème progressif 2026 de 0 % à 35 % au-delà de 6 milliards IRR ; hypothèse de change très volatile (environ 1,6 M IRR par EUR), mais taux peu sensible car la tranche haute domine. Incertitude : le barème salarial spécifique pourrait plafonner à 30 %. Sources secondaires uniquement.
+Cours Yahoo EURIRR=X du 13/11/2026 : 1 EUR = 2109005.274 IRR (hypothèse initiale : 1600000). Taux recalculé : 34,9 % (avant : 34,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif 2026 de 0 % à 35 % au-delà de 6 milliards IRR ; hypothèse de change très volatile (environ 1,6 M IRR par EUR), mais taux peu sensible car la tranche haute domine. Incertitude : le barème salarial spécifique pourrait plafonner à 30 %. Sources secondaires uniquement.
 
 ## Sources
 

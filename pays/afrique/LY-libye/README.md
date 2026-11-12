@@ -9,22 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : LYD. Cours supposé : 1 EUR = 6,3 LYD (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURLYD=X).
-- Salaire converti : 240 300 € × 6,3 = 1 513 890 LYD.
-- Base imposable : 1 513 890 LYD.
+- Devise : LYD. Cours utilisé : 1 EUR = 7,153 LYD (Yahoo Finance EURLYD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 7,153 = 1 718 866 LYD.
+- Base imposable : 1 718 866 LYD.
 
 | De (LYD) | À (LYD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 12 000 | 5,00 % | 12 000 | 600 |
-| 12 000 | et plus | 10,00 % | 1 501 890 | 150 189 |
+| 12 000 | et plus | 10,00 % | 1 706 866 | 170 687 |
 
-- **Impôt total : 150 789 LYD, soit 10,0 % du salaire brut.**
+- **Impôt total : 171 287 LYD, soit 10,0 % du salaire brut.**
 - Hypothèse : Cotisations sociales exclues.
 - Hypothèse : Variante de la note : un guide PwC mentionne en plus un impôt Jihad de 3 % (taux total jusqu'à 13 %), non appliqué ici.
 
 ## Note
 
-Impôt sur salaires : 5 % jusqu'à 12 000 LYD/an puis 10 %. Un guide PwC mentionne en plus un impôt Jihad de 3 % (fourchette). Change (hypothèse) : 1 EUR = 6,3 LYD. Cotisations sociales exclues.
+Cours Yahoo EURLYD=X du 13/11/2026 : 1 EUR = 7.153 LYD (hypothèse initiale : 6.3). Taux recalculé : 10,0 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt sur salaires : 5 % jusqu'à 12 000 LYD/an puis 10 %. Un guide PwC mentionne en plus un impôt Jihad de 3 % (fourchette). Change (hypothèse) : 1 EUR = 6,3 LYD. Cotisations sociales exclues.
 
 ## Sources
 

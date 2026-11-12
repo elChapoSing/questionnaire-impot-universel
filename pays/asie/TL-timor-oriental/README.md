@@ -9,22 +9,22 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : USD. Cours supposé : 1 EUR = 1,16 USD (hypothèse reprise de la note (1 € = 1,16 USD)).
-- Salaire converti : 240 300 € × 1,16 = 278 748 USD.
-- Base imposable : 278 748 USD.
+- Devise : USD. Cours utilisé : 1 EUR = 1,1065 USD (Yahoo Finance EURUSD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1,1065 = 265 884 USD.
+- Base imposable : 265 884 USD.
 
 | De (USD) | À (USD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 6 000 | 0,00 % | 6 000 | 0 |
-| 6 000 | et plus | 10,00 % | 272 748 | 27 275 |
+| 6 000 | et plus | 10,00 % | 259 884 | 25 988 |
 
-- **Impôt total : 27 275 USD, soit 9,8 % du salaire brut.**
+- **Impôt total : 25 988 USD, soit 9,8 % du salaire brut.**
 - Hypothèse : Impôt sur les salaires des résidents : 10 % au-delà de 500 USD par mois, soit 6 000 USD par an.
 - Hypothèse : Variante lue comme 500 USD par an : taux de 10,0 %, d'où la fourchette de la note.
 
 ## Note
 
-Impôt sur les salaires des résidents : 10 % au-delà d'un seuil de 500 USD (mensuel selon la loi, annuel selon la formulation de PwC, d'où la fourchette). Hypothèse : 1 EUR = 1,16 USD.
+Cours Yahoo EURUSD=X du 13/11/2026 : 1 EUR = 1.106465 USD (hypothèse initiale : 1.16). Taux recalculé : 9,8 % (avant : 9,8 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt sur les salaires des résidents : 10 % au-delà d'un seuil de 500 USD (mensuel selon la loi, annuel selon la formulation de PwC, d'où la fourchette). Hypothèse : 1 EUR = 1,16 USD.
 
 ## Sources
 

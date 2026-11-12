@@ -1,6 +1,6 @@
 # Argentine (AR)
 
-**Taux effectif retenu : 34,0 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 33,9 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : ARS. Cours supposé : 1 EUR = 1 850 ARS (hypothèse (aucun cours dans la note) : environ 1 850 pesos pour 1 EUR, à remplacer par le cours Yahoo EURARS=X ; taux très peu sensible au change au-delà de 1 500 (de 33,3 % à 33,6 % entre 1 600 et 2 000)).
-- Salaire converti : 240 300 € × 1 850 = 444 555 000 ARS.
-- Base imposable : 444 555 000 ARS.
+- Devise : ARS. Cours utilisé : 1 EUR = 1 708,828 ARS (Yahoo Finance EURARS=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1 708,828 = 410 631 368 ARS.
+- Base imposable : 410 631 368 ARS.
 
 | De (ARS) | À (ARS) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -23,15 +23,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 18 000 271 | 27 000 406 | 23,00 % | 9 000 135 | 2 070 031 |
 | 27 000 406 | 40 500 609 | 27,00 % | 13 500 203 | 3 645 055 |
 | 40 500 609 | 60 750 914 | 31,00 % | 20 250 305 | 6 277 594 |
-| 60 750 914 | et plus | 35,00 % | 383 804 086 | 134 331 430 |
+| 60 750 914 | et plus | 35,00 % | 349 880 454 | 122 458 159 |
 
-- **Impôt total : 149 004 151 ARS, soit 33,5 % du salaire brut.**
+- **Impôt total : 137 130 880 ARS, soit 33,4 % du salaire brut.**
+- ⚠ Écart avec le taux retenu (33,9 %) : à vérifier.
 - Hypothèse : Barème annuel de l'article 94 en vigueur de janvier à juin 2026 : première tranche jusqu'à 2 000 030,09 pesos, bornes suivantes à 2, 3, 4,5, 9, 13,5, 20,25 et 30,375 fois ce montant (35 % à partir de 60 750 913,96, comme dans la note). Bornes recalculées à partir de ce multiple ; à comparer au PDF officiel de l'ARCA.
 - Hypothèse : Aucune déduction personnelle, aucun abattement spécial salariés ni cotisations déduites : tout le salaire brut est la base imposable.
 
 ## Note
 
-Quatrième catégorie (salariés) : barème de 5 % à 35 %, le taux de 35 % commençant à 60,75 millions de pesos par an. À ce revenu, la quasi-totalité est taxée à 35 %. Estimation à partir de ce barème (tranches intermédiaires non reprises une à une) : de 31 % à 35 % quel que soit le change, très volatil. Source officielle (ARCA) non lue.
+Cours Yahoo EURARS=X du 13/11/2026 : 1 EUR = 1708.828 ARS (hypothèse initiale : 1850). Taux recalculé : 33,9 % (avant : 34 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Quatrième catégorie (salariés) : barème de 5 % à 35 %, le taux de 35 % commençant à 60,75 millions de pesos par an. À ce revenu, la quasi-totalité est taxée à 35 %. Estimation à partir de ce barème (tranches intermédiaires non reprises une à une) : de 31 % à 35 % quel que soit le change, très volatil. Source officielle (ARCA) non lue.
 
 ## Sources
 

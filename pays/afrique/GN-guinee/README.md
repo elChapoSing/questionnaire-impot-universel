@@ -1,6 +1,6 @@
 # Guinée (GN)
 
-**Taux effectif retenu : entre 33,0 et 34,5 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : entre 32,9 et 34,4 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : GNF. Cours supposé : 1 EUR = 12 100 GNF (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURGNF=X).
-- Salaire converti : 240 300 € × 12 100 = 2 907 630 000 GNF.
-- Base imposable : 2 907 630 000 GNF.
+- Devise : GNF. Cours utilisé : 1 EUR = 9 828 GNF (Yahoo Finance EURGNF=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 9 828 = 2 361 668 400 GNF.
+- Base imposable : 2 361 668 400 GNF.
 
 | De (GNF) | À (GNF) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -21,15 +21,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 15 000 000 | 20 000 000 | 15,00 % | 5 000 000 | 750 000 |
 | 20 000 000 | 50 000 000 | 20,00 % | 30 000 000 | 6 000 000 |
 | 50 000 000 | 100 000 000 | 25,00 % | 50 000 000 | 12 500 000 |
-| 100 000 000 | et plus | 35,00 % | 2 807 630 000 | 982 670 500 |
+| 100 000 000 | et plus | 35,00 % | 2 261 668 400 | 791 583 940 |
 
-- **Impôt total : 1 002 670 500 GNF, soit 34,5 % du salaire brut.**
+- **Impôt total : 811 583 940 GNF, soit 34,4 % du salaire brut.**
 - Hypothèse : Source unique non officielle (AfroTools).
 - Hypothèse : Variante de la note : cotisation CNSS salariale de 5 % déduite (non appliquée ici), environ 33 %.
 
 ## Note
 
-Source unique non officielle : ITS annuel à 7 tranches, taux maximal 35 % au-delà de 100 M GNF. Change (hypothèse) : 1 EUR = 12 100 GNF.
+Cours Yahoo EURGNF=X du 13/11/2026 : 1 EUR = 9828.0 GNF (hypothèse initiale : 12100). Taux recalculé : 34,4 % (avant : 34,5 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Source unique non officielle : ITS annuel à 7 tranches, taux maximal 35 % au-delà de 100 M GNF. Change (hypothèse) : 1 EUR = 12 100 GNF.
 
 ## Sources
 

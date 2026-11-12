@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : KHR. Cours supposé : 1 EUR = 4 500 KHR (hypothèse reprise de la note (fourchette 4 000 à 5 000 riels pour 1 € ; milieu retenu)).
-- Salaire converti : 240 300 € × 4 500 = 1 081 350 000 KHR.
-- Base imposable : 1 081 350 000 KHR.
+- Devise : KHR. Cours utilisé : 1 EUR = 4 571 KHR (Yahoo Finance EURKHR=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 4 571 = 1 098 411 300 KHR.
+- Base imposable : 1 098 411 300 KHR.
 
 | De (KHR) | À (KHR) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -19,15 +19,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 18 000 000 | 24 000 000 | 5,00 % | 6 000 000 | 300 000 |
 | 24 000 000 | 102 000 000 | 10,00 % | 78 000 000 | 7 800 000 |
 | 102 000 000 | 150 000 000 | 15,00 % | 48 000 000 | 7 200 000 |
-| 150 000 000 | et plus | 20,00 % | 931 350 000 | 186 270 000 |
+| 150 000 000 | et plus | 20,00 % | 948 411 300 | 189 682 260 |
 
-- **Impôt total : 201 570 000 KHR, soit 18,6 % du salaire brut.**
+- **Impôt total : 204 982 260 KHR, soit 18,7 % du salaire brut.**
 - Hypothèse : Barème mensuel (0 à 1,5 M ; 5 % jusqu'à 2 M ; 10 % jusqu'à 8,5 M ; 15 % jusqu'à 12,5 M ; 20 % au-delà) multiplié par 12 pour obtenir des tranches annuelles.
 - Hypothèse : Abattements pour conjoint et enfants exclus ; le résultat reste entre 18,5 et 18,8 % sur la fourchette de change.
 
 ## Note
 
-Barème mensuel de 0 à 20 % (20 % au-delà de 12,5 millions de riels). Taux de change supposé, sans source : le résultat reste entre 18,5 et 18,8 % de 4 000 à 5 000 riels par euro.
+Cours Yahoo EURKHR=X du 13/11/2026 : 1 EUR = 4571.0 KHR (hypothèse initiale : 4500). Taux recalculé : 18,7 % (avant : 18,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème mensuel de 0 à 20 % (20 % au-delà de 12,5 millions de riels). Taux de change supposé, sans source : le résultat reste entre 18,5 et 18,8 % de 4 000 à 5 000 riels par euro.
 
 ## Sources
 

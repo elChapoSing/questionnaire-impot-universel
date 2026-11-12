@@ -1,6 +1,6 @@
 # Saint-Martin (partie néerlandaise) (SX)
 
-**Taux effectif retenu : 41,2 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 41,0 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : XCG. Cours supposé : 1 EUR = 2,06 XCG (hypothèse reprise de la note : 1,79 XCG par USD, EUR/USD 1,15).
-- Salaire converti : 240 300 € × 2,06 = 495 018 XCG.
-- Base imposable : 495 018 XCG.
+- Devise : XCG. Cours utilisé : 1 EUR = 1,9978 XCG (Yahoo Finance EURXCG=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 1,9978 = 480 083 XCG.
+- Base imposable : 480 083 XCG.
 
 | De (XCG) | À (XCG) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -20,14 +20,14 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 54 864 | 76 200 | 26,25 % | 21 336 | 5 601 |
 | 76 200 | 114 297 | 33,75 % | 38 097 | 12 858 |
 | 114 297 | 161 540 | 40,00 % | 47 243 | 18 897 |
-| 161 540 | et plus | 47,50 % | 333 478 | 158 402 |
+| 161 540 | et plus | 47,50 % | 318 543 | 151 308 |
 
-- **Impôt total : 203 987 XCG, soit 41,2 % du salaire brut.**
+- **Impôt total : 196 893 XCG, soit 41,0 % du salaire brut.**
 - Hypothèse : Barème 2026 (Deloitte) avec surtaxe de 25 % déjà incluse dans les taux. Cotisations exclues.
 
 ## Note
 
-Barème 2026 en XCG, taux marginal maximal 47,5 % (surtaxe de 25 % incluse) au-delà de 161 540. Hypothèse change : 1 EUR = 2,06 XCG, soit environ 494 700 XCG. Cotisations exclues.
+Cours Yahoo EURXCG=X du 13/11/2026 : 1 EUR = 1.99784951 XCG (hypothèse initiale : 2.06). Taux recalculé : 41,0 % (avant : 41,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème 2026 en XCG, taux marginal maximal 47,5 % (surtaxe de 25 % incluse) au-delà de 161 540. Hypothèse change : 1 EUR = 2,06 XCG, soit environ 494 700 XCG. Cotisations exclues.
 
 ## Sources
 

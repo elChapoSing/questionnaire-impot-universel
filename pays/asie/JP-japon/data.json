@@ -1,8 +1,8 @@
 {
   "code": "JP",
   "nom": "Japon",
-  "rate": 35,
-  "note": "Impôt national et surtaxe de 2,1 % ; l'impôt local, non inclus, s'y ajoute.",
+  "rate": 34.5,
+  "note": "Cours Yahoo EURJPY=X du 13/11/2026 : 1 EUR = 176.9355 JPY (hypothèse initiale : 185). Taux recalculé : 34,5 % (avant : 35 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt national et surtaxe de 2,1 % ; l'impôt local, non inclus, s'y ajoute.",
   "sources": [
     {
       "titre": "Agence nationale des impôts (NTA), n° 2260",
@@ -12,8 +12,8 @@
   ],
   "calc": {
     "devise": "JPY",
-    "fx": 185,
-    "fx_source": "aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURJPY=X",
+    "fx": 176.9355,
+    "fx_source": "Yahoo Finance EURJPY=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,

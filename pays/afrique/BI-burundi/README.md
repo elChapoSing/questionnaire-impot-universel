@@ -9,24 +9,24 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : BIF. Cours supposé : 1 EUR = 3 400 BIF (hypothèse reprise de la note, à remplacer par le cours Yahoo EURBIF=X).
-- Salaire converti : 240 300 € × 3 400 = 817 020 000 BIF.
-- Base imposable : 817 020 000 BIF.
+- Devise : BIF. Cours utilisé : 1 EUR = 3 353,8 BIF (Yahoo Finance EURBIF=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 3 353,8 = 805 918 140 BIF.
+- Base imposable : 805 918 140 BIF.
 
 | De (BIF) | À (BIF) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 1 800 000 | 0,00 % | 1 800 000 | 0 |
 | 1 800 000 | 3 600 000 | 20,00 % | 1 800 000 | 360 000 |
-| 3 600 000 | et plus | 30,00 % | 813 420 000 | 244 026 000 |
+| 3 600 000 | et plus | 30,00 % | 802 318 140 | 240 695 442 |
 
-- **Impôt total : 244 386 000 BIF, soit 29,9 % du salaire brut.**
+- **Impôt total : 241 055 442 BIF, soit 29,9 % du salaire brut.**
 - Hypothèse : Barème officiel de l'OBR (loi n° 1/02 du 24 janvier 2013) : 0 % jusqu'à 150 000 BIF par mois, 20 % de 150 000 à 300 000, 30 % au-delà, soit 1,8 et 3,6 millions de BIF par an.
 - Hypothèse : Le barème à 25 % et 35 % d'un simulateur privé (AfroTools) n'est confirmé par aucune source officielle ; le taux maximal de 35 % est celui de l'ancien code de 1963, remplacé en 2013. La loi de finances 2026-2027 (loi n° 1/10 du 30 juin 2026) n'a pas modifié ce barème d'après la synthèse DLA Piper, sans certitude.
 - Hypothèse : Cotisation INSS (4 %, plafonnée) non déduite.
 
 ## Note
 
-Barème officiel de l'OBR (loi n° 1/02 de 2013) : 0 % jusqu'à 1,8 million de BIF par an, 20 % jusqu'à 3,6 millions, 30 % au-delà ; environ 29,9 % avec 1 EUR = 3 400 BIF (hypothèse). Le barème à 35 % d'un simulateur privé n'est pas confirmé. La synthèse DLA Piper de la loi de finances 2026-2027 ne signale pas de changement du barème.
+Cours Yahoo EURBIF=X du 13/11/2026 : 1 EUR = 3353.8 BIF (hypothèse initiale : 3400). Taux recalculé : 29,9 % (avant : 29,9 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème officiel de l'OBR (loi n° 1/02 de 2013) : 0 % jusqu'à 1,8 million de BIF par an, 20 % jusqu'à 3,6 millions, 30 % au-delà ; environ 29,9 % avec 1 EUR = 3 400 BIF (hypothèse). Le barème à 35 % d'un simulateur privé n'est pas confirmé. La synthèse DLA Piper de la loi de finances 2026-2027 ne signale pas de changement du barème.
 
 ## Sources
 

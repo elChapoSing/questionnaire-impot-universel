@@ -9,7 +9,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : MNT. Cours supposé : 1 EUR = 4 150 MNT (hypothèse reprise de la note (1 € = 4 150 MNT)).
+- Devise : MNT. Cours utilisé : 1 EUR = 4 150 MNT (hypothèse reprise de la note (1 € = 4 150 MNT)).
 - Salaire converti : 240 300 € × 4 150 = 997 245 000 MNT.
 - Base imposable : 997 245 000 MNT.
 

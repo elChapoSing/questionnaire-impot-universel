@@ -9,20 +9,20 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : HUF. Cours supposé : 1 EUR = 390 HUF (la note ne donne pas de cours : hypothèse de 390 HUF pour 1 EUR, à remplacer par le cours Yahoo EURHUF=X ; sans effet avec un taux unique).
-- Salaire converti : 240 300 € × 390 = 93 717 000 HUF.
-- Base imposable : 93 717 000 HUF.
+- Devise : HUF. Cours utilisé : 1 EUR = 365,581 HUF (Yahoo Finance EURHUF=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 365,581 = 87 849 114 HUF.
+- Base imposable : 87 849 114 HUF.
 
 | De (HUF) | À (HUF) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 15,00 % | 93 717 000 | 14 057 550 |
+| 0 | et plus | 15,00 % | 87 849 114 | 13 177 367 |
 
-- **Impôt total : 14 057 550 HUF, soit 15,0 % du salaire brut.**
+- **Impôt total : 13 177 367 HUF, soit 15,0 % du salaire brut.**
 - Hypothèse : Taux unique de 15 %, hors contribution sociale distincte.
 
 ## Note
 
-Taux de 15 %, hors contribution sociale distincte.
+Cours Yahoo EURHUF=X du 13/11/2026 : 1 EUR = 365.581 HUF (hypothèse initiale : 390). Taux recalculé : 15,0 % (avant : 15 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux de 15 %, hors contribution sociale distincte.
 
 ## Sources
 

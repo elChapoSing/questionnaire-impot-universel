@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : TND. Cours supposé : 1 EUR = 3,4 TND (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURTND=X).
-- Salaire converti : 240 300 € × 3,4 = 817 020 TND.
-- Base imposable : 817 020 TND.
+- Devise : TND. Cours utilisé : 1 EUR = 3,3389 TND (Yahoo Finance EURTND=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 3,3389 = 802 338 TND.
+- Base imposable : 802 338 TND.
 
 | De (TND) | À (TND) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -22,15 +22,15 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 30 000 | 40 000 | 33,00 % | 10 000 | 3 300 |
 | 40 000 | 50 000 | 36,00 % | 10 000 | 3 600 |
 | 50 000 | 70 000 | 38,00 % | 20 000 | 7 600 |
-| 70 000 | et plus | 40,00 % | 747 020 | 298 808 |
+| 70 000 | et plus | 40,00 % | 732 338 | 292 935 |
 
-- **Impôt total : 319 558 TND, soit 39,1 % du salaire brut.**
+- **Impôt total : 313 685 TND, soit 39,1 % du salaire brut.**
 - Hypothèse : Barème IRPP 2025 ; modifications éventuelles de la loi de finances 2026 non vérifiées.
 - Hypothèse : Déductions familiales, abattement de frais et contribution de solidarité ignorés.
 
 ## Note
 
-Barème IRPP 2025 à taux maximal 40 % au-delà de 70 000 TND ; déductions familiales, abattement de frais et contribution de solidarité ignorés ; éventuelles modifications de la loi de finances 2026 non vérifiées. Change (hypothèse) : 1 EUR = 3,4 TND.
+Cours Yahoo EURTND=X du 13/11/2026 : 1 EUR = 3.3389 TND (hypothèse initiale : 3.4). Taux recalculé : 39,1 % (avant : 39,1 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème IRPP 2025 à taux maximal 40 % au-delà de 70 000 TND ; déductions familiales, abattement de frais et contribution de solidarité ignorés ; éventuelles modifications de la loi de finances 2026 non vérifiées. Change (hypothèse) : 1 EUR = 3,4 TND.
 
 ## Sources
 

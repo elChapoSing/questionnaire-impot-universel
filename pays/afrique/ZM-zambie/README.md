@@ -1,6 +1,6 @@
 # Zambie (ZM)
 
-**Taux effectif retenu : 37,1 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 37,0 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
 
 ## Cas de référence
@@ -9,23 +9,23 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : ZMW. Cours supposé : 1 EUR = 27 ZMW (hypothèse reprise de la note, à remplacer par le cours Yahoo EUREURZMW=X).
-- Salaire converti : 240 300 € × 27 = 6 488 100 ZMW.
-- Base imposable : 6 488 100 ZMW.
+- Devise : ZMW. Cours utilisé : 1 EUR = 22,656 ZMW (Yahoo Finance EURZMW=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 22,656 = 5 444 237 ZMW.
+- Base imposable : 5 444 237 ZMW.
 
 | De (ZMW) | À (ZMW) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
 | 0 | 61 200 | 0,00 % | 61 200 | 0 |
 | 61 200 | 85 200 | 25,00 % | 24 000 | 6 000 |
 | 85 200 | 118 800 | 30,00 % | 33 600 | 10 080 |
-| 118 800 | et plus | 37,50 % | 6 369 300 | 2 388 488 |
+| 118 800 | et plus | 37,50 % | 5 325 437 | 1 997 039 |
 
-- **Impôt total : 2 404 568 ZMW, soit 37,1 % du salaire brut.**
+- **Impôt total : 2 013 119 ZMW, soit 37,0 % du salaire brut.**
 - Hypothèse : PAYE 2026 mensuel (MJ Consultants) multiplié par 12.
 
 ## Note
 
-PAYE 2026 : taux maximal 37,5 % au-delà de 9 900 ZMW/mois. Change (hypothèse) : 1 EUR = 27 ZMW.
+Cours Yahoo EURZMW=X du 13/11/2026 : 1 EUR = 22.656 ZMW (hypothèse initiale : 27). Taux recalculé : 37,0 % (avant : 37,1 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. PAYE 2026 : taux maximal 37,5 % au-delà de 9 900 ZMW/mois. Change (hypothèse) : 1 EUR = 27 ZMW.
 
 ## Sources
 

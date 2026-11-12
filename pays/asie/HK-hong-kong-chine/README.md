@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : HKD. Cours supposé : 1 EUR = 8,9 HKD (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURHKD=X).
-- Salaire converti : 240 300 € × 8,9 = 2 138 670 HKD.
-- Base imposable : 2 138 670 HKD.
+- Devise : HKD. Cours utilisé : 1 EUR = 8,6798 HKD (Yahoo Finance EURHKD=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 8,6798 = 2 085 748 HKD.
+- Base imposable : 2 085 748 HKD.
 
 | De (HKD) | À (HKD) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 15,00 % | 2 138 670 | 320 800 |
+| 0 | et plus | 15,00 % | 2 085 748 | 312 862 |
 
-- **Impôt total : 320 800 HKD, soit 15,0 % du salaire brut.**
+- **Impôt total : 312 862 HKD, soit 15,0 % du salaire brut.**
 - Hypothèse : Taux « standard » de 15 % appliqué à tout le revenu net imposable, car il est inférieur au barème progressif (2 à 17 %) à ce niveau de revenu.
 - Hypothèse : Cotisations MPF et abattements personnels exclus ; le taux ne dépend pas du change.
 
 ## Note
 
-Impôt sur les salaires plafonné au taux « standard » de 15 %.
+Cours Yahoo EURHKD=X du 13/11/2026 : 1 EUR = 8.679765 HKD (hypothèse initiale : 8.9). Taux recalculé : 15,0 % (avant : 15 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Impôt sur les salaires plafonné au taux « standard » de 15 %.
 
 ## Sources
 

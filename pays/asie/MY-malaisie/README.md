@@ -1,6 +1,6 @@
 # Malaisie (MY)
 
-**Taux effectif retenu : 25,2 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
+**Taux effectif retenu : 25,0 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
 **Verdict du questionnaire : Discutable.**
 
 ## Cas de référence
@@ -9,9 +9,9 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : MYR. Cours supposé : 1 EUR = 4,8 MYR (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURMYR=X).
-- Salaire converti : 240 300 € × 4,8 = 1 153 440 MYR.
-- Base imposable : 1 153 440 MYR.
+- Devise : MYR. Cours utilisé : 1 EUR = 4,524 MYR (Yahoo Finance EURMYR=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 4,524 = 1 087 117 MYR.
+- Base imposable : 1 087 117 MYR.
 
 | De (MYR) | À (MYR) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
@@ -23,16 +23,16 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 | 70 000 | 100 000 | 19,00 % | 30 000 | 5 700 |
 | 100 000 | 400 000 | 25,00 % | 300 000 | 75 000 |
 | 400 000 | 600 000 | 26,00 % | 200 000 | 52 000 |
-| 600 000 | 2 000 000 | 28,00 % | 553 440 | 154 963 |
+| 600 000 | 2 000 000 | 28,00 % | 487 117 | 136 393 |
 | 2 000 000 | et plus | 30,00 % | 0 | 0 |
 
-- **Impôt total : 291 363 MYR, soit 25,3 % du salaire brut.**
+- **Impôt total : 272 793 MYR, soit 25,1 % du salaire brut.**
 - Hypothèse : Barème des résidents ; 30 % au-delà de 2 millions de ringgit.
 - Hypothèse : Abattement personnel de 9 000 ringgit et autres déductions exclus.
 
 ## Note
 
-Barème progressif jusqu'à 30 % au-delà de 2 millions de ringgit.
+Cours Yahoo EURMYR=X du 13/11/2026 : 1 EUR = 4.524 MYR (hypothèse initiale : 4.8). Taux recalculé : 25,0 % (avant : 25,2 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Barème progressif jusqu'à 30 % au-delà de 2 millions de ringgit.
 
 ## Sources
 

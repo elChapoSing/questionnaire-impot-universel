@@ -9,21 +9,21 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Calcul
 
-- Devise : TMT. Cours supposé : 1 EUR = 4 TMT (aucun cours dans la note ; valeur raisonnable retenue, à remplacer par le cours Yahoo EURTMT=X).
-- Salaire converti : 240 300 € × 4 = 961 200 TMT.
-- Base imposable : 961 200 TMT.
+- Devise : TMT. Cours utilisé : 1 EUR = 3,8726 TMT (Yahoo Finance EURTMT=X, cours vérifié fourni le 13/11/2026).
+- Salaire converti : 240 300 € × 3,8726 = 930 592 TMT.
+- Base imposable : 930 592 TMT.
 
 | De (TMT) | À (TMT) | Taux | Part imposée | Impôt |
 |---:|---:|---:|---:|---:|
-| 0 | et plus | 10,00 % | 961 200 | 96 120 |
+| 0 | et plus | 10,00 % | 930 592 | 93 059 |
 
-- **Impôt total : 96 120 TMT, soit 10,0 % du salaire brut.**
+- **Impôt total : 93 059 TMT, soit 10,0 % du salaire brut.**
 - Hypothèse : Taux général de 10 % sur les revenus du travail.
 - Hypothèse : Le taux ne dépend pas du change.
 
 ## Note
 
-Taux général de 10 % applicable aux revenus du travail. Données PwC revues en 2024.
+Cours Yahoo EURTMT=X du 13/11/2026 : 1 EUR = 3.8726275 TMT (hypothèse initiale : 4). Taux recalculé : 10,0 % (avant : 10 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Taux général de 10 % applicable aux revenus du travail. Données PwC revues en 2024.
 
 ## Sources
 

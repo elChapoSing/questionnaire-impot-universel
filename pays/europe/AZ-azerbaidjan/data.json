@@ -1,12 +1,12 @@
 {
   "code": "AZ",
   "nom": "Azerbaïdjan",
-  "rate": 12.7,
+  "rate": 12.6,
   "range": [
-    12.7,
-    24.3
+    12.6,
+    24.2
   ],
-  "note": "Hypothèse : 1 EUR = 1,97 AZN. Barème général 2026 (secteur privé non pétrolier) : 3 % jusqu'à 2 500 AZN/mois, 10 % jusqu'à 8 000, 14 % au-delà. Si secteur pétrole/gaz ou public : 14 % puis 25 % au-delà de 2 500, soit environ 24,3 %. Sources partiellement divergentes sur les tranches hautes.",
+  "note": "Cours Yahoo EURAZN=X du 13/11/2026 : 1 EUR = 1.8832 AZN (hypothèse initiale : 1.97). Taux recalculé : 12,6 % (avant : 12,7 %). Les chiffres de change et de taux cités plus bas datent de l'hypothèse initiale. Hypothèse : 1 EUR = 1,97 AZN. Barème général 2026 (secteur privé non pétrolier) : 3 % jusqu'à 2 500 AZN/mois, 10 % jusqu'à 8 000, 14 % au-delà. Si secteur pétrole/gaz ou public : 14 % puis 25 % au-delà de 2 500, soit environ 24,3 %. Sources partiellement divergentes sur les tranches hautes.",
   "sources": [
     {
       "titre": "PwC Tax Summaries - Azerbaïdjan",
@@ -21,8 +21,8 @@
   ],
   "calc": {
     "devise": "AZN",
-    "fx": 1.97,
-    "fx_source": "hypothèse reprise de la note, à remplacer par le cours Yahoo EURAZN=X",
+    "fx": 1.8832,
+    "fx_source": "Yahoo Finance EURAZN=X, cours vérifié fourni le 13/11/2026",
     "tranches": [
       [
         0,
