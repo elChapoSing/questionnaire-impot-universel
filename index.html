@@ -213,6 +213,13 @@ h1, h2 { }
   .recap li { flex-direction: column; align-items: flex-start; gap: 8px; }
 }
 .cb-srcs{margin:.2rem 0 .4rem;padding-left:1.1rem;font-size:.92em}.cb-srcs li{margin:.15rem 0}.cb-srcs-title{font-weight:600;margin-bottom:0}
+.float-back{position:fixed;right:18px;bottom:18px;z-index:50;box-shadow:0 6px 20px rgba(0,0,0,.28);border-radius:999px;padding:12px 20px}
+.cont-title{margin:1.6rem 0 .5rem;scroll-margin-top:12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:.4rem 0 .6rem}
+.chip{font:inherit;font-size:.9em;padding:6px 12px;border-radius:999px;border:1.5px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
+.chip:hover{border-color:var(--accent)}
+@media (max-width:560px){.float-back{left:14px;right:14px;bottom:14px;text-align:center}}
+.meth{padding-bottom:84px}
 </style>
 </head>
 <body>
@@ -568,7 +575,8 @@ function renderMethodology() {
 }
 function renderMethodologyNow() {
   var codes = Object.keys(COUNTRY_DATA).sort(function (a, b) { return COUNTRY_DATA[a].rate - COUNTRY_DATA[b].rate; });
-  var rows = codes.map(function (c) {
+  var CONTINENTS = [["europe", "Europe"], ["afrique", "Afrique"], ["asie", "Asie et Moyen-Orient"], ["amerique-du-nord", "Amérique du Nord, centrale et Caraïbes"], ["amerique-du-sud", "Amérique du Sud"], ["oceanie", "Océanie"]];
+  function rowFor(c) {
     var d = COUNTRY_DATA[c];
     var lvl = countryLevel(c);
     var srcs = el("td", {}, d.src.map(function (x) {
@@ -585,12 +593,23 @@ function renderMethodologyNow() {
       el("td", { text: d.note }),
       srcs
     ]);
+  }
+  var groups = [], jump = [];
+  CONTINENTS.forEach(function (ct) {
+    var list = codes.filter(function (c) { return COUNTRY_DATA[c].dir && COUNTRY_DATA[c].dir.split("/")[0] === ct[0]; });
+    if (!list.length) return;
+    var title = el("h4", { class: "cont-title", id: "cont-" + ct[0], text: ct[1] + " (" + list.length + " pays)" });
+    var chip = el("button", { class: "chip", type: "button", text: ct[1] });
+    chip.addEventListener("click", function () { title.scrollIntoView({ behavior: "smooth", block: "start" }); });
+    jump.push(chip);
+    groups.push(title);
+    groups.push(el("div", { class: "tbl" }, [el("table", {}, [
+      el("thead", {}, [el("tr", {}, ["Pays", "Taux estimé", "Niveau", "Remarque", "Sources"].map(function (h) { return el("th", { text: h }); }))]),
+      el("tbody", {}, list.map(rowFor))
+    ])]));
   });
-  var table = el("div", { class: "tbl" }, [el("table", {}, [
-    el("thead", {}, [el("tr", {}, ["Pays", "Taux estimé", "Niveau", "Remarque", "Sources"].map(function (h) { return el("th", { text: h }); }))]),
-    el("tbody", {}, rows)
-  ])]);
-  var back = el("button", { class: "btn ghost", type: "button" }, [el("span", { text: "Retour au questionnaire" })]);
+  var table = el("div", { class: "cont-groups" }, [el("div", { class: "chips", "aria-label": "Aller à un continent" }, jump)].concat(groups));
+  var back = el("button", { class: "btn float-back", type: "button" }, [el("span", { text: "← Retour au questionnaire" })]);
   back.addEventListener("click", function () { history.replaceState(null, "", location.pathname); answers = []; renderStart(); });
 
   showScreen(el("section", { class: "screen meth" }, [
