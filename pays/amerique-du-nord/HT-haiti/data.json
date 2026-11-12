@@ -1,0 +1,22 @@
+{
+  "code": "HT",
+  "nom": "Haïti",
+  "rate": 29.5,
+  "range": [
+    29.3,
+    29.7
+  ],
+  "note": "Barème à 5 tranches, taux marginal maximal 30 %. Deux versions : barème actuel (seuil 120 000 HTG, environ 29,7 %) et nouveau barème validé par le ministère pour application au 1er octobre 2026 (environ 29,3 %). Hypothèse change : 1 EUR = 150 HTG, peu sensible.",
+  "sources": [
+    {
+      "titre": "Rivermate - Haïti, taxes",
+      "url": "https://rivermate.com/guides/haiti/taxes",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Ministère de l'Économie et des Finances (Haïti) - nouveau barème IRPP",
+      "url": "https://www.mef.gouv.ht/storage/app/uploads/public/6a6/cc3/3dc/6a6cc33dcbf11650887297.pdf",
+      "type": "officielle"
+    }
+  ]
+}

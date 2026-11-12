@@ -1,0 +1,17 @@
+{
+  "code": "FK",
+  "nom": "Îles Malouines",
+  "rate": 25.7,
+  "range": [
+    23.7,
+    25.7
+  ],
+  "note": "21 % sur les 12 000 premières GBP puis 26 %. Abattement de 15 960 GBP non appliqué (variante : environ 23,7 %). Hypothèse change : 1 EUR = 0,87 GBP, soit environ 209 100 GBP. Peu sensible au change.",
+  "sources": [
+    {
+      "titre": "Falkland Islands Government Taxation Office - guide 2024 et suivants",
+      "url": "https://falklands.gov.fk/taxation/images/General_Tax_Guide_Individuals_2024_onwards.pdf",
+      "type": "officielle"
+    }
+  ]
+}

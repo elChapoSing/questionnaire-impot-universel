@@ -1,0 +1,22 @@
+{
+  "code": "BZ",
+  "nom": "Belize",
+  "rate": 25,
+  "range": [
+    23.7,
+    25
+  ],
+  "note": "Taux unique de 25 % sur le revenu d'emploi de source bélizienne ; seuil d'exonération de 29 000 BZD depuis 2025. Taux retenu sans abattement ; avec déduction standard d'environ 20 000 BZD : environ 24,1 %. Hypothèse change : 1 EUR = 2,30 BZD (parité fixe 2 pour 1 USD).",
+  "sources": [
+    {
+      "titre": "The Reporter - seuil d'imposition relevé à 29 000",
+      "url": "https://www.thereporter.bz/post/income-tax-threshold-raised-wider-relief-for-middle-class-workers",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Rio Times - Belize taxes expats 2026",
+      "url": "https://www.riotimesonline.com/taxes-belize-expats-2026/",
+      "type": "non officielle"
+    }
+  ]
+}

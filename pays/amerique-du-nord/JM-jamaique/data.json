@@ -1,0 +1,17 @@
+{
+  "code": "JM",
+  "nom": "Jamaïque",
+  "rate": 29.3,
+  "range": [
+    28,
+    29.3
+  ],
+  "note": "25 % jusqu'à 6 M JMD puis 30 % (résidents). Seuil annuel exonéré d'environ 1,9 M JMD non appliqué (variante : environ 28,0 %). Hypothèse change : 1 EUR = 182 JMD (158 par USD), soit environ 43,7 M JMD. Cotisations NIS, NHT et taxe d'éducation exclues.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Jamaica, taxes on personal income",
+      "url": "https://taxsummaries.pwc.com/jamaica/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

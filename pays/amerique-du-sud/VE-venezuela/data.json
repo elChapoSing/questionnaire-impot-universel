@@ -1,0 +1,17 @@
+{
+  "code": "VE",
+  "nom": "Venezuela",
+  "rate": 34,
+  "range": [
+    33.5,
+    34
+  ],
+  "note": "Tarif n°1 de l'ISLR : 8 tranches de 6 % à 34 % ; à ce niveau de revenu l'effet du tarif est quasi égal au taux maximal. Desgravamen unique de 774 UT et rabais personnels non appliqués. Change bolivar/EUR incertain, mais taux peu sensible. Source non officielle.",
+  "sources": [
+    {
+      "titre": "HaceCuentas - ISLR et tributs SENIAT Venezuela",
+      "url": "https://hacecuentas.com/ve/impuestos/islr-y-tributos-seniat",
+      "type": "non officielle"
+    }
+  ]
+}

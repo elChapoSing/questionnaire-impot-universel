@@ -13,12 +13,11 @@ _Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci
 
 ## Note
 
-Pas d'impôt sur le revenu des personnes physiques. Sources secondaires uniquement.
+Aucun impôt sur le revenu des particuliers, ni cotisations ni taxe salariale selon la source.
 
 ## Sources
 
-- [Foyer Global Health, pays sans impôt](https://www.foyerglobalhealth.com/?p=27958) (non officielle)
-- [Bestaxca, pays sans impôt sur le revenu](https://bestaxca.com/?p=24777) (non officielle)
+- [Deloitte - Îles Caïmans tax highlights 2026](https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-caymanislandshighlights-2026.pdf) (non officielle)
 
 ## Corriger ou vérifier
 

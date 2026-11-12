@@ -132,33 +132,61 @@ Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul t
 | [Yémen](asie/YE-yemen/README.md) | 15,0 % | Nettement en dessous du seuil | non |
 | [Émirats arabes unis](asie/AE-emirats-arabes-unis/README.md) | 0,0 % | Nettement en dessous du seuil | non |
 
-## Amérique du Nord, centrale et Caraïbes (10)
+## Amérique du Nord, centrale et Caraïbes (33)
 
 | Pays | Taux | Verdict | Calcul détaillé |
 |---|---:|---|---|
+| [Anguilla](amerique-du-nord/AI-anguilla/README.md) | 0,0 % | Nettement en dessous du seuil | non |
+| [Antigua-et-Barbuda](amerique-du-nord/AG-antigua-et-barbuda/README.md) | 0,0 % | Nettement en dessous du seuil | non |
+| [Aruba](amerique-du-nord/AW-aruba/README.md) | 45,1 % | Nettement au-dessus du seuil | non |
 | [Bahamas](amerique-du-nord/BS-bahamas/README.md) | 0,0 % | Nettement en dessous du seuil | non |
+| [Barbade](amerique-du-nord/BB-barbade/README.md) | 24,8 % | Discutable | non |
+| [Belize](amerique-du-nord/BZ-belize/README.md) | 25,0 % | Discutable | non |
+| [Bermudes](amerique-du-nord/BM-bermudes/README.md) | 0,0 % | Nettement en dessous du seuil | non |
 | [Canada](amerique-du-nord/CA-canada/README.md) | 36,0 % | Nettement au-dessus du seuil | non |
 | [Costa Rica](amerique-du-nord/CR-costa-rica/README.md) | 20,4 % | Discutable | non |
+| [Curaçao](amerique-du-nord/CW-curacao/README.md) | 39,5 % | Nettement au-dessus du seuil | non |
+| [Dominique](amerique-du-nord/DM-dominique/README.md) | 32,7 % | Nettement au-dessus du seuil | non |
+| [Grenade](amerique-du-nord/GD-grenade/README.md) | 27,4 % | Nettement au-dessus du seuil | non |
 | [Groenland](amerique-du-nord/GL-groenland/README.md) | 43,0 % | Nettement au-dessus du seuil | non |
 | [Guatemala](amerique-du-nord/GT-guatemala/README.md) | 6,7 % | Nettement en dessous du seuil | non |
+| [Haïti](amerique-du-nord/HT-haiti/README.md) | 29,5 % | Nettement au-dessus du seuil | non |
+| [Honduras](amerique-du-nord/HN-honduras/README.md) | 23,7 % | Discutable | non |
+| [Jamaïque](amerique-du-nord/JM-jamaique/README.md) | 29,3 % | Nettement au-dessus du seuil | non |
 | [Mexique](amerique-du-nord/MX-mexique/README.md) | 31,6 % | Nettement au-dessus du seuil | non |
+| [Montserrat](amerique-du-nord/MS-montserrat/README.md) | 36,8 % | Nettement au-dessus du seuil | non |
+| [Nicaragua](amerique-du-nord/NI-nicaragua/README.md) | 29,3 % | Nettement au-dessus du seuil | non |
 | [Panama](amerique-du-nord/PA-panama/README.md) | 22,5 % | Discutable | non |
+| [Pays-Bas caribéens](amerique-du-nord/BQ-pays-bas-caribeens/README.md) | 36,7 % | Nettement au-dessus du seuil | non |
+| [Porto Rico](amerique-du-nord/PR-porto-rico/README.md) | 28,7 % | Nettement au-dessus du seuil | non |
 | [République dominicaine](amerique-du-nord/DO-republique-dominicaine/README.md) | 24,1 % | Discutable | non |
+| [Saint-Christophe-et-Niévès](amerique-du-nord/KN-saint-christophe-et-nieves/README.md) | 0,0 % | Nettement en dessous du seuil | non |
+| [Saint-Martin (partie néerlandaise)](amerique-du-nord/SX-saint-martin-partie-neerlandaise/README.md) | 41,2 % | Nettement au-dessus du seuil | non |
+| [Sainte-Lucie](amerique-du-nord/LC-sainte-lucie/README.md) | 29,5 % | Nettement au-dessus du seuil | non |
+| [Salvador](amerique-du-nord/SV-salvador/README.md) | 28,6 % | Nettement au-dessus du seuil | non |
+| [Trinité-et-Tobago](amerique-du-nord/TT-trinite-et-tobago/README.md) | 27,3 % | Nettement au-dessus du seuil | non |
 | [États-Unis](amerique-du-nord/US-etats-unis/README.md) | 23,3 % | Discutable | non |
 | [Îles Caïmans](amerique-du-nord/KY-iles-caimans/README.md) | 0,0 % | Nettement en dessous du seuil | non |
+| [Îles Turques-et-Caïques](amerique-du-nord/TC-iles-turques-et-caiques/README.md) | 0,0 % | Nettement en dessous du seuil | non |
+| [Îles Vierges britanniques](amerique-du-nord/VG-iles-vierges-britanniques/README.md) | 0,0 % | Nettement en dessous du seuil | non |
 
-## Amérique du Sud (8)
+## Amérique du Sud (13)
 
 | Pays | Taux | Verdict | Calcul détaillé |
 |---|---:|---|---|
 | [Argentine](amerique-du-sud/AR-argentine/README.md) | 34,0 % | Nettement au-dessus du seuil | non |
+| [Bolivie](amerique-du-sud/BO-bolivie/README.md) | 13,0 % | Nettement en dessous du seuil | non |
 | [Brésil](amerique-du-sud/BR-bresil/README.md) | 26,7 % | Nettement au-dessus du seuil | non |
 | [Chili](amerique-du-sud/CL-chili/README.md) | 27,4 % | Nettement au-dessus du seuil | non |
 | [Colombie](amerique-du-sud/CO-colombie/README.md) | 31,5 % | Nettement au-dessus du seuil | non |
+| [Guyana](amerique-du-sud/GY-guyana/README.md) | 34,4 % | Nettement au-dessus du seuil | non |
 | [Paraguay](amerique-du-sud/PY-paraguay/README.md) | 9,9 % | Nettement en dessous du seuil | non |
 | [Pérou](amerique-du-sud/PE-perou/README.md) | 25,8 % | Discutable | non |
+| [Suriname](amerique-du-sud/SR-suriname/README.md) | 37,4 % | Nettement au-dessus du seuil | non |
 | [Uruguay](amerique-du-sud/UY-uruguay/README.md) | 26,0 % | Discutable | non |
+| [Venezuela](amerique-du-sud/VE-venezuela/README.md) | 34,0 % | Nettement au-dessus du seuil | non |
 | [Équateur](amerique-du-sud/EC-equateur/README.md) | 31,0 % | Nettement au-dessus du seuil | non |
+| [Îles Malouines](amerique-du-sud/FK-iles-malouines/README.md) | 25,7 % | Discutable | non |
 
 ## Océanie (9)
 

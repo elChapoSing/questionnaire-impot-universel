@@ -1,0 +1,22 @@
+{
+  "code": "GY",
+  "nom": "Guyana",
+  "rate": 34.4,
+  "range": [
+    22.7,
+    34.4
+  ],
+  "note": "25 % jusqu'à 3 360 000 GYD puis 35 % (2026). Abattement personnel (tiers du revenu ou 1 680 000) non appliqué ; avec ce tiers déduit, environ 22,7 %. Hypothèse change : 1 EUR = 240 GYD (209 par USD), soit environ 57,8 M GYD. Cas sensible à l'abattement.",
+  "sources": [
+    {
+      "titre": "Guyana Revenue Authority - barème et abattements 2026",
+      "url": "https://www.gra.gov.gy/?p=16434",
+      "type": "officielle"
+    },
+    {
+      "titre": "PwC Tax Summaries - Guyana",
+      "url": "https://taxsummaries.pwc.com/guyana/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

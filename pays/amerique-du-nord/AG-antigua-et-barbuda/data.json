@@ -1,0 +1,18 @@
+{
+  "code": "AG",
+  "nom": "Antigua-et-Barbuda",
+  "rate": 0,
+  "note": "Impôt sur le revenu des particuliers supprimé en 2016 ; reste seulement un impôt sur les activités non constituées en société, non applicable à un salarié. Cotisations sociales exclues.",
+  "sources": [
+    {
+      "titre": "Deloitte - Antigua-et-Barbuda tax highlights 2026",
+      "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-antiguaandbarbudahighlights-2026.pdf",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Caribjournal - Antigua abolit l'impôt sur le revenu",
+      "url": "https://www.caribjournal.com/2016/01/21/antigua-and-barbuda-is-abolishing-its-personal-income-tax/",
+      "type": "non officielle"
+    }
+  ]
+}

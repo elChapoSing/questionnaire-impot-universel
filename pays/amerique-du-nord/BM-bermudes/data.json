@@ -1,0 +1,13 @@
+{
+  "code": "BM",
+  "nom": "Bermudes",
+  "rate": 0,
+  "note": "Pas d'impôt sur le revenu des personnes physiques ; une taxe sur la masse salariale (payroll tax) existe, assimilée à une charge salariale et non comptée ici.",
+  "sources": [
+    {
+      "titre": "Appleby - Bloomberg Tax Country Guide Bermuda",
+      "url": "https://www.applebyglobal.com/publications/bloomberg-tax-country-guide-bermuda/",
+      "type": "non officielle"
+    }
+  ]
+}

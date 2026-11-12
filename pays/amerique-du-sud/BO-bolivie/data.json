@@ -1,0 +1,17 @@
+{
+  "code": "BO",
+  "nom": "Bolivie",
+  "rate": 13,
+  "range": [
+    11.3,
+    13
+  ],
+  "note": "RC-IVA au taux unique de 13 % sur les salaires, assiette nette des cotisations sociales et crédit de TVA sur factures possible (variante : environ 11,3 %). Seuls les revenus de source bolivienne sont imposés.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Bolivia, taxes on personal income",
+      "url": "https://taxsummaries.pwc.com/bolivia/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

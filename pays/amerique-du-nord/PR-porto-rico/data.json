@@ -1,0 +1,18 @@
+{
+  "code": "PR",
+  "nom": "Porto Rico",
+  "rate": 28.7,
+  "note": "Barème actuel de Porto Rico : 0 % jusqu'à 9 000 USD, 7 %, 14 %, 25 % puis 33 % au-delà de 61 500. Hypothèse change : 1 EUR = 1,15 USD, soit environ 276 300 USD. Réforme en discussion (taux de 33 % limité aux revenus supérieurs à 150 000), non votée : taux possiblement plus bas.",
+  "sources": [
+    {
+      "titre": "Deloitte - Puerto Rico tax highlights 2026",
+      "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-puertoricohighlights-2026.pdf",
+      "type": "non officielle"
+    },
+    {
+      "titre": "San Juan Daily Star - réforme fiscale phase 2",
+      "url": "https://www.sanjuandailystar.com/post/governor-submits-2nd-phase-of-tax-reform-to-legislature",
+      "type": "non officielle"
+    }
+  ]
+}

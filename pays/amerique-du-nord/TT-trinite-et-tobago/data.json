@@ -1,0 +1,22 @@
+{
+  "code": "TT",
+  "nom": "Trinité-et-Tobago",
+  "rate": 27.3,
+  "range": [
+    25.9,
+    27.3
+  ],
+  "note": "25 % jusqu'à 1 M TTD puis 30 %. Abattement personnel de 90 000 TTD non appliqué (variante : environ 25,9 à 26,1 %). Hypothèse change : 1 EUR = 7,8 TTD (6,79 par USD), soit environ 1,88 M TTD. Cas proche de la bande selon l'abattement.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Trinidad and Tobago",
+      "url": "https://taxsummaries.pwc.com/trinidad-and-tobago/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Rio Times - Trinidad et Tobago taxes 2026",
+      "url": "https://www.riotimesonline.com/taxes-trinidad-tobago-expats-2026/",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "code": "GD",
+  "nom": "Grenade",
+  "rate": 27.4,
+  "range": [
+    26.1,
+    27.4
+  ],
+  "note": "10 % jusqu'à 24 000 XCD puis 28 % ; abattement personnel de 36 000 non appliqué (variante avec abattement : environ 26,1 %). Hypothèse change : 1 EUR = 3,105 XCD, soit environ 746 100 XCD. Cas proche de la bande selon l'abattement.",
+  "sources": [
+    {
+      "titre": "Deloitte - Grenada tax highlights 2026",
+      "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-grenadahighlights-2026.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

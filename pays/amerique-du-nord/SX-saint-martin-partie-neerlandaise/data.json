@@ -1,0 +1,13 @@
+{
+  "code": "SX",
+  "nom": "Saint-Martin (partie néerlandaise)",
+  "rate": 41.2,
+  "note": "Barème 2026 en XCG, taux marginal maximal 47,5 % (surtaxe de 25 % incluse) au-delà de 161 540. Hypothèse change : 1 EUR = 2,06 XCG, soit environ 494 700 XCG. Cotisations exclues.",
+  "sources": [
+    {
+      "titre": "Deloitte - Sint Maarten tax highlights 2026",
+      "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-sintmaartenhighlights-2026.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

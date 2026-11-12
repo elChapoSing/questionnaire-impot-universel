@@ -13,12 +13,11 @@ _Calcul tranche par tranche pas encore détaillé pour ce pays._ Le résultat ci
 
 ## Note
 
-Pas d'impôt sur le revenu des personnes physiques. Sources secondaires uniquement.
+Aucun impôt sur le revenu des particuliers ; seule une cotisation d'assurance nationale s'applique (non comptée).
 
 ## Sources
 
-- [Bestaxca, pays sans impôt sur le revenu](https://bestaxca.com/?p=24777) (non officielle)
-- [Libertymundo, pays sans impôt sur le revenu](https://www.libertymundo.com/tax-free-countries-2/) (non officielle)
+- [Deloitte - Bahamas tax highlights 2026](https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-bahamashighlights-2026.pdf) (non officielle)
 
 ## Corriger ou vérifier
 

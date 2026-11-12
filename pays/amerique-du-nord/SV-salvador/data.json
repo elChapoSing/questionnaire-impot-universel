@@ -1,0 +1,17 @@
+{
+  "code": "SV",
+  "nom": "Salvador",
+  "rate": 28.6,
+  "range": [
+    28.6,
+    28.7
+  ],
+  "note": "Tableau de retenue (décret de 2025) : exonération de 550 USD par mois, puis 10 %, 20 % et 30 % au-delà de 2 038 USD mensuels avec montants fixes. Calcul annualisé. Hypothèse change : 1 EUR = 1,15 USD, soit environ 276 300 USD (économie dollarisée).",
+  "sources": [
+    {
+      "titre": "El Mundo - nouveau montant exonéré et tables de retenue",
+      "url": "https://diario.elmundo.sv/politica/vigente-nuevo-monto-exento-de-impuesto-sobre-la-renta-asi-quedan-los-calculos-de-retencion",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "code": "MS",
+  "nom": "Montserrat",
+  "rate": 36.8,
+  "note": "Barème 2024 : franchise 18 000 XCD puis 5 %, 20 %, 25 %, 30 %, 40 % au-delà de 150 000. Hypothèse change : 1 EUR = 3,105 XCD, soit environ 746 100 XCD. Source secondaire non officielle, taux supérieurs à vérifier.",
+  "sources": [
+    {
+      "titre": "Orbitax - Montserrat relève l'abattement et les tranches",
+      "url": "https://orbitax.com/news/country/article/Montserrat-Increases-Personal--56360",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Expanship - Montserrat personal income tax",
+      "url": "https://www.expanship.com/ms/blog/montserrat-personal-income-tax",
+      "type": "non officielle"
+    }
+  ]
+}

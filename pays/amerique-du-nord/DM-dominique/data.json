@@ -1,0 +1,18 @@
+{
+  "code": "DM",
+  "nom": "Dominique",
+  "rate": 32.7,
+  "note": "Barème en vigueur 2026 : 0 % jusqu'à 30 000, 15 %, 25 % puis 35 % au-delà de 80 000 XCD. Hypothèse change : 1 EUR = 3,105 XCD (parité 2,7 par USD, EUR/USD 1,15). Réforme annoncée (taux unique de 10 % dès 2027), pas encore votée.",
+  "sources": [
+    {
+      "titre": "Dominica Inland Revenue Division - taux en vigueur",
+      "url": "https://ird.gov.dm/customer-service/current-income-tax-rates",
+      "type": "officielle"
+    },
+    {
+      "titre": "IMI Daily - Dominique, impôt unique 10 % en 2027",
+      "url": "https://imidaily.com/caribbean/dominica-flat-tax-10-percent-2027",
+      "type": "non officielle"
+    }
+  ]
+}

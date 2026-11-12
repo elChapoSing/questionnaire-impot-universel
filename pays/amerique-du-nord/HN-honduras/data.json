@@ -1,0 +1,18 @@
+{
+  "code": "HN",
+  "nom": "Honduras",
+  "rate": 23.7,
+  "note": "Table progressive 2026 (SAR) : exonéré jusqu'à 228 324 HNL, puis 15 %, 20 % et 25 % au-delà de 809 661. Hypothèse change : 1 EUR = 30,2 HNL (26,3 par USD), soit environ 7,27 M HNL. Déduction médicale de 40 000 non appliquée.",
+  "sources": [
+    {
+      "titre": "SAR Honduras - Acuerdo SAR-01-2026",
+      "url": "https://www.tsc.gob.hn/web/leyes/Acuerdo-SAR-01-2026.pdf",
+      "type": "officielle"
+    },
+    {
+      "titre": "Bloomberg Línea - Tabla progresiva 2026 Honduras",
+      "url": "https://www.bloomberglinea.com/latinoamerica/honduras/tabla-progresiva-2026-en-honduras-ingreso-exento-y-tramos-de-isr-por-salario/",
+      "type": "non officielle"
+    }
+  ]
+}

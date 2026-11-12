@@ -2,16 +2,11 @@
   "code": "BS",
   "nom": "Bahamas",
   "rate": 0,
-  "note": "Pas d'impôt sur le revenu des personnes physiques. Sources secondaires uniquement.",
+  "note": "Aucun impôt sur le revenu des particuliers ; seule une cotisation d'assurance nationale s'applique (non comptée).",
   "sources": [
     {
-      "titre": "Bestaxca, pays sans impôt sur le revenu",
-      "url": "https://bestaxca.com/?p=24777",
-      "type": "non officielle"
-    },
-    {
-      "titre": "Libertymundo, pays sans impôt sur le revenu",
-      "url": "https://www.libertymundo.com/tax-free-countries-2/",
+      "titre": "Deloitte - Bahamas tax highlights 2026",
+      "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-bahamashighlights-2026.pdf",
       "type": "non officielle"
     }
   ]

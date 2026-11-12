@@ -1,0 +1,18 @@
+{
+  "code": "SR",
+  "nom": "Suriname",
+  "rate": 37.4,
+  "note": "Barème : franchise 108 000 SRD par an, puis 8 %, 18 %, 28 % et 38 % au-delà de 234 000. Hypothèse change : 1 EUR = 44 SRD, soit environ 10,5 M SRD. Peu sensible au change. Cotisation AOV exclue.",
+  "sources": [
+    {
+      "titre": "Rio Times - Suriname taxes expats 2026",
+      "url": "https://www.riotimesonline.com/taxes-suriname-expats-2026/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Rivermate - Suriname, belastingen",
+      "url": "https://rivermate.com/nl/gidsen/suriname/belastingen",
+      "type": "non officielle"
+    }
+  ]
+}

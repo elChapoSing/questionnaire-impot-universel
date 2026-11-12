@@ -1,0 +1,13 @@
+{
+  "code": "KN",
+  "nom": "Saint-Christophe-et-Niévès",
+  "rate": 0,
+  "note": "Pas d'impôt sur le revenu des personnes physiques ; seules des cotisations sociales et une contribution logement s'appliquent (non comptées).",
+  "sources": [
+    {
+      "titre": "Deloitte - St Kitts et Nevis tax highlights 2026",
+      "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-stkittsandnevishighlights-2026.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

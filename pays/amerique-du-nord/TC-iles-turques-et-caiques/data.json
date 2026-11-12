@@ -1,0 +1,13 @@
+{
+  "code": "TC",
+  "nom": "Îles Turques-et-Caïques",
+  "rate": 0,
+  "note": "Pas d'impôt sur le revenu ; seules des cotisations d'assurance nationale et de santé s'appliquent (non comptées).",
+  "sources": [
+    {
+      "titre": "Visit TCI - Taxes aux Turks-et-Caïcos",
+      "url": "https://www.visittci.com/life-and-business/investing/taxes",
+      "type": "non officielle"
+    }
+  ]
+}
