@@ -588,7 +588,7 @@ function renderMethodology() {
   loadAllCountries().then(function () { if (location.hash === "#methodologie") renderMethodologyNow(); });
 }
 function renderMethodologyNow() {
-  var codes = Object.keys(COUNTRY_DATA).sort(function (a, b) { return COUNTRY_DATA[a].rate - COUNTRY_DATA[b].rate; });
+  var codes = Object.keys(COUNTRY_DATA).sort(function (a, b) { return countryName(a).localeCompare(countryName(b), "fr", { sensitivity: "base" }); });
   var CONTINENTS = [["europe", "Europe"], ["afrique", "Afrique"], ["asie", "Asie et Moyen-Orient"], ["amerique-du-nord", "Amérique du Nord, centrale et Caraïbes"], ["amerique-du-sud", "Amérique du Sud"], ["oceanie", "Océanie"]];
   function rowFor(c) {
     var d = COUNTRY_DATA[c];
