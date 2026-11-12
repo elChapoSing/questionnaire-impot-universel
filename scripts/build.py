@@ -98,6 +98,7 @@ def js_entry(d):
     parts.append("note: " + json.dumps(d["note"], ensure_ascii=False))
     src = ", ".join("[" + json.dumps(s["titre"], ensure_ascii=False) + ", " + json.dumps(s["url"]) + ", " + ("O" if s["type"] == "officielle" else "N") + "]" for s in d["sources"])
     parts.append("src: [" + src + "]")
+    parts.append("dir: " + json.dumps(CONT[d["code"]] + "/" + f"{d['code']}-{slug(d['nom'])}"))
     return f"  {d['code']}: {{ " + ", ".join(parts) + " }"
 
 def load():
