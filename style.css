@@ -221,3 +221,14 @@ h1, h2 { }
 .ag-root .tag{font-size:11px;font-weight:600;padding:1px 6px;border-radius:999px;border:1.5px solid currentColor;white-space:nowrap}
 .ag-root .tag.off{color:var(--ok)}.ag-root .tag.non{color:var(--warn)}
 .ag-root a{color:var(--accent)}
+
+/* pages statiques par pays */
+.static-page table{border-collapse:collapse;width:100%;font-size:15px}
+.static-page th,.static-page td{padding:6px 10px;border-bottom:1px solid var(--line,#ddd);text-align:right}
+.static-page th:first-child,.static-page td:first-child{text-align:left}
+.static-page .big{font-family:"Bricolage Grotesque",sans-serif;font-size:clamp(40px,9vw,64px);font-weight:700;color:var(--accent);margin:4px 0 8px}
+.static-page .crumb{font-size:14px;margin:0 0 12px;color:var(--muted)}
+.static-page .btn{display:inline-block;text-decoration:none}
+.static-page .plist{columns:2 220px;list-style:none;padding:0}
+.static-page .plist li{padding:3px 0}
+.static-page .muted{color:var(--muted);font-size:14px}

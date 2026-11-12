@@ -158,6 +158,18 @@ def build():
     open(os.path.join(PAYS, "README.md"), "w", encoding="utf-8").write("\n".join(idx))
     ix = {d["code"]: os.path.relpath(path_of(d), PAYS).replace(os.sep, "/") for d in ds}
     json.dump(ix, open(os.path.join(PAYS, "index.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1, sort_keys=True)
+    import shutil, pages
+    OUTD = os.path.join(ROOT, pages.OUT); shutil.rmtree(OUTD, ignore_errors=True)
+    items = []
+    for d in ds:
+        sl = slug(d["nom"]); lv = level(d["rate"]); k = CONT[d["code"]]
+        os.makedirs(os.path.join(OUTD, sl), exist_ok=True)
+        open(os.path.join(OUTD, sl, "index.html"), "w", encoding="utf-8").write(
+            pages.country_page(d, sl, CONT_LABEL[k], lv, fr, compute, THRESHOLD, FR_RATE, SALAIRE_EUR))
+        rr = f"entre {fr(d['range'][0])} et {fr(d['range'][1])} %" if d.get("range") else f"{fr(d['rate'])} %"
+        items.append({"nom": d["nom"], "slug": sl, "cont": k, "rr": rr})
+    open(os.path.join(OUTD, "index.html"), "w", encoding="utf-8").write(pages.index_page(items, CONT_LABEL, fr))
+    open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write(pages.sitemap(sorted(i["slug"] for i in items)))
     print(len(ds), "pays générés")
 
 if __name__ == "__main__":

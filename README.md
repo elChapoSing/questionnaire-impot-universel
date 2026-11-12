@@ -33,4 +33,4 @@ Les taux effectifs sont calculés en devise locale à partir de cours Yahoo Fina
 
 ## Référencement (SEO)
 
-`robots.txt` et `sitemap.xml` à la racine ; chaque page a son `<title>`, sa description, sa balise canonique et ses balises Open Graph (l'accueil porte aussi un JSON-LD `WebApplication`). Pour ajouter une page, créer `<dossier>/index.html` sur le modèle des existantes et l'ajouter à `sitemap.xml`.
+`scripts/pages.py` (appelé par `scripts/build.py`) génère à partir des `data.json` une page HTML statique par pays (`fiscalite/<pays>/index.html`), l'index `fiscalite/index.html` et `sitemap.xml`. La GitHub Action les régénère et les commit à chaque modification d'un `data.json` : rien à faire à la main. `robots.txt` et `sitemap.xml` à la racine ; chaque page a son `<title>`, sa description, sa balise canonique et ses balises Open Graph (l'accueil porte aussi un JSON-LD `WebApplication`). Pour ajouter une page, créer `<dossier>/index.html` sur le modèle des existantes et l'ajouter à `sitemap.xml`.

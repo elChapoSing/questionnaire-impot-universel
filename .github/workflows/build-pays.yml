@@ -15,5 +15,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pays
-          git diff --cached --quiet || (git commit -m "Régénère README pays et index [skip ci]" && git push)
+          git add pays fiscalite sitemap.xml
+          git diff --cached --quiet || (git commit -m "Régénère README, pages pays, index et sitemap [skip ci]" && git push)

@@ -101,6 +101,7 @@ var LEVEL_COMMENT = {
   above: "Fiscalité proche de celle de la France, ou supérieure. D'après nos calculs, l'impôt sur le revenu effectif dans ce pays dépasse nettement le seuil de 21,1 %, donc l'écart avec la France est inférieur à 40 %. Ce pays ne remplirait pas la condition."
 };
 var UNRATED_COMMENT = "Ce pays n'a pas encore été analysé. Nous n'avons aucun calcul pour lui, donc le résultat reste indéterminé.";
+function pageUrl(d) { return "/fiscalite/" + d.dir.split("/")[1].replace(/^[A-Z0-9]+-/, "") + "/"; }
 function countryAnswer(code) {
   var l = countryLevel(code);
   return l === "below" ? "yes" : l === "above" ? "no" : "unknown";
@@ -172,7 +173,7 @@ function renderStart() {
       el("span", { class: "kbd", "aria-hidden": "true", text: "Entrée ↵" })
     ]),
     el("p", { class: "hint", text: "Vos réponses restent dans votre navigateur. Rien n'est envoyé ni enregistré." }),
-    el("p", { class: "footlink" }, [el("a", { href: "/methodologie/", text: "Méthodologie et sources" })])
+    el("p", { class: "footlink" }, [el("a", { href: "/methodologie/", text: "Méthodologie et sources" }), document.createTextNode(" · "), el("a", { href: "/fiscalite/", text: "Tous les pays" })])
   ]);
   showScreen(s);
   document.getElementById("start").addEventListener("click", function () { answers = []; renderStep(0); });
@@ -283,7 +284,7 @@ function countryBox() {
       ]);
     })));
     if (d.calc && d.calc.devise !== "EUR") kids.push(el("p", { class: "cb-detail", text: "Taux de change utilisé : 1 € = " + d.calc.fx + " " + d.calc.devise + " (" + d.calc.fx_source + ")." }));
-    if (d.dir) kids.push(el("p", { class: "cb-detail" }, [el("a", { href: "https://github.com/elChapoSing/questionnaire-impot-universel/tree/main/pays/" + d.dir, target: "_blank", rel: "noopener", text: "Voir le calcul détaillé et les données de ce pays (GitHub)" })]));
+    if (d.dir) kids.push(el("p", { class: "cb-detail" }, [el("a", { href: pageUrl(d), text: "Page de ce pays" }), document.createTextNode(" · "), el("a", { href: "https://github.com/elChapoSing/questionnaire-impot-universel/tree/main/pays/" + d.dir, target: "_blank", rel: "noopener", text: "Voir le calcul détaillé et les données de ce pays (GitHub)" })]));
   }
   return el("div", { class: "countrybox " + level }, kids);
 }
@@ -359,7 +360,7 @@ function renderMethodologyNow() {
       ]);
     }));
     return el("tr", {}, [
-      el("td", { text: countryName(c) }),
+      el("td", {}, [el("a", { href: pageUrl(d), text: countryName(c) })]),
       el("td", { text: fmtRateD(d) }),
       el("td", { text: LEVEL_LABEL[lvl] }),
       el("td", { text: d.note }),
