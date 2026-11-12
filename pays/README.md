@@ -74,14 +74,57 @@ Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul t
 | [Îles Féroé](europe/FO-iles-feroe/README.md) | 44,5 % | Nettement au-dessus du seuil | non |
 | [Îles Åland](europe/AX-iles-aland/README.md) | 39,0 % | Nettement au-dessus du seuil | non |
 
-## Afrique (4)
+## Afrique (47)
 
 | Pays | Taux | Verdict | Calcul détaillé |
 |---|---:|---|---|
 | [Afrique du Sud](afrique/ZA-afrique-du-sud/README.md) | 40,9 % | Nettement au-dessus du seuil | non |
+| [Angola](afrique/AO-angola/README.md) | 24,3 % | Discutable | non |
+| [Botswana](afrique/BW-botswana/README.md) | 24,3 % | Discutable | non |
+| [Burkina Faso](afrique/BF-burkina-faso/README.md) | 19,8 % | Discutable | non |
+| [Burundi](afrique/BI-burundi/README.md) | 32,3 % | Nettement au-dessus du seuil | non |
+| [Bénin](afrique/BJ-benin/README.md) | 29,4 % | Nettement au-dessus du seuil | non |
+| [Cameroun](afrique/CM-cameroun/README.md) | 26,3 % | Nettement au-dessus du seuil | non |
+| [Cap-Vert](afrique/CV-cap-vert/README.md) | 27,0 % | Nettement au-dessus du seuil | non |
+| [Comores](afrique/KM-comores/README.md) | 20,6 % | Discutable | non |
+| [Congo-Kinshasa](afrique/CD-congo-kinshasa/README.md) | 30,0 % | Nettement au-dessus du seuil | non |
+| [Côte d’Ivoire](afrique/CI-cote-divoire/README.md) | 28,5 % | Nettement au-dessus du seuil | non |
+| [Djibouti](afrique/DJ-djibouti/README.md) | 37,6 % | Nettement au-dessus du seuil | non |
+| [Eswatini](afrique/SZ-eswatini/README.md) | 32,6 % | Nettement au-dessus du seuil | non |
+| [Gabon](afrique/GA-gabon/README.md) | 26,9 % | Nettement au-dessus du seuil | non |
+| [Gambie](afrique/GM-gambie/README.md) | 24,9 % | Discutable | non |
+| [Ghana](afrique/GH-ghana/README.md) | 33,5 % | Nettement au-dessus du seuil | non |
+| [Guinée](afrique/GN-guinee/README.md) | 34,5 % | Nettement au-dessus du seuil | non |
+| [Guinée équatoriale](afrique/GQ-guinee-equatoriale/README.md) | 24,0 % | Discutable | non |
+| [Kenya](afrique/KE-kenya/README.md) | 33,7 % | Nettement au-dessus du seuil | non |
+| [Lesotho](afrique/LS-lesotho/README.md) | 29,8 % | Nettement au-dessus du seuil | non |
+| [Liberia](afrique/LR-liberia/README.md) | 24,8 % | Discutable | non |
+| [Libye](afrique/LY-libye/README.md) | 10,0 % | Nettement en dessous du seuil | non |
+| [Madagascar](afrique/MG-madagascar/README.md) | 19,9 % | Discutable | non |
+| [Malawi](afrique/MW-malawi/README.md) | 38,4 % | Nettement au-dessus du seuil | non |
+| [Mali](afrique/ML-mali/README.md) | 39,6 % | Nettement au-dessus du seuil | non |
 | [Maroc](afrique/MA-maroc/README.md) | 35,9 % | Nettement au-dessus du seuil | non |
 | [Maurice](afrique/MU-maurice/README.md) | 19,4 % | Discutable | non |
+| [Mauritanie](afrique/MR-mauritanie/README.md) | 39,6 % | Nettement au-dessus du seuil | non |
+| [Mozambique](afrique/MZ-mozambique/README.md) | 31,2 % | Nettement au-dessus du seuil | non |
+| [Namibie](afrique/NA-namibie/README.md) | 34,0 % | Nettement au-dessus du seuil | non |
+| [Niger](afrique/NE-niger/README.md) | 34,6 % | Nettement au-dessus du seuil | non |
+| [Nigeria](afrique/NG-nigeria/README.md) | 24,5 % | Discutable | non |
+| [Ouganda](afrique/UG-ouganda/README.md) | 38,7 % | Nettement au-dessus du seuil | non |
+| [Rwanda](afrique/RW-rwanda/README.md) | 29,9 % | Nettement au-dessus du seuil | non |
+| [République centrafricaine](afrique/CF-republique-centrafricaine/README.md) | 37,4 % | Nettement au-dessus du seuil | non |
+| [Sao Tomé-et-Principe](afrique/ST-sao-tome-et-principe/README.md) | 24,6 % | Discutable | non |
+| [Seychelles](afrique/SC-seychelles/README.md) | 27,2 % | Nettement au-dessus du seuil | non |
+| [Sierra Leone](afrique/SL-sierra-leone/README.md) | 29,9 % | Nettement au-dessus du seuil | non |
+| [Sénégal](afrique/SN-senegal/README.md) | 41,4 % | Nettement au-dessus du seuil | non |
+| [Tanzanie](afrique/TZ-tanzanie/README.md) | 29,7 % | Nettement au-dessus du seuil | non |
+| [Togo](afrique/TG-togo/README.md) | 32,9 % | Nettement au-dessus du seuil | non |
+| [Tunisie](afrique/TN-tunisie/README.md) | 39,1 % | Nettement au-dessus du seuil | non |
+| [Zambie](afrique/ZM-zambie/README.md) | 37,1 % | Nettement au-dessus du seuil | non |
+| [Zimbabwe](afrique/ZW-zimbabwe/README.md) | 39,1 % | Nettement au-dessus du seuil | non |
 | [Égypte](afrique/EG-egypte/README.md) | 27,3 % | Nettement au-dessus du seuil | non |
+| [Érythrée](afrique/ER-erythree/README.md) | 28,5 % | Nettement au-dessus du seuil | non |
+| [Éthiopie](afrique/ET-ethiopie/README.md) | 34,9 % | Nettement au-dessus du seuil | non |
 
 ## Asie et Moyen-Orient (44)
 

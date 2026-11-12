@@ -1,0 +1,18 @@
+{
+  "code": "NA",
+  "nom": "Namibie",
+  "rate": 34,
+  "note": "Barème 2026/27 à 7 tranches, taux maximal 37 % au-delà de 1,55 M NAD. Change (hypothèse) : 1 EUR = 20 NAD.",
+  "sources": [
+    {
+      "titre": "PwC Namibie - Tax reference and rate card 2026",
+      "url": "https://www.pwc.com/na/en/assets/pdf/namibia-tax-reference-and-rate-card-2026%20-%20May.pdf",
+      "type": "non officielle"
+    },
+    {
+      "titre": "PwC Tax Summaries - Namibie",
+      "url": "https://taxsummaries.pwc.com/republic-of-namibia/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

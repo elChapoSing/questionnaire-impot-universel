@@ -1,0 +1,13 @@
+{
+  "code": "ET",
+  "nom": "Éthiopie",
+  "rate": 34.9,
+  "note": "Impôt sur revenu d'emploi : barème mensuel, taux maximal 35 % au-delà de 14 000 ETB/mois. Change (hypothèse) : 1 EUR = 175 ETB ; sans effet notable.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Éthiopie",
+      "url": "https://taxsummaries.pwc.com/ethiopia/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

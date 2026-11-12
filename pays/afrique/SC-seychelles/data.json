@@ -1,0 +1,17 @@
+{
+  "code": "SC",
+  "nom": "Seychelles",
+  "rate": 27.2,
+  "range": [
+    26.5,
+    27.8
+  ],
+  "note": "Barème 0 / 15 / 30 % avec 150 000 SCR exonérés et taux de 30 % au-delà de 600 000 SCR. Change (hypothèse) : 1 EUR = 16,5 SCR ; de 26,7 à 27,7 selon le change. Cas proche du haut de la bande.",
+  "sources": [
+    {
+      "titre": "TaxAtlas - impôt Seychelles",
+      "url": "https://taxatlas.io/country/seychelles/income-tax",
+      "type": "non officielle"
+    }
+  ]
+}

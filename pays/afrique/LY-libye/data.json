@@ -1,0 +1,22 @@
+{
+  "code": "LY",
+  "nom": "Libye",
+  "rate": 10,
+  "range": [
+    10,
+    13
+  ],
+  "note": "Impôt sur salaires : 5 % jusqu'à 12 000 LYD/an puis 10 %. Un guide PwC mentionne en plus un impôt Jihad de 3 % (fourchette). Change (hypothèse) : 1 EUR = 6,3 LYD. Cotisations sociales exclues.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Libye",
+      "url": "https://taxsummaries.pwc.com/libya/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    },
+    {
+      "titre": "PwC - Doing business in Libya",
+      "url": "https://pwc.com/m1/en/tax/documents/doing-business-guides/dbily.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

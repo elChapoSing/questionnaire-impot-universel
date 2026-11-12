@@ -1,0 +1,13 @@
+{
+  "code": "BJ",
+  "nom": "Bénin",
+  "rate": 29.4,
+  "note": "ITS : barème mensuel à 5 tranches, taux maximal 30 % au-delà de 500 000 XOF/mois (art. 125 CGI 2024). Change : XOF fixe, 655,957 par EUR.",
+  "sources": [
+    {
+      "titre": "Impôts Bénin - Code général des impôts 2024",
+      "url": "https://api.impots.bj/media/6728ab1c677d7_Benin-General%20Tax%20Code-2024%20Official.pdf",
+      "type": "officielle"
+    }
+  ]
+}

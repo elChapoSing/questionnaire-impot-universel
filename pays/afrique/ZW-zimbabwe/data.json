@@ -1,0 +1,22 @@
+{
+  "code": "ZW",
+  "nom": "Zimbabwe",
+  "rate": 39.1,
+  "range": [
+    37.9,
+    39.2
+  ],
+  "note": "Barème en USD, taux maximal 40 % au-delà de 36 000 USD, majoré de 3 % de contribution SIDA. Variante sans cette contribution : 37,9 %. Barème non vérifié sur la source primaire ZIMRA. Change (hypothèse) : 1 EUR = 1,165 USD.",
+  "sources": [
+    {
+      "titre": "CountryTaxCalc - PAYE Zimbabwe 2026",
+      "url": "https://www.countrytaxcalc.com/tax-guides/zimbabwe-paye-tax-guide-2026/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "ZimPriceCheck - tables PAYE ZIMRA 2025",
+      "url": "https://zimpricecheck.com/news/zimra-unveils-2025-paye-tax-tables-amidst-increased-scrutiny-on-taxpayers",
+      "type": "non officielle"
+    }
+  ]
+}

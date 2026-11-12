@@ -1,0 +1,17 @@
+{
+  "code": "GN",
+  "nom": "Guinée",
+  "rate": 34.5,
+  "range": [
+    33,
+    34.5
+  ],
+  "note": "Source unique non officielle : ITS annuel à 7 tranches, taux maximal 35 % au-delà de 100 M GNF. Change (hypothèse) : 1 EUR = 12 100 GNF.",
+  "sources": [
+    {
+      "titre": "AfroTools - calcul salaire net Guinée",
+      "url": "https://afrotools.com/fr/guinee/calculateur-salaire-net",
+      "type": "non officielle"
+    }
+  ]
+}

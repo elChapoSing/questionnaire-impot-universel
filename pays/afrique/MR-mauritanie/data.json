@@ -1,0 +1,18 @@
+{
+  "code": "MR",
+  "nom": "Mauritanie",
+  "rate": 39.6,
+  "note": "ITS mensuel : 40 % au-delà de 21 000 MRU/mois (formule RI x 40 % - 4 050). Franchise de 6 000 MRU/mois et CNSS ignorées. Change (hypothèse) : 1 EUR = 46 MRU.",
+  "sources": [
+    {
+      "titre": "AfroTools - calcul salaire net Mauritanie",
+      "url": "https://afrotools.com/fr/mauritanie/calculateur-salaire-net/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "PwC Quick Charts - taux d'IR (Mauritanie 40 %)",
+      "url": "https://taxsummaries.pwc.com/quick%20charts/personal-income-tax-pit-rates",
+      "type": "non officielle"
+    }
+  ]
+}

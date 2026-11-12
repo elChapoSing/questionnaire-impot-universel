@@ -1,0 +1,13 @@
+{
+  "code": "NG",
+  "nom": "Nigeria",
+  "rate": 24.5,
+  "note": "Nigeria Tax Act 2025, barème 2026 : taux maximal 25 % au-delà de 50 M NGN. Relief loyer et cotisations ignorés. Change (hypothèse) : 1 EUR = 1 750 NGN ; taux stable de 24,4 à 24,6 selon le change.",
+  "sources": [
+    {
+      "titre": "PaySpace - réforme fiscale Nigeria 2026",
+      "url": "https://payspace.com/blog/nigeria-tax-reform-2026",
+      "type": "non officielle"
+    }
+  ]
+}

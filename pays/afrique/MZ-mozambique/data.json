@@ -1,0 +1,13 @@
+{
+  "code": "MZ",
+  "nom": "Mozambique",
+  "rate": 31.2,
+  "note": "IRPS : taux maximal 32 % au-delà de 1,512 M MZN avec déduction de 141 540 MZN (formule PwC). Change (hypothèse) : 1 EUR = 74 MZN.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Mozambique",
+      "url": "https://taxsummaries.pwc.com/mozambique/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

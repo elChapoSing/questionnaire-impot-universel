@@ -1,0 +1,18 @@
+{
+  "code": "SL",
+  "nom": "Sierra Leone",
+  "rate": 29.9,
+  "note": "PAYE mensuel : taux maximal 30 % au-delà de 2 400 SLE/mois ; barème inchangé selon la loi de finances 2026. Change (hypothèse) : 1 EUR = 27 SLE. Cotisation NASSIT de 5 % déductible non appliquée.",
+  "sources": [
+    {
+      "titre": "AfroTools - PAYE Sierra Leone",
+      "url": "https://afrotools.com/fr/sierra-leone/sl-paye",
+      "type": "non officielle"
+    },
+    {
+      "titre": "PaySpace - Finance Act 2026 Sierra Leone",
+      "url": "https://support.payspace.com/portal/en/kb/articles/sierra-leone-2026-finance-act",
+      "type": "non officielle"
+    }
+  ]
+}

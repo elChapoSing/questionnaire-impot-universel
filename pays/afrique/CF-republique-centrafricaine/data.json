@@ -1,0 +1,17 @@
+{
+  "code": "CF",
+  "nom": "République centrafricaine",
+  "rate": 37.4,
+  "range": [
+    35.9,
+    37.4
+  ],
+  "note": "Source unique non officielle : barème annuel 2026 à 8 tranches, taux maximal 50 % au-delà de 120 M XAF. Variante : cotisation CNPS de 3 % déduite donne 35,9 %. Change : XAF fixe, 655,957 par EUR.",
+  "sources": [
+    {
+      "titre": "AfroTools - calcul salaire net Centrafrique",
+      "url": "https://afrotools.com/fr/centrafrique/calculateur-salaire-net/",
+      "type": "non officielle"
+    }
+  ]
+}

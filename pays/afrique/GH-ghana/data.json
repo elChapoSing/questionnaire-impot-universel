@@ -1,0 +1,13 @@
+{
+  "code": "GH",
+  "nom": "Ghana",
+  "rate": 33.5,
+  "note": "Barème résident révisé (loi 1178 de 2026), taux maximal 35 % au-delà de 600 000 GHS. Change (hypothèse) : 1 EUR = 13 GHS.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Ghana",
+      "url": "https://taxsummaries.pwc.com/ghana/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

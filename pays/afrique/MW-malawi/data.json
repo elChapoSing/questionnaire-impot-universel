@@ -1,0 +1,13 @@
+{
+  "code": "MW",
+  "nom": "Malawi",
+  "rate": 38.4,
+  "note": "PAYE 2026 : 30 % puis 35 % puis 40 % au-delà de 10 M MWK/mois. Change (hypothèse) : 1 EUR = 2 000 MWK ; sans effet notable.",
+  "sources": [
+    {
+      "titre": "Workpay - changements statutaires Malawi 2026",
+      "url": "https://myworkpay.com/blogs/malawi-2026-statutory-changes",
+      "type": "non officielle"
+    }
+  ]
+}

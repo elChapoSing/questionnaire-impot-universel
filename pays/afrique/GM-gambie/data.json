@@ -1,0 +1,27 @@
+{
+  "code": "GM",
+  "nom": "Gambie",
+  "rate": 24.9,
+  "range": [
+    24.9,
+    29.9
+  ],
+  "note": "Barème 2025 à taux maximal 25 % au-delà de 76 000 GMD ; une source (TaxAtlas) indique 30 % maximal, donc fourchette. Change (hypothèse) : 1 EUR = 82 GMD.",
+  "sources": [
+    {
+      "titre": "Rivermate - fiscalité Gambie",
+      "url": "https://rivermate.com/guides/gambia/taxes",
+      "type": "non officielle"
+    },
+    {
+      "titre": "GRA - brochure fiscale (barème de 2018, 25 %)",
+      "url": "https://gra.gm/download-file/8d0cd78a-d217-11ed-9b31-029254d29bb1",
+      "type": "officielle"
+    },
+    {
+      "titre": "TaxAtlas - impôt Gambie",
+      "url": "https://taxatlas.io/country/gambia/income-tax",
+      "type": "non officielle"
+    }
+  ]
+}

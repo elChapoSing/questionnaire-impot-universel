@@ -1,0 +1,17 @@
+{
+  "code": "DJ",
+  "nom": "Djibouti",
+  "rate": 37.6,
+  "range": [
+    37,
+    38.4
+  ],
+  "note": "ITS mensuel à 8 tranches, taux maximal 45 % au-delà de 2 M DJF/mois. Change (hypothèse) : 1 EUR = 206 DJF (arrimage USD). Cotisation CNSS de 6 % déductible non appliquée.",
+  "sources": [
+    {
+      "titre": "AfroTools - calcul salaire net Djibouti",
+      "url": "https://afrotools.com/fr/djibouti/calculateur-salaire-net/",
+      "type": "non officielle"
+    }
+  ]
+}

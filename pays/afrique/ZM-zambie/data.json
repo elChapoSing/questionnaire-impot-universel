@@ -1,0 +1,13 @@
+{
+  "code": "ZM",
+  "nom": "Zambie",
+  "rate": 37.1,
+  "note": "PAYE 2026 : taux maximal 37,5 % au-delà de 9 900 ZMW/mois. Change (hypothèse) : 1 EUR = 27 ZMW.",
+  "sources": [
+    {
+      "titre": "MJ Consultants - taux PAYE Zambie 2026",
+      "url": "https://mjconsultants-co-zm.pages.dev/guides/paye-rates-zambia-2026/",
+      "type": "non officielle"
+    }
+  ]
+}

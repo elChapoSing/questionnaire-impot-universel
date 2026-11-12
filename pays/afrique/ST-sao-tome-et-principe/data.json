@@ -1,0 +1,17 @@
+{
+  "code": "ST",
+  "nom": "Sao Tomé-et-Principe",
+  "rate": 24.6,
+  "range": [
+    24.2,
+    24.9
+  ],
+  "note": "Source unique non officielle : IRS annuel à 6 tranches, taux maximal 25 % au-delà de 240 000 STN. Change (hypothèse) : 1 EUR = 24,5 STN (parité fixe). Déductions par tranche non reproduites.",
+  "sources": [
+    {
+      "titre": "Immigrant Invest - impôts à São Tomé-et-Príncipe",
+      "url": "https://immigrantinvest.com/fr/blog/sao-tome-and-principe-taxes",
+      "type": "non officielle"
+    }
+  ]
+}

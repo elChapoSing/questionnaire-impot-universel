@@ -1,0 +1,13 @@
+{
+  "code": "TN",
+  "nom": "Tunisie",
+  "rate": 39.1,
+  "note": "Barème IRPP 2025 à taux maximal 40 % au-delà de 70 000 TND ; déductions familiales, abattement de frais et contribution de solidarité ignorés ; éventuelles modifications de la loi de finances 2026 non vérifiées. Change (hypothèse) : 1 EUR = 3,4 TND.",
+  "sources": [
+    {
+      "titre": "Webdo - nouveau barème de l'impôt sur le revenu (Tunisie)",
+      "url": "https://www.webdo.tn/fr/actualite/national/tunisie-le-nouveau-bareme-de-l-impot-sur-le-revenu/218235/",
+      "type": "non officielle"
+    }
+  ]
+}

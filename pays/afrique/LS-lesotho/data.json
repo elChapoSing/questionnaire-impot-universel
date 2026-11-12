@@ -1,0 +1,13 @@
+{
+  "code": "LS",
+  "nom": "Lesotho",
+  "rate": 29.8,
+  "note": "Taux de 20 % puis 30 % au-delà de 77 760 LSL par an (barème en vigueur 1er avril 2026) ; crédit d'impôt personnel de 12 240 LSL ignoré. Change (hypothèse) : 1 EUR = 20 LSL.",
+  "sources": [
+    {
+      "titre": "RSL Lesotho - barème 2026-2027",
+      "url": "https://www.rsl.org.ls/sites/default/files/2026-06/2026%20-2027%20Income%20Tax%20structure.pdf",
+      "type": "officielle"
+    }
+  ]
+}

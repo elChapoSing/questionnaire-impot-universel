@@ -1,0 +1,13 @@
+{
+  "code": "MG",
+  "nom": "Madagascar",
+  "rate": 19.9,
+  "note": "IRSA : taux maximal 20 % au-delà de 600 000 MGA/mois ; réduction pour charges de famille ignorée. Change (hypothèse) : 1 EUR = 5 300 MGA ; taux stable entre 4 800 et 6 000. Cas dans la bande, légèrement sous 21,14 %.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Madagascar",
+      "url": "https://taxsummaries.pwc.com/madagascar/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

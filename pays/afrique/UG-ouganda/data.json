@@ -1,0 +1,13 @@
+{
+  "code": "UG",
+  "nom": "Ouganda",
+  "rate": 38.7,
+  "note": "Barème annuel résident, taux maximal 40 % au-delà de 120 M UGX. Change (hypothèse) : 1 EUR = 4 200 UGX.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Ouganda",
+      "url": "https://taxsummaries.pwc.com/Uganda/Individual/Taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

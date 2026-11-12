@@ -1,0 +1,13 @@
+{
+  "code": "BW",
+  "nom": "Botswana",
+  "rate": 24.3,
+  "note": "Barème résident à 5 tranches, taux maximal 25 % au-delà de 156 000 BWP. Change (hypothèse) : 1 EUR = 15,8 BWP. Les relèvements de seuils du budget 2026 n'ont pas été vérifiés ; effet négligeable à ce niveau de revenu.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Botswana",
+      "url": "https://taxsummaries.pwc.com/Botswana/Individual/Taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

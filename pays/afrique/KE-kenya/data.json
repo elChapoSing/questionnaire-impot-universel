@@ -1,0 +1,13 @@
+{
+  "code": "KE",
+  "nom": "Kenya",
+  "rate": 33.7,
+  "note": "Barème résident, taux maximal 35 % au-delà de 9,6 M KES ; allègement personnel de 2 400 KES/mois ignoré. Change (hypothèse) : 1 EUR = 150 KES.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Kenya",
+      "url": "https://taxsummaries.pwc.com/kenya/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

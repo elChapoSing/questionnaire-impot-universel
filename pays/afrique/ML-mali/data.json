@@ -1,0 +1,17 @@
+{
+  "code": "ML",
+  "nom": "Mali",
+  "rate": 39.6,
+  "range": [
+    38.1,
+    39.6
+  ],
+  "note": "Source unique non officielle : ITS annuel à 5 tranches, taux maximal 40 % au-delà de 3,6 M XOF. Variante : cotisation INPS de 3,6 % déduite donne 38,1 %. Change : XOF fixe.",
+  "sources": [
+    {
+      "titre": "AfroTools - calcul salaire net Mali",
+      "url": "https://afrotools.com/fr/mali/calculateur-salaire-net",
+      "type": "non officielle"
+    }
+  ]
+}

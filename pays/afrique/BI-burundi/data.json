@@ -1,0 +1,22 @@
+{
+  "code": "BI",
+  "nom": "Burundi",
+  "rate": 32.3,
+  "range": [
+    29.9,
+    34.7
+  ],
+  "note": "Sources en désaccord : barème annuel 2026 avec taux maximal 35 % (simulateur) ou ancien barème officiel mensuel avec 30 % au-delà de 300 000 BIF/mois. Dans les deux cas le taux dépasse 29 %. Change (hypothèse) : 1 EUR = 3 400 BIF. Changements éventuels de la loi de finances 2026-2027 non vérifiés.",
+  "sources": [
+    {
+      "titre": "AfroTools - calcul salaire net Burundi",
+      "url": "https://afrotools.com/fr/burundi/calculateur-salaire-net/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "OBR - mode de calcul de l'IPR",
+      "url": "https://www.obr.bi/images/stories/download/MODE_CALCUL_IPR.pdf",
+      "type": "officielle"
+    }
+  ]
+}

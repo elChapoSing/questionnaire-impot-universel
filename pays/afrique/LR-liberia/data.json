@@ -1,0 +1,13 @@
+{
+  "code": "LR",
+  "nom": "Liberia",
+  "rate": 24.8,
+  "note": "Barème en LRD à 4 tranches, taux maximal 25 % au-delà de 800 000 LRD. Change (hypothèse) : 1 EUR = 215 LRD ; variation de 180 à 250 sans effet notable.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Libéria",
+      "url": "https://taxsummaries.pwc.com/republic-of-liberia/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": "TG",
+  "nom": "Togo",
+  "rate": 32.9,
+  "note": "IRPP salaires : barème annuel à 8 tranches, taux maximal 35 % au-delà de 20 M XOF. Réduction familiale ignorée. Change : XOF fixe.",
+  "sources": [
+    {
+      "titre": "PwC - Togo tax facts and figures 2026",
+      "url": "https://www.pwc.com/gh/en/assets/pdf/2026-togo-tax-facts-and-figures.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

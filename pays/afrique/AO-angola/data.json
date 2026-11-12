@@ -1,0 +1,22 @@
+{
+  "code": "AO",
+  "nom": "Angola",
+  "rate": 24.3,
+  "range": [
+    23.5,
+    25
+  ],
+  "note": "IRT groupe A, barème 2026 (loi 14/25), tranche supérieure à 25 % au-delà de 10 M AOA/mois. Change (hypothèse) : 1 EUR = 1 060 AOA ; sensibilité négligeable. Variante : base nette de la cotisation sociale salariale de 3 % donne environ 23,5 %.",
+  "sources": [
+    {
+      "titre": "Angolex - barème IRT groupe A 2026",
+      "url": "https://angolex.com/paginas/outros/calculadora-do-irt-angola-grupo-a-2026a.html",
+      "type": "non officielle"
+    },
+    {
+      "titre": "PaySpace - loi IRT 2026 Angola",
+      "url": "https://support.payspace.com/portal/en/kb/articles/angola-2026-income-tax-law-enacted-key-payroll-changes-effective-1-january-2026",
+      "type": "non officielle"
+    }
+  ]
+}

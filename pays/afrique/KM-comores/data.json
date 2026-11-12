@@ -1,0 +1,22 @@
+{
+  "code": "KM",
+  "nom": "Comores",
+  "rate": 20.6,
+  "range": [
+    20.6,
+    29.6
+  ],
+  "note": "IRPP à 7 tranches, taux maximal 30 % (art. 97 CGI 2023) avec déduction forfaitaire de 30 % pour frais professionnels sur salaires (art. 59). Variante sans déduction : 29,6 %. Cas proche du seuil de 21,14 % ; change : KMF fixe, 491,968 par EUR.",
+  "sources": [
+    {
+      "titre": "Comores - Code général des impôts 2023",
+      "url": "https://justice.gouv.km/wp-content/uploads/2025/03/comores-cgi-2023.pdf",
+      "type": "officielle"
+    },
+    {
+      "titre": "AfroTools - calcul salaire net Comores",
+      "url": "https://afrotools.com/fr/comores/calculateur-salaire-net/",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": "SZ",
+  "nom": "Eswatini",
+  "rate": 32.6,
+  "note": "Barème résident à 4 tranches, taux maximal 33 % au-delà de 200 000 SZL ; rabais de 8 200 SZL ignoré. Change (hypothèse) : 1 EUR = 20 SZL.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Eswatini",
+      "url": "https://taxsummaries.pwc.com/eswatini/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

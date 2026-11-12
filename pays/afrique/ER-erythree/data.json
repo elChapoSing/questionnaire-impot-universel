@@ -1,0 +1,22 @@
+{
+  "code": "ER",
+  "nom": "Érythrée",
+  "rate": 28.5,
+  "range": [
+    27,
+    29.9
+  ],
+  "note": "Sources non officielles divergentes (barèmes à taux maximal 30 % ou 32 %), seuils mensuels ou annuels non confirmés. Change (hypothèse) : 1 EUR = 17,4 ERN. Fiabilité faible.",
+  "sources": [
+    {
+      "titre": "Rivermate - fiscalité Érythrée",
+      "url": "https://www.rivermate.com/guides/eritrea/taxes",
+      "type": "non officielle"
+    },
+    {
+      "titre": "TaxAtlas - impôt sur le revenu Érythrée",
+      "url": "https://taxatlas.io/country/eritrea/income-tax",
+      "type": "non officielle"
+    }
+  ]
+}

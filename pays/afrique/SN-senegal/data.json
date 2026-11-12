@@ -1,0 +1,13 @@
+{
+  "code": "SN",
+  "nom": "Sénégal",
+  "rate": 41.4,
+  "note": "IRPP : taux maximal 43 % au-delà de 50 M XOF, une part (célibataire) ; abattement éventuel de 30 % plafonné non pris en compte (effet négligeable). Change : XOF fixe.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Sénégal",
+      "url": "https://taxsummaries.pwc.com/senegal/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "code": "BF",
+  "nom": "Burkina Faso",
+  "rate": 19.8,
+  "range": [
+    18.6,
+    24.8
+  ],
+  "note": "IUTS : barème mensuel à taux maximal 25 % (art. 112 CGI) avec abattement forfaitaire pour frais professionnels de 20 % pour les catégories supérieures (art. 111). Variantes : abattement de 25 % donne 18,6 % ; sans abattement 24,8 %. Réduction pour charges de famille ignorée. Change : XOF fixe, 655,957 par EUR.",
+  "sources": [
+    {
+      "titre": "DGI Burkina - Code général des impôts 2023",
+      "url": "https://dgi.bf/wp-content/uploads/2023/10/CODE-GENERAL-DES-IMPOTS-2023-A-JOUR-AVEC-LA-LOI-DE-FINANCE-2023.pdf",
+      "type": "officielle"
+    }
+  ]
+}
