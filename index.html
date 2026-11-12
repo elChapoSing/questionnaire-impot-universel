@@ -214,7 +214,10 @@ h1, h2 { }
 }
 .cb-srcs{margin:.2rem 0 .4rem;padding-left:1.1rem;font-size:.92em}.cb-srcs li{margin:.15rem 0}.cb-srcs-title{font-weight:600;margin-bottom:0}
 .float-back{position:fixed;right:18px;bottom:18px;z-index:50;box-shadow:0 6px 20px rgba(0,0,0,.28);border-radius:999px;padding:12px 20px}
-.cont-title{margin:1.6rem 0 .5rem;scroll-margin-top:12px}
+.cont{margin:.6rem 0;border:1.5px solid var(--line);border-radius:12px;padding:0 14px;scroll-margin-top:12px}
+.cont[open]{padding-bottom:10px}
+.cont-title{cursor:pointer;font-weight:700;font-size:1.05em;padding:12px 0;list-style-position:inside}
+.cont-title:hover{color:var(--accent)}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:.4rem 0 .6rem}
 .chip{font:inherit;font-size:.9em;padding:6px 12px;border-radius:999px;border:1.5px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
 .chip:hover{border-color:var(--accent)}
@@ -598,15 +601,17 @@ function renderMethodologyNow() {
   CONTINENTS.forEach(function (ct) {
     var list = codes.filter(function (c) { return COUNTRY_DATA[c].dir && COUNTRY_DATA[c].dir.split("/")[0] === ct[0]; });
     if (!list.length) return;
-    var title = el("h4", { class: "cont-title", id: "cont-" + ct[0], text: ct[1] + " (" + list.length + " pays)" });
+    var det = el("details", { class: "cont", id: "cont-" + ct[0] }, [
+      el("summary", { class: "cont-title", text: ct[1] + " (" + list.length + " pays)" }),
+      el("div", { class: "tbl" }, [el("table", {}, [
+        el("thead", {}, [el("tr", {}, ["Pays", "Taux estimé", "Niveau", "Remarque", "Sources"].map(function (h) { return el("th", { text: h }); }))]),
+        el("tbody", {}, list.map(rowFor))
+      ])])
+    ]);
     var chip = el("button", { class: "chip", type: "button", text: ct[1] });
-    chip.addEventListener("click", function () { title.scrollIntoView({ behavior: "smooth", block: "start" }); });
+    chip.addEventListener("click", function () { det.open = true; det.scrollIntoView({ behavior: "smooth", block: "start" }); });
     jump.push(chip);
-    groups.push(title);
-    groups.push(el("div", { class: "tbl" }, [el("table", {}, [
-      el("thead", {}, [el("tr", {}, ["Pays", "Taux estimé", "Niveau", "Remarque", "Sources"].map(function (h) { return el("th", { text: h }); }))]),
-      el("tbody", {}, list.map(rowFor))
-    ])]));
+    groups.push(det);
   });
   var table = el("div", { class: "cont-groups" }, [el("div", { class: "chips", "aria-label": "Aller à un continent" }, jump)].concat(groups));
   var back = el("button", { class: "btn float-back", type: "button" }, [el("span", { text: "← Retour au questionnaire" })]);
