@@ -344,54 +344,6 @@ function renderResult(r) {
 
 function renderMethodology() {
   setProgress(0);
-  showScreen(el("section", { class: "screen meth" }, [el("h2", { text: "Méthodologie" }), el("p", { text: "Chargement des données pays…" })]));
-  loadAllCountries().then(function () { if (PAGE === "methodologie") renderMethodologyNow(); });
-}
-function renderMethodologyNow() {
-  var codes = Object.keys(COUNTRY_DATA).sort(function (a, b) { return countryName(a).localeCompare(countryName(b), "fr", { sensitivity: "base" }); });
-
-  showScreen(el("section", { class: "screen meth" }, [el("h2", { text: "Méthodologie" }), el("p", { text: "Chargement des données pays…" })]));
-  loadAllCountries().then(function () { if (PAGE === "methodologie") renderMethodologyNow(); });
-}
-function renderMethodologyNow() {
-  var codes = Object.keys(COUNTRY_DATA).sort(function (a, b) { return countryName(a).localeCompare(countryName(b), "fr", { sensitivity: "base" }); });
-  var CONTINENTS = [["europe", "Europe"], ["afrique", "Afrique"], ["asie", "Asie et Moyen-Orient"], ["amerique-du-nord", "Amérique du Nord, centrale et Caraïbes"], ["amerique-du-sud", "Amérique du Sud"], ["oceanie", "Océanie"]];
-  function rowFor(c) {
-    var d = COUNTRY_DATA[c];
-    var lvl = countryLevel(c);
-    var srcs = el("td", {}, d.src.map(function (x) {
-      return el("div", {}, [
-        el("a", { href: x[1], target: "_blank", rel: "noopener", text: x[0] }),
-        document.createTextNode(" "),
-        el("span", { class: "tag " + (x[2] === O ? "off" : "non"), text: x[2] })
-      ]);
-    }));
-    return el("tr", {}, [
-      el("td", {}, [el("a", { href: pageUrl(d), text: countryName(c) })]),
-      el("td", { text: fmtRateD(d) }),
-      el("td", { text: LEVEL_LABEL[lvl] }),
-      el("td", { text: d.note }),
-      srcs
-    ]);
-  }
-  var groups = [], jump = [];
-  CONTINENTS.forEach(function (ct) {
-    var list = codes.filter(function (c) { return COUNTRY_DATA[c].dir && COUNTRY_DATA[c].dir.split("/")[0] === ct[0]; });
-    if (!list.length) return;
-    var det = el("details", { class: "cont", id: "cont-" + ct[0] }, [
-      el("summary", { class: "cont-title", text: ct[1] + " (" + list.length + " pays)" }),
-      el("div", { class: "tbl" }, [el("table", {}, [
-        el("thead", {}, [el("tr", {}, ["Pays", "Taux estimé", "Niveau", "Remarque", "Sources"].map(function (h) { return el("th", { text: h }); }))]),
-        el("tbody", {}, list.map(rowFor))
-      ])])
-    ]);
-    var chip = el("button", { class: "chip", type: "button", text: ct[1] });
-    chip.addEventListener("click", function () { det.open = true; det.scrollIntoView({ behavior: "smooth", block: "start" }); });
-    jump.push(chip);
-    groups.push(det);
-  });
-  var table = el("div", { class: "cont-groups" }, [el("div", { class: "chips", "aria-label": "Aller à un continent" }, jump)].concat(groups));
-
   showScreen(el("section", { class: "screen meth" }, [
     el("p", { class: "eyebrow", text: "Méthodologie" }),
     el("h2", { text: "Comment est évaluée la condition de fiscalité du pays de résidence" }),
@@ -415,7 +367,7 @@ function renderMethodologyNow() {
     el("p", { text: "Les sources « officielle » émanent d'une administration fiscale ou d'un ministère. Les sources « non officielle » sont des médias ou des sites juridiques privés : à confirmer auprès des autorités du pays." }),
     el("h3", { text: "Limites" }),
     el("ul", {}, [
-      el("li", { text: "Seuls " + codes.length + " pays sont analysés à ce stade. Tous les autres sont classés « discutable » (non analysés)." }),
+      el("li", { text: "Les pays qui n'ont pas encore été analysés sont classés « discutable » (non analysés)." }),
       el("li", { text: "Les barèmes changent chaque année. Les chiffres reflètent les textes consultés en 2026." }),
       el("li", { text: "Un taux effectif calculé à un seul niveau de revenu ne dit rien des régimes spéciaux (expatriés, non-domiciliés, zones franches)." }),
       el("li", { text: "Japon : l'impôt local (10 %) n'est pas inclus faute de source. Hongrie : la contribution sociale de 13 % n'est pas comptée. Vietnam : ordre de grandeur uniquement. Émirats : source officielle encore à ajouter." })
@@ -425,6 +377,7 @@ function renderMethodologyNow() {
 /* ---------- Page « Toutes les données » (ag-grid) ---------- */
 var AG_URL = "https://cdn.jsdelivr.net/npm/ag-grid-community@36.1.0/dist/ag-grid-community.min.js";
 var agPromise = null;
+
 function loadAgGrid() {
   if (window.agGrid) return Promise.resolve();
   if (!agPromise) agPromise = new Promise(function (resolve, reject) {
