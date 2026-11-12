@@ -167,6 +167,7 @@ function renderStart() {
   var s = el("section", { class: "screen" }, [
     el("p", { class: "eyebrow", text: "Questionnaire" }),
     el("h1", { text: "Seriez-vous concerné·e par l'impôt universel ciblé ?" }),
+    el("p", { class: "subtitle", text: "Ce n'est pas un impôt sur la nationalité française. C'est un « impôt différentiel ciblé » contre l'évasion fiscale : il vise certains départs vers des États à fiscalité largement privilégiée, et non à soumettre indistinctement tous les Français de l'étranger à l'impôt français." }),
     el("p", { class: "lead", text: "Cinq questions, une minute. Vous saurez si vous remplissez les conditions prévues par le texte proposé. Il faut les remplir toutes à la fois." }),
     el("button", { class: "btn", id: "start", type: "button" }, [
       el("span", { text: "Commencer" }),

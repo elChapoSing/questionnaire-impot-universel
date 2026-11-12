@@ -232,3 +232,5 @@ h1, h2 { }
 .static-page .plist{columns:2 220px;list-style:none;padding:0}
 .static-page .plist li{padding:3px 0}
 .static-page .muted{color:var(--muted);font-size:14px}
+
+.subtitle { font-size: 19px; font-weight: 500; line-height: 1.45; max-width: 54ch; margin: 0 0 16px; padding-left: 14px; border-left: 4px solid var(--accent); }
