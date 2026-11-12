@@ -628,7 +628,6 @@ function renderMethodologyNow() {
       el("li", { text: "Pour chaque pays : barème national progressif, auquel s'ajoute l'impôt local ou la surtaxe nationale quand nous avons pu les sourcer. Les cotisations sociales, la TVA, les taxes foncières, l'impôt sur la fortune et l'imposition du capital ne sont pas comptés." }),
       el("li", { text: "Taux de change : cours Yahoo Finance (paires directes contre l'euro, EURxxx=X) fournis et vérifiés le 13 novembre 2026, appliqués à tous les pays sauf mention contraire (Mongolie, Myanmar, Samoa, Sao Tomé-et-Principe, Érythrée : cours Yahoo indisponible, hypothèse conservée et signalée dans la fiche du pays). Les cours bougent : les taux effectifs en devise locale sont recalculés à chaque mise à jour des cours (fichier taux_de_change_EUR_verifie_2026-11-13.csv dans le dépôt). Le niveau de réponse n'est sensible au change que pour les pays proches des bornes de 18 % et 26 %." }),
       el("li", { text: "Les exceptions prévues par des conventions fiscales (par exemple pour les Français résidant à Monaco) ne sont pas modélisées." }),
-      el("li", { text: "Le texte ne précise pas non plus si l'écart de 40 % se mesure sur le taux, sur le montant, ou sur l'ensemble des impôts. Nous avons retenu le taux effectif d'impôt sur le revenu, qui est le plus simple à documenter pays par pays." })
     ]),
     el("h3", { text: "Les trois niveaux de réponse" }),
     el("ul", {}, [
