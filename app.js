@@ -411,9 +411,8 @@ function renderMethodologyNow() {
       el("li", { text: LEVEL_LABEL.above + " : taux estimé supérieur à " + fmtRate(LEVEL_HIGH) + ". La condition est considérée comme non remplie." })
     ]),
     el("h3", { text: "Données par pays et sources" }),
-    el("p", {}, [el("a", { href: "/donnees/", text: "Ouvrir toutes les données dans un tableau interactif (tri, filtres, recherche)" })]),
+    el("p", { class: "linkstack" }, [el("a", { href: "/donnees/", text: "Toutes les données dans un tableau interactif" }), el("br"), el("a", { href: "/fiscalite/", text: "Détail du calcul et sources pays par pays" })]),
     el("p", { text: "Les sources « officielle » émanent d'une administration fiscale ou d'un ministère. Les sources « non officielle » sont des médias ou des sites juridiques privés : à confirmer auprès des autorités du pays." }),
-    el("p", {}, [el("a", { href: "/fiscalite/", text: "Détail du calcul et sources pays par pays" })]),
     el("h3", { text: "Limites" }),
     el("ul", {}, [
       el("li", { text: "Seuls " + codes.length + " pays sont analysés à ce stade. Tous les autres sont classés « discutable » (non analysés)." }),
