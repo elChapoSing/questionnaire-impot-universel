@@ -1,0 +1,22 @@
+{
+  "code": "IR",
+  "nom": "Iran",
+  "rate": 34.8,
+  "range": [
+    29.5,
+    34.9
+  ],
+  "note": "Barème progressif 2026 de 0 % à 35 % au-delà de 6 milliards IRR ; hypothèse de change très volatile (environ 1,6 M IRR par EUR), mais taux peu sensible car la tranche haute domine. Incertitude : le barème salarial spécifique pourrait plafonner à 30 %. Sources secondaires uniquement.",
+  "sources": [
+    {
+      "titre": "TaxAtlas - Iran, impôt sur le revenu",
+      "url": "https://taxatlas.io/country/iran/income-tax",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Rivermate - Iran, fiscalité",
+      "url": "https://rivermate.com/guides/iran/taxes",
+      "type": "non officielle"
+    }
+  ]
+}

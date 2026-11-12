@@ -1,0 +1,13 @@
+{
+  "code": "VA",
+  "nom": "État de la Cité du Vatican",
+  "rate": 0,
+  "note": "Les salariés du Saint-Siège et de l'État de la Cité du Vatican ne paient pas d'impôt sur le revenu ; seules des retenues sociales existent (exclues).",
+  "sources": [
+    {
+      "titre": "Rivermate - Saint-Siège, fiscalité",
+      "url": "https://rivermate.com/guides/holy-see/taxes",
+      "type": "non officielle"
+    }
+  ]
+}

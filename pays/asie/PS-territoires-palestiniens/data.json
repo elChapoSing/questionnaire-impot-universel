@@ -1,0 +1,13 @@
+{
+  "code": "PS",
+  "nom": "Territoires palestiniens",
+  "rate": 13.8,
+  "note": "Barème résidents 2026 : 5 % jusqu'à 75 000 NIS, 10 % jusqu'à 150 000 NIS, 15 % au-delà. Hypothèse : 1 EUR = 3,8 NIS. Déduction standard de 36 000 NIS et autres déductions exclues.",
+  "sources": [
+    {
+      "titre": "Deloitte - Territoires palestiniens, Highlights 2026",
+      "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-palestinianterritorieshighlights-2026.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

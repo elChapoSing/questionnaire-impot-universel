@@ -1,0 +1,22 @@
+{
+  "code": "SB",
+  "nom": "Îles Salomon",
+  "rate": 39.4,
+  "range": [
+    39.2,
+    39.7
+  ],
+  "note": "Barème progressif des résidents en SBD : 11 %, 23 %, 35 % puis 40 % au-delà de 60 000 ou 90 000 selon la source ; franchise de 15 000 environ. Hypothèse : 1 EUR = 9,7 SBD (environ 2 330 000 SBD). Sources non officielles, seuils légèrement divergents mais effet minime sur le taux effectif ; à confirmer auprès de l'administration fiscale.",
+  "sources": [
+    {
+      "titre": "TaxAtlas - Solomon Islands",
+      "url": "https://taxatlas.io/country/solomon-islands",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Rivermate - Solomon Islands taxes",
+      "url": "https://rivermate.com/guides/solomon-islands/taxes",
+      "type": "non officielle"
+    }
+  ]
+}

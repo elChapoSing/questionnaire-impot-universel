@@ -1,0 +1,22 @@
+{
+  "code": "SM",
+  "nom": "Saint-Marin",
+  "rate": 29.6,
+  "range": [
+    29.5,
+    29.7
+  ],
+  "note": "Barème IGR 2026 : de 9 % à 27 % jusqu'à 100 000 EUR, 35 % au-delà (source Fiscomania ; une autre source s'arrête à 50 000 EUR). Appliqué au brut, sans détraction ni déduction des cotisations. À vérifier sur le texte officiel.",
+  "sources": [
+    {
+      "titre": "Fiscomania - fiscalité des frontaliers à Saint-Marin",
+      "url": "https://fiscomania.com/frontalieri-san-marino-tassazione-guida/",
+      "type": "non officielle"
+    },
+    {
+      "titre": "QuiFinanza - Saint-Marin, impôts",
+      "url": "https://quifinanza.it/fisco-tasse/san-marino-tasse-frontalieri/955568/",
+      "type": "non officielle"
+    }
+  ]
+}

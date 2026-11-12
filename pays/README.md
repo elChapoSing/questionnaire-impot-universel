@@ -17,7 +17,7 @@ Le site est régénéré à partir des `data.json` : `python3 scripts/build.py` 
 
 Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul tranche par tranche et signale tout écart de plus de 0,5 point avec `rate`.
 
-## Europe (45)
+## Europe (52)
 
 | Pays | Taux | Verdict | Calcul détaillé |
 |---|---:|---|---|
@@ -26,6 +26,7 @@ Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul t
 | [Andorre](europe/AD-andorre/README.md) | 8,7 % | Nettement en dessous du seuil | non |
 | [Arménie](europe/AM-armenie/README.md) | 20,0 % | Discutable | non |
 | [Autriche](europe/AT-autriche/README.md) | 43,2 % | Nettement au-dessus du seuil | non |
+| [Azerbaïdjan](europe/AZ-azerbaidjan/README.md) | 12,7 % | Nettement en dessous du seuil | non |
 | [Belgique](europe/BE-belgique/README.md) | 46,1 % | Nettement au-dessus du seuil | non |
 | [Biélorussie](europe/BY-bielorussie/README.md) | 20,9 % | Discutable | non |
 | [Bosnie-Herzégovine](europe/BA-bosnie-herzegovine/README.md) | 10,0 % | Nettement en dessous du seuil | non |
@@ -59,13 +60,19 @@ Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul t
 | [Roumanie](europe/RO-roumanie/README.md) | 10,0 % | Nettement en dessous du seuil | non |
 | [Royaume-Uni](europe/GB-royaume-uni/README.md) | 38,4 % | Nettement au-dessus du seuil | non |
 | [Russie](europe/RU-russie/README.md) | 17,4 % | Nettement en dessous du seuil | non |
+| [Saint-Marin](europe/SM-saint-marin/README.md) | 29,6 % | Nettement au-dessus du seuil | non |
 | [Serbie](europe/RS-serbie/README.md) | 18,2 % | Discutable | non |
 | [Slovaquie](europe/SK-slovaquie/README.md) | 31,1 % | Nettement au-dessus du seuil | non |
+| [Slovénie](europe/SI-slovenie/README.md) | 43,6 % | Nettement au-dessus du seuil | non |
 | [Suisse](europe/CH-suisse/README.md) | 25,0 % | Discutable | non |
 | [Suède](europe/SE-suede/README.md) | 47,5 % | Nettement au-dessus du seuil | oui |
+| [Svalbard et Jan Mayen](europe/SJ-svalbard-et-jan-mayen/README.md) | 14,2 % | Nettement en dessous du seuil | non |
 | [Tchéquie](europe/CZ-tchequie/README.md) | 20,6 % | Discutable | non |
 | [Ukraine](europe/UA-ukraine/README.md) | 23,0 % | Discutable | non |
+| [État de la Cité du Vatican](europe/VA-etat-de-la-cite-du-vatican/README.md) | 0,0 % | Nettement en dessous du seuil | non |
 | [Île de Man](europe/IM-ile-de-man/README.md) | 20,7 % | Discutable | non |
+| [Îles Féroé](europe/FO-iles-feroe/README.md) | 44,5 % | Nettement au-dessus du seuil | non |
+| [Îles Åland](europe/AX-iles-aland/README.md) | 39,0 % | Nettement au-dessus du seuil | non |
 
 ## Afrique (4)
 
@@ -76,13 +83,14 @@ Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul t
 | [Maurice](afrique/MU-maurice/README.md) | 19,4 % | Discutable | non |
 | [Égypte](afrique/EG-egypte/README.md) | 27,3 % | Nettement au-dessus du seuil | non |
 
-## Asie et Moyen-Orient (31)
+## Asie et Moyen-Orient (44)
 
 | Pays | Taux | Verdict | Calcul détaillé |
 |---|---:|---|---|
 | [Arabie saoudite](asie/SA-arabie-saoudite/README.md) | 0,0 % | Nettement en dessous du seuil | non |
 | [Bahreïn](asie/BH-bahrein/README.md) | 0,0 % | Nettement en dessous du seuil | non |
 | [Bangladesh](asie/BD-bangladesh/README.md) | 28,9 % | Nettement au-dessus du seuil | non |
+| [Bhoutan](asie/BT-bhoutan/README.md) | 28,3 % | Nettement au-dessus du seuil | non |
 | [Brunei](asie/BN-brunei/README.md) | 0,0 % | Nettement en dessous du seuil | non |
 | [Cambodge](asie/KH-cambodge/README.md) | 18,7 % | Discutable | non |
 | [Chine](asie/CN-chine/README.md) | 35,2 % | Nettement au-dessus du seuil | non |
@@ -90,13 +98,20 @@ Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul t
 | [Hong Kong (Chine)](asie/HK-hong-kong-chine/README.md) | 15,0 % | Nettement en dessous du seuil | non |
 | [Inde](asie/IN-inde/README.md) | 36,9 % | Nettement au-dessus du seuil | non |
 | [Indonésie](asie/ID-indonesie/README.md) | 28,9 % | Nettement au-dessus du seuil | non |
+| [Irak](asie/IQ-irak/README.md) | 15,0 % | Nettement en dessous du seuil | non |
+| [Iran](asie/IR-iran/README.md) | 34,8 % | Nettement au-dessus du seuil | non |
 | [Israël](asie/IL-israel/README.md) | 35,4 % | Nettement au-dessus du seuil | non |
 | [Japon](asie/JP-japon/README.md) | 35,0 % | Nettement au-dessus du seuil | non |
+| [Jordanie](asie/JO-jordanie/README.md) | 23,7 % | Discutable | non |
 | [Kazakhstan](asie/KZ-kazakhstan/README.md) | 13,6 % | Nettement en dessous du seuil | non |
+| [Kirghizstan](asie/KG-kirghizstan/README.md) | 10,0 % | Nettement en dessous du seuil | non |
 | [Koweït](asie/KW-koweit/README.md) | 0,0 % | Nettement en dessous du seuil | non |
 | [Laos](asie/LA-laos/README.md) | 23,9 % | Discutable | non |
+| [Liban](asie/LB-liban/README.md) | 24,8 % | Discutable | non |
+| [Macao (Chine)](asie/MO-macao-chine/README.md) | 11,0 % | Nettement en dessous du seuil | non |
 | [Malaisie](asie/MY-malaisie/README.md) | 25,2 % | Discutable | non |
 | [Maldives](asie/MV-maldives/README.md) | 10,0 % | Nettement en dessous du seuil | non |
+| [Mongolie](asie/MN-mongolie/README.md) | 18,5 % | Discutable | non |
 | [Myanmar (Birmanie)](asie/MM-myanmar-birmanie/README.md) | 24,0 % | Discutable | non |
 | [Népal](asie/NP-nepal/README.md) | 27,7 % | Nettement au-dessus du seuil | non |
 | [Oman](asie/OM-oman/README.md) | 0,0 % | Nettement en dessous du seuil | non |
@@ -106,19 +121,25 @@ Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul t
 | [Qatar](asie/QA-qatar/README.md) | 0,0 % | Nettement en dessous du seuil | non |
 | [Singapour](asie/SG-singapour/README.md) | 14,7 % | Nettement en dessous du seuil | non |
 | [Sri Lanka](asie/LK-sri-lanka/README.md) | 34,6 % | Nettement au-dessus du seuil | non |
+| [Tadjikistan](asie/TJ-tadjikistan/README.md) | 13,0 % | Nettement en dessous du seuil | non |
 | [Taïwan](asie/TW-taiwan/README.md) | 29,8 % | Nettement au-dessus du seuil | non |
+| [Territoires palestiniens](asie/PS-territoires-palestiniens/README.md) | 13,8 % | Nettement en dessous du seuil | non |
 | [Thaïlande](asie/TH-thailande/README.md) | 29,7 % | Nettement au-dessus du seuil | non |
+| [Timor oriental](asie/TL-timor-oriental/README.md) | 9,8 % | Nettement en dessous du seuil | non |
+| [Turkménistan](asie/TM-turkmenistan/README.md) | 10,0 % | Nettement en dessous du seuil | non |
 | [Turquie](asie/TR-turquie/README.md) | 36,5 % | Nettement au-dessus du seuil | non |
 | [Viêt Nam](asie/VN-viet-nam/README.md) | 34,0 % | Nettement au-dessus du seuil | non |
+| [Yémen](asie/YE-yemen/README.md) | 15,0 % | Nettement en dessous du seuil | non |
 | [Émirats arabes unis](asie/AE-emirats-arabes-unis/README.md) | 0,0 % | Nettement en dessous du seuil | non |
 
-## Amérique du Nord, centrale et Caraïbes (9)
+## Amérique du Nord, centrale et Caraïbes (10)
 
 | Pays | Taux | Verdict | Calcul détaillé |
 |---|---:|---|---|
 | [Bahamas](amerique-du-nord/BS-bahamas/README.md) | 0,0 % | Nettement en dessous du seuil | non |
 | [Canada](amerique-du-nord/CA-canada/README.md) | 36,0 % | Nettement au-dessus du seuil | non |
 | [Costa Rica](amerique-du-nord/CR-costa-rica/README.md) | 20,4 % | Discutable | non |
+| [Groenland](amerique-du-nord/GL-groenland/README.md) | 43,0 % | Nettement au-dessus du seuil | non |
 | [Guatemala](amerique-du-nord/GT-guatemala/README.md) | 6,7 % | Nettement en dessous du seuil | non |
 | [Mexique](amerique-du-nord/MX-mexique/README.md) | 31,6 % | Nettement au-dessus du seuil | non |
 | [Panama](amerique-du-nord/PA-panama/README.md) | 22,5 % | Discutable | non |
@@ -139,7 +160,7 @@ Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul t
 | [Uruguay](amerique-du-sud/UY-uruguay/README.md) | 26,0 % | Discutable | non |
 | [Équateur](amerique-du-sud/EC-equateur/README.md) | 31,0 % | Nettement au-dessus du seuil | non |
 
-## Océanie (5)
+## Océanie (9)
 
 | Pays | Taux | Verdict | Calcul détaillé |
 |---|---:|---|---|
@@ -148,3 +169,7 @@ Le bloc `calc` est facultatif : s'il est présent, le README affiche le calcul t
 | [Nouvelle-Zélande](oceanie/NZ-nouvelle-zelande/README.md) | 34,6 % | Nettement au-dessus du seuil | non |
 | [Papouasie-Nouvelle-Guinée](oceanie/PG-papouasie-nouvelle-guinee/README.md) | 40,6 % | Nettement au-dessus du seuil | non |
 | [Samoa](oceanie/WS-samoa/README.md) | 26,3 % | Nettement au-dessus du seuil | non |
+| [Vanuatu](oceanie/VU-vanuatu/README.md) | 0,0 % | Nettement en dessous du seuil | non |
+| [Îles Cook](oceanie/CK-iles-cook/README.md) | 28,3 % | Nettement au-dessus du seuil | non |
+| [Îles Marshall](oceanie/MH-iles-marshall/README.md) | 11,9 % | Nettement en dessous du seuil | non |
+| [Îles Salomon](oceanie/SB-iles-salomon/README.md) | 39,4 % | Nettement au-dessus du seuil | non |

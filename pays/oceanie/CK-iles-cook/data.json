@@ -1,0 +1,17 @@
+{
+  "code": "CK",
+  "nom": "Îles Cook",
+  "rate": 28.3,
+  "range": [
+    28.2,
+    28.4
+  ],
+  "note": "Barème des résidents de Rarotonga (loi modificative 2023) : 0 % jusqu'à 14 600, 17 % jusqu'à 30 000, 27 % jusqu'à 80 000, 30 % au-delà. Hypothèse : 1 EUR = 1,95 NZD (soit environ 468 600 NZD). Abattement personnel de 14 600 non appliqué en plus de la tranche à 0 %. Les résidents des îles périphériques ont un barème différent (exonération jusqu'à 60 000) ; non retenu.",
+  "sources": [
+    {
+      "titre": "Cook Islands - Income Tax Amendment Act 2023 (PacLII)",
+      "url": "https://pacliirms.paclii.org/ck/legis/num_act/itaa2023196",
+      "type": "officielle"
+    }
+  ]
+}

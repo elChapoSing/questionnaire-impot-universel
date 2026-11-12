@@ -1,0 +1,13 @@
+{
+  "code": "BT",
+  "nom": "Bhoutan",
+  "rate": 28.3,
+  "note": "Nouveau barème Income Tax Act 2025, en vigueur 2026 : taux de 5 % à 30 %, 30 % au-delà de 3,5 M Nu. Hypothèse : 1 EUR = 100 BTN (peg à la roupie indienne). Taux peu sensible au change. Pas de surtaxe mentionnée dans la notification.",
+  "sources": [
+    {
+      "titre": "Département des recettes (DRC) - notification Income Tax Act",
+      "url": "https://www.drc.gov.bt/wp-content/uploads/2025/12/Public-Notification-on-new-Income-Tax-Act.docx-1.pdf",
+      "type": "officielle"
+    }
+  ]
+}

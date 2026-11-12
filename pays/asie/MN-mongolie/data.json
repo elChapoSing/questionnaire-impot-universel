@@ -1,0 +1,22 @@
+{
+  "code": "MN",
+  "nom": "Mongolie",
+  "rate": 18.5,
+  "range": [
+    18.4,
+    18.5
+  ],
+  "note": "Barème 2026 sur salaires : 10 % jusqu'à 120 M MNT, 15 % jusqu'à 180 M, 20 % au-delà (nouveau barème prévu au 1er janvier 2027, non retenu). Hypothèse : 1 EUR = 4 150 MNT. Une exonération des 9,6 premiers millions (source Mercans) change à peine le taux. Cas proche de la bande 18 à 26 %.",
+  "sources": [
+    {
+      "titre": "KPMG Mongolie - Mongolian Tax Law Update 2026",
+      "url": "https://assets.kpmg.com/content/dam/kpmgsites/mn/pdf/Mongolian-Tax-Law-Update-2026.pdf.coredownload.inline.pdf",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Mercans - Mongolie, changements de taux 2026",
+      "url": "https://mercans.com/wp-content/uploads/2025/12/Mongolia_Changes-in-Tax-Rates-1st-January-2026.pdf",
+      "type": "non officielle"
+    }
+  ]
+}

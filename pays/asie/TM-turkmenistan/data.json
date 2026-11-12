@@ -1,0 +1,13 @@
+{
+  "code": "TM",
+  "nom": "Turkménistan",
+  "rate": 10,
+  "note": "Taux général de 10 % applicable aux revenus du travail. Données PwC revues en 2024.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Turkménistan",
+      "url": "https://taxsummaries.pwc.com/turkmenistan/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

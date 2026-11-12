@@ -1,0 +1,13 @@
+{
+  "code": "SI",
+  "nom": "Slovénie",
+  "rate": 43.6,
+  "note": "Barème 2026 : 16 %, 26 %, 33 %, 39 % puis 50 % au-delà de 82 346 EUR, appliqué au brut sans abattement (allocation générale de 5 552 EUR exclue). En réalité la base est nette des cotisations salariales, ce qui baisserait nettement le taux.",
+  "sources": [
+    {
+      "titre": "RegFollower - barème slovène 2026 (ministère des Finances)",
+      "url": "https://regfollower.com/slovenia-ministry-of-finance-publishes-2026-personal-income-tax-brackets-allowances/",
+      "type": "non officielle"
+    }
+  ]
+}

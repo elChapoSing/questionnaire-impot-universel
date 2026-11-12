@@ -1,0 +1,22 @@
+{
+  "code": "FO",
+  "nom": "Îles Féroé",
+  "rate": 44.5,
+  "range": [
+    41.5,
+    48.5
+  ],
+  "note": "Impôt national 2026 progressif de 13 % à 30 % (30 % au-delà de 600 000 DKK, base de 98 950). Impôt communal forfaitaire de 16 à 23 % selon la commune (19 % retenu au centre de la fourchette). Hypothèse : 1 EUR = 7,46 DKK. Taxe d'église (0,6 à 0,9 %) exclue.",
+  "sources": [
+    {
+      "titre": "Administration fiscale féroïenne (TAKS) - barème de l'impôt national",
+      "url": "https://www.taks.fo/fo/borgari/gjold-og-agodar/landsskattatalva/",
+      "type": "officielle"
+    },
+    {
+      "titre": "TAKS - fiscalité aux Îles Féroé",
+      "url": "https://www.taks.fo/en/individuals/tax/taxation-in-the-faroes/",
+      "type": "officielle"
+    }
+  ]
+}

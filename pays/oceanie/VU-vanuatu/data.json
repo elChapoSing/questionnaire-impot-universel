@@ -1,0 +1,13 @@
+{
+  "code": "VU",
+  "nom": "Vanuatu",
+  "rate": 0,
+  "note": "Pas d'impôt sur le revenu des personnes physiques au Vanuatu (seuls TVA et droits indirects).",
+  "sources": [
+    {
+      "titre": "Invest Vanuatu - fiscalité faible",
+      "url": "https://investvanuatu.vu/untapped-potential/low-tax-jurisdiction/",
+      "type": "officielle"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": "IQ",
+  "nom": "Irak",
+  "rate": 15,
+  "note": "Barème salarial : 3 %, 5 %, 10 % puis 15 % au-delà de 1 M IQD par an. Hypothèse : 1 EUR = 1 500 IQD. Région du Kurdistan : 5 % forfaitaire. Abattements personnels exclus.",
+  "sources": [
+    {
+      "titre": "Lloyds Bank Trade - Irak, fiscalité",
+      "url": "https://www.lloydsbanktrade.com/en/market-potential/iraq/taxes",
+      "type": "non officielle"
+    }
+  ]
+}

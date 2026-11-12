@@ -1,0 +1,22 @@
+{
+  "code": "AZ",
+  "nom": "Azerbaïdjan",
+  "rate": 12.7,
+  "range": [
+    12.7,
+    24.3
+  ],
+  "note": "Hypothèse : 1 EUR = 1,97 AZN. Barème général 2026 (secteur privé non pétrolier) : 3 % jusqu'à 2 500 AZN/mois, 10 % jusqu'à 8 000, 14 % au-delà. Si secteur pétrole/gaz ou public : 14 % puis 25 % au-delà de 2 500, soit environ 24,3 %. Sources partiellement divergentes sur les tranches hautes.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Azerbaïdjan",
+      "url": "https://taxsummaries.pwc.com/Azerbaijan/Individual/Taxes-on-personal-income",
+      "type": "non officielle"
+    },
+    {
+      "titre": "APA - taux d'impôt sur le revenu 2026",
+      "url": "https://en.apa.az/finance/azerbaijan-implements-regions-lowest-income-tax-rates-under-new-phased-approach-says-deputy-minister-482952",
+      "type": "non officielle"
+    }
+  ]
+}

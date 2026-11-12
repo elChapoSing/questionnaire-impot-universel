@@ -1,0 +1,22 @@
+{
+  "code": "LB",
+  "nom": "Liban",
+  "rate": 24.8,
+  "range": [
+    24.7,
+    24.9
+  ],
+  "note": "Taxe sur les salaires progressive de 2 % à 25 % ; taux marginal de 25 % au-delà de 675 M LBP (PwC) ou 120 M LBP (TaxAtlas) selon la source, d'où la fourchette. Hypothèse : 1 EUR = 103 800 LBP (taux officiel d'environ 89 500 LBP par USD).",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Liban",
+      "url": "https://taxsummaries.pwc.com/lebanon/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    },
+    {
+      "titre": "TaxAtlas - Liban, impôt sur le revenu",
+      "url": "https://taxatlas.io/country/lebanon/income-tax",
+      "type": "non officielle"
+    }
+  ]
+}

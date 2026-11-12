@@ -1,0 +1,22 @@
+{
+  "code": "GL",
+  "nom": "Groenland",
+  "rate": 43,
+  "range": [
+    42,
+    44
+  ],
+  "note": "Impôt proportionnel : communal 26 à 28 %, national 10 % et commun 6 %, soit 42 à 44 % selon la commune (hors zones communales : 36 %). Pourcentages cités comme ceux de 2020 par PwC, à vérifier. Régime spécial de 35 % pour certains travaux pétroliers ou miniers.",
+  "sources": [
+    {
+      "titre": "Administration fiscale groenlandaise (Aka) - taux d'impôt",
+      "url": "https://aka.gl/en/individuals/tax/tax-rates",
+      "type": "officielle"
+    },
+    {
+      "titre": "PwC Tax Summaries - Groenland",
+      "url": "https://taxsummaries.pwc.com/Greenland/Individual/Taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "code": "SJ",
+  "nom": "Svalbard et Jan Mayen",
+  "rate": 14.2,
+  "range": [
+    13.9,
+    14.4
+  ],
+  "note": "Régime spécial du Svalbard : 8 % jusqu'à 12 fois le montant de base de l'assurance nationale, 22 % au-delà. Hypothèses : 1 EUR = 11,7 NOK ; montant de base d'environ 130 000 NOK, d'où la fourchette.",
+  "sources": [
+    {
+      "titre": "Administration fiscale norvégienne - taux au Svalbard",
+      "url": "https://www.skatteetaten.no/en/rates/tax-rates-on-svalbard",
+      "type": "officielle"
+    }
+  ]
+}

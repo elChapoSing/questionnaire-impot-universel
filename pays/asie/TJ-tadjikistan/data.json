@@ -1,0 +1,22 @@
+{
+  "code": "TJ",
+  "nom": "Tadjikistan",
+  "rate": 13,
+  "range": [
+    12,
+    13
+  ],
+  "note": "Sources divergentes : TaxAtlas 2026 indique 8 % puis 13 % au-delà de 840 somonis par mois ; PwC (revu en 2024) indique 12 % au-delà d'une déduction personnelle. Effet de la tranche à 8 % négligeable à ce niveau de revenu.",
+  "sources": [
+    {
+      "titre": "TaxAtlas - Tadjikistan, impôt sur le revenu",
+      "url": "https://taxatlas.io/country/tajikistan/income-tax",
+      "type": "non officielle"
+    },
+    {
+      "titre": "PwC Tax Summaries - Tadjikistan",
+      "url": "https://taxsummaries.pwc.com/tajikistan/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

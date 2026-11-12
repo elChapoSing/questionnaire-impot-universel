@@ -1,0 +1,17 @@
+{
+  "code": "TL",
+  "nom": "Timor oriental",
+  "rate": 9.8,
+  "range": [
+    9.8,
+    10
+  ],
+  "note": "Impôt sur les salaires des résidents : 10 % au-delà d'un seuil de 500 USD (mensuel selon la loi, annuel selon la formulation de PwC, d'où la fourchette). Hypothèse : 1 EUR = 1,16 USD.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Timor-Leste",
+      "url": "https://taxsummaries.pwc.com/timor-leste/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

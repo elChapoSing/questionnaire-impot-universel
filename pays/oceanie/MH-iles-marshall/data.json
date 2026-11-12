@@ -1,0 +1,17 @@
+{
+  "code": "MH",
+  "nom": "Îles Marshall",
+  "rate": 11.9,
+  "range": [
+    11.6,
+    11.9
+  ],
+  "note": "Taxe sur salaires : 8 % sur les premiers 10 400 USD, 12 % au-delà (loi modificative 2025, en vigueur au 1er octobre 2025). Hypothèse : 1 EUR = 1,16 USD (environ 278 750 USD). Une source non officielle évoque une franchise de 8 320 USD, contradictoire avec le texte de loi ; le texte de loi est retenu.",
+  "sources": [
+    {
+      "titre": "Marshall Islands - Income Tax (Amendment) Act 2025 (PacLII)",
+      "url": "https://pacliirms.paclii.org/mh/legis/num_act/ita2025pl342025286.pdf",
+      "type": "officielle"
+    }
+  ]
+}

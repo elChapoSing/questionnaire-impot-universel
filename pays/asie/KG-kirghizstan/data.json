@@ -1,0 +1,18 @@
+{
+  "code": "KG",
+  "nom": "Kirghizstan",
+  "rate": 10,
+  "note": "Taux forfaitaire de 10 % sur les revenus du travail. Cotisations sociales exclues. Données PwC revues en 2024.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Kirghizistan",
+      "url": "https://taxsummaries.pwc.com/Kyrgyzstan/Individual/Taxes-on-personal-income",
+      "type": "non officielle"
+    },
+    {
+      "titre": "Agence nationale d'investissement du Kirghizistan - fiscalité",
+      "url": "https://invest.gov.kg/en/invest-compass/taxes/taxation",
+      "type": "non officielle"
+    }
+  ]
+}

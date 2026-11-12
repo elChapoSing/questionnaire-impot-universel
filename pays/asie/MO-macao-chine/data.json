@@ -1,0 +1,13 @@
+{
+  "code": "MO",
+  "nom": "Macao (Chine)",
+  "rate": 11,
+  "note": "Impôt professionnel 2026 : 0 % jusqu'à 144 000 MOP, puis 7 % à 12 % (12 % au-delà de 424 000 MOP). Hypothèse : 1 EUR = 9,3 MOP. La déduction forfaitaire de 25 % sur le revenu salarial, si appliquée, ramènerait le taux autour de 8 %.",
+  "sources": [
+    {
+      "titre": "PwC Tax Summaries - Macao",
+      "url": "https://taxsummaries.pwc.com/macau-sar/individual/taxes-on-personal-income",
+      "type": "non officielle"
+    }
+  ]
+}

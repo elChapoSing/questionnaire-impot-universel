@@ -1,0 +1,22 @@
+{
+  "code": "AX",
+  "nom": "Îles Åland",
+  "rate": 39,
+  "range": [
+    38.3,
+    41
+  ],
+  "note": "Barème d'État spécifique à Åland 2026 (24,86 % au-delà de 52 100 EUR) plus impôt communal moyen de 17,67 % (de 17,0 à 19,7 % selon la commune, d'où la fourchette). Taxe d'église, assurance maladie et déductions exclues.",
+  "sources": [
+    {
+      "titre": "Administration fiscale finlandaise - imposition à Åland",
+      "url": "https://vero.fi/sv/Detaljerade_skatteanvisningar/anvisningar/48911/beskattningen-pa-aland8/",
+      "type": "officielle"
+    },
+    {
+      "titre": "Association des communes de Finlande - taux 2026",
+      "url": "https://www.kommunforbundet.fi/sites/default/files/media/file/Kommunernas-skattesatser-2026.pdf",
+      "type": "non officielle"
+    }
+  ]
+}
