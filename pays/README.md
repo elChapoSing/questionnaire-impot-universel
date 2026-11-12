@@ -2,7 +2,7 @@
 
 Un dossier par continent, puis par pays. Chaque pays a un `README.md` (calcul, hypothèses, sources) et un `data.json` (source de vérité).
 
-Le site est régénéré à partir des `data.json` : `python3 scripts/build.py` met à jour les README et le bloc `COUNTRY_DATA` d'`index.html`. Ne pas éditer `COUNTRY_DATA` à la main.
+Le site lit directement les `data.json` (via `pays/index.json`) : modifier un `data.json` suffit pour mettre le site à jour. Les README et `pays/index.json` sont régénérés automatiquement par une GitHub Action à chaque push (ou à la main : `python3 scripts/build.py`). Pour ajouter un pays, créer son dossier avec un `data.json`, le reste est automatique.
 
 ## Format de `data.json`
 

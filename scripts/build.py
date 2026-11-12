@@ -3,7 +3,7 @@
 Usage :
   python3 scripts/build.py migrate   # une fois : crée pays/ à partir de COUNTRY_DATA (index.html)
   python3 scripts/build.py import lot.txt  # importe un lot d'entrées JS puis régénère
-  python3 scripts/build.py           # régénère les README pays, pays/README.md et COUNTRY_DATA dans index.html
+  python3 scripts/build.py           # régénère les README pays, pays/README.md et pays/index.json (le site lit les data.json directement)
 """
 import json, os, re, subprocess, sys, unicodedata, glob
 sys.path.insert(0, os.path.dirname(__file__))
@@ -140,7 +140,7 @@ def build():
         open(os.path.join(p, "README.md"), "w", encoding="utf-8").write(readme(d))
     idx = ["# Calculs par pays", "",
            "Un dossier par continent, puis par pays. Chaque pays a un `README.md` (calcul, hypothèses, sources) et un `data.json` (source de vérité).", "",
-           "Le site est régénéré à partir des `data.json` : `python3 scripts/build.py` met à jour les README et le bloc `COUNTRY_DATA` d'`index.html`. Ne pas éditer `COUNTRY_DATA` à la main.", "",
+           "Le site lit directement les `data.json` (via `pays/index.json`) : modifier un `data.json` suffit pour mettre le site à jour. Les README et `pays/index.json` sont régénérés automatiquement par une GitHub Action à chaque push (ou à la main : `python3 scripts/build.py`). Pour ajouter un pays, créer son dossier avec un `data.json`, le reste est automatique.", "",
            "## Format de `data.json`", "",
            "```json", '{ "code": "SE", "nom": "Suède", "rate": 47.5, "note": "…",', '  "sources": [{ "titre": "…", "url": "https://…", "type": "officielle|non officielle" }],',
            '  "calc": { "devise": "SEK", "fx": 11, "fx_source": "Yahoo Finance EURSEK=X",', '    "deductions": [["libellé", 0]],', '    "tranches": [[0, 643000, 32.38], [643000, null, 52.38]],',
@@ -155,10 +155,8 @@ def build():
             idx.append(f"| [{d['nom']}]({rel}/README.md) | {fr(d['rate'])} % | {LV[level(d['rate'])].split(' (')[0]} | {'oui' if d.get('calc') else 'non'} |")
         idx.append("")
     open(os.path.join(PAYS, "README.md"), "w", encoding="utf-8").write("\n".join(idx))
-    s = open(IDX, encoding="utf-8").read()
-    a = s.index("var COUNTRY_DATA = {"); b = s.index("\n};", a) + 3
-    s = s[:a] + "var COUNTRY_DATA = {\n" + ",\n".join(js_entry(d) for d in ds) + "\n};" + s[b:]
-    open(IDX, "w", encoding="utf-8").write(s)
+    ix = {d["code"]: os.path.relpath(path_of(d), PAYS).replace(os.sep, "/") for d in ds}
+    json.dump(ix, open(os.path.join(PAYS, "index.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1, sort_keys=True)
     print(len(ds), "pays générés")
 
 if __name__ == "__main__":

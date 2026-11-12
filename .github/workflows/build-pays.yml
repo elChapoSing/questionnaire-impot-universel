@@ -1,0 +1,19 @@
+name: Régénérer README pays et index
+on:
+  push:
+    branches: [main]
+    paths: ["pays/**/data.json", "scripts/**"]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/build.py
+      - name: Commit des fichiers générés
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pays
+          git diff --cached --quiet || (git commit -m "Régénère README pays et index [skip ci]" && git push)
