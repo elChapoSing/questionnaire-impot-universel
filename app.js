@@ -449,7 +449,7 @@ function renderDataNow(gridOk) {
   var head = [
     el("p", { class: "eyebrow", text: "Données" }),
     el("h2", { text: "Toutes les données par pays" }),
-    el("p", { class: "lead" }, [document.createTextNode(rows.length + " pays. Cliquez sur un en-tête pour trier, sur l'icône de filtre pour filtrer, ou tapez dans la recherche. Méthode et hypothèses : "), el("a", { href: "/methodologie/", text: "page Méthodologie" }), document.createTextNode(".")])
+    el("p", { class: "lead" }, [document.createTextNode(rows.length + " pays. Cliquez sur un en-tête pour trier, sur l'icône de filtre pour filtrer, ou tapez dans la recherche. Le détail du calcul de chaque pays est disponible en cliquant sur son nom. Méthode et hypothèses : "), el("a", { href: "/methodologie/", text: "page Méthodologie" }), document.createTextNode(".")])
   ];
   if (!gridOk || !window.agGrid) {
     showScreen(el("section", { class: "screen" }, head.concat([el("p", { text: "Le composant de tableau n'a pas pu être chargé (connexion). Les mêmes données sont sur la page Méthodologie." })])));
