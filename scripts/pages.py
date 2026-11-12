@@ -18,7 +18,7 @@ SHORT = {"below": "Nettement en dessous du seuil", "debatable": "Discutable", "a
 
 def e(s): return html.escape(str(s), quote=True)
 
-NAV = [("/", "Questionnaire", "accueil"), ("/methodologie/", "Méthodologie", "methodologie"), ("/donnees/", "Données", "donnees"), ("/fiscalite/", "Fiscalité par pays", "fiscalite")]
+NAV = [("/", "Questionnaire", "accueil"), ("/donnees/", "Données", "donnees"), ("/fiscalite/", "Fiscalité par pays", "fiscalite"), ("/methodologie/", "Méthodologie", "methodologie")]
 
 def nav(active):
     a = "".join(f'<a href="{h}"' + (' aria-current="page"' if k == active else "") + f">{l}</a>" for h, l, k in NAV)

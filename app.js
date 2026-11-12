@@ -349,6 +349,12 @@ function renderMethodology() {
 }
 function renderMethodologyNow() {
   var codes = Object.keys(COUNTRY_DATA).sort(function (a, b) { return countryName(a).localeCompare(countryName(b), "fr", { sensitivity: "base" }); });
+
+  showScreen(el("section", { class: "screen meth" }, [el("h2", { text: "Méthodologie" }), el("p", { text: "Chargement des données pays…" })]));
+  loadAllCountries().then(function () { if (PAGE === "methodologie") renderMethodologyNow(); });
+}
+function renderMethodologyNow() {
+  var codes = Object.keys(COUNTRY_DATA).sort(function (a, b) { return countryName(a).localeCompare(countryName(b), "fr", { sensitivity: "base" }); });
   var CONTINENTS = [["europe", "Europe"], ["afrique", "Afrique"], ["asie", "Asie et Moyen-Orient"], ["amerique-du-nord", "Amérique du Nord, centrale et Caraïbes"], ["amerique-du-sud", "Amérique du Sud"], ["oceanie", "Océanie"]];
   function rowFor(c) {
     var d = COUNTRY_DATA[c];
@@ -407,7 +413,7 @@ function renderMethodologyNow() {
     el("h3", { text: "Données par pays et sources" }),
     el("p", {}, [el("a", { href: "/donnees/", text: "Ouvrir toutes les données dans un tableau interactif (tri, filtres, recherche)" })]),
     el("p", { text: "Les sources « officielle » émanent d'une administration fiscale ou d'un ministère. Les sources « non officielle » sont des médias ou des sites juridiques privés : à confirmer auprès des autorités du pays." }),
-    table,
+    el("p", {}, [el("a", { href: "/fiscalite/", text: "Détail du calcul et sources pays par pays" })]),
     el("h3", { text: "Limites" }),
     el("ul", {}, [
       el("li", { text: "Seuls " + codes.length + " pays sont analysés à ce stade. Tous les autres sont classés « discutable » (non analysés)." }),
