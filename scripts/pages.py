@@ -13,6 +13,7 @@ COMMENT = {
     "debatable": "Cas discutable. L'écart avec la France est proche du seuil de 40 %, et le résultat dépend de la méthode de comparaison : cotisations sociales, revenus du capital, régimes spéciaux. Ne tirez pas de conclusion définitive.",
     "above": "Fiscalité proche de celle de la France, ou supérieure. D'après nos calculs, l'impôt sur le revenu effectif dans ce pays dépasse nettement le seuil de 21,1 %, donc l'écart avec la France est inférieur à 40 %. Ce pays ne remplirait pas la condition.",
 }
+CAT = {"below": "Potentiellement concerné·e", "debatable": "Cas discutable : à examiner", "above": "Pas concerné·e"}
 SHORT = {"below": "Nettement en dessous du seuil", "debatable": "Discutable", "above": "Nettement au-dessus du seuil"}
 
 def e(s): return html.escape(str(s), quote=True)
@@ -63,6 +64,7 @@ def country_page(d, slug, cont_label, lv, fr, compute, LV_THRESHOLD, FR_RATE, SA
     o.append(f'<p class="crumb"><a href="/">Questionnaire</a> › <a href="/{OUT}/">Pays</a> › {e(d["nom"])}</p>')
     o.append(f'<p class="eyebrow">{e(cont_label)}</p>')
     o.append(f'<h1>Impôt sur le revenu : {e(d["nom"])}</h1>')
+    o.append(f'<p><span class="lvlchip cat {lv}">{CAT[lv]}</span></p>')
     o.append(f'<p class="big">{e(rr)}</p>')
     o.append(f'<p>Taux effectif estimé pour une personne seule, sans enfant, qui gagne {fr(SALAIRE, 0)} € par an (5 × le plafond de la Sécurité sociale 2026). '
              f'Seuil de l\'amendement : {fr(LV_THRESHOLD, 2)} %, soit 60 % du taux français ({fr(FR_RATE, 2)} %).</p>')
@@ -111,7 +113,7 @@ def index_page(items, CONT_LABEL, fr):
         if not sel: continue
         o.append(f"<h2>{e(lab)} ({len(sel)})</h2><ul class=\"plist\">")
         for i in sel:
-            o.append(f'<li><a href="/{OUT}/{i["slug"]}/">{e(i["nom"])}</a> <span class="muted">{e(i["rr"])}</span></li>')
+            o.append(f'<li><a href="/{OUT}/{i["slug"]}/">{e(i["nom"])}</a> <span class="muted">{e(i["rr"])}</span> <span class="lvlchip {i["lv"]}">{CAT[i["lv"]]}</span></li>')
         o.append("</ul>")
     o.append(FOOT)
     return "\n".join(o)
