@@ -30,7 +30,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Barème 2026 : 10 % jusqu'à 84 120 shekels, puis 14, 20, 31, 35 et 47 %, enfin 50 % au-delà de 721 560 (surtaxe incluse). À 240 300 €, le taux effectif est d'environ 35,4 %, de 33,8 % à 3,5 shekels à 36,5 % à 4,2. Points de crédit exclus (environ 6 500 shekels).
+Barème 2026 : 10 % jusqu'à 84 120 shekels, puis 14, 20, 31, 35 et 47 %, enfin 50 % au-delà de 721 560 (surtaxe incluse). À 240 300 €, le taux effectif est d'environ 33,9 %. Points de crédit exclus (environ 6 500 shekels).
 
 ## Sources
 

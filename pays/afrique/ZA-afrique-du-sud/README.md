@@ -29,7 +29,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Barème 2026/27 : 666 339 rands + 45 % de la part de revenu imposable au-dessus de 1 878 600 rands, moins l'abattement principal de 17 820 rands. À 240 300 €, le taux effectif est d'environ 40,9 %.
+Barème 2026/27 : 666 339 rands + 45 % de la part de revenu imposable au-dessus de 1 878 600 rands, moins l'abattement principal de 17 820 rands. À 240 300 €, le taux effectif est d'environ 40,6 %.
 
 ## Sources
 

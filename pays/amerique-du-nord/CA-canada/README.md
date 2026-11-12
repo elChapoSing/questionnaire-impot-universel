@@ -34,7 +34,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Impôt fédéral : 14 % à 33 % (barème 2026), soit 25,4 % à ce revenu. Avec l'Ontario (5,05 % à 13,16 %, sans la surtaxe) : environ 36 %. Les autres provinces vont de 8 % (Alberta, première tranche) à 25,75 % (Québec, tranche haute). Taux marginal maximal combiné : de 44,5 % à 58,75 % selon la province.
+Impôt fédéral : 14 % à 33 % (barème 2026), soit 25,4 % à ce revenu. Avec l'Ontario (5,05 % à 13,16 %, sans la surtaxe) : environ 36,2 %. Les autres provinces vont de 8 % (Alberta, première tranche) à 25,75 % (Québec, tranche haute). Taux marginal maximal combiné : de 44,5 % à 58,75 % selon la province.
 
 ## Sources
 

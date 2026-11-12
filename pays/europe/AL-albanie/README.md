@@ -24,7 +24,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Salaires depuis 2025 : 13 % jusqu'à 2 040 000 lekë par an, 23 % au-delà, sans abattement personnel. À 240 300 €, soit environ 23,5 millions de lekë, le taux effectif est d'environ 22,1 %.
+Salaires depuis 2025 : 13 % jusqu'à 2 040 000 lekë par an, 23 % au-delà, sans abattement personnel. À 240 300 €, soit environ 23,5 millions de lekë, le taux effectif est d'environ 22,0 %.
 
 ## Sources
 

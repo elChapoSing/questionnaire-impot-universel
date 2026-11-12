@@ -25,7 +25,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Barème général 2026 (secteur privé non pétrolier) : 3 % jusqu'à 2 500 AZN/mois, 10 % jusqu'à 8 000, 14 % au-delà. Si secteur pétrole/gaz ou public : 14 % puis 25 % au-delà de 2 500, soit environ 24,3 %. Sources partiellement divergentes sur les tranches hautes.
+Barème général 2026 (secteur privé non pétrolier) : 3 % jusqu'à 2 500 AZN/mois, 10 % jusqu'à 8 000, 14 % au-delà. Si secteur pétrole/gaz ou public : 14 % puis 25 % au-delà de 2 500, soit environ 24,2 %. Sources partiellement divergentes sur les tranches hautes.
 
 ## Sources
 

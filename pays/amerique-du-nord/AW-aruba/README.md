@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Barème 2026 (21 % / 42 % / 52 % au-delà de 135 527 AWG) appliqué au salaire converti. Franchise de 30 000 AWG non appliquée (variante avec franchise : environ 41,9 %). Cotisations AOV/AZV exclues.
+Barème 2026 (21 % / 42 % / 52 % au-delà de 135 527 AWG) appliqué au salaire converti. Franchise de 30 000 AWG non appliquée (variante avec franchise : environ 41,7 %). Cotisations AOV/AZV exclues.
 
 ## Sources
 

@@ -27,7 +27,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-Barème en USD, taux maximal 40 % au-delà de 36 000 USD, majoré de 3 % de contribution SIDA. Variante sans cette contribution : 37,9 %. Barème non vérifié sur la source primaire ZIMRA.
+Barème en USD, taux maximal 40 % au-delà de 36 000 USD, majoré de 3 % de contribution SIDA. Variante sans cette contribution : 37,8 %. Barème non vérifié sur la source primaire ZIMRA.
 
 ## Sources
 

@@ -23,7 +23,7 @@ Personne seule, sans enfant, résidente fiscale du pays, salaire annuel brut de 
 
 ## Note
 
-25 % jusqu'à 1 M TTD puis 30 %. Abattement personnel de 90 000 TTD non appliqué (variante : environ 25,9 à 26,1 %). Cas proche de la bande selon l'abattement.
+25 % jusqu'à 1 M TTD puis 30 %. Abattement personnel de 90 000 TTD non appliqué (variante : environ 25,8 à 26,0 %). Cas proche de la bande selon l'abattement.
 
 ## Sources
 
