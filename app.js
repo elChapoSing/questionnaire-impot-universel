@@ -204,7 +204,7 @@ function renderStep(i) {
     back.addEventListener("click", function () { answers.length = i - 1; renderStep(i - 1); });
     kids.push(back);
   }
-  kids.push(el("p", { class: "hint", text: step.type === "country" ? "Tapez le nom du pays, puis choisissez-le dans la liste (flèches et Entrée)." : "Astuce : appuyez sur A, B ou C pour répondre." }));
+  kids.push(el("p", { class: "hint", text: step.type === "country" ? "Tapez le nom du pays, puis choisissez-le dans la liste (flèches et Entrée)." : "Astuce : appuyez sur " + KEYS.slice(0, step.options.length).join(" ou ") + " pour répondre." }));
   showScreen(el("section", { class: "screen", "data-step": String(i) }, kids));
   if (step.type === "country") {
     var ci = document.getElementById("country-input");
