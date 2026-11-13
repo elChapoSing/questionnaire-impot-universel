@@ -244,3 +244,4 @@ h1, h2 { }
 
 .cont{scroll-margin-top:64px}
 .recap li.skipped{opacity:.45;filter:grayscale(1);background:transparent}
+#start:focus,#start:focus-visible{outline:none}
