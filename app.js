@@ -312,7 +312,7 @@ function renderResult(r) {
   var labels = { met: "Remplie", unmet: "Non remplie", unknown: "À vérifier", skipped: "Non évaluée" };
   var items = r.rows.map(function (row, idx) {
     var label = row.label + (idx === 4 && meta[4] && row.state !== "skipped" ? " (" + countryName(meta[4]) + ")" : "");
-    return el("li", {}, [
+    return el("li", row.state === "skipped" ? { class: "skipped" } : {}, [
       el("span", { text: label }),
       el("span", { class: "state " + row.state, text: labels[row.state] })
     ]);

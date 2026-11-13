@@ -243,3 +243,4 @@ h1, h2 { }
 .topnav a[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
 
 .cont{scroll-margin-top:64px}
+.recap li.skipped{opacity:.45;filter:grayscale(1);background:transparent}
