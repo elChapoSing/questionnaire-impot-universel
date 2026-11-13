@@ -178,7 +178,7 @@ function renderStart() {
   ]);
   showScreen(s);
   document.getElementById("start").addEventListener("click", function () { answers = []; renderStep(0); });
-  document.getElementById("start").focus();
+  document.getElementById("start").setAttribute("tabindex", "-1");
 }
 
 function renderStep(i) {
