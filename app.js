@@ -465,4 +465,18 @@ function route() {
   }
 }
 
+document.addEventListener("keydown", function (e) {
+  if (e.ctrlKey || e.metaKey || e.altKey || e.defaultPrevented) return;
+  if (e.target && e.target.tagName === "INPUT") return;
+  var startBtn = document.getElementById("start");
+  if (startBtn && e.key === "Enter") { e.preventDefault(); startBtn.click(); return; }
+  var rb = document.getElementById("restart");
+  if (rb && e.key === "Enter") { e.preventDefault(); rb.click(); return; }
+  var stepNode = document.querySelector("[data-step]");
+  if (!stepNode) return;
+  var idx = KEYS.indexOf(e.key.toUpperCase());
+  var opts = stepNode.querySelectorAll(".opt");
+  if (idx >= 0 && idx < opts.length) { e.preventDefault(); opts[idx].click(); }
+});
+
 route();
