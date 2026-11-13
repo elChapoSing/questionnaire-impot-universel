@@ -1,7 +1,7 @@
 # Russie (RU)
 
 **Taux effectif retenu : 17,3 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
-**Verdict du questionnaire : Nettement en dessous du seuil (condition remplie).**
+**Verdict du questionnaire : Concerné·e (condition remplie).**
 
 ## Cas de référence
 

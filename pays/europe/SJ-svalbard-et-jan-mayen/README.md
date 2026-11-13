@@ -1,7 +1,7 @@
 # Svalbard et Jan Mayen (SJ)
 
 **Taux effectif retenu : entre 13,1 et 13,6 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
-**Verdict du questionnaire : Nettement en dessous du seuil (condition remplie).**
+**Verdict du questionnaire : Concerné·e (condition remplie).**
 
 ## Cas de référence
 

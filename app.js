@@ -94,11 +94,11 @@ function countryLevel(code) {
   if (!d) return "debatable";
   return d.rate <= LEVEL_LOW ? "below" : d.rate <= LEVEL_HIGH ? "debatable" : "above";
 }
-var LEVEL_LABEL = { below: "Nettement en dessous du seuil", debatable: "Discutable", above: "Nettement au-dessus du seuil" };
+var LEVEL_LABEL = { below: "Concerné·e", debatable: "Cas limite", above: "Pas concerné·e" };
 var LEVEL_COMMENT = {
-  below: "Fiscalité nettement inférieure. D'après nos calculs, l'impôt sur le revenu effectif dans ce pays est largement sous le seuil de 21,1 %, c'est-à-dire plus de 40 % en dessous de celui de la France. Ce pays remplirait très probablement la condition, sous réserve des conventions fiscales.",
-  debatable: "Cas discutable. L'écart avec la France est proche du seuil de 40 %, et le résultat dépend de la méthode de comparaison : cotisations sociales, revenus du capital, régimes spéciaux. Ne tirez pas de conclusion définitive.",
-  above: "Fiscalité proche de celle de la France, ou supérieure. D'après nos calculs, l'impôt sur le revenu effectif dans ce pays dépasse nettement le seuil de 21,1 %, donc l'écart avec la France est inférieur à 40 %. Ce pays ne remplirait pas la condition."
+  below: "D'après nos calculs, l'impôt sur le revenu effectif dans ce pays est largement sous le seuil de 21,1 %, c'est-à-dire plus de 40 % en dessous de celui de la France. La condition de fiscalité du pays de résidence est remplie.",
+  debatable: "L'écart avec la France est proche du seuil de 40 %, et le résultat dépend de la méthode de comparaison : cotisations sociales, revenus du capital, régimes spéciaux. La condition de fiscalité est à examiner au cas par cas.",
+  above: "D'après nos calculs, l'impôt sur le revenu effectif dans ce pays dépasse nettement le seuil de 21,1 %, donc l'écart avec la France est inférieur à 40 %. La condition de fiscalité du pays de résidence n'est pas remplie."
 };
 var UNRATED_COMMENT = "Ce pays n'a pas encore été analysé. Nous n'avons aucun calcul pour lui, donc le résultat reste indéterminé.";
 function pageUrl(d) { return "/fiscalite/" + d.dir.split("/")[1].replace(/^[A-Z0-9]+-/, "") + "/"; }
@@ -271,7 +271,7 @@ function countryBox() {
   var code = meta[4], d = COUNTRY_DATA[code], level = countryLevel(code);
   if (!d && DATA_ERROR) return el("div", { class: "countrybox debatable" }, [el("p", { class: "cb-title", text: countryName(code) + " : données indisponibles" }), el("p", { text: "Les fichiers de données n'ont pas pu être chargés (connexion, ou page ouverte en local sans serveur). Le résultat pour ce pays reste indéterminé." })]);
   var kids = [
-    el("p", { class: "cb-title", text: countryName(code) + " : " + LEVEL_LABEL[level] }),
+    el("p", { class: "cb-title", text: countryName(code) + " (critère fiscal) : " + LEVEL_LABEL[level] }),
     el("p", { text: d ? LEVEL_COMMENT[level] : UNRATED_COMMENT })
   ];
   if (d) {
@@ -367,7 +367,7 @@ function renderMethodology() {
     el("p", { text: "Les sources « officielle » émanent d'une administration fiscale ou d'un ministère. Les sources « non officielle » sont des médias ou des sites juridiques privés : à confirmer auprès des autorités du pays." }),
     el("h3", { text: "Limites" }),
     el("ul", {}, [
-      el("li", { text: "Les pays qui n'ont pas encore été analysés sont classés « discutable » (non analysés)." }),
+      el("li", { text: "Les pays qui n'ont pas encore été analysés sont classés « cas limite » (non analysés)." }),
       el("li", { text: "Les barèmes changent chaque année. Les chiffres reflètent les textes consultés en 2026." }),
       el("li", { text: "Un taux effectif calculé à un seul niveau de revenu ne dit rien des régimes spéciaux (expatriés, non-domiciliés, zones franches)." }),
       el("li", { text: "Japon : l'impôt local (10 %) n'est pas inclus faute de source. Hongrie : la contribution sociale de 13 % n'est pas comptée. Vietnam : ordre de grandeur uniquement. Émirats : source officielle encore à ajouter." })

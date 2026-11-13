@@ -1,7 +1,7 @@
 # Bolivie (BO)
 
 **Taux effectif retenu : entre 11,3 et 13,0 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
-**Verdict du questionnaire : Nettement en dessous du seuil (condition remplie).**
+**Verdict du questionnaire : Concerné·e (condition remplie).**
 
 ## Cas de référence
 

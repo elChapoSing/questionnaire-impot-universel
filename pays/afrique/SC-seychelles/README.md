@@ -1,7 +1,7 @@
 # Seychelles (SC)
 
 **Taux effectif retenu : entre 26,3 et 27,6 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
-**Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
+**Verdict du questionnaire : Pas concerné·e (condition non remplie).**
 
 ## Cas de référence
 

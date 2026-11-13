@@ -1,7 +1,7 @@
 # Pérou (PE)
 
 **Taux effectif retenu : 25,8 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
-**Verdict du questionnaire : Discutable.**
+**Verdict du questionnaire : Cas limite.**
 
 ## Cas de référence
 

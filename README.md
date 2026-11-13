@@ -25,7 +25,7 @@ Mise en ligne : GitHub Pages (Settings > Pages > branche `main`, dossier racine)
 
 ## Données pays et méthodologie
 
-`rate` est le taux effectif d'impôt sur le revenu (en %) d'un célibataire à 240 300 €. Niveaux : <= 18 % « sûrement en dessous » (condition remplie), 18 à 26 % ou pays absent « discutable », > 26 % « sûrement au-dessus » (condition non remplie). La page `/methodologie/` est générée à partir des `data.json`.
+`rate` est le taux effectif d'impôt sur le revenu (en %) d'un célibataire à 240 300 €. Niveaux : <= 18 % « Concerné·e » (condition fiscale remplie), 18 à 26 % ou pays absent « Cas limite », > 26 % « Pas concerné·e » (condition non remplie). La page `/methodologie/` est générée à partir des `data.json`.
 
 ## Taux de change
 

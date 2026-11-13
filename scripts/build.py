@@ -26,8 +26,8 @@ def fr(x, nd=1):
 
 def level(r):
     return "below" if r <= LOW else "debatable" if r <= HIGH else "above"
-LV = {"below": "Nettement en dessous du seuil (condition remplie)",
-      "debatable": "Discutable", "above": "Nettement au-dessus du seuil (condition non remplie)"}
+LV = {"below": "Concerné·e (condition remplie)",
+      "debatable": "Cas limite", "above": "Pas concerné·e (condition non remplie)"}
 
 def compute(c):
     """Calcul explicite à partir de calc : retourne (lignes, impôt, taux %)."""

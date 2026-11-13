@@ -1,7 +1,7 @@
 # Équateur (EC)
 
 **Taux effectif retenu : 30,7 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
-**Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
+**Verdict du questionnaire : Pas concerné·e (condition non remplie).**
 
 ## Cas de référence
 

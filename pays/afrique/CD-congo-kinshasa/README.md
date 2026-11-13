@@ -1,7 +1,7 @@
 # Congo-Kinshasa (CD)
 
 **Taux effectif retenu : entre 30,0 et 38,8 %** (seuil de l'amendement : 21,14 %, soit 60 % du taux français de 35,23 %).
-**Verdict du questionnaire : Nettement au-dessus du seuil (condition non remplie).**
+**Verdict du questionnaire : Pas concerné·e (condition non remplie).**
 
 ## Cas de référence
 

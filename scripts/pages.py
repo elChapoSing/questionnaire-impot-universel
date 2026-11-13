@@ -9,12 +9,11 @@ OUT = "fiscalite"
 FIXED = ["", "methodologie/", "donnees/"]
 
 COMMENT = {
-    "below": "Fiscalité nettement inférieure. D'après nos calculs, l'impôt sur le revenu effectif dans ce pays est largement sous le seuil de 21,1 %, c'est-à-dire plus de 40 % en dessous de celui de la France. Ce pays remplirait très probablement la condition, sous réserve des conventions fiscales.",
-    "debatable": "Cas discutable. L'écart avec la France est proche du seuil de 40 %, et le résultat dépend de la méthode de comparaison : cotisations sociales, revenus du capital, régimes spéciaux. Ne tirez pas de conclusion définitive.",
-    "above": "Fiscalité proche de celle de la France, ou supérieure. D'après nos calculs, l'impôt sur le revenu effectif dans ce pays dépasse nettement le seuil de 21,1 %, donc l'écart avec la France est inférieur à 40 %. Ce pays ne remplirait pas la condition.",
+    "below": "D'après nos calculs, l'impôt sur le revenu effectif dans ce pays est largement sous le seuil de 21,1 %, c'est-à-dire plus de 40 % en dessous de celui de la France. La condition de fiscalité du pays de résidence est remplie.",
+    "debatable": "L'écart avec la France est proche du seuil de 40 %, et le résultat dépend de la méthode de comparaison : cotisations sociales, revenus du capital, régimes spéciaux. La condition de fiscalité est à examiner au cas par cas.",
+    "above": "D'après nos calculs, l'impôt sur le revenu effectif dans ce pays dépasse nettement le seuil de 21,1 %, donc l'écart avec la France est inférieur à 40 %. La condition de fiscalité du pays de résidence n'est pas remplie.",
 }
-CAT = {"below": "Potentiellement concerné·e", "debatable": "Cas discutable : à examiner", "above": "Pas concerné·e"}
-SHORT = {"below": "Nettement en dessous du seuil", "debatable": "Discutable", "above": "Nettement au-dessus du seuil"}
+CAT = {"below": "Concerné·e", "debatable": "Cas limite", "above": "Pas concerné·e"}
 
 def e(s): return html.escape(str(s), quote=True)
 
@@ -78,7 +77,7 @@ def country_page(d, slug, cont_label, lv, fr, compute, LV_THRESHOLD, FR_RATE, SA
     o.append(f'<p class="big">{e(rr)}</p>')
     o.append(f'<p>Taux effectif estimé pour une personne seule, sans enfant, qui gagne {fr(SALAIRE, 0)} € par an (5 × le plafond de la Sécurité sociale 2026). '
              f'Seuil de l\'amendement : {fr(LV_THRESHOLD, 2)} %, soit 60 % du taux français ({fr(FR_RATE, 2)} %).</p>')
-    o.append(f'<p><strong>Verdict : {SHORT[lv].lower()}.</strong> {e(COMMENT[lv].split(". ", 1)[1] if ". " in COMMENT[lv] else COMMENT[lv])}</p>')
+    o.append(f'<p>{e(COMMENT[lv])}</p>')
     o.append('<p><a class="btn" href="/">Faire le questionnaire complet</a></p>')
     c = d.get("calc")
     o.append("<h2>Le calcul</h2>")
