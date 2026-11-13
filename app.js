@@ -468,10 +468,12 @@ function route() {
 document.addEventListener("keydown", function (e) {
   if (e.ctrlKey || e.metaKey || e.altKey || e.defaultPrevented) return;
   if (e.target && e.target.tagName === "INPUT") return;
+  // Entrée sur un lien ou un bouton ciblé (navigation au clavier) : comportement natif, on ne le détourne pas.
+  var onControl = e.target && (e.target.tagName === "A" || e.target.tagName === "BUTTON");
   var startBtn = document.getElementById("start");
-  if (startBtn && e.key === "Enter") { e.preventDefault(); startBtn.click(); return; }
+  if (startBtn && e.key === "Enter" && !onControl) { e.preventDefault(); startBtn.click(); return; }
   var rb = document.getElementById("restart");
-  if (rb && e.key === "Enter") { e.preventDefault(); rb.click(); return; }
+  if (rb && e.key === "Enter" && !onControl) { e.preventDefault(); rb.click(); return; }
   var stepNode = document.querySelector("[data-step]");
   if (!stepNode) return;
   var idx = KEYS.indexOf(e.key.toUpperCase());
